@@ -1,0 +1,146 @@
+[
+  {
+    "query_id": "day6-q01",
+    "citation_support": [
+      true
+    ],
+    "reason": "Định nghĩa và phụ thuộc ngữ cảnh quyết định được nêu trong nguồn trích dẫn.",
+    "context_grade": 2,
+    "reviewer": "Codex đối chiếu nội dung theo quy ước học viên đã đồng ý; không có người chấm độc lập",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "day6-q03",
+    "citation_support": [
+      true
+    ],
+    "reason": "Nguồn nêu data owner quyết định quyền truy cập và sử dụng.",
+    "context_grade": 2,
+    "reviewer": "Codex đối chiếu nội dung theo quy ước học viên đã đồng ý; không có người chấm độc lập",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "day6-q06",
+    "citation_support": [
+      true
+    ],
+    "reason": "Nguồn nêu mỗi lần chỉ một người dùng.",
+    "context_grade": 2,
+    "reviewer": "Codex đối chiếu nội dung theo quy ước học viên đã đồng ý; không có người chấm độc lập",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "day6-q08",
+    "citation_support": [
+      true
+    ],
+    "reason": "Nguồn nêu lưu trong internal memory thay vì lưu trữ ngoài chậm hơn.",
+    "context_grade": 2,
+    "reviewer": "Codex đối chiếu nội dung theo quy ước học viên đã đồng ý; không có người chấm độc lập",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "dev-auto-370",
+    "citation_support": [
+      true
+    ],
+    "reason": "Nguồn nêu các bộ phận có hệ thống riêng và không chia sẻ tài nguyên.",
+    "context_grade": 2,
+    "reviewer": "Codex đối chiếu nội dung theo quy ước học viên đã đồng ý; không có người chấm độc lập",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "dev-auto-371",
+    "citation_support": [
+      true
+    ],
+    "reason": "Nguồn ghi MOAB gồm 12 TB.",
+    "context_grade": 2,
+    "reviewer": "Codex đối chiếu nội dung theo quy ước học viên đã đồng ý; không có người chấm độc lập",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "dev-auto-374",
+    "citation_support": [
+      true
+    ],
+    "reason": "Nguồn nêu vai trò, chính sách và trách nhiệm để quản lý chất lượng dữ liệu.",
+    "context_grade": 2,
+    "reviewer": "Codex đối chiếu nội dung theo quy ước học viên đã đồng ý; không có người chấm độc lập",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "dev-auto-379",
+    "citation_support": [
+      true
+    ],
+    "reason": "Nguồn liệt kê cả banking và health care; đây là đáp án khác gold nhưng hợp lệ.",
+    "context_grade": 2,
+    "reviewer": "Codex đối chiếu nội dung theo quy ước học viên đã đồng ý; không có người chấm độc lập",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "dev-auto-381",
+    "citation_support": [
+      true
+    ],
+    "reason": "Nguồn nói nhiều người có thể truy cập đồng thời.",
+    "context_grade": 2,
+    "reviewer": "Codex đối chiếu nội dung theo quy ước học viên đã đồng ý; không có người chấm độc lập",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "dev-auto-383",
+    "citation_support": [],
+    "reason": "Từ chối câu có đáp án, context không chứa định nghĩa gold.",
+    "context_grade": 0,
+    "reviewer": "Codex đối chiếu nội dung theo quy ước học viên đã đồng ý; không có người chấm độc lập",
+    "answer_grade": 0
+  },
+  {
+    "query_id": "dev-auto-384",
+    "citation_support": [
+      true
+    ],
+    "reason": "Nguồn nêu DROP TABLE xóa bảng hiện có.",
+    "context_grade": 2,
+    "reviewer": "Codex đối chiếu nội dung theo quy ước học viên đã đồng ý; không có người chấm độc lập",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "dev-auto-385",
+    "citation_support": [
+      true
+    ],
+    "reason": "Nguồn nêu tích Descartes gồm mọi tổ hợp bộ từ hai quan hệ.",
+    "context_grade": 2,
+    "reviewer": "Codex đối chiếu nội dung theo quy ước học viên đã đồng ý; không có người chấm độc lập",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "dev-no-evidence-01",
+    "citation_support": [],
+    "reason": "Từ chối là phù hợp: không có chính sách nội bộ của tổ chức hư cấu trong corpus.",
+    "context_grade": null,
+    "reviewer": "Codex đối chiếu nội dung theo quy ước học viên đã đồng ý; không có người chấm độc lập",
+    "abstention_correct": true
+  },
+  {
+    "query_id": "dev-no-evidence-02",
+    "citation_support": [],
+    "reason": "Từ chối là phù hợp: corpus không xác định DBA của tổ chức hư cấu.",
+    "context_grade": null,
+    "reviewer": "Codex đối chiếu nội dung theo quy ước học viên đã đồng ý; không có người chấm độc lập",
+    "abstention_correct": true
+  },
+  {
+    "query_id": "dev-extra-compliance",
+    "citation_support": [
+      true
+    ],
+    "reason": "Nguồn trang 374 nêu data compliance khớp câu trả lời.",
+    "context_grade": 2,
+    "reviewer": "Codex đối chiếu nội dung theo quy ước học viên đã đồng ý; không có người chấm độc lập",
+    "answer_grade": 2
+  }
+]

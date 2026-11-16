@@ -1,0 +1,10 @@
+{
+  "repository": "https://github.com/ChuTungDuongg/K5-L3B-DAY06-ChuNguyenTungDuong-2A202604016-DataIngestion",
+  "commit": "9808c810710a4144634908f807aefc2420009671",
+  "copied_files": {
+    "embeddings.py": "80a1d0e456fb36172764b38b03b8d8f19fa45f1c902aa9a2fe7a5b8d98061c0b",
+    "store.py": "acab96ae73c21a4294c23fd454bbcd2d7f4a0fbd34d1ec9276174fb076553419",
+    "models.py": "9f26a14cd6139c7b608df067894274308ae7b5c2c2ccd10566079c345fae1710"
+  },
+  "note": "Embedding class extracted without the Protocol; store/models copied with docstring cleanup. Index A exported from existing database, no re-embedding."
+}

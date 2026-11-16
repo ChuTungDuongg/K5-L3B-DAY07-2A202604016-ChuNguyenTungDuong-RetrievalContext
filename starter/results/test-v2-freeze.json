@@ -1,0 +1,17 @@
+{
+  "purpose": "New held-out question set for agent version after retry fix",
+  "baseline_budget_chars": 2000,
+  "candidate_budget_chars": 4000,
+  "max_searches": 3,
+  "top_k": 3,
+  "model": "gpt-6-luna",
+  "retry_initial_tokens": 1600,
+  "retry_second_tokens": 3200,
+  "selection_evidence": "dev runs 20261116-101748-agent-519fb4bf and 20261116-101748-agent-fbc1b0be; reviews proposed",
+  "limitations": "Selection informed by dev and previously examined test; new questions do not erase that history. Same corpus; generation and review not blind. Do not tune after reviewing these test results.",
+  "code_sha256": {
+    "run_test.py": "4945db311a6bb3f22ce30ec7ef5b5e060d6fbdb46236d36894e6078d1cfcfbf4",
+    "day6_agent.py": "a2cc34c5d74c17f8f2a23aa837a2db326ccc930f66997afce143610a8e5f2abf",
+    "starter/agentic.py": "580cc573008f2d0e3cc6fd785d40029934648e6e5e333cdbe86f7f7db40e26a6"
+  }
+}

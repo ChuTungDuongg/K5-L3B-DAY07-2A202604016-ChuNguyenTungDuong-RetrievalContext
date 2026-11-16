@@ -1,0 +1,1022 @@
+[
+  {
+    "query_id": "dev01",
+    "split": "dev",
+    "question": "What is one focus of a NoSQL DBMS?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "openstax-intro-cs",
+        "page": 380,
+        "evidence": "NoSQL DBMS focuses on scalability"
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax-intro-cs:p403:part0:fixed:500:50:2250",
+        "text": "ystem can accommodate changes in data types and\nschema. Designed to distribute data across different nodes, NoSQL databases are generally more horizontally\nscalable and fault-tolerant. MongoDB Atlas is an example of a NoSQL database system that is fully managed\nand operates on the cloud.\nNoSQL DBMS is not ACID compliant and data consistency is not guaranteed. NoSQL DBMSs provide eventual\nconsistency instead: when old data are getting overwritten, results that are a little wrong are temporarily\nr",
+        "source_id": "openstax-intro-cs",
+        "source": "https://openstax.org/details/books/introduction-computer-science",
+        "page": 403,
+        "metadata": {
+          "part": 0,
+          "section": "8.4"
+        },
+        "score": 0.22975909823238336,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "openstax-intro-cs:p380:part0:fixed:500:50:1800",
+        "text": "age structure, or XML-enabled DBMS (e.g., Oracle and IBM Db2) are existing DBMS that are extended\nwith facilities to store XML data.\n• A not-only SQL DBMS, or NoSQL DBMS, comes in a variety of big unstructured data classified as a\ndocument, a graph, key-value stores, and column-oriented databases. NoSQL DBMS focuses on scalability\nand the ability to cope with irregular or highly volatile data structures (e.g., Apache Hadoop, MongoDB,\nNeo4j). The irregular data structures appear when the data don",
+        "source_id": "openstax-intro-cs",
+        "source": "https://openstax.org/details/books/introduction-computer-science",
+        "page": 380,
+        "metadata": {
+          "part": 0,
+          "section": "8.2"
+        },
+        "score": 0.21515102523097385,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "openstax-intro-cs:p382:part0:fixed:500:50:0",
+        "text": "DBMS Usage Areas\nDBMS applications include the following: online transaction processing, online analytical processing, big data\nand analytics, multimedia DBMS, and open-source DBMS. In online transaction processing (OLTP), the focus\nis on managing operational or transactional data. The database server must be able to process lots of simple\ntransactions per unit of time. A DBMS must have good support for processing a high volume of short and\nsimple queries (e.g., RDBMS). In online analytical proc",
+        "source_id": "openstax-intro-cs",
+        "source": "https://openstax.org/details/books/introduction-computer-science",
+        "page": 382,
+        "metadata": {
+          "part": 0,
+          "section": "8.2"
+        },
+        "score": 0.17918011525462682,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[openstax-intro-cs:p403:part0:fixed:500:50:2250 | https://openstax.org/details/books/introduction-computer-science | page 403]\nystem can accommodate changes in data types and\nschema. Designed to distribute data across different nodes, NoSQL databases are generally more horizontally\nscalable and fault-tolerant. MongoDB Atlas is an example of a NoSQL database system that is fully managed\nand operates on the cloud.\nNoSQL DBMS is not ACID compliant and data consistency is not guaranteed. NoSQL DBMSs provide eventual\nconsistency instead: when old data are getting overwritten, results that are a little wrong are temporarily\nr",
+    "context_ids": [
+      "openstax-intro-cs:p403:part0:fixed:500:50:2250"
+    ],
+    "context_chars": 627,
+    "elapsed_ms": 1.002200002403697,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "day6-q01",
+    "split": "dev",
+    "question": "What is data quality?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "openstax-intro-cs",
+        "page": 373,
+        "evidence": "The measure of how well the data represents its purpose or fitness for use is called data quality (DQ)."
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax-intro-cs:p373:part0:fixed:500:50:0",
+        "text": "Data Quality\nThe measure of how well the data represents its purpose or fitness for use is called data quality (DQ). Data of\nacceptable quality in one decision context may be perceived to be of poor quality in another. Data quality\ndetermines the intrinsic value of the data to the business. Businesses may use the concept garbage in,\ngarbage out (GIGO), which means that the quality of output is determined by the quality of the input. Poor\nDQ impacts organizations in many ways and at different man",
+        "source_id": "openstax-intro-cs",
+        "source": "https://openstax.org/details/books/introduction-computer-science",
+        "page": 373,
+        "metadata": {
+          "part": 0,
+          "section": "8.1"
+        },
+        "score": 0.4227320574465473,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "openstax-intro-cs:p374:part0:fixed:500:50:900",
+        "text": " why, and who. What policies\nshould we include? How do we integrate the policies with the enterprise business process? Why do we need\nthis policy? Who will be part of this policy?\nDifferent frameworks have been introduced for data quality management and data quality improvement: Total\nData Quality Management (TDQM), Total Quality Management (TQM), Capability Maturity Model Integration\n(CMMI), ISO 9000, Control Objectives for Information and Related Technology (COBIT), Data Management\nBody of Kno",
+        "source_id": "openstax-intro-cs",
+        "source": "https://openstax.org/details/books/introduction-computer-science",
+        "page": 374,
+        "metadata": {
+          "part": 0,
+          "section": "8.1"
+        },
+        "score": 0.31851731766964064,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "openstax-intro-cs:p374:part0:fixed:500:50:450",
+        "text": "urity regulation,\nmodeled after the EU-GDPR that governs and regulates how UK organizations and businesses collect, store,\nuse, and process personal data.\nUsing data governance, data are managed as an asset rather than a liability. Data governance has three\ndimensions: technology, people, and process. It should include standard roles for quality, security, and\nownership.\nIn planning for data governance, we should answer four questions: what, how, why, and who. What policies\nshould we include? Ho",
+        "source_id": "openstax-intro-cs",
+        "source": "https://openstax.org/details/books/introduction-computer-science",
+        "page": 374,
+        "metadata": {
+          "part": 0,
+          "section": "8.1"
+        },
+        "score": 0.23082433078199965,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[openstax-intro-cs:p373:part0:fixed:500:50:0 | https://openstax.org/details/books/introduction-computer-science | page 373]\nData Quality\nThe measure of how well the data represents its purpose or fitness for use is called data quality (DQ). Data of\nacceptable quality in one decision context may be perceived to be of poor quality in another. Data quality\ndetermines the intrinsic value of the data to the business. Businesses may use the concept garbage in,\ngarbage out (GIGO), which means that the quality of output is determined by the quality of the input. Poor\nDQ impacts organizations in many ways and at different man",
+    "context_ids": [
+      "openstax-intro-cs:p373:part0:fixed:500:50:0"
+    ],
+    "context_chars": 624,
+    "elapsed_ms": 0.5177999992156401,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "day6-q03",
+    "split": "dev",
+    "question": "Who has final authority over access to and use of data?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "openstax-intro-cs",
+        "page": 375,
+        "evidence": "The data owner has the authority to ultimately decide on the access to, and usage of, the data."
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax-intro-cs:p375:part0:fixed:500:50:900",
+        "text": "The data owner has the authority to ultimately decide on the access to, and usage of, the data. The data\nowner could be the original producer of the data, or the data could originate from a third party. A person who\nassumes the role of a data owner should be able to insert, edit, delete, or update data as well as check or\npopulate the value of a field. The data owner is the one responsible for checking the quality of one or more\ndatasets.\nData Steward\nA data steward is a DQ expert who ensures th",
+        "source_id": "openstax-intro-cs",
+        "source": "https://openstax.org/details/books/introduction-computer-science",
+        "page": 375,
+        "metadata": {
+          "part": 0,
+          "section": "8.1"
+        },
+        "score": 0.2110962058783326,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "openstax-intro-cs:p376:part0:fixed:500:50:450",
+        "text": " person in this role is responsible for gathering a large amount of structured, semistructured, and\nunstructured data to preprocess and prepare data for advanced data analysis to develop a product or to make\na business decision.\nData Management Road Map\nThe data management road map has multiple steps, starting from collecting and storing data to having a final\nproduct or decision. Available databases vary in type and vendor (e.g., SQL, Hadoop, Spark, and MongoDB).\nStoring the data in databases i",
+        "source_id": "openstax-intro-cs",
+        "source": "https://openstax.org/details/books/introduction-computer-science",
+        "page": 376,
+        "metadata": {
+          "part": 0,
+          "section": "8.1"
+        },
+        "score": 0.1658642847647348,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "openstax-intro-cs:p377:part0:fixed:500:50:3150",
+        "text": "at are used to manage and control a database. Data includes raw data and\ninformation organized and processed within the database. Procedures are instructions used to manage the\ndatabase. A database user is a person who has the privileges to access, analyze, update, and maintain the\ndata (e.g., information architect, database designer, database administrator, database application developer,\n8.2 • Data Management Systems 367",
+        "source_id": "openstax-intro-cs",
+        "source": "https://openstax.org/details/books/introduction-computer-science",
+        "page": 377,
+        "metadata": {
+          "part": 0,
+          "section": "8.2"
+        },
+        "score": 0.14630802874815177,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[openstax-intro-cs:p375:part0:fixed:500:50:900 | https://openstax.org/details/books/introduction-computer-science | page 375]\nThe data owner has the authority to ultimately decide on the access to, and usage of, the data. The data\nowner could be the original producer of the data, or the data could originate from a third party. A person who\nassumes the role of a data owner should be able to insert, edit, delete, or update data as well as check or\npopulate the value of a field. The data owner is the one responsible for checking the quality of one or more\ndatasets.\nData Steward\nA data steward is a DQ expert who ensures th",
+    "context_ids": [
+      "openstax-intro-cs:p375:part0:fixed:500:50:900"
+    ],
+    "context_chars": 626,
+    "elapsed_ms": 0.7999000008567236,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "day6-q06",
+    "split": "dev",
+    "question": "How many people can use a single-user DBMS at one time?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "openstax-intro-cs",
+        "page": 381,
+        "evidence": "With a single-user DBMS, only one user at a time can use the database."
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax-intro-cs:p381:part0:fixed:500:50:0",
+        "text": "Single vs. Multiuser DBMSs\nWith a single-user DBMS, only one user at a time can use the database. A multiuser DBMS allows many users\nto use the database concurrently. A multiuser DBMS is illustrated in Figure 8.8.\nFigure 8.8 Multiple users are accessing the same system at the same time in this multiuser DBMS. (attribution: Copyright Rice\nUniversity, OpenStax, under CC BY NC-SA 4.0 license)\nDBMS Users\nDBMS users may be divided into actors on the scene who use and control the database content; des",
+        "source_id": "openstax-intro-cs",
+        "source": "https://openstax.org/details/books/introduction-computer-science",
+        "page": 381,
+        "metadata": {
+          "part": 0,
+          "section": "8.2"
+        },
+        "score": 0.385484836807633,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "openstax-intro-cs:p382:part1:fixed:500:50:450",
+        "text": "ase\napplications\n• Identify the various components of a relational database management system\nA relational database management system (RDBMS) is one type of DBMS that stores related data elements in a\nrow-based table structure. An RDBMS transaction is a single logical unit of work that accesses and possibly\nmodifies the contents of a database using read-and-write operations. Multiple SQL commands may be\nperformed as part of a single RDBMS transaction as a single logical unit of work. For example",
+        "source_id": "openstax-intro-cs",
+        "source": "https://openstax.org/details/books/introduction-computer-science",
+        "page": 382,
+        "metadata": {
+          "part": 1,
+          "section": "8.3"
+        },
+        "score": 0.17509108282499672,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "openstax-intro-cs:p396:part0:fixed:500:50:1350",
+        "text": "nsist of multiple physical, distributed machines.\nDatabase APIs\nIn a tiered DBMS system architecture, client applications can query database servers and receive results. It is\npossible to use in-process DBMSs (e.g., SQLite) or access stand-alone DBMS servers (e.g., Postgres). Client\napplications that wish to utilize the services provided by a DBMS use a specific API provided by the DBMS. This\ndatabase API exposes an interface through which client applications can access and query a DBMS. The\ndat",
+        "source_id": "openstax-intro-cs",
+        "source": "https://openstax.org/details/books/introduction-computer-science",
+        "page": 396,
+        "metadata": {
+          "part": 0,
+          "section": "8.3"
+        },
+        "score": 0.15664229985311393,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[openstax-intro-cs:p381:part0:fixed:500:50:0 | https://openstax.org/details/books/introduction-computer-science | page 381]\nSingle vs. Multiuser DBMSs\nWith a single-user DBMS, only one user at a time can use the database. A multiuser DBMS allows many users\nto use the database concurrently. A multiuser DBMS is illustrated in Figure 8.8.\nFigure 8.8 Multiple users are accessing the same system at the same time in this multiuser DBMS. (attribution: Copyright Rice\nUniversity, OpenStax, under CC BY NC-SA 4.0 license)\nDBMS Users\nDBMS users may be divided into actors on the scene who use and control the database content; des",
+    "context_ids": [
+      "openstax-intro-cs:p381:part0:fixed:500:50:0"
+    ],
+    "context_chars": 624,
+    "elapsed_ms": 0.7937000009405892,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "day6-q08",
+    "split": "dev",
+    "question": "Where does an in-memory DBMS keep its data?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "openstax-intro-cs",
+        "page": 381,
+        "evidence": "An in-memory DBMS stores all data in internal memory instead of slower external storage"
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax-intro-cs:p381:part0:fixed:500:50:1800",
+        "text": "ide the underlying storage details to facilitate data\naccess. An in-memory DBMS stores all data in internal memory instead of slower external storage (e.g., disk;\noften used for real-time purposes such as HANA from SAP).\n8.2 • Data Management Systems 371",
+        "source_id": "openstax-intro-cs",
+        "source": "https://openstax.org/details/books/introduction-computer-science",
+        "page": 381,
+        "metadata": {
+          "part": 0,
+          "section": "8.2"
+        },
+        "score": 0.21098761491479623,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "openstax-intro-cs:p393:part0:fixed:500:50:0",
+        "text": "Figure 8.10 This heap file organization example shows how to insert a new record (record 4) into the data blocks in the memory.\n(attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)\nPhysical Database Organization\nA tablespace is where tables are stored physically in the memory (i.e., the physical container of database\nobjects). The use of tablespaces has an impact on physical database design concerning intraquery parallelism,\nwhere different subsets of data can be sea",
+        "source_id": "openstax-intro-cs",
+        "source": "https://openstax.org/details/books/introduction-computer-science",
+        "page": 393,
+        "metadata": {
+          "part": 0,
+          "section": "8.3"
+        },
+        "score": 0.20162404476543905,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "openstax-intro-cs:p381:part0:fixed:500:50:900",
+        "text": "BMS\narchitecture, cloud DBMS architecture, federated DBMS, and in-memory DBMS. In centralized DBMS\narchitecture, the data are maintained on a centralized server at a single location while client-server DBMS\narchitecture has one or more client computers connected to a central server over a network. Active clients\nrequest services from passive servers. An n-tier DBMS architecture usually divides an application into three\ntiers/layers: the presentation tier, the logic tier, and the data tier (e.g.,",
+        "source_id": "openstax-intro-cs",
+        "source": "https://openstax.org/details/books/introduction-computer-science",
+        "page": 381,
+        "metadata": {
+          "part": 0,
+          "section": "8.2"
+        },
+        "score": 0.16343253092539814,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[openstax-intro-cs:p381:part0:fixed:500:50:1800 | https://openstax.org/details/books/introduction-computer-science | page 381]\nide the underlying storage details to facilitate data\naccess. An in-memory DBMS stores all data in internal memory instead of slower external storage (e.g., disk;\noften used for real-time purposes such as HANA from SAP).\n8.2 • Data Management Systems 371",
+    "context_ids": [
+      "openstax-intro-cs:p381:part0:fixed:500:50:1800"
+    ],
+    "context_chars": 381,
+    "elapsed_ms": 0.6828000005043577,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "dev-auto-370",
+    "split": "dev",
+    "question": "Do TechWorks' departments share information system resources?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "openstax-intro-cs",
+        "page": 370,
+        "evidence": "Each department has its own information system and database; they do not share any resources."
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax-intro-cs:p370:part0:fixed:500:50:0",
+        "text": "As an example, TechWorks is a start-up company that is 100% committed to leveraging innovative technologies\nas part of its repeatable business model and as a business growth facilitator. TechWorks has multiple\ndepartments including human resources, finance, sales, marketing, operation management, and information\ntechnology. Each department has its own information system and database; they do not share any resources.\nTechWorks has many success stories in the market. However, they have a huge prob",
+        "source_id": "openstax-intro-cs",
+        "source": "https://openstax.org/details/books/introduction-computer-science",
+        "page": 370,
+        "metadata": {
+          "part": 0,
+          "section": "chapter_intro"
+        },
+        "score": 0.4737748619363833,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "openstax-intro-cs:p370:part0:fixed:500:50:900",
+        "text": "any data. The chief executive officer (CEO) of TechWorks\ndecides to develop a new database management system with the following objectives:\n• Integrate all of the departments’ practices into one system.\n• Use the cloud to store, manage, analyze, and maintain the data.\n• Hire a data scientist, computer scientist, and information architect to work as a team with the database\ndesigner and the database administrator.\n• Apply the extraction, transformation, and loading process to the data.\n• Use busi",
+        "source_id": "openstax-intro-cs",
+        "source": "https://openstax.org/details/books/introduction-computer-science",
+        "page": 370,
+        "metadata": {
+          "part": 0,
+          "section": "chapter_intro"
+        },
+        "score": 0.19749901417584179,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "openstax-intro-cs:p373:part0:fixed:500:50:2700",
+        "text": "uplicates\n◦ consistency problem: different occurrences of data or incorrect data\n◦ objectivity problem: data giving different results in every process\n◦ limited computing resources: insufficient computing resources limiting the accessibility of relevant data\n◦ accessibility problem: large volumes of stored data making it difficult to access needed information in a\nreasonable time\n• human intervention\n◦ biased information: using human judgment in data production\n◦ relevance problem: different pro",
+        "source_id": "openstax-intro-cs",
+        "source": "https://openstax.org/details/books/introduction-computer-science",
+        "page": 373,
+        "metadata": {
+          "part": 0,
+          "section": "8.1"
+        },
+        "score": 0.11546503158582952,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[openstax-intro-cs:p370:part0:fixed:500:50:0 | https://openstax.org/details/books/introduction-computer-science | page 370]\nAs an example, TechWorks is a start-up company that is 100% committed to leveraging innovative technologies\nas part of its repeatable business model and as a business growth facilitator. TechWorks has multiple\ndepartments including human resources, finance, sales, marketing, operation management, and information\ntechnology. Each department has its own information system and database; they do not share any resources.\nTechWorks has many success stories in the market. However, they have a huge prob",
+    "context_ids": [
+      "openstax-intro-cs:p370:part0:fixed:500:50:0"
+    ],
+    "context_chars": 624,
+    "elapsed_ms": 0.4847999989578966,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "dev-auto-371",
+    "split": "dev",
+    "question": "How much information does the MOAB collection contain?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "openstax-intro-cs",
+        "page": 371,
+        "evidence": "12\nTB of information from LinkedIn, X (formerly Twitter), Weibo, Tencent, and other platforms’ user data."
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax-intro-cs:p371:part0:fixed:500:50:0",
+        "text": "(MOAB) publicized discovered in early 2024 contains data from numerous previous breaches, comprising 12\nTB of information from LinkedIn, X (formerly Twitter), Weibo, Tencent, and other platforms’ user data.\nHave you ever asked yourself how service providers are managing this data? How do they store the data?\nWhere do they store it? Which database are they are using? And the big question: can we benefit from this\ndata and manage our own data? Meta is offering the option to control your Facebook e",
+        "source_id": "openstax-intro-cs",
+        "source": "https://openstax.org/details/books/introduction-computer-science",
+        "page": 371,
+        "metadata": {
+          "part": 0,
+          "section": "8.1"
+        },
+        "score": 0.14550202537649196,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "openstax-intro-cs:p403:part0:fixed:500:50:900",
+        "text": "s mapping stores both OWL class and instance data in a single table, which allows\nfiles to be easily parsed and loaded into the database. Schema-aware mapping maps the OWL schema into\ncorresponding tables and then loads the instance data into the selected tables.\nFigure 8.16 The service profile tells what the service does, the service grounding tells how to access it, and the service model tells\nhow it works. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)\nGLOBA",
+        "source_id": "openstax-intro-cs",
+        "source": "https://openstax.org/details/books/introduction-computer-science",
+        "page": 403,
+        "metadata": {
+          "part": 0,
+          "section": "8.4"
+        },
+        "score": 0.09701662646206757,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "openstax-intro-cs:p370:part1:fixed:500:50:1800",
+        "text": "g the data, and preparing the data for analytics, which will lead to decision-making.\nCONCEPTS IN PRACTICE\nManaging Your Social Media Data\nFacebook, Instagram, LinkedIn, Snapchat, Tik Tok, X, and many other social media applications are\ncontrolling your data. You are most likely posting too much information about your life, work, and school,\nbut it is not only you—everyone is sharing data on social media. A supermassive Mother of all Breaches\n360 8 • Data Management\nAccess for free at openstax.o",
+        "source_id": "openstax-intro-cs",
+        "source": "https://openstax.org/details/books/introduction-computer-science",
+        "page": 370,
+        "metadata": {
+          "part": 1,
+          "section": "8.1"
+        },
+        "score": 0.08709177284590035,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[openstax-intro-cs:p371:part0:fixed:500:50:0 | https://openstax.org/details/books/introduction-computer-science | page 371]\n(MOAB) publicized discovered in early 2024 contains data from numerous previous breaches, comprising 12\nTB of information from LinkedIn, X (formerly Twitter), Weibo, Tencent, and other platforms’ user data.\nHave you ever asked yourself how service providers are managing this data? How do they store the data?\nWhere do they store it? Which database are they are using? And the big question: can we benefit from this\ndata and manage our own data? Meta is offering the option to control your Facebook e",
+    "context_ids": [
+      "openstax-intro-cs:p371:part0:fixed:500:50:0"
+    ],
+    "context_chars": 624,
+    "elapsed_ms": 0.6069000010029413,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "dev-auto-372",
+    "split": "dev",
+    "question": "What is the main benefit of data management?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "openstax-intro-cs",
+        "page": 372,
+        "evidence": "The main benefit of data management is to\nminimize potential errors by controlling access to data using a set of policies."
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax-intro-cs:p372:part0:fixed:500:50:0",
+        "text": "INDUSTRY SPOTLIGHT\nIndustry Data Management\nData management is important in every industry today. The main benefit of data management is to\nminimize potential errors by controlling access to data using a set of policies.\nElaborate on how useful it is to know about data management in retail industries for product marketing\npurposes. (Hint: Data management can help with targeted advertising, for example.)\nData Management Aspects\nThere are various aspects of effective data management: metadata cata",
+        "source_id": "openstax-intro-cs",
+        "source": "https://openstax.org/details/books/introduction-computer-science",
+        "page": 372,
+        "metadata": {
+          "part": 0,
+          "section": "8.1"
+        },
+        "score": 0.31285572262412553,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "openstax-intro-cs:p379:part0:fixed:500:50:450",
+        "text": "ustries in which the use of big data is surprising? Does big data benefit the\nusers or the collectors? Will big data enable more scientific research and/or discoveries? Why or why not?\nDBMS Facets\nDBMS includes various components as in Figure 8.6. DBMS interface is the main line of communication\nbetween the database and the user. There are many types of interfaces such as web-based, stand-alone query\nlanguage, command line, forms-based, graphical user interface (GUI), natural language, admin, an",
+        "source_id": "openstax-intro-cs",
+        "source": "https://openstax.org/details/books/introduction-computer-science",
+        "page": 379,
+        "metadata": {
+          "part": 0,
+          "section": "8.2"
+        },
+        "score": 0.19110065539509113,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "openstax-intro-cs:p391:part0:fixed:500:50:3600",
+        "text": "It is a joint responsibility of the database\ndesigner and DBA. The main responsibility of the physical design is optimizing performance while ensuring\ndata integrity. The main issues addressed in physical design are storage media, file structures, and indexes.\nThe database is stored on a disk using a “standard” file system, not one “tailored” to the database. The\ndatabase runs on an unmodified general-purpose operating system.\n8.3 • Relational Database Management Systems 381",
+        "source_id": "openstax-intro-cs",
+        "source": "https://openstax.org/details/books/introduction-computer-science",
+        "page": 391,
+        "metadata": {
+          "part": 0,
+          "section": "8.3"
+        },
+        "score": 0.18526321818966307,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[openstax-intro-cs:p372:part0:fixed:500:50:0 | https://openstax.org/details/books/introduction-computer-science | page 372]\nINDUSTRY SPOTLIGHT\nIndustry Data Management\nData management is important in every industry today. The main benefit of data management is to\nminimize potential errors by controlling access to data using a set of policies.\nElaborate on how useful it is to know about data management in retail industries for product marketing\npurposes. (Hint: Data management can help with targeted advertising, for example.)\nData Management Aspects\nThere are various aspects of effective data management: metadata cata",
+    "context_ids": [
+      "openstax-intro-cs:p372:part0:fixed:500:50:0"
+    ],
+    "context_chars": 624,
+    "elapsed_ms": 0.6255000007513445,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "dev-auto-373",
+    "split": "dev",
+    "question": "What is data quality?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "openstax-intro-cs",
+        "page": 373,
+        "evidence": "The measure of how well the data represents its purpose or fitness for use is called data quality (DQ)."
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax-intro-cs:p373:part0:fixed:500:50:0",
+        "text": "Data Quality\nThe measure of how well the data represents its purpose or fitness for use is called data quality (DQ). Data of\nacceptable quality in one decision context may be perceived to be of poor quality in another. Data quality\ndetermines the intrinsic value of the data to the business. Businesses may use the concept garbage in,\ngarbage out (GIGO), which means that the quality of output is determined by the quality of the input. Poor\nDQ impacts organizations in many ways and at different man",
+        "source_id": "openstax-intro-cs",
+        "source": "https://openstax.org/details/books/introduction-computer-science",
+        "page": 373,
+        "metadata": {
+          "part": 0,
+          "section": "8.1"
+        },
+        "score": 0.4227320574465473,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "openstax-intro-cs:p374:part0:fixed:500:50:900",
+        "text": " why, and who. What policies\nshould we include? How do we integrate the policies with the enterprise business process? Why do we need\nthis policy? Who will be part of this policy?\nDifferent frameworks have been introduced for data quality management and data quality improvement: Total\nData Quality Management (TDQM), Total Quality Management (TQM), Capability Maturity Model Integration\n(CMMI), ISO 9000, Control Objectives for Information and Related Technology (COBIT), Data Management\nBody of Kno",
+        "source_id": "openstax-intro-cs",
+        "source": "https://openstax.org/details/books/introduction-computer-science",
+        "page": 374,
+        "metadata": {
+          "part": 0,
+          "section": "8.1"
+        },
+        "score": 0.31851731766964064,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "openstax-intro-cs:p374:part0:fixed:500:50:450",
+        "text": "urity regulation,\nmodeled after the EU-GDPR that governs and regulates how UK organizations and businesses collect, store,\nuse, and process personal data.\nUsing data governance, data are managed as an asset rather than a liability. Data governance has three\ndimensions: technology, people, and process. It should include standard roles for quality, security, and\nownership.\nIn planning for data governance, we should answer four questions: what, how, why, and who. What policies\nshould we include? Ho",
+        "source_id": "openstax-intro-cs",
+        "source": "https://openstax.org/details/books/introduction-computer-science",
+        "page": 374,
+        "metadata": {
+          "part": 0,
+          "section": "8.1"
+        },
+        "score": 0.23082433078199965,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[openstax-intro-cs:p373:part0:fixed:500:50:0 | https://openstax.org/details/books/introduction-computer-science | page 373]\nData Quality\nThe measure of how well the data represents its purpose or fitness for use is called data quality (DQ). Data of\nacceptable quality in one decision context may be perceived to be of poor quality in another. Data quality\ndetermines the intrinsic value of the data to the business. Businesses may use the concept garbage in,\ngarbage out (GIGO), which means that the quality of output is determined by the quality of the input. Poor\nDQ impacts organizations in many ways and at different man",
+    "context_ids": [
+      "openstax-intro-cs:p373:part0:fixed:500:50:0"
+    ],
+    "context_chars": 624,
+    "elapsed_ms": 0.4362999970908277,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "dev-auto-374",
+    "split": "dev",
+    "question": "What is data governance?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "openstax-intro-cs",
+        "page": 374,
+        "evidence": "The set of clear roles, policies, and responsibilities that enables a business to manage and safeguard data\nquality using internally set rules and policies is called data governance."
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax-intro-cs:p374:part0:fixed:500:50:450",
+        "text": "urity regulation,\nmodeled after the EU-GDPR that governs and regulates how UK organizations and businesses collect, store,\nuse, and process personal data.\nUsing data governance, data are managed as an asset rather than a liability. Data governance has three\ndimensions: technology, people, and process. It should include standard roles for quality, security, and\nownership.\nIn planning for data governance, we should answer four questions: what, how, why, and who. What policies\nshould we include? Ho",
+        "source_id": "openstax-intro-cs",
+        "source": "https://openstax.org/details/books/introduction-computer-science",
+        "page": 374,
+        "metadata": {
+          "part": 0,
+          "section": "8.1"
+        },
+        "score": 0.4235906896724962,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "openstax-intro-cs:p374:part0:fixed:500:50:0",
+        "text": "Data Governance and Compliance\nThe set of clear roles, policies, and responsibilities that enables a business to manage and safeguard data\nquality using internally set rules and policies is called data governance. The related concept that ensures that\ndata practices align with external legal requirements and industry standards is called data compliance. For\nexample, the UK-GDPR (General Data Protection Regulation) is the United Kingdom’s data security regulation,\nmodeled after the EU-GDPR that g",
+        "source_id": "openstax-intro-cs",
+        "source": "https://openstax.org/details/books/introduction-computer-science",
+        "page": 374,
+        "metadata": {
+          "part": 0,
+          "section": "8.1"
+        },
+        "score": 0.2562558755688459,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "openstax-intro-cs:p372:part0:fixed:500:50:450",
+        "text": "spects of effective data management: metadata cataloging, metadata modeling, data\nquality (data accuracy, data completeness, and data consistency), and data governance, which we will discuss\nin more detail in the following subsections.\nMetadata Cataloging\nMetadata are used in a database management system (DBMS), which is a system that creates, stores, and\nmanages a set of databases. In a DBMS approach, metadata are stored in a catalog called a data dictionary. A\ndata dictionary is a set of infor",
+        "source_id": "openstax-intro-cs",
+        "source": "https://openstax.org/details/books/introduction-computer-science",
+        "page": 372,
+        "metadata": {
+          "part": 0,
+          "section": "8.1"
+        },
+        "score": 0.16590493320167837,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[openstax-intro-cs:p374:part0:fixed:500:50:450 | https://openstax.org/details/books/introduction-computer-science | page 374]\nurity regulation,\nmodeled after the EU-GDPR that governs and regulates how UK organizations and businesses collect, store,\nuse, and process personal data.\nUsing data governance, data are managed as an asset rather than a liability. Data governance has three\ndimensions: technology, people, and process. It should include standard roles for quality, security, and\nownership.\nIn planning for data governance, we should answer four questions: what, how, why, and who. What policies\nshould we include? Ho",
+    "context_ids": [
+      "openstax-intro-cs:p374:part0:fixed:500:50:450"
+    ],
+    "context_chars": 626,
+    "elapsed_ms": 0.4275999999663327,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "dev-auto-379",
+    "split": "dev",
+    "question": "Name two industries in which databases and big data have a tremendous impact.",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "openstax-intro-cs",
+        "page": 379,
+        "evidence": "Databases, database technology, and “big data” (complex datasets) have a tremendous impact in industries\nsuch as banking, insurance, retail, health care, real estate, e-commerce, law, education, and more recently,\nsocial networks."
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax-intro-cs:p379:part0:fixed:500:50:0",
+        "text": "TECHNOLOGY IN EVERYDAY LIFE\nDatabases Impact All Industries\nDatabases, database technology, and “big data” (complex datasets) have a tremendous impact in industries\nsuch as banking, insurance, retail, health care, real estate, e-commerce, law, education, and more recently,\nsocial networks. Data collection is also impacting advancements in the fields of medicine, environmental\nstudies, science, and mobile technology.\nCan you think of any other industries in which the use of big data is surprising",
+        "source_id": "openstax-intro-cs",
+        "source": "https://openstax.org/details/books/introduction-computer-science",
+        "page": 379,
+        "metadata": {
+          "part": 0,
+          "section": "8.2"
+        },
+        "score": 0.4945510452762282,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "openstax-intro-cs:p379:part0:fixed:500:50:450",
+        "text": "ustries in which the use of big data is surprising? Does big data benefit the\nusers or the collectors? Will big data enable more scientific research and/or discoveries? Why or why not?\nDBMS Facets\nDBMS includes various components as in Figure 8.6. DBMS interface is the main line of communication\nbetween the database and the user. There are many types of interfaces such as web-based, stand-alone query\nlanguage, command line, forms-based, graphical user interface (GUI), natural language, admin, an",
+        "source_id": "openstax-intro-cs",
+        "source": "https://openstax.org/details/books/introduction-computer-science",
+        "page": 379,
+        "metadata": {
+          "part": 0,
+          "section": "8.2"
+        },
+        "score": 0.1399016020171603,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "openstax-intro-cs:p388:part0:fixed:500:50:2700",
+        "text": "composite attribute that contains First Name and Last Name and therefore must be broken down into its\ncomponent attributes to be stored in a relational table that satisfies 1NF.\nCustomer Name Item 1 Item 2\nShirl Adam Milk Bread\nJeff Mark Juice Water\nRana Park Bread Milk\nTable 8.3 Data Table\n378 8 • Data Management\nAccess for free at openstax.org",
+        "source_id": "openstax-intro-cs",
+        "source": "https://openstax.org/details/books/introduction-computer-science",
+        "page": 388,
+        "metadata": {
+          "part": 0,
+          "section": "8.3"
+        },
+        "score": 0.135373403834356,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[openstax-intro-cs:p379:part0:fixed:500:50:0 | https://openstax.org/details/books/introduction-computer-science | page 379]\nTECHNOLOGY IN EVERYDAY LIFE\nDatabases Impact All Industries\nDatabases, database technology, and “big data” (complex datasets) have a tremendous impact in industries\nsuch as banking, insurance, retail, health care, real estate, e-commerce, law, education, and more recently,\nsocial networks. Data collection is also impacting advancements in the fields of medicine, environmental\nstudies, science, and mobile technology.\nCan you think of any other industries in which the use of big data is surprising",
+    "context_ids": [
+      "openstax-intro-cs:p379:part0:fixed:500:50:0"
+    ],
+    "context_chars": 624,
+    "elapsed_ms": 0.8535999986634124,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "dev-auto-381",
+    "split": "dev",
+    "question": "What does a multiuser DBMS allow?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "openstax-intro-cs",
+        "page": 381,
+        "evidence": "A multiuser DBMS allows many users\nto use the database concurrently."
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax-intro-cs:p381:part0:fixed:500:50:0",
+        "text": "Single vs. Multiuser DBMSs\nWith a single-user DBMS, only one user at a time can use the database. A multiuser DBMS allows many users\nto use the database concurrently. A multiuser DBMS is illustrated in Figure 8.8.\nFigure 8.8 Multiple users are accessing the same system at the same time in this multiuser DBMS. (attribution: Copyright Rice\nUniversity, OpenStax, under CC BY NC-SA 4.0 license)\nDBMS Users\nDBMS users may be divided into actors on the scene who use and control the database content; des",
+        "source_id": "openstax-intro-cs",
+        "source": "https://openstax.org/details/books/introduction-computer-science",
+        "page": 381,
+        "metadata": {
+          "part": 0,
+          "section": "8.2"
+        },
+        "score": 0.3715068933609997,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "openstax-intro-cs:p377:part0:fixed:500:50:900",
+        "text": "ving redundancy and cleansing the data; supporting multiuser\ntransactions that allow multiple users to access the same data and multiple views of the data; and allowing\nsharing data between users and applications.\nTHINK IT THROUGH\nUniversity Miniworld\nLet us think about the university as a miniworld. In this miniworld, we need to define a data dictionary to\ndescribe the following: students, courses, sections, departments, and instructors.\nSuggest a miniworld that would be part of a university en",
+        "source_id": "openstax-intro-cs",
+        "source": "https://openstax.org/details/books/introduction-computer-science",
+        "page": 377,
+        "metadata": {
+          "part": 0,
+          "section": "8.2"
+        },
+        "score": 0.13859549031478322,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "openstax-intro-cs:p380:part0:fixed:500:50:1800",
+        "text": "age structure, or XML-enabled DBMS (e.g., Oracle and IBM Db2) are existing DBMS that are extended\nwith facilities to store XML data.\n• A not-only SQL DBMS, or NoSQL DBMS, comes in a variety of big unstructured data classified as a\ndocument, a graph, key-value stores, and column-oriented databases. NoSQL DBMS focuses on scalability\nand the ability to cope with irregular or highly volatile data structures (e.g., Apache Hadoop, MongoDB,\nNeo4j). The irregular data structures appear when the data don",
+        "source_id": "openstax-intro-cs",
+        "source": "https://openstax.org/details/books/introduction-computer-science",
+        "page": 380,
+        "metadata": {
+          "part": 0,
+          "section": "8.2"
+        },
+        "score": 0.11297205294854165,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[openstax-intro-cs:p381:part0:fixed:500:50:0 | https://openstax.org/details/books/introduction-computer-science | page 381]\nSingle vs. Multiuser DBMSs\nWith a single-user DBMS, only one user at a time can use the database. A multiuser DBMS allows many users\nto use the database concurrently. A multiuser DBMS is illustrated in Figure 8.8.\nFigure 8.8 Multiple users are accessing the same system at the same time in this multiuser DBMS. (attribution: Copyright Rice\nUniversity, OpenStax, under CC BY NC-SA 4.0 license)\nDBMS Users\nDBMS users may be divided into actors on the scene who use and control the database content; des",
+    "context_ids": [
+      "openstax-intro-cs:p381:part0:fixed:500:50:0"
+    ],
+    "context_chars": 624,
+    "elapsed_ms": 0.5619000003207475,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "dev-auto-383",
+    "split": "dev",
+    "question": "What kinds of data are RDBMS not good at storing?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "openstax-intro-cs",
+        "page": 383,
+        "evidence": "Due to the use of database logical schemas that constrain the row-based table structure and require each field\nto abide to specific type constraints, RDBMS are not good at storing unstructured or semistructured data."
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax-intro-cs:p383:part0:fixed:500:50:0",
+        "text": "Due to the use of database logical schemas that constrain the row-based table structure and require each field\nto abide to specific type constraints, RDBMS are not good at storing unstructured or semistructured data. The\nrigid schema also makes RDBMS more expensive to set up, maintain, and grow. RDBMS requires users to have\nspecific use cases in advance, and any changes to the schema are usually difficult and time-consuming. In\naddition, traditional RDBMS were designed to run on a single compute",
+        "source_id": "openstax-intro-cs",
+        "source": "https://openstax.org/details/books/introduction-computer-science",
+        "page": 383,
+        "metadata": {
+          "part": 0,
+          "section": "8.3"
+        },
+        "score": 0.29752111084707883,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "openstax-intro-cs:p410:part0:fixed:500:50:450",
+        "text": "dvantages are the extra processing capacity from the underlying (operational) data\nsources and the fact that it is not possible to keep track of historical data.\nOperational Data Stores\nAn operational data store (ODS) is a staging area that provides query facilities. It is good for analysis tools\nthat need data that are closer to real time. More complex analyses are still conducted on the actual data\nwarehouse.\nData Lakes\nA data lake stores all of an enterprise’s structured and unstructured data",
+        "source_id": "openstax-intro-cs",
+        "source": "https://openstax.org/details/books/introduction-computer-science",
+        "page": 410,
+        "metadata": {
+          "part": 0,
+          "section": "8.5"
+        },
+        "score": 0.1761036863588734,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "openstax-intro-cs:p403:part0:fixed:500:50:1800",
+        "text": "le security issues that need to be\nconsidered?\nUnstructured Data and NoSQL Databases\nUnstructured data are data that are not arranged according to the data model and cannot be stored in a\ntraditional relational database. NoSQL databases are schema-agnostic and provide the flexibility needed to\nstore and manipulate large volumes of unstructured and semistructured data. Users do not need to know\nwhat types of data are stored during setup, and the system can accommodate changes in data types and\nsc",
+        "source_id": "openstax-intro-cs",
+        "source": "https://openstax.org/details/books/introduction-computer-science",
+        "page": 403,
+        "metadata": {
+          "part": 0,
+          "section": "8.4"
+        },
+        "score": 0.16848674216546417,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[openstax-intro-cs:p383:part0:fixed:500:50:0 | https://openstax.org/details/books/introduction-computer-science | page 383]\nDue to the use of database logical schemas that constrain the row-based table structure and require each field\nto abide to specific type constraints, RDBMS are not good at storing unstructured or semistructured data. The\nrigid schema also makes RDBMS more expensive to set up, maintain, and grow. RDBMS requires users to have\nspecific use cases in advance, and any changes to the schema are usually difficult and time-consuming. In\naddition, traditional RDBMS were designed to run on a single compute",
+    "context_ids": [
+      "openstax-intro-cs:p383:part0:fixed:500:50:0"
+    ],
+    "context_chars": 624,
+    "elapsed_ms": 0.6649999995715916,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "dev-auto-384",
+    "split": "dev",
+    "question": "What does DROP TABLE do?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "openstax-intro-cs",
+        "page": 384,
+        "evidence": "DROP TABLE is used to\ndrop an existing table in a database"
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax-intro-cs:p384:part0:fixed:500:50:0",
+        "text": "CREATE TABLE Student (\nID int,\nLastName varchar(255),\nZipCode int\n);\nwhich will create a table name Student with three columns: ID, LastName, and ZipCode. DROP TABLE is used to\ndrop an existing table in a database, and ALTER TABLE, which is used to add, delete, or modify columns in an\nexisting table. SQL schemas contain tables (i.e., relations), and the RDBMS catalog stores these schemas. SQL\nconstraints are used to specify rules for the data in a table to ensure the accuracy and reliability of ",
+        "source_id": "openstax-intro-cs",
+        "source": "https://openstax.org/details/books/introduction-computer-science",
+        "page": 384,
+        "metadata": {
+          "part": 0,
+          "section": "8.3"
+        },
+        "score": 0.2815271941822036,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "openstax-intro-cs:p388:part0:fixed:500:50:2250",
+        "text": "F must be in 2NF and\nhave no transitive functional dependencies. BCNF is a higher version of the 3NF and is used to address the\nanomalies. Tables in 4NF must be in BCNF/3NF and not have MVDs. The following example converts a table to\n1NF, 2NF, and then 3NF. Table 8.3 contains the original data, that is then converted to 1NF (Table 8.4), 2NF\n(Table 8.5), and 3NF (Table 8.6, Table 8.7, and Table 8.8). It is assumed here that the Customer Name is a\ncomposite attribute that contains First Name and L",
+        "source_id": "openstax-intro-cs",
+        "source": "https://openstax.org/details/books/introduction-computer-science",
+        "page": 388,
+        "metadata": {
+          "part": 0,
+          "section": "8.3"
+        },
+        "score": 0.1380918636050757,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "openstax-intro-cs:p395:part0:fixed:500:50:450",
+        "text": " a row may not have\nidentical non-null values for all columns in this index as another row.\nCREATE INDEX index_name ON table_name (column1, ...);\nCREATE UNIQUE INDEX index_name ON table_name (column1, ...);\nIn addition, you can delete the index anytime using the drop statement:\nDROP INDEX index_name ON table_name;\nA key is needed to index an attribute; however, an index can be constructed with one or multiple attributes. If a\ntable requires more than one index, we need to decide which attribute ",
+        "source_id": "openstax-intro-cs",
+        "source": "https://openstax.org/details/books/introduction-computer-science",
+        "page": 395,
+        "metadata": {
+          "part": 0,
+          "section": "8.3"
+        },
+        "score": 0.1229636070581418,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[openstax-intro-cs:p384:part0:fixed:500:50:0 | https://openstax.org/details/books/introduction-computer-science | page 384]\nCREATE TABLE Student (\nID int,\nLastName varchar(255),\nZipCode int\n);\nwhich will create a table name Student with three columns: ID, LastName, and ZipCode. DROP TABLE is used to\ndrop an existing table in a database, and ALTER TABLE, which is used to add, delete, or modify columns in an\nexisting table. SQL schemas contain tables (i.e., relations), and the RDBMS catalog stores these schemas. SQL\nconstraints are used to specify rules for the data in a table to ensure the accuracy and reliability of ",
+    "context_ids": [
+      "openstax-intro-cs:p384:part0:fixed:500:50:0"
+    ],
+    "context_chars": 624,
+    "elapsed_ms": 0.36390000241226517,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "dev-auto-385",
+    "split": "dev",
+    "question": "What does the Product operator return?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "openstax-intro-cs",
+        "page": 385,
+        "evidence": "The Product operator (also known as the Cartesian product, Cross Product, or Cross Join operator) returns the\nCartesian Product of two relations."
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax-intro-cs:p385:part0:fixed:500:50:0",
+        "text": "Product Operator\nThe Product operator (also known as the Cartesian product, Cross Product, or Cross Join operator) returns the\nCartesian Product of two relations. Consider the following two relations: a supplier relation P and a product\nrelation Q. The Cartesian Product of both relations consists of all possible combinations of tuples from P and Q.\nThe resulting relation consists of a set of tuples such that:\nwith\nThe relational operators are Select, Project, Rename, Join, and Division. The Sele",
+        "source_id": "openstax-intro-cs",
+        "source": "https://openstax.org/details/books/introduction-computer-science",
+        "page": 385,
+        "metadata": {
+          "part": 0,
+          "section": "8.3"
+        },
+        "score": 0.3571116344299547,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "openstax-intro-cs:p385:part0:fixed:500:50:2250",
+        "text": " set of combinations of pq tuples such that a combined tuple r ∈ R is\ncharacterized by:\nwith\nDivision Operator\nThe Division operator is a binary operator that divides a relation P by a relation Q with . The result of a\nDivision operator can be represented as:\nwith Division operator ÷\n8.3 • Relational Database Management Systems 375",
+        "source_id": "openstax-intro-cs",
+        "source": "https://openstax.org/details/books/introduction-computer-science",
+        "page": 385,
+        "metadata": {
+          "part": 0,
+          "section": "8.3"
+        },
+        "score": 0.20629806092109162,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "openstax-intro-cs:p385:part0:fixed:500:50:1350",
+        "text": " L on a relation P can be represented as:\nwith Project operator\nNote that applying a Project operator to a relation results in a vertical subset of the relation with\nbecause duplicate tuples will be eliminated.\nRename Operator\nThe Rename operator is used to rename an attribute type of a relation (in case, for example, naming conflicts\ncan occur). The result of applying a Rename operator on a relation P to rename attribute type B to A can be\nrepresented as:\nwith Rename operator ρ\nJoin Operator\nTh",
+        "source_id": "openstax-intro-cs",
+        "source": "https://openstax.org/details/books/introduction-computer-science",
+        "page": 385,
+        "metadata": {
+          "part": 0,
+          "section": "8.3"
+        },
+        "score": 0.19874817195062536,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[openstax-intro-cs:p385:part0:fixed:500:50:0 | https://openstax.org/details/books/introduction-computer-science | page 385]\nProduct Operator\nThe Product operator (also known as the Cartesian product, Cross Product, or Cross Join operator) returns the\nCartesian Product of two relations. Consider the following two relations: a supplier relation P and a product\nrelation Q. The Cartesian Product of both relations consists of all possible combinations of tuples from P and Q.\nThe resulting relation consists of a set of tuples such that:\nwith\nThe relational operators are Select, Project, Rename, Join, and Division. The Sele",
+    "context_ids": [
+      "openstax-intro-cs:p385:part0:fixed:500:50:0"
+    ],
+    "context_chars": 624,
+    "elapsed_ms": 0.5295000009937212,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  }
+]

@@ -1,0 +1,79 @@
+[
+  {
+    "query_id": "test-388",
+    "split": "test",
+    "question": "What kind of software is typically used to design airplane wings?",
+    "answerable": true,
+    "status": "error",
+    "error_type": "APIConnectionError",
+    "error": "Connection error.",
+    "elapsed_ms": 8854.308,
+    "usage": []
+  },
+  {
+    "query_id": "test-390",
+    "split": "test",
+    "question": "What is the term for modeling data as tables of rows and columns?",
+    "answerable": true,
+    "status": "error",
+    "error_type": "APIConnectionError",
+    "error": "Connection error.",
+    "elapsed_ms": 148.493,
+    "usage": []
+  },
+  {
+    "query_id": "test-392",
+    "split": "test",
+    "question": "What does disk storage refer to in the context of database tables?",
+    "answerable": true,
+    "status": "error",
+    "error_type": "APIConnectionError",
+    "error": "Connection error.",
+    "elapsed_ms": 92.768,
+    "usage": []
+  },
+  {
+    "query_id": "test-398",
+    "split": "test",
+    "question": "What decision does a manager make using two-phase commit?",
+    "answerable": true,
+    "status": "error",
+    "error_type": "APIConnectionError",
+    "error": "Connection error.",
+    "elapsed_ms": 48.186,
+    "usage": []
+  },
+  {
+    "query_id": "test-399",
+    "split": "test",
+    "question": "What is database recovery intended to do after a failure or problem?",
+    "answerable": true,
+    "status": "error",
+    "error_type": "APIConnectionError",
+    "error": "Connection error.",
+    "elapsed_ms": 43.857,
+    "usage": []
+  },
+  {
+    "query_id": "test-no-evidence-01",
+    "split": "test",
+    "question": "What database encryption algorithm is mandated by the internal policy of the fictional company Lumeris Harbor?",
+    "answerable": false,
+    "status": "error",
+    "error_type": "APIConnectionError",
+    "error": "Connection error.",
+    "elapsed_ms": 54.812,
+    "usage": []
+  },
+  {
+    "query_id": "test-no-evidence-02",
+    "split": "test",
+    "question": "How many database servers does the fictional company Greymont Vale operate?",
+    "answerable": false,
+    "status": "error",
+    "error_type": "APIConnectionError",
+    "error": "Connection error.",
+    "elapsed_ms": 49.054,
+    "usage": []
+  }
+]

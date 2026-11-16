@@ -1,0 +1,12 @@
+{
+  "method": "agent",
+  "total": 17,
+  "successful": 17,
+  "errors": 0,
+  "median_ms": 5306.43,
+  "answered": 14,
+  "abstain": 3,
+  "input_tokens": 23819,
+  "output_tokens": 3630,
+  "note": "Nhãn đúng/sai, citation và abstention cần chấm thủ công; lỗi được báo riêng."
+}

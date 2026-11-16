@@ -1,0 +1,70 @@
+[
+  {
+    "query_id": "v2-test-386",
+    "citation_support": [
+      true
+    ],
+    "reason": "Context trang 386 nói đủ rằng mọi phép còn lại có thể suy ra từ năm phép primitive; câu trả lời và citation phù hợp.",
+    "context_grade": 2,
+    "reviewer": "Codex; học viên cần kiểm tra và xác nhận",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "v2-test-387",
+    "citation_support": [
+      false
+    ],
+    "reason": "Câu trả lời nêu tuple được đưa vào kết quả; đoạn trích trang 386 nói condition dùng để chọn tuple và truy xuất thuộc tính nhưng không nêu rõ khi công thức nhận giá trị true thì tuple được chọn. Chấm thận trọng một phần; gold cụ thể ở trang 387 không nằm trong context cuối.",
+    "context_grade": 1,
+    "reviewer": "Codex; học viên cần kiểm tra và xác nhận",
+    "answer_grade": 1
+  },
+  {
+    "query_id": "v2-test-391",
+    "citation_support": [
+      true,
+      true,
+      true
+    ],
+    "reason": "Hai đoạn trang 391 hỗ trợ ID employee và kết hợp partial key nếu có; đoạn cuối trang 390 hỗ trợ phải dựa vào strong entity để cung cấp ngữ cảnh nhận dạng, dù đoạn trích bị cắt ở đầu.",
+    "context_grade": 2,
+    "reviewer": "Codex; học viên cần kiểm tra và xác nhận",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "v2-test-393",
+    "citation_support": [
+      true
+    ],
+    "reason": "Đoạn trang 393 mô tả tablespace là nơi lưu bảng và vật chứa database objects, phù hợp câu trả lời.",
+    "context_grade": 2,
+    "reviewer": "Codex; học viên cần kiểm tra và xác nhận",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "v2-test-397",
+    "citation_support": [
+      false
+    ],
+    "reason": "Đáp án nêu đúng concurrency control nhưng đoạn citation trang 397 chỉ liệt kê nó là tính năng; không giải thích điều phối giao dịch đồng thời. Định nghĩa gold không có trong context cuối, nên câu trả lời thiếu evidence.",
+    "context_grade": 1,
+    "reviewer": "Codex; học viên cần kiểm tra và xác nhận",
+    "answer_grade": 0
+  },
+  {
+    "query_id": "v2-test-no-evidence-01",
+    "citation_support": [],
+    "reason": "Hệ thống trả không đủ bằng chứng; tên tổ chức hư cấu không xuất hiện trong 273 chunk A. Event kết thúc invalid_or_missing_citations nên không đủ thông tin để kết luận model chủ động từ chối.",
+    "context_grade": null,
+    "reviewer": "Codex; học viên cần kiểm tra và xác nhận",
+    "abstention_correct": true
+  },
+  {
+    "query_id": "v2-test-no-evidence-02",
+    "citation_support": [],
+    "reason": "Hệ thống trả không đủ bằng chứng; tổ chức hư cấu không xuất hiện trong corpus. Kết thúc do search_limit; không đủ thông tin để kết luận model chủ động từ chối.",
+    "context_grade": null,
+    "reviewer": "Codex; học viên cần kiểm tra và xác nhận",
+    "abstention_correct": true
+  }
+]

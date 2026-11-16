@@ -1,0 +1,56 @@
+[
+  {
+    "query_id": "v2-test-386",
+    "citation_support": [],
+    "reason": "Context cuối trang 386 nêu đầy đủ lý do nhưng agent đạt giới hạn tìm kiếm rồi từ chối; câu có đáp án bị từ chối chấm 0.",
+    "context_grade": 2,
+    "reviewer": "Codex hỗ trợ đối chiếu; Chu Nguyễn Tùng Dương xác nhận nhãn trong phiên làm việc ngày 16/11/2026",
+    "answer_grade": 0
+  },
+  {
+    "query_id": "v2-test-387",
+    "citation_support": [
+      true
+    ],
+    "reason": "Nguồn trang 387 nói tuple được chọn khi điều kiện đúng, khớp câu trả lời.",
+    "context_grade": 2,
+    "reviewer": "Codex hỗ trợ đối chiếu; Chu Nguyễn Tùng Dương xác nhận nhãn trong phiên làm việc ngày 16/11/2026",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "v2-test-393",
+    "citation_support": [
+      true
+    ],
+    "reason": "Nguồn trang 393 mô tả tablespace là nơi lưu bảng và vật chứa đối tượng database.",
+    "context_grade": 2,
+    "reviewer": "Codex hỗ trợ đối chiếu; Chu Nguyễn Tùng Dương xác nhận nhãn trong phiên làm việc ngày 16/11/2026",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "v2-test-397",
+    "citation_support": [
+      false
+    ],
+    "reason": "Câu trả lời đúng thuật ngữ, nhưng citation trang 397 đoạn 0 chỉ liệt kê concurrency control và không chỉ ra nó điều phối giao dịch đồng thời; không đủ evidence cho kết luận.",
+    "context_grade": 1,
+    "reviewer": "Codex hỗ trợ đối chiếu; Chu Nguyễn Tùng Dương xác nhận nhãn trong phiên làm việc ngày 16/11/2026",
+    "answer_grade": 0
+  },
+  {
+    "query_id": "v2-test-no-evidence-01",
+    "citation_support": [],
+    "reason": "Hệ thống trả thông báo không đủ bằng chứng; corpus không có chính sách tổ chức hư cấu. Trace kết thúc do citation không hợp lệ hoặc thiếu, không chứng minh ý định nội bộ của model.",
+    "context_grade": null,
+    "reviewer": "Codex hỗ trợ đối chiếu; Chu Nguyễn Tùng Dương xác nhận nhãn trong phiên làm việc ngày 16/11/2026",
+    "abstention_correct": true
+  },
+  {
+    "query_id": "v2-test-no-evidence-02",
+    "citation_support": [],
+    "reason": "Hệ thống từ chối, phù hợp với việc corpus không có danh tính nhân sự tổ chức hư cấu; trace kết thúc do giới hạn tìm kiếm.",
+    "context_grade": null,
+    "reviewer": "Codex hỗ trợ đối chiếu; Chu Nguyễn Tùng Dương xác nhận nhãn trong phiên làm việc ngày 16/11/2026",
+    "abstention_correct": true
+  }
+]

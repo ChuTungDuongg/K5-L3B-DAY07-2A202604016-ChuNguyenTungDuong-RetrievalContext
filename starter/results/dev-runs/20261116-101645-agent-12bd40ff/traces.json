@@ -1,0 +1,181 @@
+[
+  {
+    "query_id": "dev-auto-383",
+    "split": "dev",
+    "question": "What kinds of data are RDBMS not good at storing?",
+    "status": "answered",
+    "answer": "RDBMS are not well suited to unstructured data—data that does not fit a predefined data model. [openstax-intro-cs:p403:part0:fixed:500:50:1800]",
+    "citations": [
+      "openstax-intro-cs:p403:part0:fixed:500:50:1800"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "What kinds of data are relational database management systems (RDBMS) not good at storing? unstructured data examples images audio video documents flexible schema large binary objects; source evidence.",
+        "filter": null,
+        "results": [
+          {
+            "chunk_id": "openstax-intro-cs:p376:part1:fixed:500:50:450",
+            "document_id": "openstax-intro-cs",
+            "source": "https://openstax.org/details/books/introduction-computer-science",
+            "page": 376,
+            "text": "llection of related data, we call it a database. To store, retrieve, edit, and maintain the related data in the\ndatabase we need a system called a database management system (DBMS).\nDefinition and Characteristics\nData, data model, database, and DBMS concepts are connected to each other. Data relate to known facts that\ncan be recorded and have an implicit meaning. A data model is an abstract model that contains a set of\n366 8 • Data Management\nAccess for free at openstax.org",
+            "metadata": {
+              "part": 1,
+              "section": "8.2"
+            },
+            "score": 0.6855968886934224,
+            "id": "openstax-intro-cs:p376:part1:fixed:500:50:450",
+            "source_id": "openstax-intro-cs"
+          },
+          {
+            "chunk_id": "openstax-intro-cs:p382:part1:fixed:500:50:450",
+            "document_id": "openstax-intro-cs",
+            "source": "https://openstax.org/details/books/introduction-computer-science",
+            "page": 382,
+            "text": "ase\napplications\n• Identify the various components of a relational database management system\nA relational database management system (RDBMS) is one type of DBMS that stores related data elements in a\nrow-based table structure. An RDBMS transaction is a single logical unit of work that accesses and possibly\nmodifies the contents of a database using read-and-write operations. Multiple SQL commands may be\nperformed as part of a single RDBMS transaction as a single logical unit of work. For example",
+            "metadata": {
+              "part": 1,
+              "section": "8.3"
+            },
+            "score": 0.6679307073379311,
+            "id": "openstax-intro-cs:p382:part1:fixed:500:50:450",
+            "source_id": "openstax-intro-cs"
+          },
+          {
+            "chunk_id": "openstax-intro-cs:p400:part1:fixed:500:50:450",
+            "document_id": "openstax-intro-cs",
+            "source": "https://openstax.org/details/books/introduction-computer-science",
+            "page": 400,
+            "text": " Summarize unstructured data and the advent of not only SQL (NoSQL) databases\n• Differentiate cloud-related data management services and other types of databases\nA nonrelational database is a database that does not use a traditional method for storing data such as rows\nand columns. Instead, nonrelational databases use a different storage model with specific requirements based\non the type of data being stored. Relational databases typically store data in tables, with columns representing\nthe attr",
+            "metadata": {
+              "part": 1,
+              "section": "8.4"
+            },
+            "score": 0.6658678763279898,
+            "id": "openstax-intro-cs:p400:part1:fixed:500:50:450",
+            "source_id": "openstax-intro-cs"
+          }
+        ],
+        "context": "[openstax-intro-cs:p376:part1:fixed:500:50:450 | https://openstax.org/details/books/introduction-computer-science | page 376]\nllection of related data, we call it a database. To store, retrieve, edit, and maintain the related data in the\ndatabase we need a system called a database management system (DBMS).\nDefinition and Characteristics\nData, data model, database, and DBMS concepts are connected to each other. Data relate to known facts that\ncan be recorded and have an implicit meaning. A data model is an abstract model that contains a set of\n366 8 • Data Management\nAccess for free at openstax.org\n\n[openstax-intro-cs:p382:part1:fixed:500:50:450 | https://openstax.org/details/books/introduction-computer-science | page 382]\nase\napplications\n• Identify the various components of a relational database management system\nA relational database management system (RDBMS) is one type of DBMS that stores related data elements in a\nrow-based table structure. An RDBMS transaction is a single logical unit of work that accesses and possibly\nmodifies the contents of a database using read-and-write operations. Multiple SQL commands may be\nperformed as part of a single RDBMS transaction as a single logical unit of work. For example\n\n[openstax-intro-cs:p400:part1:fixed:500:50:450 | https://openstax.org/details/books/introduction-computer-science | page 400]\n Summarize unstructured data and the advent of not only SQL (NoSQL) databases\n• Differentiate cloud-related data management services and other types of databases\nA nonrelational database is a database that does not use a traditional method for storing data such as rows\nand columns. Instead, nonrelational databases use a different storage model with specific requirements based\non the type of data being stored. Relational databases typically store data in tables, with columns representing\nthe attr",
+        "context_ids": [
+          "openstax-intro-cs:p376:part1:fixed:500:50:450",
+          "openstax-intro-cs:p382:part1:fixed:500:50:450",
+          "openstax-intro-cs:p400:part1:fixed:500:50:450"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "site:openstax.org/details/books/introduction-computer-science RDBMS unstructured data images video audio documents large binary data unsuitable relational database structured data page 400 nonrelational databases summarize unstructured data.",
+        "filter": null,
+        "results": [
+          {
+            "chunk_id": "openstax-intro-cs:p382:part1:fixed:500:50:2700",
+            "document_id": "openstax-intro-cs",
+            "source": "https://openstax.org/details/books/introduction-computer-science",
+            "page": 382,
+            "text": "xample, guaranteeing full isolation in a RDBMS requires significant additional\nprocessing time.\n372 8 • Data Management\nAccess for free at openstax.org",
+            "metadata": {
+              "part": 1,
+              "section": "8.3"
+            },
+            "score": 0.5796849926290955,
+            "id": "openstax-intro-cs:p382:part1:fixed:500:50:2700",
+            "source_id": "openstax-intro-cs"
+          },
+          {
+            "chunk_id": "openstax-intro-cs:p400:part1:fixed:500:50:450",
+            "document_id": "openstax-intro-cs",
+            "source": "https://openstax.org/details/books/introduction-computer-science",
+            "page": 400,
+            "text": " Summarize unstructured data and the advent of not only SQL (NoSQL) databases\n• Differentiate cloud-related data management services and other types of databases\nA nonrelational database is a database that does not use a traditional method for storing data such as rows\nand columns. Instead, nonrelational databases use a different storage model with specific requirements based\non the type of data being stored. Relational databases typically store data in tables, with columns representing\nthe attr",
+            "metadata": {
+              "part": 1,
+              "section": "8.4"
+            },
+            "score": 0.5541341090157691,
+            "id": "openstax-intro-cs:p400:part1:fixed:500:50:450",
+            "source_id": "openstax-intro-cs"
+          },
+          {
+            "chunk_id": "openstax-intro-cs:p403:part0:fixed:500:50:1800",
+            "document_id": "openstax-intro-cs",
+            "source": "https://openstax.org/details/books/introduction-computer-science",
+            "page": 403,
+            "text": "le security issues that need to be\nconsidered?\nUnstructured Data and NoSQL Databases\nUnstructured data are data that are not arranged according to the data model and cannot be stored in a\ntraditional relational database. NoSQL databases are schema-agnostic and provide the flexibility needed to\nstore and manipulate large volumes of unstructured and semistructured data. Users do not need to know\nwhat types of data are stored during setup, and the system can accommodate changes in data types and\nsc",
+            "metadata": {
+              "part": 0,
+              "section": "8.4"
+            },
+            "score": 0.5430857132746336,
+            "id": "openstax-intro-cs:p403:part0:fixed:500:50:1800",
+            "source_id": "openstax-intro-cs"
+          }
+        ],
+        "context": "[openstax-intro-cs:p376:part1:fixed:500:50:450 | https://openstax.org/details/books/introduction-computer-science | page 376]\nllection of related data, we call it a database. To store, retrieve, edit, and maintain the related data in the\ndatabase we need a system called a database management system (DBMS).\nDefinition and Characteristics\nData, data model, database, and DBMS concepts are connected to each other. Data relate to known facts that\ncan be recorded and have an implicit meaning. A data model is an abstract model that contains a set of\n366 8 • Data Management\nAccess for free at openstax.org\n\n[openstax-intro-cs:p382:part1:fixed:500:50:450 | https://openstax.org/details/books/introduction-computer-science | page 382]\nase\napplications\n• Identify the various components of a relational database management system\nA relational database management system (RDBMS) is one type of DBMS that stores related data elements in a\nrow-based table structure. An RDBMS transaction is a single logical unit of work that accesses and possibly\nmodifies the contents of a database using read-and-write operations. Multiple SQL commands may be\nperformed as part of a single RDBMS transaction as a single logical unit of work. For example\n\n[openstax-intro-cs:p400:part1:fixed:500:50:450 | https://openstax.org/details/books/introduction-computer-science | page 400]\n Summarize unstructured data and the advent of not only SQL (NoSQL) databases\n• Differentiate cloud-related data management services and other types of databases\nA nonrelational database is a database that does not use a traditional method for storing data such as rows\nand columns. Instead, nonrelational databases use a different storage model with specific requirements based\non the type of data being stored. Relational databases typically store data in tables, with columns representing\nthe attr\n\n[openstax-intro-cs:p382:part1:fixed:500:50:2700 | https://openstax.org/details/books/introduction-computer-science | page 382]\nxample, guaranteeing full isolation in a RDBMS requires significant additional\nprocessing time.\n372 8 • Data Management\nAccess for free at openstax.org\n\n[openstax-intro-cs:p403:part0:fixed:500:50:1800 | https://openstax.org/details/books/introduction-computer-science | page 403]\nle security issues that need to be\nconsidered?\nUnstructured Data and NoSQL Databases\nUnstructured data are data that are not arranged according to the data model and cannot be stored in a\ntraditional relational database. NoSQL databases are schema-agnostic and provide the flexibility needed to\nstore and manipulate large volumes of unstructured and semistructured data. Users do not need to know\nwhat types of data are stored during setup, and the system can accommodate changes in data types and\nsc",
+        "context_ids": [
+          "openstax-intro-cs:p376:part1:fixed:500:50:450",
+          "openstax-intro-cs:p382:part1:fixed:500:50:450",
+          "openstax-intro-cs:p400:part1:fixed:500:50:450",
+          "openstax-intro-cs:p382:part1:fixed:500:50:2700",
+          "openstax-intro-cs:p403:part0:fixed:500:50:1800"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "answerable": true,
+    "usage": [
+      {
+        "input_tokens": 205,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 0
+          }
+        },
+        "output_tokens": 79,
+        "output_tokens_details": {
+          "reasoning_tokens": 19
+        },
+        "total_tokens": 284
+      },
+      {
+        "input_tokens": 762,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 0
+          }
+        },
+        "output_tokens": 100,
+        "output_tokens_details": {
+          "reasoning_tokens": 32
+        },
+        "total_tokens": 862
+      },
+      {
+        "input_tokens": 1080,
+        "input_tokens_details": {
+          "cache_write_tokens": 1077,
+          "cached_tokens": 0,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 1077
+          }
+        },
+        "output_tokens": 205,
+        "output_tokens_details": {
+          "reasoning_tokens": 114
+        },
+        "total_tokens": 1285
+      }
+    ],
+    "elapsed_ms": 16647.416
+  }
+]

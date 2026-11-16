@@ -1,3 +1,3 @@
-# Code
+# Code bài làm
 
-Đặt code của bạn tại đây hoặc mở rộng [starter](../starter/README.md). Khung agent chưa kết nối model và vector store thật.
+Các triển khai nằm trong [starter/agentic.py](../starter/agentic.py) và [backend Day 6](../starter/day6_backend/). Các runner ở thư mục gốc. Xem [hướng dẫn tái lập](../REPRODUCE.md).

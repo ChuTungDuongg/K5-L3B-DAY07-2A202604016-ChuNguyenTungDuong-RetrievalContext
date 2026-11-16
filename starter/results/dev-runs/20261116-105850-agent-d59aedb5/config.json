@@ -1,0 +1,28 @@
+{
+  "method": "agent",
+  "split": "dev",
+  "top_k": 3,
+  "budget_chars": 4000,
+  "hybrid_candidates_per_method": null,
+  "max_searches": 3,
+  "model": "gpt-6-luna",
+  "embedding_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "stored_strategy": "A",
+  "filters": "none",
+  "limit": null,
+  "case_id": null,
+  "max_output_tokens": 1600,
+  "incomplete_retry_max_output_tokens": 3200,
+  "api_connection_max_retries": 0,
+  "data_sha256": {
+    "chunks.json": "ed862dd3af40defd02478cf1f87ce340ca58413b93357b93164b5c9240a71c1b",
+    "questions-dev.json": "15d56ce83ed325cd2395f5e0d39d9d7c98b71febbf0630ed20dfe7c7afd28e43",
+    "agent-cases-dev.json": "dede40f231e6d303ceaec9e86853a8ea1b4274e296b516bfaf474aee90220527"
+  },
+  "code_sha256": {
+    "run_dev.py": "ca0b34f7b09089e05e865ffa10df848eddbb4b1ac9944b3cd7b0a45117aefe8b",
+    "starter/agentic.py": "644d120c4ad348d88063953e26587d3a8b20089a35fae1a59e0eb3e7341cc5ac",
+    "starter/day6_backend/embeddings.py": "97d545bddb9fa89ad554a1a114f0e9eddfa6990e85b98c7222eb4770acb90ee9"
+  },
+  "started_local": "2026-11-16T10:58:50.580793"
+}

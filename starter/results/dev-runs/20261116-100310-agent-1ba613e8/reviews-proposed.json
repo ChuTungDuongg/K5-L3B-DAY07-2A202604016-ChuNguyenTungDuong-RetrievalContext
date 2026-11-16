@@ -1,0 +1,147 @@
+[
+  {
+    "query_id": "dev01",
+    "citation_support": [],
+    "reason": "Từ chối dù gold về khả năng mở rộng có trong corpus; các kết quả dense không đưa gold vào context.",
+    "reviewer": "Codex; cần học viên kiểm tra và xác nhận",
+    "answer_grade": 0
+  },
+  {
+    "query_id": "day6-q01",
+    "citation_support": [
+      true
+    ],
+    "reason": "Định nghĩa và phụ thuộc ngữ cảnh quyết định được nêu trong nguồn trích dẫn.",
+    "reviewer": "Codex; cần học viên kiểm tra và xác nhận",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "day6-q03",
+    "citation_support": [
+      true
+    ],
+    "reason": "Nguồn nêu data owner quyết định quyền truy cập và sử dụng.",
+    "reviewer": "Codex; cần học viên kiểm tra và xác nhận",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "day6-q06",
+    "citation_support": [
+      true
+    ],
+    "reason": "Nguồn nêu mỗi lần chỉ một người dùng.",
+    "reviewer": "Codex; cần học viên kiểm tra và xác nhận",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "day6-q08",
+    "citation_support": [
+      true
+    ],
+    "reason": "Nguồn nêu lưu trong internal memory thay vì lưu trữ ngoài chậm hơn.",
+    "reviewer": "Codex; cần học viên kiểm tra và xác nhận",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "dev-auto-370",
+    "citation_support": [
+      true
+    ],
+    "reason": "Nguồn nêu các bộ phận có hệ thống riêng và không chia sẻ tài nguyên.",
+    "reviewer": "Codex; cần học viên kiểm tra và xác nhận",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "dev-auto-371",
+    "citation_support": [
+      true
+    ],
+    "reason": "Nguồn ghi MOAB gồm 12 TB.",
+    "reviewer": "Codex; cần học viên kiểm tra và xác nhận",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "dev-auto-372",
+    "citation_support": [
+      true
+    ],
+    "reason": "Nguồn nêu giảm lỗi bằng kiểm soát truy cập theo chính sách.",
+    "reviewer": "Codex; cần học viên kiểm tra và xác nhận",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "dev-auto-373",
+    "citation_support": [
+      true
+    ],
+    "reason": "Nguồn nêu định nghĩa và chất lượng phụ thuộc ngữ cảnh.",
+    "reviewer": "Codex; cần học viên kiểm tra và xác nhận",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "dev-auto-374",
+    "citation_support": [
+      true
+    ],
+    "reason": "Nguồn nêu vai trò, chính sách và trách nhiệm để quản lý chất lượng dữ liệu.",
+    "reviewer": "Codex; cần học viên kiểm tra và xác nhận",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "dev-auto-379",
+    "citation_support": [
+      true
+    ],
+    "reason": "Nguồn liệt kê cả banking và health care; đây là đáp án khác gold nhưng hợp lệ.",
+    "reviewer": "Codex; cần học viên kiểm tra và xác nhận",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "dev-auto-381",
+    "citation_support": [
+      true
+    ],
+    "reason": "Nguồn nói nhiều người có thể truy cập đồng thời.",
+    "reviewer": "Codex; cần học viên kiểm tra và xác nhận",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "dev-auto-383",
+    "citation_support": [],
+    "reason": "Từ chối dù corpus có gold về dữ liệu phi cấu trúc hoặc bán cấu trúc; context không chứa đoạn này.",
+    "reviewer": "Codex; cần học viên kiểm tra và xác nhận",
+    "answer_grade": 0
+  },
+  {
+    "query_id": "dev-auto-384",
+    "citation_support": [
+      true
+    ],
+    "reason": "Nguồn nêu DROP TABLE xóa bảng hiện có.",
+    "reviewer": "Codex; cần học viên kiểm tra và xác nhận",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "dev-auto-385",
+    "citation_support": [
+      true
+    ],
+    "reason": "Nguồn nêu tích Descartes gồm mọi tổ hợp bộ từ hai quan hệ.",
+    "reviewer": "Codex; cần học viên kiểm tra và xác nhận",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "dev-no-evidence-01",
+    "citation_support": [],
+    "reason": "Từ chối là phù hợp: không có chính sách nội bộ của tổ chức hư cấu trong corpus.",
+    "reviewer": "Codex; cần học viên kiểm tra và xác nhận",
+    "abstention_correct": true
+  },
+  {
+    "query_id": "dev-no-evidence-02",
+    "citation_support": [],
+    "reason": "Từ chối là phù hợp: corpus không xác định DBA của tổ chức hư cấu.",
+    "reviewer": "Codex; cần học viên kiểm tra và xác nhận",
+    "abstention_correct": true
+  }
+]

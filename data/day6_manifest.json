@@ -1,0 +1,167 @@
+{
+  "source_id": "openstax-intro-cs",
+  "title": "Introduction to Computer Science",
+  "publisher": "OpenStax, Rice University",
+  "source_url": "https://openstax.org/details/books/introduction-computer-science",
+  "pdf_url": "https://assets.openstax.org/oscms-prodcms/media/documents/Introduction_To_Computer_Science_-_WEB.pdf",
+  "local_path": "starter/data/introduction-computer-science.pdf",
+  "license_or_permission": "CC BY-NC-SA 4.0",
+  "accessed_at": "2026-11-14",
+  "page_numbering": "Physical PDF page numbers, starting at 1",
+  "selection_rule": "Pages 370-410, excluding 389, 394 and 408",
+  "selected_page_count": 38,
+  "pages": [
+    {
+      "page": 370,
+      "character_count": 3831
+    },
+    {
+      "page": 371,
+      "character_count": 2653
+    },
+    {
+      "page": 372,
+      "character_count": 2839
+    },
+    {
+      "page": 373,
+      "character_count": 3370
+    },
+    {
+      "page": 374,
+      "character_count": 3465
+    },
+    {
+      "page": 375,
+      "character_count": 2642
+    },
+    {
+      "page": 376,
+      "character_count": 3310
+    },
+    {
+      "page": 377,
+      "character_count": 3620
+    },
+    {
+      "page": 378,
+      "character_count": 2945
+    },
+    {
+      "page": 379,
+      "character_count": 2435
+    },
+    {
+      "page": 380,
+      "character_count": 2498
+    },
+    {
+      "page": 381,
+      "character_count": 2080
+    },
+    {
+      "page": 382,
+      "character_count": 4394
+    },
+    {
+      "page": 383,
+      "character_count": 3364
+    },
+    {
+      "page": 384,
+      "character_count": 2516
+    },
+    {
+      "page": 385,
+      "character_count": 2635
+    },
+    {
+      "page": 386,
+      "character_count": 3846
+    },
+    {
+      "page": 387,
+      "character_count": 3438
+    },
+    {
+      "page": 388,
+      "character_count": 3090
+    },
+    {
+      "page": 390,
+      "character_count": 2493
+    },
+    {
+      "page": 391,
+      "character_count": 4128
+    },
+    {
+      "page": 392,
+      "character_count": 2139
+    },
+    {
+      "page": 393,
+      "character_count": 1714
+    },
+    {
+      "page": 395,
+      "character_count": 2542
+    },
+    {
+      "page": 396,
+      "character_count": 4464
+    },
+    {
+      "page": 397,
+      "character_count": 3786
+    },
+    {
+      "page": 398,
+      "character_count": 2752
+    },
+    {
+      "page": 399,
+      "character_count": 2637
+    },
+    {
+      "page": 400,
+      "character_count": 2892
+    },
+    {
+      "page": 401,
+      "character_count": 3489
+    },
+    {
+      "page": 402,
+      "character_count": 3711
+    },
+    {
+      "page": 403,
+      "character_count": 3264
+    },
+    {
+      "page": 404,
+      "character_count": 3092
+    },
+    {
+      "page": 405,
+      "character_count": 2513
+    },
+    {
+      "page": 406,
+      "character_count": 2515
+    },
+    {
+      "page": 407,
+      "character_count": 3161
+    },
+    {
+      "page": 409,
+      "character_count": 2709
+    },
+    {
+      "page": 410,
+      "character_count": 3157
+    }
+  ]
+}

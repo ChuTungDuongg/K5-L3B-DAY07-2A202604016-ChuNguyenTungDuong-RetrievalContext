@@ -1,0 +1,180 @@
+[
+  {
+    "query_id": "dev-auto-384",
+    "split": "dev",
+    "question": "What does DROP TABLE do?",
+    "status": "answered",
+    "answer": "DROP TABLE removes an existing table from a database. [openstax-intro-cs:p384:part0:fixed:500:50:0]",
+    "citations": [
+      "openstax-intro-cs:p384:part0:fixed:500:50:0"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "What does the SQL DROP TABLE statement do? Explain its effect on a table and its data.",
+        "filter": null,
+        "results": [
+          {
+            "chunk_id": "openstax-intro-cs:p383:part0:fixed:500:50:3150",
+            "document_id": "openstax-intro-cs",
+            "source": "https://openstax.org/details/books/introduction-computer-science",
+            "page": 383,
+            "text": "ing the data needed. The main commands in SQL are CREATE TABLE, which is used to\ncreate a new table in a database such as:\n8.3 • Relational Database Management Systems 373",
+            "metadata": {
+              "part": 0,
+              "section": "8.3"
+            },
+            "score": 0.661261527892808,
+            "id": "openstax-intro-cs:p383:part0:fixed:500:50:3150",
+            "source_id": "openstax-intro-cs"
+          },
+          {
+            "chunk_id": "openstax-intro-cs:p384:part0:fixed:500:50:450",
+            "document_id": "openstax-intro-cs",
+            "source": "https://openstax.org/details/books/introduction-computer-science",
+            "page": 384,
+            "text": "a table to ensure the accuracy and reliability of that data.\nThere are additional features of SQL such as triggers, views, nested/recursive queries, privileges, and\nmetadata.\nRelational Algebra\nThe theoretical framework for querying relational databases that uses unary and binary operators on relations\nto manipulate and retrieve tuples is called relational algebra. The following set of relational algebra\noperations is a complete set: Select, Project, Union, Rename, Difference, and Cartesian prod",
+            "metadata": {
+              "part": 0,
+              "section": "8.3"
+            },
+            "score": 0.6357574015181553,
+            "id": "openstax-intro-cs:p384:part0:fixed:500:50:450",
+            "source_id": "openstax-intro-cs"
+          },
+          {
+            "chunk_id": "openstax-intro-cs:p384:part0:fixed:500:50:0",
+            "document_id": "openstax-intro-cs",
+            "source": "https://openstax.org/details/books/introduction-computer-science",
+            "page": 384,
+            "text": "CREATE TABLE Student (\nID int,\nLastName varchar(255),\nZipCode int\n);\nwhich will create a table name Student with three columns: ID, LastName, and ZipCode. DROP TABLE is used to\ndrop an existing table in a database, and ALTER TABLE, which is used to add, delete, or modify columns in an\nexisting table. SQL schemas contain tables (i.e., relations), and the RDBMS catalog stores these schemas. SQL\nconstraints are used to specify rules for the data in a table to ensure the accuracy and reliability of ",
+            "metadata": {
+              "part": 0,
+              "section": "8.3"
+            },
+            "score": 0.5791678677486914,
+            "id": "openstax-intro-cs:p384:part0:fixed:500:50:0",
+            "source_id": "openstax-intro-cs"
+          }
+        ],
+        "context": "[openstax-intro-cs:p383:part0:fixed:500:50:3150 | https://openstax.org/details/books/introduction-computer-science | page 383]\ning the data needed. The main commands in SQL are CREATE TABLE, which is used to\ncreate a new table in a database such as:\n8.3 • Relational Database Management Systems 373\n\n[openstax-intro-cs:p384:part0:fixed:500:50:450 | https://openstax.org/details/books/introduction-computer-science | page 384]\na table to ensure the accuracy and reliability of that data.\nThere are additional features of SQL such as triggers, views, nested/recursive queries, privileges, and\nmetadata.\nRelational Algebra\nThe theoretical framework for querying relational databases that uses unary and binary operators on relations\nto manipulate and retrieve tuples is called relational algebra. The following set of relational algebra\noperations is a complete set: Select, Project, Union, Rename, Difference, and Cartesian prod\n\n[openstax-intro-cs:p384:part0:fixed:500:50:0 | https://openstax.org/details/books/introduction-computer-science | page 384]\nCREATE TABLE Student (\nID int,\nLastName varchar(255),\nZipCode int\n);\nwhich will create a table name Student with three columns: ID, LastName, and ZipCode. DROP TABLE is used to\ndrop an existing table in a database, and ALTER TABLE, which is used to add, delete, or modify columns in an\nexisting table. SQL schemas contain tables (i.e., relations), and the RDBMS catalog stores these schemas. SQL\nconstraints are used to specify rules for the data in a table to ensure the accuracy and reliability of ",
+        "context_ids": [
+          "openstax-intro-cs:p383:part0:fixed:500:50:3150",
+          "openstax-intro-cs:p384:part0:fixed:500:50:450",
+          "openstax-intro-cs:p384:part0:fixed:500:50:0"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "What does SQL DROP TABLE do to an existing table and its data?",
+        "filter": null,
+        "results": [
+          {
+            "chunk_id": "openstax-intro-cs:p383:part0:fixed:500:50:3150",
+            "document_id": "openstax-intro-cs",
+            "source": "https://openstax.org/details/books/introduction-computer-science",
+            "page": 383,
+            "text": "ing the data needed. The main commands in SQL are CREATE TABLE, which is used to\ncreate a new table in a database such as:\n8.3 • Relational Database Management Systems 373",
+            "metadata": {
+              "part": 0,
+              "section": "8.3"
+            },
+            "score": 0.7122478022125104,
+            "id": "openstax-intro-cs:p383:part0:fixed:500:50:3150",
+            "source_id": "openstax-intro-cs"
+          },
+          {
+            "chunk_id": "openstax-intro-cs:p400:part1:fixed:500:50:900",
+            "document_id": "openstax-intro-cs",
+            "source": "https://openstax.org/details/books/introduction-computer-science",
+            "page": 400,
+            "text": "data in tables, with columns representing\nthe attributes of the data and rows representing individual records. This structure is optimized for fast retrieval\nand manipulation of data using SQL queries. In contrast, nonrelational databases are optimized for storing\nand querying large amounts of data and are typically stored in a specialized format that allows for efficient\nindexing and querying. This format may include the use of columnar storage and compression techniques.\nLegacy Databases\nFlat ",
+            "metadata": {
+              "part": 1,
+              "section": "8.4"
+            },
+            "score": 0.6574312570153477,
+            "id": "openstax-intro-cs:p400:part1:fixed:500:50:900",
+            "source_id": "openstax-intro-cs"
+          },
+          {
+            "chunk_id": "openstax-intro-cs:p384:part0:fixed:500:50:450",
+            "document_id": "openstax-intro-cs",
+            "source": "https://openstax.org/details/books/introduction-computer-science",
+            "page": 384,
+            "text": "a table to ensure the accuracy and reliability of that data.\nThere are additional features of SQL such as triggers, views, nested/recursive queries, privileges, and\nmetadata.\nRelational Algebra\nThe theoretical framework for querying relational databases that uses unary and binary operators on relations\nto manipulate and retrieve tuples is called relational algebra. The following set of relational algebra\noperations is a complete set: Select, Project, Union, Rename, Difference, and Cartesian prod",
+            "metadata": {
+              "part": 0,
+              "section": "8.3"
+            },
+            "score": 0.6396139342640711,
+            "id": "openstax-intro-cs:p384:part0:fixed:500:50:450",
+            "source_id": "openstax-intro-cs"
+          }
+        ],
+        "context": "[openstax-intro-cs:p383:part0:fixed:500:50:3150 | https://openstax.org/details/books/introduction-computer-science | page 383]\ning the data needed. The main commands in SQL are CREATE TABLE, which is used to\ncreate a new table in a database such as:\n8.3 • Relational Database Management Systems 373\n\n[openstax-intro-cs:p384:part0:fixed:500:50:450 | https://openstax.org/details/books/introduction-computer-science | page 384]\na table to ensure the accuracy and reliability of that data.\nThere are additional features of SQL such as triggers, views, nested/recursive queries, privileges, and\nmetadata.\nRelational Algebra\nThe theoretical framework for querying relational databases that uses unary and binary operators on relations\nto manipulate and retrieve tuples is called relational algebra. The following set of relational algebra\noperations is a complete set: Select, Project, Union, Rename, Difference, and Cartesian prod\n\n[openstax-intro-cs:p384:part0:fixed:500:50:0 | https://openstax.org/details/books/introduction-computer-science | page 384]\nCREATE TABLE Student (\nID int,\nLastName varchar(255),\nZipCode int\n);\nwhich will create a table name Student with three columns: ID, LastName, and ZipCode. DROP TABLE is used to\ndrop an existing table in a database, and ALTER TABLE, which is used to add, delete, or modify columns in an\nexisting table. SQL schemas contain tables (i.e., relations), and the RDBMS catalog stores these schemas. SQL\nconstraints are used to specify rules for the data in a table to ensure the accuracy and reliability of \n\n[openstax-intro-cs:p400:part1:fixed:500:50:900 | https://openstax.org/details/books/introduction-computer-science | page 400]\ndata in tables, with columns representing\nthe attributes of the data and rows representing individual records. This structure is optimized for fast retrieval\nand manipulation of data using SQL queries. In contrast, nonrelational databases are optimized for storing\nand querying large amounts of data and are typically stored in a specialized format that allows for efficient\nindexing and querying. This format may include the use of columnar storage and compression techniques.\nLegacy Databases\nFlat ",
+        "context_ids": [
+          "openstax-intro-cs:p383:part0:fixed:500:50:3150",
+          "openstax-intro-cs:p384:part0:fixed:500:50:450",
+          "openstax-intro-cs:p384:part0:fixed:500:50:0",
+          "openstax-intro-cs:p400:part1:fixed:500:50:900"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "answerable": true,
+    "usage": [
+      {
+        "input_tokens": 198,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 0
+          }
+        },
+        "output_tokens": 55,
+        "output_tokens_details": {
+          "reasoning_tokens": 10
+        },
+        "total_tokens": 253
+      },
+      {
+        "input_tokens": 687,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 0
+          }
+        },
+        "output_tokens": 58,
+        "output_tokens_details": {
+          "reasoning_tokens": 20
+        },
+        "total_tokens": 745
+      },
+      {
+        "input_tokens": 860,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 0
+          }
+        },
+        "output_tokens": 195,
+        "output_tokens_details": {
+          "reasoning_tokens": 118
+        },
+        "total_tokens": 1055
+      }
+    ],
+    "elapsed_ms": 9353.461
+  }
+]

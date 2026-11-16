@@ -1,0 +1,48 @@
+[
+  {
+    "id": "v2-test-386",
+    "split": "test",
+    "question": "Why are Select, Project, Difference, Product, and Union considered primitive relational algebra operators?",
+    "answerable": true
+  },
+  {
+    "id": "v2-test-387",
+    "split": "test",
+    "question": "What happens to a tuple when a relational calculus formula evaluates to true?",
+    "answerable": true
+  },
+  {
+    "id": "v2-test-391",
+    "split": "test",
+    "question": "How is a dependent fully identified when it is modeled as a weak entity?",
+    "answerable": true
+  },
+  {
+    "id": "v2-test-393",
+    "split": "test",
+    "question": "What is a tablespace in physical database organization?",
+    "answerable": true
+  },
+  {
+    "id": "v2-test-397",
+    "split": "test",
+    "question": "Which RDBMS feature addresses the coordination of simultaneous database activity?",
+    "answerable": true
+  },
+  {
+    "id": "v2-test-no-evidence-01",
+    "split": "test",
+    "question": "What is the database replication lag threshold in the internal policy of the fictional company Norvale Prism?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "The exact fictional organization Norvale Prism is absent from all 273 strategy A chunks; its internal details are not supplied."
+  },
+  {
+    "id": "v2-test-no-evidence-02",
+    "split": "test",
+    "question": "Which person manages database backups for the fictional organization Calderwick Grove?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "The exact fictional organization Calderwick Grove is absent from all 273 strategy A chunks; its internal details are not supplied."
+  }
+]

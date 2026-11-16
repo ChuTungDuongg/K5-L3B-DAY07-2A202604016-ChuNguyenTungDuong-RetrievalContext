@@ -1,0 +1,2001 @@
+{
+  "price_date": "2026-11-16",
+  "model": "gpt-6-luna",
+  "currency": "USD",
+  "source": "https://developers.openai.com/api/docs/models/gpt-6-luna",
+  "rates_per_million": {
+    "input": "0.10",
+    "cached": "0.01",
+    "write30": "0.125",
+    "write12": "0.25",
+    "output": "0.50"
+  },
+  "assumptions": "Standard short-context public prices; no regional/tier premium or tax. Recorded response usage only. Missing usage, API sanity calls, question generation, unrecorded debug requests and local compute are excluded. This is not an account invoice.",
+  "total_recorded_input_tokens": 268372,
+  "total_recorded_output_tokens": 49854,
+  "total_estimated_usd": "0.0520618500",
+  "runs": [
+    {
+      "run_id": "20261116-095956-hybrid-cb3e35e6",
+      "path": "starter/results/dev-runs/20261116-095956-hybrid-cb3e35e6",
+      "split": "dev",
+      "config": {
+        "method": "hybrid",
+        "split": "dev",
+        "top_k": 3,
+        "budget_chars": 2000,
+        "hybrid_candidates_per_method": 10,
+        "max_searches": null,
+        "model": null,
+        "embedding_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+        "stored_strategy": "A",
+        "filters": "none",
+        "started_local": "2026-11-16T09:59:56.638270"
+      },
+      "dataset_version": "dev-original",
+      "total": 15,
+      "successful": 15,
+      "errors": 0,
+      "elapsed_all_seconds": 0.745681,
+      "median_ms": 42.912,
+      "recorded_usage_responses": 0,
+      "usage_cost": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "uncached_input_tokens": 0,
+        "cached_input_tokens": 0,
+        "cache_write_30m_tokens": 0,
+        "cache_write_12h_tokens": 0,
+        "estimated_usd": "0.0000000000"
+      },
+      "search_distribution": {
+        "0": 15
+      },
+      "metrics": null,
+      "summary": {
+        "method": "hybrid",
+        "total": 15,
+        "successful": 15,
+        "errors": 0,
+        "median_ms": 42.912,
+        "hit1": 14,
+        "hit3": 15,
+        "context_hit": 15,
+        "metric_denominator": 15,
+        "note": "Evidence khớp nguyên văn với gold; đọc nguồn để kiểm tra evidence thay thế."
+      },
+      "error_counts": {}
+    },
+    {
+      "run_id": "20261116-095956-tfidf-6d3dad46",
+      "path": "starter/results/dev-runs/20261116-095956-tfidf-6d3dad46",
+      "split": "dev",
+      "config": {
+        "method": "tfidf",
+        "split": "dev",
+        "top_k": 3,
+        "budget_chars": 800,
+        "hybrid_candidates_per_method": null,
+        "max_searches": null,
+        "model": null,
+        "embedding_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+        "stored_strategy": "A",
+        "filters": "none",
+        "started_local": "2026-11-16T09:59:56.619870"
+      },
+      "dataset_version": "dev-original",
+      "total": 15,
+      "successful": 15,
+      "errors": 0,
+      "elapsed_all_seconds": 0.014261,
+      "median_ms": 0.975,
+      "recorded_usage_responses": 0,
+      "usage_cost": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "uncached_input_tokens": 0,
+        "cached_input_tokens": 0,
+        "cache_write_30m_tokens": 0,
+        "cache_write_12h_tokens": 0,
+        "estimated_usd": "0.0000000000"
+      },
+      "search_distribution": {
+        "0": 15
+      },
+      "metrics": null,
+      "summary": {
+        "method": "tfidf",
+        "total": 15,
+        "successful": 15,
+        "errors": 0,
+        "median_ms": 0.975,
+        "hit1": 13,
+        "hit3": 15,
+        "context_hit": 13,
+        "metric_denominator": 15,
+        "note": "Evidence khớp nguyên văn với gold; đọc nguồn để kiểm tra evidence thay thế."
+      },
+      "error_counts": {}
+    },
+    {
+      "run_id": "20261116-100021-agent-9b0e0706",
+      "path": "starter/results/dev-runs/20261116-100021-agent-9b0e0706",
+      "split": "dev",
+      "config": {
+        "method": "agent",
+        "split": "dev",
+        "top_k": 3,
+        "budget_chars": 2000,
+        "hybrid_candidates_per_method": null,
+        "max_searches": 3,
+        "model": "gpt-6-luna",
+        "embedding_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+        "stored_strategy": "A",
+        "filters": "none",
+        "limit": 1,
+        "started_local": "2026-11-16T10:00:21.444858"
+      },
+      "dataset_version": "dev-unversioned",
+      "total": 1,
+      "successful": 1,
+      "errors": 0,
+      "elapsed_all_seconds": 16.627316,
+      "median_ms": 16627.316,
+      "recorded_usage_responses": 4,
+      "usage_cost": {
+        "input_tokens": 2550,
+        "output_tokens": 316,
+        "uncached_input_tokens": 2550,
+        "cached_input_tokens": 0,
+        "cache_write_30m_tokens": 0,
+        "cache_write_12h_tokens": 0,
+        "estimated_usd": "0.0004130000"
+      },
+      "search_distribution": {
+        "3": 1
+      },
+      "metrics": null,
+      "summary": {
+        "method": "agent",
+        "total": 1,
+        "successful": 1,
+        "errors": 0,
+        "median_ms": 16627.316,
+        "answered": 0,
+        "abstain": 1,
+        "input_tokens": 2550,
+        "output_tokens": 316,
+        "note": "Nhãn đúng/sai, citation và abstention cần chấm thủ công; lỗi được báo riêng."
+      },
+      "error_counts": {}
+    },
+    {
+      "run_id": "20261116-100059-dense-24511a3b",
+      "path": "starter/results/dev-runs/20261116-100059-dense-24511a3b",
+      "split": "dev",
+      "config": {
+        "method": "dense",
+        "split": "dev",
+        "top_k": 3,
+        "budget_chars": 2000,
+        "hybrid_candidates_per_method": null,
+        "max_searches": null,
+        "model": null,
+        "embedding_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+        "stored_strategy": "A",
+        "filters": "none",
+        "limit": null,
+        "started_local": "2026-11-16T10:00:59.357120"
+      },
+      "dataset_version": "dev-original",
+      "total": 15,
+      "successful": 15,
+      "errors": 0,
+      "elapsed_all_seconds": 0.7997839999999999,
+      "median_ms": 48.158,
+      "recorded_usage_responses": 0,
+      "usage_cost": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "uncached_input_tokens": 0,
+        "cached_input_tokens": 0,
+        "cache_write_30m_tokens": 0,
+        "cache_write_12h_tokens": 0,
+        "estimated_usd": "0.0000000000"
+      },
+      "search_distribution": {
+        "0": 15
+      },
+      "metrics": null,
+      "summary": {
+        "method": "dense",
+        "total": 15,
+        "successful": 15,
+        "errors": 0,
+        "median_ms": 48.158,
+        "hit1": 14,
+        "hit3": 14,
+        "context_hit": 14,
+        "metric_denominator": 15,
+        "note": "Evidence khớp nguyên văn với gold; đọc nguồn để kiểm tra evidence thay thế."
+      },
+      "error_counts": {}
+    },
+    {
+      "run_id": "20261116-100208-dense-9da175cd",
+      "path": "starter/results/dev-runs/20261116-100208-dense-9da175cd",
+      "split": "dev",
+      "config": {
+        "method": "dense",
+        "split": "dev",
+        "top_k": 3,
+        "budget_chars": 2000,
+        "hybrid_candidates_per_method": null,
+        "max_searches": null,
+        "model": null,
+        "embedding_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+        "stored_strategy": "A",
+        "filters": "none",
+        "limit": null,
+        "started_local": "2026-11-16T10:02:08.698324"
+      },
+      "dataset_version": "dev-original",
+      "total": 15,
+      "successful": 15,
+      "errors": 0,
+      "elapsed_all_seconds": 0.9273579999999999,
+      "median_ms": 50.114,
+      "recorded_usage_responses": 0,
+      "usage_cost": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "uncached_input_tokens": 0,
+        "cached_input_tokens": 0,
+        "cache_write_30m_tokens": 0,
+        "cache_write_12h_tokens": 0,
+        "estimated_usd": "0.0000000000"
+      },
+      "search_distribution": {
+        "0": 15
+      },
+      "metrics": null,
+      "summary": {
+        "method": "dense",
+        "total": 15,
+        "successful": 15,
+        "errors": 0,
+        "median_ms": 50.114,
+        "hit1": 14,
+        "hit3": 14,
+        "context_hit": 14,
+        "metric_denominator": 15,
+        "note": "Evidence khớp nguyên văn với gold; đọc nguồn để kiểm tra evidence thay thế."
+      },
+      "error_counts": {}
+    },
+    {
+      "run_id": "20261116-100235-tfidf-ec28ade0",
+      "path": "starter/results/dev-runs/20261116-100235-tfidf-ec28ade0",
+      "split": "dev",
+      "config": {
+        "method": "tfidf",
+        "split": "dev",
+        "top_k": 3,
+        "budget_chars": 2000,
+        "hybrid_candidates_per_method": null,
+        "max_searches": null,
+        "model": null,
+        "embedding_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+        "stored_strategy": "A",
+        "filters": "none",
+        "limit": null,
+        "started_local": "2026-11-16T10:02:35.952892"
+      },
+      "dataset_version": "dev-original",
+      "total": 15,
+      "successful": 15,
+      "errors": 0,
+      "elapsed_all_seconds": 0.022282,
+      "median_ms": 1.233,
+      "recorded_usage_responses": 0,
+      "usage_cost": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "uncached_input_tokens": 0,
+        "cached_input_tokens": 0,
+        "cache_write_30m_tokens": 0,
+        "cache_write_12h_tokens": 0,
+        "estimated_usd": "0.0000000000"
+      },
+      "search_distribution": {
+        "0": 15
+      },
+      "metrics": null,
+      "summary": {
+        "method": "tfidf",
+        "total": 15,
+        "successful": 15,
+        "errors": 0,
+        "median_ms": 1.233,
+        "hit1": 13,
+        "hit3": 15,
+        "context_hit": 15,
+        "metric_denominator": 15,
+        "note": "Evidence khớp nguyên văn với gold; đọc nguồn để kiểm tra evidence thay thế."
+      },
+      "error_counts": {}
+    },
+    {
+      "run_id": "20261116-100239-hybrid-be8c8f15",
+      "path": "starter/results/dev-runs/20261116-100239-hybrid-be8c8f15",
+      "split": "dev",
+      "config": {
+        "method": "hybrid",
+        "split": "dev",
+        "top_k": 3,
+        "budget_chars": 2000,
+        "hybrid_candidates_per_method": 10,
+        "max_searches": null,
+        "model": null,
+        "embedding_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+        "stored_strategy": "A",
+        "filters": "none",
+        "limit": null,
+        "started_local": "2026-11-16T10:02:39.976285"
+      },
+      "dataset_version": "dev-original",
+      "total": 15,
+      "successful": 15,
+      "errors": 0,
+      "elapsed_all_seconds": 0.909536,
+      "median_ms": 52.01,
+      "recorded_usage_responses": 0,
+      "usage_cost": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "uncached_input_tokens": 0,
+        "cached_input_tokens": 0,
+        "cache_write_30m_tokens": 0,
+        "cache_write_12h_tokens": 0,
+        "estimated_usd": "0.0000000000"
+      },
+      "search_distribution": {
+        "0": 15
+      },
+      "metrics": null,
+      "summary": {
+        "method": "hybrid",
+        "total": 15,
+        "successful": 15,
+        "errors": 0,
+        "median_ms": 52.01,
+        "hit1": 14,
+        "hit3": 15,
+        "context_hit": 15,
+        "metric_denominator": 15,
+        "note": "Evidence khớp nguyên văn với gold; đọc nguồn để kiểm tra evidence thay thế."
+      },
+      "error_counts": {}
+    },
+    {
+      "run_id": "20261116-100310-agent-1ba613e8",
+      "path": "starter/results/dev-runs/20261116-100310-agent-1ba613e8",
+      "split": "dev",
+      "config": {
+        "method": "agent",
+        "split": "dev",
+        "top_k": 3,
+        "budget_chars": 2000,
+        "hybrid_candidates_per_method": null,
+        "max_searches": 3,
+        "model": "gpt-6-luna",
+        "embedding_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+        "stored_strategy": "A",
+        "filters": "none",
+        "limit": null,
+        "started_local": "2026-11-16T10:03:10.895414"
+      },
+      "dataset_version": "dev-original",
+      "total": 17,
+      "successful": 17,
+      "errors": 0,
+      "elapsed_all_seconds": 113.77598300000001,
+      "median_ms": 5330.243,
+      "recorded_usage_responses": 44,
+      "usage_cost": {
+        "input_tokens": 23535,
+        "output_tokens": 3613,
+        "uncached_input_tokens": 23535,
+        "cached_input_tokens": 0,
+        "cache_write_30m_tokens": 0,
+        "cache_write_12h_tokens": 0,
+        "estimated_usd": "0.0041600000"
+      },
+      "search_distribution": {
+        "3": 5,
+        "1": 12
+      },
+      "metrics": {
+        "split": "dev",
+        "cases": 17,
+        "provider_errors": 0,
+        "tool_use": {
+          "n": 17,
+          "N": 17
+        },
+        "grounded_answer": {
+          "0": 2,
+          "1": 0,
+          "2": 13,
+          "N": 15,
+          "mean": 1.7333333333333334
+        },
+        "citation_validity": {
+          "n": 13,
+          "N": 13
+        },
+        "answer_citation_coverage": {
+          "n": 13,
+          "N": 13
+        },
+        "abstention": {
+          "n": 2,
+          "N": 2
+        },
+        "false_abstention": {
+          "n": 2,
+          "N": 15
+        }
+      },
+      "summary": {
+        "method": "agent",
+        "total": 17,
+        "successful": 17,
+        "errors": 0,
+        "median_ms": 5330.243,
+        "answered": 13,
+        "abstain": 4,
+        "input_tokens": 23535,
+        "output_tokens": 3613,
+        "note": "Nhãn đúng/sai, citation và abstention cần chấm thủ công; lỗi được báo riêng."
+      },
+      "error_counts": {}
+    },
+    {
+      "run_id": "20261116-100808-agent-226af6a2",
+      "path": "starter/results/dev-runs/20261116-100808-agent-226af6a2",
+      "split": "dev",
+      "config": {
+        "method": "agent",
+        "split": "dev",
+        "top_k": 3,
+        "budget_chars": 4000,
+        "hybrid_candidates_per_method": null,
+        "max_searches": 3,
+        "model": "gpt-6-luna",
+        "embedding_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+        "stored_strategy": "A",
+        "filters": "none",
+        "limit": null,
+        "started_local": "2026-11-16T10:08:08.255366"
+      },
+      "dataset_version": "dev-original",
+      "total": 17,
+      "successful": 15,
+      "errors": 2,
+      "elapsed_all_seconds": 136.36954500000002,
+      "median_ms": 5499.339,
+      "recorded_usage_responses": 41,
+      "usage_cost": {
+        "input_tokens": 22434,
+        "output_tokens": 4767,
+        "uncached_input_tokens": 21180,
+        "cached_input_tokens": 0,
+        "cache_write_30m_tokens": 1254,
+        "cache_write_12h_tokens": 0,
+        "estimated_usd": "0.0046582500"
+      },
+      "search_distribution": {
+        "3": 4,
+        "1": 11
+      },
+      "metrics": {
+        "split": "dev",
+        "cases": 17,
+        "provider_errors": 2,
+        "tool_use": {
+          "n": 15,
+          "N": 15
+        },
+        "grounded_answer": {
+          "0": 1,
+          "1": 1,
+          "2": 11,
+          "N": 13,
+          "mean": 1.7692307692307692
+        },
+        "citation_validity": {
+          "n": 11,
+          "N": 12
+        },
+        "answer_citation_coverage": {
+          "n": 12,
+          "N": 12
+        },
+        "abstention": {
+          "n": 2,
+          "N": 2
+        },
+        "false_abstention": {
+          "n": 1,
+          "N": 13
+        }
+      },
+      "summary": {
+        "method": "agent",
+        "total": 17,
+        "successful": 15,
+        "errors": 2,
+        "median_ms": 5499.339,
+        "answered": 12,
+        "abstain": 3,
+        "input_tokens": 22434,
+        "output_tokens": 4767,
+        "note": "Nhãn đúng/sai, citation và abstention cần chấm thủ công; lỗi được báo riêng."
+      },
+      "error_counts": {
+        "JSONDecodeError": 2
+      }
+    },
+    {
+      "run_id": "20261116-100808-agent-77a4573b",
+      "path": "starter/results/dev-runs/20261116-100808-agent-77a4573b",
+      "split": "dev",
+      "config": {
+        "method": "agent",
+        "split": "dev",
+        "top_k": 3,
+        "budget_chars": 2000,
+        "hybrid_candidates_per_method": null,
+        "max_searches": 5,
+        "model": "gpt-6-luna",
+        "embedding_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+        "stored_strategy": "A",
+        "filters": "none",
+        "limit": null,
+        "started_local": "2026-11-16T10:08:08.255639"
+      },
+      "dataset_version": "dev-original",
+      "total": 17,
+      "successful": 17,
+      "errors": 0,
+      "elapsed_all_seconds": 138.833959,
+      "median_ms": 5319.803,
+      "recorded_usage_responses": 52,
+      "usage_cost": {
+        "input_tokens": 30176,
+        "output_tokens": 4656,
+        "uncached_input_tokens": 30176,
+        "cached_input_tokens": 0,
+        "cache_write_30m_tokens": 0,
+        "cache_write_12h_tokens": 0,
+        "estimated_usd": "0.0053456000"
+      },
+      "search_distribution": {
+        "5": 3,
+        "1": 12,
+        "4": 2
+      },
+      "metrics": {
+        "split": "dev",
+        "cases": 17,
+        "provider_errors": 0,
+        "tool_use": {
+          "n": 17,
+          "N": 17
+        },
+        "grounded_answer": {
+          "0": 2,
+          "1": 0,
+          "2": 13,
+          "N": 15,
+          "mean": 1.7333333333333334
+        },
+        "citation_validity": {
+          "n": 15,
+          "N": 15
+        },
+        "answer_citation_coverage": {
+          "n": 13,
+          "N": 13
+        },
+        "abstention": {
+          "n": 2,
+          "N": 2
+        },
+        "false_abstention": {
+          "n": 2,
+          "N": 15
+        }
+      },
+      "summary": {
+        "method": "agent",
+        "total": 17,
+        "successful": 17,
+        "errors": 0,
+        "median_ms": 5319.803,
+        "answered": 13,
+        "abstain": 4,
+        "input_tokens": 30176,
+        "output_tokens": 4656,
+        "note": "Nhãn đúng/sai, citation và abstention cần chấm thủ công; lỗi được báo riêng."
+      },
+      "error_counts": {}
+    },
+    {
+      "run_id": "20261116-101645-agent-12bd40ff",
+      "path": "starter/results/dev-runs/20261116-101645-agent-12bd40ff",
+      "split": "dev",
+      "config": {
+        "method": "agent",
+        "split": "dev",
+        "top_k": 3,
+        "budget_chars": 4000,
+        "hybrid_candidates_per_method": null,
+        "max_searches": 3,
+        "model": "gpt-6-luna",
+        "embedding_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+        "stored_strategy": "A",
+        "filters": "none",
+        "limit": null,
+        "case_id": "dev-auto-383",
+        "max_output_tokens": 1600,
+        "started_local": "2026-11-16T10:16:45.622359"
+      },
+      "dataset_version": "dev-unversioned",
+      "total": 1,
+      "successful": 1,
+      "errors": 0,
+      "elapsed_all_seconds": 16.647416,
+      "median_ms": 16647.416,
+      "recorded_usage_responses": 3,
+      "usage_cost": {
+        "input_tokens": 2047,
+        "output_tokens": 384,
+        "uncached_input_tokens": 970,
+        "cached_input_tokens": 0,
+        "cache_write_30m_tokens": 1077,
+        "cache_write_12h_tokens": 0,
+        "estimated_usd": "0.0004236250"
+      },
+      "search_distribution": {
+        "2": 1
+      },
+      "metrics": null,
+      "summary": {
+        "method": "agent",
+        "total": 1,
+        "successful": 1,
+        "errors": 0,
+        "median_ms": 16647.416,
+        "answered": 1,
+        "abstain": 0,
+        "input_tokens": 2047,
+        "output_tokens": 384,
+        "note": "Nhãn đúng/sai, citation và abstention cần chấm thủ công; lỗi được báo riêng."
+      },
+      "error_counts": {}
+    },
+    {
+      "run_id": "20261116-101645-agent-9a7c2fb4",
+      "path": "starter/results/dev-runs/20261116-101645-agent-9a7c2fb4",
+      "split": "dev",
+      "config": {
+        "method": "agent",
+        "split": "dev",
+        "top_k": 3,
+        "budget_chars": 4000,
+        "hybrid_candidates_per_method": null,
+        "max_searches": 3,
+        "model": "gpt-6-luna",
+        "embedding_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+        "stored_strategy": "A",
+        "filters": "none",
+        "limit": null,
+        "case_id": "dev-auto-384",
+        "max_output_tokens": 1600,
+        "started_local": "2026-11-16T10:16:45.634762"
+      },
+      "dataset_version": "dev-unversioned",
+      "total": 1,
+      "successful": 1,
+      "errors": 0,
+      "elapsed_all_seconds": 9.353461,
+      "median_ms": 9353.461,
+      "recorded_usage_responses": 3,
+      "usage_cost": {
+        "input_tokens": 1745,
+        "output_tokens": 308,
+        "uncached_input_tokens": 1745,
+        "cached_input_tokens": 0,
+        "cache_write_30m_tokens": 0,
+        "cache_write_12h_tokens": 0,
+        "estimated_usd": "0.0003285000"
+      },
+      "search_distribution": {
+        "2": 1
+      },
+      "metrics": null,
+      "summary": {
+        "method": "agent",
+        "total": 1,
+        "successful": 1,
+        "errors": 0,
+        "median_ms": 9353.461,
+        "answered": 1,
+        "abstain": 0,
+        "input_tokens": 1745,
+        "output_tokens": 308,
+        "note": "Nhãn đúng/sai, citation và abstention cần chấm thủ công; lỗi được báo riêng."
+      },
+      "error_counts": {}
+    },
+    {
+      "run_id": "20261116-101748-agent-519fb4bf",
+      "path": "starter/results/dev-runs/20261116-101748-agent-519fb4bf",
+      "split": "dev",
+      "config": {
+        "method": "agent",
+        "split": "dev",
+        "top_k": 3,
+        "budget_chars": 2000,
+        "hybrid_candidates_per_method": null,
+        "max_searches": 3,
+        "model": "gpt-6-luna",
+        "embedding_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+        "stored_strategy": "A",
+        "filters": "none",
+        "limit": null,
+        "case_id": null,
+        "max_output_tokens": 1600,
+        "started_local": "2026-11-16T10:17:48.299123"
+      },
+      "dataset_version": "dev-original",
+      "total": 17,
+      "successful": 17,
+      "errors": 0,
+      "elapsed_all_seconds": 104.222881,
+      "median_ms": 5218.228,
+      "recorded_usage_responses": 42,
+      "usage_cost": {
+        "input_tokens": 21900,
+        "output_tokens": 3625,
+        "uncached_input_tokens": 21900,
+        "cached_input_tokens": 0,
+        "cache_write_30m_tokens": 0,
+        "cache_write_12h_tokens": 0,
+        "estimated_usd": "0.0040025000"
+      },
+      "search_distribution": {
+        "3": 4,
+        "1": 13
+      },
+      "metrics": {
+        "split": "dev",
+        "cases": 17,
+        "provider_errors": 0,
+        "tool_use": {
+          "n": 17,
+          "N": 17
+        },
+        "grounded_answer": {
+          "0": 2,
+          "1": 0,
+          "2": 13,
+          "N": 15,
+          "mean": 1.7333333333333334
+        },
+        "citation_validity": {
+          "n": 13,
+          "N": 13
+        },
+        "answer_citation_coverage": {
+          "n": 13,
+          "N": 13
+        },
+        "abstention": {
+          "n": 2,
+          "N": 2
+        },
+        "false_abstention": {
+          "n": 2,
+          "N": 15
+        }
+      },
+      "summary": {
+        "method": "agent",
+        "total": 17,
+        "successful": 17,
+        "errors": 0,
+        "median_ms": 5218.228,
+        "answered": 13,
+        "abstain": 4,
+        "input_tokens": 21900,
+        "output_tokens": 3625,
+        "note": "Nhãn đúng/sai, citation và abstention cần chấm thủ công; lỗi được báo riêng."
+      },
+      "error_counts": {}
+    },
+    {
+      "run_id": "20261116-101748-agent-fbc1b0be",
+      "path": "starter/results/dev-runs/20261116-101748-agent-fbc1b0be",
+      "split": "dev",
+      "config": {
+        "method": "agent",
+        "split": "dev",
+        "top_k": 3,
+        "budget_chars": 4000,
+        "hybrid_candidates_per_method": null,
+        "max_searches": 3,
+        "model": "gpt-6-luna",
+        "embedding_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+        "stored_strategy": "A",
+        "filters": "none",
+        "limit": null,
+        "case_id": null,
+        "max_output_tokens": 1600,
+        "started_local": "2026-11-16T10:17:48.264379"
+      },
+      "dataset_version": "dev-original",
+      "total": 17,
+      "successful": 17,
+      "errors": 0,
+      "elapsed_all_seconds": 104.61281299999999,
+      "median_ms": 5306.43,
+      "recorded_usage_responses": 42,
+      "usage_cost": {
+        "input_tokens": 23819,
+        "output_tokens": 3630,
+        "uncached_input_tokens": 19148,
+        "cached_input_tokens": 0,
+        "cache_write_30m_tokens": 4671,
+        "cache_write_12h_tokens": 0,
+        "estimated_usd": "0.0043136750"
+      },
+      "search_distribution": {
+        "3": 3,
+        "1": 12,
+        "2": 2
+      },
+      "metrics": {
+        "split": "dev",
+        "cases": 17,
+        "provider_errors": 0,
+        "tool_use": {
+          "n": 17,
+          "N": 17
+        },
+        "grounded_answer": {
+          "0": 1,
+          "1": 0,
+          "2": 14,
+          "N": 15,
+          "mean": 1.8666666666666667
+        },
+        "citation_validity": {
+          "n": 14,
+          "N": 14
+        },
+        "answer_citation_coverage": {
+          "n": 14,
+          "N": 14
+        },
+        "abstention": {
+          "n": 2,
+          "N": 2
+        },
+        "false_abstention": {
+          "n": 1,
+          "N": 15
+        }
+      },
+      "summary": {
+        "method": "agent",
+        "total": 17,
+        "successful": 17,
+        "errors": 0,
+        "median_ms": 5306.43,
+        "answered": 14,
+        "abstain": 3,
+        "input_tokens": 23819,
+        "output_tokens": 3630,
+        "note": "Nhãn đúng/sai, citation và abstention cần chấm thủ công; lỗi được báo riêng."
+      },
+      "error_counts": {}
+    },
+    {
+      "run_id": "20261116-105850-agent-42699e90",
+      "path": "starter/results/dev-runs/20261116-105850-agent-42699e90",
+      "split": "dev",
+      "config": {
+        "method": "agent",
+        "split": "dev",
+        "top_k": 3,
+        "budget_chars": 2000,
+        "hybrid_candidates_per_method": null,
+        "max_searches": 3,
+        "model": "gpt-6-luna",
+        "embedding_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+        "stored_strategy": "A",
+        "filters": "none",
+        "limit": null,
+        "case_id": null,
+        "max_output_tokens": 1600,
+        "incomplete_retry_max_output_tokens": 3200,
+        "api_connection_max_retries": 0,
+        "data_sha256": {
+          "chunks.json": "ed862dd3af40defd02478cf1f87ce340ca58413b93357b93164b5c9240a71c1b",
+          "questions-dev.json": "15d56ce83ed325cd2395f5e0d39d9d7c98b71febbf0630ed20dfe7c7afd28e43",
+          "agent-cases-dev.json": "dede40f231e6d303ceaec9e86853a8ea1b4274e296b516bfaf474aee90220527"
+        },
+        "code_sha256": {
+          "run_dev.py": "ca0b34f7b09089e05e865ffa10df848eddbb4b1ac9944b3cd7b0a45117aefe8b",
+          "starter/agentic.py": "644d120c4ad348d88063953e26587d3a8b20089a35fae1a59e0eb3e7341cc5ac",
+          "starter/day6_backend/embeddings.py": "97d545bddb9fa89ad554a1a114f0e9eddfa6990e85b98c7222eb4770acb90ee9"
+        },
+        "started_local": "2026-11-16T10:58:50.544796"
+      },
+      "dataset_version": "dev-final",
+      "total": 17,
+      "successful": 15,
+      "errors": 2,
+      "elapsed_all_seconds": 241.85550100000003,
+      "median_ms": 5713.077,
+      "recorded_usage_responses": 37,
+      "usage_cost": {
+        "input_tokens": 18592,
+        "output_tokens": 4520,
+        "uncached_input_tokens": 18592,
+        "cached_input_tokens": 0,
+        "cache_write_30m_tokens": 0,
+        "cache_write_12h_tokens": 0,
+        "estimated_usd": "0.0041192000"
+      },
+      "search_distribution": {
+        "1": 13,
+        "3": 2
+      },
+      "metrics": {
+        "split": "dev",
+        "cases": 17,
+        "provider_errors": 2,
+        "tool_use": {
+          "n": 15,
+          "N": 15
+        },
+        "grounded_answer": {
+          "0": 1,
+          "1": 0,
+          "2": 12,
+          "N": 13,
+          "mean": 1.8461538461538463
+        },
+        "citation_validity": {
+          "n": 12,
+          "N": 12
+        },
+        "answer_citation_coverage": {
+          "n": 12,
+          "N": 12
+        },
+        "abstention": {
+          "n": 2,
+          "N": 2
+        },
+        "false_abstention": {
+          "n": 1,
+          "N": 13
+        },
+        "context_exact": {
+          "n": 12,
+          "N": 13
+        }
+      },
+      "summary": {
+        "method": "agent",
+        "total": 17,
+        "successful": 15,
+        "errors": 2,
+        "median_ms": 5713.077,
+        "answered": 12,
+        "abstain": 3,
+        "input_tokens": 18592,
+        "output_tokens": 4520,
+        "note": "Nhãn đúng/sai, citation và abstention cần chấm thủ công; lỗi được báo riêng."
+      },
+      "error_counts": {
+        "APIConnectionError": 1,
+        "BadRequestError": 1
+      }
+    },
+    {
+      "run_id": "20261116-105850-agent-c19ed2ae",
+      "path": "starter/results/dev-runs/20261116-105850-agent-c19ed2ae",
+      "split": "dev",
+      "config": {
+        "method": "agent",
+        "split": "dev",
+        "top_k": 3,
+        "budget_chars": 2000,
+        "hybrid_candidates_per_method": null,
+        "max_searches": 5,
+        "model": "gpt-6-luna",
+        "embedding_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+        "stored_strategy": "A",
+        "filters": "none",
+        "limit": null,
+        "case_id": null,
+        "max_output_tokens": 1600,
+        "incomplete_retry_max_output_tokens": 3200,
+        "api_connection_max_retries": 0,
+        "data_sha256": {
+          "chunks.json": "ed862dd3af40defd02478cf1f87ce340ca58413b93357b93164b5c9240a71c1b",
+          "questions-dev.json": "15d56ce83ed325cd2395f5e0d39d9d7c98b71febbf0630ed20dfe7c7afd28e43",
+          "agent-cases-dev.json": "dede40f231e6d303ceaec9e86853a8ea1b4274e296b516bfaf474aee90220527"
+        },
+        "code_sha256": {
+          "run_dev.py": "ca0b34f7b09089e05e865ffa10df848eddbb4b1ac9944b3cd7b0a45117aefe8b",
+          "starter/agentic.py": "644d120c4ad348d88063953e26587d3a8b20089a35fae1a59e0eb3e7341cc5ac",
+          "starter/day6_backend/embeddings.py": "97d545bddb9fa89ad554a1a114f0e9eddfa6990e85b98c7222eb4770acb90ee9"
+        },
+        "started_local": "2026-11-16T10:58:50.581060"
+      },
+      "dataset_version": "dev-final",
+      "total": 17,
+      "successful": 16,
+      "errors": 1,
+      "elapsed_all_seconds": 274.42081199999996,
+      "median_ms": 11553.085,
+      "recorded_usage_responses": 48,
+      "usage_cost": {
+        "input_tokens": 27473,
+        "output_tokens": 3902,
+        "uncached_input_tokens": 27473,
+        "cached_input_tokens": 0,
+        "cache_write_30m_tokens": 0,
+        "cache_write_12h_tokens": 0,
+        "estimated_usd": "0.0046983000"
+      },
+      "search_distribution": {
+        "1": 12,
+        "5": 4
+      },
+      "metrics": {
+        "split": "dev",
+        "cases": 17,
+        "provider_errors": 1,
+        "tool_use": {
+          "n": 16,
+          "N": 16
+        },
+        "grounded_answer": {
+          "0": 2,
+          "1": 0,
+          "2": 12,
+          "N": 14,
+          "mean": 1.7142857142857142
+        },
+        "citation_validity": {
+          "n": 12,
+          "N": 12
+        },
+        "answer_citation_coverage": {
+          "n": 12,
+          "N": 12
+        },
+        "abstention": {
+          "n": 2,
+          "N": 2
+        },
+        "false_abstention": {
+          "n": 2,
+          "N": 14
+        },
+        "context_exact": {
+          "n": 12,
+          "N": 14
+        }
+      },
+      "summary": {
+        "method": "agent",
+        "total": 17,
+        "successful": 16,
+        "errors": 1,
+        "median_ms": 11553.085,
+        "answered": 12,
+        "abstain": 4,
+        "input_tokens": 27473,
+        "output_tokens": 3902,
+        "note": "Nhãn đúng/sai, citation và abstention cần chấm thủ công; lỗi được báo riêng."
+      },
+      "error_counts": {
+        "APITimeoutError": 1
+      }
+    },
+    {
+      "run_id": "20261116-105850-agent-d59aedb5",
+      "path": "starter/results/dev-runs/20261116-105850-agent-d59aedb5",
+      "split": "dev",
+      "config": {
+        "method": "agent",
+        "split": "dev",
+        "top_k": 3,
+        "budget_chars": 4000,
+        "hybrid_candidates_per_method": null,
+        "max_searches": 3,
+        "model": "gpt-6-luna",
+        "embedding_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+        "stored_strategy": "A",
+        "filters": "none",
+        "limit": null,
+        "case_id": null,
+        "max_output_tokens": 1600,
+        "incomplete_retry_max_output_tokens": 3200,
+        "api_connection_max_retries": 0,
+        "data_sha256": {
+          "chunks.json": "ed862dd3af40defd02478cf1f87ce340ca58413b93357b93164b5c9240a71c1b",
+          "questions-dev.json": "15d56ce83ed325cd2395f5e0d39d9d7c98b71febbf0630ed20dfe7c7afd28e43",
+          "agent-cases-dev.json": "dede40f231e6d303ceaec9e86853a8ea1b4274e296b516bfaf474aee90220527"
+        },
+        "code_sha256": {
+          "run_dev.py": "ca0b34f7b09089e05e865ffa10df848eddbb4b1ac9944b3cd7b0a45117aefe8b",
+          "starter/agentic.py": "644d120c4ad348d88063953e26587d3a8b20089a35fae1a59e0eb3e7341cc5ac",
+          "starter/day6_backend/embeddings.py": "97d545bddb9fa89ad554a1a114f0e9eddfa6990e85b98c7222eb4770acb90ee9"
+        },
+        "started_local": "2026-11-16T10:58:50.580793"
+      },
+      "dataset_version": "dev-final",
+      "total": 17,
+      "successful": 16,
+      "errors": 1,
+      "elapsed_all_seconds": 258.670737,
+      "median_ms": 10657.728500000001,
+      "recorded_usage_responses": 43,
+      "usage_cost": {
+        "input_tokens": 24445,
+        "output_tokens": 5421,
+        "uncached_input_tokens": 23351,
+        "cached_input_tokens": 0,
+        "cache_write_30m_tokens": 1094,
+        "cache_write_12h_tokens": 0,
+        "estimated_usd": "0.0051823500"
+      },
+      "search_distribution": {
+        "1": 10,
+        "3": 4,
+        "2": 2
+      },
+      "metrics": {
+        "split": "dev",
+        "cases": 17,
+        "provider_errors": 1,
+        "tool_use": {
+          "n": 16,
+          "N": 16
+        },
+        "grounded_answer": {
+          "0": 1,
+          "1": 1,
+          "2": 12,
+          "N": 14,
+          "mean": 1.7857142857142858
+        },
+        "citation_validity": {
+          "n": 15,
+          "N": 15
+        },
+        "answer_citation_coverage": {
+          "n": 13,
+          "N": 13
+        },
+        "abstention": {
+          "n": 2,
+          "N": 2
+        },
+        "false_abstention": {
+          "n": 1,
+          "N": 14
+        },
+        "context_exact": {
+          "n": 13,
+          "N": 14
+        }
+      },
+      "summary": {
+        "method": "agent",
+        "total": 17,
+        "successful": 16,
+        "errors": 1,
+        "median_ms": 10657.728500000001,
+        "answered": 13,
+        "abstain": 3,
+        "input_tokens": 24445,
+        "output_tokens": 5421,
+        "note": "Nhãn đúng/sai, citation và abstention cần chấm thủ công; lỗi được báo riêng."
+      },
+      "error_counts": {
+        "APITimeoutError": 1
+      }
+    },
+    {
+      "run_id": "20261116-110050-dense-413f3660",
+      "path": "starter/results/dev-runs/20261116-110050-dense-413f3660",
+      "split": "dev",
+      "config": {
+        "method": "dense",
+        "split": "dev",
+        "top_k": 3,
+        "budget_chars": 2000,
+        "hybrid_candidates_per_method": null,
+        "max_searches": null,
+        "model": null,
+        "embedding_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+        "stored_strategy": "A",
+        "filters": "none",
+        "limit": null,
+        "case_id": null,
+        "max_output_tokens": null,
+        "incomplete_retry_max_output_tokens": null,
+        "api_connection_max_retries": null,
+        "data_sha256": {
+          "chunks.json": "ed862dd3af40defd02478cf1f87ce340ca58413b93357b93164b5c9240a71c1b",
+          "questions-dev.json": "15d56ce83ed325cd2395f5e0d39d9d7c98b71febbf0630ed20dfe7c7afd28e43",
+          "agent-cases-dev.json": "dede40f231e6d303ceaec9e86853a8ea1b4274e296b516bfaf474aee90220527"
+        },
+        "code_sha256": {
+          "run_dev.py": "ca0b34f7b09089e05e865ffa10df848eddbb4b1ac9944b3cd7b0a45117aefe8b",
+          "starter/agentic.py": "644d120c4ad348d88063953e26587d3a8b20089a35fae1a59e0eb3e7341cc5ac",
+          "starter/day6_backend/embeddings.py": "97d545bddb9fa89ad554a1a114f0e9eddfa6990e85b98c7222eb4770acb90ee9"
+        },
+        "started_local": "2026-11-16T11:00:50.392973"
+      },
+      "dataset_version": "dev-final",
+      "total": 15,
+      "successful": 15,
+      "errors": 0,
+      "elapsed_all_seconds": 1.41643,
+      "median_ms": 92.182,
+      "recorded_usage_responses": 0,
+      "usage_cost": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "uncached_input_tokens": 0,
+        "cached_input_tokens": 0,
+        "cache_write_30m_tokens": 0,
+        "cache_write_12h_tokens": 0,
+        "estimated_usd": "0.0000000000"
+      },
+      "search_distribution": {
+        "0": 15
+      },
+      "metrics": null,
+      "summary": {
+        "method": "dense",
+        "total": 15,
+        "successful": 15,
+        "errors": 0,
+        "median_ms": 92.182,
+        "hit1": 14,
+        "hit3": 14,
+        "context_hit": 14,
+        "metric_denominator": 15,
+        "note": "Evidence khớp nguyên văn với gold; đọc nguồn để kiểm tra evidence thay thế."
+      },
+      "error_counts": {}
+    },
+    {
+      "run_id": "20261116-110050-hybrid-02a2376c",
+      "path": "starter/results/dev-runs/20261116-110050-hybrid-02a2376c",
+      "split": "dev",
+      "config": {
+        "method": "hybrid",
+        "split": "dev",
+        "top_k": 3,
+        "budget_chars": 2000,
+        "hybrid_candidates_per_method": 10,
+        "max_searches": null,
+        "model": null,
+        "embedding_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+        "stored_strategy": "A",
+        "filters": "none",
+        "limit": null,
+        "case_id": null,
+        "max_output_tokens": null,
+        "incomplete_retry_max_output_tokens": null,
+        "api_connection_max_retries": null,
+        "data_sha256": {
+          "chunks.json": "ed862dd3af40defd02478cf1f87ce340ca58413b93357b93164b5c9240a71c1b",
+          "questions-dev.json": "15d56ce83ed325cd2395f5e0d39d9d7c98b71febbf0630ed20dfe7c7afd28e43",
+          "agent-cases-dev.json": "dede40f231e6d303ceaec9e86853a8ea1b4274e296b516bfaf474aee90220527"
+        },
+        "code_sha256": {
+          "run_dev.py": "ca0b34f7b09089e05e865ffa10df848eddbb4b1ac9944b3cd7b0a45117aefe8b",
+          "starter/agentic.py": "644d120c4ad348d88063953e26587d3a8b20089a35fae1a59e0eb3e7341cc5ac",
+          "starter/day6_backend/embeddings.py": "97d545bddb9fa89ad554a1a114f0e9eddfa6990e85b98c7222eb4770acb90ee9"
+        },
+        "started_local": "2026-11-16T11:00:50.395696"
+      },
+      "dataset_version": "dev-final",
+      "total": 15,
+      "successful": 15,
+      "errors": 0,
+      "elapsed_all_seconds": 1.4664169999999999,
+      "median_ms": 91.729,
+      "recorded_usage_responses": 0,
+      "usage_cost": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "uncached_input_tokens": 0,
+        "cached_input_tokens": 0,
+        "cache_write_30m_tokens": 0,
+        "cache_write_12h_tokens": 0,
+        "estimated_usd": "0.0000000000"
+      },
+      "search_distribution": {
+        "0": 15
+      },
+      "metrics": null,
+      "summary": {
+        "method": "hybrid",
+        "total": 15,
+        "successful": 15,
+        "errors": 0,
+        "median_ms": 91.729,
+        "hit1": 14,
+        "hit3": 15,
+        "context_hit": 15,
+        "metric_denominator": 15,
+        "note": "Evidence khớp nguyên văn với gold; đọc nguồn để kiểm tra evidence thay thế."
+      },
+      "error_counts": {}
+    },
+    {
+      "run_id": "20261116-110050-tfidf-334bf82c",
+      "path": "starter/results/dev-runs/20261116-110050-tfidf-334bf82c",
+      "split": "dev",
+      "config": {
+        "method": "tfidf",
+        "split": "dev",
+        "top_k": 3,
+        "budget_chars": 2000,
+        "hybrid_candidates_per_method": null,
+        "max_searches": null,
+        "model": null,
+        "embedding_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+        "stored_strategy": "A",
+        "filters": "none",
+        "limit": null,
+        "case_id": null,
+        "max_output_tokens": null,
+        "incomplete_retry_max_output_tokens": null,
+        "api_connection_max_retries": null,
+        "data_sha256": {
+          "chunks.json": "ed862dd3af40defd02478cf1f87ce340ca58413b93357b93164b5c9240a71c1b",
+          "questions-dev.json": "15d56ce83ed325cd2395f5e0d39d9d7c98b71febbf0630ed20dfe7c7afd28e43",
+          "agent-cases-dev.json": "dede40f231e6d303ceaec9e86853a8ea1b4274e296b516bfaf474aee90220527"
+        },
+        "code_sha256": {
+          "run_dev.py": "ca0b34f7b09089e05e865ffa10df848eddbb4b1ac9944b3cd7b0a45117aefe8b",
+          "starter/agentic.py": "644d120c4ad348d88063953e26587d3a8b20089a35fae1a59e0eb3e7341cc5ac",
+          "starter/day6_backend/embeddings.py": "97d545bddb9fa89ad554a1a114f0e9eddfa6990e85b98c7222eb4770acb90ee9"
+        },
+        "started_local": "2026-11-16T11:00:50.372444"
+      },
+      "dataset_version": "dev-final",
+      "total": 15,
+      "successful": 15,
+      "errors": 0,
+      "elapsed_all_seconds": 0.013016,
+      "median_ms": 0.874,
+      "recorded_usage_responses": 0,
+      "usage_cost": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "uncached_input_tokens": 0,
+        "cached_input_tokens": 0,
+        "cache_write_30m_tokens": 0,
+        "cache_write_12h_tokens": 0,
+        "estimated_usd": "0.0000000000"
+      },
+      "search_distribution": {
+        "0": 15
+      },
+      "metrics": null,
+      "summary": {
+        "method": "tfidf",
+        "total": 15,
+        "successful": 15,
+        "errors": 0,
+        "median_ms": 0.874,
+        "hit1": 13,
+        "hit3": 15,
+        "context_hit": 15,
+        "metric_denominator": 15,
+        "note": "Evidence khớp nguyên văn với gold; đọc nguồn để kiểm tra evidence thay thế."
+      },
+      "error_counts": {}
+    },
+    {
+      "run_id": "20261116-102522-baseline-1dac47cf",
+      "path": "starter/results/test-runs/20261116-102522-baseline-1dac47cf",
+      "split": "test",
+      "config": {
+        "split": "test",
+        "config": "baseline",
+        "method": "agent-dense",
+        "strategy": "A",
+        "budget_chars": 2000,
+        "max_searches": 3,
+        "top_k": 3,
+        "model": "gpt-6-luna",
+        "max_output_tokens": 1600,
+        "embedding_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+        "data_sha256": {
+          "chunks.json": "ed862dd3af40defd02478cf1f87ce340ca58413b93357b93164b5c9240a71c1b",
+          "questions-test.json": "21ad4735d93a1e12bf84a679771867152976e61b23bafc1ade41d1f4383c3545",
+          "agent-cases-test.json": "b85f5d4222d3475acd1719f4aed2da6fc022a99e1172fbe24610e9fb7d50d9a1"
+        },
+        "code_sha256": {
+          "run_test.py": "53e72caaa696db2da2cf9d635acf3776a1119602f62c5fdb44bce94c9adbe978",
+          "day6_agent.py": "59b885b02a3c7bed07af24b9e151d49995d20898be0d0efff405c1c3ae97f2e7",
+          "starter/agentic.py": "580cc573008f2d0e3cc6fd785d40029934648e6e5e333cdbe86f7f7db40e26a6"
+        },
+        "note": "Lựa chọn theo dev; test dùng để đánh giá, không dùng để chỉnh cấu hình."
+      },
+      "dataset_version": "test-v1",
+      "total": 7,
+      "successful": 6,
+      "errors": 1,
+      "elapsed_all_seconds": 69.13275999999999,
+      "median_ms": 8244.4165,
+      "recorded_usage_responses": 19,
+      "usage_cost": {
+        "input_tokens": 10628,
+        "output_tokens": 3038,
+        "uncached_input_tokens": 10628,
+        "cached_input_tokens": 0,
+        "cache_write_30m_tokens": 0,
+        "cache_write_12h_tokens": 0,
+        "estimated_usd": "0.0025818000"
+      },
+      "search_distribution": {
+        "3": 3,
+        "1": 3
+      },
+      "metrics": null,
+      "summary": {
+        "config": "baseline",
+        "total": 7,
+        "successful": 6,
+        "errors": 1,
+        "retrieval_denominator": 4,
+        "original_hit1": 3,
+        "original_hit3": 3,
+        "agent_context_hit": 4,
+        "answered": 3,
+        "abstain": 3,
+        "input_tokens": 10628,
+        "output_tokens": 3038,
+        "median_ms": 8244.4165,
+        "note": "Khớp nguyên văn gold chỉ là kiểm tra sơ bộ; chấm thủ công context, citation, câu trả lời và abstention."
+      },
+      "error_counts": {
+        "RuntimeError": 1
+      }
+    },
+    {
+      "run_id": "20261116-102522-candidate-c1647e44",
+      "path": "starter/results/test-runs/20261116-102522-candidate-c1647e44",
+      "split": "test",
+      "config": {
+        "split": "test",
+        "config": "candidate",
+        "method": "agent-dense",
+        "strategy": "A",
+        "budget_chars": 4000,
+        "max_searches": 3,
+        "top_k": 3,
+        "model": "gpt-6-luna",
+        "max_output_tokens": 1600,
+        "embedding_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+        "data_sha256": {
+          "chunks.json": "ed862dd3af40defd02478cf1f87ce340ca58413b93357b93164b5c9240a71c1b",
+          "questions-test.json": "21ad4735d93a1e12bf84a679771867152976e61b23bafc1ade41d1f4383c3545",
+          "agent-cases-test.json": "b85f5d4222d3475acd1719f4aed2da6fc022a99e1172fbe24610e9fb7d50d9a1"
+        },
+        "code_sha256": {
+          "run_test.py": "53e72caaa696db2da2cf9d635acf3776a1119602f62c5fdb44bce94c9adbe978",
+          "day6_agent.py": "59b885b02a3c7bed07af24b9e151d49995d20898be0d0efff405c1c3ae97f2e7",
+          "starter/agentic.py": "580cc573008f2d0e3cc6fd785d40029934648e6e5e333cdbe86f7f7db40e26a6"
+        },
+        "note": "Lựa chọn theo dev; test dùng để đánh giá, không dùng để chỉnh cấu hình."
+      },
+      "dataset_version": "test-v1",
+      "total": 7,
+      "successful": 0,
+      "errors": 7,
+      "elapsed_all_seconds": 9.291478000000001,
+      "median_ms": null,
+      "recorded_usage_responses": 0,
+      "usage_cost": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "uncached_input_tokens": 0,
+        "cached_input_tokens": 0,
+        "cache_write_30m_tokens": 0,
+        "cache_write_12h_tokens": 0,
+        "estimated_usd": "0.0000000000"
+      },
+      "search_distribution": {},
+      "metrics": null,
+      "summary": {
+        "config": "candidate",
+        "total": 7,
+        "successful": 0,
+        "errors": 7,
+        "retrieval_denominator": 0,
+        "original_hit1": 0,
+        "original_hit3": 0,
+        "agent_context_hit": 0,
+        "answered": 0,
+        "abstain": 0,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "median_ms": null,
+        "note": "Khớp nguyên văn gold chỉ là kiểm tra sơ bộ; chấm thủ công context, citation, câu trả lời và abstention."
+      },
+      "error_counts": {
+        "APIConnectionError": 7
+      }
+    },
+    {
+      "run_id": "20261116-102926-baseline-c22a875f",
+      "path": "starter/results/test-runs/20261116-102926-baseline-c22a875f",
+      "split": "test",
+      "config": {
+        "split": "test",
+        "config": "baseline",
+        "method": "agent-dense",
+        "strategy": "A",
+        "budget_chars": 2000,
+        "max_searches": 3,
+        "top_k": 3,
+        "model": "gpt-6-luna",
+        "max_output_tokens": 1600,
+        "incomplete_retry_max_output_tokens": 3200,
+        "api_connection_max_retries": 2,
+        "embedding_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+        "data_sha256": {
+          "chunks.json": "ed862dd3af40defd02478cf1f87ce340ca58413b93357b93164b5c9240a71c1b",
+          "questions-test.json": "21ad4735d93a1e12bf84a679771867152976e61b23bafc1ade41d1f4383c3545",
+          "agent-cases-test.json": "b85f5d4222d3475acd1719f4aed2da6fc022a99e1172fbe24610e9fb7d50d9a1"
+        },
+        "code_sha256": {
+          "run_test.py": "4945db311a6bb3f22ce30ec7ef5b5e060d6fbdb46236d36894e6078d1cfcfbf4",
+          "day6_agent.py": "a2cc34c5d74c17f8f2a23aa837a2db326ccc930f66997afce143610a8e5f2abf",
+          "starter/agentic.py": "580cc573008f2d0e3cc6fd785d40029934648e6e5e333cdbe86f7f7db40e26a6"
+        },
+        "note": "Lựa chọn theo dev; test dùng để đánh giá, không dùng để chỉnh cấu hình."
+      },
+      "dataset_version": "test-v1",
+      "total": 7,
+      "successful": 7,
+      "errors": 0,
+      "elapsed_all_seconds": 118.148728,
+      "median_ms": 8183.595,
+      "recorded_usage_responses": 22,
+      "usage_cost": {
+        "input_tokens": 12547,
+        "output_tokens": 3338,
+        "uncached_input_tokens": 12547,
+        "cached_input_tokens": 0,
+        "cache_write_30m_tokens": 0,
+        "cache_write_12h_tokens": 0,
+        "estimated_usd": "0.0029237000"
+      },
+      "search_distribution": {
+        "3": 3,
+        "1": 3,
+        "2": 1
+      },
+      "metrics": null,
+      "summary": {
+        "config": "baseline",
+        "total": 7,
+        "successful": 7,
+        "errors": 0,
+        "retrieval_denominator": 5,
+        "original_hit1": 4,
+        "original_hit3": 4,
+        "agent_context_hit": 5,
+        "answered": 4,
+        "abstain": 3,
+        "input_tokens": 12547,
+        "output_tokens": 3338,
+        "median_ms": 8183.595,
+        "note": "Khớp nguyên văn gold chỉ là kiểm tra sơ bộ; chấm thủ công context, citation, câu trả lời và abstention."
+      },
+      "error_counts": {}
+    },
+    {
+      "run_id": "20261116-103202-candidate-896d9107",
+      "path": "starter/results/test-runs/20261116-103202-candidate-896d9107",
+      "split": "test",
+      "config": {
+        "split": "test",
+        "config": "candidate",
+        "method": "agent-dense",
+        "strategy": "A",
+        "budget_chars": 4000,
+        "max_searches": 3,
+        "top_k": 3,
+        "model": "gpt-6-luna",
+        "max_output_tokens": 1600,
+        "incomplete_retry_max_output_tokens": 3200,
+        "api_connection_max_retries": 2,
+        "embedding_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+        "data_sha256": {
+          "chunks.json": "ed862dd3af40defd02478cf1f87ce340ca58413b93357b93164b5c9240a71c1b",
+          "questions-test.json": "21ad4735d93a1e12bf84a679771867152976e61b23bafc1ade41d1f4383c3545",
+          "agent-cases-test.json": "b85f5d4222d3475acd1719f4aed2da6fc022a99e1172fbe24610e9fb7d50d9a1"
+        },
+        "code_sha256": {
+          "run_test.py": "4945db311a6bb3f22ce30ec7ef5b5e060d6fbdb46236d36894e6078d1cfcfbf4",
+          "day6_agent.py": "a2cc34c5d74c17f8f2a23aa837a2db326ccc930f66997afce143610a8e5f2abf",
+          "starter/agentic.py": "580cc573008f2d0e3cc6fd785d40029934648e6e5e333cdbe86f7f7db40e26a6"
+        },
+        "note": "Lựa chọn theo dev; test dùng để đánh giá, không dùng để chỉnh cấu hình."
+      },
+      "dataset_version": "test-v1",
+      "total": 7,
+      "successful": 7,
+      "errors": 0,
+      "elapsed_all_seconds": 59.192807,
+      "median_ms": 6826.254,
+      "recorded_usage_responses": 19,
+      "usage_cost": {
+        "input_tokens": 11188,
+        "output_tokens": 3067,
+        "uncached_input_tokens": 8566,
+        "cached_input_tokens": 0,
+        "cache_write_30m_tokens": 2622,
+        "cache_write_12h_tokens": 0,
+        "estimated_usd": "0.0027178500"
+      },
+      "search_distribution": {
+        "1": 4,
+        "3": 1,
+        "2": 2
+      },
+      "metrics": null,
+      "summary": {
+        "config": "candidate",
+        "total": 7,
+        "successful": 7,
+        "errors": 0,
+        "retrieval_denominator": 5,
+        "original_hit1": 4,
+        "original_hit3": 4,
+        "agent_context_hit": 5,
+        "answered": 4,
+        "abstain": 3,
+        "input_tokens": 11188,
+        "output_tokens": 3067,
+        "median_ms": 6826.254,
+        "note": "Khớp nguyên văn gold chỉ là kiểm tra sơ bộ; chấm thủ công context, citation, câu trả lời và abstention."
+      },
+      "error_counts": {}
+    },
+    {
+      "run_id": "20261116-103658-baseline-d7c3d519",
+      "path": "starter/results/test-runs/20261116-103658-baseline-d7c3d519",
+      "split": "test",
+      "config": {
+        "split": "test",
+        "config": "baseline",
+        "method": "agent-dense",
+        "strategy": "A",
+        "budget_chars": 2000,
+        "max_searches": 3,
+        "top_k": 3,
+        "model": "gpt-6-luna",
+        "max_output_tokens": 1600,
+        "incomplete_retry_max_output_tokens": 3200,
+        "api_connection_max_retries": 2,
+        "embedding_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+        "data_sha256": {
+          "chunks.json": "ed862dd3af40defd02478cf1f87ce340ca58413b93357b93164b5c9240a71c1b",
+          "questions-test.json": "f1f3495a8b3db4a134ea400a90d87ff79929fb85848b6474a625ab62e7725d03",
+          "agent-cases-test.json": "28d8504f7308bea46345e7c364eb7550e13faebd5a438aa72272a573294e8ebe"
+        },
+        "code_sha256": {
+          "run_test.py": "4945db311a6bb3f22ce30ec7ef5b5e060d6fbdb46236d36894e6078d1cfcfbf4",
+          "day6_agent.py": "a2cc34c5d74c17f8f2a23aa837a2db326ccc930f66997afce143610a8e5f2abf",
+          "starter/agentic.py": "580cc573008f2d0e3cc6fd785d40029934648e6e5e333cdbe86f7f7db40e26a6"
+        },
+        "note": "Lựa chọn theo dev; test dùng để đánh giá, không dùng để chỉnh cấu hình."
+      },
+      "dataset_version": "test-v2",
+      "total": 7,
+      "successful": 6,
+      "errors": 1,
+      "elapsed_all_seconds": 71.659682,
+      "median_ms": 10107.7,
+      "recorded_usage_responses": 19,
+      "usage_cost": {
+        "input_tokens": 11086,
+        "output_tokens": 1643,
+        "uncached_input_tokens": 11086,
+        "cached_input_tokens": 0,
+        "cache_write_30m_tokens": 0,
+        "cache_write_12h_tokens": 0,
+        "estimated_usd": "0.0019301000"
+      },
+      "search_distribution": {
+        "3": 3,
+        "1": 2,
+        "2": 1
+      },
+      "metrics": {
+        "split": "test",
+        "cases": 7,
+        "provider_errors": 1,
+        "tool_use": {
+          "n": 6,
+          "N": 6
+        },
+        "grounded_answer": {
+          "0": 2,
+          "1": 0,
+          "2": 2,
+          "N": 4,
+          "mean": 1.0
+        },
+        "citation_validity": {
+          "n": 2,
+          "N": 3
+        },
+        "answer_citation_coverage": {
+          "n": 3,
+          "N": 3
+        },
+        "abstention": {
+          "n": 2,
+          "N": 2
+        },
+        "false_abstention": {
+          "n": 1,
+          "N": 4
+        }
+      },
+      "summary": {
+        "config": "baseline",
+        "total": 7,
+        "successful": 6,
+        "errors": 1,
+        "retrieval_denominator": 4,
+        "original_hit1": 1,
+        "original_hit3": 3,
+        "agent_context_hit": 3,
+        "answered": 3,
+        "abstain": 3,
+        "input_tokens": 11086,
+        "output_tokens": 1643,
+        "median_ms": 10107.7,
+        "note": "Khớp nguyên văn gold chỉ là kiểm tra sơ bộ; chấm thủ công context, citation, câu trả lời và abstention."
+      },
+      "error_counts": {
+        "BadRequestError": 1
+      }
+    },
+    {
+      "run_id": "20261116-103836-candidate-4c2c7046",
+      "path": "starter/results/test-runs/20261116-103836-candidate-4c2c7046",
+      "split": "test",
+      "config": {
+        "split": "test",
+        "config": "candidate",
+        "method": "agent-dense",
+        "strategy": "A",
+        "budget_chars": 4000,
+        "max_searches": 3,
+        "top_k": 3,
+        "model": "gpt-6-luna",
+        "max_output_tokens": 1600,
+        "incomplete_retry_max_output_tokens": 3200,
+        "api_connection_max_retries": 2,
+        "embedding_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+        "data_sha256": {
+          "chunks.json": "ed862dd3af40defd02478cf1f87ce340ca58413b93357b93164b5c9240a71c1b",
+          "questions-test.json": "f1f3495a8b3db4a134ea400a90d87ff79929fb85848b6474a625ab62e7725d03",
+          "agent-cases-test.json": "28d8504f7308bea46345e7c364eb7550e13faebd5a438aa72272a573294e8ebe"
+        },
+        "code_sha256": {
+          "run_test.py": "4945db311a6bb3f22ce30ec7ef5b5e060d6fbdb46236d36894e6078d1cfcfbf4",
+          "day6_agent.py": "a2cc34c5d74c17f8f2a23aa837a2db326ccc930f66997afce143610a8e5f2abf",
+          "starter/agentic.py": "580cc573008f2d0e3cc6fd785d40029934648e6e5e333cdbe86f7f7db40e26a6"
+        },
+        "note": "Lựa chọn theo dev; test dùng để đánh giá, không dùng để chỉnh cấu hình."
+      },
+      "dataset_version": "test-v2",
+      "total": 7,
+      "successful": 7,
+      "errors": 0,
+      "elapsed_all_seconds": 65.65867599999999,
+      "median_ms": 10190.052,
+      "recorded_usage_responses": 24,
+      "usage_cost": {
+        "input_tokens": 15268,
+        "output_tokens": 1979,
+        "uncached_input_tokens": 14080,
+        "cached_input_tokens": 0,
+        "cache_write_30m_tokens": 1188,
+        "cache_write_12h_tokens": 0,
+        "estimated_usd": "0.0025460000"
+      },
+      "search_distribution": {
+        "1": 2,
+        "3": 5
+      },
+      "metrics": {
+        "split": "test",
+        "cases": 7,
+        "provider_errors": 0,
+        "tool_use": {
+          "n": 7,
+          "N": 7
+        },
+        "grounded_answer": {
+          "0": 1,
+          "1": 0,
+          "2": 4,
+          "N": 5,
+          "mean": 1.6
+        },
+        "citation_validity": {
+          "n": 5,
+          "N": 5
+        },
+        "answer_citation_coverage": {
+          "n": 4,
+          "N": 4
+        },
+        "abstention": {
+          "n": 2,
+          "N": 2
+        },
+        "false_abstention": {
+          "n": 1,
+          "N": 5
+        }
+      },
+      "summary": {
+        "config": "candidate",
+        "total": 7,
+        "successful": 7,
+        "errors": 0,
+        "retrieval_denominator": 5,
+        "original_hit1": 2,
+        "original_hit3": 4,
+        "agent_context_hit": 4,
+        "answered": 4,
+        "abstain": 3,
+        "input_tokens": 15268,
+        "output_tokens": 1979,
+        "median_ms": 10190.052,
+        "note": "Khớp nguyên văn gold chỉ là kiểm tra sơ bộ; chấm thủ công context, citation, câu trả lời và abstention."
+      },
+      "error_counts": {}
+    },
+    {
+      "run_id": "20261116-104442-baseline-1fc447dc",
+      "path": "starter/results/test-runs/20261116-104442-baseline-1fc447dc",
+      "split": "test",
+      "config": {
+        "split": "test",
+        "config": "baseline",
+        "method": "agent-dense",
+        "strategy": "A",
+        "budget_chars": 2000,
+        "max_searches": 3,
+        "top_k": 3,
+        "model": "gpt-6-luna",
+        "max_output_tokens": 1600,
+        "incomplete_retry_max_output_tokens": 3200,
+        "api_connection_max_retries": 2,
+        "embedding_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+        "data_sha256": {
+          "chunks.json": "ed862dd3af40defd02478cf1f87ce340ca58413b93357b93164b5c9240a71c1b",
+          "questions-test.json": "f1f3495a8b3db4a134ea400a90d87ff79929fb85848b6474a625ab62e7725d03",
+          "agent-cases-test.json": "28d8504f7308bea46345e7c364eb7550e13faebd5a438aa72272a573294e8ebe"
+        },
+        "code_sha256": {
+          "run_test.py": "4945db311a6bb3f22ce30ec7ef5b5e060d6fbdb46236d36894e6078d1cfcfbf4",
+          "day6_agent.py": "a2cc34c5d74c17f8f2a23aa837a2db326ccc930f66997afce143610a8e5f2abf",
+          "starter/agentic.py": "580cc573008f2d0e3cc6fd785d40029934648e6e5e333cdbe86f7f7db40e26a6"
+        },
+        "note": "Lựa chọn theo dev; test dùng để đánh giá, không dùng để chỉnh cấu hình."
+      },
+      "dataset_version": "test-v2",
+      "total": 7,
+      "successful": 7,
+      "errors": 0,
+      "elapsed_all_seconds": 46.985295,
+      "median_ms": 6491.388,
+      "recorded_usage_responses": 17,
+      "usage_cost": {
+        "input_tokens": 8939,
+        "output_tokens": 1647,
+        "uncached_input_tokens": 8939,
+        "cached_input_tokens": 0,
+        "cache_write_30m_tokens": 0,
+        "cache_write_12h_tokens": 0,
+        "estimated_usd": "0.0017174000"
+      },
+      "search_distribution": {
+        "1": 5,
+        "2": 1,
+        "3": 1
+      },
+      "metrics": {
+        "split": "test",
+        "cases": 7,
+        "provider_errors": 0,
+        "tool_use": {
+          "n": 7,
+          "N": 7
+        },
+        "grounded_answer": {
+          "0": 1,
+          "1": 1,
+          "2": 3,
+          "N": 5,
+          "mean": 1.4
+        },
+        "citation_validity": {
+          "n": 5,
+          "N": 7
+        },
+        "answer_citation_coverage": {
+          "n": 5,
+          "N": 5
+        },
+        "abstention": {
+          "n": 2,
+          "N": 2
+        },
+        "false_abstention": {
+          "n": 0,
+          "N": 5
+        }
+      },
+      "summary": {
+        "config": "baseline",
+        "total": 7,
+        "successful": 7,
+        "errors": 0,
+        "retrieval_denominator": 5,
+        "original_hit1": 2,
+        "original_hit3": 4,
+        "agent_context_hit": 3,
+        "answered": 5,
+        "abstain": 2,
+        "input_tokens": 8939,
+        "output_tokens": 1647,
+        "median_ms": 6491.388,
+        "note": "Khớp nguyên văn gold chỉ là kiểm tra sơ bộ; chấm thủ công context, citation, câu trả lời và abstention."
+      },
+      "error_counts": {}
+    }
+  ]
+}

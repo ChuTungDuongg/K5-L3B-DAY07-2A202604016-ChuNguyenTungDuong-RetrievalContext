@@ -31,3 +31,16 @@ Index một tài liệu thực tế từ **100 trang** có bảng, ảnh và bi�
 ![Các bước thử nghiệm trên dev và đánh giá trên test](assets/experiment-loop.svg)
 
 Nộp code, cách chạy, cấu hình, benchmark, trace và [báo cáo](report/individual/MSSV_HoTen.md). Thời gian ở [checkpoints](CHECKPOINTS.md) là gợi ý, có thể điều chỉnh theo lớp và phạm vi thử nghiệm.
+
+
+## Bài làm của Chu Nguyễn Tùng Dương
+
+MSSV: **2A202604016**, lớp L3B. Controller và retriever thật nằm trong `starter/agentic.py`, backend Day 6 đã được đưa vào repo để có thể chạy trên máy khác.
+
+- [Báo cáo theo khung của thầy](report/individual/2A202604016_ChuNguyenTungDuong.md)
+- [Hướng dẫn cài đặt và tái lập](REPRODUCE.md)
+- [Bảng toàn bộ lượt chạy và quy ước chi phí](docs/RESULTS.md)
+- [Kiểm tra yêu cầu và các giới hạn còn lại](docs/REQUIREMENTS_AUDIT.md)
+- [Nguồn và điều kiện sử dụng dữ liệu](data/ATTRIBUTION.md)
+
+Giữ nguyên kết quả dev gốc, bộ dev đã bỏ câu trùng, test v1, test v2 và các lần lỗi/chạy lại. Không diễn giải các lượt lặp như những bộ test độc lập hoặc chỉ chọn kết quả tốt nhất.

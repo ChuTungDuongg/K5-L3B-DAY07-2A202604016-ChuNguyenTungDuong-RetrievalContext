@@ -1,0 +1,14 @@
+{
+  "method": "hybrid",
+  "split": "dev",
+  "top_k": 3,
+  "budget_chars": 2000,
+  "hybrid_candidates_per_method": 10,
+  "max_searches": null,
+  "model": null,
+  "embedding_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "stored_strategy": "A",
+  "filters": "none",
+  "limit": null,
+  "started_local": "2026-11-16T10:02:39.976285"
+}

@@ -1,0 +1,17 @@
+{
+  "checked_at_local": "2026-11-16T11:18:13.554064",
+  "database": "isolated day7_lab database at loopback port 55434",
+  "restored_chunks": 273,
+  "dimensions": 384,
+  "snapshot_check": "matched every A chunk, metadata and vector",
+  "question": "What is one focus of a NoSQL DBMS?",
+  "top3_ids": [
+    "openstax-intro-cs:p396:part0:fixed:500:50:1800",
+    "openstax-intro-cs:p382:part0:fixed:500:50:0",
+    "openstax-intro-cs:p376:part1:fixed:500:50:450"
+  ],
+  "reference_trace": "starter/results/dev-runs/20261116-110050-dense-413f3660/traces.json",
+  "same_top3_as_reference": true,
+  "openai_api_calls": 0,
+  "limitation": "Used the existing locked Day 6 Python environment and model cache; did not reinstall packages in a fresh venv."
+}

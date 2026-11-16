@@ -1,0 +1,16 @@
+{
+  "config": "baseline",
+  "total": 7,
+  "successful": 6,
+  "errors": 1,
+  "retrieval_denominator": 4,
+  "original_hit1": 1,
+  "original_hit3": 3,
+  "agent_context_hit": 3,
+  "answered": 3,
+  "abstain": 3,
+  "input_tokens": 11086,
+  "output_tokens": 1643,
+  "median_ms": 10107.7,
+  "note": "Khớp nguyên văn gold chỉ là kiểm tra sơ bộ; chấm thủ công context, citation, câu trả lời và abstention."
+}

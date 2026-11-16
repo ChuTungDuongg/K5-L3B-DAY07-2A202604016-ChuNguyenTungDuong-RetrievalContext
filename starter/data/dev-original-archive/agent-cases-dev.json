@@ -1,0 +1,108 @@
+[
+  {
+    "id": "dev01",
+    "split": "dev",
+    "question": "What is one focus of a NoSQL DBMS?",
+    "answerable": true
+  },
+  {
+    "id": "day6-q01",
+    "split": "dev",
+    "question": "What is data quality?",
+    "answerable": true
+  },
+  {
+    "id": "day6-q03",
+    "split": "dev",
+    "question": "Who has final authority over access to and use of data?",
+    "answerable": true
+  },
+  {
+    "id": "day6-q06",
+    "split": "dev",
+    "question": "How many people can use a single-user DBMS at one time?",
+    "answerable": true
+  },
+  {
+    "id": "day6-q08",
+    "split": "dev",
+    "question": "Where does an in-memory DBMS keep its data?",
+    "answerable": true
+  },
+  {
+    "id": "dev-auto-370",
+    "split": "dev",
+    "question": "Do TechWorks' departments share information system resources?",
+    "answerable": true
+  },
+  {
+    "id": "dev-auto-371",
+    "split": "dev",
+    "question": "How much information does the MOAB collection contain?",
+    "answerable": true
+  },
+  {
+    "id": "dev-auto-372",
+    "split": "dev",
+    "question": "What is the main benefit of data management?",
+    "answerable": true
+  },
+  {
+    "id": "dev-auto-373",
+    "split": "dev",
+    "question": "What is data quality?",
+    "answerable": true
+  },
+  {
+    "id": "dev-auto-374",
+    "split": "dev",
+    "question": "What is data governance?",
+    "answerable": true
+  },
+  {
+    "id": "dev-auto-379",
+    "split": "dev",
+    "question": "Name two industries in which databases and big data have a tremendous impact.",
+    "answerable": true
+  },
+  {
+    "id": "dev-auto-381",
+    "split": "dev",
+    "question": "What does a multiuser DBMS allow?",
+    "answerable": true
+  },
+  {
+    "id": "dev-auto-383",
+    "split": "dev",
+    "question": "What kinds of data are RDBMS not good at storing?",
+    "answerable": true
+  },
+  {
+    "id": "dev-auto-384",
+    "split": "dev",
+    "question": "What does DROP TABLE do?",
+    "answerable": true
+  },
+  {
+    "id": "dev-auto-385",
+    "split": "dev",
+    "question": "What does the Product operator return?",
+    "answerable": true
+  },
+  {
+    "id": "dev-no-evidence-01",
+    "split": "dev",
+    "question": "What is the database backup retention period in the internal policy of the fictional company Velmora Labs?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "The fictional entity Velmora Labs does not appear in any of the 273 stored strategy A chunks; its private organizational details are not supplied in this corpus."
+  },
+  {
+    "id": "dev-no-evidence-02",
+    "split": "dev",
+    "question": "Who is the database administrator at the fictional organization Ardenwick Systems?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "The fictional entity Ardenwick Systems does not appear in any of the 273 stored strategy A chunks; its private organizational details are not supplied in this corpus."
+  }
+]

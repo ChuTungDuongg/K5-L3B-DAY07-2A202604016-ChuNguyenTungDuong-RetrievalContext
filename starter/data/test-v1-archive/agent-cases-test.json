@@ -1,0 +1,48 @@
+[
+  {
+    "id": "test-388",
+    "split": "test",
+    "question": "What kind of software is typically used to design airplane wings?",
+    "answerable": true
+  },
+  {
+    "id": "test-390",
+    "split": "test",
+    "question": "What is the term for modeling data as tables of rows and columns?",
+    "answerable": true
+  },
+  {
+    "id": "test-392",
+    "split": "test",
+    "question": "What does disk storage refer to in the context of database tables?",
+    "answerable": true
+  },
+  {
+    "id": "test-398",
+    "split": "test",
+    "question": "What decision does a manager make using two-phase commit?",
+    "answerable": true
+  },
+  {
+    "id": "test-399",
+    "split": "test",
+    "question": "What is database recovery intended to do after a failure or problem?",
+    "answerable": true
+  },
+  {
+    "id": "test-no-evidence-01",
+    "split": "test",
+    "question": "What database encryption algorithm is mandated by the internal policy of the fictional company Lumeris Harbor?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "The fictional entity Lumeris Harbor does not appear in any of the 273 stored strategy A chunks; its private organizational details are not supplied in this corpus."
+  },
+  {
+    "id": "test-no-evidence-02",
+    "split": "test",
+    "question": "How many database servers does the fictional company Greymont Vale operate?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "The fictional entity Greymont Vale does not appear in any of the 273 stored strategy A chunks; its private organizational details are not supplied in this corpus."
+  }
+]

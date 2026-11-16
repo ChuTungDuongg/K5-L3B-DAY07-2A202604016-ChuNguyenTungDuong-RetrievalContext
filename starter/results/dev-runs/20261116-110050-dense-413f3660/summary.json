@@ -1,0 +1,12 @@
+{
+  "method": "dense",
+  "total": 15,
+  "successful": 15,
+  "errors": 0,
+  "median_ms": 92.182,
+  "hit1": 14,
+  "hit3": 14,
+  "context_hit": 14,
+  "metric_denominator": 15,
+  "note": "Evidence khớp nguyên văn với gold; đọc nguồn để kiểm tra evidence thay thế."
+}

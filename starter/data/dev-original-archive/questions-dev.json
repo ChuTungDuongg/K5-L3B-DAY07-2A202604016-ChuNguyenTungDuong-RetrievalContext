@@ -1,0 +1,197 @@
+[
+  {
+    "id": "dev01",
+    "split": "dev",
+    "question": "What is one focus of a NoSQL DBMS?",
+    "expected_answer": "Scalability.",
+    "gold": [
+      {
+        "source_id": "openstax-intro-cs",
+        "page": 380,
+        "evidence": "NoSQL DBMS focuses on scalability"
+      }
+    ]
+  },
+  {
+    "id": "day6-q01",
+    "split": "dev",
+    "question": "What is data quality?",
+    "expected_answer": "How well data represents its purpose or fitness for use.",
+    "gold": [
+      {
+        "source_id": "openstax-intro-cs",
+        "page": 373,
+        "evidence": "The measure of how well the data represents its purpose or fitness for use is called data quality (DQ)."
+      }
+    ]
+  },
+  {
+    "id": "day6-q03",
+    "split": "dev",
+    "question": "Who has final authority over access to and use of data?",
+    "expected_answer": "The data owner.",
+    "gold": [
+      {
+        "source_id": "openstax-intro-cs",
+        "page": 375,
+        "evidence": "The data owner has the authority to ultimately decide on the access to, and usage of, the data."
+      }
+    ]
+  },
+  {
+    "id": "day6-q06",
+    "split": "dev",
+    "question": "How many people can use a single-user DBMS at one time?",
+    "expected_answer": "Only one user at a time.",
+    "gold": [
+      {
+        "source_id": "openstax-intro-cs",
+        "page": 381,
+        "evidence": "With a single-user DBMS, only one user at a time can use the database."
+      }
+    ]
+  },
+  {
+    "id": "day6-q08",
+    "split": "dev",
+    "question": "Where does an in-memory DBMS keep its data?",
+    "expected_answer": "In internal memory rather than slower external storage.",
+    "gold": [
+      {
+        "source_id": "openstax-intro-cs",
+        "page": 381,
+        "evidence": "An in-memory DBMS stores all data in internal memory instead of slower external storage"
+      }
+    ]
+  },
+  {
+    "id": "dev-auto-370",
+    "split": "dev",
+    "question": "Do TechWorks' departments share information system resources?",
+    "expected_answer": "No; they do not share any resources.",
+    "gold": [
+      {
+        "source_id": "openstax-intro-cs",
+        "page": 370,
+        "evidence": "Each department has its own information system and database; they do not share any resources."
+      }
+    ]
+  },
+  {
+    "id": "dev-auto-371",
+    "split": "dev",
+    "question": "How much information does the MOAB collection contain?",
+    "expected_answer": "12 TB.",
+    "gold": [
+      {
+        "source_id": "openstax-intro-cs",
+        "page": 371,
+        "evidence": "12\nTB of information from LinkedIn, X (formerly Twitter), Weibo, Tencent, and other platforms’ user data."
+      }
+    ]
+  },
+  {
+    "id": "dev-auto-372",
+    "split": "dev",
+    "question": "What is the main benefit of data management?",
+    "expected_answer": "It minimizes potential errors by controlling access to data using policies.",
+    "gold": [
+      {
+        "source_id": "openstax-intro-cs",
+        "page": 372,
+        "evidence": "The main benefit of data management is to\nminimize potential errors by controlling access to data using a set of policies."
+      }
+    ]
+  },
+  {
+    "id": "dev-auto-373",
+    "split": "dev",
+    "question": "What is data quality?",
+    "expected_answer": "The measure of how well the data represents its purpose or fitness for use.",
+    "gold": [
+      {
+        "source_id": "openstax-intro-cs",
+        "page": 373,
+        "evidence": "The measure of how well the data represents its purpose or fitness for use is called data quality (DQ)."
+      }
+    ]
+  },
+  {
+    "id": "dev-auto-374",
+    "split": "dev",
+    "question": "What is data governance?",
+    "expected_answer": "A set of clear roles, policies, and responsibilities for managing and safeguarding data quality using internally set rules and policies.",
+    "gold": [
+      {
+        "source_id": "openstax-intro-cs",
+        "page": 374,
+        "evidence": "The set of clear roles, policies, and responsibilities that enables a business to manage and safeguard data\nquality using internally set rules and policies is called data governance."
+      }
+    ]
+  },
+  {
+    "id": "dev-auto-379",
+    "split": "dev",
+    "question": "Name two industries in which databases and big data have a tremendous impact.",
+    "expected_answer": "Banking and insurance.",
+    "gold": [
+      {
+        "source_id": "openstax-intro-cs",
+        "page": 379,
+        "evidence": "Databases, database technology, and “big data” (complex datasets) have a tremendous impact in industries\nsuch as banking, insurance, retail, health care, real estate, e-commerce, law, education, and more recently,\nsocial networks."
+      }
+    ]
+  },
+  {
+    "id": "dev-auto-381",
+    "split": "dev",
+    "question": "What does a multiuser DBMS allow?",
+    "expected_answer": "Many users to use the database concurrently.",
+    "gold": [
+      {
+        "source_id": "openstax-intro-cs",
+        "page": 381,
+        "evidence": "A multiuser DBMS allows many users\nto use the database concurrently."
+      }
+    ]
+  },
+  {
+    "id": "dev-auto-383",
+    "split": "dev",
+    "question": "What kinds of data are RDBMS not good at storing?",
+    "expected_answer": "Unstructured or semistructured data.",
+    "gold": [
+      {
+        "source_id": "openstax-intro-cs",
+        "page": 383,
+        "evidence": "Due to the use of database logical schemas that constrain the row-based table structure and require each field\nto abide to specific type constraints, RDBMS are not good at storing unstructured or semistructured data."
+      }
+    ]
+  },
+  {
+    "id": "dev-auto-384",
+    "split": "dev",
+    "question": "What does DROP TABLE do?",
+    "expected_answer": "It drops an existing table in a database.",
+    "gold": [
+      {
+        "source_id": "openstax-intro-cs",
+        "page": 384,
+        "evidence": "DROP TABLE is used to\ndrop an existing table in a database"
+      }
+    ]
+  },
+  {
+    "id": "dev-auto-385",
+    "split": "dev",
+    "question": "What does the Product operator return?",
+    "expected_answer": "The Cartesian Product of two relations.",
+    "gold": [
+      {
+        "source_id": "openstax-intro-cs",
+        "page": 385,
+        "evidence": "The Product operator (also known as the Cartesian product, Cross Product, or Cross Join operator) returns the\nCartesian Product of two relations."
+      }
+    ]
+  }
+]

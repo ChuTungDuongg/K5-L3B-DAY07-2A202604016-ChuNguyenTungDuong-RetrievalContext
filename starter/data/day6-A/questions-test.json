@@ -1,0 +1,67 @@
+[
+  {
+    "id": "v2-test-386",
+    "split": "test",
+    "question": "Why are Select, Project, Difference, Product, and Union considered primitive relational algebra operators?",
+    "expected_answer": "Because all other relational algebra operators can be derived from them.",
+    "gold": [
+      {
+        "source_id": "openstax-intro-cs",
+        "page": 386,
+        "evidence": "all other relational algebra operators can be derived from them"
+      }
+    ]
+  },
+  {
+    "id": "v2-test-387",
+    "split": "test",
+    "question": "What happens to a tuple when a relational calculus formula evaluates to true?",
+    "expected_answer": "The tuple is selected in the result.",
+    "gold": [
+      {
+        "source_id": "openstax-intro-cs",
+        "page": 387,
+        "evidence": "If the result is true, the tuple will be selected in the\nresult."
+      }
+    ]
+  },
+  {
+    "id": "v2-test-391",
+    "split": "test",
+    "question": "How is a dependent fully identified when it is modeled as a weak entity?",
+    "expected_answer": "By using the ID of the employee, the strong entity.",
+    "gold": [
+      {
+        "source_id": "openstax-intro-cs",
+        "page": 391,
+        "evidence": "the ID of the employee, who is the strong entity, needs to be used to fully identify a\ndependent."
+      }
+    ]
+  },
+  {
+    "id": "v2-test-393",
+    "split": "test",
+    "question": "What is a tablespace in physical database organization?",
+    "expected_answer": "It is the physical memory container where tables are stored.",
+    "gold": [
+      {
+        "source_id": "openstax-intro-cs",
+        "page": 393,
+        "evidence": "A tablespace is where tables are stored physically in the memory (i.e., the physical container of database\nobjects)."
+      }
+    ]
+  },
+  {
+    "id": "v2-test-397",
+    "split": "test",
+    "question": "Which RDBMS feature addresses the coordination of simultaneous database activity?",
+    "expected_answer": "Concurrency control.",
+    "gold": [
+      {
+        "source_id": "openstax-intro-cs",
+        "page": 397,
+        "evidence": "The coordination of transactions that execute simultaneously on the same data so that they do not cause\ninconsistencies because of mutual interference is called concurrency control."
+      }
+    ]
+  }
+]

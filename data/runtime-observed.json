@@ -1,0 +1,12 @@
+{
+  "python": "3.13.9",
+  "platform": "Windows-11-10.0.26100-SP0",
+  "packages": {
+    "openai": "3.51.0",
+    "sentence-transformers": "6.3.0",
+    "torch": "2.15.0",
+    "transformers": "5.23.0",
+    "psycopg": "3.3.8",
+    "python-dotenv": "1.2.4"
+  }
+}

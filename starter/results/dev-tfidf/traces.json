@@ -1,0 +1,70 @@
+[
+  {
+    "query_id": "dev01",
+    "split": "dev",
+    "question": "What is one focus of a NoSQL DBMS?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "openstax-intro-cs",
+        "page": 380,
+        "evidence": "NoSQL DBMS focuses on scalability"
+      }
+    ],
+    "results": [
+      {
+        "id": "openstax-intro-cs:p403:part0:fixed:500:50:2250",
+        "text": "ystem can accommodate changes in data types and\nschema. Designed to distribute data across different nodes, NoSQL databases are generally more horizontally\nscalable and fault-tolerant. MongoDB Atlas is an example of a NoSQL database system that is fully managed\nand operates on the cloud.\nNoSQL DBMS is not ACID compliant and data consistency is not guaranteed. NoSQL DBMSs provide eventual\nconsistency instead: when old data are getting overwritten, results that are a little wrong are temporarily\nr",
+        "source_id": "openstax-intro-cs",
+        "source": "https://openstax.org/details/books/introduction-computer-science",
+        "page": 403,
+        "metadata": {
+          "part": 0,
+          "section": "8.4"
+        },
+        "score": 0.22975909823238336,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "openstax-intro-cs:p380:part0:fixed:500:50:1800",
+        "text": "age structure, or XML-enabled DBMS (e.g., Oracle and IBM Db2) are existing DBMS that are extended\nwith facilities to store XML data.\n• A not-only SQL DBMS, or NoSQL DBMS, comes in a variety of big unstructured data classified as a\ndocument, a graph, key-value stores, and column-oriented databases. NoSQL DBMS focuses on scalability\nand the ability to cope with irregular or highly volatile data structures (e.g., Apache Hadoop, MongoDB,\nNeo4j). The irregular data structures appear when the data don",
+        "source_id": "openstax-intro-cs",
+        "source": "https://openstax.org/details/books/introduction-computer-science",
+        "page": 380,
+        "metadata": {
+          "part": 0,
+          "section": "8.2"
+        },
+        "score": 0.21515102523097385,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "openstax-intro-cs:p382:part0:fixed:500:50:0",
+        "text": "DBMS Usage Areas\nDBMS applications include the following: online transaction processing, online analytical processing, big data\nand analytics, multimedia DBMS, and open-source DBMS. In online transaction processing (OLTP), the focus\nis on managing operational or transactional data. The database server must be able to process lots of simple\ntransactions per unit of time. A DBMS must have good support for processing a high volume of short and\nsimple queries (e.g., RDBMS). In online analytical proc",
+        "source_id": "openstax-intro-cs",
+        "source": "https://openstax.org/details/books/introduction-computer-science",
+        "page": 382,
+        "metadata": {
+          "part": 0,
+          "section": "8.2"
+        },
+        "score": 0.17918011525462682,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[openstax-intro-cs:p403:part0:fixed:500:50:2250 | https://openstax.org/details/books/introduction-computer-science | page 403]\nystem can accommodate changes in data types and\nschema. Designed to distribute data across different nodes, NoSQL databases are generally more horizontally\nscalable and fault-tolerant. MongoDB Atlas is an example of a NoSQL database system that is fully managed\nand operates on the cloud.\nNoSQL DBMS is not ACID compliant and data consistency is not guaranteed. NoSQL DBMSs provide eventual\nconsistency instead: when old data are getting overwritten, results that are a little wrong are temporarily\nr",
+    "context_ids": [
+      "openstax-intro-cs:p403:part0:fixed:500:50:2250"
+    ],
+    "context_chars": 627,
+    "elapsed_ms": 0.8128000008582603,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": false
+  }
+]

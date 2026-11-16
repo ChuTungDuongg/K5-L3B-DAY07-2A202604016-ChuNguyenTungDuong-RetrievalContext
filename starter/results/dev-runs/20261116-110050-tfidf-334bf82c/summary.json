@@ -1,0 +1,12 @@
+{
+  "method": "tfidf",
+  "total": 15,
+  "successful": 15,
+  "errors": 0,
+  "median_ms": 0.874,
+  "hit1": 13,
+  "hit3": 15,
+  "context_hit": 15,
+  "metric_denominator": 15,
+  "note": "Evidence khớp nguyên văn với gold; đọc nguồn để kiểm tra evidence thay thế."
+}

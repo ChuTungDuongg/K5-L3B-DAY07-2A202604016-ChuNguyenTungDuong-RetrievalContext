@@ -1,0 +1,248 @@
+[
+  {
+    "query_id": "dev01",
+    "split": "dev",
+    "question": "What is one focus of a NoSQL DBMS?",
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "NoSQL DBMS focus purpose one focus of a NoSQL database management system such as scalability, flexible schemas, distributed data storage?",
+        "filter": null,
+        "results": [
+          {
+            "chunk_id": "openstax-intro-cs:p376:part1:fixed:500:50:450",
+            "document_id": "openstax-intro-cs",
+            "source": "https://openstax.org/details/books/introduction-computer-science",
+            "page": 376,
+            "text": "llection of related data, we call it a database. To store, retrieve, edit, and maintain the related data in the\ndatabase we need a system called a database management system (DBMS).\nDefinition and Characteristics\nData, data model, database, and DBMS concepts are connected to each other. Data relate to known facts that\ncan be recorded and have an implicit meaning. A data model is an abstract model that contains a set of\n366 8 • Data Management\nAccess for free at openstax.org",
+            "metadata": {
+              "part": 1,
+              "section": "8.2"
+            },
+            "score": 0.7999229340564399,
+            "id": "openstax-intro-cs:p376:part1:fixed:500:50:450",
+            "source_id": "openstax-intro-cs"
+          },
+          {
+            "chunk_id": "openstax-intro-cs:p396:part0:fixed:500:50:1350",
+            "document_id": "openstax-intro-cs",
+            "source": "https://openstax.org/details/books/introduction-computer-science",
+            "page": 396,
+            "text": "nsist of multiple physical, distributed machines.\nDatabase APIs\nIn a tiered DBMS system architecture, client applications can query database servers and receive results. It is\npossible to use in-process DBMSs (e.g., SQLite) or access stand-alone DBMS servers (e.g., Postgres). Client\napplications that wish to utilize the services provided by a DBMS use a specific API provided by the DBMS. This\ndatabase API exposes an interface through which client applications can access and query a DBMS. The\ndat",
+            "metadata": {
+              "part": 0,
+              "section": "8.3"
+            },
+            "score": 0.7739824273856329,
+            "id": "openstax-intro-cs:p396:part0:fixed:500:50:1350",
+            "source_id": "openstax-intro-cs"
+          },
+          {
+            "chunk_id": "openstax-intro-cs:p396:part0:fixed:500:50:0",
+            "document_id": "openstax-intro-cs",
+            "source": "https://openstax.org/details/books/introduction-computer-science",
+            "page": 396,
+            "text": "RDBMS Architectures\nA relational database management system (RDBMS) architecture is categorized as a centralized system\narchitecture and a tiered system architecture. In centralized system architecture, the DBMS’s responsibilities\nare handled by one centralized entity—the mainframe database, which has become rare, expensive, and\ndifficult to maintain. The tiered system architectures aim to decouple the centralized setup by combining the\ncomputing capabilities of powerful central computers with t",
+            "metadata": {
+              "part": 0,
+              "section": "8.3"
+            },
+            "score": 0.7609570473400952,
+            "id": "openstax-intro-cs:p396:part0:fixed:500:50:0",
+            "source_id": "openstax-intro-cs"
+          }
+        ],
+        "context": "[openstax-intro-cs:p376:part1:fixed:500:50:450 | https://openstax.org/details/books/introduction-computer-science | page 376]\nllection of related data, we call it a database. To store, retrieve, edit, and maintain the related data in the\ndatabase we need a system called a database management system (DBMS).\nDefinition and Characteristics\nData, data model, database, and DBMS concepts are connected to each other. Data relate to known facts that\ncan be recorded and have an implicit meaning. A data model is an abstract model that contains a set of\n366 8 • Data Management\nAccess for free at openstax.org\n\n[openstax-intro-cs:p396:part0:fixed:500:50:1350 | https://openstax.org/details/books/introduction-computer-science | page 396]\nnsist of multiple physical, distributed machines.\nDatabase APIs\nIn a tiered DBMS system architecture, client applications can query database servers and receive results. It is\npossible to use in-process DBMSs (e.g., SQLite) or access stand-alone DBMS servers (e.g., Postgres). Client\napplications that wish to utilize the services provided by a DBMS use a specific API provided by the DBMS. This\ndatabase API exposes an interface through which client applications can access and query a DBMS. The\ndat\n\n[openstax-intro-cs:p396:part0:fixed:500:50:0 | https://openstax.org/details/books/introduction-computer-science | page 396]\nRDBMS Architectures\nA relational database management system (RDBMS) architecture is categorized as a centralized system\narchitecture and a tiered system architecture. In centralized system architecture, the DBMS’s responsibilities\nare handled by one centralized entity—the mainframe database, which has become rare, expensive, and\ndifficult to maintain. The tiered system architectures aim to decouple the centralized setup by combining the\ncomputing capabilities of powerful central computers with t",
+        "context_ids": [
+          "openstax-intro-cs:p376:part1:fixed:500:50:450",
+          "openstax-intro-cs:p396:part0:fixed:500:50:1350",
+          "openstax-intro-cs:p396:part0:fixed:500:50:0"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "NoSQL DBMS one focus purpose scalability flexible schema distributed storage non-relational databases focus on scaling large amounts of data.",
+        "filter": null,
+        "results": [
+          {
+            "chunk_id": "openstax-intro-cs:p405:part0:fixed:500:50:0",
+            "document_id": "openstax-intro-cs",
+            "source": "https://openstax.org/details/books/introduction-computer-science",
+            "page": 405,
+            "text": "Transaction Management and Concurrency in NoSQL Databases\nWith the increasing amount of data, the number of parallel transactions has increased. In this case, the\ncapacity can be increased by extending the system capabilities (vertical scaling) or arranging multiple servers\nin a cluster (horizontal scaling). NoSQL databases distribute data over a cluster of database nodes for the sake\nof performance and availability.\nIn many NoSQL implementations (e.g., Cassandra, Google’s BigTable, Amazon’s Dyn",
+            "metadata": {
+              "part": 0,
+              "section": "8.4"
+            },
+            "score": 0.732132097166629,
+            "id": "openstax-intro-cs:p405:part0:fixed:500:50:0",
+            "source_id": "openstax-intro-cs"
+          },
+          {
+            "chunk_id": "openstax-intro-cs:p377:part0:fixed:500:50:0",
+            "document_id": "openstax-intro-cs",
+            "source": "https://openstax.org/details/books/introduction-computer-science",
+            "page": 377,
+            "text": "concepts to describe the structure of a database, the operations for manipulating these structures, and certain\nconstraints that the database should obey. A database is a collection of related data items within a specific\nbusiness process or problem setting; an example of a large commercial database is the one maintained by\namazon.com. A DBMS is the software package used to define, create, use, and maintain a database while\nconsidering appropriate security measures. A miniworld, or universe of d",
+            "metadata": {
+              "part": 0,
+              "section": "8.2"
+            },
+            "score": 0.7170203690791134,
+            "id": "openstax-intro-cs:p377:part0:fixed:500:50:0",
+            "source_id": "openstax-intro-cs"
+          },
+          {
+            "chunk_id": "openstax-intro-cs:p400:part1:fixed:500:50:450",
+            "document_id": "openstax-intro-cs",
+            "source": "https://openstax.org/details/books/introduction-computer-science",
+            "page": 400,
+            "text": " Summarize unstructured data and the advent of not only SQL (NoSQL) databases\n• Differentiate cloud-related data management services and other types of databases\nA nonrelational database is a database that does not use a traditional method for storing data such as rows\nand columns. Instead, nonrelational databases use a different storage model with specific requirements based\non the type of data being stored. Relational databases typically store data in tables, with columns representing\nthe attr",
+            "metadata": {
+              "part": 1,
+              "section": "8.4"
+            },
+            "score": 0.7138876984715308,
+            "id": "openstax-intro-cs:p400:part1:fixed:500:50:450",
+            "source_id": "openstax-intro-cs"
+          }
+        ],
+        "context": "[openstax-intro-cs:p376:part1:fixed:500:50:450 | https://openstax.org/details/books/introduction-computer-science | page 376]\nllection of related data, we call it a database. To store, retrieve, edit, and maintain the related data in the\ndatabase we need a system called a database management system (DBMS).\nDefinition and Characteristics\nData, data model, database, and DBMS concepts are connected to each other. Data relate to known facts that\ncan be recorded and have an implicit meaning. A data model is an abstract model that contains a set of\n366 8 • Data Management\nAccess for free at openstax.org\n\n[openstax-intro-cs:p396:part0:fixed:500:50:1350 | https://openstax.org/details/books/introduction-computer-science | page 396]\nnsist of multiple physical, distributed machines.\nDatabase APIs\nIn a tiered DBMS system architecture, client applications can query database servers and receive results. It is\npossible to use in-process DBMSs (e.g., SQLite) or access stand-alone DBMS servers (e.g., Postgres). Client\napplications that wish to utilize the services provided by a DBMS use a specific API provided by the DBMS. This\ndatabase API exposes an interface through which client applications can access and query a DBMS. The\ndat\n\n[openstax-intro-cs:p396:part0:fixed:500:50:0 | https://openstax.org/details/books/introduction-computer-science | page 396]\nRDBMS Architectures\nA relational database management system (RDBMS) architecture is categorized as a centralized system\narchitecture and a tiered system architecture. In centralized system architecture, the DBMS’s responsibilities\nare handled by one centralized entity—the mainframe database, which has become rare, expensive, and\ndifficult to maintain. The tiered system architectures aim to decouple the centralized setup by combining the\ncomputing capabilities of powerful central computers with t",
+        "context_ids": [
+          "openstax-intro-cs:p376:part1:fixed:500:50:450",
+          "openstax-intro-cs:p396:part0:fixed:500:50:1350",
+          "openstax-intro-cs:p396:part0:fixed:500:50:0"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "What is one focus of a NoSQL DBMS? Find a source explicitly describing NoSQL database management system priorities or purpose.",
+        "filter": null,
+        "results": [
+          {
+            "chunk_id": "openstax-intro-cs:p376:part1:fixed:500:50:450",
+            "document_id": "openstax-intro-cs",
+            "source": "https://openstax.org/details/books/introduction-computer-science",
+            "page": 376,
+            "text": "llection of related data, we call it a database. To store, retrieve, edit, and maintain the related data in the\ndatabase we need a system called a database management system (DBMS).\nDefinition and Characteristics\nData, data model, database, and DBMS concepts are connected to each other. Data relate to known facts that\ncan be recorded and have an implicit meaning. A data model is an abstract model that contains a set of\n366 8 • Data Management\nAccess for free at openstax.org",
+            "metadata": {
+              "part": 1,
+              "section": "8.2"
+            },
+            "score": 0.6805551536438984,
+            "id": "openstax-intro-cs:p376:part1:fixed:500:50:450",
+            "source_id": "openstax-intro-cs"
+          },
+          {
+            "chunk_id": "openstax-intro-cs:p396:part0:fixed:500:50:1800",
+            "document_id": "openstax-intro-cs",
+            "source": "https://openstax.org/details/books/introduction-computer-science",
+            "page": 396,
+            "text": " applications can access and query a DBMS. The\ndatabase server receives calls made by clients and executes the relevant operations before returning the\nresults. In many cases, the client and server interfaces are implemented to work over a computer network\nusing network sockets. The main goal of a database API is to expose an interface through which other parties\ncan utilize the services provided by the DBMS. Most DBMS vendors provide a proprietary, DBMS-specific API\n(the disadvantage is that cl",
+            "metadata": {
+              "part": 0,
+              "section": "8.3"
+            },
+            "score": 0.6489664470984792,
+            "id": "openstax-intro-cs:p396:part0:fixed:500:50:1800",
+            "source_id": "openstax-intro-cs"
+          },
+          {
+            "chunk_id": "openstax-intro-cs:p395:part0:fixed:500:50:2250",
+            "document_id": "openstax-intro-cs",
+            "source": "https://openstax.org/details/books/introduction-computer-science",
+            "page": 395,
+            "text": "ign that helps design, develop, implement, and\nmaintain the DBMS. This section covers RDBMS architectures, database APIs, object persistence and object-\nrelational mappings (ORMs), and sample RDBMS applications.\n8.3 • Relational Database Management Systems 385",
+            "metadata": {
+              "part": 0,
+              "section": "8.3"
+            },
+            "score": 0.6446350970315949,
+            "id": "openstax-intro-cs:p395:part0:fixed:500:50:2250",
+            "source_id": "openstax-intro-cs"
+          }
+        ],
+        "context": "[openstax-intro-cs:p376:part1:fixed:500:50:450 | https://openstax.org/details/books/introduction-computer-science | page 376]\nllection of related data, we call it a database. To store, retrieve, edit, and maintain the related data in the\ndatabase we need a system called a database management system (DBMS).\nDefinition and Characteristics\nData, data model, database, and DBMS concepts are connected to each other. Data relate to known facts that\ncan be recorded and have an implicit meaning. A data model is an abstract model that contains a set of\n366 8 • Data Management\nAccess for free at openstax.org\n\n[openstax-intro-cs:p396:part0:fixed:500:50:1350 | https://openstax.org/details/books/introduction-computer-science | page 396]\nnsist of multiple physical, distributed machines.\nDatabase APIs\nIn a tiered DBMS system architecture, client applications can query database servers and receive results. It is\npossible to use in-process DBMSs (e.g., SQLite) or access stand-alone DBMS servers (e.g., Postgres). Client\napplications that wish to utilize the services provided by a DBMS use a specific API provided by the DBMS. This\ndatabase API exposes an interface through which client applications can access and query a DBMS. The\ndat\n\n[openstax-intro-cs:p396:part0:fixed:500:50:0 | https://openstax.org/details/books/introduction-computer-science | page 396]\nRDBMS Architectures\nA relational database management system (RDBMS) architecture is categorized as a centralized system\narchitecture and a tiered system architecture. In centralized system architecture, the DBMS’s responsibilities\nare handled by one centralized entity—the mainframe database, which has become rare, expensive, and\ndifficult to maintain. The tiered system architectures aim to decouple the centralized setup by combining the\ncomputing capabilities of powerful central computers with t",
+        "context_ids": [
+          "openstax-intro-cs:p376:part1:fixed:500:50:450",
+          "openstax-intro-cs:p396:part0:fixed:500:50:1350",
+          "openstax-intro-cs:p396:part0:fixed:500:50:0"
+        ]
+      },
+      {
+        "event": "search_limit"
+      }
+    ],
+    "answerable": true,
+    "usage": [
+      {
+        "input_tokens": 203,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 0
+          }
+        },
+        "output_tokens": 60,
+        "output_tokens_details": {
+          "reasoning_tokens": 10
+        },
+        "total_tokens": 263
+      },
+      {
+        "input_tokens": 757,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 0
+          }
+        },
+        "output_tokens": 102,
+        "output_tokens_details": {
+          "reasoning_tokens": 54
+        },
+        "total_tokens": 859
+      },
+      {
+        "input_tokens": 782,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 0
+          }
+        },
+        "output_tokens": 88,
+        "output_tokens_details": {
+          "reasoning_tokens": 39
+        },
+        "total_tokens": 870
+      },
+      {
+        "input_tokens": 808,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 0
+          }
+        },
+        "output_tokens": 66,
+        "output_tokens_details": {
+          "reasoning_tokens": 21
+        },
+        "total_tokens": 874
+      }
+    ],
+    "elapsed_ms": 16627.316
+  }
+]

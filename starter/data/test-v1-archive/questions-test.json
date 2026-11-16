@@ -1,0 +1,67 @@
+[
+  {
+    "id": "test-388",
+    "split": "test",
+    "question": "What kind of software is typically used to design airplane wings?",
+    "expected_answer": "Computer-aided design (CAD) software systems.",
+    "gold": [
+      {
+        "source_id": "openstax-intro-cs",
+        "page": 388,
+        "evidence": "Airplane wings are typically designed using computer-aided design (CAD) software systems"
+      }
+    ]
+  },
+  {
+    "id": "test-390",
+    "split": "test",
+    "question": "What is the term for modeling data as tables of rows and columns?",
+    "expected_answer": "Relational database design (RDD).",
+    "gold": [
+      {
+        "source_id": "openstax-intro-cs",
+        "page": 390,
+        "evidence": "Modeling data into a set of tables with rows and columns is called relational database design (RDD)."
+      }
+    ]
+  },
+  {
+    "id": "test-392",
+    "split": "test",
+    "question": "What does disk storage refer to in the context of database tables?",
+    "expected_answer": "The memory device that stores the data.",
+    "gold": [
+      {
+        "source_id": "openstax-intro-cs",
+        "page": 392,
+        "evidence": "disk storage—which is the memory device that stores the data"
+      }
+    ]
+  },
+  {
+    "id": "test-398",
+    "split": "test",
+    "question": "What decision does a manager make using two-phase commit?",
+    "expected_answer": "Whether to commit or roll back a transaction.",
+    "gold": [
+      {
+        "source_id": "openstax-intro-cs",
+        "page": 398,
+        "evidence": "manager decides whether to commit or rollback a transaction using a two-phase commit (2PC)."
+      }
+    ]
+  },
+  {
+    "id": "test-399",
+    "split": "test",
+    "question": "What is database recovery intended to do after a failure or problem?",
+    "expected_answer": "Restore the database to a consistent state without data loss.",
+    "gold": [
+      {
+        "source_id": "openstax-intro-cs",
+        "page": 399,
+        "evidence": "setting the database in a consistent state without any data loss"
+      }
+    ]
+  }
+]

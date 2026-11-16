@@ -1,0 +1,23 @@
+{
+  "split": "test",
+  "config": "baseline",
+  "method": "agent-dense",
+  "strategy": "A",
+  "budget_chars": 2000,
+  "max_searches": 3,
+  "top_k": 3,
+  "model": "gpt-6-luna",
+  "max_output_tokens": 1600,
+  "embedding_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "data_sha256": {
+    "chunks.json": "ed862dd3af40defd02478cf1f87ce340ca58413b93357b93164b5c9240a71c1b",
+    "questions-test.json": "21ad4735d93a1e12bf84a679771867152976e61b23bafc1ade41d1f4383c3545",
+    "agent-cases-test.json": "b85f5d4222d3475acd1719f4aed2da6fc022a99e1172fbe24610e9fb7d50d9a1"
+  },
+  "code_sha256": {
+    "run_test.py": "53e72caaa696db2da2cf9d635acf3776a1119602f62c5fdb44bce94c9adbe978",
+    "day6_agent.py": "59b885b02a3c7bed07af24b9e151d49995d20898be0d0efff405c1c3ae97f2e7",
+    "starter/agentic.py": "580cc573008f2d0e3cc6fd785d40029934648e6e5e333cdbe86f7f7db40e26a6"
+  },
+  "note": "Lựa chọn theo dev; test dùng để đánh giá, không dùng để chỉnh cấu hình."
+}

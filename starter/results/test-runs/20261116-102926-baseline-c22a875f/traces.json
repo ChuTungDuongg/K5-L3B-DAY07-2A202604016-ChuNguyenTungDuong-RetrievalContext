@@ -1,0 +1,1745 @@
+[
+  {
+    "query_id": "test-388",
+    "split": "test",
+    "question": "What kind of software is typically used to design airplane wings?",
+    "answerable": true,
+    "original_results": [
+      {
+        "chunk_id": "openstax-intro-cs:p388:part0:fixed:500:50:0",
+        "document_id": "openstax-intro-cs",
+        "source": "https://openstax.org/details/books/introduction-computer-science",
+        "page": 388,
+        "text": "Airplane wings are typically designed using computer-aided design (CAD) software systems that use data\nmanagement systems to store and retrieve data.\nIs a RDBMS the best solution to store and retrieve these types of items? Why or why not? Are there other,\nbetter ways to track the development, design, and testing of mechanical parts crucial to passenger safety?\nRelational Model Constraints\nThe constraints that ensure database correctness are called relational model constraints in DBMS. The\ndiffer",
+        "metadata": {
+          "part": 0,
+          "section": "8.3"
+        },
+        "score": 0.678714338111508,
+        "id": "openstax-intro-cs:p388:part0:fixed:500:50:0",
+        "source_id": "openstax-intro-cs"
+      },
+      {
+        "chunk_id": "openstax-intro-cs:p387:part0:fixed:500:50:3150",
+        "document_id": "openstax-intro-cs",
+        "source": "https://openstax.org/details/books/introduction-computer-science",
+        "page": 387,
+        "text": "ome in various shapes and forms (e.g., rectangular wings for small airplane, elliptical\nwings, tapered wings and trapezoidal wings), and require multiple designers to collaborate on their design.\n8.3 • Relational Database Management Systems 377",
+        "metadata": {
+          "part": 0,
+          "section": "8.3"
+        },
+        "score": 0.65017569514291,
+        "id": "openstax-intro-cs:p387:part0:fixed:500:50:3150",
+        "source_id": "openstax-intro-cs"
+      },
+      {
+        "chunk_id": "openstax-intro-cs:p387:part0:fixed:500:50:2700",
+        "document_id": "openstax-intro-cs",
+        "source": "https://openstax.org/details/books/introduction-computer-science",
+        "page": 387,
+        "text": "delines for relational\nschemas and use simple measures of quality such as making sure attribute semantics are clear, reducing\nredundant information, and reducing null values. Null values cause redundant work, which wastes storage\nspace and increases the difficulty of performing operations.\nTECHNOLOGY IN EVERYDAY LIFE\nRDBMS\nAirplanes have to be designed and tested for safety. Airplane wings are complex items that include a large\nnumber of parts, come in various shapes and forms (e.g., rectangular",
+        "metadata": {
+          "part": 0,
+          "section": "8.3"
+        },
+        "score": 0.5505935667379608,
+        "id": "openstax-intro-cs:p387:part0:fixed:500:50:2700",
+        "source_id": "openstax-intro-cs"
+      }
+    ],
+    "original_context": "[openstax-intro-cs:p388:part0:fixed:500:50:0 | https://openstax.org/details/books/introduction-computer-science | page 388]\nAirplane wings are typically designed using computer-aided design (CAD) software systems that use data\nmanagement systems to store and retrieve data.\nIs a RDBMS the best solution to store and retrieve these types of items? Why or why not? Are there other,\nbetter ways to track the development, design, and testing of mechanical parts crucial to passenger safety?\nRelational Model Constraints\nThe constraints that ensure database correctness are called relational model constraints in DBMS. The\ndiffer\n\n[openstax-intro-cs:p387:part0:fixed:500:50:3150 | https://openstax.org/details/books/introduction-computer-science | page 387]\nome in various shapes and forms (e.g., rectangular wings for small airplane, elliptical\nwings, tapered wings and trapezoidal wings), and require multiple designers to collaborate on their design.\n8.3 • Relational Database Management Systems 377\n\n[openstax-intro-cs:p387:part0:fixed:500:50:2700 | https://openstax.org/details/books/introduction-computer-science | page 387]\ndelines for relational\nschemas and use simple measures of quality such as making sure attribute semantics are clear, reducing\nredundant information, and reducing null values. Null values cause redundant work, which wastes storage\nspace and increases the difficulty of performing operations.\nTECHNOLOGY IN EVERYDAY LIFE\nRDBMS\nAirplanes have to be designed and tested for safety. Airplane wings are complex items that include a large\nnumber of parts, come in various shapes and forms (e.g., rectangular",
+    "original_context_ids": [
+      "openstax-intro-cs:p388:part0:fixed:500:50:0",
+      "openstax-intro-cs:p387:part0:fixed:500:50:3150",
+      "openstax-intro-cs:p387:part0:fixed:500:50:2700"
+    ],
+    "retrieval_original": {
+      "hit1": true,
+      "hit3": true,
+      "context_hit": true
+    },
+    "agent_context_hit": true,
+    "status": "answered",
+    "answer": "Airplane wings are typically designed using computer-aided design (CAD) software [openstax-intro-cs:p388:part0:fixed:500:50:0].",
+    "citations": [
+      "openstax-intro-cs:p388:part0:fixed:500:50:0"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "software typically used to design airplane wings CAD aerodynamic simulation CFD structural analysis aerospace engineering examples CATIA XFLR5 ANSYS NASTRAN OpenVSP.",
+        "filter": null,
+        "results": [
+          {
+            "chunk_id": "openstax-intro-cs:p388:part0:fixed:500:50:0",
+            "document_id": "openstax-intro-cs",
+            "source": "https://openstax.org/details/books/introduction-computer-science",
+            "page": 388,
+            "text": "Airplane wings are typically designed using computer-aided design (CAD) software systems that use data\nmanagement systems to store and retrieve data.\nIs a RDBMS the best solution to store and retrieve these types of items? Why or why not? Are there other,\nbetter ways to track the development, design, and testing of mechanical parts crucial to passenger safety?\nRelational Model Constraints\nThe constraints that ensure database correctness are called relational model constraints in DBMS. The\ndiffer",
+            "metadata": {
+              "part": 0,
+              "section": "8.3"
+            },
+            "score": 0.6161914917423719,
+            "id": "openstax-intro-cs:p388:part0:fixed:500:50:0",
+            "source_id": "openstax-intro-cs"
+          },
+          {
+            "chunk_id": "openstax-intro-cs:p387:part0:fixed:500:50:3150",
+            "document_id": "openstax-intro-cs",
+            "source": "https://openstax.org/details/books/introduction-computer-science",
+            "page": 387,
+            "text": "ome in various shapes and forms (e.g., rectangular wings for small airplane, elliptical\nwings, tapered wings and trapezoidal wings), and require multiple designers to collaborate on their design.\n8.3 • Relational Database Management Systems 377",
+            "metadata": {
+              "part": 0,
+              "section": "8.3"
+            },
+            "score": 0.5458310033934956,
+            "id": "openstax-intro-cs:p387:part0:fixed:500:50:3150",
+            "source_id": "openstax-intro-cs"
+          },
+          {
+            "chunk_id": "openstax-intro-cs:p387:part0:fixed:500:50:2700",
+            "document_id": "openstax-intro-cs",
+            "source": "https://openstax.org/details/books/introduction-computer-science",
+            "page": 387,
+            "text": "delines for relational\nschemas and use simple measures of quality such as making sure attribute semantics are clear, reducing\nredundant information, and reducing null values. Null values cause redundant work, which wastes storage\nspace and increases the difficulty of performing operations.\nTECHNOLOGY IN EVERYDAY LIFE\nRDBMS\nAirplanes have to be designed and tested for safety. Airplane wings are complex items that include a large\nnumber of parts, come in various shapes and forms (e.g., rectangular",
+            "metadata": {
+              "part": 0,
+              "section": "8.3"
+            },
+            "score": 0.5037038536415206,
+            "id": "openstax-intro-cs:p387:part0:fixed:500:50:2700",
+            "source_id": "openstax-intro-cs"
+          }
+        ],
+        "context": "[openstax-intro-cs:p388:part0:fixed:500:50:0 | https://openstax.org/details/books/introduction-computer-science | page 388]\nAirplane wings are typically designed using computer-aided design (CAD) software systems that use data\nmanagement systems to store and retrieve data.\nIs a RDBMS the best solution to store and retrieve these types of items? Why or why not? Are there other,\nbetter ways to track the development, design, and testing of mechanical parts crucial to passenger safety?\nRelational Model Constraints\nThe constraints that ensure database correctness are called relational model constraints in DBMS. The\ndiffer\n\n[openstax-intro-cs:p387:part0:fixed:500:50:3150 | https://openstax.org/details/books/introduction-computer-science | page 387]\nome in various shapes and forms (e.g., rectangular wings for small airplane, elliptical\nwings, tapered wings and trapezoidal wings), and require multiple designers to collaborate on their design.\n8.3 • Relational Database Management Systems 377\n\n[openstax-intro-cs:p387:part0:fixed:500:50:2700 | https://openstax.org/details/books/introduction-computer-science | page 387]\ndelines for relational\nschemas and use simple measures of quality such as making sure attribute semantics are clear, reducing\nredundant information, and reducing null values. Null values cause redundant work, which wastes storage\nspace and increases the difficulty of performing operations.\nTECHNOLOGY IN EVERYDAY LIFE\nRDBMS\nAirplanes have to be designed and tested for safety. Airplane wings are complex items that include a large\nnumber of parts, come in various shapes and forms (e.g., rectangular",
+        "context_ids": [
+          "openstax-intro-cs:p388:part0:fixed:500:50:0",
+          "openstax-intro-cs:p387:part0:fixed:500:50:3150",
+          "openstax-intro-cs:p387:part0:fixed:500:50:2700"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "What kind of software is typically used to design airplane wings? CAD software aerospace wing design computer-aided design.",
+        "filter": null,
+        "results": [
+          {
+            "chunk_id": "openstax-intro-cs:p388:part0:fixed:500:50:0",
+            "document_id": "openstax-intro-cs",
+            "source": "https://openstax.org/details/books/introduction-computer-science",
+            "page": 388,
+            "text": "Airplane wings are typically designed using computer-aided design (CAD) software systems that use data\nmanagement systems to store and retrieve data.\nIs a RDBMS the best solution to store and retrieve these types of items? Why or why not? Are there other,\nbetter ways to track the development, design, and testing of mechanical parts crucial to passenger safety?\nRelational Model Constraints\nThe constraints that ensure database correctness are called relational model constraints in DBMS. The\ndiffer",
+            "metadata": {
+              "part": 0,
+              "section": "8.3"
+            },
+            "score": 0.6779235794195094,
+            "id": "openstax-intro-cs:p388:part0:fixed:500:50:0",
+            "source_id": "openstax-intro-cs"
+          },
+          {
+            "chunk_id": "openstax-intro-cs:p387:part0:fixed:500:50:3150",
+            "document_id": "openstax-intro-cs",
+            "source": "https://openstax.org/details/books/introduction-computer-science",
+            "page": 387,
+            "text": "ome in various shapes and forms (e.g., rectangular wings for small airplane, elliptical\nwings, tapered wings and trapezoidal wings), and require multiple designers to collaborate on their design.\n8.3 • Relational Database Management Systems 377",
+            "metadata": {
+              "part": 0,
+              "section": "8.3"
+            },
+            "score": 0.6211787384159279,
+            "id": "openstax-intro-cs:p387:part0:fixed:500:50:3150",
+            "source_id": "openstax-intro-cs"
+          },
+          {
+            "chunk_id": "openstax-intro-cs:p387:part0:fixed:500:50:2700",
+            "document_id": "openstax-intro-cs",
+            "source": "https://openstax.org/details/books/introduction-computer-science",
+            "page": 387,
+            "text": "delines for relational\nschemas and use simple measures of quality such as making sure attribute semantics are clear, reducing\nredundant information, and reducing null values. Null values cause redundant work, which wastes storage\nspace and increases the difficulty of performing operations.\nTECHNOLOGY IN EVERYDAY LIFE\nRDBMS\nAirplanes have to be designed and tested for safety. Airplane wings are complex items that include a large\nnumber of parts, come in various shapes and forms (e.g., rectangular",
+            "metadata": {
+              "part": 0,
+              "section": "8.3"
+            },
+            "score": 0.5076058092630655,
+            "id": "openstax-intro-cs:p387:part0:fixed:500:50:2700",
+            "source_id": "openstax-intro-cs"
+          }
+        ],
+        "context": "[openstax-intro-cs:p388:part0:fixed:500:50:0 | https://openstax.org/details/books/introduction-computer-science | page 388]\nAirplane wings are typically designed using computer-aided design (CAD) software systems that use data\nmanagement systems to store and retrieve data.\nIs a RDBMS the best solution to store and retrieve these types of items? Why or why not? Are there other,\nbetter ways to track the development, design, and testing of mechanical parts crucial to passenger safety?\nRelational Model Constraints\nThe constraints that ensure database correctness are called relational model constraints in DBMS. The\ndiffer\n\n[openstax-intro-cs:p387:part0:fixed:500:50:3150 | https://openstax.org/details/books/introduction-computer-science | page 387]\nome in various shapes and forms (e.g., rectangular wings for small airplane, elliptical\nwings, tapered wings and trapezoidal wings), and require multiple designers to collaborate on their design.\n8.3 • Relational Database Management Systems 377\n\n[openstax-intro-cs:p387:part0:fixed:500:50:2700 | https://openstax.org/details/books/introduction-computer-science | page 387]\ndelines for relational\nschemas and use simple measures of quality such as making sure attribute semantics are clear, reducing\nredundant information, and reducing null values. Null values cause redundant work, which wastes storage\nspace and increases the difficulty of performing operations.\nTECHNOLOGY IN EVERYDAY LIFE\nRDBMS\nAirplanes have to be designed and tested for safety. Airplane wings are complex items that include a large\nnumber of parts, come in various shapes and forms (e.g., rectangular",
+        "context_ids": [
+          "openstax-intro-cs:p388:part0:fixed:500:50:0",
+          "openstax-intro-cs:p387:part0:fixed:500:50:3150",
+          "openstax-intro-cs:p387:part0:fixed:500:50:2700"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "What kind of software is typically used to design airplane wings? CAD software airplane wing design.",
+        "filter": null,
+        "results": [
+          {
+            "chunk_id": "openstax-intro-cs:p388:part0:fixed:500:50:0",
+            "document_id": "openstax-intro-cs",
+            "source": "https://openstax.org/details/books/introduction-computer-science",
+            "page": 388,
+            "text": "Airplane wings are typically designed using computer-aided design (CAD) software systems that use data\nmanagement systems to store and retrieve data.\nIs a RDBMS the best solution to store and retrieve these types of items? Why or why not? Are there other,\nbetter ways to track the development, design, and testing of mechanical parts crucial to passenger safety?\nRelational Model Constraints\nThe constraints that ensure database correctness are called relational model constraints in DBMS. The\ndiffer",
+            "metadata": {
+              "part": 0,
+              "section": "8.3"
+            },
+            "score": 0.6776193559624887,
+            "id": "openstax-intro-cs:p388:part0:fixed:500:50:0",
+            "source_id": "openstax-intro-cs"
+          },
+          {
+            "chunk_id": "openstax-intro-cs:p387:part0:fixed:500:50:3150",
+            "document_id": "openstax-intro-cs",
+            "source": "https://openstax.org/details/books/introduction-computer-science",
+            "page": 387,
+            "text": "ome in various shapes and forms (e.g., rectangular wings for small airplane, elliptical\nwings, tapered wings and trapezoidal wings), and require multiple designers to collaborate on their design.\n8.3 • Relational Database Management Systems 377",
+            "metadata": {
+              "part": 0,
+              "section": "8.3"
+            },
+            "score": 0.6261443418436955,
+            "id": "openstax-intro-cs:p387:part0:fixed:500:50:3150",
+            "source_id": "openstax-intro-cs"
+          },
+          {
+            "chunk_id": "openstax-intro-cs:p387:part0:fixed:500:50:2700",
+            "document_id": "openstax-intro-cs",
+            "source": "https://openstax.org/details/books/introduction-computer-science",
+            "page": 387,
+            "text": "delines for relational\nschemas and use simple measures of quality such as making sure attribute semantics are clear, reducing\nredundant information, and reducing null values. Null values cause redundant work, which wastes storage\nspace and increases the difficulty of performing operations.\nTECHNOLOGY IN EVERYDAY LIFE\nRDBMS\nAirplanes have to be designed and tested for safety. Airplane wings are complex items that include a large\nnumber of parts, come in various shapes and forms (e.g., rectangular",
+            "metadata": {
+              "part": 0,
+              "section": "8.3"
+            },
+            "score": 0.514122219056115,
+            "id": "openstax-intro-cs:p387:part0:fixed:500:50:2700",
+            "source_id": "openstax-intro-cs"
+          }
+        ],
+        "context": "[openstax-intro-cs:p388:part0:fixed:500:50:0 | https://openstax.org/details/books/introduction-computer-science | page 388]\nAirplane wings are typically designed using computer-aided design (CAD) software systems that use data\nmanagement systems to store and retrieve data.\nIs a RDBMS the best solution to store and retrieve these types of items? Why or why not? Are there other,\nbetter ways to track the development, design, and testing of mechanical parts crucial to passenger safety?\nRelational Model Constraints\nThe constraints that ensure database correctness are called relational model constraints in DBMS. The\ndiffer\n\n[openstax-intro-cs:p387:part0:fixed:500:50:3150 | https://openstax.org/details/books/introduction-computer-science | page 387]\nome in various shapes and forms (e.g., rectangular wings for small airplane, elliptical\nwings, tapered wings and trapezoidal wings), and require multiple designers to collaborate on their design.\n8.3 • Relational Database Management Systems 377\n\n[openstax-intro-cs:p387:part0:fixed:500:50:2700 | https://openstax.org/details/books/introduction-computer-science | page 387]\ndelines for relational\nschemas and use simple measures of quality such as making sure attribute semantics are clear, reducing\nredundant information, and reducing null values. Null values cause redundant work, which wastes storage\nspace and increases the difficulty of performing operations.\nTECHNOLOGY IN EVERYDAY LIFE\nRDBMS\nAirplanes have to be designed and tested for safety. Airplane wings are complex items that include a large\nnumber of parts, come in various shapes and forms (e.g., rectangular",
+        "context_ids": [
+          "openstax-intro-cs:p388:part0:fixed:500:50:0",
+          "openstax-intro-cs:p387:part0:fixed:500:50:3150",
+          "openstax-intro-cs:p387:part0:fixed:500:50:2700"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "elapsed_ms": 56745.18,
+    "usage": [
+      {
+        "input_tokens": 204,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 0
+          }
+        },
+        "output_tokens": 74,
+        "output_tokens_details": {
+          "reasoning_tokens": 18
+        },
+        "total_tokens": 278
+      },
+      {
+        "input_tokens": 706,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 0
+          }
+        },
+        "output_tokens": 94,
+        "output_tokens_details": {
+          "reasoning_tokens": 48
+        },
+        "total_tokens": 800
+      },
+      {
+        "input_tokens": 729,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 0
+          }
+        },
+        "output_tokens": 82,
+        "output_tokens_details": {
+          "reasoning_tokens": 40
+        },
+        "total_tokens": 811
+      },
+      {
+        "input_tokens": 748,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 0
+          }
+        },
+        "output_tokens": 131,
+        "output_tokens_details": {
+          "reasoning_tokens": 49
+        },
+        "total_tokens": 879
+      }
+    ],
+    "api_calls": [
+      {
+        "status": "completed",
+        "max_output_tokens": 1600
+      },
+      {
+        "status": "completed",
+        "max_output_tokens": 1600
+      },
+      {
+        "status": "completed",
+        "max_output_tokens": 1600
+      },
+      {
+        "status": "completed",
+        "max_output_tokens": 1600
+      }
+    ]
+  },
+  {
+    "query_id": "test-390",
+    "split": "test",
+    "question": "What is the term for modeling data as tables of rows and columns?",
+    "answerable": true,
+    "original_results": [
+      {
+        "chunk_id": "openstax-intro-cs:p395:part0:fixed:500:50:1800",
+        "document_id": "openstax-intro-cs",
+        "source": "https://openstax.org/details/books/introduction-computer-science",
+        "page": 395,
+        "text": " THROUGH\nThe Relational Model and Constructors\nThe relational model uses two types of constructors. One is “aggregate of,” which enables the creation of\ntables by aggregating various columns that contain data of different types. The other is “set of,” which\nenables the gathering of multiple records within a table.\nIs there a limitation with this approach?\nRDBMS APIs and Programming Techniques\nA database architecture is a representation of the design that helps design, develop, implement, and\nmai",
+        "metadata": {
+          "part": 0,
+          "section": "8.3"
+        },
+        "score": 0.6633948806873375,
+        "id": "openstax-intro-cs:p395:part0:fixed:500:50:1800",
+        "source_id": "openstax-intro-cs"
+      },
+      {
+        "chunk_id": "openstax-intro-cs:p383:part0:fixed:500:50:900",
+        "document_id": "openstax-intro-cs",
+        "source": "https://openstax.org/details/books/introduction-computer-science",
+        "page": 383,
+        "text": "ical concept based\non the ideas of sets. The model was first proposed by Dr. Edgar F. Codd of IBM Research in 1970. A relation\ntypically contains a set of rows. The data elements in each row represent certain facts that correspond to a\nreal-world entity or relationship. In the formal model, rows are called tuples, each column has a column\nheader that indicates the meaning of the data items in that column, and the column header is referred to as\nan attribute name or just as an attribute. Multiple",
+        "metadata": {
+          "part": 0,
+          "section": "8.3"
+        },
+        "score": 0.6579691353920553,
+        "id": "openstax-intro-cs:p383:part0:fixed:500:50:900",
+        "source_id": "openstax-intro-cs"
+      },
+      {
+        "chunk_id": "openstax-intro-cs:p400:part1:fixed:500:50:900",
+        "document_id": "openstax-intro-cs",
+        "source": "https://openstax.org/details/books/introduction-computer-science",
+        "page": 400,
+        "text": "data in tables, with columns representing\nthe attributes of the data and rows representing individual records. This structure is optimized for fast retrieval\nand manipulation of data using SQL queries. In contrast, nonrelational databases are optimized for storing\nand querying large amounts of data and are typically stored in a specialized format that allows for efficient\nindexing and querying. This format may include the use of columnar storage and compression techniques.\nLegacy Databases\nFlat ",
+        "metadata": {
+          "part": 1,
+          "section": "8.4"
+        },
+        "score": 0.6465981474970378,
+        "id": "openstax-intro-cs:p400:part1:fixed:500:50:900",
+        "source_id": "openstax-intro-cs"
+      }
+    ],
+    "original_context": "[openstax-intro-cs:p395:part0:fixed:500:50:1800 | https://openstax.org/details/books/introduction-computer-science | page 395]\n THROUGH\nThe Relational Model and Constructors\nThe relational model uses two types of constructors. One is “aggregate of,” which enables the creation of\ntables by aggregating various columns that contain data of different types. The other is “set of,” which\nenables the gathering of multiple records within a table.\nIs there a limitation with this approach?\nRDBMS APIs and Programming Techniques\nA database architecture is a representation of the design that helps design, develop, implement, and\nmai\n\n[openstax-intro-cs:p383:part0:fixed:500:50:900 | https://openstax.org/details/books/introduction-computer-science | page 383]\nical concept based\non the ideas of sets. The model was first proposed by Dr. Edgar F. Codd of IBM Research in 1970. A relation\ntypically contains a set of rows. The data elements in each row represent certain facts that correspond to a\nreal-world entity or relationship. In the formal model, rows are called tuples, each column has a column\nheader that indicates the meaning of the data items in that column, and the column header is referred to as\nan attribute name or just as an attribute. Multiple\n\n[openstax-intro-cs:p400:part1:fixed:500:50:900 | https://openstax.org/details/books/introduction-computer-science | page 400]\ndata in tables, with columns representing\nthe attributes of the data and rows representing individual records. This structure is optimized for fast retrieval\nand manipulation of data using SQL queries. In contrast, nonrelational databases are optimized for storing\nand querying large amounts of data and are typically stored in a specialized format that allows for efficient\nindexing and querying. This format may include the use of columnar storage and compression techniques.\nLegacy Databases\nFlat ",
+    "original_context_ids": [
+      "openstax-intro-cs:p395:part0:fixed:500:50:1800",
+      "openstax-intro-cs:p383:part0:fixed:500:50:900",
+      "openstax-intro-cs:p400:part1:fixed:500:50:900"
+    ],
+    "retrieval_original": {
+      "hit1": false,
+      "hit3": false,
+      "context_hit": false
+    },
+    "agent_context_hit": true,
+    "status": "answered",
+    "answer": "The term is relational database design (RDD). [openstax-intro-cs:p390:part0:fixed:500:50:0]",
+    "citations": [
+      "openstax-intro-cs:p390:part0:fixed:500:50:0"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "term for modeling data as tables of rows and columns relational data model relational database tables rows columns definition.",
+        "filter": null,
+        "results": [
+          {
+            "chunk_id": "openstax-intro-cs:p376:part1:fixed:500:50:450",
+            "document_id": "openstax-intro-cs",
+            "source": "https://openstax.org/details/books/introduction-computer-science",
+            "page": 376,
+            "text": "llection of related data, we call it a database. To store, retrieve, edit, and maintain the related data in the\ndatabase we need a system called a database management system (DBMS).\nDefinition and Characteristics\nData, data model, database, and DBMS concepts are connected to each other. Data relate to known facts that\ncan be recorded and have an implicit meaning. A data model is an abstract model that contains a set of\n366 8 • Data Management\nAccess for free at openstax.org",
+            "metadata": {
+              "part": 1,
+              "section": "8.2"
+            },
+            "score": 0.6962183570471842,
+            "id": "openstax-intro-cs:p376:part1:fixed:500:50:450",
+            "source_id": "openstax-intro-cs"
+          },
+          {
+            "chunk_id": "openstax-intro-cs:p380:part0:fixed:500:50:0",
+            "document_id": "openstax-intro-cs",
+            "source": "https://openstax.org/details/books/introduction-computer-science",
+            "page": 380,
+            "text": "Figure 8.7 This sample MySQL Workbench graphical user interface shows the navigation window, query window, and result window.\n(credit: used with permission from Oracle)\nData Model Categories\nData models can be conceptual (represented using EER or UML notations), logical, physical, or self-describing.\nThe various logical data models can be categorized as follows:\n• A hierarchical DBMS is a data model in which the data are organized into a treelike model, DML is\nprocedural and record-oriented, the",
+            "metadata": {
+              "part": 0,
+              "section": "8.2"
+            },
+            "score": 0.6929404847840874,
+            "id": "openstax-intro-cs:p380:part0:fixed:500:50:0",
+            "source_id": "openstax-intro-cs"
+          },
+          {
+            "chunk_id": "openstax-intro-cs:p390:part0:fixed:500:50:0",
+            "document_id": "openstax-intro-cs",
+            "source": "https://openstax.org/details/books/introduction-computer-science",
+            "page": 390,
+            "text": "Customer ID Item ID\n1 1\n1 2\n2 3\n2 4\nTable 8.8 Table Converted to\n3NF: Relational Table\nRelational Database Design\nModeling data into a set of tables with rows and columns is called relational database design (RDD). Each\nrow represents a record, and each column represents an attribute. RDD includes five phases:\n1. Requirements analysis phase to assess the informational needs of an organization.\n2. Logical design phase to create a conceptual model (entity-relationship [ER]) based on phase 1. ER\nde",
+            "metadata": {
+              "part": 0,
+              "section": "8.3"
+            },
+            "score": 0.6898597983247061,
+            "id": "openstax-intro-cs:p390:part0:fixed:500:50:0",
+            "source_id": "openstax-intro-cs"
+          }
+        ],
+        "context": "[openstax-intro-cs:p376:part1:fixed:500:50:450 | https://openstax.org/details/books/introduction-computer-science | page 376]\nllection of related data, we call it a database. To store, retrieve, edit, and maintain the related data in the\ndatabase we need a system called a database management system (DBMS).\nDefinition and Characteristics\nData, data model, database, and DBMS concepts are connected to each other. Data relate to known facts that\ncan be recorded and have an implicit meaning. A data model is an abstract model that contains a set of\n366 8 • Data Management\nAccess for free at openstax.org\n\n[openstax-intro-cs:p380:part0:fixed:500:50:0 | https://openstax.org/details/books/introduction-computer-science | page 380]\nFigure 8.7 This sample MySQL Workbench graphical user interface shows the navigation window, query window, and result window.\n(credit: used with permission from Oracle)\nData Model Categories\nData models can be conceptual (represented using EER or UML notations), logical, physical, or self-describing.\nThe various logical data models can be categorized as follows:\n• A hierarchical DBMS is a data model in which the data are organized into a treelike model, DML is\nprocedural and record-oriented, the\n\n[openstax-intro-cs:p390:part0:fixed:500:50:0 | https://openstax.org/details/books/introduction-computer-science | page 390]\nCustomer ID Item ID\n1 1\n1 2\n2 3\n2 4\nTable 8.8 Table Converted to\n3NF: Relational Table\nRelational Database Design\nModeling data into a set of tables with rows and columns is called relational database design (RDD). Each\nrow represents a record, and each column represents an attribute. RDD includes five phases:\n1. Requirements analysis phase to assess the informational needs of an organization.\n2. Logical design phase to create a conceptual model (entity-relationship [ER]) based on phase 1. ER\nde",
+        "context_ids": [
+          "openstax-intro-cs:p376:part1:fixed:500:50:450",
+          "openstax-intro-cs:p380:part0:fixed:500:50:0",
+          "openstax-intro-cs:p390:part0:fixed:500:50:0"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "elapsed_ms": 4982.094,
+    "usage": [
+      {
+        "input_tokens": 206,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 0
+          }
+        },
+        "output_tokens": 61,
+        "output_tokens_details": {
+          "reasoning_tokens": 17
+        },
+        "total_tokens": 267
+      },
+      {
+        "input_tokens": 782,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 0
+          }
+        },
+        "output_tokens": 128,
+        "output_tokens_details": {
+          "reasoning_tokens": 52
+        },
+        "total_tokens": 910
+      }
+    ],
+    "api_calls": [
+      {
+        "status": "completed",
+        "max_output_tokens": 1600
+      },
+      {
+        "status": "completed",
+        "max_output_tokens": 1600
+      }
+    ]
+  },
+  {
+    "query_id": "test-392",
+    "split": "test",
+    "question": "What does disk storage refer to in the context of database tables?",
+    "answerable": true,
+    "original_results": [
+      {
+        "chunk_id": "openstax-intro-cs:p392:part0:fixed:500:50:0",
+        "document_id": "openstax-intro-cs",
+        "source": "https://openstax.org/details/books/introduction-computer-science",
+        "page": 392,
+        "text": "Disk Storage and Basic File Structures\nDatabase tables are stored in disk storage—which is the memory device that stores the data—such as hard\ndisks, flash memory, magnetic disks, optical disks, and tapes as shown in Figure 8.9. The records in the tables\ncould be of fixed length, which means the records are exactly the same length, or variable length, which\nmeans the records differ in their length. All records are classified into blocks, and the length of the record can\nexceed the size of a bloc",
+        "metadata": {
+          "part": 0,
+          "section": "8.3"
+        },
+        "score": 0.813794241080272,
+        "id": "openstax-intro-cs:p392:part0:fixed:500:50:0",
+        "source_id": "openstax-intro-cs"
+      },
+      {
+        "chunk_id": "openstax-intro-cs:p393:part0:fixed:500:50:0",
+        "document_id": "openstax-intro-cs",
+        "source": "https://openstax.org/details/books/introduction-computer-science",
+        "page": 393,
+        "text": "Figure 8.10 This heap file organization example shows how to insert a new record (record 4) into the data blocks in the memory.\n(attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)\nPhysical Database Organization\nA tablespace is where tables are stored physically in the memory (i.e., the physical container of database\nobjects). The use of tablespaces has an impact on physical database design concerning intraquery parallelism,\nwhere different subsets of data can be sea",
+        "metadata": {
+          "part": 0,
+          "section": "8.3"
+        },
+        "score": 0.7323052424484898,
+        "id": "openstax-intro-cs:p393:part0:fixed:500:50:0",
+        "source_id": "openstax-intro-cs"
+      },
+      {
+        "chunk_id": "openstax-intro-cs:p381:part0:fixed:500:50:1800",
+        "document_id": "openstax-intro-cs",
+        "source": "https://openstax.org/details/books/introduction-computer-science",
+        "page": 381,
+        "text": "ide the underlying storage details to facilitate data\naccess. An in-memory DBMS stores all data in internal memory instead of slower external storage (e.g., disk;\noften used for real-time purposes such as HANA from SAP).\n8.2 • Data Management Systems 371",
+        "metadata": {
+          "part": 0,
+          "section": "8.2"
+        },
+        "score": 0.7250378649876078,
+        "id": "openstax-intro-cs:p381:part0:fixed:500:50:1800",
+        "source_id": "openstax-intro-cs"
+      }
+    ],
+    "original_context": "[openstax-intro-cs:p392:part0:fixed:500:50:0 | https://openstax.org/details/books/introduction-computer-science | page 392]\nDisk Storage and Basic File Structures\nDatabase tables are stored in disk storage—which is the memory device that stores the data—such as hard\ndisks, flash memory, magnetic disks, optical disks, and tapes as shown in Figure 8.9. The records in the tables\ncould be of fixed length, which means the records are exactly the same length, or variable length, which\nmeans the records differ in their length. All records are classified into blocks, and the length of the record can\nexceed the size of a bloc\n\n[openstax-intro-cs:p393:part0:fixed:500:50:0 | https://openstax.org/details/books/introduction-computer-science | page 393]\nFigure 8.10 This heap file organization example shows how to insert a new record (record 4) into the data blocks in the memory.\n(attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)\nPhysical Database Organization\nA tablespace is where tables are stored physically in the memory (i.e., the physical container of database\nobjects). The use of tablespaces has an impact on physical database design concerning intraquery parallelism,\nwhere different subsets of data can be sea\n\n[openstax-intro-cs:p381:part0:fixed:500:50:1800 | https://openstax.org/details/books/introduction-computer-science | page 381]\nide the underlying storage details to facilitate data\naccess. An in-memory DBMS stores all data in internal memory instead of slower external storage (e.g., disk;\noften used for real-time purposes such as HANA from SAP).\n8.2 • Data Management Systems 371",
+    "original_context_ids": [
+      "openstax-intro-cs:p392:part0:fixed:500:50:0",
+      "openstax-intro-cs:p393:part0:fixed:500:50:0",
+      "openstax-intro-cs:p381:part0:fixed:500:50:1800"
+    ],
+    "retrieval_original": {
+      "hit1": true,
+      "hit3": true,
+      "context_hit": true
+    },
+    "agent_context_hit": true,
+    "status": "answered",
+    "answer": "Disk storage refers to the physical memory devices where database tables are stored, such as hard disks, flash memory, magnetic or optical disks, and tapes. [openstax-intro-cs:p392:part0:fixed:500:50:0]",
+    "citations": [
+      "openstax-intro-cs:p392:part0:fixed:500:50:0"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "database tables meaning of disk storage data stored physically on disk versus memory, table storage context definition.",
+        "filter": null,
+        "results": [
+          {
+            "chunk_id": "openstax-intro-cs:p392:part0:fixed:500:50:0",
+            "document_id": "openstax-intro-cs",
+            "source": "https://openstax.org/details/books/introduction-computer-science",
+            "page": 392,
+            "text": "Disk Storage and Basic File Structures\nDatabase tables are stored in disk storage—which is the memory device that stores the data—such as hard\ndisks, flash memory, magnetic disks, optical disks, and tapes as shown in Figure 8.9. The records in the tables\ncould be of fixed length, which means the records are exactly the same length, or variable length, which\nmeans the records differ in their length. All records are classified into blocks, and the length of the record can\nexceed the size of a bloc",
+            "metadata": {
+              "part": 0,
+              "section": "8.3"
+            },
+            "score": 0.8136998651524766,
+            "id": "openstax-intro-cs:p392:part0:fixed:500:50:0",
+            "source_id": "openstax-intro-cs"
+          },
+          {
+            "chunk_id": "openstax-intro-cs:p393:part0:fixed:500:50:0",
+            "document_id": "openstax-intro-cs",
+            "source": "https://openstax.org/details/books/introduction-computer-science",
+            "page": 393,
+            "text": "Figure 8.10 This heap file organization example shows how to insert a new record (record 4) into the data blocks in the memory.\n(attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)\nPhysical Database Organization\nA tablespace is where tables are stored physically in the memory (i.e., the physical container of database\nobjects). The use of tablespaces has an impact on physical database design concerning intraquery parallelism,\nwhere different subsets of data can be sea",
+            "metadata": {
+              "part": 0,
+              "section": "8.3"
+            },
+            "score": 0.7504482461050591,
+            "id": "openstax-intro-cs:p393:part0:fixed:500:50:0",
+            "source_id": "openstax-intro-cs"
+          },
+          {
+            "chunk_id": "openstax-intro-cs:p381:part0:fixed:500:50:1800",
+            "document_id": "openstax-intro-cs",
+            "source": "https://openstax.org/details/books/introduction-computer-science",
+            "page": 381,
+            "text": "ide the underlying storage details to facilitate data\naccess. An in-memory DBMS stores all data in internal memory instead of slower external storage (e.g., disk;\noften used for real-time purposes such as HANA from SAP).\n8.2 • Data Management Systems 371",
+            "metadata": {
+              "part": 0,
+              "section": "8.2"
+            },
+            "score": 0.722371557718314,
+            "id": "openstax-intro-cs:p381:part0:fixed:500:50:1800",
+            "source_id": "openstax-intro-cs"
+          }
+        ],
+        "context": "[openstax-intro-cs:p392:part0:fixed:500:50:0 | https://openstax.org/details/books/introduction-computer-science | page 392]\nDisk Storage and Basic File Structures\nDatabase tables are stored in disk storage—which is the memory device that stores the data—such as hard\ndisks, flash memory, magnetic disks, optical disks, and tapes as shown in Figure 8.9. The records in the tables\ncould be of fixed length, which means the records are exactly the same length, or variable length, which\nmeans the records differ in their length. All records are classified into blocks, and the length of the record can\nexceed the size of a bloc\n\n[openstax-intro-cs:p393:part0:fixed:500:50:0 | https://openstax.org/details/books/introduction-computer-science | page 393]\nFigure 8.10 This heap file organization example shows how to insert a new record (record 4) into the data blocks in the memory.\n(attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)\nPhysical Database Organization\nA tablespace is where tables are stored physically in the memory (i.e., the physical container of database\nobjects). The use of tablespaces has an impact on physical database design concerning intraquery parallelism,\nwhere different subsets of data can be sea\n\n[openstax-intro-cs:p381:part0:fixed:500:50:1800 | https://openstax.org/details/books/introduction-computer-science | page 381]\nide the underlying storage details to facilitate data\naccess. An in-memory DBMS stores all data in internal memory instead of slower external storage (e.g., disk;\noften used for real-time purposes such as HANA from SAP).\n8.2 • Data Management Systems 371",
+        "context_ids": [
+          "openstax-intro-cs:p392:part0:fixed:500:50:0",
+          "openstax-intro-cs:p393:part0:fixed:500:50:0",
+          "openstax-intro-cs:p381:part0:fixed:500:50:1800"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "What does disk storage refer to for database tables? Definition as memory device that stores data, examples such as hard disks and flash memory.",
+        "filter": null,
+        "results": [
+          {
+            "chunk_id": "openstax-intro-cs:p392:part0:fixed:500:50:0",
+            "document_id": "openstax-intro-cs",
+            "source": "https://openstax.org/details/books/introduction-computer-science",
+            "page": 392,
+            "text": "Disk Storage and Basic File Structures\nDatabase tables are stored in disk storage—which is the memory device that stores the data—such as hard\ndisks, flash memory, magnetic disks, optical disks, and tapes as shown in Figure 8.9. The records in the tables\ncould be of fixed length, which means the records are exactly the same length, or variable length, which\nmeans the records differ in their length. All records are classified into blocks, and the length of the record can\nexceed the size of a bloc",
+            "metadata": {
+              "part": 0,
+              "section": "8.3"
+            },
+            "score": 0.7495747167481681,
+            "id": "openstax-intro-cs:p392:part0:fixed:500:50:0",
+            "source_id": "openstax-intro-cs"
+          },
+          {
+            "chunk_id": "openstax-intro-cs:p381:part0:fixed:500:50:1800",
+            "document_id": "openstax-intro-cs",
+            "source": "https://openstax.org/details/books/introduction-computer-science",
+            "page": 381,
+            "text": "ide the underlying storage details to facilitate data\naccess. An in-memory DBMS stores all data in internal memory instead of slower external storage (e.g., disk;\noften used for real-time purposes such as HANA from SAP).\n8.2 • Data Management Systems 371",
+            "metadata": {
+              "part": 0,
+              "section": "8.2"
+            },
+            "score": 0.6700059170408259,
+            "id": "openstax-intro-cs:p381:part0:fixed:500:50:1800",
+            "source_id": "openstax-intro-cs"
+          },
+          {
+            "chunk_id": "openstax-intro-cs:p393:part0:fixed:500:50:0",
+            "document_id": "openstax-intro-cs",
+            "source": "https://openstax.org/details/books/introduction-computer-science",
+            "page": 393,
+            "text": "Figure 8.10 This heap file organization example shows how to insert a new record (record 4) into the data blocks in the memory.\n(attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)\nPhysical Database Organization\nA tablespace is where tables are stored physically in the memory (i.e., the physical container of database\nobjects). The use of tablespaces has an impact on physical database design concerning intraquery parallelism,\nwhere different subsets of data can be sea",
+            "metadata": {
+              "part": 0,
+              "section": "8.3"
+            },
+            "score": 0.6289291133751927,
+            "id": "openstax-intro-cs:p393:part0:fixed:500:50:0",
+            "source_id": "openstax-intro-cs"
+          }
+        ],
+        "context": "[openstax-intro-cs:p392:part0:fixed:500:50:0 | https://openstax.org/details/books/introduction-computer-science | page 392]\nDisk Storage and Basic File Structures\nDatabase tables are stored in disk storage—which is the memory device that stores the data—such as hard\ndisks, flash memory, magnetic disks, optical disks, and tapes as shown in Figure 8.9. The records in the tables\ncould be of fixed length, which means the records are exactly the same length, or variable length, which\nmeans the records differ in their length. All records are classified into blocks, and the length of the record can\nexceed the size of a bloc\n\n[openstax-intro-cs:p393:part0:fixed:500:50:0 | https://openstax.org/details/books/introduction-computer-science | page 393]\nFigure 8.10 This heap file organization example shows how to insert a new record (record 4) into the data blocks in the memory.\n(attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)\nPhysical Database Organization\nA tablespace is where tables are stored physically in the memory (i.e., the physical container of database\nobjects). The use of tablespaces has an impact on physical database design concerning intraquery parallelism,\nwhere different subsets of data can be sea\n\n[openstax-intro-cs:p381:part0:fixed:500:50:1800 | https://openstax.org/details/books/introduction-computer-science | page 381]\nide the underlying storage details to facilitate data\naccess. An in-memory DBMS stores all data in internal memory instead of slower external storage (e.g., disk;\noften used for real-time purposes such as HANA from SAP).\n8.2 • Data Management Systems 371",
+        "context_ids": [
+          "openstax-intro-cs:p392:part0:fixed:500:50:0",
+          "openstax-intro-cs:p393:part0:fixed:500:50:0",
+          "openstax-intro-cs:p381:part0:fixed:500:50:1800"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "elapsed_ms": 8183.595,
+    "usage": [
+      {
+        "input_tokens": 205,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 0
+          }
+        },
+        "output_tokens": 53,
+        "output_tokens_details": {
+          "reasoning_tokens": 10
+        },
+        "total_tokens": 258
+      },
+      {
+        "input_tokens": 717,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 0
+          }
+        },
+        "output_tokens": 127,
+        "output_tokens_details": {
+          "reasoning_tokens": 74
+        },
+        "total_tokens": 844
+      },
+      {
+        "input_tokens": 745,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 0
+          }
+        },
+        "output_tokens": 124,
+        "output_tokens_details": {
+          "reasoning_tokens": 27
+        },
+        "total_tokens": 869
+      }
+    ],
+    "api_calls": [
+      {
+        "status": "completed",
+        "max_output_tokens": 1600
+      },
+      {
+        "status": "completed",
+        "max_output_tokens": 1600
+      },
+      {
+        "status": "completed",
+        "max_output_tokens": 1600
+      }
+    ]
+  },
+  {
+    "query_id": "test-398",
+    "split": "test",
+    "question": "What decision does a manager make using two-phase commit?",
+    "answerable": true,
+    "original_results": [
+      {
+        "chunk_id": "openstax-intro-cs:p398:part0:fixed:500:50:0",
+        "document_id": "openstax-intro-cs",
+        "source": "https://openstax.org/details/books/introduction-computer-science",
+        "page": 398,
+        "text": "manager decides whether to commit or rollback a transaction using a two-phase commit (2PC). The steps of\n2PC are described in Figure 8.12.\nFigure 8.12 Two-phase commit protocol illustrates the six steps needed for a distributed transaction. (attribution: Copyright Rice\nUniversity, OpenStax, under CC BY NC-SA 4.0 license)\nThe transaction management server manages the transactions in loosely coupled and tightly coupled modes.\nIn loosely coupled, the different database servers coordinate transactio",
+        "metadata": {
+          "part": 0,
+          "section": "8.3"
+        },
+        "score": 0.6683324821974405,
+        "id": "openstax-intro-cs:p398:part0:fixed:500:50:0",
+        "source_id": "openstax-intro-cs"
+      },
+      {
+        "chunk_id": "openstax-intro-cs:p374:part0:fixed:500:50:900",
+        "document_id": "openstax-intro-cs",
+        "source": "https://openstax.org/details/books/introduction-computer-science",
+        "page": 374,
+        "text": " why, and who. What policies\nshould we include? How do we integrate the policies with the enterprise business process? Why do we need\nthis policy? Who will be part of this policy?\nDifferent frameworks have been introduced for data quality management and data quality improvement: Total\nData Quality Management (TDQM), Total Quality Management (TQM), Capability Maturity Model Integration\n(CMMI), ISO 9000, Control Objectives for Information and Related Technology (COBIT), Data Management\nBody of Kno",
+        "metadata": {
+          "part": 0,
+          "section": "8.1"
+        },
+        "score": 0.4256891008548691,
+        "id": "openstax-intro-cs:p374:part0:fixed:500:50:900",
+        "source_id": "openstax-intro-cs"
+      },
+      {
+        "chunk_id": "openstax-intro-cs:p407:part1:fixed:500:50:2250",
+        "document_id": "openstax-intro-cs",
+        "source": "https://openstax.org/details/books/introduction-computer-science",
+        "page": 407,
+        "text": "equency (i.e., monthly) and\nare semistructured based on the data requirement. The strategic level has the highest level of organizational\nbusiness decisions, and their decisions are unstructured and/or infrequent.\nIn designing a data warehouse, many schemas can be adopted such as star schema, snowflake schema, and\nfact constellation. A star schema is a data model with one large fact table connected to smaller tables. The\nfact table contains keys referring to each dimension table as shown in Figu",
+        "metadata": {
+          "part": 1,
+          "section": "8.5"
+        },
+        "score": 0.39379640984900965,
+        "id": "openstax-intro-cs:p407:part1:fixed:500:50:2250",
+        "source_id": "openstax-intro-cs"
+      }
+    ],
+    "original_context": "[openstax-intro-cs:p398:part0:fixed:500:50:0 | https://openstax.org/details/books/introduction-computer-science | page 398]\nmanager decides whether to commit or rollback a transaction using a two-phase commit (2PC). The steps of\n2PC are described in Figure 8.12.\nFigure 8.12 Two-phase commit protocol illustrates the six steps needed for a distributed transaction. (attribution: Copyright Rice\nUniversity, OpenStax, under CC BY NC-SA 4.0 license)\nThe transaction management server manages the transactions in loosely coupled and tightly coupled modes.\nIn loosely coupled, the different database servers coordinate transactio\n\n[openstax-intro-cs:p374:part0:fixed:500:50:900 | https://openstax.org/details/books/introduction-computer-science | page 374]\n why, and who. What policies\nshould we include? How do we integrate the policies with the enterprise business process? Why do we need\nthis policy? Who will be part of this policy?\nDifferent frameworks have been introduced for data quality management and data quality improvement: Total\nData Quality Management (TDQM), Total Quality Management (TQM), Capability Maturity Model Integration\n(CMMI), ISO 9000, Control Objectives for Information and Related Technology (COBIT), Data Management\nBody of Kno\n\n[openstax-intro-cs:p407:part1:fixed:500:50:2250 | https://openstax.org/details/books/introduction-computer-science | page 407]\nequency (i.e., monthly) and\nare semistructured based on the data requirement. The strategic level has the highest level of organizational\nbusiness decisions, and their decisions are unstructured and/or infrequent.\nIn designing a data warehouse, many schemas can be adopted such as star schema, snowflake schema, and\nfact constellation. A star schema is a data model with one large fact table connected to smaller tables. The\nfact table contains keys referring to each dimension table as shown in Figu",
+    "original_context_ids": [
+      "openstax-intro-cs:p398:part0:fixed:500:50:0",
+      "openstax-intro-cs:p374:part0:fixed:500:50:900",
+      "openstax-intro-cs:p407:part1:fixed:500:50:2250"
+    ],
+    "retrieval_original": {
+      "hit1": true,
+      "hit3": true,
+      "context_hit": true
+    },
+    "agent_context_hit": true,
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "two-phase commit what decision does transaction manager make prepare commit abort coordinator decision manager makes in phase two; manager node decision commit or rollback based on participants votes.",
+        "filter": null,
+        "results": [
+          {
+            "chunk_id": "openstax-intro-cs:p398:part0:fixed:500:50:0",
+            "document_id": "openstax-intro-cs",
+            "source": "https://openstax.org/details/books/introduction-computer-science",
+            "page": 398,
+            "text": "manager decides whether to commit or rollback a transaction using a two-phase commit (2PC). The steps of\n2PC are described in Figure 8.12.\nFigure 8.12 Two-phase commit protocol illustrates the six steps needed for a distributed transaction. (attribution: Copyright Rice\nUniversity, OpenStax, under CC BY NC-SA 4.0 license)\nThe transaction management server manages the transactions in loosely coupled and tightly coupled modes.\nIn loosely coupled, the different database servers coordinate transactio",
+            "metadata": {
+              "part": 0,
+              "section": "8.3"
+            },
+            "score": 0.6379135428763458,
+            "id": "openstax-intro-cs:p398:part0:fixed:500:50:0",
+            "source_id": "openstax-intro-cs"
+          },
+          {
+            "chunk_id": "openstax-intro-cs:p397:part0:fixed:500:50:1350",
+            "document_id": "openstax-intro-cs",
+            "source": "https://openstax.org/details/books/introduction-computer-science",
+            "page": 397,
+            "text": "es a schedule with interleaved\nread/write operations, guarantees ACID properties, and can COMMIT a transaction upon successful execution\nor ROLLBACK a transaction upon unsuccessful execution. Delineating transactions within the transaction life\ncycle is called transaction management. Various components are involved in transaction management (i.e.,\nscheduler, recovery manager, stored data manager, and buffer manager), and RDBMSs use a log file to register\nthe current state of the transaction (act",
+            "metadata": {
+              "part": 0,
+              "section": "8.3"
+            },
+            "score": 0.4879321760148795,
+            "id": "openstax-intro-cs:p397:part0:fixed:500:50:1350",
+            "source_id": "openstax-intro-cs"
+          },
+          {
+            "chunk_id": "openstax-intro-cs:p397:part0:fixed:500:50:1800",
+            "document_id": "openstax-intro-cs",
+            "source": "https://openstax.org/details/books/introduction-computer-science",
+            "page": 397,
+            "text": "register\nthe current state of the transaction (active, committed, or aborted) and facilitate the implementation of\ncheckpoint for rollback purposes.\nConcurrency Control\nThe coordination of transactions that execute simultaneously on the same data so that they do not cause\ninconsistencies because of mutual interference is called concurrency control. A lock manager provides\nconcurrency control, which ensures data integrity at all times. The two types of locks are read locks and write\nlocks. The lo",
+            "metadata": {
+              "part": 0,
+              "section": "8.3"
+            },
+            "score": 0.48378243404362187,
+            "id": "openstax-intro-cs:p397:part0:fixed:500:50:1800",
+            "source_id": "openstax-intro-cs"
+          }
+        ],
+        "context": "[openstax-intro-cs:p398:part0:fixed:500:50:0 | https://openstax.org/details/books/introduction-computer-science | page 398]\nmanager decides whether to commit or rollback a transaction using a two-phase commit (2PC). The steps of\n2PC are described in Figure 8.12.\nFigure 8.12 Two-phase commit protocol illustrates the six steps needed for a distributed transaction. (attribution: Copyright Rice\nUniversity, OpenStax, under CC BY NC-SA 4.0 license)\nThe transaction management server manages the transactions in loosely coupled and tightly coupled modes.\nIn loosely coupled, the different database servers coordinate transactio\n\n[openstax-intro-cs:p397:part0:fixed:500:50:1350 | https://openstax.org/details/books/introduction-computer-science | page 397]\nes a schedule with interleaved\nread/write operations, guarantees ACID properties, and can COMMIT a transaction upon successful execution\nor ROLLBACK a transaction upon unsuccessful execution. Delineating transactions within the transaction life\ncycle is called transaction management. Various components are involved in transaction management (i.e.,\nscheduler, recovery manager, stored data manager, and buffer manager), and RDBMSs use a log file to register\nthe current state of the transaction (act\n\n[openstax-intro-cs:p397:part0:fixed:500:50:1800 | https://openstax.org/details/books/introduction-computer-science | page 397]\nregister\nthe current state of the transaction (active, committed, or aborted) and facilitate the implementation of\ncheckpoint for rollback purposes.\nConcurrency Control\nThe coordination of transactions that execute simultaneously on the same data so that they do not cause\ninconsistencies because of mutual interference is called concurrency control. A lock manager provides\nconcurrency control, which ensures data integrity at all times. The two types of locks are read locks and write\nlocks. The lo",
+        "context_ids": [
+          "openstax-intro-cs:p398:part0:fixed:500:50:0",
+          "openstax-intro-cs:p397:part0:fixed:500:50:1350",
+          "openstax-intro-cs:p397:part0:fixed:500:50:1800"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "In two-phase commit, what decision does the transaction manager make, and what determines whether it commits or rolls back?",
+        "filter": null,
+        "results": [
+          {
+            "chunk_id": "openstax-intro-cs:p398:part0:fixed:500:50:0",
+            "document_id": "openstax-intro-cs",
+            "source": "https://openstax.org/details/books/introduction-computer-science",
+            "page": 398,
+            "text": "manager decides whether to commit or rollback a transaction using a two-phase commit (2PC). The steps of\n2PC are described in Figure 8.12.\nFigure 8.12 Two-phase commit protocol illustrates the six steps needed for a distributed transaction. (attribution: Copyright Rice\nUniversity, OpenStax, under CC BY NC-SA 4.0 license)\nThe transaction management server manages the transactions in loosely coupled and tightly coupled modes.\nIn loosely coupled, the different database servers coordinate transactio",
+            "metadata": {
+              "part": 0,
+              "section": "8.3"
+            },
+            "score": 0.7644896641311697,
+            "id": "openstax-intro-cs:p398:part0:fixed:500:50:0",
+            "source_id": "openstax-intro-cs"
+          },
+          {
+            "chunk_id": "openstax-intro-cs:p397:part0:fixed:500:50:1350",
+            "document_id": "openstax-intro-cs",
+            "source": "https://openstax.org/details/books/introduction-computer-science",
+            "page": 397,
+            "text": "es a schedule with interleaved\nread/write operations, guarantees ACID properties, and can COMMIT a transaction upon successful execution\nor ROLLBACK a transaction upon unsuccessful execution. Delineating transactions within the transaction life\ncycle is called transaction management. Various components are involved in transaction management (i.e.,\nscheduler, recovery manager, stored data manager, and buffer manager), and RDBMSs use a log file to register\nthe current state of the transaction (act",
+            "metadata": {
+              "part": 0,
+              "section": "8.3"
+            },
+            "score": 0.6011873255179118,
+            "id": "openstax-intro-cs:p397:part0:fixed:500:50:1350",
+            "source_id": "openstax-intro-cs"
+          },
+          {
+            "chunk_id": "openstax-intro-cs:p397:part0:fixed:500:50:900",
+            "document_id": "openstax-intro-cs",
+            "source": "https://openstax.org/details/books/introduction-computer-science",
+            "page": 397,
+            "text": "ered as one undividable unit of work (e.g., transfer between two bank accounts of the same customer).\nA transaction either succeeds or fails in its entirety.\nA transaction renders the database from one consistent state into another consistent state. The transaction\nmanager supervises the execution of database transactions. A database transaction is a sequence of read/\nwrite operations considered to be an atomic unit. The transaction manager creates a schedule with interleaved\nread/write operatio",
+            "metadata": {
+              "part": 0,
+              "section": "8.3"
+            },
+            "score": 0.5431675745762155,
+            "id": "openstax-intro-cs:p397:part0:fixed:500:50:900",
+            "source_id": "openstax-intro-cs"
+          }
+        ],
+        "context": "[openstax-intro-cs:p398:part0:fixed:500:50:0 | https://openstax.org/details/books/introduction-computer-science | page 398]\nmanager decides whether to commit or rollback a transaction using a two-phase commit (2PC). The steps of\n2PC are described in Figure 8.12.\nFigure 8.12 Two-phase commit protocol illustrates the six steps needed for a distributed transaction. (attribution: Copyright Rice\nUniversity, OpenStax, under CC BY NC-SA 4.0 license)\nThe transaction management server manages the transactions in loosely coupled and tightly coupled modes.\nIn loosely coupled, the different database servers coordinate transactio\n\n[openstax-intro-cs:p397:part0:fixed:500:50:1350 | https://openstax.org/details/books/introduction-computer-science | page 397]\nes a schedule with interleaved\nread/write operations, guarantees ACID properties, and can COMMIT a transaction upon successful execution\nor ROLLBACK a transaction upon unsuccessful execution. Delineating transactions within the transaction life\ncycle is called transaction management. Various components are involved in transaction management (i.e.,\nscheduler, recovery manager, stored data manager, and buffer manager), and RDBMSs use a log file to register\nthe current state of the transaction (act\n\n[openstax-intro-cs:p397:part0:fixed:500:50:1800 | https://openstax.org/details/books/introduction-computer-science | page 397]\nregister\nthe current state of the transaction (active, committed, or aborted) and facilitate the implementation of\ncheckpoint for rollback purposes.\nConcurrency Control\nThe coordination of transactions that execute simultaneously on the same data so that they do not cause\ninconsistencies because of mutual interference is called concurrency control. A lock manager provides\nconcurrency control, which ensures data integrity at all times. The two types of locks are read locks and write\nlocks. The lo",
+        "context_ids": [
+          "openstax-intro-cs:p398:part0:fixed:500:50:0",
+          "openstax-intro-cs:p397:part0:fixed:500:50:1350",
+          "openstax-intro-cs:p397:part0:fixed:500:50:1800"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "In two-phase commit, how does the transaction manager decide whether to commit or roll back based on participant votes?",
+        "filter": null,
+        "results": [
+          {
+            "chunk_id": "openstax-intro-cs:p398:part0:fixed:500:50:0",
+            "document_id": "openstax-intro-cs",
+            "source": "https://openstax.org/details/books/introduction-computer-science",
+            "page": 398,
+            "text": "manager decides whether to commit or rollback a transaction using a two-phase commit (2PC). The steps of\n2PC are described in Figure 8.12.\nFigure 8.12 Two-phase commit protocol illustrates the six steps needed for a distributed transaction. (attribution: Copyright Rice\nUniversity, OpenStax, under CC BY NC-SA 4.0 license)\nThe transaction management server manages the transactions in loosely coupled and tightly coupled modes.\nIn loosely coupled, the different database servers coordinate transactio",
+            "metadata": {
+              "part": 0,
+              "section": "8.3"
+            },
+            "score": 0.718883336963907,
+            "id": "openstax-intro-cs:p398:part0:fixed:500:50:0",
+            "source_id": "openstax-intro-cs"
+          },
+          {
+            "chunk_id": "openstax-intro-cs:p403:part0:fixed:500:50:0",
+            "document_id": "openstax-intro-cs",
+            "source": "https://openstax.org/details/books/introduction-computer-science",
+            "page": 403,
+            "text": "the amount from the sender's account and adding it to the recipient's account. If any of these steps fail, the\nentire transaction should be rolled back to ensure that the database remains consistent. Atomicity ensures\nthat the transaction either completes successfully and all the changes are committed, or it fails and none of\nthe changes are committed, leaving the database in a consistent state.\nMappings between XML and Object-Relational Data\nAn ontology is semantic data used to describe entitie",
+            "metadata": {
+              "part": 0,
+              "section": "8.4"
+            },
+            "score": 0.5394152756789445,
+            "id": "openstax-intro-cs:p403:part0:fixed:500:50:0",
+            "source_id": "openstax-intro-cs"
+          },
+          {
+            "chunk_id": "openstax-intro-cs:p397:part0:fixed:500:50:1800",
+            "document_id": "openstax-intro-cs",
+            "source": "https://openstax.org/details/books/introduction-computer-science",
+            "page": 397,
+            "text": "register\nthe current state of the transaction (active, committed, or aborted) and facilitate the implementation of\ncheckpoint for rollback purposes.\nConcurrency Control\nThe coordination of transactions that execute simultaneously on the same data so that they do not cause\ninconsistencies because of mutual interference is called concurrency control. A lock manager provides\nconcurrency control, which ensures data integrity at all times. The two types of locks are read locks and write\nlocks. The lo",
+            "metadata": {
+              "part": 0,
+              "section": "8.3"
+            },
+            "score": 0.5235318359389254,
+            "id": "openstax-intro-cs:p397:part0:fixed:500:50:1800",
+            "source_id": "openstax-intro-cs"
+          }
+        ],
+        "context": "[openstax-intro-cs:p398:part0:fixed:500:50:0 | https://openstax.org/details/books/introduction-computer-science | page 398]\nmanager decides whether to commit or rollback a transaction using a two-phase commit (2PC). The steps of\n2PC are described in Figure 8.12.\nFigure 8.12 Two-phase commit protocol illustrates the six steps needed for a distributed transaction. (attribution: Copyright Rice\nUniversity, OpenStax, under CC BY NC-SA 4.0 license)\nThe transaction management server manages the transactions in loosely coupled and tightly coupled modes.\nIn loosely coupled, the different database servers coordinate transactio\n\n[openstax-intro-cs:p397:part0:fixed:500:50:1350 | https://openstax.org/details/books/introduction-computer-science | page 397]\nes a schedule with interleaved\nread/write operations, guarantees ACID properties, and can COMMIT a transaction upon successful execution\nor ROLLBACK a transaction upon unsuccessful execution. Delineating transactions within the transaction life\ncycle is called transaction management. Various components are involved in transaction management (i.e.,\nscheduler, recovery manager, stored data manager, and buffer manager), and RDBMSs use a log file to register\nthe current state of the transaction (act\n\n[openstax-intro-cs:p397:part0:fixed:500:50:1800 | https://openstax.org/details/books/introduction-computer-science | page 397]\nregister\nthe current state of the transaction (active, committed, or aborted) and facilitate the implementation of\ncheckpoint for rollback purposes.\nConcurrency Control\nThe coordination of transactions that execute simultaneously on the same data so that they do not cause\ninconsistencies because of mutual interference is called concurrency control. A lock manager provides\nconcurrency control, which ensures data integrity at all times. The two types of locks are read locks and write\nlocks. The lo",
+        "context_ids": [
+          "openstax-intro-cs:p398:part0:fixed:500:50:0",
+          "openstax-intro-cs:p397:part0:fixed:500:50:1350",
+          "openstax-intro-cs:p397:part0:fixed:500:50:1800"
+        ]
+      },
+      {
+        "event": "search_limit"
+      }
+    ],
+    "elapsed_ms": 9716.871,
+    "usage": [
+      {
+        "input_tokens": 203,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 0
+          }
+        },
+        "output_tokens": 67,
+        "output_tokens_details": {
+          "reasoning_tokens": 12
+        },
+        "total_tokens": 270
+      },
+      {
+        "input_tokens": 752,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 0
+          }
+        },
+        "output_tokens": 73,
+        "output_tokens_details": {
+          "reasoning_tokens": 26
+        },
+        "total_tokens": 825
+      },
+      {
+        "input_tokens": 776,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 0
+          }
+        },
+        "output_tokens": 74,
+        "output_tokens_details": {
+          "reasoning_tokens": 28
+        },
+        "total_tokens": 850
+      },
+      {
+        "input_tokens": 799,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 0
+          }
+        },
+        "output_tokens": 77,
+        "output_tokens_details": {
+          "reasoning_tokens": 21
+        },
+        "total_tokens": 876
+      }
+    ],
+    "api_calls": [
+      {
+        "status": "completed",
+        "max_output_tokens": 1600
+      },
+      {
+        "status": "completed",
+        "max_output_tokens": 1600
+      },
+      {
+        "status": "completed",
+        "max_output_tokens": 1600
+      },
+      {
+        "status": "completed",
+        "max_output_tokens": 1600
+      }
+    ]
+  },
+  {
+    "query_id": "test-399",
+    "split": "test",
+    "question": "What is database recovery intended to do after a failure or problem?",
+    "answerable": true,
+    "original_results": [
+      {
+        "chunk_id": "openstax-intro-cs:p399:part0:fixed:500:50:0",
+        "document_id": "openstax-intro-cs",
+        "source": "https://openstax.org/details/books/introduction-computer-science",
+        "page": 399,
+        "text": "optimization is needed.\nRecovery\nThe activity of setting the database in a consistent state without any data loss in the event of a failure or when\nany problem occurs is called database recovery. System failure occurs when a system goes down in the\nmiddle of a transaction, and media failure occurs when a database file or the device storing the database file\nstops working. There are many recovery techniques such as mirroring by adding two complete copies of the\ndatabase, transaction logs by recor",
+        "metadata": {
+          "part": 0,
+          "section": "8.3"
+        },
+        "score": 0.8853226426135843,
+        "id": "openstax-intro-cs:p399:part0:fixed:500:50:0",
+        "source_id": "openstax-intro-cs"
+      },
+      {
+        "chunk_id": "openstax-intro-cs:p378:part0:fixed:500:50:2700",
+        "document_id": "openstax-intro-cs",
+        "source": "https://openstax.org/details/books/introduction-computer-science",
+        "page": 378,
+        "text": "ed location and is used to restore the database in the event of failure, loss, or\ndamage to the original data.\n368 8 • Data Management\nAccess for free at openstax.org",
+        "metadata": {
+          "part": 0,
+          "section": "8.2"
+        },
+        "score": 0.6810790102930356,
+        "id": "openstax-intro-cs:p378:part0:fixed:500:50:2700",
+        "source_id": "openstax-intro-cs"
+      },
+      {
+        "chunk_id": "openstax-intro-cs:p399:part0:fixed:500:50:450",
+        "document_id": "openstax-intro-cs",
+        "source": "https://openstax.org/details/books/introduction-computer-science",
+        "page": 399,
+        "text": " copies of the\ndatabase, transaction logs by recording the transitions’ changes, shadow paging by dividing the database into\npages, and backups. Backups are the most-used method for recovery and include immediate backup and\narchival backup. An immediate backup stores the copies in disks, and an archival backup stores the data in\ndifferent servers/sites.\nSecurity\nUsing a set of controls to secure data, guaranteeing a high level of confidentiality, is considered database\nsecurity. Security issues ",
+        "metadata": {
+          "part": 0,
+          "section": "8.3"
+        },
+        "score": 0.6454683420267433,
+        "id": "openstax-intro-cs:p399:part0:fixed:500:50:450",
+        "source_id": "openstax-intro-cs"
+      }
+    ],
+    "original_context": "[openstax-intro-cs:p399:part0:fixed:500:50:0 | https://openstax.org/details/books/introduction-computer-science | page 399]\noptimization is needed.\nRecovery\nThe activity of setting the database in a consistent state without any data loss in the event of a failure or when\nany problem occurs is called database recovery. System failure occurs when a system goes down in the\nmiddle of a transaction, and media failure occurs when a database file or the device storing the database file\nstops working. There are many recovery techniques such as mirroring by adding two complete copies of the\ndatabase, transaction logs by recor\n\n[openstax-intro-cs:p378:part0:fixed:500:50:2700 | https://openstax.org/details/books/introduction-computer-science | page 378]\ned location and is used to restore the database in the event of failure, loss, or\ndamage to the original data.\n368 8 • Data Management\nAccess for free at openstax.org\n\n[openstax-intro-cs:p399:part0:fixed:500:50:450 | https://openstax.org/details/books/introduction-computer-science | page 399]\n copies of the\ndatabase, transaction logs by recording the transitions’ changes, shadow paging by dividing the database into\npages, and backups. Backups are the most-used method for recovery and include immediate backup and\narchival backup. An immediate backup stores the copies in disks, and an archival backup stores the data in\ndifferent servers/sites.\nSecurity\nUsing a set of controls to secure data, guaranteeing a high level of confidentiality, is considered database\nsecurity. Security issues ",
+    "original_context_ids": [
+      "openstax-intro-cs:p399:part0:fixed:500:50:0",
+      "openstax-intro-cs:p378:part0:fixed:500:50:2700",
+      "openstax-intro-cs:p399:part0:fixed:500:50:450"
+    ],
+    "retrieval_original": {
+      "hit1": true,
+      "hit3": true,
+      "context_hit": true
+    },
+    "agent_context_hit": true,
+    "status": "answered",
+    "answer": "Database recovery is intended to restore the database to a consistent state without losing data after a failure or other problem. [openstax-intro-cs:p399:part0:fixed:500:50:0]",
+    "citations": [
+      "openstax-intro-cs:p399:part0:fixed:500:50:0"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "What is database recovery intended to do after a failure or problem? Database recovery purpose restore database consistent state, recover committed transactions, undo incomplete transactions.",
+        "filter": null,
+        "results": [
+          {
+            "chunk_id": "openstax-intro-cs:p399:part0:fixed:500:50:0",
+            "document_id": "openstax-intro-cs",
+            "source": "https://openstax.org/details/books/introduction-computer-science",
+            "page": 399,
+            "text": "optimization is needed.\nRecovery\nThe activity of setting the database in a consistent state without any data loss in the event of a failure or when\nany problem occurs is called database recovery. System failure occurs when a system goes down in the\nmiddle of a transaction, and media failure occurs when a database file or the device storing the database file\nstops working. There are many recovery techniques such as mirroring by adding two complete copies of the\ndatabase, transaction logs by recor",
+            "metadata": {
+              "part": 0,
+              "section": "8.3"
+            },
+            "score": 0.8150537129893752,
+            "id": "openstax-intro-cs:p399:part0:fixed:500:50:0",
+            "source_id": "openstax-intro-cs"
+          },
+          {
+            "chunk_id": "openstax-intro-cs:p399:part0:fixed:500:50:450",
+            "document_id": "openstax-intro-cs",
+            "source": "https://openstax.org/details/books/introduction-computer-science",
+            "page": 399,
+            "text": " copies of the\ndatabase, transaction logs by recording the transitions’ changes, shadow paging by dividing the database into\npages, and backups. Backups are the most-used method for recovery and include immediate backup and\narchival backup. An immediate backup stores the copies in disks, and an archival backup stores the data in\ndifferent servers/sites.\nSecurity\nUsing a set of controls to secure data, guaranteeing a high level of confidentiality, is considered database\nsecurity. Security issues ",
+            "metadata": {
+              "part": 0,
+              "section": "8.3"
+            },
+            "score": 0.6116311904606708,
+            "id": "openstax-intro-cs:p399:part0:fixed:500:50:450",
+            "source_id": "openstax-intro-cs"
+          },
+          {
+            "chunk_id": "openstax-intro-cs:p378:part0:fixed:500:50:2700",
+            "document_id": "openstax-intro-cs",
+            "source": "https://openstax.org/details/books/introduction-computer-science",
+            "page": 378,
+            "text": "ed location and is used to restore the database in the event of failure, loss, or\ndamage to the original data.\n368 8 • Data Management\nAccess for free at openstax.org",
+            "metadata": {
+              "part": 0,
+              "section": "8.2"
+            },
+            "score": 0.5991218686594164,
+            "id": "openstax-intro-cs:p378:part0:fixed:500:50:2700",
+            "source_id": "openstax-intro-cs"
+          }
+        ],
+        "context": "[openstax-intro-cs:p399:part0:fixed:500:50:0 | https://openstax.org/details/books/introduction-computer-science | page 399]\noptimization is needed.\nRecovery\nThe activity of setting the database in a consistent state without any data loss in the event of a failure or when\nany problem occurs is called database recovery. System failure occurs when a system goes down in the\nmiddle of a transaction, and media failure occurs when a database file or the device storing the database file\nstops working. There are many recovery techniques such as mirroring by adding two complete copies of the\ndatabase, transaction logs by recor\n\n[openstax-intro-cs:p399:part0:fixed:500:50:450 | https://openstax.org/details/books/introduction-computer-science | page 399]\n copies of the\ndatabase, transaction logs by recording the transitions’ changes, shadow paging by dividing the database into\npages, and backups. Backups are the most-used method for recovery and include immediate backup and\narchival backup. An immediate backup stores the copies in disks, and an archival backup stores the data in\ndifferent servers/sites.\nSecurity\nUsing a set of controls to secure data, guaranteeing a high level of confidentiality, is considered database\nsecurity. Security issues \n\n[openstax-intro-cs:p378:part0:fixed:500:50:2700 | https://openstax.org/details/books/introduction-computer-science | page 378]\ned location and is used to restore the database in the event of failure, loss, or\ndamage to the original data.\n368 8 • Data Management\nAccess for free at openstax.org",
+        "context_ids": [
+          "openstax-intro-cs:p399:part0:fixed:500:50:0",
+          "openstax-intro-cs:p399:part0:fixed:500:50:450",
+          "openstax-intro-cs:p378:part0:fixed:500:50:2700"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "elapsed_ms": 5812.296,
+    "usage": [
+      {
+        "input_tokens": 205,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 0
+          }
+        },
+        "output_tokens": 72,
+        "output_tokens_details": {
+          "reasoning_tokens": 19
+        },
+        "total_tokens": 277
+      },
+      {
+        "input_tokens": 689,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 0
+          }
+        },
+        "output_tokens": 116,
+        "output_tokens_details": {
+          "reasoning_tokens": 27
+        },
+        "total_tokens": 805
+      }
+    ],
+    "api_calls": [
+      {
+        "status": "completed",
+        "max_output_tokens": 1600
+      },
+      {
+        "status": "completed",
+        "max_output_tokens": 1600
+      }
+    ]
+  },
+  {
+    "query_id": "test-no-evidence-01",
+    "split": "test",
+    "question": "What database encryption algorithm is mandated by the internal policy of the fictional company Lumeris Harbor?",
+    "answerable": false,
+    "original_results": [
+      {
+        "chunk_id": "openstax-intro-cs:p399:part0:fixed:500:50:1800",
+        "document_id": "openstax-intro-cs",
+        "source": "https://openstax.org/details/books/introduction-computer-science",
+        "page": 399,
+        "text": "istical database security, which focuses on the protection of statistical\nvalues stored in the database; encryption, which converts the data into secret code to hide the true meaning;\nand public key infrastructure, which is a set of roles and policies needed to manage the database.\nLINK TO LEARNING\nThere are many places on the Internet where you can learn more about programming and databases. For\nexample, should you want to build your own website, you will need to know something about structured",
+        "metadata": {
+          "part": 0,
+          "section": "8.3"
+        },
+        "score": 0.5983138292734631,
+        "id": "openstax-intro-cs:p399:part0:fixed:500:50:1800",
+        "source_id": "openstax-intro-cs"
+      },
+      {
+        "chunk_id": "openstax-intro-cs:p399:part0:fixed:500:50:1350",
+        "document_id": "openstax-intro-cs",
+        "source": "https://openstax.org/details/books/introduction-computer-science",
+        "page": 399,
+        "text": "Figure\n8.14).\nFigure 8.14 SQL injection gives attackers access to confidential client data such as teacher data. (attribution: Copyright Rice\nUniversity, OpenStax, under CC BY NC-SA 4.0 license)\nTo secure the database, there are many methods such as discretionary access control, which may grant or\nreject object access using a set of policies; mandatory access control, which restricts the ability to grant or\nreject access to resource objects; statistical database security, which focuses on the pr",
+        "metadata": {
+          "part": 0,
+          "section": "8.3"
+        },
+        "score": 0.5345100400539696,
+        "id": "openstax-intro-cs:p399:part0:fixed:500:50:1350",
+        "source_id": "openstax-intro-cs"
+      },
+      {
+        "chunk_id": "openstax-intro-cs:p399:part0:fixed:500:50:900",
+        "document_id": "openstax-intro-cs",
+        "source": "https://openstax.org/details/books/introduction-computer-science",
+        "page": 399,
+        "text": " is considered database\nsecurity. Security issues facing a database include human errors such as password sharing and weak\npasswords; SQL injection, which involves the use of SQL attack strings in database queries; overflow attacks,\nwhich writes a large amount of data to a fixed-length block of the memory, causing overflow; Denial of Service\nAttacks (DoS) that use a large amount of requests to crash the server; and internal and external attacks (Figure\n8.14).\nFigure 8.14 SQL injection gives atta",
+        "metadata": {
+          "part": 0,
+          "section": "8.3"
+        },
+        "score": 0.49872907159096647,
+        "id": "openstax-intro-cs:p399:part0:fixed:500:50:900",
+        "source_id": "openstax-intro-cs"
+      }
+    ],
+    "original_context": "[openstax-intro-cs:p399:part0:fixed:500:50:1800 | https://openstax.org/details/books/introduction-computer-science | page 399]\nistical database security, which focuses on the protection of statistical\nvalues stored in the database; encryption, which converts the data into secret code to hide the true meaning;\nand public key infrastructure, which is a set of roles and policies needed to manage the database.\nLINK TO LEARNING\nThere are many places on the Internet where you can learn more about programming and databases. For\nexample, should you want to build your own website, you will need to know something about structured\n\n[openstax-intro-cs:p399:part0:fixed:500:50:1350 | https://openstax.org/details/books/introduction-computer-science | page 399]\nFigure\n8.14).\nFigure 8.14 SQL injection gives attackers access to confidential client data such as teacher data. (attribution: Copyright Rice\nUniversity, OpenStax, under CC BY NC-SA 4.0 license)\nTo secure the database, there are many methods such as discretionary access control, which may grant or\nreject object access using a set of policies; mandatory access control, which restricts the ability to grant or\nreject access to resource objects; statistical database security, which focuses on the pr\n\n[openstax-intro-cs:p399:part0:fixed:500:50:900 | https://openstax.org/details/books/introduction-computer-science | page 399]\n is considered database\nsecurity. Security issues facing a database include human errors such as password sharing and weak\npasswords; SQL injection, which involves the use of SQL attack strings in database queries; overflow attacks,\nwhich writes a large amount of data to a fixed-length block of the memory, causing overflow; Denial of Service\nAttacks (DoS) that use a large amount of requests to crash the server; and internal and external attacks (Figure\n8.14).\nFigure 8.14 SQL injection gives atta",
+    "original_context_ids": [
+      "openstax-intro-cs:p399:part0:fixed:500:50:1800",
+      "openstax-intro-cs:p399:part0:fixed:500:50:1350",
+      "openstax-intro-cs:p399:part0:fixed:500:50:900"
+    ],
+    "retrieval_original": {
+      "hit1": null,
+      "hit3": null,
+      "context_hit": null
+    },
+    "agent_context_hit": null,
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "Lumeris Harbor internal policy mandated database encryption algorithm fictional company database encryption policy algorithm evidence.",
+        "filter": null,
+        "results": [
+          {
+            "chunk_id": "openstax-intro-cs:p399:part0:fixed:500:50:1800",
+            "document_id": "openstax-intro-cs",
+            "source": "https://openstax.org/details/books/introduction-computer-science",
+            "page": 399,
+            "text": "istical database security, which focuses on the protection of statistical\nvalues stored in the database; encryption, which converts the data into secret code to hide the true meaning;\nand public key infrastructure, which is a set of roles and policies needed to manage the database.\nLINK TO LEARNING\nThere are many places on the Internet where you can learn more about programming and databases. For\nexample, should you want to build your own website, you will need to know something about structured",
+            "metadata": {
+              "part": 0,
+              "section": "8.3"
+            },
+            "score": 0.5861680894631623,
+            "id": "openstax-intro-cs:p399:part0:fixed:500:50:1800",
+            "source_id": "openstax-intro-cs"
+          },
+          {
+            "chunk_id": "openstax-intro-cs:p399:part0:fixed:500:50:900",
+            "document_id": "openstax-intro-cs",
+            "source": "https://openstax.org/details/books/introduction-computer-science",
+            "page": 399,
+            "text": " is considered database\nsecurity. Security issues facing a database include human errors such as password sharing and weak\npasswords; SQL injection, which involves the use of SQL attack strings in database queries; overflow attacks,\nwhich writes a large amount of data to a fixed-length block of the memory, causing overflow; Denial of Service\nAttacks (DoS) that use a large amount of requests to crash the server; and internal and external attacks (Figure\n8.14).\nFigure 8.14 SQL injection gives atta",
+            "metadata": {
+              "part": 0,
+              "section": "8.3"
+            },
+            "score": 0.46815077532749294,
+            "id": "openstax-intro-cs:p399:part0:fixed:500:50:900",
+            "source_id": "openstax-intro-cs"
+          },
+          {
+            "chunk_id": "openstax-intro-cs:p399:part0:fixed:500:50:1350",
+            "document_id": "openstax-intro-cs",
+            "source": "https://openstax.org/details/books/introduction-computer-science",
+            "page": 399,
+            "text": "Figure\n8.14).\nFigure 8.14 SQL injection gives attackers access to confidential client data such as teacher data. (attribution: Copyright Rice\nUniversity, OpenStax, under CC BY NC-SA 4.0 license)\nTo secure the database, there are many methods such as discretionary access control, which may grant or\nreject object access using a set of policies; mandatory access control, which restricts the ability to grant or\nreject access to resource objects; statistical database security, which focuses on the pr",
+            "metadata": {
+              "part": 0,
+              "section": "8.3"
+            },
+            "score": 0.4583571643632438,
+            "id": "openstax-intro-cs:p399:part0:fixed:500:50:1350",
+            "source_id": "openstax-intro-cs"
+          }
+        ],
+        "context": "[openstax-intro-cs:p399:part0:fixed:500:50:1800 | https://openstax.org/details/books/introduction-computer-science | page 399]\nistical database security, which focuses on the protection of statistical\nvalues stored in the database; encryption, which converts the data into secret code to hide the true meaning;\nand public key infrastructure, which is a set of roles and policies needed to manage the database.\nLINK TO LEARNING\nThere are many places on the Internet where you can learn more about programming and databases. For\nexample, should you want to build your own website, you will need to know something about structured\n\n[openstax-intro-cs:p399:part0:fixed:500:50:900 | https://openstax.org/details/books/introduction-computer-science | page 399]\n is considered database\nsecurity. Security issues facing a database include human errors such as password sharing and weak\npasswords; SQL injection, which involves the use of SQL attack strings in database queries; overflow attacks,\nwhich writes a large amount of data to a fixed-length block of the memory, causing overflow; Denial of Service\nAttacks (DoS) that use a large amount of requests to crash the server; and internal and external attacks (Figure\n8.14).\nFigure 8.14 SQL injection gives atta\n\n[openstax-intro-cs:p399:part0:fixed:500:50:1350 | https://openstax.org/details/books/introduction-computer-science | page 399]\nFigure\n8.14).\nFigure 8.14 SQL injection gives attackers access to confidential client data such as teacher data. (attribution: Copyright Rice\nUniversity, OpenStax, under CC BY NC-SA 4.0 license)\nTo secure the database, there are many methods such as discretionary access control, which may grant or\nreject object access using a set of policies; mandatory access control, which restricts the ability to grant or\nreject access to resource objects; statistical database security, which focuses on the pr",
+        "context_ids": [
+          "openstax-intro-cs:p399:part0:fixed:500:50:1800",
+          "openstax-intro-cs:p399:part0:fixed:500:50:900",
+          "openstax-intro-cs:p399:part0:fixed:500:50:1350"
+        ]
+      },
+      {
+        "event": "invalid_or_missing_citations"
+      }
+    ],
+    "elapsed_ms": 4677.151,
+    "usage": [
+      {
+        "input_tokens": 211,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 0
+          }
+        },
+        "output_tokens": 60,
+        "output_tokens_details": {
+          "reasoning_tokens": 18
+        },
+        "total_tokens": 271
+      },
+      {
+        "input_tokens": 759,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 0
+          }
+        },
+        "output_tokens": 48,
+        "output_tokens_details": {
+          "reasoning_tokens": 21
+        },
+        "total_tokens": 807
+      }
+    ],
+    "api_calls": [
+      {
+        "status": "completed",
+        "max_output_tokens": 1600
+      },
+      {
+        "status": "completed",
+        "max_output_tokens": 1600
+      }
+    ]
+  },
+  {
+    "query_id": "test-no-evidence-02",
+    "split": "test",
+    "question": "How many database servers does the fictional company Greymont Vale operate?",
+    "answerable": false,
+    "original_results": [
+      {
+        "chunk_id": "openstax-intro-cs:p381:part0:fixed:500:50:1350",
+        "document_id": "openstax-intro-cs",
+        "source": "https://openstax.org/details/books/introduction-computer-science",
+        "page": 381,
+        "text": "ion tier, the logic tier, and the data tier (e.g., a client with GUI functionality, an\napplication server with applications, a database server with a DBMS and a database, and a web server for web-\nbased access). In cloud DBMS architecture, the DBMS and database are hosted by a third-party cloud\nprovider (e.g., Apache Cassandra project and Google’s BigTable). A federated DBMS provides a uniform\ninterface to multiple underlying data sources which hide the underlying storage details to facilitate d",
+        "metadata": {
+          "part": 0,
+          "section": "8.2"
+        },
+        "score": 0.45652076036864264,
+        "id": "openstax-intro-cs:p381:part0:fixed:500:50:1350",
+        "source_id": "openstax-intro-cs"
+      },
+      {
+        "chunk_id": "openstax-intro-cs:p396:part0:fixed:500:50:0",
+        "document_id": "openstax-intro-cs",
+        "source": "https://openstax.org/details/books/introduction-computer-science",
+        "page": 396,
+        "text": "RDBMS Architectures\nA relational database management system (RDBMS) architecture is categorized as a centralized system\narchitecture and a tiered system architecture. In centralized system architecture, the DBMS’s responsibilities\nare handled by one centralized entity—the mainframe database, which has become rare, expensive, and\ndifficult to maintain. The tiered system architectures aim to decouple the centralized setup by combining the\ncomputing capabilities of powerful central computers with t",
+        "metadata": {
+          "part": 0,
+          "section": "8.3"
+        },
+        "score": 0.44897276856360624,
+        "id": "openstax-intro-cs:p396:part0:fixed:500:50:0",
+        "source_id": "openstax-intro-cs"
+      },
+      {
+        "chunk_id": "openstax-intro-cs:p401:part0:fixed:500:50:2700",
+        "document_id": "openstax-intro-cs",
+        "source": "https://openstax.org/details/books/introduction-computer-science",
+        "page": 401,
+        "text": "LIGHT\nMongoDB\nMongoDB is the most popular NoSQL database; it has delivered substantial values for some businesses that\nhave been struggling to handle their unstructured data with the traditional RDBMS approach. After MetLife\nspent years trying to build a centralized customer database on a RDBMS that could handle all its insurance\nproducts, someone at an internal hackathon built one with MongoDB within hours, which went to\nproduction in 90 days.\nExtended Relational Databases\nExtended relational d",
+        "metadata": {
+          "part": 0,
+          "section": "8.4"
+        },
+        "score": 0.44413745092836754,
+        "id": "openstax-intro-cs:p401:part0:fixed:500:50:2700",
+        "source_id": "openstax-intro-cs"
+      }
+    ],
+    "original_context": "[openstax-intro-cs:p381:part0:fixed:500:50:1350 | https://openstax.org/details/books/introduction-computer-science | page 381]\nion tier, the logic tier, and the data tier (e.g., a client with GUI functionality, an\napplication server with applications, a database server with a DBMS and a database, and a web server for web-\nbased access). In cloud DBMS architecture, the DBMS and database are hosted by a third-party cloud\nprovider (e.g., Apache Cassandra project and Google’s BigTable). A federated DBMS provides a uniform\ninterface to multiple underlying data sources which hide the underlying storage details to facilitate d\n\n[openstax-intro-cs:p396:part0:fixed:500:50:0 | https://openstax.org/details/books/introduction-computer-science | page 396]\nRDBMS Architectures\nA relational database management system (RDBMS) architecture is categorized as a centralized system\narchitecture and a tiered system architecture. In centralized system architecture, the DBMS’s responsibilities\nare handled by one centralized entity—the mainframe database, which has become rare, expensive, and\ndifficult to maintain. The tiered system architectures aim to decouple the centralized setup by combining the\ncomputing capabilities of powerful central computers with t\n\n[openstax-intro-cs:p401:part0:fixed:500:50:2700 | https://openstax.org/details/books/introduction-computer-science | page 401]\nLIGHT\nMongoDB\nMongoDB is the most popular NoSQL database; it has delivered substantial values for some businesses that\nhave been struggling to handle their unstructured data with the traditional RDBMS approach. After MetLife\nspent years trying to build a centralized customer database on a RDBMS that could handle all its insurance\nproducts, someone at an internal hackathon built one with MongoDB within hours, which went to\nproduction in 90 days.\nExtended Relational Databases\nExtended relational d",
+    "original_context_ids": [
+      "openstax-intro-cs:p381:part0:fixed:500:50:1350",
+      "openstax-intro-cs:p396:part0:fixed:500:50:0",
+      "openstax-intro-cs:p401:part0:fixed:500:50:2700"
+    ],
+    "retrieval_original": {
+      "hit1": null,
+      "hit3": null,
+      "context_hit": null
+    },
+    "agent_context_hit": null,
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "\"Greymont Vale\" database servers company how many operates fictional company.",
+        "filter": null,
+        "results": [
+          {
+            "chunk_id": "openstax-intro-cs:p370:part0:fixed:500:50:450",
+            "document_id": "openstax-intro-cs",
+            "source": "https://openstax.org/details/books/introduction-computer-science",
+            "page": 370,
+            "text": "ries in the market. However, they have a huge problem with integrating their\nreports to aid in decision-making. TechWorks has many challenges that impact their competitiveness and\nsurvival in the market, including their traditional database not working properly; their practices in collecting,\nmanaging, and analyzing data not promoting better business decision-making; and their servers being old and\nsometimes unable to sufficiently handle the company data. The chief executive officer (CEO) of Tec",
+            "metadata": {
+              "part": 0,
+              "section": "chapter_intro"
+            },
+            "score": 0.4002530381434245,
+            "id": "openstax-intro-cs:p370:part0:fixed:500:50:450",
+            "source_id": "openstax-intro-cs"
+          },
+          {
+            "chunk_id": "openstax-intro-cs:p381:part0:fixed:500:50:450",
+            "document_id": "openstax-intro-cs",
+            "source": "https://openstax.org/details/books/introduction-computer-science",
+            "page": 381,
+            "text": "cene who use and control the database content; design,\ndevelop, and maintain database applications such as database administrators and database designers; and\nworkers behind the scenes who design and develop the DBMS software and related tools as well as the\ncomputer systems operators, including system designers and developers.\nDBMS Architectures\nThere are various types of database architectures as follows: centralized DBMS architecture, n-tier DBMS\narchitecture, cloud DBMS architecture, federat",
+            "metadata": {
+              "part": 0,
+              "section": "8.2"
+            },
+            "score": 0.37548350029033295,
+            "id": "openstax-intro-cs:p381:part0:fixed:500:50:450",
+            "source_id": "openstax-intro-cs"
+          },
+          {
+            "chunk_id": "openstax-intro-cs:p407:part1:fixed:500:50:900",
+            "document_id": "openstax-intro-cs",
+            "source": "https://openstax.org/details/books/introduction-computer-science",
+            "page": 407,
+            "text": "veloped the first business warehouse. A data warehouse centralizes an enterprise’s data from its\ndatabases. It supports the flow of data from operational systems to analytics/decision systems by creating a\nsingle repository of data from various sources both internal and external. In most cases, a data warehouse is a\nrelational database that stores processed data that are optimized for gathering business insights. It collects\ndata with predetermined structures and schema coming from transactional",
+            "metadata": {
+              "part": 1,
+              "section": "8.5"
+            },
+            "score": 0.3738337932304703,
+            "id": "openstax-intro-cs:p407:part1:fixed:500:50:900",
+            "source_id": "openstax-intro-cs"
+          }
+        ],
+        "context": "[openstax-intro-cs:p370:part0:fixed:500:50:450 | https://openstax.org/details/books/introduction-computer-science | page 370]\nries in the market. However, they have a huge problem with integrating their\nreports to aid in decision-making. TechWorks has many challenges that impact their competitiveness and\nsurvival in the market, including their traditional database not working properly; their practices in collecting,\nmanaging, and analyzing data not promoting better business decision-making; and their servers being old and\nsometimes unable to sufficiently handle the company data. The chief executive officer (CEO) of Tec\n\n[openstax-intro-cs:p381:part0:fixed:500:50:450 | https://openstax.org/details/books/introduction-computer-science | page 381]\ncene who use and control the database content; design,\ndevelop, and maintain database applications such as database administrators and database designers; and\nworkers behind the scenes who design and develop the DBMS software and related tools as well as the\ncomputer systems operators, including system designers and developers.\nDBMS Architectures\nThere are various types of database architectures as follows: centralized DBMS architecture, n-tier DBMS\narchitecture, cloud DBMS architecture, federat\n\n[openstax-intro-cs:p407:part1:fixed:500:50:900 | https://openstax.org/details/books/introduction-computer-science | page 407]\nveloped the first business warehouse. A data warehouse centralizes an enterprise’s data from its\ndatabases. It supports the flow of data from operational systems to analytics/decision systems by creating a\nsingle repository of data from various sources both internal and external. In most cases, a data warehouse is a\nrelational database that stores processed data that are optimized for gathering business insights. It collects\ndata with predetermined structures and schema coming from transactional",
+        "context_ids": [
+          "openstax-intro-cs:p370:part0:fixed:500:50:450",
+          "openstax-intro-cs:p381:part0:fixed:500:50:450",
+          "openstax-intro-cs:p407:part1:fixed:500:50:900"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "\"Greymont Vale\" how many database servers operate fictional company database servers number.",
+        "filter": null,
+        "results": [
+          {
+            "chunk_id": "openstax-intro-cs:p396:part0:fixed:500:50:1350",
+            "document_id": "openstax-intro-cs",
+            "source": "https://openstax.org/details/books/introduction-computer-science",
+            "page": 396,
+            "text": "nsist of multiple physical, distributed machines.\nDatabase APIs\nIn a tiered DBMS system architecture, client applications can query database servers and receive results. It is\npossible to use in-process DBMSs (e.g., SQLite) or access stand-alone DBMS servers (e.g., Postgres). Client\napplications that wish to utilize the services provided by a DBMS use a specific API provided by the DBMS. This\ndatabase API exposes an interface through which client applications can access and query a DBMS. The\ndat",
+            "metadata": {
+              "part": 0,
+              "section": "8.3"
+            },
+            "score": 0.5335282842594691,
+            "id": "openstax-intro-cs:p396:part0:fixed:500:50:1350",
+            "source_id": "openstax-intro-cs"
+          },
+          {
+            "chunk_id": "openstax-intro-cs:p381:part0:fixed:500:50:450",
+            "document_id": "openstax-intro-cs",
+            "source": "https://openstax.org/details/books/introduction-computer-science",
+            "page": 381,
+            "text": "cene who use and control the database content; design,\ndevelop, and maintain database applications such as database administrators and database designers; and\nworkers behind the scenes who design and develop the DBMS software and related tools as well as the\ncomputer systems operators, including system designers and developers.\nDBMS Architectures\nThere are various types of database architectures as follows: centralized DBMS architecture, n-tier DBMS\narchitecture, cloud DBMS architecture, federat",
+            "metadata": {
+              "part": 0,
+              "section": "8.2"
+            },
+            "score": 0.5249184590607963,
+            "id": "openstax-intro-cs:p381:part0:fixed:500:50:450",
+            "source_id": "openstax-intro-cs"
+          },
+          {
+            "chunk_id": "openstax-intro-cs:p396:part0:fixed:500:50:1800",
+            "document_id": "openstax-intro-cs",
+            "source": "https://openstax.org/details/books/introduction-computer-science",
+            "page": 396,
+            "text": " applications can access and query a DBMS. The\ndatabase server receives calls made by clients and executes the relevant operations before returning the\nresults. In many cases, the client and server interfaces are implemented to work over a computer network\nusing network sockets. The main goal of a database API is to expose an interface through which other parties\ncan utilize the services provided by the DBMS. Most DBMS vendors provide a proprietary, DBMS-specific API\n(the disadvantage is that cl",
+            "metadata": {
+              "part": 0,
+              "section": "8.3"
+            },
+            "score": 0.5246030611286489,
+            "id": "openstax-intro-cs:p396:part0:fixed:500:50:1800",
+            "source_id": "openstax-intro-cs"
+          }
+        ],
+        "context": "[openstax-intro-cs:p370:part0:fixed:500:50:450 | https://openstax.org/details/books/introduction-computer-science | page 370]\nries in the market. However, they have a huge problem with integrating their\nreports to aid in decision-making. TechWorks has many challenges that impact their competitiveness and\nsurvival in the market, including their traditional database not working properly; their practices in collecting,\nmanaging, and analyzing data not promoting better business decision-making; and their servers being old and\nsometimes unable to sufficiently handle the company data. The chief executive officer (CEO) of Tec\n\n[openstax-intro-cs:p381:part0:fixed:500:50:450 | https://openstax.org/details/books/introduction-computer-science | page 381]\ncene who use and control the database content; design,\ndevelop, and maintain database applications such as database administrators and database designers; and\nworkers behind the scenes who design and develop the DBMS software and related tools as well as the\ncomputer systems operators, including system designers and developers.\nDBMS Architectures\nThere are various types of database architectures as follows: centralized DBMS architecture, n-tier DBMS\narchitecture, cloud DBMS architecture, federat\n\n[openstax-intro-cs:p407:part1:fixed:500:50:900 | https://openstax.org/details/books/introduction-computer-science | page 407]\nveloped the first business warehouse. A data warehouse centralizes an enterprise’s data from its\ndatabases. It supports the flow of data from operational systems to analytics/decision systems by creating a\nsingle repository of data from various sources both internal and external. In most cases, a data warehouse is a\nrelational database that stores processed data that are optimized for gathering business insights. It collects\ndata with predetermined structures and schema coming from transactional",
+        "context_ids": [
+          "openstax-intro-cs:p370:part0:fixed:500:50:450",
+          "openstax-intro-cs:p381:part0:fixed:500:50:450",
+          "openstax-intro-cs:p407:part1:fixed:500:50:900"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "\"Greymont Vale\" \"database servers\" how many operates fictional company number servers.",
+        "filter": null,
+        "results": [
+          {
+            "chunk_id": "openstax-intro-cs:p379:part0:fixed:500:50:900",
+            "document_id": "openstax-intro-cs",
+            "source": "https://openstax.org/details/books/introduction-computer-science",
+            "page": 379,
+            "text": " user interface (GUI), natural language, admin, and network.\nFigure 8.6 DBMS includes multiple components: DBMS interface, query processor, storage manager, connection manager, security\nmanager, DDL compiler, and database utilities. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)\nA connection manager manages reports, books, objects, and batches. For each database, the connection\nmanager provides the connection name, data source type, and value. A security manage",
+            "metadata": {
+              "part": 0,
+              "section": "8.2"
+            },
+            "score": 0.4604884270035441,
+            "id": "openstax-intro-cs:p379:part0:fixed:500:50:900",
+            "source_id": "openstax-intro-cs"
+          },
+          {
+            "chunk_id": "openstax-intro-cs:p381:part0:fixed:500:50:1350",
+            "document_id": "openstax-intro-cs",
+            "source": "https://openstax.org/details/books/introduction-computer-science",
+            "page": 381,
+            "text": "ion tier, the logic tier, and the data tier (e.g., a client with GUI functionality, an\napplication server with applications, a database server with a DBMS and a database, and a web server for web-\nbased access). In cloud DBMS architecture, the DBMS and database are hosted by a third-party cloud\nprovider (e.g., Apache Cassandra project and Google’s BigTable). A federated DBMS provides a uniform\ninterface to multiple underlying data sources which hide the underlying storage details to facilitate d",
+            "metadata": {
+              "part": 0,
+              "section": "8.2"
+            },
+            "score": 0.447688131901926,
+            "id": "openstax-intro-cs:p381:part0:fixed:500:50:1350",
+            "source_id": "openstax-intro-cs"
+          },
+          {
+            "chunk_id": "openstax-intro-cs:p409:part0:fixed:500:50:2250",
+            "document_id": "openstax-intro-cs",
+            "source": "https://openstax.org/details/books/introduction-computer-science",
+            "page": 409,
+            "text": "day’s ability to store an unlimited amount of data\nthat may be analyzed at a later time?\nVirtual Data Warehouses and Virtual Data Marts\nA virtual data mart has no physical data but provides a single point of access to a set of underlying physical\ndata stores; data are only accessed (“pulled”) at query time. A virtual data warehouse can be built as a set of\n8.5 • Data Warehousing, Data Lakes, and Business Intelligence 399",
+            "metadata": {
+              "part": 0,
+              "section": "8.5"
+            },
+            "score": 0.4428976293968113,
+            "id": "openstax-intro-cs:p409:part0:fixed:500:50:2250",
+            "source_id": "openstax-intro-cs"
+          }
+        ],
+        "context": "[openstax-intro-cs:p370:part0:fixed:500:50:450 | https://openstax.org/details/books/introduction-computer-science | page 370]\nries in the market. However, they have a huge problem with integrating their\nreports to aid in decision-making. TechWorks has many challenges that impact their competitiveness and\nsurvival in the market, including their traditional database not working properly; their practices in collecting,\nmanaging, and analyzing data not promoting better business decision-making; and their servers being old and\nsometimes unable to sufficiently handle the company data. The chief executive officer (CEO) of Tec\n\n[openstax-intro-cs:p381:part0:fixed:500:50:450 | https://openstax.org/details/books/introduction-computer-science | page 381]\ncene who use and control the database content; design,\ndevelop, and maintain database applications such as database administrators and database designers; and\nworkers behind the scenes who design and develop the DBMS software and related tools as well as the\ncomputer systems operators, including system designers and developers.\nDBMS Architectures\nThere are various types of database architectures as follows: centralized DBMS architecture, n-tier DBMS\narchitecture, cloud DBMS architecture, federat\n\n[openstax-intro-cs:p407:part1:fixed:500:50:900 | https://openstax.org/details/books/introduction-computer-science | page 407]\nveloped the first business warehouse. A data warehouse centralizes an enterprise’s data from its\ndatabases. It supports the flow of data from operational systems to analytics/decision systems by creating a\nsingle repository of data from various sources both internal and external. In most cases, a data warehouse is a\nrelational database that stores processed data that are optimized for gathering business insights. It collects\ndata with predetermined structures and schema coming from transactional",
+        "context_ids": [
+          "openstax-intro-cs:p370:part0:fixed:500:50:450",
+          "openstax-intro-cs:p381:part0:fixed:500:50:450",
+          "openstax-intro-cs:p407:part1:fixed:500:50:900"
+        ]
+      },
+      {
+        "event": "search_limit"
+      }
+    ],
+    "elapsed_ms": 28031.541,
+    "usage": [
+      {
+        "input_tokens": 206,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 0
+          }
+        },
+        "output_tokens": 61,
+        "output_tokens_details": {
+          "reasoning_tokens": 21
+        },
+        "total_tokens": 267
+      },
+      {
+        "input_tokens": 709,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 0
+          }
+        },
+        "output_tokens": 61,
+        "output_tokens_details": {
+          "reasoning_tokens": 19
+        },
+        "total_tokens": 770
+      },
+      {
+        "input_tokens": 726,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 0
+          }
+        },
+        "output_tokens": 1600,
+        "output_tokens_details": {
+          "reasoning_tokens": 22
+        },
+        "total_tokens": 2326
+      },
+      {
+        "input_tokens": 726,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 0
+          }
+        },
+        "output_tokens": 75,
+        "output_tokens_details": {
+          "reasoning_tokens": 33
+        },
+        "total_tokens": 801
+      },
+      {
+        "input_tokens": 744,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 0
+          }
+        },
+        "output_tokens": 80,
+        "output_tokens_details": {
+          "reasoning_tokens": 37
+        },
+        "total_tokens": 824
+      }
+    ],
+    "api_calls": [
+      {
+        "status": "completed",
+        "max_output_tokens": 1600
+      },
+      {
+        "status": "completed",
+        "max_output_tokens": 1600
+      },
+      {
+        "status": "incomplete",
+        "max_output_tokens": 1600
+      },
+      {
+        "status": "completed",
+        "max_output_tokens": 3200
+      },
+      {
+        "status": "completed",
+        "max_output_tokens": 1600
+      }
+    ]
+  }
+]
