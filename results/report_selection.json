@@ -1,0 +1,116 @@
+{
+  "purpose": "Display selection for the simplified report, not a new evaluation or retuning.",
+  "datasets": {
+    "Dev": {
+      "folder": "starter/data/day6-A",
+      "answerable": 15,
+      "unanswerable": 2
+    },
+    "Test": {
+      "folder": "starter/data/test-v2",
+      "answerable": 5,
+      "unanswerable": 2
+    }
+  },
+  "main_runs": [
+    {
+      "label": "Dev, Dense",
+      "run_id": "20261116-110050-dense-413f3660",
+      "split": "Dev",
+      "path": "starter/results/dev-runs/20261116-110050-dense-413f3660",
+      "dataset_version": "dev-final"
+    },
+    {
+      "label": "Dev, TF-IDF",
+      "run_id": "20261116-110050-tfidf-334bf82c",
+      "split": "Dev",
+      "path": "starter/results/dev-runs/20261116-110050-tfidf-334bf82c",
+      "dataset_version": "dev-final"
+    },
+    {
+      "label": "Dev, Hybrid",
+      "run_id": "20261116-110050-hybrid-02a2376c",
+      "split": "Dev",
+      "path": "starter/results/dev-runs/20261116-110050-hybrid-02a2376c",
+      "dataset_version": "dev-final"
+    },
+    {
+      "label": "Dev, baseline",
+      "run_id": "20261116-105850-agent-42699e90",
+      "split": "Dev",
+      "path": "starter/results/dev-runs/20261116-105850-agent-42699e90",
+      "dataset_version": "dev-final"
+    },
+    {
+      "label": "Dev, cải thiện 1",
+      "run_id": "20261116-105850-agent-d59aedb5",
+      "split": "Dev",
+      "path": "starter/results/dev-runs/20261116-105850-agent-d59aedb5",
+      "dataset_version": "dev-final"
+    },
+    {
+      "label": "Dev, cải thiện 2",
+      "run_id": "20261116-105850-agent-c19ed2ae",
+      "split": "Dev",
+      "path": "starter/results/dev-runs/20261116-105850-agent-c19ed2ae",
+      "dataset_version": "dev-final"
+    },
+    {
+      "label": "Test, baseline",
+      "run_id": "20261116-104442-baseline-1fc447dc",
+      "split": "Test",
+      "path": "starter/results/test-runs/20261116-104442-baseline-1fc447dc",
+      "dataset_version": "test-v2"
+    },
+    {
+      "label": "Test, ứng viên",
+      "run_id": "20261116-103836-candidate-4c2c7046",
+      "split": "Test",
+      "path": "starter/results/test-runs/20261116-103836-candidate-4c2c7046",
+      "dataset_version": "test-v2"
+    }
+  ],
+  "historical_run_ids": [
+    "20261116-095956-hybrid-cb3e35e6",
+    "20261116-095956-tfidf-6d3dad46",
+    "20261116-100021-agent-9b0e0706",
+    "20261116-100059-dense-24511a3b",
+    "20261116-100208-dense-9da175cd",
+    "20261116-100235-tfidf-ec28ade0",
+    "20261116-100239-hybrid-be8c8f15",
+    "20261116-100310-agent-1ba613e8",
+    "20261116-100808-agent-226af6a2",
+    "20261116-100808-agent-77a4573b",
+    "20261116-101645-agent-12bd40ff",
+    "20261116-101645-agent-9a7c2fb4",
+    "20261116-101748-agent-519fb4bf",
+    "20261116-101748-agent-fbc1b0be",
+    "20261116-102522-baseline-1dac47cf",
+    "20261116-102522-candidate-c1647e44",
+    "20261116-102926-baseline-c22a875f",
+    "20261116-103202-candidate-896d9107",
+    "20261116-103658-baseline-d7c3d519"
+  ],
+  "main_usage": {
+    "input_tokens": 94717,
+    "output_tokens": 17469,
+    "estimated_usd": "0.0182632500"
+  },
+  "historical_usage": {
+    "input_tokens": 173655,
+    "output_tokens": 32385,
+    "estimated_usd": "0.0337986000"
+  },
+  "all_usage": {
+    "input_tokens": 268372,
+    "output_tokens": 49854,
+    "estimated_usd": "0.0520618500"
+  },
+  "baseline_test_first_attempt": {
+    "run_id": "20261116-103658-baseline-d7c3d519",
+    "errors": 1,
+    "total": 7,
+    "note": "Main table uses the complete rerun because the first attempt had an API error, not because its score was compared and preferred."
+  },
+  "chronology_note": "Provisional selection used original dev; corrected dev was evaluated after test. Historical criteria were recorded after partial dev inspection. This presentation change does not establish a new independent test."
+}

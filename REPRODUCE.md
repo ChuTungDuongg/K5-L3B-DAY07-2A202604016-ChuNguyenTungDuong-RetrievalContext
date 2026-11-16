@@ -5,9 +5,10 @@ Học viên: Chu Nguyễn Tùng Dương, MSSV 2A202604016, lớp L3B. Các lện
 ## 1. Đọc số liệu đã nộp trước khi gọi API
 
 - Báo cáo: [report/individual/2A202604016_ChuNguyenTungDuong.md](report/individual/2A202604016_ChuNguyenTungDuong.md).
-- Lịch sử từng lượt và chi phí: [docs/RESULTS.md](docs/RESULTS.md), [results/run_ledger.json](results/run_ledger.json).
-- Bộ dev cuối: `starter/data/day6-A/questions-dev.json` và `agent-cases-dev.json`, gồm 15 câu có đáp án khác nhau và 2 câu thiếu bằng chứng.
-- Test v2 cuối: `starter/data/test-v2/`, gồm 5 câu có đáp án và 2 câu thiếu bằng chứng. Bộ v1 nằm trong `starter/data/test-v1-archive/`.
+- Các lượt được dùng trong báo cáo chính: [docs/RESULTS.md](docs/RESULTS.md), đối chiếu bằng [report_selection.json](results/report_selection.json). Tám lượt gồm ba retrieval Dev, ba agent Dev và hai agent Test.
+- **Dev:** `starter/data/day6-A/questions-dev.json` và `agent-cases-dev.json`, gồm 15 câu có đáp án khác nhau và 2 câu thiếu bằng chứng.
+- **Test:** `starter/data/test-v2/`, gồm 5 câu có đáp án và 2 câu thiếu bằng chứng. Runner mặc định đọc bộ này.
+- Phiên bản cũ, lỗi API và các lần chạy lại: [phụ lục lịch sử](docs/EXPERIMENT_HISTORY.md). Bảng toàn bộ lượt và tổng chi phí lịch sử vẫn giữ trong `docs/RESULTS.md` và `results/run_ledger.json`.
 - Nhãn `reviews.json` và metric `agent-metrics.json` nằm cạnh từng `traces.json`. Các bản `reviews-proposed.json` vẫn giữ lịch sử đề xuất.
 
 Đọc JSON và chạy kiểm thử offline không gọi OpenAI. Chạy lại agent hoặc test có thể phát sinh phí và là một lượt quan sát mới, không thay thế âm thầm kết quả đã nộp.
@@ -93,11 +94,11 @@ Controller yêu cầu model trả action có cấu trúc rồi Python thực thi
 ## 8. Chạy test sau khi chốt cấu hình
 
 ```powershell
-.\.venv\Scripts\python.exe run_test.py --config baseline --test-version v2
-.\.venv\Scripts\python.exe run_test.py --config candidate --test-version v2
+.\.venv\Scripts\python.exe run_test.py --config baseline
+.\.venv\Scripts\python.exe run_test.py --config candidate
 ```
 
-Baseline dùng 2000 ký tự và ứng viên dùng 4000, cả hai dense, top-k 3 và tối đa 3 lượt search. Để đối chiếu bộ cũ, thay `v2` bằng `v1`. Đây là đánh giá lại bằng code hiện tại, không tái tạo nguyên từng phản hồi lịch sử. Model API và mạng có thể cho kết quả khác, vì vậy cần giữ mọi lượt, gồm lỗi và lần chạy lại.
+Baseline dùng 2000 ký tự và ứng viên dùng 4000, cả hai dense, top-k 3 và tối đa 3 lượt search. Hai lệnh đọc bộ Test chính, tương đương chỉ định `--test-version v2`. Đây là đánh giá lại bằng code hiện tại, không tái tạo nguyên từng phản hồi lịch sử. Model API và mạng có thể cho kết quả khác, vì vậy cần giữ mọi lượt, gồm lỗi và lần chạy lại. Cách đối chiếu bộ cũ nằm trong phụ lục lịch sử.
 
 Test runner đo thêm dense retrieval của câu hỏi gốc, không đưa kết quả của bước đo đó vào agent. Gold chỉ dùng để chấm sau khi chạy. Hit theo câu gốc và context cuối sau query viết lại phải được báo riêng.
 
@@ -107,15 +108,17 @@ Mỗi lượt tạo thư mục timestamp và ID ngẫu nhiên trong `starter/res
 
 Đọc context cuối, câu trả lời và từng citation để chấm `answer_grade`, `context_grade`, `citation_support` và `abstention_correct`. Giữ nguyên nhãn đã nộp nếu chỉ đọc lại. Nếu có người chấm khác, lưu tệp mới cùng tên người chấm, không ghi đè lịch sử.
 
-Ví dụ tổng hợp nhãn baseline test v2 chạy lại đã được xác nhận:
+Ví dụ tổng hợp nhãn baseline Test đang dùng trong báo cáo chính:
 
 ```powershell
 .\.venv\Scripts\python.exe starter/agent_metrics.py --cases starter/data/test-v2/agent-cases-test.json --traces starter/results/test-runs/20261116-104442-baseline-1fc447dc/traces.json --reviews starter/results/test-runs/20261116-104442-baseline-1fc447dc/reviews.json --split test --output results/rechecked-baseline-metrics.json
 .\.venv\Scripts\python.exe scripts/summarize_results.py
 ```
 
-`results/run_ledger.json` cộng số token từ các response usage đã lưu, có tính response incomplete được trả về. Giá Standard của model được ghi ngày 16/11/2026. Đây là ước tính theo token ghi nhận, không phải hóa đơn OpenAI và không bao gồm các request debug/soạn câu hỏi thiếu log. Thay đổi giá sau ngày kiểm tra sẽ làm chi phí tái lập khác.
+`results/run_ledger.json` cộng số token từ toàn bộ response usage đã lưu trong các batch, có tính response incomplete được trả về. `results/report_selection.json` tách tám lượt của báo cáo chính với các lượt lịch sử, tránh gộp nhầm hai phạm vi chi phí. Giá Standard của model được ghi ngày 16/11/2026. Đây là ước tính theo token ghi nhận, không phải hóa đơn OpenAI và không bao gồm các request debug/soạn câu hỏi thiếu log. Thay đổi giá sau ngày kiểm tra sẽ làm chi phí tái lập khác.
+
+Sau khi tổng hợp ledger, dùng `python scripts/build_report.py` để cập nhật báo cáo, danh sách lượt chính và phụ lục từ các lượt đã chỉ định. Lệnh này không chạy benchmark hoặc gọi API. Build giữ danh sách lượt chính đã công bố, các lượt phát sinh mới vẫn được ghi trong lịch sử để người đọc đánh giá riêng.
 
 ## 10. Những phần cần khai báo khi dùng kết quả
 
-Giữ cả test v1, test v2, lần baseline v2 lỗi và lần chạy lại. Bộ dev đầu có câu trùng và đã được lưu tại `starter/data/dev-original-archive`. Bộ dev cuối thay câu trùng bằng câu data compliance, vẫn đủ 15 câu có đáp án khác nhau. Các lượt cuối là kiểm tra bổ sung sau test, không được mô tả như lịch sử chọn cấu hình trước test. Corpus nhỏ, cùng một sách, câu thiếu evidence dùng tổ chức hư cấu và nhãn có Codex hỗ trợ, nên không có đánh giá mù hay kiểm định trên tài liệu khác.
+Phần chính dùng Dev và Test, còn phiên bản dữ liệu cũ và lần đầu lỗi API được giữ trong phụ lục. Cấu hình đã chọn sơ bộ trên dev gốc, bộ Dev sửa câu trùng được kiểm tra bổ sung sau Test. Baseline Test dùng lượt đầy đủ vì lần đầu lỗi API 1/7 câu, không chọn lượt dựa vào điểm. Corpus nhỏ, cùng một sách, câu thiếu evidence dùng tổ chức hư cấu và nhãn có Codex hỗ trợ, nên chưa có đánh giá mù hay kiểm định trên tài liệu khác.

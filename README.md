@@ -39,8 +39,9 @@ MSSV: **2A202604016**, lớp L3B. Controller và retriever thật nằm trong `s
 
 - [Báo cáo theo khung của thầy](report/individual/2A202604016_ChuNguyenTungDuong.md)
 - [Hướng dẫn cài đặt và tái lập](REPRODUCE.md)
-- [Bảng toàn bộ lượt chạy và quy ước chi phí](docs/RESULTS.md)
+- [Các lượt dùng trong báo cáo và bảng chi phí đầy đủ](docs/RESULTS.md)
+- [Phụ lục lịch sử phiên bản, lỗi và chạy lại](docs/EXPERIMENT_HISTORY.md)
 - [Kiểm tra yêu cầu và các giới hạn còn lại](docs/REQUIREMENTS_AUDIT.md)
 - [Nguồn và điều kiện sử dụng dữ liệu](data/ATTRIBUTION.md)
 
-Giữ nguyên kết quả dev gốc, bộ dev đã bỏ câu trùng, test v1, test v2 và các lần lỗi/chạy lại. Không diễn giải các lượt lặp như những bộ test độc lập hoặc chỉ chọn kết quả tốt nhất.
+Báo cáo chính dùng hai split **Dev** (15 câu có đáp án + 2 thiếu bằng chứng) và **Test** (5 + 2). Các bảng chính gồm ba phương pháp retrieval, ba cấu hình agent trên Dev và baseline/ứng viên trên Test. Phụ lục giữ phiên bản cũ và mọi lượt lỗi/chạy lại. Baseline Test dùng lượt chạy lại vì lần đầu lỗi API 1/7 câu, được công bố trong báo cáo. Việc rút gọn cách trình bày giữ nguyên trace, nhãn và các giới hạn đánh giá.

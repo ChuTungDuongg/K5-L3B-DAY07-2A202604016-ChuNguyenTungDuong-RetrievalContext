@@ -121,6 +121,39 @@ def main():
              Decimal(ledger['total_estimated_usd'])), 'Ledger total mismatch')
     print(f'OK: {len(ledger["runs"])} runs, {reviewed} reviewed metrics, tokens and estimated costs')
 
+    selection = read(ROOT / 'results/report_selection.json')
+    runs_by_id = {r['run_id']: r for r in ledger['runs']}
+    main_ids = [r['run_id'] for r in selection['main_runs']]
+    historical_ids = selection['historical_run_ids']
+    require(len(main_ids) == len(set(main_ids)) == 8, 'Main report run count')
+    require(len(historical_ids) == len(set(historical_ids)), 'Duplicate historical run IDs')
+    require(not (set(main_ids) & set(historical_ids)) and
+            set(main_ids) | set(historical_ids) == set(runs_by_id), 'Main/history partition')
+    for name, ids in (('main_usage', main_ids), ('historical_usage', historical_ids),
+                      ('all_usage', list(runs_by_id))):
+        amounts = [runs_by_id[rid]['usage_cost'] for rid in ids]
+        require(all(selection[name][key] == sum(u[key] for u in amounts)
+                    for key in ('input_tokens', 'output_tokens')), f'Selection {name}: tokens')
+        require(Decimal(selection[name]['estimated_usd']) ==
+                sum((Decimal(u['estimated_usd']) for u in amounts), Decimal(0)), f'Selection {name}: cost')
+    main_runs = [runs_by_id[rid] for rid in main_ids]
+    main_tests = [r for r in main_runs if r['split'] == 'test']
+    require(len(main_tests) == 2 and {r['config']['budget_chars'] for r in main_tests} == {2000, 4000}
+            and all(r['dataset_version'] == 'test-v2' and r['total'] == 7 and r['errors'] == 0
+                    for r in main_tests), 'Main test configurations/dataset/completeness')
+    main_dev = [r for r in main_runs if r['split'] == 'dev']
+    require(len(main_dev) == 6 and all(r['dataset_version'] == 'dev-final' for r in main_dev),
+            'Main dev dataset')
+    require({r['config']['method'] for r in main_dev if r['config']['method'] != 'agent'} ==
+            {'dense', 'tfidf', 'hybrid'}, 'Three main retrieval methods')
+    require({(r['config']['budget_chars'], r['config']['max_searches']) for r in main_dev
+             if r['config']['method'] == 'agent'} == {(2000, 3), (4000, 3), (2000, 5)},
+            'Three main agent configurations')
+    first = runs_by_id[selection['baseline_test_first_attempt']['run_id']]
+    require(first['run_id'] in historical_ids and first['errors'] == 1 and first['total'] == 7,
+            'First baseline attempt missing from history')
+    print('OK: eight main runs, two splits and separate main/history token-cost totals')
+
     template = (ROOT / 'report/individual/MSSV_HoTen.md').read_text(encoding='utf-8')
     report_path = ROOT / 'report/individual/2A202604016_ChuNguyenTungDuong.md'
     report = report_path.read_text(encoding='utf-8')
@@ -132,9 +165,19 @@ def main():
             require(line in report, f'Teacher table columns changed: {line}')
     require('Chu Nguyễn Tùng Dương' in report and '2A202604016' in report, 'Student identity')
     require('@@' not in report, 'Unfilled generated field')
-    for label, link in re.findall(r'\[([^\]]+)\]\(([^)]+)\)', report):
-        if '://' not in link and not link.startswith('#'):
-            require((report_path.parent / link.split('#')[0]).exists(), f'Broken report link: {label}')
+    case_rows = re.findall(r'^\| ([BC]): ([^|]+) \|', report, re.MULTILINE)
+    require(len(case_rows) == 14 and len(set(case_rows)) == 14, 'Main report must have 14 unique test rows')
+    require(all(sum(label == prefix for label, _ in case_rows) == 7 for prefix in ('B', 'C')),
+            'Seven main test rows per configuration')
+    for prefix in ('B', 'C'):
+        require({qid.strip() for label, qid in case_rows if label == prefix} ==
+                {c['id'] for c in test_cases}, f'Main test IDs for {prefix}')
+    for path in (report_path, ROOT/'docs/RESULTS.md', ROOT/'docs/EXPERIMENT_HISTORY.md',
+                 ROOT/'REPRODUCE.md', ROOT/'README.md', ROOT/'starter/README.md',
+                 ROOT/'docs/REQUIREMENTS_AUDIT.md'):
+        for label, link in re.findall(r'\[([^\]]+)\]\(([^)]+)\)', path.read_text(encoding='utf-8')):
+            if '://' not in link and not link.startswith('#'):
+                require((path.parent / link.split('#')[0]).exists(), f'Broken link in {path.name}: {label}')
     tree = ast.parse((ROOT / 'starter/agentic.py').read_text(encoding='utf-8'))
     for node in ast.walk(tree):
         require(not isinstance(node, ast.Pass) and not (isinstance(node, ast.Constant) and node.value is Ellipsis),
