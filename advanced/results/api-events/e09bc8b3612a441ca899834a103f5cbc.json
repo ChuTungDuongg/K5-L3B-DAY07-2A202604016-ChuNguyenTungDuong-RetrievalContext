@@ -1,0 +1,35 @@
+{
+  "id": "e09bc8b3612a441ca899834a103f5cbc",
+  "label": "index:p050",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 3816,
+  "maximum_output_tokens": 6000,
+  "images": [
+    {
+      "page": 50,
+      "path": "advanced/data/pages/p050.jpg",
+      "sha256": "9311a1fac1fd01eef5219db4ff2f688769f389e4640c3b1cef473f53df207e38"
+    }
+  ],
+  "instructions_sha256": "01d3a56b3c678b1acd37e506320a854b17dd9ddb13ece56a92b62990aeb80d41",
+  "usage": {
+    "input_tokens": 3816,
+    "input_tokens_details": {
+      "cache_write_tokens": 3813,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 3813
+      }
+    },
+    "output_tokens": 224,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 4040
+  },
+  "response_id": "resp_06e9e86dae7be523016afa9018b0a487d2b0dbd387cae85129",
+  "response_status": "completed",
+  "output_text": "{\"regions\":[{\"label\":\"Figure 1.2 — The data life cycle\",\"kind\":\"diagram\",\"bbox\":[0.206,0.541,0.859,0.923],\"summary\":\"Circular data life-cycle diagram: Create/receive, Process, Store, Transfer/share, Analyze and use, Archive and preserve, and Destroy, with Reuse at the center.\",\"details\":\"Outer cycle stages, in clockwise order: Create/receive (top), Process (upper right), Store (lower right), Transfer/share (bottom), Analyze and use (lower left), Archive and preserve (upper left). Broad curved arrows connect the main stages around the loop. Reuse is central, connected by lines to the surrounding stages, indicating reuse across the cycle. A separate arrow points from Archive and preserve toward Destroy. Source printed below: “Source: WDR 2021 team.”\",\"limitations\":\"Diagram shows relationships but no numerical data. Direction of the full outer cycle is indicated by arrows; small connector lines between Reuse and stages do not show additional directional arrows.\"}]}",
+  "elapsed_seconds": 4.898147799998696
+}

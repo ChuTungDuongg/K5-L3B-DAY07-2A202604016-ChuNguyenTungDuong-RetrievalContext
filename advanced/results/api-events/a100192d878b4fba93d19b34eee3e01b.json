@@ -1,0 +1,35 @@
+{
+  "id": "a100192d878b4fba93d19b34eee3e01b",
+  "label": "index:p027",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 4180,
+  "maximum_output_tokens": 6000,
+  "images": [
+    {
+      "page": 27,
+      "path": "advanced/data/pages/p027.jpg",
+      "sha256": "e4e19ea53b741ba979a2eb7677626f1240b8a49e017384cce4a692f294d5ec34"
+    }
+  ],
+  "instructions_sha256": "01d3a56b3c678b1acd37e506320a854b17dd9ddb13ece56a92b62990aeb80d41",
+  "usage": {
+    "input_tokens": 4180,
+    "input_tokens_details": {
+      "cache_write_tokens": 4177,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 4177
+      }
+    },
+    "output_tokens": 434,
+    "output_tokens_details": {
+      "reasoning_tokens": 110
+    },
+    "total_tokens": 4614
+  },
+  "response_id": "resp_03bc3fb59ec8c725016afa90017dd887d2ab034990fc2a4c88",
+  "response_status": "completed",
+  "output_text": "{\"regions\":[{\"label\":\"Map O.2 — Highly refined data pinpointed areas of Nigeria that needed better sanitation\",\"kind\":\"map\",\"bbox\":[0.455,0.087,0.902,0.522],\"summary\":\"Choropleth map of Nigeria showing the share of the population with inadequate access to improved sanitation, by geographic area; Abuja is marked as the national capital.\",\"details\":\"Nigeria is filled with area-level colors and outlined internal state boundaries; international boundaries are also identified in the legend. The legend categories for “% of population with inadequate access to improved sanitation” are 0–19.9, 20–39.9, 40–59.9, 60–79.9, and 80–100. Colors progress from dark teal through green and pale yellow to orange-red. A star marks Abuja as the national capital. Source printed below map: World Bank 2017; data link shown as http://bit.do/WDR2021-Map-O_2. Map imprint: IBRD NIR45641 | MARCH 2021. Note states that geographic hotspots are shown from least severe to most severe in terms of the percentage of the population in the area that meets an international benchmark for sanitation; the note’s wording appears inconsistent with the legend’s “inadequate access” measure.\",\"limitations\":\"No individual area values are printed on the map; only the five legend ranges are readable. The note uses wording about the percentage meeting a benchmark, while the legend describes inadequate access.\"}]}",
+  "elapsed_seconds": 7.87178340000537
+}

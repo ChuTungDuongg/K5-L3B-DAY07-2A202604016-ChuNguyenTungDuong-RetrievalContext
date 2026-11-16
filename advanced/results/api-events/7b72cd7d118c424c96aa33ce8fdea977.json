@@ -1,0 +1,35 @@
+{
+  "id": "7b72cd7d118c424c96aa33ce8fdea977",
+  "label": "index:p221",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 4227,
+  "maximum_output_tokens": 6000,
+  "images": [
+    {
+      "page": 221,
+      "path": "advanced/data/pages/p221.jpg",
+      "sha256": "c89cb4e3f952c80546ef37bc90f4eddcff08f400ec2f6efab8b0f3df2ffd2a77"
+    }
+  ],
+  "instructions_sha256": "01d3a56b3c678b1acd37e506320a854b17dd9ddb13ece56a92b62990aeb80d41",
+  "usage": {
+    "input_tokens": 4227,
+    "input_tokens_details": {
+      "cache_write_tokens": 4224,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 4224
+      }
+    },
+    "output_tokens": 489,
+    "output_tokens_details": {
+      "reasoning_tokens": 154
+    },
+    "total_tokens": 4716
+  },
+  "response_id": "resp_0e84c7df399156a4016afa90bd41f887d2a25245f3488c714f",
+  "response_status": "completed",
+  "output_text": "{\"regions\":[{\"label\":\"Figure 6.6\",\"kind\":\"chart\",\"bbox\":[0.455,0.087,0.941,0.549],\"summary\":\"Radar chart comparing the percentage of countries in four income groups with seven regulatory frameworks enabling access to and reuse of public intent data, as of 2020.\",\"details\":\"The radar chart has a percentage scale from 0 to 100, with concentric gridlines marked at 0, 20, 40, 60, 80, and 100. The seven axes are: semantic interoperability mandated for government entities; open data law; data classification policy; mandatory use of data classification for government data; access to information (ATI) legislation; exceptions to the ATI right; and adoption of an open licensing regime by government. Four plotted series are identified in the legend: High-income (blue), Upper-middle-income (green), Lower-middle-income (orange), and Low-income (purple). The lines show differing patterns across the categories; exact point values are not printed and should not be read as precise values from the plot. Source: WDR 2021 team, based on World Bank, Global Data Regulation Survey; data link shown as http://bit.do/WDR2021-Fig-6_6. Note: percentages are of countries in each income group that had adopted good-practice legal and regulatory frameworks to enable access, use, and reuse of public intent data as of 2020.\",\"limitations\":\"Individual data-point values are not labeled; only the 0–100 radial scale and relative plotted positions are visible.\"}]}",
+  "elapsed_seconds": 8.608574700003373
+}

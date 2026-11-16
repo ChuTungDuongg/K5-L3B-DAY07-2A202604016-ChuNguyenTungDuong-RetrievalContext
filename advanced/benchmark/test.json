@@ -1,0 +1,1034 @@
+[
+  {
+    "id": "adv-test-01",
+    "split": "test",
+    "group": "table",
+    "question": "Using Table 2.2, what percentages are shown for metadata availability in low-income and high-income groups, and how large is the gap? Explain what population those percentages measure.",
+    "answerable": true,
+    "expected_answer": "The figures are 63% for low-income and 100% for high-income, a gap of 37 percentage points. For 2019, they measure the proportion of the population in each income group whose national statistical office makes metadata available, rather than the percentage of NSOs counted equally.",
+    "reason": "Cần đọc đúng hàng metadata và chú thích trọng số dân số; chênh lệch là điểm phần trăm.",
+    "evidence": [
+      {
+        "page": 84,
+        "printed_page": "64",
+        "region_label": "Table 2.2 and note",
+        "bbox": [
+          0.204,
+          0.089,
+          0.909,
+          0.265
+        ],
+        "quote": "NSO makes metadata available: 63, 91, 97, 100. Data are for 2019. The percentages reflect the proportion of the population in each income group whose national statistical office (NSO) has the listed attribute.",
+        "facts": [
+          "Low-income=63%; high-income=100%.",
+          "100 - 63 = 37 percentage points.",
+          "2019 population shares whose NSO has the attribute, not an unweighted count of NSOs."
+        ],
+        "units": "percent of population in income group; percentage points"
+      }
+    ]
+  },
+  {
+    "id": "adv-test-02",
+    "split": "test",
+    "group": "table",
+    "question": "In Table 5.1, at the Initiating data flows stage, which three recommendations concern connecting countries?",
+    "answerable": true,
+    "expected_answer": "Encourage the first domestic IXP and participation by all relevant domestic players; allow additional IXPs to emerge and existing ones to formalize and mature; encourage caching popular international internet content on local servers.",
+    "reason": "Cần đọc đầy đủ ô giao giữa đúng giai đoạn và cột kết nối quốc gia, không dùng cột kết nối người dân.",
+    "evidence": [
+      {
+        "page": 197,
+        "printed_page": "177",
+        "region_label": "Table 5.1: Initiating data flows / Connecting countries",
+        "bbox": [
+          0.092,
+          0.635,
+          0.919,
+          0.923
+        ],
+        "quote": "Encourage creation of the first domestic IXP and facilitate participation by all relevant domestic players. Allow additional IXPs to emerge and players to formalize and mature. Encourage arrangements to cache popular international internet content on local servers.",
+        "facts": [
+          "Create first domestic IXP with relevant domestic participation.",
+          "Additional IXPs and formalization/maturation.",
+          "Cache popular international content locally."
+        ],
+        "units": "not applicable"
+      }
+    ]
+  },
+  {
+    "id": "adv-test-03",
+    "split": "test",
+    "group": "table",
+    "question": "According to the safeguards column of Table 6.2, what four policy prerogatives should a legal framework embody at the Initiating data flows stage?",
+    "answerable": true,
+    "expected_answer": "Personal data protection; promotion of cybersecurity and combating cybercrime; regulation of competition; and legal provisions establishing the relevant enforcement institutions.",
+    "reason": "Cần phân biệt cột safeguards với enablers và liệt kê đủ bốn mục trong hàng Initiating data flows.",
+    "evidence": [
+      {
+        "page": 229,
+        "printed_page": "209",
+        "region_label": "Table 6.2: Initiating data flows / Safeguards",
+        "bbox": [
+          0.093,
+          0.337,
+          0.572,
+          0.471
+        ],
+        "quote": "Personal data protection; Promotion of cybersecurity and combating of cybercrime; Regulation of competition; Provisions in the legal framework to provide for establishment of the relevant enforcement institutions.",
+        "facts": [
+          "Personal data protection.",
+          "Cybersecurity and combating cybercrime.",
+          "Competition regulation.",
+          "Establishment of relevant enforcement institutions."
+        ],
+        "units": "not applicable"
+      }
+    ]
+  },
+  {
+    "id": "adv-test-04",
+    "split": "test",
+    "group": "table",
+    "question": "In Table 7.1, how do the conditional-transfer and open-transfer models differ in policy goal and regulatory costs?",
+    "answerable": true,
+    "expected_answer": "Conditional transfers prioritize protection of personal data and have medium regulatory costs. Open transfers prioritize business freedom and have lower regulatory costs.",
+    "reason": "Cần ghép đúng hai hàng với hai cột mục tiêu và chi phí; không biến mức chi phí định tính thành số tiền.",
+    "evidence": [
+      {
+        "page": 261,
+        "printed_page": "241",
+        "region_label": "Table 7.1",
+        "bbox": [
+          0.093,
+          0.787,
+          0.795,
+          0.923
+        ],
+        "quote": "Conditional transfers | Protection of personal data | Medium. Open transfers | Business freedom | Lower.",
+        "facts": [
+          "Conditional: personal-data protection, medium costs.",
+          "Open: business freedom, lower costs."
+        ],
+        "units": "qualitative regulatory-cost categories"
+      }
+    ]
+  },
+  {
+    "id": "adv-test-05",
+    "split": "test",
+    "group": "table",
+    "question": "In Table 8.1, which two checks or records belong to Destroy or reuse, and how do they differ from the long-term duties under Archive and preserve?",
+    "answerable": true,
+    "expected_answer": "Destroy or reuse requires keeping records of destruction processes and verifying that consent for use is still valid. Archive and preserve instead requires systematic classification/cataloging so data can be found, data dictionaries and creation notes, and maintaining access, security, and integrity over time.",
+    "reason": "Cần đối chiếu hai hàng cuối của vòng đời; không coi lưu trữ dài hạn và hủy/tái sử dụng là cùng nhiệm vụ.",
+    "evidence": [
+      {
+        "page": 288,
+        "printed_page": "268",
+        "region_label": "Table 8.1: Archive and preserve / Destroy or reuse",
+        "bbox": [
+          0.206,
+          0.342,
+          0.907,
+          0.429
+        ],
+        "quote": "Archive and preserve: Classify and catalog data systematically ... Include data dictionaries and notes on how the data were created ... Maintain access ... security and integrity over time. Destroy or reuse: Keep records of destruction processes. Verify that consent for use is still valid.",
+        "facts": [
+          "Destroy/reuse: record destruction and verify still-valid consent.",
+          "Archive/preserve: findability via cataloging, dictionaries/provenance notes, long-term access/security/integrity."
+        ],
+        "units": "not applicable"
+      }
+    ]
+  },
+  {
+    "id": "adv-test-06",
+    "split": "test",
+    "group": "table",
+    "question": "According to Table 8.3, which intermediary types create shared interoperable data assets and computing infrastructure for research, and which two examples are listed?",
+    "answerable": true,
+    "expected_answer": "Data commons and data clubs. The examples are the Open Commons Consortium (OCC) and UK Biobank.",
+    "reason": "Cần ghép mục tiêu nghiên cứu với đúng ô loại hình và cả hai ví dụ, không nhầm với data pools hay data cooperatives.",
+    "evidence": [
+      {
+        "page": 298,
+        "printed_page": "278",
+        "region_label": "Table 8.3: research infrastructure row",
+        "bbox": [
+          0.206,
+          0.087,
+          0.907,
+          0.376
+        ],
+        "quote": "Create and manage shared and interoperable data assets and computing infrastructure for research. Data commons, data clubs. The Open Commons Consortium (OCC), UK Biobank.",
+        "facts": [
+          "Types=data commons/data clubs.",
+          "Examples=OCC and UK Biobank."
+        ],
+        "units": "not applicable"
+      }
+    ]
+  },
+  {
+    "id": "adv-test-07",
+    "split": "test",
+    "group": "image",
+    "question": "In Figure 1.3, what positive development effect and what three negative effects are attached to the private-sector pathway? Use the diagram’s color convention.",
+    "answerable": true,
+    "expected_answer": "The positive effect shown in green is increased business opportunities. The negative effects shown in red are market concentration, widening inequality, and discrimination.",
+    "reason": "Phải đọc đúng nhánh khu vực tư nhân và chú thích xanh/đỏ; không gán rủi ro giám sát chính trị của nhánh chính phủ sang nhánh này.",
+    "evidence": [
+      {
+        "page": 54,
+        "printed_page": "34",
+        "region_label": "Figure 1.3",
+        "bbox": [
+          0.205,
+          0.088,
+          0.911,
+          0.485
+        ],
+        "quote": "Private sector: Increased business opportunities; Market concentration; Widening inequality; Discrimination. Positive impacts are shown in green, negative impacts are shown in red.",
+        "facts": [
+          "Green benefit=increased business opportunities.",
+          "Red risks=market concentration, widening inequality, discrimination."
+        ],
+        "units": "not applicable"
+      }
+    ]
+  },
+  {
+    "id": "adv-test-08",
+    "split": "test",
+    "group": "image",
+    "question": "Trace the feedback loop in Figure 2.6 from enablers through features and value. Within that diagram, which three attributes make public intent data safe to use?",
+    "answerable": true,
+    "expected_answer": "Enablers feed into desirable features, which create value; the value feeds back to the enablers. Safe to use consists of impartiality, confidentiality, and appropriateness.",
+    "reason": "Cần theo hướng mũi tên vòng phản hồi và đọc ba nhãn con của đúng cột Safe to use.",
+    "evidence": [
+      {
+        "page": 85,
+        "printed_page": "65",
+        "region_label": "Figure 2.6",
+        "bbox": [
+          0.091,
+          0.539,
+          0.8,
+          0.928
+        ],
+        "quote": "Enablers of public intent data -> Desirable features of public intent data -> Value of public intent data. Safe to use: Impartiality; Confidentiality; Appropriateness.",
+        "facts": [
+          "Enablers -> features -> value -> feedback to enablers.",
+          "Safe-use attributes=impartiality, confidentiality, appropriateness."
+        ],
+        "units": "not applicable"
+      }
+    ]
+  },
+  {
+    "id": "adv-test-09",
+    "split": "test",
+    "group": "image",
+    "question": "In Figure 2.11, compare the governance policies directed at NSOs with those directed at other government agencies.",
+    "answerable": true,
+    "expected_answer": "For NSOs, ensure independence is anchored in laws and institutional setup and prevent statistical laws from becoming outdated. For other government agencies, assign clear roles, mandates, and responsibilities along the data life cycle.",
+    "reason": "Cần chọn cột Governance rồi phân biệt hàng tác nhân NSOs và Other government agencies trong ma trận chính sách.",
+    "evidence": [
+      {
+        "page": 91,
+        "printed_page": "71",
+        "region_label": "Figure 2.11: governance column and actor labels",
+        "bbox": [
+          0.091,
+          0.447,
+          0.9,
+          0.85
+        ],
+        "quote": "Governance / NSOs: Ensure that NSO independence is anchored in laws and institutional setup. Prevent statistical laws from becoming outdated. Other government agencies: Assign clear roles, mandates, and responsibilities along the data life cycle for government agencies.",
+        "facts": [
+          "NSO legal/institutional independence.",
+          "Keep statistical laws current.",
+          "Other agencies: clear data-life-cycle roles, mandates, responsibilities."
+        ],
+        "units": "not applicable"
+      }
+    ]
+  },
+  {
+    "id": "adv-test-10",
+    "split": "test",
+    "group": "image",
+    "question": "Read Figure 7.5 along its data-closure-to-openness spectrum. What does the domestic-processing branch of the limited-transfers model require, which country example does it give, and how does the open-transfers model’s key requirement differ?",
+    "answerable": true,
+    "expected_answer": "Domestic processing requires broad use of local servers for data processing; its example is the Russian Federation’s processing of personal data. At the more open end, the open-transfers model has no a priori mandatory requirements and relies on private-sector accountability under voluntary standards.",
+    "reason": "Cần theo cấu trúc phân nhánh và trục đóng-mở của sơ đồ; không nhầm yêu cầu lưu trữ nội địa với xử lý nội địa.",
+    "evidence": [
+      {
+        "page": 259,
+        "printed_page": "239",
+        "region_label": "Figure 7.5",
+        "bbox": [
+          0.091,
+          0.472,
+          0.902,
+          0.928
+        ],
+        "quote": "Domestic processing: Broad requirements to use local servers for data processing; Russian Federation: processing of personal data. Private standards: No a priori mandatory requirements; Private sector accountability based on voluntary standards.",
+        "facts": [
+          "Limited transfers/domestic processing: local processing servers.",
+          "Example=Russian Federation, personal data.",
+          "Open transfers: no a priori mandatory requirements; voluntary private standards/accountability."
+        ],
+        "units": "not applicable"
+      }
+    ]
+  },
+  {
+    "id": "adv-test-11",
+    "split": "test",
+    "group": "image",
+    "question": "In the Optimizing the system part of Figure 9.3, who should oversee implementation of a national data strategy, what role should the NSO gain, and what should be clarified across government?",
+    "answerable": true,
+    "expected_answer": "Charge an existing or new government unit with overseeing and reporting on strategy implementation; empower the NSO to take an active role in the national data system; and define clear institutional mandates for the various government institutions.",
+    "reason": "Cần đọc riêng lớp xanh dương Optimizing the system và nêu đủ ba mục Institutions, Incentives, Policies.",
+    "evidence": [
+      {
+        "page": 330,
+        "printed_page": "310",
+        "region_label": "Figure 9.3: Optimizing the system",
+        "bbox": [
+          0.674,
+          0.543,
+          0.907,
+          0.889
+        ],
+        "quote": "Institutions: Charge an existing or new government unit with responsibility for overseeing and reporting on implementation of a national data strategy. Incentives: Empower the NSO to take an active role ... Policies: Define clear institutional mandates ...",
+        "facts": [
+          "Existing/new government unit oversees and reports on strategy implementation.",
+          "NSO gets an active national-data-system role.",
+          "Clear institutional mandates across government."
+        ],
+        "units": "not applicable"
+      }
+    ]
+  },
+  {
+    "id": "adv-test-12",
+    "split": "test",
+    "group": "chart",
+    "question": "According to Figure 3.4, what are the domestic-firm shares of top websites in Indonesia and the Philippines, and how many percentage points apart are they?",
+    "answerable": true,
+    "expected_answer": "Indonesia: 80%; Philippines: 16%. Indonesia is higher by 64 percentage points (80 - 16). These are shares of top websites by firms’ global headquarters, not shares of internet traffic.",
+    "reason": "Cần dùng chú giải màu xanh lá cho firms nội địa, đọc đúng hai hàng và giữ đơn vị share of top websites.",
+    "evidence": [
+      {
+        "page": 117,
+        "printed_page": "97",
+        "region_label": "Figure 3.4",
+        "bbox": [
+          0.091,
+          0.527,
+          0.799,
+          0.938
+        ],
+        "quote": "Indonesia: Foreign firms 20, Domestic firms 80. Philippines: Foreign firms 84, Domestic firms 16. Share of top websites (%). Headquarters ... global headquarters.",
+        "facts": [
+          "Indonesia domestic=80%; Philippines domestic=16%.",
+          "80 - 16 = 64 percentage points.",
+          "Metric=top-website shares by global headquarters."
+        ],
+        "units": "share of top websites (%); percentage points"
+      }
+    ]
+  },
+  {
+    "id": "adv-test-13",
+    "split": "test",
+    "group": "chart",
+    "question": "In panel b of Figure 3.6, which parent firm owns the largest share of top websites, what is its percentage, and how much higher is it than Microsoft’s share?",
+    "answerable": true,
+    "expected_answer": "Google has the largest share, 28.3%; Microsoft has 11.4%. Google is higher by 16.9 percentage points (28.3 - 11.4). This panel measures ownership shares of the top websites in the sample, not global internet-traffic shares.",
+    "reason": "Cần chọn panel b, đọc cột xanh và không lấy điểm cam xếp hạng hoặc số của treemap panel a.",
+    "evidence": [
+      {
+        "page": 119,
+        "printed_page": "99",
+        "region_label": "Figure 3.6 panel b",
+        "bbox": [
+          0.546,
+          0.124,
+          0.911,
+          0.524
+        ],
+        "quote": "Share of top websites owned by firm (%): Google 28.3; Microsoft 11.4. Orange: Average rank (right axis).",
+        "facts": [
+          "Google=28.3%, largest.",
+          "Microsoft=11.4%.",
+          "28.3 - 11.4 = 16.9 percentage points.",
+          "Blue bars represent ownership shares, orange dots ranks."
+        ],
+        "units": "share of top websites owned (%); percentage points"
+      }
+    ]
+  },
+  {
+    "id": "adv-test-14",
+    "split": "test",
+    "group": "chart",
+    "question": "Using Figure 5.6 panel a, compare monthly mobile-data consumption per capita in high-income and low-income countries in 2018. State the two values and their ratio using the displayed rounded values.",
+    "answerable": true,
+    "expected_answer": "High-income: 7.1 GB per capita per month; low-income: 0.2 GB per capita per month. The ratio is 35.5 to 1 (7.1 / 0.2), based on the rounded values shown.",
+    "reason": "Cần đọc đúng panel nhóm thu nhập, giữ cả đơn vị mỗi người mỗi tháng và nói rõ tỷ số dựa trên số làm tròn.",
+    "evidence": [
+      {
+        "page": 186,
+        "printed_page": "166",
+        "region_label": "Figure 5.6 panel a and note",
+        "bbox": [
+          0.083,
+          0.088,
+          0.912,
+          0.487
+        ],
+        "quote": "Data consumption (GB per capita per month): High-income 7.1; Low-income 0.2. Data are for 2018. Figures include averages of 119 economies with data.",
+        "facts": [
+          "High-income=7.1 GB/capita/month.",
+          "Low-income=0.2 GB/capita/month.",
+          "7.1 / 0.2 = 35.5, using rounded labels.",
+          "Year=2018."
+        ],
+        "units": "GB per capita per month; ratio from rounded chart values"
+      }
+    ]
+  },
+  {
+    "id": "adv-test-15",
+    "split": "test",
+    "group": "chart",
+    "question": "Across the four dimensions in Figure 6.3, which has the largest high-income versus low-income adoption gap? Give approximate adoption levels for those two groups on that dimension.",
+    "answerable": true,
+    "expected_answer": "CSIRT (Computer Security Incident Response Team) has the largest gap: about 100% of high-income countries versus about one-third (roughly 33%) of low-income countries. The gap is approximately 67 percentage points.",
+    "reason": "Cần so sánh khoảng cách hai đường theo cả bốn trục radar, đọc đúng màu nhóm thu nhập và cho phép xấp xỉ từ đồ thị.",
+    "evidence": [
+      {
+        "page": 214,
+        "printed_page": "194",
+        "region_label": "Figure 6.3 and legend",
+        "bbox": [
+          0.083,
+          0.086,
+          0.54,
+          0.521
+        ],
+        "quote": "CSIRT; High-income; Low-income; 0, 20, 40, 60, 80, 100. CSIRT = Computer Security Incident Response Team.",
+        "facts": [
+          "CSIRT has the widest high-vs-low income separation.",
+          "High-income approximately 100%; low-income approximately one-third.",
+          "Approximate difference=67 percentage points."
+        ],
+        "units": "percentage of countries adopting good-practice cybersecurity frameworks as of 2020; approximate chart readings"
+      }
+    ]
+  },
+  {
+    "id": "adv-test-16",
+    "split": "test",
+    "group": "chart",
+    "question": "In Figure 8.6, compare lower-middle-income and upper-middle-income countries. Which group has the larger established cybersecurity-agency share, and which has the larger in-progress-or-planned share? Give all four percentages.",
+    "answerable": true,
+    "expected_answer": "Established: lower-middle-income 66%, upper-middle-income 65%, so lower-middle-income is slightly higher. In progress or planned: lower-middle-income 12%, upper-middle-income 15%, so upper-middle-income is higher.",
+    "reason": "Cần đọc cả hai màu chú giải và nhận ra thứ tự giữa hai nhóm đổi khi chuyển từ Established sang In progress or planned.",
+    "evidence": [
+      {
+        "page": 297,
+        "printed_page": "277",
+        "region_label": "Figure 8.6",
+        "bbox": [
+          0.091,
+          0.087,
+          0.432,
+          0.531
+        ],
+        "quote": "Lower-middle-income: In progress or planned 12, Established 66. Upper-middle-income: In progress or planned 15, Established 65.",
+        "facts": [
+          "Established: lower-middle=66%, upper-middle=65%.",
+          "In progress/planned: lower-middle=12%, upper-middle=15%.",
+          "Higher group differs by agency status."
+        ],
+        "units": "share of countries with cybersecurity agency (%); chart based on 198 economies"
+      }
+    ]
+  },
+  {
+    "id": "adv-test-17",
+    "split": "test",
+    "group": "multihop",
+    "question": "For South Asia and Sub-Saharan Africa in 2018, combine Figure 5.3’s usage-gap figures with Figure 5.6’s regional mobile-data consumption figures. Which region has the larger usage gap, which consumes more data per capita, and what are the two numerical gaps?",
+    "answerable": true,
+    "expected_answer": "South Asia has the larger usage gap: 64% versus Sub-Saharan Africa’s 49%, a difference of 15 percentage points. South Asia also has higher consumption: 1.1 versus 0.3 GB per capita per month, a difference of 0.8 GB per capita per month.",
+    "reason": "Cần kết hợp hai biểu đồ ở hai trang và hai đơn vị khác nhau; không suy diễn usage gap lớn hơn đồng nghĩa tiêu thụ bình quân thấp hơn.",
+    "evidence": [
+      {
+        "page": 181,
+        "printed_page": "161",
+        "region_label": "Figure 5.3 panel b and shared legend",
+        "bbox": [
+          0.365,
+          0.124,
+          0.918,
+          0.435
+        ],
+        "quote": "South Asia: Usage gap 64. Sub-Saharan Africa: Usage gap 49. By region, 2018.",
+        "facts": [
+          "Usage gap South Asia=64%, Sub-Saharan Africa=49%.",
+          "64 - 49 = 15 percentage points."
+        ],
+        "units": "share of population (%); percentage points"
+      },
+      {
+        "page": 186,
+        "printed_page": "166",
+        "region_label": "Figure 5.6 panel b and note",
+        "bbox": [
+          0.083,
+          0.124,
+          0.912,
+          0.487
+        ],
+        "quote": "South Asia 1.1; Sub-Saharan Africa 0.3. Data consumption (GB per capita per month). Data are for 2018.",
+        "facts": [
+          "Consumption South Asia=1.1, Sub-Saharan Africa=0.3 GB/capita/month.",
+          "1.1 - 0.3 = 0.8 GB/capita/month."
+        ],
+        "units": "GB per capita per month"
+      }
+    ]
+  },
+  {
+    "id": "adv-test-18",
+    "split": "test",
+    "group": "multihop",
+    "question": "Link the report’s two accounts of Argentina’s official-statistics problem. When did government interference with INDEC begin and which statistic did it initially target? What data problem led to IMF action, and when was the IMF censure lifted?",
+    "answerable": true,
+    "expected_answer": "Interference began in 2007 and initially targeted the consumer price index. In 2011 the IMF found Argentina in breach of its obligations for inaccurate CPI and GDP data. After NSO reforms addressing methodology and data quality, the IMF lifted the censure in 2016.",
+    "reason": "Cần nối diễn biến tại cơ quan thống kê với cơ chế chế tài quốc tế ở chương khác và giữ chính xác các mốc năm.",
+    "evidence": [
+      {
+        "page": 89,
+        "printed_page": "69",
+        "region_label": "Text paragraph: Argentina INDEC",
+        "bbox": [
+          0.092,
+          0.743,
+          0.439,
+          0.946
+        ],
+        "quote": "In 2007 the Argentine government began interfering ... INDEC. The effort initially focused on the consumer price index ... by 2015 a new government had undertaken efforts to rebuild the institute.",
+        "facts": [
+          "Interference began 2007; initial focus=CPI."
+        ],
+        "units": "calendar years"
+      },
+      {
+        "page": 295,
+        "printed_page": "275",
+        "region_label": "Text paragraph: IMF censure, left-column end",
+        "bbox": [
+          0.091,
+          0.75,
+          0.437,
+          0.923
+        ],
+        "quote": "In 2011 it found Argentina to be in breach of its obligations ... because it was providing inaccurate consumer price",
+        "facts": [
+          "IMF found breach in 2011.",
+          "Inaccurate CPI and GDP data (sentence continues in right column)."
+        ],
+        "units": "calendar years"
+      },
+      {
+        "page": 295,
+        "printed_page": "275",
+        "region_label": "Text paragraph: IMF censure, right-column continuation",
+        "bbox": [
+          0.453,
+          0.086,
+          0.799,
+          0.149
+        ],
+        "quote": "index and gross domestic product data. After reforms ... the IMF lifted the censure on the country in 2016.",
+        "facts": [
+          "Inaccurate CPI and GDP.",
+          "Censure lifted 2016 after methodological/data-quality reforms."
+        ],
+        "units": "calendar years"
+      }
+    ]
+  },
+  {
+    "id": "adv-test-19",
+    "split": "test",
+    "group": "multihop",
+    "question": "How do personal-data portability and a legally constituted data trust each aim to rebalance control between individuals and data controllers? Explain their different mechanisms and the trust’s obligation to beneficiaries.",
+    "answerable": true,
+    "expected_answer": "Portability increases individual choice and control by facilitating transfers and mitigating consumer-data lock-in, thereby supporting competition. A data trust lets individuals pool their legal rights and negotiate collectively with larger controllers. In the legal-trust form, trustees owe fiduciary duties and must act with impartiality, prudence, transparency, and undivided loyalty to beneficiaries.",
+    "reason": "Cần ghép quyền chuyển dữ liệu ở chương pháp lý với cơ chế trung gian ở chương thể chế; nghĩa vụ tín thác chỉ áp dụng cách hiểu trust pháp lý được hỏi.",
+    "evidence": [
+      {
+        "page": 224,
+        "printed_page": "204",
+        "region_label": "Text paragraph: Requiring data portability",
+        "bbox": [
+          0.565,
+          0.64,
+          0.912,
+          0.829
+        ],
+        "quote": "Increasing an individual’s choice and control ... “rebalancing the relationship” ... mitigating the risk of locking in consumer data ... foster competition.",
+        "facts": [
+          "Portability facilitates transfer, choice/control and mitigates lock-in; competition."
+        ],
+        "units": "not applicable"
+      },
+      {
+        "page": 300,
+        "printed_page": "280",
+        "region_label": "Text paragraph: legal data trust and bottom-up control",
+        "bbox": [
+          0.204,
+          0.517,
+          0.549,
+          0.781
+        ],
+        "quote": "A data trust ... legal structure of a “trust” ... fiduciary duty ... impartiality, prudence, transparency, and undivided loyalty ... individuals can pool the legal rights ... negotiate with larger data “controllers”.",
+        "facts": [
+          "Trust pools individual legal rights for collective negotiation.",
+          "Legal-trust trustees have fiduciary duties with impartiality/prudence/transparency/undivided loyalty."
+        ],
+        "units": "not applicable"
+      }
+    ]
+  },
+  {
+    "id": "adv-test-20",
+    "split": "test",
+    "group": "multihop",
+    "question": "In the crop-yield example spanning printed pages 29-30, what is the weakness of traditional farmer-reported surveys, and how does combining objective sample measurements with satellite data extend what can be estimated?",
+    "answerable": true,
+    "expected_answer": "Farmer-reported crop production and land area can measure crop yield poorly. Objective survey measurements accurately capture yields at surveyed locations; combined with satellite data, they inform remote-sensing models that estimate highly localized yields across entire regions and countries beyond the sample-survey locations.",
+    "reason": "Cần đọc đoạn bị ngắt qua hai trang để nối hạn chế số liệu tự báo cáo, đo lường tại mẫu và khả năng mở rộng không gian của mô hình.",
+    "evidence": [
+      {
+        "page": 49,
+        "printed_page": "29",
+        "region_label": "Text paragraph below Box 1.2, continued next page",
+        "bbox": [
+          0.092,
+          0.839,
+          0.8,
+          0.923
+        ],
+        "quote": "Crop yield is poorly measured with traditional survey approaches that rely on farmer-reported information on crop production and land areas ... objective measurement methods ... accurately capture crop yields at surveyed locations",
+        "facts": [
+          "Farmer-reported production/land area can measure yield poorly.",
+          "Objective measurements accurately capture sampled-location yields."
+        ],
+        "units": "not applicable"
+      },
+      {
+        "page": 50,
+        "printed_page": "30",
+        "region_label": "Text paragraph at top left",
+        "bbox": [
+          0.204,
+          0.086,
+          0.548,
+          0.162
+        ],
+        "quote": "Remote sensing models that combine data from surveys and satellites to provide highly localized crop yield estimates across entire regions and countries beyond the locations in which sample surveys are conducted.",
+        "facts": [
+          "Survey + satellite models extend localized estimates to regions/countries beyond surveyed locations."
+        ],
+        "units": "not applicable"
+      }
+    ]
+  },
+  {
+    "id": "adv-test-21",
+    "split": "test",
+    "group": "text",
+    "question": "For Bangladesh’s meteorological data exchange in Spotlight 4.1, state the change in reporting stations, observation frequency, historical coverage, and the data-protection condition under which RIMES exchanges these data. What does ECMWF supply in return?",
+    "answerable": true,
+    "expected_answer": "Bangladesh increased reporting stations from 10 to 32, sharing observations every three hours and nearly 40 years of historical data. Because the data are not treated as open or WMO essential data, RIMES protects them with nondisclosure agreements. In return ECMWF supplies high-resolution digital forecast products to participating countries.",
+    "reason": "Cần giữ các điều kiện trao đổi và tần suất, không chỉ trích số trạm; không gọi dữ liệu này là open data.",
+    "evidence": [
+      {
+        "page": 170,
+        "printed_page": "150",
+        "region_label": "Spotlight 4.1: right-column RIMES/Bangladesh paragraphs",
+        "bbox": [
+          0.565,
+          0.547,
+          0.913,
+          0.916
+        ],
+        "quote": "Increased from 10 to 32 ... observational data taken every three hours ... nearly 40 years of historical data ... protected by nondisclosure agreements. In return, ECMWF shares high-resolution digital forecast products.",
+        "facts": [
+          "Stations 10 -> 32.",
+          "Frequency=every 3 hours; historical span=nearly 40 years.",
+          "Not open/essential data; NDA protection.",
+          "Reciprocal product=high-resolution digital forecast products."
+        ],
+        "units": "station counts; every three hours; nearly 40 years"
+      }
+    ]
+  },
+  {
+    "id": "adv-test-22",
+    "split": "test",
+    "group": "text",
+    "question": "According to Box 8.1, what should a government identify in the first step of soft-infrastructure reform, and what does the report include in soft infrastructure besides software platforms?",
+    "answerable": true,
+    "expected_answer": "Identify the data accessible to government, their classification (open, restricted, or personal), who produces or uses them, and limitations and provenance. Soft infrastructure also includes technical interoperability standards, data-integration methods, and the people accountable for the systems’ functioning.",
+    "reason": "Cần nối định nghĩa soft infrastructure với thông tin kiểm kê ở bước đầu, không thu hẹp khái niệm chỉ còn phần mềm.",
+    "evidence": [
+      {
+        "page": 286,
+        "printed_page": "266",
+        "region_label": "Box 8.1 left-column paragraphs",
+        "bbox": [
+          0.226,
+          0.461,
+          0.549,
+          0.799
+        ],
+        "quote": "Software platforms ... supported by technical interoperability standards, data integration methods, and people accountable ... identifying the data ... classified (open, restricted, or personal) ... who produces or uses ... limitations and provenance.",
+        "facts": [
+          "Inventory access, classification, producers/users, limitations/provenance.",
+          "Beyond software: interoperability standards, integration methods, accountable people."
+        ],
+        "units": "not applicable"
+      }
+    ]
+  },
+  {
+    "id": "adv-test-23",
+    "split": "test",
+    "group": "text",
+    "question": "How does the report propose addressing advocacy bias when citizen-generated data are considered for national portals or SDG reporting, and does adopting common standards remove civil society’s accountability role?",
+    "answerable": true,
+    "expected_answer": "Relevant government agencies and CSOs could jointly establish an independent scientific quality-control unit to assess methodological soundness and representativeness. Common standards and closer collaboration do not remove civil society’s role in holding others accountable; rigor can strengthen that role by improving credibility and interoperability.",
+    "reason": "Cần nêu đúng đơn vị độc lập, thành phần phối hợp, tiêu chí đánh giá và bảo lưu vai trò phản biện của xã hội dân sự.",
+    "evidence": [
+      {
+        "page": 334,
+        "printed_page": "314",
+        "region_label": "Text paragraph: Quality control unit",
+        "bbox": [
+          0.566,
+          0.529,
+          0.912,
+          0.846
+        ],
+        "quote": "Government agencies and CSOs could together establish an independent scientific quality control unit to assess the methodological soundness and representativeness ... common standards do not mean that civil society ceases to play its critical role of holding other actors accountable.",
+        "facts": [
+          "Joint government/CSO independent scientific quality-control unit.",
+          "Assess methodological soundness and representativeness for portals/SDGs.",
+          "Civil-society accountability remains and may be strengthened."
+        ],
+        "units": "not applicable"
+      }
+    ]
+  },
+  {
+    "id": "adv-test-24",
+    "split": "test",
+    "group": "text",
+    "question": "In the Hello Tractor example, what data are monitored and how do they reach farmers? Explain the distinct benefit for a farmer seeking equipment and for a tractor owner.",
+    "answerable": true,
+    "expected_answer": "An installed device monitors tractor location and availability and sends them to Hello Tractor’s mobile-app platform, where farmers can submit booking requests. Farmers can find the most cost-effective available tractor; owners can monitor use of their equipment.",
+    "reason": "Cần giải thích luồng dữ liệu thiết bị-nền tảng và lợi ích riêng của hai phía giao dịch.",
+    "evidence": [
+      {
+        "page": 124,
+        "printed_page": "104",
+        "region_label": "Text paragraph: Hello Tractor",
+        "bbox": [
+          0.566,
+          0.196,
+          0.912,
+          0.385
+        ],
+        "quote": "Data about tractor locations and availability are monitored using an installed device ... transmitted to Hello Tractor’s mobile app platform ... submit a booking request ... most cost-effective available tractor ... monitor the use of equipment.",
+        "facts": [
+          "Installed device tracks locations/availability.",
+          "Data transmitted to app; farmer submits booking.",
+          "Farmer finds cost-effective available tractor; owner monitors equipment use."
+        ],
+        "units": "not applicable"
+      }
+    ]
+  },
+  {
+    "id": "adv-test-25",
+    "split": "test",
+    "group": "unanswerable",
+    "question": "What causal percentage reduction in Nairobi road-traffic deaths was achieved after the report’s identified crash-black-spot recommendations were implemented?",
+    "answerable": false,
+    "expected_answer": "Insufficient evidence",
+    "reason": "Nguồn mô tả xây dựng dữ liệu, kiểm chứng báo cáo và điểm nóng; chưa có đánh giá trước-sau hoặc thiết kế nhân quả về triển khai khuyến nghị nên không thể coi tỷ lệ xác minh hay tỷ trọng tử vong là mức giảm.",
+    "evidence": [
+      {
+        "page": 172,
+        "printed_page": "152",
+        "region_label": "Spotlight 4.2: validation and future policy",
+        "bbox": [
+          0.565,
+          0.563,
+          0.912,
+          0.906
+        ],
+        "quote": "Researchers were able to identify the 5 percent of roads ... where 50 percent of the road traffic deaths occur ... an invaluable road map for future regulation, infrastructure, and enforcement efforts.",
+        "facts": [
+          "Descriptive targeting evidence and future-policy motivation do not measure a causal post-implementation reduction."
+        ],
+        "units": "requested causal change in deaths (%) is missing"
+      }
+    ],
+    "absence_check": {
+      "terms": [
+        "nairobi",
+        "crash black spots",
+        "road traffic deaths",
+        "road safety",
+        "fatalities"
+      ],
+      "method": "Scanned normalized PDFium native text from all 350 physical pages (NFKC/lowercase, dehyphenation, whitespace normalization) for every listed term and inspected context for the requested joint condition. Reviewed the relevant source-page images at physical pages 149, 159, 172, 173. Search-hit page lists are preserved in absence_search_audit.json; a keyword hit alone was not treated as an answer.",
+      "reason": "Nguồn mô tả xây dựng dữ liệu, kiểm chứng báo cáo và điểm nóng; chưa có đánh giá trước-sau hoặc thiết kế nhân quả về triển khai khuyến nghị nên không thể coi tỷ lệ xác minh hay tỷ trọng tử vong là mức giảm."
+    }
+  },
+  {
+    "id": "adv-test-26",
+    "split": "test",
+    "group": "unanswerable",
+    "question": "Exactly how many hours of forecast lead time were gained in Bangladesh solely because the reporting network increased from 10 to 32 weather stations?",
+    "answerable": false,
+    "expected_answer": "Insufficient evidence",
+    "reason": "Báo cáo nêu tăng số trạm và kỳ vọng cải thiện dự báo cho mạng RIMES, nhưng không có số giờ hoặc ước lượng nhân quả riêng của Bangladesh cho thay đổi 10-32 trạm.",
+    "evidence": [
+      {
+        "page": 170,
+        "printed_page": "150",
+        "region_label": "Spotlight 4.1: Bangladesh and RIMES",
+        "bbox": [
+          0.565,
+          0.547,
+          0.913,
+          0.733
+        ],
+        "quote": "Increased from 10 to 32 ... nearly 40 years of historical data ... leading to a significant improvement in the accuracy and lead time of weather forecasts.",
+        "facts": [
+          "No exact Bangladesh-only hours gained or causal attribution to the station increase is supplied."
+        ],
+        "units": "requested causal forecast-lead-time gain in hours is missing"
+      }
+    ],
+    "absence_check": {
+      "terms": [
+        "bangladesh",
+        "rimes",
+        "lead time",
+        "ecmwf",
+        "observational data"
+      ],
+      "method": "Scanned normalized PDFium native text from all 350 physical pages (NFKC/lowercase, dehyphenation, whitespace normalization) for every listed term and inspected context for the requested joint condition. Reviewed the relevant source-page images at physical pages 170, 171. Search-hit page lists are preserved in absence_search_audit.json; a keyword hit alone was not treated as an answer.",
+      "reason": "Báo cáo nêu tăng số trạm và kỳ vọng cải thiện dự báo cho mạng RIMES, nhưng không có số giờ hoặc ước lượng nhân quả riêng của Bangladesh cho thay đổi 10-32 trạm."
+    }
+  },
+  {
+    "id": "adv-test-27",
+    "split": "test",
+    "group": "unanswerable",
+    "question": "What universally mandatory minimum payment per gigabyte does the report require governments to make when acquiring private-sector data through B2G sharing?",
+    "answerable": false,
+    "expected_answer": "Insufficient evidence",
+    "reason": "Nguồn trình bày nhiều lựa chọn bồi hoàn, kể cả miễn phí, chứ không ấn định mức tối thiểu bắt buộc toàn cầu tính trên gigabyte.",
+    "evidence": [
+      {
+        "page": 338,
+        "printed_page": "318",
+        "region_label": "Text paragraph: Compensation and noncompensation schemes",
+        "bbox": [
+          0.565,
+          0.086,
+          0.912,
+          0.334
+        ],
+        "quote": "Options include free data; free of charge plus tax incentives; marginal cost pricing; marginal cost pricing plus a return on investment markup; or market price.",
+        "facts": [
+          "Several alternative compensation schemes, including free data, are discussed; no universal per-GB mandatory minimum."
+        ],
+        "units": "requested mandatory currency payment per GB is missing"
+      }
+    ],
+    "absence_check": {
+      "terms": [
+        "compensation",
+        "gigabyte",
+        "marginal cost pricing",
+        "business-to-government",
+        "b2g"
+      ],
+      "method": "Scanned normalized PDFium native text from all 350 physical pages (NFKC/lowercase, dehyphenation, whitespace normalization) for every listed term and inspected context for the requested joint condition. Reviewed the relevant source-page images at physical pages 223, 337, 338. Search-hit page lists are preserved in absence_search_audit.json; a keyword hit alone was not treated as an answer.",
+      "reason": "Nguồn trình bày nhiều lựa chọn bồi hoàn, kể cả miễn phí, chứ không ấn định mức tối thiểu bắt buộc toàn cầu tính trên gigabyte."
+    }
+  },
+  {
+    "id": "adv-test-28",
+    "split": "test",
+    "group": "unanswerable",
+    "question": "What percentage of women, separately from men, lacked government-recognized proof of identity in each country income group in 2020?",
+    "answerable": false,
+    "expected_answer": "Insufficient evidence",
+    "reason": "Báo cáo có số người thiếu giấy tờ được chính phủ công nhận và biểu đồ tỷ lệ quốc gia có hệ thống digital ID, nhưng không có bảng nam-nữ theo nhóm thu nhập cho năm 2020 với đúng chỉ tiêu thiếu danh tính.",
+    "evidence": [
+      {
+        "page": 220,
+        "printed_page": "200",
+        "region_label": "Text paragraph: Introducing digital identification",
+        "bbox": [
+          0.084,
+          0.725,
+          0.549,
+          0.91
+        ],
+        "quote": "An estimated 1 billion people worldwide do not have government-recognized proof of their identity.",
+        "facts": [
+          "Global headcount is not a sex-by-income-group identity-deprivation rate for 2020."
+        ],
+        "units": "requested sex-by-income-group percentages in 2020 are missing"
+      },
+      {
+        "page": 220,
+        "printed_page": "200",
+        "region_label": "Text paragraph: digital identification, right-column continuation",
+        "bbox": [
+          0.565,
+          0.086,
+          0.913,
+          0.184
+        ],
+        "quote": "Fewer than half of surveyed countries have government-recognized digital identification systems.",
+        "facts": [
+          "Country-adoption measures are not individual identity-deprivation rates."
+        ],
+        "units": "share of countries, not women/men lacking identity"
+      }
+    ],
+    "absence_check": {
+      "terms": [
+        "government-recognized",
+        "proof of their identity",
+        "digital identification",
+        "women",
+        "gender"
+      ],
+      "method": "Scanned normalized PDFium native text from all 350 physical pages (NFKC/lowercase, dehyphenation, whitespace normalization) for every listed term and inspected context for the requested joint condition. Reviewed the relevant source-page images at physical pages 81, 184, 185, 220. Search-hit page lists are preserved in absence_search_audit.json; a keyword hit alone was not treated as an answer.",
+      "reason": "Báo cáo có số người thiếu giấy tờ được chính phủ công nhận và biểu đồ tỷ lệ quốc gia có hệ thống digital ID, nhưng không có bảng nam-nữ theo nhóm thu nhập cho năm 2020 với đúng chỉ tiêu thiếu danh tính."
+    }
+  },
+  {
+    "id": "adv-test-29",
+    "split": "test",
+    "group": "unanswerable",
+    "question": "For UK Biobank, how many participants revoked consent in 2020, and how many previously shared research records were consequently deleted that year?",
+    "answerable": false,
+    "expected_answer": "Insufficient evidence",
+    "reason": "Nguồn chỉ giới thiệu quy mô và quyền truy cập nghiên cứu của UK Biobank cùng dẫn nguồn; không có thống kê rút đồng ý hay xóa bản ghi năm 2020.",
+    "evidence": [
+      {
+        "page": 299,
+        "printed_page": "279",
+        "region_label": "Text paragraph: UK Biobank",
+        "bbox": [
+          0.091,
+          0.814,
+          0.439,
+          0.879
+        ],
+        "quote": "UK Biobank aggregates the health data of more than 500,000 individuals from the United Kingdom and makes it available to any “bona fide researcher” in the world.",
+        "facts": [
+          "Reported scale and access policy do not supply 2020 consent-revocation/deletion counts."
+        ],
+        "units": "requested participant and deleted-record counts for 2020 are missing"
+      }
+    ],
+    "absence_check": {
+      "terms": [
+        "biobank",
+        "revok",
+        "withdraw",
+        "consent",
+        "500,000"
+      ],
+      "method": "Scanned normalized PDFium native text from all 350 physical pages (NFKC/lowercase, dehyphenation, whitespace normalization) for every listed term and inspected context for the requested joint condition. Reviewed the relevant source-page images at physical pages 298, 299, 309. Search-hit page lists are preserved in absence_search_audit.json; a keyword hit alone was not treated as an answer.",
+      "reason": "Nguồn chỉ giới thiệu quy mô và quyền truy cập nghiên cứu của UK Biobank cùng dẫn nguồn; không có thống kê rút đồng ý hay xóa bản ghi năm 2020."
+    }
+  },
+  {
+    "id": "adv-test-30",
+    "split": "test",
+    "group": "unanswerable",
+    "question": "What single minimum percentage of the national budget does the report recommend every country allocate to its NSO, regardless of national statistical-plan costs?",
+    "answerable": false,
+    "expected_answer": "Insufficient evidence",
+    "reason": "Nguồn không cho ngưỡng thống nhất: nêu sự thiếu vắng hướng dẫn tương tự giáo dục/y tế và gợi ý mục tiêu dựa trên chi phí kế hoạch hoặc nước đối sánh; không được mượn ngưỡng ngành khác.",
+    "evidence": [
+      {
+        "page": 86,
+        "printed_page": "66",
+        "region_label": "Text paragraph: absence of a data-spending benchmark",
+        "bbox": [
+          0.565,
+          0.545,
+          0.913,
+          0.706
+        ],
+        "quote": "Another reason for lack of funding for data is the absence of a benchmark ... Education ... 4-6 percent of GDP ... Abuja ... 15 percent ... No similar guidelines are found on data.",
+        "facts": [
+          "No universal data-spending benchmark analogous to education/health is given."
+        ],
+        "units": "requested universal NSO budget percentage is missing"
+      },
+      {
+        "page": 92,
+        "printed_page": "72",
+        "region_label": "Text paragraph: setting a spending target",
+        "bbox": [
+          0.204,
+          0.642,
+          0.549,
+          0.801
+        ],
+        "quote": "Such a target can be derived ... resources needed to fully fund the national statistical plan or ... spending of peer countries that have achieved sufficient funding.",
+        "facts": [
+          "Suggested targets are context dependent on plan resources or peer spending, not a universal fixed percentage."
+        ],
+        "units": "context-dependent budget target, no universal percentage"
+      }
+    ],
+    "absence_check": {
+      "terms": [
+        "target fraction",
+        "national budget",
+        "statistical plans",
+        "nso",
+        "financing"
+      ],
+      "method": "Scanned normalized PDFium native text from all 350 physical pages (NFKC/lowercase, dehyphenation, whitespace normalization) for every listed term and inspected context for the requested joint condition. Reviewed the relevant source-page images at physical pages 86, 91, 92. Search-hit page lists are preserved in absence_search_audit.json; a keyword hit alone was not treated as an answer.",
+      "reason": "Nguồn không cho ngưỡng thống nhất: nêu sự thiếu vắng hướng dẫn tương tự giáo dục/y tế và gợi ý mục tiêu dựa trên chi phí kế hoạch hoặc nước đối sánh; không được mượn ngưỡng ngành khác."
+    }
+  }
+]

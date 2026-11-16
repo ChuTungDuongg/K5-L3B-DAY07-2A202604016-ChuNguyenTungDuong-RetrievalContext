@@ -1,0 +1,35 @@
+{
+  "id": "dea6a7060ab4484b9015fe7e7ed1da20",
+  "label": "index:p325",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 3628,
+  "maximum_output_tokens": 6000,
+  "images": [
+    {
+      "page": 325,
+      "path": "advanced/data/pages/p325.jpg",
+      "sha256": "057beecc828654a66ec3392142501dafc7dc0ab05db1f90dbd3978d611d3d635"
+    }
+  ],
+  "instructions_sha256": "01d3a56b3c678b1acd37e506320a854b17dd9ddb13ece56a92b62990aeb80d41",
+  "usage": {
+    "input_tokens": 3628,
+    "input_tokens_details": {
+      "cache_write_tokens": 3625,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 3625
+      }
+    },
+    "output_tokens": 206,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3834
+  },
+  "response_id": "resp_0e3b32c2039330e3016afa90f85a3487d2bf55db32215c9d11",
+  "response_status": "completed",
+  "output_text": "{\"regions\":[{\"label\":\"Figure 9.1 — What happens in an integrated national data system?\",\"kind\":\"diagram\",\"bbox\":[0.093,0.34,0.796,0.925],\"summary\":\"Four stacked, color-outlined bands describe what happens to data, who participates, the pillars of the system, and the foundation that sustains it.\",\"details\":\"Top-to-bottom structure: “Data are” produced, protected, open, quality controlled, and used and reused. “By” government entities; civil society and individuals; academic institutions; the private sector; international organizations. “Built on the pillars of” infrastructure policies; laws and regulations; economic policies; institutions. “Sustained by the foundation of” human capital; trust; funding; incentives; data demand. Each item is accompanied by an icon. Source: WDR 2021 team.\",\"limitations\":\"The diagram shows grouped components, not explicit directional arrows or quantitative values.\"}]}",
+  "elapsed_seconds": 4.536910900002113
+}

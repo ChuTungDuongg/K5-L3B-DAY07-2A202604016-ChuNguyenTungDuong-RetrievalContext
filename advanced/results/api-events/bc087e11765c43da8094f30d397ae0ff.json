@@ -1,0 +1,35 @@
+{
+  "id": "bc087e11765c43da8094f30d397ae0ff",
+  "label": "index:p288",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 3845,
+  "maximum_output_tokens": 6000,
+  "images": [
+    {
+      "page": 288,
+      "path": "advanced/data/pages/p288.jpg",
+      "sha256": "02b1ef2c179df8156a7047bbf79127957423cfb021bf3f3faec9021a3f2215a6"
+    }
+  ],
+  "instructions_sha256": "01d3a56b3c678b1acd37e506320a854b17dd9ddb13ece56a92b62990aeb80d41",
+  "usage": {
+    "input_tokens": 3845,
+    "input_tokens_details": {
+      "cache_write_tokens": 3842,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 3842
+      }
+    },
+    "output_tokens": 753,
+    "output_tokens_details": {
+      "reasoning_tokens": 140
+    },
+    "total_tokens": 4598
+  },
+  "response_id": "resp_015ad3e88a89e322016afa90e08a0087d28219e478b2bebbc4",
+  "response_status": "completed",
+  "output_text": "{\"regions\":[{\"label\":\"Table 8.1 — Data management decisions along the data life cycle\",\"kind\":\"table\",\"bbox\":[0.205,0.09,0.907,0.475],\"summary\":\"Two-column table lists seven data life-cycle stages and management decisions for each, including consent, standardization, security, sharing, analysis, archiving, and destruction or reuse.\",\"details\":\"Columns: “Stage of life cycle” and “Area in which data management is needed.” Rows: Create/receive — Determine lawful use (such as obtaining consent for data collection and sharing); collect identifications that allow data to be merged with other datasets. Process — Standardize units and categories (such as industry classifications); use data formats that are widely compatible and accessible; validate the quality (accuracy), relevance, and integrity of data. Store — Encrypt data; use secure servers; back up and archive data. Transfer/share — Verify whether consent allows for data to be shared; deidentify data, if appropriate (footnote a); sign confidentiality agreements for use of identified data; publish data via bulk downloads or APIs. Analyze and use — Ensure reproducibility; publish code or algorithms; do not publish identifiable data; visualize and communicate insights from data. Archive and preserve — Classify and catalog data systematically so they can be found easily; include data dictionaries and notes on how data were created; maintain access to data and their security and integrity over time. Destroy or reuse — Keep records of destruction processes; verify that consent for use is still valid. Source: WDR 2021 team. Note: APIs = application programming interfaces. Footnote a: See Elliot et al. (2016); Polonetsky, Tene, and Finch (2016).\",\"limitations\":\"No apparent unreadable values.\"},{\"label\":\"Figure 8.1 — Data governance and data management, working seamlessly together in support of the social contract\",\"kind\":\"diagram\",\"bbox\":[0.205,0.648,0.91,0.941],\"summary\":\"Two cyclical systems—data governance and the data management life cycle—are connected through a central set of social-contract values: value, trust, and equity.\",\"details\":\"Left circle: central node “Data governance,” surrounded by four sectors labeled “Learning and evidence,” “Strategic planning,” “Compliance,” and “Rule making and implementation.” Right circle: central node “Data management,” surrounded by six nodes connected in a cycle: Create → Process → Store → Transfer → Analyze → Archive → Create. Between the circles is an orange node labeled “Value / Trust / Equity.” Orange curved arrows around both systems and arrows connecting each system to the central values indicate ongoing, linked cycles. Source: WDR 2021 team. Note: The data management life cycle at right appears in figure 1.2 in chapter 1.\",\"limitations\":\"The arrowheads indicate cyclic flow; the diagram does not specify additional directional links among the governance sectors.\"}]}",
+  "elapsed_seconds": 9.391456700002891
+}

@@ -1,0 +1,35 @@
+{
+  "id": "84ecd45f4ebc448d8bd4fb53d2f63878",
+  "label": "index:p178",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 3842,
+  "maximum_output_tokens": 6000,
+  "images": [
+    {
+      "page": 178,
+      "path": "advanced/data/pages/p178.jpg",
+      "sha256": "23ac6122a25e85f3b4680180190316fc933ee40a5a128e830b15cf69132f77db"
+    }
+  ],
+  "instructions_sha256": "01d3a56b3c678b1acd37e506320a854b17dd9ddb13ece56a92b62990aeb80d41",
+  "usage": {
+    "input_tokens": 3842,
+    "input_tokens_details": {
+      "cache_write_tokens": 3839,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 3839
+      }
+    },
+    "output_tokens": 495,
+    "output_tokens_details": {
+      "reasoning_tokens": 98
+    },
+    "total_tokens": 4337
+  },
+  "response_id": "resp_09adb90d3ed32765016afa9087504c87d2bb6612192d13b72b",
+  "response_status": "completed",
+  "output_text": "{\"regions\":[{\"label\":\"Figure 5.1 — The data infrastructure supply chain\",\"kind\":\"diagram\",\"bbox\":[0.084,0.404,0.89,0.91],\"summary\":\"Diagram of the internet/data infrastructure supply chain across cross-border, middle-mile, and last-mile networks, showing purposes, typical distances, and example technologies.\",\"details\":\"Three network stages are arranged from left to right. Cross-border network (international links): purpose is “Connecting the service centers to the worldwide internet”; typical distance >1,000 km. Technologies shown include WWW, terrestrial fiber, and subsea cable. Middle-mile network (distribution): purpose is “Connecting bigger cities together and routing data to the service centers”; typical distance 10–1,000 km. The diagram shows fiber-optic backbone/fiber, an IXP, a colocation data center, fiber or microwave backbone, and a satellite link connected through an earth station. Last mile (access): purpose is “Distributing internet from the middle mile in the community to individual homes and businesses”; typical distance <1–5 km. Technologies shown include fiber, DSL, coaxial, cellular towers, wireless (Wi-Fi, LTE, TV white space), satellite link (DTH), and balloons and drones. The network paths visually connect international links to middle-mile infrastructure and then to household/business endpoints; satellite and wireless routes also connect to last-mile endpoints. Source: Adapted from World Bank (2019c). Note defines DSL as digital subscriber line; DTH as direct-to-home; IXP as internet exchange point; km as kilometers; LTE as Long-Term Evolution; WWW as World Wide Web (internet).\",\"limitations\":\"The figure is a schematic, not a scale map; paths indicate connections but do not provide quantitative capacity or traffic values. The printed distance for last mile appears as “<1–5 km”; preserve as printed.\"}]}",
+  "elapsed_seconds": 7.260549300001003
+}

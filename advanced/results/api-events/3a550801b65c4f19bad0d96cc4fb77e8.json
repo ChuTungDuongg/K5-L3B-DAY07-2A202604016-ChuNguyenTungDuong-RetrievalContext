@@ -1,0 +1,35 @@
+{
+  "id": "3a550801b65c4f19bad0d96cc4fb77e8",
+  "label": "index:p026",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 4252,
+  "maximum_output_tokens": 6000,
+  "images": [
+    {
+      "page": 26,
+      "path": "advanced/data/pages/p026.jpg",
+      "sha256": "9eac093b7d3bd06b0e0d6e0a173f12655c03667c6e68864961384b2074357425"
+    }
+  ],
+  "instructions_sha256": "01d3a56b3c678b1acd37e506320a854b17dd9ddb13ece56a92b62990aeb80d41",
+  "usage": {
+    "input_tokens": 4252,
+    "input_tokens_details": {
+      "cache_write_tokens": 4249,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 4249
+      }
+    },
+    "output_tokens": 316,
+    "output_tokens_details": {
+      "reasoning_tokens": 77
+    },
+    "total_tokens": 4568
+  },
+  "response_id": "resp_0a3d567f4b7fbf8a016afa8ffac84487d2beefe779a25b491a",
+  "response_status": "completed",
+  "output_text": "{\"regions\":[{\"label\":\"Figure O.2 — A social contract for data founded on value, trust, and equity\",\"kind\":\"diagram\",\"bbox\":[0.094,0.58,0.546,0.94],\"summary\":\"Three interlocking hexagons present value, trust, and equity as foundations of a social contract for data.\",\"details\":\"The diagram has three large colored hexagons arranged around a central orange triangular overlap labeled “THE SOCIAL CONTRACT.” The upper blue hexagon is labeled “VALUE” and states: “The full value of data materializes when systems enable the use and reuse of data for different purposes.” The lower-left green hexagon is labeled “TRUST” and states: “A trust environment is created when the rights and interests that all stakeholders have in data are safeguarded.” The lower-right purple hexagon is labeled “EQUITY” and states: “All share equitably in the benefits of data when investments and regulations create a level playing field.” Source printed below: “WDR 2021 team.”\",\"limitations\":\"No directional arrows or quantitative values are shown.\"}]}",
+  "elapsed_seconds": 7.990800699997635
+}

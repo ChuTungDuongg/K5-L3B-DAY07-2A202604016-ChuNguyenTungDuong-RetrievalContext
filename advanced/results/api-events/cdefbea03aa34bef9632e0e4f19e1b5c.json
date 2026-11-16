@@ -1,0 +1,60 @@
+{
+  "id": "cdefbea03aa34bef9632e0e4f19e1b5c",
+  "label": "20261116-165446-r2-test-baseline-cbad637d:adv-r2-test-26:step2",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 27111,
+  "maximum_output_tokens": 3500,
+  "images": [
+    {
+      "page": 114,
+      "path": "advanced/data/pages/p114.jpg",
+      "sha256": "985df4b9c6997855700cd82e99e9866dd56e570c5fba26f4b49c90aeff440d49"
+    },
+    {
+      "page": 157,
+      "path": "advanced/data/pages/p157.jpg",
+      "sha256": "426023e07f0006e2e02c1f9401ad68d599bb3cf1479142364ae33e52db0db0ef"
+    },
+    {
+      "page": 203,
+      "path": "advanced/data/pages/p203.jpg",
+      "sha256": "2c73dbfebe3d9a0e8a4c1eec8592cb6f51144ca359359db577ef47b51f91ee45"
+    },
+    {
+      "page": 146,
+      "path": "advanced/data/pages/p146.jpg",
+      "sha256": "7cd6665544a99cd9a65fe42ddf22826a28d26e181a98c0030c6f7586ef4631dd"
+    },
+    {
+      "page": 166,
+      "path": "advanced/data/pages/p166.jpg",
+      "sha256": "215d111430f8c5b07f6e3b9eeaed0ee64bfedca932e5cee3ca922fa65bcae593"
+    },
+    {
+      "page": 198,
+      "path": "advanced/data/pages/p198.jpg",
+      "sha256": "f7cf125d1e480218e003d6bcdb549785989ba02a7e97e1249dad73c44b0964af"
+    }
+  ],
+  "instructions_sha256": "7b27220272435c850770154f165a9b99ffc1a1c1848fec729da980d6adec6535",
+  "usage": {
+    "input_tokens": 27111,
+    "input_tokens_details": {
+      "cache_write_tokens": 27108,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 27108
+      }
+    },
+    "output_tokens": 200,
+    "output_tokens_details": {
+      "reasoning_tokens": 28
+    },
+    "total_tokens": 27311
+  },
+  "response_id": "resp_0c0391467d78be93016afad493b64887d291f698fe6fcb9e36",
+  "response_status": "completed",
+  "output_text": "{\"action\":\"search\",\"expression\":\"Box 5.1 annual net outflow of workers low- and middle-income countries 2015–2019 data-science specialists artificial-intelligence specialists, annual values\",\"queries\":[\"Box 5.1 Figure B5.1.2 annual net outflow data science artificial intelligence specialists 2015 2019\",\"World Development Report 2021 Box 5.1 net outflow workers specialists yearly data science AI chart\",\"Figure B5.1.2 annual numbers data science specialists artificial intelligence specialists years 2015 2019\"],\"pages\":[],\"status\":\"abstain\",\"answer\":\"Insufficient evidence: the retrieved pages do not show Box 5.1’s annual figures for data-science and artificial-intelligence specialists.\",\"citations\":[]}",
+  "elapsed_seconds": 9.228311899998516
+}

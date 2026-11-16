@@ -1,0 +1,45 @@
+{
+  "id": "16637d2674384b71bec8a5466a707314",
+  "label": "20261116-165446-r2-test-baseline-cbad637d:adv-r2-test-22:step0",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 13027,
+  "maximum_output_tokens": 3500,
+  "images": [
+    {
+      "page": 78,
+      "path": "advanced/data/pages/p078.jpg",
+      "sha256": "ae82e2a87a75da3ef1ba8f9a522dccfb96ca6801206b968001cfa9c74d39bfc0"
+    },
+    {
+      "page": 316,
+      "path": "advanced/data/pages/p316.jpg",
+      "sha256": "2ca366b46d4b581161d75c08d29bba4fe3491a60a3113d8461e023e60e705e2c"
+    },
+    {
+      "page": 98,
+      "path": "advanced/data/pages/p098.jpg",
+      "sha256": "418d7ca45605408673f3392354d9d945bf506904763905b84be5ad441470e453"
+    }
+  ],
+  "instructions_sha256": "7b27220272435c850770154f165a9b99ffc1a1c1848fec729da980d6adec6535",
+  "usage": {
+    "input_tokens": 13027,
+    "input_tokens_details": {
+      "cache_write_tokens": 13024,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 13024
+      }
+    },
+    "output_tokens": 294,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 13321
+  },
+  "response_id": "resp_0a0ca4bd10759a5a016afad446e7bc87d2912c84a3207d84ef",
+  "response_status": "completed",
+  "output_text": "{\"action\":\"answer\",\"expression\":\"\",\"queries\":[],\"pages\":[78],\"status\":\"answered\",\"answer\":\"Local government entities shared administrative procurement data with certain CSOs, covering the bidding process through contract execution. The CSOs trained community members to understand the contracts and conducted site checks to verify the information. They found resource mismanagement by contractors and government officials, and heavy reliance on noncompetitive contracts. The government responses were to reform procurement so contracts complied with national standards, and for the national public procurement agency to upgrade its procurement portal to international open contracting data standards.\",\"citations\":[{\"page\":78,\"region_label\":\"Uganda procurement example, paragraph beginning “Good data can also encourage transparency in and improve public procurement” (printed page 58)\",\"bbox\":[0.2,0.51,0.55,0.91],\"quote\":\"In Uganda, in an attempt to improve procurement outcomes, local government entities made administrative procurement data from the bidding process down to the level of execution of contracts available to certain CSOs. These CSOs trained community members to understand the information in the contracts and conduct site checks to verify it. The findings revealed mismanagement of resources by contractors and government officials and a high dependence on noncompetitive contracts. Not only did Uganda undertake reforms to ensure that contracts were complying with national procurement standards, but the national public procurement agency also upgraded its procurement portal in line with international open contracting data standards\"}]}",
+  "elapsed_seconds": 6.645301500000642
+}

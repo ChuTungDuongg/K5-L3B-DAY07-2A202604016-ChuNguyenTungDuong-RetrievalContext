@@ -23,7 +23,7 @@ Báo cáo chính dùng hai tên Dev và Test. [Danh sách lượt chính](../res
 | Tái lập trên máy khác | `REPRODUCE.md`, compose, lock, snapshot, `results/restore-validation.json` | Đã kiểm tra database trống riêng, khôi phục 273 vector và top-3 một query khớp trace tham chiếu. Dùng môi trường Python đã khóa và cache model sẵn có, chưa thử cài lại toàn bộ wheel trên một máy Windows mới. Phản hồi API không bảo đảm tái tạo giống hệt. |
 | Giữ khung và điền thông tin học viên | `report/individual/2A202604016_ChuNguyenTungDuong.md` | Giữ nguyên bốn mục cấp 2 và các cột bảng của mẫu, điền tên/MSSV/lớp. Không sửa hai file mẫu của thầy. |
 | Không lộ key hoặc dữ liệu mật | `.env` được ignore, `.env.example` chỉ có chỗ nhập key | Kiểm tra bytes trong Git index trước commit. Giữ .env local ngoài Git, không ghi key vào trace hoặc báo cáo. |
-| Thử thách nâng cao 100 trang có bảng, ảnh, biểu đồ | Mục cuối báo cáo | Không thực hiện và không đề nghị bonus. PDF dài 939 trang không có nghĩa index đủ 100 trang. |
+| Thử thách nâng cao 100 trang có bảng, ảnh, biểu đồ | Mục cuối báo cáo, `advanced/README.md`, `advanced/REPORT.md` | Tài liệu World Bank 350 trang được xử lý riêng, benchmark Dev 18 và Test 30. Tỷ lệ nghiêm, nhãn và trạng thái ngưỡng được ghi theo kết quả thật, không tự cộng bonus. |
 
 ## Kiểm tra văn phong và tính nhất quán
 

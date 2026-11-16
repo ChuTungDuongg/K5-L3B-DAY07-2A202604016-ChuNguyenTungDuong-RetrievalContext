@@ -1,0 +1,44 @@
+{
+  "passed": 14,
+  "total": 18,
+  "errors": 0,
+  "missing_results": 0,
+  "unreviewed": 0,
+  "groups": {
+    "table": {
+      "passed": 3,
+      "total": 3,
+      "errors": 0
+    },
+    "image": {
+      "passed": 2,
+      "total": 3,
+      "errors": 0
+    },
+    "chart": {
+      "passed": 1,
+      "total": 3,
+      "errors": 0
+    },
+    "multihop": {
+      "passed": 2,
+      "total": 3,
+      "errors": 0
+    },
+    "text": {
+      "passed": 3,
+      "total": 3,
+      "errors": 0
+    },
+    "unanswerable": {
+      "passed": 3,
+      "total": 3,
+      "errors": 0
+    }
+  },
+  "rate": 0.7777777777777778,
+  "score_threshold_met": false,
+  "labels_confirmed": false,
+  "threshold_met": false,
+  "label_status": "assistant_proposed_pending_learner_confirmation"
+}

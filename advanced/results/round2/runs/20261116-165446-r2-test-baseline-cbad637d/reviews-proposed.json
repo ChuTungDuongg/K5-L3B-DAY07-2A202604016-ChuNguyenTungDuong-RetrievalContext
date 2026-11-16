@@ -1,0 +1,1894 @@
+[
+  {
+    "query_id": "adv-r2-test-01",
+    "passed": true,
+    "reason": "Đúng External validity, định nghĩa phát hiện từ một địa điểm vẫn đúng ở địa điểm khác, ứng dụng mô hình từ nơi nhiều dữ liệu sang nơi hạn chế và rủi ro profiling/discrimination. Table4.1 p162 row và note a hỗ trợ đủ.",
+    "label_status": "assistant_proposed_pending_learner_confirmation",
+    "reviewer": "dedicated benchmark-author assistant; one assistant source review, not independent human confirmation; no API or model judge",
+    "answer_correct": true,
+    "citation_correct": true,
+    "failure_type": null,
+    "source_check": {
+      "pdf_sha256": "606c8452c8b23c01d81919c3974972bebeb1e60348a56ea40cc3ae841e301616",
+      "benchmark_sha256": "743e640a5570e4dd0acadcbd35b3e7851f482c0047e65ddbf476183b4711fe46",
+      "physical_pages": [
+        162
+      ],
+      "method": "Individually compared all question-required facts and all substantive extra claims to the frozen Test and original rendered source pixels. Checked actual returned page, specific region label, quote and bbox coverage; used PDFium bounded text only as a locator aid. Numerical chart readings use the tolerance ranges frozen before any round2 experiment. Unanswerable cases checked against the documented 350-page absence audit and nearest original source regions. No API or model judge used.",
+      "citation_policy": "Returned full-page bbox can pass with a correct specific region/quote and sufficient source support for all stated claims; model_bbox was not substituted. Exact equality with the gold bbox is unnecessary.",
+      "checked_conditions": "Units, denominator/object measured, temporal/sample conditions, all requested clauses, arithmetic, diagram relationships, axes/legends, table headers/notes and text continuations; no rerun or output repair.",
+      "all_required_answer_conditions_met": true,
+      "citation_checks": [
+        {
+          "citation": 1,
+          "page": 162,
+          "region_label": "Table 4.1, External validity row",
+          "bbox": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "model_bbox": [
+            0.084,
+            0.486,
+            0.907,
+            0.571
+          ],
+          "quote_sha256": "3705b8bbb4ae89522aaa576924c59385af24c932868bb1ed10f74c35b842cf7c",
+          "original_page_image_sha256": "15635d938d8ee7d4aa52740ed130bde4d807325df72bfdcd4f6d42c1fc936b82",
+          "source_check": "Specific label/quote checked against original PDF pixels; returned full-page bbox contains the cited object and necessary context. model_bbox is audit metadata, not the delivered citation bbox.",
+          "stated_claims_supported": true
+        },
+        {
+          "citation": 2,
+          "page": 162,
+          "region_label": "Table 4.1, footnote a",
+          "bbox": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "model_bbox": [
+            0.084,
+            0.887,
+            0.75,
+            0.901
+          ],
+          "quote_sha256": "3b4ddf113e00887b2f4962652cd0daa99ace20921083e9067753e3c59d74275e",
+          "original_page_image_sha256": "15635d938d8ee7d4aa52740ed130bde4d807325df72bfdcd4f6d42c1fc936b82",
+          "source_check": "Specific label/quote checked against original PDF pixels; returned full-page bbox contains the cited object and necessary context. model_bbox is audit metadata, not the delivered citation bbox.",
+          "stated_claims_supported": true
+        }
+      ]
+    },
+    "reviewed_trace_sha256": "0384ce4b60aa5a6bd764f922d6ac90005636e04b1facd8f404fdf5e83ab139eb",
+    "reviewed_answer_sha256": "3978ad5ef9a7e4ee12da7dad879ba7dbd3fc6d508c5453bcc339fa8574e2c507",
+    "reviewed_citations_sha256": "5b32b10ec9fe11060be0e9ab5db35f879069e3bf82a5100abdac9e10cd647ac5",
+    "citation_hash_format": "UTF-8 canonical JSON, ensure_ascii=False, sort_keys=True, compact separators",
+    "reviewed_at_local": "2026-11-16T17:05:55.821476+07:00"
+  },
+  {
+    "query_id": "adv-r2-test-02",
+    "passed": true,
+    "reason": "Đúng đủ sáu cell CPTPP/RCEP: cybersecurity soft/none, flows binding/soft, localization prohibition binding/soft. P264 Table7.2 và legend orange/yellow/blank đúng; không suy trạng thái chỉ từ text.",
+    "label_status": "assistant_proposed_pending_learner_confirmation",
+    "reviewer": "dedicated benchmark-author assistant; one assistant source review, not independent human confirmation; no API or model judge",
+    "answer_correct": true,
+    "citation_correct": true,
+    "failure_type": null,
+    "source_check": {
+      "pdf_sha256": "606c8452c8b23c01d81919c3974972bebeb1e60348a56ea40cc3ae841e301616",
+      "benchmark_sha256": "743e640a5570e4dd0acadcbd35b3e7851f482c0047e65ddbf476183b4711fe46",
+      "physical_pages": [
+        264
+      ],
+      "method": "Individually compared all question-required facts and all substantive extra claims to the frozen Test and original rendered source pixels. Checked actual returned page, specific region label, quote and bbox coverage; used PDFium bounded text only as a locator aid. Numerical chart readings use the tolerance ranges frozen before any round2 experiment. Unanswerable cases checked against the documented 350-page absence audit and nearest original source regions. No API or model judge used.",
+      "citation_policy": "Returned full-page bbox can pass with a correct specific region/quote and sufficient source support for all stated claims; model_bbox was not substituted. Exact equality with the gold bbox is unnecessary.",
+      "checked_conditions": "Units, denominator/object measured, temporal/sample conditions, all requested clauses, arithmetic, diagram relationships, axes/legends, table headers/notes and text continuations; no rerun or output repair.",
+      "all_required_answer_conditions_met": true,
+      "citation_checks": [
+        {
+          "citation": 1,
+          "page": 264,
+          "region_label": "Table 7.2, Cybersecurity row; CPTPP (2018) and RCEP (2020) cells",
+          "bbox": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "model_bbox": [
+            0.084,
+            0.086,
+            0.907,
+            0.463
+          ],
+          "quote_sha256": "0701c26926d7a36acb720883869aab6602f0c35d1733d135976140a415fa21a9",
+          "original_page_image_sha256": "8ecb746d8be79775cc0d7902ce404f87d34b706fe5dd64d3ba14731ac49489b1",
+          "source_check": "Specific label/quote checked against original PDF pixels; returned full-page bbox contains the cited object and necessary context. model_bbox is audit metadata, not the delivered citation bbox.",
+          "stated_claims_supported": true
+        },
+        {
+          "citation": 2,
+          "page": 264,
+          "region_label": "Table 7.2, Unrestricted cross-border data flows row; CPTPP (2018) and RCEP (2020) cells",
+          "bbox": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "model_bbox": [
+            0.084,
+            0.086,
+            0.907,
+            0.463
+          ],
+          "quote_sha256": "3796327ee40e07368e29b621f7d17dbabfacf7439ecb58eab4baec4a6a1ec25a",
+          "original_page_image_sha256": "8ecb746d8be79775cc0d7902ce404f87d34b706fe5dd64d3ba14731ac49489b1",
+          "source_check": "Specific label/quote checked against original PDF pixels; returned full-page bbox contains the cited object and necessary context. model_bbox is audit metadata, not the delivered citation bbox.",
+          "stated_claims_supported": true
+        },
+        {
+          "citation": 3,
+          "page": 264,
+          "region_label": "Table 7.2, Prohibition of data localization row; CPTPP (2018) and RCEP (2020) cells",
+          "bbox": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "model_bbox": [
+            0.084,
+            0.086,
+            0.907,
+            0.463
+          ],
+          "quote_sha256": "21c85db9039434372eac8710cf7848dbc8f83e3709be14afc69fefd0eaa33f0b",
+          "original_page_image_sha256": "8ecb746d8be79775cc0d7902ce404f87d34b706fe5dd64d3ba14731ac49489b1",
+          "source_check": "Specific label/quote checked against original PDF pixels; returned full-page bbox contains the cited object and necessary context. model_bbox is audit metadata, not the delivered citation bbox.",
+          "stated_claims_supported": true
+        }
+      ]
+    },
+    "reviewed_trace_sha256": "0384ce4b60aa5a6bd764f922d6ac90005636e04b1facd8f404fdf5e83ab139eb",
+    "reviewed_answer_sha256": "1d512282d1e9e5c87f6b931dcabf3ea0150729efdc7fc6b2ccd1570af10e16ea",
+    "reviewed_citations_sha256": "bd8a93aee0058f72a9baba5c8d697c75622a83ef3a03e728e9348f411daebcb5",
+    "citation_hash_format": "UTF-8 canonical JSON, ensure_ascii=False, sort_keys=True, compact separators",
+    "reviewed_at_local": "2026-11-16T17:05:55.848838+07:00"
+  },
+  {
+    "query_id": "adv-r2-test-03",
+    "passed": true,
+    "reason": "Đúng centralized unit trong existing institution so với decentralized responsibilities across government và đủ CSOs/universities/research institutions trong cùng strategic-planning row. P292 Table8.2 đúng hàng/cột.",
+    "label_status": "assistant_proposed_pending_learner_confirmation",
+    "reviewer": "dedicated benchmark-author assistant; one assistant source review, not independent human confirmation; no API or model judge",
+    "answer_correct": true,
+    "citation_correct": true,
+    "failure_type": null,
+    "source_check": {
+      "pdf_sha256": "606c8452c8b23c01d81919c3974972bebeb1e60348a56ea40cc3ae841e301616",
+      "benchmark_sha256": "743e640a5570e4dd0acadcbd35b3e7851f482c0047e65ddbf476183b4711fe46",
+      "physical_pages": [
+        292
+      ],
+      "method": "Individually compared all question-required facts and all substantive extra claims to the frozen Test and original rendered source pixels. Checked actual returned page, specific region label, quote and bbox coverage; used PDFium bounded text only as a locator aid. Numerical chart readings use the tolerance ranges frozen before any round2 experiment. Unanswerable cases checked against the documented 350-page absence audit and nearest original source regions. No API or model judge used.",
+      "citation_policy": "Returned full-page bbox can pass with a correct specific region/quote and sufficient source support for all stated claims; model_bbox was not substituted. Exact equality with the gold bbox is unnecessary.",
+      "checked_conditions": "Units, denominator/object measured, temporal/sample conditions, all requested clauses, arithmetic, diagram relationships, axes/legends, table headers/notes and text continuations; no rerun or output repair.",
+      "all_required_answer_conditions_met": true,
+      "citation_checks": [
+        {
+          "citation": 1,
+          "page": 292,
+          "region_label": "Table 8.2, Strategic planning row, Indicative institutions and actors column",
+          "bbox": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "model_bbox": [
+            0.47,
+            0.145,
+            0.906,
+            0.269
+          ],
+          "quote_sha256": "69b496f147714c840490720e1bdef28cc178fb53e1880617bb9322f59da24c73",
+          "original_page_image_sha256": "577c32427710d0329155c30a60d670129756a3e59564a7dfb491b1a71383768d",
+          "source_check": "Specific label/quote checked against original PDF pixels; returned full-page bbox contains the cited object and necessary context. model_bbox is audit metadata, not the delivered citation bbox.",
+          "stated_claims_supported": true
+        },
+        {
+          "citation": 2,
+          "page": 292,
+          "region_label": "Table 8.2, Strategic planning row, Indicative institutions and actors column",
+          "bbox": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "model_bbox": [
+            0.478,
+            0.222,
+            0.654,
+            0.269
+          ],
+          "quote_sha256": "a6cd5b9b0b00d22d6adada2d8bfb0266a44b4633f409701ec22b17f471e40425",
+          "original_page_image_sha256": "577c32427710d0329155c30a60d670129756a3e59564a7dfb491b1a71383768d",
+          "source_check": "Specific label/quote checked against original PDF pixels; returned full-page bbox contains the cited object and necessary context. model_bbox is audit metadata, not the delivered citation bbox.",
+          "stated_claims_supported": true
+        }
+      ]
+    },
+    "reviewed_trace_sha256": "0384ce4b60aa5a6bd764f922d6ac90005636e04b1facd8f404fdf5e83ab139eb",
+    "reviewed_answer_sha256": "9f81dbc56ab8d785f1cb6cf8de1ff0223296231ce7db3eca269519d4e073979f",
+    "reviewed_citations_sha256": "30838377a46334709e078478e547aeb987e4bec906951d3180b3d25ce87af403",
+    "citation_hash_format": "UTF-8 canonical JSON, ensure_ascii=False, sort_keys=True, compact separators",
+    "reviewed_at_local": "2026-11-16T17:05:55.867510+07:00"
+  },
+  {
+    "query_id": "adv-r2-test-04",
+    "passed": true,
+    "reason": "Đúng30%/98%, gap68pp và đủ năm2019/mẫu số population whose NSO has calendar. P84 Table2.2 row/header/note hỗ trợ; không đổi thành tỷ lệ NSO.",
+    "label_status": "assistant_proposed_pending_learner_confirmation",
+    "reviewer": "dedicated benchmark-author assistant; one assistant source review, not independent human confirmation; no API or model judge",
+    "answer_correct": true,
+    "citation_correct": true,
+    "failure_type": null,
+    "source_check": {
+      "pdf_sha256": "606c8452c8b23c01d81919c3974972bebeb1e60348a56ea40cc3ae841e301616",
+      "benchmark_sha256": "743e640a5570e4dd0acadcbd35b3e7851f482c0047e65ddbf476183b4711fe46",
+      "physical_pages": [
+        84
+      ],
+      "method": "Individually compared all question-required facts and all substantive extra claims to the frozen Test and original rendered source pixels. Checked actual returned page, specific region label, quote and bbox coverage; used PDFium bounded text only as a locator aid. Numerical chart readings use the tolerance ranges frozen before any round2 experiment. Unanswerable cases checked against the documented 350-page absence audit and nearest original source regions. No API or model judge used.",
+      "citation_policy": "Returned full-page bbox can pass with a correct specific region/quote and sufficient source support for all stated claims; model_bbox was not substituted. Exact equality with the gold bbox is unnecessary.",
+      "checked_conditions": "Units, denominator/object measured, temporal/sample conditions, all requested clauses, arithmetic, diagram relationships, axes/legends, table headers/notes and text continuations; no rerun or output repair.",
+      "all_required_answer_conditions_met": true,
+      "citation_checks": [
+        {
+          "citation": 1,
+          "page": 84,
+          "region_label": "Table 2.2, advance release calendar row and income-group columns",
+          "bbox": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "model_bbox": [
+            0.206,
+            0.112,
+            0.906,
+            0.262
+          ],
+          "quote_sha256": "bee4803e556eb02276f7ecc4f2b3e286486384338e1facd9ee6b71891fba59ea",
+          "original_page_image_sha256": "d0dd6c49083f5011257e4dc321c42cf5f84737330f10015a50078aabaca83d8e",
+          "source_check": "Specific label/quote checked against original PDF pixels; returned full-page bbox contains the cited object and necessary context. model_bbox is audit metadata, not the delivered citation bbox.",
+          "stated_claims_supported": true
+        },
+        {
+          "citation": 2,
+          "page": 84,
+          "region_label": "Table 2.2, note beneath source",
+          "bbox": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "model_bbox": [
+            0.205,
+            0.243,
+            0.907,
+            0.265
+          ],
+          "quote_sha256": "957e77ee379f4f6d35740f04a86b9a7ae686e865708b4ddb19a563372cf42c13",
+          "original_page_image_sha256": "d0dd6c49083f5011257e4dc321c42cf5f84737330f10015a50078aabaca83d8e",
+          "source_check": "Specific label/quote checked against original PDF pixels; returned full-page bbox contains the cited object and necessary context. model_bbox is audit metadata, not the delivered citation bbox.",
+          "stated_claims_supported": true
+        }
+      ]
+    },
+    "reviewed_trace_sha256": "0384ce4b60aa5a6bd764f922d6ac90005636e04b1facd8f404fdf5e83ab139eb",
+    "reviewed_answer_sha256": "d33667c58b688c755fb2a7cef36dadb08ddfcac5adef555fadf605208c9aaa2a",
+    "reviewed_citations_sha256": "7da9b0a1c58510b93a2a7608715db6c1fe308d40c3390424bf1163a2ca309498",
+    "citation_hash_format": "UTF-8 canonical JSON, ensure_ascii=False, sort_keys=True, compact separators",
+    "reviewed_at_local": "2026-11-16T17:05:55.878391+07:00"
+  },
+  {
+    "query_id": "adv-r2-test-05",
+    "passed": true,
+    "reason": "Đúng nonpersonal data 47 cao nhất trong ba safeguards low-income; personal data 31, gap 16 score points và cả hai evolving (25–50). Table 6.1 p227, header và legend hỗ trợ đủ.",
+    "label_status": "assistant_proposed_pending_learner_confirmation",
+    "reviewer": "dedicated benchmark-author assistant; one assistant source review, not independent human confirmation; no API or model judge",
+    "answer_correct": true,
+    "citation_correct": true,
+    "failure_type": null,
+    "source_check": {
+      "pdf_sha256": "606c8452c8b23c01d81919c3974972bebeb1e60348a56ea40cc3ae841e301616",
+      "benchmark_sha256": "743e640a5570e4dd0acadcbd35b3e7851f482c0047e65ddbf476183b4711fe46",
+      "physical_pages": [
+        227
+      ],
+      "method": "Individually compared all question-required facts and all substantive extra claims to the frozen Test and original rendered source pixels. Checked actual returned page, specific region label, quote and bbox coverage; used PDFium bounded text only as a locator aid. Numerical chart readings use the tolerance ranges frozen before any round2 experiment. Unanswerable cases checked against the documented 350-page absence audit and nearest original source regions. No API or model judge used.",
+      "citation_policy": "Returned full-page bbox can pass with a correct specific region/quote and sufficient source support for all stated claims; model_bbox was not substituted. Exact equality with the gold bbox is unnecessary.",
+      "checked_conditions": "Units, denominator/object measured, temporal/sample conditions, all requested clauses, arithmetic, diagram relationships, axes/legends, table headers/notes and text continuations; no rerun or output repair.",
+      "all_required_answer_conditions_met": true,
+      "citation_checks": [
+        {
+          "citation": 1,
+          "page": 227,
+          "region_label": "Table 6.1 — Safeguards columns and Low-income row",
+          "bbox": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "model_bbox": [
+            0.093,
+            0.126,
+            0.584,
+            0.282
+          ],
+          "quote_sha256": "f2d8eef0153c5887b4421565cdd07b54ca17c9511cda57d739a578048ead45f1",
+          "original_page_image_sha256": "485fd416a7f824511750775d162140a2d3dfcbfe9c60ab1167466ef12483c3a4",
+          "source_check": "Specific label/quote checked against original PDF pixels; returned full-page bbox contains the cited object and necessary context. model_bbox is audit metadata, not the delivered citation bbox.",
+          "stated_claims_supported": true
+        },
+        {
+          "citation": 2,
+          "page": 227,
+          "region_label": "Table 6.1 — regulatory framework color legend",
+          "bbox": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "model_bbox": [
+            0.093,
+            0.325,
+            0.916,
+            0.347
+          ],
+          "quote_sha256": "5571aa094c73b5b17d11ac2ca37235f5c1d70ece005b93bbdfae8071a3c067dd",
+          "original_page_image_sha256": "485fd416a7f824511750775d162140a2d3dfcbfe9c60ab1167466ef12483c3a4",
+          "source_check": "Specific label/quote checked against original PDF pixels; returned full-page bbox contains the cited object and necessary context. model_bbox is audit metadata, not the delivered citation bbox.",
+          "stated_claims_supported": true
+        }
+      ]
+    },
+    "reviewed_trace_sha256": "0384ce4b60aa5a6bd764f922d6ac90005636e04b1facd8f404fdf5e83ab139eb",
+    "reviewed_answer_sha256": "04492ede52845f6da5dbb769c7f2c64b1ec9b80f4de62f1aec338605df101793",
+    "reviewed_citations_sha256": "150d55dd2dda12f0fa4cf23778afdca77c6ca8521987d27939f1510bedb0bc5d",
+    "citation_hash_format": "UTF-8 canonical JSON, ensure_ascii=False, sort_keys=True, compact separators",
+    "reviewed_at_local": "2026-11-16T17:05:55.900196+07:00"
+  },
+  {
+    "query_id": "adv-r2-test-06",
+    "passed": true,
+    "reason": "Đúng machine-readable 37%, nonproprietary 75%, gap 38 pp; giữ mẫu số published data averaged by income group. P83 Table 2.1 row/header/note đúng.",
+    "label_status": "assistant_proposed_pending_learner_confirmation",
+    "reviewer": "dedicated benchmark-author assistant; one assistant source review, not independent human confirmation; no API or model judge",
+    "answer_correct": true,
+    "citation_correct": true,
+    "failure_type": null,
+    "source_check": {
+      "pdf_sha256": "606c8452c8b23c01d81919c3974972bebeb1e60348a56ea40cc3ae841e301616",
+      "benchmark_sha256": "743e640a5570e4dd0acadcbd35b3e7851f482c0047e65ddbf476183b4711fe46",
+      "physical_pages": [
+        83
+      ],
+      "method": "Individually compared all question-required facts and all substantive extra claims to the frozen Test and original rendered source pixels. Checked actual returned page, specific region label, quote and bbox coverage; used PDFium bounded text only as a locator aid. Numerical chart readings use the tolerance ranges frozen before any round2 experiment. Unanswerable cases checked against the documented 350-page absence audit and nearest original source regions. No API or model judge used.",
+      "citation_policy": "Returned full-page bbox can pass with a correct specific region/quote and sufficient source support for all stated claims; model_bbox was not substituted. Exact equality with the gold bbox is unnecessary.",
+      "checked_conditions": "Units, denominator/object measured, temporal/sample conditions, all requested clauses, arithmetic, diagram relationships, axes/legends, table headers/notes and text continuations; no rerun or output repair.",
+      "all_required_answer_conditions_met": true,
+      "citation_checks": [
+        {
+          "citation": 1,
+          "page": 83,
+          "region_label": "Table 2.1, low-income column and machine-readable-format row",
+          "bbox": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "model_bbox": [
+            0.094,
+            0.571,
+            0.796,
+            0.751
+          ],
+          "quote_sha256": "5c38942773df14cb035b1448228550beaf2490abbbaf3c2842d87456355c99e3",
+          "original_page_image_sha256": "e7abf8a49a3c191a95874d74dd9bedab05eaf61fc89c583ec7a721ce210db794",
+          "source_check": "Specific label/quote checked against original PDF pixels; returned full-page bbox contains the cited object and necessary context. model_bbox is audit metadata, not the delivered citation bbox.",
+          "stated_claims_supported": true
+        },
+        {
+          "citation": 2,
+          "page": 83,
+          "region_label": "Table 2.1, low-income column and nonproprietary-format row",
+          "bbox": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "model_bbox": [
+            0.094,
+            0.571,
+            0.796,
+            0.751
+          ],
+          "quote_sha256": "5685d2746e8934f51389d2b0381f11654659fb9431bed2e28a22bcae223d3d4c",
+          "original_page_image_sha256": "e7abf8a49a3c191a95874d74dd9bedab05eaf61fc89c583ec7a721ce210db794",
+          "source_check": "Specific label/quote checked against original PDF pixels; returned full-page bbox contains the cited object and necessary context. model_bbox is audit metadata, not the delivered citation bbox.",
+          "stated_claims_supported": true
+        },
+        {
+          "citation": 3,
+          "page": 83,
+          "region_label": "Table 2.1, note beneath the table",
+          "bbox": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "model_bbox": [
+            0.094,
+            0.731,
+            0.796,
+            0.751
+          ],
+          "quote_sha256": "aaf628d482a0fead04258542a7adb719f9fcb90705300486c29b9c8b62359eed",
+          "original_page_image_sha256": "e7abf8a49a3c191a95874d74dd9bedab05eaf61fc89c583ec7a721ce210db794",
+          "source_check": "Specific label/quote checked against original PDF pixels; returned full-page bbox contains the cited object and necessary context. model_bbox is audit metadata, not the delivered citation bbox.",
+          "stated_claims_supported": true
+        }
+      ]
+    },
+    "reviewed_trace_sha256": "0384ce4b60aa5a6bd764f922d6ac90005636e04b1facd8f404fdf5e83ab139eb",
+    "reviewed_answer_sha256": "d7189ff8a2c6750088111f29b1d984180191665dc8115788a3dae0c845faa357",
+    "reviewed_citations_sha256": "f44b6847ad53b69262911ef32eea08215f0a5a6ac3c5c220aaed32d4fb04321f",
+    "citation_hash_format": "UTF-8 canonical JSON, ensure_ascii=False, sort_keys=True, compact separators",
+    "reviewed_at_local": "2026-11-16T17:05:55.916163+07:00"
+  },
+  {
+    "query_id": "adv-r2-test-07",
+    "passed": true,
+    "reason": "Đủ hai chức năng quốc gia (safeguards/enablers) và hai công cụ quốc tế (cybersecurity conventions/interoperability standards) với đúng vai trò. P59 Figure 1.4 laws-and-regulations row và hai cấp hỗ trợ diễn giải.",
+    "label_status": "assistant_proposed_pending_learner_confirmation",
+    "reviewer": "dedicated benchmark-author assistant; one assistant source review, not independent human confirmation; no API or model judge",
+    "answer_correct": true,
+    "citation_correct": true,
+    "failure_type": null,
+    "source_check": {
+      "pdf_sha256": "606c8452c8b23c01d81919c3974972bebeb1e60348a56ea40cc3ae841e301616",
+      "benchmark_sha256": "743e640a5570e4dd0acadcbd35b3e7851f482c0047e65ddbf476183b4711fe46",
+      "physical_pages": [
+        59
+      ],
+      "method": "Individually compared all question-required facts and all substantive extra claims to the frozen Test and original rendered source pixels. Checked actual returned page, specific region label, quote and bbox coverage; used PDFium bounded text only as a locator aid. Numerical chart readings use the tolerance ranges frozen before any round2 experiment. Unanswerable cases checked against the documented 350-page absence audit and nearest original source regions. No API or model judge used.",
+      "citation_policy": "Returned full-page bbox can pass with a correct specific region/quote and sufficient source support for all stated claims; model_bbox was not substituted. Exact equality with the gold bbox is unnecessary.",
+      "checked_conditions": "Units, denominator/object measured, temporal/sample conditions, all requested clauses, arithmetic, diagram relationships, axes/legends, table headers/notes and text continuations; no rerun or output repair.",
+      "all_required_answer_conditions_met": true,
+      "citation_checks": [
+        {
+          "citation": 1,
+          "page": 59,
+          "region_label": "Figure 1.4 — laws and regulations row, National and International columns",
+          "bbox": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "model_bbox": [
+            0.094,
+            0.232,
+            0.796,
+            0.319
+          ],
+          "quote_sha256": "18ff61e542d4bf308a155360ef4dce9daf3fb34097ea9eac87fc2946a267eaa7",
+          "original_page_image_sha256": "36206eb43848c4c19fe6f47dd23aea718b4720b4fb1cea2a1cfd203e0c190c3a",
+          "source_check": "Specific label/quote checked against original PDF pixels; returned full-page bbox contains the cited object and necessary context. model_bbox is audit metadata, not the delivered citation bbox.",
+          "stated_claims_supported": true
+        }
+      ]
+    },
+    "reviewed_trace_sha256": "0384ce4b60aa5a6bd764f922d6ac90005636e04b1facd8f404fdf5e83ab139eb",
+    "reviewed_answer_sha256": "4ce2295205c0c2455fb5e8fec07ab1e9d51d5fd363b82f28e4377ea480feaf61",
+    "reviewed_citations_sha256": "35342dec4128c5176e232fd0de9293afc796396c57801afed9e0a119c69e8cf2",
+    "citation_hash_format": "UTF-8 canonical JSON, ensure_ascii=False, sort_keys=True, compact separators",
+    "reviewed_at_local": "2026-11-16T17:05:55.925948+07:00"
+  },
+  {
+    "query_id": "adv-r2-test-08",
+    "passed": true,
+    "reason": "Đúng đường nối by-product → big data cleaning/storage → inputs; đúng volunteered/open-public feed và ba năng lực hỗ trợ connectivity/storage/processing. P116 Figure 3.2 chứa đủ node, mũi tên và support bar.",
+    "label_status": "assistant_proposed_pending_learner_confirmation",
+    "reviewer": "dedicated benchmark-author assistant; one assistant source review, not independent human confirmation; no API or model judge",
+    "answer_correct": true,
+    "citation_correct": true,
+    "failure_type": null,
+    "source_check": {
+      "pdf_sha256": "606c8452c8b23c01d81919c3974972bebeb1e60348a56ea40cc3ae841e301616",
+      "benchmark_sha256": "743e640a5570e4dd0acadcbd35b3e7851f482c0047e65ddbf476183b4711fe46",
+      "physical_pages": [
+        116
+      ],
+      "method": "Individually compared all question-required facts and all substantive extra claims to the frozen Test and original rendered source pixels. Checked actual returned page, specific region label, quote and bbox coverage; used PDFium bounded text only as a locator aid. Numerical chart readings use the tolerance ranges frozen before any round2 experiment. Unanswerable cases checked against the documented 350-page absence audit and nearest original source regions. No API or model judge used.",
+      "citation_policy": "Returned full-page bbox can pass with a correct specific region/quote and sufficient source support for all stated claims; model_bbox was not substituted. Exact equality with the gold bbox is unnecessary.",
+      "checked_conditions": "Units, denominator/object measured, temporal/sample conditions, all requested clauses, arithmetic, diagram relationships, axes/legends, table headers/notes and text continuations; no rerun or output repair.",
+      "all_required_answer_conditions_met": true,
+      "citation_checks": [
+        {
+          "citation": 1,
+          "page": 116,
+          "region_label": "Figure 3.2, data by-product and data-input nodes and connecting operation",
+          "bbox": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "model_bbox": [
+            0.249,
+            0.339,
+            0.771,
+            0.488
+          ],
+          "quote_sha256": "6fbfd3209e27124f5b8922dd487810fe3a2b4e8afdb99e826ac683c707c0e6c8",
+          "original_page_image_sha256": "7c0d82b3421057ab4f256822a719c7f57e9b5e5be1987635f56fe8191acad254",
+          "source_check": "Specific label/quote checked against original PDF pixels; returned full-page bbox contains the cited object and necessary context. model_bbox is audit metadata, not the delivered citation bbox.",
+          "stated_claims_supported": true
+        },
+        {
+          "citation": 2,
+          "page": 116,
+          "region_label": "Figure 3.2, additional data sources feeding data inputs",
+          "bbox": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "model_bbox": [
+            0.232,
+            0.478,
+            0.406,
+            0.518
+          ],
+          "quote_sha256": "7a2d7336271b1df9aa7411f0b2b76561b343b00adbf5c935b8ba0e31776d8924",
+          "original_page_image_sha256": "7c0d82b3421057ab4f256822a719c7f57e9b5e5be1987635f56fe8191acad254",
+          "source_check": "Specific label/quote checked against original PDF pixels; returned full-page bbox contains the cited object and necessary context. model_bbox is audit metadata, not the delivered citation bbox.",
+          "stated_claims_supported": true
+        },
+        {
+          "citation": 3,
+          "page": 116,
+          "region_label": "Figure 3.2, infrastructure support statement",
+          "bbox": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "model_bbox": [
+            0.118,
+            0.552,
+            0.903,
+            0.583
+          ],
+          "quote_sha256": "984c048a68dd6822f1fe001ac49eb4b4cbe53c14804ebd1684dc7eda45e7654a",
+          "original_page_image_sha256": "7c0d82b3421057ab4f256822a719c7f57e9b5e5be1987635f56fe8191acad254",
+          "source_check": "Specific label/quote checked against original PDF pixels; returned full-page bbox contains the cited object and necessary context. model_bbox is audit metadata, not the delivered citation bbox.",
+          "stated_claims_supported": true
+        }
+      ]
+    },
+    "reviewed_trace_sha256": "0384ce4b60aa5a6bd764f922d6ac90005636e04b1facd8f404fdf5e83ab139eb",
+    "reviewed_answer_sha256": "df65d7cd15a9987c4f95d4f951f44bb459ea22575878c65c1357e74baa45da5a",
+    "reviewed_citations_sha256": "9d0e6f866b272b6499db47a5d1b8e8a447b2d6d1ba85ee693de18e7188244325",
+    "citation_hash_format": "UTF-8 canonical JSON, ensure_ascii=False, sort_keys=True, compact separators",
+    "reviewed_at_local": "2026-11-16T17:05:55.941742+07:00"
+  },
+  {
+    "query_id": "adv-r2-test-09",
+    "passed": true,
+    "reason": "Đúng ba tên chiều và sáu endpoint: data personal/nonpersonal, actors public/private, transactions domestic/cross-border. Giải thích cùng tham gia không gian pháp lý ba chiều đúng Figure 6.1 và đoạn bên cạnh p211. Câu hỏi yêu cầu tên và endpoint, không bắt buộc lặp lại tên màu.",
+    "label_status": "assistant_proposed_pending_learner_confirmation",
+    "reviewer": "dedicated benchmark-author assistant; one assistant source review, not independent human confirmation; no API or model judge",
+    "answer_correct": true,
+    "citation_correct": true,
+    "failure_type": null,
+    "source_check": {
+      "pdf_sha256": "606c8452c8b23c01d81919c3974972bebeb1e60348a56ea40cc3ae841e301616",
+      "benchmark_sha256": "743e640a5570e4dd0acadcbd35b3e7851f482c0047e65ddbf476183b4711fe46",
+      "physical_pages": [
+        211
+      ],
+      "method": "Individually compared all question-required facts and all substantive extra claims to the frozen Test and original rendered source pixels. Checked actual returned page, specific region label, quote and bbox coverage; used PDFium bounded text only as a locator aid. Numerical chart readings use the tolerance ranges frozen before any round2 experiment. Unanswerable cases checked against the documented 350-page absence audit and nearest original source regions. No API or model judge used.",
+      "citation_policy": "Returned full-page bbox can pass with a correct specific region/quote and sufficient source support for all stated claims; model_bbox was not substituted. Exact equality with the gold bbox is unnecessary.",
+      "checked_conditions": "Units, denominator/object measured, temporal/sample conditions, all requested clauses, arithmetic, diagram relationships, axes/legends, table headers/notes and text continuations; no rerun or output repair.",
+      "all_required_answer_conditions_met": true,
+      "citation_checks": [
+        {
+          "citation": 1,
+          "page": 211,
+          "region_label": "Figure 6.1 diagram, endpoint labels and legend",
+          "bbox": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "model_bbox": [
+            0.455,
+            0.128,
+            0.89,
+            0.49
+          ],
+          "quote_sha256": "911d8667f30f3040b0331e132fd8e75527b9132c0cd0181869f45aaccf351754",
+          "original_page_image_sha256": "3ddf1abfb6074f1ef8f2467db3438a0f594bc843f0deeeadc5ba507f9134460f",
+          "source_check": "Specific label/quote checked against original PDF pixels; returned full-page bbox contains the cited object and necessary context. model_bbox is audit metadata, not the delivered citation bbox.",
+          "stated_claims_supported": true
+        },
+        {
+          "citation": 2,
+          "page": 211,
+          "region_label": "Paragraph immediately left of Figure 6.1",
+          "bbox": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "model_bbox": [
+            0.09,
+            0.195,
+            0.45,
+            0.51
+          ],
+          "quote_sha256": "8f8514bea343019d83d4b5d1d32c46ba0aefdf37afe03e4461ee5e1d68c49b68",
+          "original_page_image_sha256": "3ddf1abfb6074f1ef8f2467db3438a0f594bc843f0deeeadc5ba507f9134460f",
+          "source_check": "Specific label/quote checked against original PDF pixels; returned full-page bbox contains the cited object and necessary context. model_bbox is audit metadata, not the delivered citation bbox.",
+          "stated_claims_supported": true
+        }
+      ]
+    },
+    "reviewed_trace_sha256": "0384ce4b60aa5a6bd764f922d6ac90005636e04b1facd8f404fdf5e83ab139eb",
+    "reviewed_answer_sha256": "2fc2a72b5e20bc55816918281ca2b0c4fdfed1f0622ee30fb83582d30b79126b",
+    "reviewed_citations_sha256": "5697a18748ff6129059f4ef753e8fbf51c8217b6dee8e3435b906a5be6676313",
+    "citation_hash_format": "UTF-8 canonical JSON, ensure_ascii=False, sort_keys=True, compact separators",
+    "reviewed_at_local": "2026-11-16T17:05:55.955780+07:00"
+  },
+  {
+    "query_id": "adv-r2-test-10",
+    "passed": true,
+    "reason": "Đúng Learning/evidence cùng monitor/evaluate và anticipate/manage risks; đủ ba chức năng rule-making là legislate/regulate, standards và clarification/guidance. P290 Figure 8.2 hai sector hỗ trợ.",
+    "label_status": "assistant_proposed_pending_learner_confirmation",
+    "reviewer": "dedicated benchmark-author assistant; one assistant source review, not independent human confirmation; no API or model judge",
+    "answer_correct": true,
+    "citation_correct": true,
+    "failure_type": null,
+    "source_check": {
+      "pdf_sha256": "606c8452c8b23c01d81919c3974972bebeb1e60348a56ea40cc3ae841e301616",
+      "benchmark_sha256": "743e640a5570e4dd0acadcbd35b3e7851f482c0047e65ddbf476183b4711fe46",
+      "physical_pages": [
+        290
+      ],
+      "method": "Individually compared all question-required facts and all substantive extra claims to the frozen Test and original rendered source pixels. Checked actual returned page, specific region label, quote and bbox coverage; used PDFium bounded text only as a locator aid. Numerical chart readings use the tolerance ranges frozen before any round2 experiment. Unanswerable cases checked against the documented 350-page absence audit and nearest original source regions. No API or model judge used.",
+      "citation_policy": "Returned full-page bbox can pass with a correct specific region/quote and sufficient source support for all stated claims; model_bbox was not substituted. Exact equality with the gold bbox is unnecessary.",
+      "checked_conditions": "Units, denominator/object measured, temporal/sample conditions, all requested clauses, arithmetic, diagram relationships, axes/legends, table headers/notes and text continuations; no rerun or output repair.",
+      "all_required_answer_conditions_met": true,
+      "citation_checks": [
+        {
+          "citation": 1,
+          "page": 290,
+          "region_label": "Figure 8.2, left sector labeled “Learning and evidence”",
+          "bbox": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "model_bbox": [
+            0.117,
+            0.238,
+            0.273,
+            0.331
+          ],
+          "quote_sha256": "f6321fb9f2204e6dee5900db5999a9cece0abc4612d7cb5f9194f150bfcb1734",
+          "original_page_image_sha256": "e4fa0c6d2b96b339228222aef0804f69fe4f9cbe6309a1cc0bdc71d18e2fcec6",
+          "source_check": "Specific label/quote checked against original PDF pixels; returned full-page bbox contains the cited object and necessary context. model_bbox is audit metadata, not the delivered citation bbox.",
+          "stated_claims_supported": true
+        },
+        {
+          "citation": 2,
+          "page": 290,
+          "region_label": "Figure 8.2, right sector labeled “Rule making and implementation”",
+          "bbox": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "model_bbox": [
+            0.379,
+            0.238,
+            0.511,
+            0.328
+          ],
+          "quote_sha256": "90aa549fd7ca263aa62fca42c00dbb4371118e1b55728ed02f1e99d6a24475c8",
+          "original_page_image_sha256": "e4fa0c6d2b96b339228222aef0804f69fe4f9cbe6309a1cc0bdc71d18e2fcec6",
+          "source_check": "Specific label/quote checked against original PDF pixels; returned full-page bbox contains the cited object and necessary context. model_bbox is audit metadata, not the delivered citation bbox.",
+          "stated_claims_supported": true
+        }
+      ]
+    },
+    "reviewed_trace_sha256": "0384ce4b60aa5a6bd764f922d6ac90005636e04b1facd8f404fdf5e83ab139eb",
+    "reviewed_answer_sha256": "328efa0743fbba17543055705c71b67fa9a324f65f40086083caabccfac36aae",
+    "reviewed_citations_sha256": "dfd343c9dac5680f9d58f227f13e90b8c1cd942c88953682805a25a7afe5bde5",
+    "citation_hash_format": "UTF-8 canonical JSON, ensure_ascii=False, sort_keys=True, compact separators",
+    "reviewed_at_local": "2026-11-16T17:05:55.967548+07:00"
+  },
+  {
+    "query_id": "adv-r2-test-11",
+    "passed": true,
+    "reason": "Đúng stage và nhãn từng action: fundamentals dataset awareness qua quan hệ academia/government; initiating sharing agreements, commissioned production, repurposing; human capital quantitative programs/workshops/secondments. P335 Figure 9.5 đủ các panel.",
+    "label_status": "assistant_proposed_pending_learner_confirmation",
+    "reviewer": "dedicated benchmark-author assistant; one assistant source review, not independent human confirmation; no API or model judge",
+    "answer_correct": true,
+    "citation_correct": true,
+    "failure_type": null,
+    "source_check": {
+      "pdf_sha256": "606c8452c8b23c01d81919c3974972bebeb1e60348a56ea40cc3ae841e301616",
+      "benchmark_sha256": "743e640a5570e4dd0acadcbd35b3e7851f482c0047e65ddbf476183b4711fe46",
+      "physical_pages": [
+        335
+      ],
+      "method": "Individually compared all question-required facts and all substantive extra claims to the frozen Test and original rendered source pixels. Checked actual returned page, specific region label, quote and bbox coverage; used PDFium bounded text only as a locator aid. Numerical chart readings use the tolerance ranges frozen before any round2 experiment. Unanswerable cases checked against the documented 350-page absence audit and nearest original source regions. No API or model judge used.",
+      "citation_policy": "Returned full-page bbox can pass with a correct specific region/quote and sufficient source support for all stated claims; model_bbox was not substituted. Exact equality with the gold bbox is unnecessary.",
+      "checked_conditions": "Units, denominator/object measured, temporal/sample conditions, all requested clauses, arithmetic, diagram relationships, axes/legends, table headers/notes and text continuations; no rerun or output repair.",
+      "all_required_answer_conditions_met": true,
+      "citation_checks": [
+        {
+          "citation": 1,
+          "page": 335,
+          "region_label": "Figure 9.5, Establishing fundamentals panel — Data demand",
+          "bbox": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "model_bbox": [
+            0.094,
+            0.636,
+            0.796,
+            0.906
+          ],
+          "quote_sha256": "58aca5910fe0791d53fd63bc34d0726b9c2518655beb7fe2898dc5b35cc6bb91",
+          "original_page_image_sha256": "704e4fb59f2c22662ecf40c0430ab5f293a942bc104e104e17d706bd2b88d29a",
+          "source_check": "Specific label/quote checked against original PDF pixels; returned full-page bbox contains the cited object and necessary context. model_bbox is audit metadata, not the delivered citation bbox.",
+          "stated_claims_supported": true
+        },
+        {
+          "citation": 2,
+          "page": 335,
+          "region_label": "Figure 9.5, Initiating data flows panel — Data demand and Human capital",
+          "bbox": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "model_bbox": [
+            0.33,
+            0.663,
+            0.796,
+            0.906
+          ],
+          "quote_sha256": "12a5f1240c1a643a19c5d378f540281af8266d5cca9f05ef830a446536fe775c",
+          "original_page_image_sha256": "704e4fb59f2c22662ecf40c0430ab5f293a942bc104e104e17d706bd2b88d29a",
+          "source_check": "Specific label/quote checked against original PDF pixels; returned full-page bbox contains the cited object and necessary context. model_bbox is audit metadata, not the delivered citation bbox.",
+          "stated_claims_supported": true
+        }
+      ]
+    },
+    "reviewed_trace_sha256": "0384ce4b60aa5a6bd764f922d6ac90005636e04b1facd8f404fdf5e83ab139eb",
+    "reviewed_answer_sha256": "a0d1e8ee71c4bb90068167123fa0a1e6bb7da41b6f338df061288953f1f19113",
+    "reviewed_citations_sha256": "61dbfc642e610d77a58491e0d1d29781181dfd13a37e6f297145a9f38e074cd7",
+    "citation_hash_format": "UTF-8 canonical JSON, ensure_ascii=False, sort_keys=True, compact separators",
+    "reviewed_at_local": "2026-11-16T17:05:55.973301+07:00"
+  },
+  {
+    "query_id": "adv-r2-test-12",
+    "passed": false,
+    "reason": "Fail: trace status=error, invalid syntax (<unknown>, line 1), answer/citations null. Không có đầu ra hợp lệ để chấm phép tính. Giữ nguyên trong mẫu số 30, không thay bằng phép tính ngoài hoặc chạy lại.",
+    "label_status": "assistant_proposed_pending_learner_confirmation",
+    "reviewer": "dedicated benchmark-author assistant; one assistant source review, not independent human confirmation; no API or model judge",
+    "answer_correct": false,
+    "citation_correct": false,
+    "failure_type": "system_error_syntax",
+    "source_check": {
+      "pdf_sha256": "606c8452c8b23c01d81919c3974972bebeb1e60348a56ea40cc3ae841e301616",
+      "benchmark_sha256": "743e640a5570e4dd0acadcbd35b3e7851f482c0047e65ddbf476183b4711fe46",
+      "physical_pages": [
+        76
+      ],
+      "method": "Individually compared all question-required facts and all substantive extra claims to the frozen Test and original rendered source pixels. Checked actual returned page, specific region label, quote and bbox coverage; used PDFium bounded text only as a locator aid. Numerical chart readings use the tolerance ranges frozen before any round2 experiment. Unanswerable cases checked against the documented 350-page absence audit and nearest original source regions. No API or model judge used.",
+      "citation_policy": "Returned full-page bbox can pass with a correct specific region/quote and sufficient source support for all stated claims; model_bbox was not substituted. Exact equality with the gold bbox is unnecessary.",
+      "checked_conditions": "Units, denominator/object measured, temporal/sample conditions, all requested clauses, arithmetic, diagram relationships, axes/legends, table headers/notes and text continuations; no rerun or output repair.",
+      "all_required_answer_conditions_met": false,
+      "citation_checks": []
+    },
+    "reviewed_trace_sha256": "0384ce4b60aa5a6bd764f922d6ac90005636e04b1facd8f404fdf5e83ab139eb",
+    "reviewed_answer_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "reviewed_citations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "citation_hash_format": "UTF-8 canonical JSON, ensure_ascii=False, sort_keys=True, compact separators",
+    "reviewed_at_local": "2026-11-16T17:05:55.973301+07:00"
+  },
+  {
+    "query_id": "adv-r2-test-13",
+    "passed": true,
+    "reason": "Đúng bốn cột theo legend: high-income wireless≈130/fixed≈35, low-income wireless≈20/fixed≈0. Số fixed≈0 nằm trong khoảng đọc chart đã freeze 0–2. Đúng chỉ high-income wireless>100, đơn vị subscriptions per 100 persons và năm 2019. P180 Figure 5.2 có đủ trục/legend/note.",
+    "label_status": "assistant_proposed_pending_learner_confirmation",
+    "reviewer": "dedicated benchmark-author assistant; one assistant source review, not independent human confirmation; no API or model judge",
+    "answer_correct": true,
+    "citation_correct": true,
+    "failure_type": null,
+    "source_check": {
+      "pdf_sha256": "606c8452c8b23c01d81919c3974972bebeb1e60348a56ea40cc3ae841e301616",
+      "benchmark_sha256": "743e640a5570e4dd0acadcbd35b3e7851f482c0047e65ddbf476183b4711fe46",
+      "physical_pages": [
+        180
+      ],
+      "method": "Individually compared all question-required facts and all substantive extra claims to the frozen Test and original rendered source pixels. Checked actual returned page, specific region label, quote and bbox coverage; used PDFium bounded text only as a locator aid. Numerical chart readings use the tolerance ranges frozen before any round2 experiment. Unanswerable cases checked against the documented 350-page absence audit and nearest original source regions. No API or model judge used.",
+      "citation_policy": "Returned full-page bbox can pass with a correct specific region/quote and sufficient source support for all stated claims; model_bbox was not substituted. Exact equality with the gold bbox is unnecessary.",
+      "checked_conditions": "Units, denominator/object measured, temporal/sample conditions, all requested clauses, arithmetic, diagram relationships, axes/legends, table headers/notes and text continuations; no rerun or output repair.",
+      "all_required_answer_conditions_met": true,
+      "citation_checks": [
+        {
+          "citation": 1,
+          "page": 180,
+          "region_label": "Figure 5.2 chart: vertical axis, income-group bars, legend, and note",
+          "bbox": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "model_bbox": [
+            0.566,
+            0.085,
+            0.918,
+            0.469
+          ],
+          "quote_sha256": "34a60fcc1e91f14dacdc71e3eb6419364f181a28cc70db5c33c9850675ce660d",
+          "original_page_image_sha256": "0c09b3c28463933e0aac051204a86220571d071945e582370aa8676c5cc91d31",
+          "source_check": "Specific label/quote checked against original PDF pixels; returned full-page bbox contains the cited object and necessary context. model_bbox is audit metadata, not the delivered citation bbox.",
+          "stated_claims_supported": true
+        }
+      ]
+    },
+    "reviewed_trace_sha256": "0384ce4b60aa5a6bd764f922d6ac90005636e04b1facd8f404fdf5e83ab139eb",
+    "reviewed_answer_sha256": "33d0dcbdc18450022ddaca3e77b721341123acc30357f6678d86f59b632e9ff7",
+    "reviewed_citations_sha256": "568be15e1ca872b6b53083c52a1992c381924dd5f6e1cc8db2efc0037aecbf9d",
+    "citation_hash_format": "UTF-8 canonical JSON, ensure_ascii=False, sort_keys=True, compact separators",
+    "reviewed_at_local": "2026-11-16T17:05:55.988993+07:00"
+  },
+  {
+    "query_id": "adv-r2-test-14",
+    "passed": true,
+    "reason": "Đúng high-income là nhóm duy nhất net inflow và upper-middle-income outflow lớn nhất. Earnings≈US$850 so với≈US$270 đều trong khoảng chart/gold và giữ nominal monthly ICT earnings; 'roughly three times' phù hợp 850/270≈3,15. P195 Figure B5.1.2 cả hai panel hỗ trợ, không gán quan hệ nhân quả mới.",
+    "label_status": "assistant_proposed_pending_learner_confirmation",
+    "reviewer": "dedicated benchmark-author assistant; one assistant source review, not independent human confirmation; no API or model judge",
+    "answer_correct": true,
+    "citation_correct": true,
+    "failure_type": null,
+    "source_check": {
+      "pdf_sha256": "606c8452c8b23c01d81919c3974972bebeb1e60348a56ea40cc3ae841e301616",
+      "benchmark_sha256": "743e640a5570e4dd0acadcbd35b3e7851f482c0047e65ddbf476183b4711fe46",
+      "physical_pages": [
+        195
+      ],
+      "method": "Individually compared all question-required facts and all substantive extra claims to the frozen Test and original rendered source pixels. Checked actual returned page, specific region label, quote and bbox coverage; used PDFium bounded text only as a locator aid. Numerical chart readings use the tolerance ranges frozen before any round2 experiment. Unanswerable cases checked against the documented 350-page absence audit and nearest original source regions. No API or model judge used.",
+      "citation_policy": "Returned full-page bbox can pass with a correct specific region/quote and sufficient source support for all stated claims; model_bbox was not substituted. Exact equality with the gold bbox is unnecessary.",
+      "checked_conditions": "Units, denominator/object measured, temporal/sample conditions, all requested clauses, arithmetic, diagram relationships, axes/legends, table headers/notes and text continuations; no rerun or output repair.",
+      "all_required_answer_conditions_met": true,
+      "citation_checks": [
+        {
+          "citation": 1,
+          "page": 195,
+          "region_label": "Figure B5.1.2, panel a: bars and income-group labels",
+          "bbox": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "model_bbox": [
+            0.115,
+            0.183,
+            0.415,
+            0.472
+          ],
+          "quote_sha256": "3f423be1cc66c7be12f0b44bfa1fe613bb7656e08ec4a11dcb27b38f0c1bd6ca",
+          "original_page_image_sha256": "11e62fb6c3082c8d96459ba44466dcc1f82b70a4a19c7f1330cb7a27b86915a5",
+          "source_check": "Specific label/quote checked against original PDF pixels; returned full-page bbox contains the cited object and necessary context. model_bbox is audit metadata, not the delivered citation bbox.",
+          "stated_claims_supported": true
+        },
+        {
+          "citation": 2,
+          "page": 195,
+          "region_label": "Figure B5.1.2, panel b: earnings bars and income-group labels",
+          "bbox": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "model_bbox": [
+            0.47,
+            0.183,
+            0.778,
+            0.472
+          ],
+          "quote_sha256": "84d39e7acfbaf6af997b736075fdae659a0293fe4c13ca943a35d5d3b36da0b9",
+          "original_page_image_sha256": "11e62fb6c3082c8d96459ba44466dcc1f82b70a4a19c7f1330cb7a27b86915a5",
+          "source_check": "Specific label/quote checked against original PDF pixels; returned full-page bbox contains the cited object and necessary context. model_bbox is audit metadata, not the delivered citation bbox.",
+          "stated_claims_supported": true
+        }
+      ]
+    },
+    "reviewed_trace_sha256": "0384ce4b60aa5a6bd764f922d6ac90005636e04b1facd8f404fdf5e83ab139eb",
+    "reviewed_answer_sha256": "3d9c3c02bfcdf6e3d124eca4a4c3fe29d41528fc9e54843a5eb9db6c1b14d514",
+    "reviewed_citations_sha256": "78db004c338eb718e7689e6ee9ccc3ac5b13028d49c24fa4c01e2d04e975f3a8",
+    "citation_hash_format": "UTF-8 canonical JSON, ensure_ascii=False, sort_keys=True, compact separators",
+    "reviewed_at_local": "2026-11-16T17:05:56.001008+07:00"
+  },
+  {
+    "query_id": "adv-r2-test-15",
+    "passed": true,
+    "reason": "Đúng passenger transport 8%/35%, gap 27 pp; nhóm cao đứng đầu retail e-commerce21%, nhóm middle đứng đầu passenger35%. Đúng digital-platform antitrust cases có thông tin công khai tới January2020, n=62/40. P250 Figure7.2 cả panel/notes hỗ trợ đủ.",
+    "label_status": "assistant_proposed_pending_learner_confirmation",
+    "reviewer": "dedicated benchmark-author assistant; one assistant source review, not independent human confirmation; no API or model judge",
+    "answer_correct": true,
+    "citation_correct": true,
+    "failure_type": null,
+    "source_check": {
+      "pdf_sha256": "606c8452c8b23c01d81919c3974972bebeb1e60348a56ea40cc3ae841e301616",
+      "benchmark_sha256": "743e640a5570e4dd0acadcbd35b3e7851f482c0047e65ddbf476183b4711fe46",
+      "physical_pages": [
+        250
+      ],
+      "method": "Individually compared all question-required facts and all substantive extra claims to the frozen Test and original rendered source pixels. Checked actual returned page, specific region label, quote and bbox coverage; used PDFium bounded text only as a locator aid. Numerical chart readings use the tolerance ranges frozen before any round2 experiment. Unanswerable cases checked against the documented 350-page absence audit and nearest original source regions. No API or model judge used.",
+      "citation_policy": "Returned full-page bbox can pass with a correct specific region/quote and sufficient source support for all stated claims; model_bbox was not substituted. Exact equality with the gold bbox is unnecessary.",
+      "checked_conditions": "Units, denominator/object measured, temporal/sample conditions, all requested clauses, arithmetic, diagram relationships, axes/legends, table headers/notes and text continuations; no rerun or output repair.",
+      "all_required_answer_conditions_met": true,
+      "citation_checks": [
+        {
+          "citation": 1,
+          "page": 250,
+          "region_label": "Figure 7.2, high-income panel",
+          "bbox": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "model_bbox": [
+            0.084,
+            0.647,
+            0.491,
+            0.875
+          ],
+          "quote_sha256": "f7f7b1849da22f8de7b7e5e24406a94797a94c7bfecbd6c8cbbbad28c6ea2484",
+          "original_page_image_sha256": "905c65ea0f284f9c5f3240b670e2e652fd6299e2c5664cb1ebc0b1c6ac948e81",
+          "source_check": "Specific label/quote checked against original PDF pixels; returned full-page bbox contains the cited object and necessary context. model_bbox is audit metadata, not the delivered citation bbox.",
+          "stated_claims_supported": true
+        },
+        {
+          "citation": 2,
+          "page": 250,
+          "region_label": "Figure 7.2, middle-income panel",
+          "bbox": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "model_bbox": [
+            0.5,
+            0.647,
+            0.906,
+            0.875
+          ],
+          "quote_sha256": "6f17a09baf3f590a40a1297b32082a591113ecb96fd384cf336a7579df3789cf",
+          "original_page_image_sha256": "905c65ea0f284f9c5f3240b670e2e652fd6299e2c5664cb1ebc0b1c6ac948e81",
+          "source_check": "Specific label/quote checked against original PDF pixels; returned full-page bbox contains the cited object and necessary context. model_bbox is audit metadata, not the delivered citation bbox.",
+          "stated_claims_supported": true
+        },
+        {
+          "citation": 3,
+          "page": 250,
+          "region_label": "Figure 7.2, note below panels",
+          "bbox": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "model_bbox": [
+            0.084,
+            0.898,
+            0.906,
+            0.938
+          ],
+          "quote_sha256": "7b339b050c0332732944ef064dd9982e9131743952f1974c75b448959422997d",
+          "original_page_image_sha256": "905c65ea0f284f9c5f3240b670e2e652fd6299e2c5664cb1ebc0b1c6ac948e81",
+          "source_check": "Specific label/quote checked against original PDF pixels; returned full-page bbox contains the cited object and necessary context. model_bbox is audit metadata, not the delivered citation bbox.",
+          "stated_claims_supported": true
+        }
+      ]
+    },
+    "reviewed_trace_sha256": "0384ce4b60aa5a6bd764f922d6ac90005636e04b1facd8f404fdf5e83ab139eb",
+    "reviewed_answer_sha256": "9c930b42522845329674ad83eed92965106c05178068547cc61c7362bb515edc",
+    "reviewed_citations_sha256": "2f92593f3e118b7d44b4a8495d40fc27b9e3900be3860174d0ec1f2470c646ae",
+    "citation_hash_format": "UTF-8 canonical JSON, ensure_ascii=False, sort_keys=True, compact separators",
+    "reviewed_at_local": "2026-11-16T17:05:56.009445+07:00"
+  },
+  {
+    "query_id": "adv-r2-test-16",
+    "passed": true,
+    "reason": "Đúng 2025 tổng≈US$13,6bn, Indonesia lớn nhất≈7bn, Vietnam nhì≈2,3bn, trong tolerance đã freeze. Đúng chỉ indirect tax potential B2C e-commerce chứ không phải thuế đã thu. P268 Figure7.6 có trục US$billions, legend màu, stack và note đầy đủ.",
+    "label_status": "assistant_proposed_pending_learner_confirmation",
+    "reviewer": "dedicated benchmark-author assistant; one assistant source review, not independent human confirmation; no API or model judge",
+    "answer_correct": true,
+    "citation_correct": true,
+    "failure_type": null,
+    "source_check": {
+      "pdf_sha256": "606c8452c8b23c01d81919c3974972bebeb1e60348a56ea40cc3ae841e301616",
+      "benchmark_sha256": "743e640a5570e4dd0acadcbd35b3e7851f482c0047e65ddbf476183b4711fe46",
+      "physical_pages": [
+        268
+      ],
+      "method": "Individually compared all question-required facts and all substantive extra claims to the frozen Test and original rendered source pixels. Checked actual returned page, specific region label, quote and bbox coverage; used PDFium bounded text only as a locator aid. Numerical chart readings use the tolerance ranges frozen before any round2 experiment. Unanswerable cases checked against the documented 350-page absence audit and nearest original source regions. No API or model judge used.",
+      "citation_policy": "Returned full-page bbox can pass with a correct specific region/quote and sufficient source support for all stated claims; model_bbox was not substituted. Exact equality with the gold bbox is unnecessary.",
+      "checked_conditions": "Units, denominator/object measured, temporal/sample conditions, all requested clauses, arithmetic, diagram relationships, axes/legends, table headers/notes and text continuations; no rerun or output repair.",
+      "all_required_answer_conditions_met": true,
+      "citation_checks": [
+        {
+          "citation": 1,
+          "page": 268,
+          "region_label": "Figure 7.6—2025 bar, vertical axis and country legend",
+          "bbox": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "model_bbox": [
+            0.205,
+            0.132,
+            0.911,
+            0.354
+          ],
+          "quote_sha256": "baf1a432f5d81d8065091ccb1f8e3d66591ba9deebe8a2dfd2a8bae8da44fa6b",
+          "original_page_image_sha256": "f55c72cb71859371a2511f42e381ab48f3d4c1d7416db43f2d00528b5b6e99af",
+          "source_check": "Specific label/quote checked against original PDF pixels; returned full-page bbox contains the cited object and necessary context. model_bbox is audit metadata, not the delivered citation bbox.",
+          "stated_claims_supported": true
+        },
+        {
+          "citation": 2,
+          "page": 268,
+          "region_label": "Figure 7.6—note beneath chart",
+          "bbox": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "model_bbox": [
+            0.205,
+            0.381,
+            0.71,
+            0.398
+          ],
+          "quote_sha256": "c6b9345c8a561fc33fdf50cfef4e5aa35907f33a54b3317be1585db584c1576a",
+          "original_page_image_sha256": "f55c72cb71859371a2511f42e381ab48f3d4c1d7416db43f2d00528b5b6e99af",
+          "source_check": "Specific label/quote checked against original PDF pixels; returned full-page bbox contains the cited object and necessary context. model_bbox is audit metadata, not the delivered citation bbox.",
+          "stated_claims_supported": true
+        }
+      ]
+    },
+    "reviewed_trace_sha256": "0384ce4b60aa5a6bd764f922d6ac90005636e04b1facd8f404fdf5e83ab139eb",
+    "reviewed_answer_sha256": "75a6ced5ea5e615af3d599dfa1e57d72ae6803c0bfb0e3c09ecc9fc4eab3e562",
+    "reviewed_citations_sha256": "edd1bdcb26e3516d15b16909be6768a59e5b0ac460dde7ea989f04a186d6894a",
+    "citation_hash_format": "UTF-8 canonical JSON, ensure_ascii=False, sort_keys=True, compact separators",
+    "reviewed_at_local": "2026-11-16T17:05:56.023030+07:00"
+  },
+  {
+    "query_id": "adv-r2-test-17",
+    "passed": true,
+    "reason": "Đúng wireless stage0 US$5,60 và stage3 US$0,80 per GB/month, chênh4,80; đúng private on-ramp qua domestic IXP ở colocation center tới overseas cloud, tránh public infrastructure nên tăng security/reliability. P191 Figure5.11 và p193 paragraph đủ hai hop.",
+    "label_status": "assistant_proposed_pending_learner_confirmation",
+    "reviewer": "dedicated benchmark-author assistant; one assistant source review, not independent human confirmation; no API or model judge",
+    "answer_correct": true,
+    "citation_correct": true,
+    "failure_type": null,
+    "source_check": {
+      "pdf_sha256": "606c8452c8b23c01d81919c3974972bebeb1e60348a56ea40cc3ae841e301616",
+      "benchmark_sha256": "743e640a5570e4dd0acadcbd35b3e7851f482c0047e65ddbf476183b4711fe46",
+      "physical_pages": [
+        191,
+        193
+      ],
+      "method": "Individually compared all question-required facts and all substantive extra claims to the frozen Test and original rendered source pixels. Checked actual returned page, specific region label, quote and bbox coverage; used PDFium bounded text only as a locator aid. Numerical chart readings use the tolerance ranges frozen before any round2 experiment. Unanswerable cases checked against the documented 350-page absence audit and nearest original source regions. No API or model judge used.",
+      "citation_policy": "Returned full-page bbox can pass with a correct specific region/quote and sufficient source support for all stated claims; model_bbox was not substituted. Exact equality with the gold bbox is unnecessary.",
+      "checked_conditions": "Units, denominator/object measured, temporal/sample conditions, all requested clauses, arithmetic, diagram relationships, axes/legends, table headers/notes and text continuations; no rerun or output repair.",
+      "all_required_answer_conditions_met": true,
+      "citation_checks": [
+        {
+          "citation": 1,
+          "page": 191,
+          "region_label": "Figure 5.11, wireless broadband price labels and stage labels",
+          "bbox": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "model_bbox": [
+            0.093,
+            0.626,
+            0.87,
+            0.912
+          ],
+          "quote_sha256": "28f0cb8facb4c49e3e7749d974dd286299a4f8190f85f4f8d51c5ab2290b793e",
+          "original_page_image_sha256": "1b7b2cb5688f2e19d0cb813a3d324c90f30b793d59f40d6ec1040ea4d57fdbc7",
+          "source_check": "Specific label/quote checked against original PDF pixels; returned full-page bbox contains the cited object and necessary context. model_bbox is audit metadata, not the delivered citation bbox.",
+          "stated_claims_supported": true
+        },
+        {
+          "citation": 2,
+          "page": 193,
+          "region_label": "Right-column paragraph beginning “Cloud on-ramps are private connections”",
+          "bbox": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "model_bbox": [
+            0.454,
+            0.15,
+            0.81,
+            0.365
+          ],
+          "quote_sha256": "2829b688e20febcefd6142b2f31b47606667341339d2dacaa2f13351aa4f3cd3",
+          "original_page_image_sha256": "699a3e674f6ca2c41d7714af84ff727e8889bee90cb83375a15d40f66b36634e",
+          "source_check": "Specific label/quote checked against original PDF pixels; returned full-page bbox contains the cited object and necessary context. model_bbox is audit metadata, not the delivered citation bbox.",
+          "stated_claims_supported": true
+        }
+      ]
+    },
+    "reviewed_trace_sha256": "0384ce4b60aa5a6bd764f922d6ac90005636e04b1facd8f404fdf5e83ab139eb",
+    "reviewed_answer_sha256": "30791ce1d587be506605a04dca0370402926756e129d57382038ff82d2e856b6",
+    "reviewed_citations_sha256": "03efd87595071ea4e13c777ae9143b256c97e61c10f976534d41678ef10ac9f5",
+    "citation_hash_format": "UTF-8 canonical JSON, ensure_ascii=False, sort_keys=True, compact separators",
+    "reviewed_at_local": "2026-11-16T17:05:56.037276+07:00"
+  },
+  {
+    "query_id": "adv-r2-test-18",
+    "passed": true,
+    "reason": "Đúng Agesic2007, presidential proximity cung cấp high-level strategic multistakeholder leadership, Integrated Government Architecture và supporting Enterprise Architecture Framework(TOGAF). Box8.1 p286–287 có đủ continuation qua trang.",
+    "label_status": "assistant_proposed_pending_learner_confirmation",
+    "reviewer": "dedicated benchmark-author assistant; one assistant source review, not independent human confirmation; no API or model judge",
+    "answer_correct": true,
+    "citation_correct": true,
+    "failure_type": null,
+    "source_check": {
+      "pdf_sha256": "606c8452c8b23c01d81919c3974972bebeb1e60348a56ea40cc3ae841e301616",
+      "benchmark_sha256": "743e640a5570e4dd0acadcbd35b3e7851f482c0047e65ddbf476183b4711fe46",
+      "physical_pages": [
+        286,
+        287
+      ],
+      "method": "Individually compared all question-required facts and all substantive extra claims to the frozen Test and original rendered source pixels. Checked actual returned page, specific region label, quote and bbox coverage; used PDFium bounded text only as a locator aid. Numerical chart readings use the tolerance ranges frozen before any round2 experiment. Unanswerable cases checked against the documented 350-page absence audit and nearest original source regions. No API or model judge used.",
+      "citation_policy": "Returned full-page bbox can pass with a correct specific region/quote and sufficient source support for all stated claims; model_bbox was not substituted. Exact equality with the gold bbox is unnecessary.",
+      "checked_conditions": "Units, denominator/object measured, temporal/sample conditions, all requested clauses, arithmetic, diagram relationships, axes/legends, table headers/notes and text continuations; no rerun or output repair.",
+      "all_required_answer_conditions_met": true,
+      "citation_checks": [
+        {
+          "citation": 1,
+          "page": 286,
+          "region_label": "Box 8.1, right column, Agesic and interoperability-platform passage",
+          "bbox": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "model_bbox": [
+            0.566,
+            0.622,
+            0.907,
+            0.891
+          ],
+          "quote_sha256": "6f111f3fdbdf5dfe063f70dd53c51d185885493f38cb3630860975e58c47c3c1",
+          "original_page_image_sha256": "72f3579adcc7c60387f78bc4d07b985df5fc647fb7a813db3f5c2567d9298f53",
+          "source_check": "Specific label/quote checked against original PDF pixels; returned full-page bbox contains the cited object and necessary context. model_bbox is audit metadata, not the delivered citation bbox.",
+          "stated_claims_supported": true
+        },
+        {
+          "citation": 2,
+          "page": 287,
+          "region_label": "Box 8.1 continued, upper-left column, technical-foundation passage",
+          "bbox": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "model_bbox": [
+            0.115,
+            0.163,
+            0.437,
+            0.193
+          ],
+          "quote_sha256": "8f6390df865e37153d036a9705e89f63ac8f8e163eb506227ddaff9893d4cf6f",
+          "original_page_image_sha256": "97f109053d0adce0c90781ed0520edaa0255ca02db738685a56b3985c5ea3bbb",
+          "source_check": "Specific label/quote checked against original PDF pixels; returned full-page bbox contains the cited object and necessary context. model_bbox is audit metadata, not the delivered citation bbox.",
+          "stated_claims_supported": true
+        }
+      ]
+    },
+    "reviewed_trace_sha256": "0384ce4b60aa5a6bd764f922d6ac90005636e04b1facd8f404fdf5e83ab139eb",
+    "reviewed_answer_sha256": "919ef97a878cb5512f92ad8797556023e42f05b57e85768fccc0f41a72345878",
+    "reviewed_citations_sha256": "ff6a3ca6e0d097a9b5b77d7ae05fa3ec0e5fc9ebb8f7ba51c342234071d64366",
+    "citation_hash_format": "UTF-8 canonical JSON, ensure_ascii=False, sort_keys=True, compact separators",
+    "reviewed_at_local": "2026-11-16T17:05:56.052410+07:00"
+  },
+  {
+    "query_id": "adv-r2-test-19",
+    "passed": false,
+    "reason": "Fail: lợi ích access và social-network risk đúng nhưng thiếu cơ chế data visibility được hỏi. Đáp án thay bằng training bias chung và tự thừa nhận các trang cite không mô tả visibility. P130 nói người ít tiếp cận mobile/internet/bank accounts, như women, ít hiện diện trong data/decision-making; điều kiện này không có trong đáp án. P28/p123 và quote hỗ trợ các claim đã nêu, không bù phần thiếu.",
+    "label_status": "assistant_proposed_pending_learner_confirmation",
+    "reviewer": "dedicated benchmark-author assistant; one assistant source review, not independent human confirmation; no API or model judge",
+    "answer_correct": false,
+    "citation_correct": true,
+    "failure_type": "missing_required_data_visibility_mechanism",
+    "source_check": {
+      "pdf_sha256": "606c8452c8b23c01d81919c3974972bebeb1e60348a56ea40cc3ae841e301616",
+      "benchmark_sha256": "743e640a5570e4dd0acadcbd35b3e7851f482c0047e65ddbf476183b4711fe46",
+      "physical_pages": [
+        28,
+        123,
+        130
+      ],
+      "method": "Individually compared all question-required facts and all substantive extra claims to the frozen Test and original rendered source pixels. Checked actual returned page, specific region label, quote and bbox coverage; used PDFium bounded text only as a locator aid. Numerical chart readings use the tolerance ranges frozen before any round2 experiment. Unanswerable cases checked against the documented 350-page absence audit and nearest original source regions. No API or model judge used.",
+      "citation_policy": "Returned full-page bbox can pass with a correct specific region/quote and sufficient source support for all stated claims; model_bbox was not substituted. Exact equality with the gold bbox is unnecessary.",
+      "checked_conditions": "Units, denominator/object measured, temporal/sample conditions, all requested clauses, arithmetic, diagram relationships, axes/legends, table headers/notes and text continuations; no rerun or output repair.",
+      "all_required_answer_conditions_met": false,
+      "citation_checks": [
+        {
+          "citation": 1,
+          "page": 123,
+          "region_label": "Finance — alternative credit scoring algorithms, left column",
+          "bbox": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "model_bbox": [
+            0.09,
+            0.53,
+            0.44,
+            0.78
+          ],
+          "quote_sha256": "4132e845c5acc9c96218460a291482189b1607ab855fbc88f5511587b4559b37",
+          "original_page_image_sha256": "7a08264580da3492fcb6e042e80ee91f97ecd0042a6b6222ab5d784730f55a06",
+          "source_check": "Specific label/quote checked against original PDF pixels; returned full-page bbox contains the cited object and necessary context. model_bbox is audit metadata, not the delivered citation bbox.",
+          "stated_claims_supported": true
+        },
+        {
+          "citation": 2,
+          "page": 28,
+          "region_label": "Private intent data can fuel growth and boost development — algorithmic discrimination, right column",
+          "bbox": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "model_bbox": [
+            0.56,
+            0.27,
+            0.91,
+            0.52
+          ],
+          "quote_sha256": "731dd990244b9f58b6694934fa9d495a978c63f7911029a3aa37185f497496e4",
+          "original_page_image_sha256": "a2abfe2d484fc61fca278c93074dc46127bc8039c9fe1b4cc6e8737a2afc2856",
+          "source_check": "Specific label/quote checked against original PDF pixels; returned full-page bbox contains the cited object and necessary context. model_bbox is audit metadata, not the delivered citation bbox.",
+          "stated_claims_supported": true
+        },
+        {
+          "citation": 3,
+          "page": 123,
+          "region_label": "Finance — algorithmic discrimination example, right column",
+          "bbox": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "model_bbox": [
+            0.45,
+            0.33,
+            0.82,
+            0.42
+          ],
+          "quote_sha256": "2a68e77296ab54efb5c1dea73ec1f07b9bd98d97b569ad5d0243805b9884c6db",
+          "original_page_image_sha256": "7a08264580da3492fcb6e042e80ee91f97ecd0042a6b6222ab5d784730f55a06",
+          "source_check": "Specific label/quote checked against original PDF pixels; returned full-page bbox contains the cited object and necessary context. model_bbox is audit metadata, not the delivered citation bbox.",
+          "stated_claims_supported": true
+        },
+        {
+          "citation": 4,
+          "page": 28,
+          "region_label": "Private intent data can fuel growth and boost development — lack of data on borrowers, left column",
+          "bbox": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "model_bbox": [
+            0.2,
+            0.54,
+            0.54,
+            0.7
+          ],
+          "quote_sha256": "f5e8852b5eadca0e768ae2ca6b7751281727e9bcbe1dad098415081d5b311a84",
+          "original_page_image_sha256": "a2abfe2d484fc61fca278c93074dc46127bc8039c9fe1b4cc6e8737a2afc2856",
+          "source_check": "Specific label/quote checked against original PDF pixels; returned full-page bbox contains the cited object and necessary context. model_bbox is audit metadata, not the delivered citation bbox.",
+          "stated_claims_supported": true
+        }
+      ],
+      "missing_condition_source": "Original p130: limited access to mobile phones, internet and bank accounts (such as women) can reduce visibility in data and decision making. The answer substitutes general training bias and does not provide this mechanism."
+    },
+    "reviewed_trace_sha256": "0384ce4b60aa5a6bd764f922d6ac90005636e04b1facd8f404fdf5e83ab139eb",
+    "reviewed_answer_sha256": "b24f9bb030bba242330fdea99f8408bb0251e7527520ea67fff7f20a352e92f3",
+    "reviewed_citations_sha256": "9dfd38246d39c814e4b4e6eac0a0cb1d7c9bf361baa7b10a58bfdb99826109d8",
+    "citation_hash_format": "UTF-8 canonical JSON, ensure_ascii=False, sort_keys=True, compact separators",
+    "reviewed_at_local": "2026-11-16T17:05:56.068451+07:00"
+  },
+  {
+    "query_id": "adv-r2-test-20",
+    "passed": true,
+    "reason": "Đúng Croatia GDP/capita rule có thể bỏ sót poor municipalities trong nonpoor regions và mới proposed subdivisions tập trung EU funds. Đúng CostaRica multidimensional poverty index, allocation/monitoring/evaluation và giảm nghèo nhanh hơn trong austerity không tăng budget. P77–78 đủ các đoạn nối trang.",
+    "label_status": "assistant_proposed_pending_learner_confirmation",
+    "reviewer": "dedicated benchmark-author assistant; one assistant source review, not independent human confirmation; no API or model judge",
+    "answer_correct": true,
+    "citation_correct": true,
+    "failure_type": null,
+    "source_check": {
+      "pdf_sha256": "606c8452c8b23c01d81919c3974972bebeb1e60348a56ea40cc3ae841e301616",
+      "benchmark_sha256": "743e640a5570e4dd0acadcbd35b3e7851f482c0047e65ddbf476183b4711fe46",
+      "physical_pages": [
+        77,
+        78
+      ],
+      "method": "Individually compared all question-required facts and all substantive extra claims to the frozen Test and original rendered source pixels. Checked actual returned page, specific region label, quote and bbox coverage; used PDFium bounded text only as a locator aid. Numerical chart readings use the tolerance ranges frozen before any round2 experiment. Unanswerable cases checked against the documented 350-page absence audit and nearest original source regions. No API or model judge used.",
+      "citation_policy": "Returned full-page bbox can pass with a correct specific region/quote and sufficient source support for all stated claims; model_bbox was not substituted. Exact equality with the gold bbox is unnecessary.",
+      "checked_conditions": "Units, denominator/object measured, temporal/sample conditions, all requested clauses, arithmetic, diagram relationships, axes/legends, table headers/notes and text continuations; no rerun or output repair.",
+      "all_required_answer_conditions_met": true,
+      "citation_checks": [
+        {
+          "citation": 1,
+          "page": 77,
+          "region_label": "Croatia example, left-column paragraph beside Map 2.1",
+          "bbox": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "model_bbox": [
+            0.092,
+            0.085,
+            0.444,
+            0.37
+          ],
+          "quote_sha256": "6da2c2cd37fde81fa3f4a8bf86282757af86658821fe5249d6c8c6a556e72b45",
+          "original_page_image_sha256": "f205dd6aefd358d03015f7771acdb314ef0a898f1d45efb20e63fb15b10c1dc4",
+          "source_check": "Specific label/quote checked against original PDF pixels; returned full-page bbox contains the cited object and necessary context. model_bbox is audit metadata, not the delivered citation bbox.",
+          "stated_claims_supported": true
+        },
+        {
+          "citation": 2,
+          "page": 77,
+          "region_label": "Discussion introducing multidimensional poverty indexes, lower right column",
+          "bbox": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "model_bbox": [
+            0.454,
+            0.903,
+            0.896,
+            0.94
+          ],
+          "quote_sha256": "abfa3787319149b501b46a2ada4596de4cd13e8ff22b688ea2937ee40b1f81a7",
+          "original_page_image_sha256": "f205dd6aefd358d03015f7771acdb314ef0a898f1d45efb20e63fb15b10c1dc4",
+          "source_check": "Specific label/quote checked against original PDF pixels; returned full-page bbox contains the cited object and necessary context. model_bbox is audit metadata, not the delivered citation bbox.",
+          "stated_claims_supported": true
+        },
+        {
+          "citation": 3,
+          "page": 78,
+          "region_label": "Costa Rica example, upper left column",
+          "bbox": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "model_bbox": [
+            0.204,
+            0.085,
+            0.548,
+            0.209
+          ],
+          "quote_sha256": "aa9b0c652d195c47c11673759975cff2c04279042c5d54dbe718a1842d3eebd3",
+          "original_page_image_sha256": "4eb569da906f200a4e12b42f95d907c2dbaad92293921f4bd97737fc742d3df8",
+          "source_check": "Specific label/quote checked against original PDF pixels; returned full-page bbox contains the cited object and necessary context. model_bbox is audit metadata, not the delivered citation bbox.",
+          "stated_claims_supported": true
+        }
+      ]
+    },
+    "reviewed_trace_sha256": "0384ce4b60aa5a6bd764f922d6ac90005636e04b1facd8f404fdf5e83ab139eb",
+    "reviewed_answer_sha256": "b8fa863741ea4bfda629ace8fccb50c83766157e05ebd11f729231ffb052b5bb",
+    "reviewed_citations_sha256": "ac357227642edac3ca24a8c490a57a80cba3ac5878dd1c8d5fa709938be8bcb1",
+    "citation_hash_format": "UTF-8 canonical JSON, ensure_ascii=False, sort_keys=True, compact separators",
+    "reviewed_at_local": "2026-11-16T17:05:56.102190+07:00"
+  },
+  {
+    "query_id": "adv-r2-test-21",
+    "passed": true,
+    "reason": "Đủ transparent/objective, scope/duration/sunset, necessary/proportionate, international human-rights consistency; đủ unchecked surveillance/mission creep và trust. P216 paragraph được định vị đúng và bao trọn.",
+    "label_status": "assistant_proposed_pending_learner_confirmation",
+    "reviewer": "dedicated benchmark-author assistant; one assistant source review, not independent human confirmation; no API or model judge",
+    "answer_correct": true,
+    "citation_correct": true,
+    "failure_type": null,
+    "source_check": {
+      "pdf_sha256": "606c8452c8b23c01d81919c3974972bebeb1e60348a56ea40cc3ae841e301616",
+      "benchmark_sha256": "743e640a5570e4dd0acadcbd35b3e7851f482c0047e65ddbf476183b4711fe46",
+      "physical_pages": [
+        216
+      ],
+      "method": "Individually compared all question-required facts and all substantive extra claims to the frozen Test and original rendered source pixels. Checked actual returned page, specific region label, quote and bbox coverage; used PDFium bounded text only as a locator aid. Numerical chart readings use the tolerance ranges frozen before any round2 experiment. Unanswerable cases checked against the documented 350-page absence audit and nearest original source regions. No API or model judge used.",
+      "citation_policy": "Returned full-page bbox can pass with a correct specific region/quote and sufficient source support for all stated claims; model_bbox was not substituted. Exact equality with the gold bbox is unnecessary.",
+      "checked_conditions": "Units, denominator/object measured, temporal/sample conditions, all requested clauses, arithmetic, diagram relationships, axes/legends, table headers/notes and text continuations; no rerun or output repair.",
+      "all_required_answer_conditions_met": true,
+      "citation_checks": [
+        {
+          "citation": 1,
+          "page": 216,
+          "region_label": "Right column, paragraph beginning “Where such government exceptions exist”",
+          "bbox": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "model_bbox": [
+            0.566,
+            0.086,
+            0.917,
+            0.356
+          ],
+          "quote_sha256": "7563f25c26ffd5c0a9bcec8d8bee4b509cebdba3533440a4deac7f87d8f33dd9",
+          "original_page_image_sha256": "4d44e1b584e0e1c53da362c61017274d453936508514c6a7d32bef5cf2b5b052",
+          "source_check": "Specific label/quote checked against original PDF pixels; returned full-page bbox contains the cited object and necessary context. model_bbox is audit metadata, not the delivered citation bbox.",
+          "stated_claims_supported": true
+        }
+      ]
+    },
+    "reviewed_trace_sha256": "0384ce4b60aa5a6bd764f922d6ac90005636e04b1facd8f404fdf5e83ab139eb",
+    "reviewed_answer_sha256": "bc318e9c2190ef0f513b821fe4bf1032f6d97dc9c2dd47b4c72f169d23fb9cd3",
+    "reviewed_citations_sha256": "b90c16cf9664c6206f3b0ee8ef83287a08b9a7a4be56f721899bc19125c779d2",
+    "citation_hash_format": "UTF-8 canonical JSON, ensure_ascii=False, sort_keys=True, compact separators",
+    "reviewed_at_local": "2026-11-16T17:05:56.108212+07:00"
+  },
+  {
+    "query_id": "adv-r2-test-22",
+    "passed": true,
+    "reason": "Đủ dữ liệu procurement bidding→execution, CSO đào tạo community members kết hợp site checks, phát hiện contractor/official mismanagement và noncompetitive contracts, cùng hai phản ứng standards compliance và portal theo international open contracting standards. P78 paragraph hỗ trợ chuỗi kiểm tra/reform; không có claim mới về số tiền hay causal effect.",
+    "label_status": "assistant_proposed_pending_learner_confirmation",
+    "reviewer": "dedicated benchmark-author assistant; one assistant source review, not independent human confirmation; no API or model judge",
+    "answer_correct": true,
+    "citation_correct": true,
+    "failure_type": null,
+    "source_check": {
+      "pdf_sha256": "606c8452c8b23c01d81919c3974972bebeb1e60348a56ea40cc3ae841e301616",
+      "benchmark_sha256": "743e640a5570e4dd0acadcbd35b3e7851f482c0047e65ddbf476183b4711fe46",
+      "physical_pages": [
+        78
+      ],
+      "method": "Individually compared all question-required facts and all substantive extra claims to the frozen Test and original rendered source pixels. Checked actual returned page, specific region label, quote and bbox coverage; used PDFium bounded text only as a locator aid. Numerical chart readings use the tolerance ranges frozen before any round2 experiment. Unanswerable cases checked against the documented 350-page absence audit and nearest original source regions. No API or model judge used.",
+      "citation_policy": "Returned full-page bbox can pass with a correct specific region/quote and sufficient source support for all stated claims; model_bbox was not substituted. Exact equality with the gold bbox is unnecessary.",
+      "checked_conditions": "Units, denominator/object measured, temporal/sample conditions, all requested clauses, arithmetic, diagram relationships, axes/legends, table headers/notes and text continuations; no rerun or output repair.",
+      "all_required_answer_conditions_met": true,
+      "citation_checks": [
+        {
+          "citation": 1,
+          "page": 78,
+          "region_label": "Printed page 58, left column, Uganda procurement example paragraph",
+          "bbox": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "model_bbox": [
+            0.205,
+            0.515,
+            0.55,
+            0.878
+          ],
+          "quote_sha256": "0e939c42b89e5ba7435eb50b41dbaff8c73101f0a3459a95e3f982d18266c065",
+          "original_page_image_sha256": "4eb569da906f200a4e12b42f95d907c2dbaad92293921f4bd97737fc742d3df8",
+          "source_check": "Specific label/quote checked against original PDF pixels; returned full-page bbox contains the cited object and necessary context. model_bbox is audit metadata, not the delivered citation bbox.",
+          "stated_claims_supported": true
+        }
+      ]
+    },
+    "reviewed_trace_sha256": "0384ce4b60aa5a6bd764f922d6ac90005636e04b1facd8f404fdf5e83ab139eb",
+    "reviewed_answer_sha256": "243afd2f28b6b5846721d4f63a29eb7fed131877214e4c720ea39689444601d5",
+    "reviewed_citations_sha256": "19f7e290ee97bf9c0f09899b11329c0842977a9f7daccb8a75697ff8d3225544",
+    "citation_hash_format": "UTF-8 canonical JSON, ensure_ascii=False, sort_keys=True, compact separators",
+    "reviewed_at_local": "2026-11-16T17:05:56.112222+07:00"
+  },
+  {
+    "query_id": "adv-r2-test-23",
+    "passed": true,
+    "reason": "Giữ đúng less than one-third (không biến thành33% chính xác) năm2014, 92% năm2018 và GHG giảm2/3. P207 Equinix paragraph hỗ trợ; đáp án cũng nêu không có baseline chính xác hơn.",
+    "label_status": "assistant_proposed_pending_learner_confirmation",
+    "reviewer": "dedicated benchmark-author assistant; one assistant source review, not independent human confirmation; no API or model judge",
+    "answer_correct": true,
+    "citation_correct": true,
+    "failure_type": null,
+    "source_check": {
+      "pdf_sha256": "606c8452c8b23c01d81919c3974972bebeb1e60348a56ea40cc3ae841e301616",
+      "benchmark_sha256": "743e640a5570e4dd0acadcbd35b3e7851f482c0047e65ddbf476183b4711fe46",
+      "physical_pages": [
+        207
+      ],
+      "method": "Individually compared all question-required facts and all substantive extra claims to the frozen Test and original rendered source pixels. Checked actual returned page, specific region label, quote and bbox coverage; used PDFium bounded text only as a locator aid. Numerical chart readings use the tolerance ranges frozen before any round2 experiment. Unanswerable cases checked against the documented 350-page absence audit and nearest original source regions. No API or model judge used.",
+      "citation_policy": "Returned full-page bbox can pass with a correct specific region/quote and sufficient source support for all stated claims; model_bbox was not substituted. Exact equality with the gold bbox is unnecessary.",
+      "checked_conditions": "Units, denominator/object measured, temporal/sample conditions, all requested clauses, arithmetic, diagram relationships, axes/legends, table headers/notes and text continuations; no rerun or output repair.",
+      "all_required_answer_conditions_met": true,
+      "citation_checks": [
+        {
+          "citation": 1,
+          "page": 207,
+          "region_label": "Left-column paragraph on data infrastructure emissions, Equinix example (printed page 187)",
+          "bbox": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "model_bbox": [
+            0.09,
+            0.24,
+            0.44,
+            0.31
+          ],
+          "quote_sha256": "e931451272a0d24e700a043f179235396bf683653eb45986433274b36beb7488",
+          "original_page_image_sha256": "417f1e44e0a322af0e2bfb44558143d79bc643afccb7ef58173f6c0980c3de86",
+          "source_check": "Specific label/quote checked against original PDF pixels; returned full-page bbox contains the cited object and necessary context. model_bbox is audit metadata, not the delivered citation bbox.",
+          "stated_claims_supported": true
+        }
+      ]
+    },
+    "reviewed_trace_sha256": "0384ce4b60aa5a6bd764f922d6ac90005636e04b1facd8f404fdf5e83ab139eb",
+    "reviewed_answer_sha256": "1054d634e56f498c6371c8636ee79e0c62813286ab9ae52a9dc0ff5b16319d26",
+    "reviewed_citations_sha256": "e18eb039b671dc79c7834c529b765ed216f7359c42eeee906cc04bac12458cd7",
+    "citation_hash_format": "UTF-8 canonical JSON, ensure_ascii=False, sort_keys=True, compact separators",
+    "reviewed_at_local": "2026-11-16T17:05:56.116225+07:00"
+  },
+  {
+    "query_id": "adv-r2-test-24",
+    "passed": true,
+    "reason": "Đúng prime minister/Strategy Unit of Government Office, X-Road open-source exchange layer và cryptography logs cho individuals biết ai chia sẻ dữ liệu/vì mục đích gì. P332 paragraph có đủ actor và cơ chế.",
+    "label_status": "assistant_proposed_pending_learner_confirmation",
+    "reviewer": "dedicated benchmark-author assistant; one assistant source review, not independent human confirmation; no API or model judge",
+    "answer_correct": true,
+    "citation_correct": true,
+    "failure_type": null,
+    "source_check": {
+      "pdf_sha256": "606c8452c8b23c01d81919c3974972bebeb1e60348a56ea40cc3ae841e301616",
+      "benchmark_sha256": "743e640a5570e4dd0acadcbd35b3e7851f482c0047e65ddbf476183b4711fe46",
+      "physical_pages": [
+        332
+      ],
+      "method": "Individually compared all question-required facts and all substantive extra claims to the frozen Test and original rendered source pixels. Checked actual returned page, specific region label, quote and bbox coverage; used PDFium bounded text only as a locator aid. Numerical chart readings use the tolerance ranges frozen before any round2 experiment. Unanswerable cases checked against the documented 350-page absence audit and nearest original source regions. No API or model judge used.",
+      "citation_policy": "Returned full-page bbox can pass with a correct specific region/quote and sufficient source support for all stated claims; model_bbox was not substituted. Exact equality with the gold bbox is unnecessary.",
+      "checked_conditions": "Units, denominator/object measured, temporal/sample conditions, all requested clauses, arithmetic, diagram relationships, axes/legends, table headers/notes and text continuations; no rerun or output repair.",
+      "all_required_answer_conditions_met": true,
+      "citation_checks": [
+        {
+          "citation": 1,
+          "page": 332,
+          "region_label": "Right-column paragraph on Estonia’s e-Estonia Council and X-Road",
+          "bbox": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "model_bbox": [
+            0.56,
+            0.22,
+            0.92,
+            0.53
+          ],
+          "quote_sha256": "0d5c99e26849ee02f789e59e3c4329db2629a303f423a8590b956bebb24a473e",
+          "original_page_image_sha256": "db0aab5ee091e0f4422cb14e629712cf8f05a7751451d845ee971ed4f2f6a148",
+          "source_check": "Specific label/quote checked against original PDF pixels; returned full-page bbox contains the cited object and necessary context. model_bbox is audit metadata, not the delivered citation bbox.",
+          "stated_claims_supported": true
+        }
+      ]
+    },
+    "reviewed_trace_sha256": "0384ce4b60aa5a6bd764f922d6ac90005636e04b1facd8f404fdf5e83ab139eb",
+    "reviewed_answer_sha256": "9c7ac646eb6a08c00a2d6c4df255d461a479204b21eacb8946adcde2a5f51219",
+    "reviewed_citations_sha256": "5cae57e9c6c5d289e883ebab5a106958740fa96e4f3d993ba94a262dcdb727eb",
+    "citation_hash_format": "UTF-8 canonical JSON, ensure_ascii=False, sort_keys=True, compact separators",
+    "reviewed_at_local": "2026-11-16T17:05:56.131908+07:00"
+  },
+  {
+    "query_id": "adv-r2-test-25",
+    "passed": true,
+    "reason": "Nội dung từ chối rõ dù status answered: thiếu mean theo poorest/richest wealth quintiles và gap. Phần bổ sung aggregate mean2,6days with-data/27baseline đúng Figure2.2 p76, không dùng thay disaggregation thiếu. Phù hợp full-report absence audit.",
+    "label_status": "assistant_proposed_pending_learner_confirmation",
+    "reviewer": "dedicated benchmark-author assistant; one assistant source review, not independent human confirmation; no API or model judge",
+    "answer_correct": true,
+    "citation_correct": true,
+    "failure_type": null,
+    "source_check": {
+      "pdf_sha256": "606c8452c8b23c01d81919c3974972bebeb1e60348a56ea40cc3ae841e301616",
+      "benchmark_sha256": "743e640a5570e4dd0acadcbd35b3e7851f482c0047e65ddbf476183b4711fe46",
+      "physical_pages": [
+        76
+      ],
+      "method": "Individually compared all question-required facts and all substantive extra claims to the frozen Test and original rendered source pixels. Checked actual returned page, specific region label, quote and bbox coverage; used PDFium bounded text only as a locator aid. Numerical chart readings use the tolerance ranges frozen before any round2 experiment. Unanswerable cases checked against the documented 350-page absence audit and nearest original source regions. No API or model judge used.",
+      "citation_policy": "Returned full-page bbox can pass with a correct specific region/quote and sufficient source support for all stated claims; model_bbox was not substituted. Exact equality with the gold bbox is unnecessary.",
+      "checked_conditions": "Units, denominator/object measured, temporal/sample conditions, all requested clauses, arithmetic, diagram relationships, axes/legends, table headers/notes and text continuations; no rerun or output repair.",
+      "all_required_answer_conditions_met": true,
+      "citation_checks": [
+        {
+          "citation": 1,
+          "page": 76,
+          "region_label": "Figure 2.2 chart and legend",
+          "bbox": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "model_bbox": [
+            0.076,
+            0.693,
+            0.54,
+            0.941
+          ],
+          "quote_sha256": "942dcd1714d086d3b911c9b955638dc02647e8944420ee150e6331e04c2406b8",
+          "original_page_image_sha256": "9011d9e4f640e724e4e03abc6a918136fdbe9e8a964afe83e5377095620d572a",
+          "source_check": "Specific label/quote checked against original PDF pixels; returned full-page bbox contains the cited object and necessary context. model_bbox is audit metadata, not the delivered citation bbox.",
+          "stated_claims_supported": true
+        }
+      ]
+    },
+    "reviewed_trace_sha256": "0384ce4b60aa5a6bd764f922d6ac90005636e04b1facd8f404fdf5e83ab139eb",
+    "reviewed_answer_sha256": "f36395f8c7233060bd021cd3788f20f79019c36c0d80607a4e65265e5067efd3",
+    "reviewed_citations_sha256": "45983ceefca764c040b05e0eb50c13591c120d955dd3bca44c26fefafa9f3b16",
+    "citation_hash_format": "UTF-8 canonical JSON, ensure_ascii=False, sort_keys=True, compact separators",
+    "reviewed_at_local": "2026-11-16T17:05:56.131908+07:00"
+  },
+  {
+    "query_id": "adv-r2-test-26",
+    "passed": true,
+    "reason": "Từ chối và không bịa số worker data-science/AI riêng từng năm2015–2019. Source Box5.1/Figure B5.1.2 p195 chỉ có tổngít nhất70.000/năm và danh sách skill broad; phù hợp absence audit.",
+    "label_status": "assistant_proposed_pending_learner_confirmation",
+    "reviewer": "dedicated benchmark-author assistant; one assistant source review, not independent human confirmation; no API or model judge",
+    "answer_correct": true,
+    "citation_correct": true,
+    "failure_type": null,
+    "source_check": {
+      "pdf_sha256": "606c8452c8b23c01d81919c3974972bebeb1e60348a56ea40cc3ae841e301616",
+      "benchmark_sha256": "743e640a5570e4dd0acadcbd35b3e7851f482c0047e65ddbf476183b4711fe46",
+      "physical_pages": [
+        195
+      ],
+      "method": "Individually compared all question-required facts and all substantive extra claims to the frozen Test and original rendered source pixels. Checked actual returned page, specific region label, quote and bbox coverage; used PDFium bounded text only as a locator aid. Numerical chart readings use the tolerance ranges frozen before any round2 experiment. Unanswerable cases checked against the documented 350-page absence audit and nearest original source regions. No API or model judge used.",
+      "citation_policy": "Returned full-page bbox can pass with a correct specific region/quote and sufficient source support for all stated claims; model_bbox was not substituted. Exact equality with the gold bbox is unnecessary.",
+      "checked_conditions": "Units, denominator/object measured, temporal/sample conditions, all requested clauses, arithmetic, diagram relationships, axes/legends, table headers/notes and text continuations; no rerun or output repair.",
+      "all_required_answer_conditions_met": true,
+      "citation_checks": []
+    },
+    "reviewed_trace_sha256": "0384ce4b60aa5a6bd764f922d6ac90005636e04b1facd8f404fdf5e83ab139eb",
+    "reviewed_answer_sha256": "beda1d066455dd7e5c1f9381016887d4f5085e7c87fd76d5266c028111246f31",
+    "reviewed_citations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "citation_hash_format": "UTF-8 canonical JSON, ensure_ascii=False, sort_keys=True, compact separators",
+    "reviewed_at_local": "2026-11-16T17:05:56.131908+07:00"
+  },
+  {
+    "query_id": "adv-r2-test-27",
+    "passed": true,
+    "reason": "Từ chối cặp VAT statutory rate/taxable B2C base Singapore2025 bị thiếu. Figure7.6 p268 và methodology/context không cho cặp tham số đó; không suy hai đầu vào từ một tax-potential aggregate.",
+    "label_status": "assistant_proposed_pending_learner_confirmation",
+    "reviewer": "dedicated benchmark-author assistant; one assistant source review, not independent human confirmation; no API or model judge",
+    "answer_correct": true,
+    "citation_correct": true,
+    "failure_type": null,
+    "source_check": {
+      "pdf_sha256": "606c8452c8b23c01d81919c3974972bebeb1e60348a56ea40cc3ae841e301616",
+      "benchmark_sha256": "743e640a5570e4dd0acadcbd35b3e7851f482c0047e65ddbf476183b4711fe46",
+      "physical_pages": [
+        268
+      ],
+      "method": "Individually compared all question-required facts and all substantive extra claims to the frozen Test and original rendered source pixels. Checked actual returned page, specific region label, quote and bbox coverage; used PDFium bounded text only as a locator aid. Numerical chart readings use the tolerance ranges frozen before any round2 experiment. Unanswerable cases checked against the documented 350-page absence audit and nearest original source regions. No API or model judge used.",
+      "citation_policy": "Returned full-page bbox can pass with a correct specific region/quote and sufficient source support for all stated claims; model_bbox was not substituted. Exact equality with the gold bbox is unnecessary.",
+      "checked_conditions": "Units, denominator/object measured, temporal/sample conditions, all requested clauses, arithmetic, diagram relationships, axes/legends, table headers/notes and text continuations; no rerun or output repair.",
+      "all_required_answer_conditions_met": true,
+      "citation_checks": []
+    },
+    "reviewed_trace_sha256": "0384ce4b60aa5a6bd764f922d6ac90005636e04b1facd8f404fdf5e83ab139eb",
+    "reviewed_answer_sha256": "beda1d066455dd7e5c1f9381016887d4f5085e7c87fd76d5266c028111246f31",
+    "reviewed_citations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "citation_hash_format": "UTF-8 canonical JSON, ensure_ascii=False, sort_keys=True, compact separators",
+    "reviewed_at_local": "2026-11-16T17:05:56.131908+07:00"
+  },
+  {
+    "query_id": "adv-r2-test-28",
+    "passed": true,
+    "reason": "Từ chối totals market/location basis Equinix2018 và gap tCO2e; không biến renewable share/relativeGHGreduction thành lượng tuyệt đối. P207 chỉ phân biệt basis và nêu tỷ lệ; phù hợp absence audit.",
+    "label_status": "assistant_proposed_pending_learner_confirmation",
+    "reviewer": "dedicated benchmark-author assistant; one assistant source review, not independent human confirmation; no API or model judge",
+    "answer_correct": true,
+    "citation_correct": true,
+    "failure_type": null,
+    "source_check": {
+      "pdf_sha256": "606c8452c8b23c01d81919c3974972bebeb1e60348a56ea40cc3ae841e301616",
+      "benchmark_sha256": "743e640a5570e4dd0acadcbd35b3e7851f482c0047e65ddbf476183b4711fe46",
+      "physical_pages": [
+        207
+      ],
+      "method": "Individually compared all question-required facts and all substantive extra claims to the frozen Test and original rendered source pixels. Checked actual returned page, specific region label, quote and bbox coverage; used PDFium bounded text only as a locator aid. Numerical chart readings use the tolerance ranges frozen before any round2 experiment. Unanswerable cases checked against the documented 350-page absence audit and nearest original source regions. No API or model judge used.",
+      "citation_policy": "Returned full-page bbox can pass with a correct specific region/quote and sufficient source support for all stated claims; model_bbox was not substituted. Exact equality with the gold bbox is unnecessary.",
+      "checked_conditions": "Units, denominator/object measured, temporal/sample conditions, all requested clauses, arithmetic, diagram relationships, axes/legends, table headers/notes and text continuations; no rerun or output repair.",
+      "all_required_answer_conditions_met": true,
+      "citation_checks": []
+    },
+    "reviewed_trace_sha256": "0384ce4b60aa5a6bd764f922d6ac90005636e04b1facd8f404fdf5e83ab139eb",
+    "reviewed_answer_sha256": "beda1d066455dd7e5c1f9381016887d4f5085e7c87fd76d5266c028111246f31",
+    "reviewed_citations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "citation_hash_format": "UTF-8 canonical JSON, ensure_ascii=False, sort_keys=True, compact separators",
+    "reviewed_at_local": "2026-11-16T17:05:56.131908+07:00"
+  },
+  {
+    "query_id": "adv-r2-test-29",
+    "passed": true,
+    "reason": "Từ chối khoản euro thực tế reallocated; phân biệt proposals/newsubdivisions và potential giảm inequality với realized transfers. P77 paragraph và whole-report absence audit hỗ trợ; không lấy ngân sách EU tổng thể làm số Croatia.",
+    "label_status": "assistant_proposed_pending_learner_confirmation",
+    "reviewer": "dedicated benchmark-author assistant; one assistant source review, not independent human confirmation; no API or model judge",
+    "answer_correct": true,
+    "citation_correct": true,
+    "failure_type": null,
+    "source_check": {
+      "pdf_sha256": "606c8452c8b23c01d81919c3974972bebeb1e60348a56ea40cc3ae841e301616",
+      "benchmark_sha256": "743e640a5570e4dd0acadcbd35b3e7851f482c0047e65ddbf476183b4711fe46",
+      "physical_pages": [
+        77
+      ],
+      "method": "Individually compared all question-required facts and all substantive extra claims to the frozen Test and original rendered source pixels. Checked actual returned page, specific region label, quote and bbox coverage; used PDFium bounded text only as a locator aid. Numerical chart readings use the tolerance ranges frozen before any round2 experiment. Unanswerable cases checked against the documented 350-page absence audit and nearest original source regions. No API or model judge used.",
+      "citation_policy": "Returned full-page bbox can pass with a correct specific region/quote and sufficient source support for all stated claims; model_bbox was not substituted. Exact equality with the gold bbox is unnecessary.",
+      "checked_conditions": "Units, denominator/object measured, temporal/sample conditions, all requested clauses, arithmetic, diagram relationships, axes/legends, table headers/notes and text continuations; no rerun or output repair.",
+      "all_required_answer_conditions_met": true,
+      "citation_checks": [
+        {
+          "citation": 1,
+          "page": 77,
+          "region_label": "Left-column text, Croatia poverty-map example",
+          "bbox": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "model_bbox": [
+            0.09,
+            0.28,
+            0.45,
+            0.37
+          ],
+          "quote_sha256": "8ccd8a84a651ace8ab1c28c283f59fa06017f34f8839d926391b565cf84ed12c",
+          "original_page_image_sha256": "f205dd6aefd358d03015f7771acdb314ef0a898f1d45efb20e63fb15b10c1dc4",
+          "source_check": "Specific label/quote checked against original PDF pixels; returned full-page bbox contains the cited object and necessary context. model_bbox is audit metadata, not the delivered citation bbox.",
+          "stated_claims_supported": true
+        }
+      ]
+    },
+    "reviewed_trace_sha256": "0384ce4b60aa5a6bd764f922d6ac90005636e04b1facd8f404fdf5e83ab139eb",
+    "reviewed_answer_sha256": "e3d37ae122cc97fd4fbf2c4ea36fb2747e6666fbdec7431e0243b2b3f64cfa0b",
+    "reviewed_citations_sha256": "97c153560fade5c1a3586b2171d3e294f634580084ef66ef30a10efd5119f7b6",
+    "citation_hash_format": "UTF-8 canonical JSON, ensure_ascii=False, sort_keys=True, compact separators",
+    "reviewed_at_local": "2026-11-16T17:05:56.147860+07:00"
+  },
+  {
+    "query_id": "adv-r2-test-30",
+    "passed": true,
+    "reason": "Nội dung từ chối rõ dù status answered: không có count disputes/binding rulings hay compensation totals. Phần bổ sung RCEP flows là soft law đúng Table 7.2 p264 và legend; không suy thành zero cases hoặc zero compensation. Phù hợp full-report absence audit.",
+    "label_status": "assistant_proposed_pending_learner_confirmation",
+    "reviewer": "dedicated benchmark-author assistant; one assistant source review, not independent human confirmation; no API or model judge",
+    "answer_correct": true,
+    "citation_correct": true,
+    "failure_type": null,
+    "source_check": {
+      "pdf_sha256": "606c8452c8b23c01d81919c3974972bebeb1e60348a56ea40cc3ae841e301616",
+      "benchmark_sha256": "743e640a5570e4dd0acadcbd35b3e7851f482c0047e65ddbf476183b4711fe46",
+      "physical_pages": [
+        264
+      ],
+      "method": "Individually compared all question-required facts and all substantive extra claims to the frozen Test and original rendered source pixels. Checked actual returned page, specific region label, quote and bbox coverage; used PDFium bounded text only as a locator aid. Numerical chart readings use the tolerance ranges frozen before any round2 experiment. Unanswerable cases checked against the documented 350-page absence audit and nearest original source regions. No API or model judge used.",
+      "citation_policy": "Returned full-page bbox can pass with a correct specific region/quote and sufficient source support for all stated claims; model_bbox was not substituted. Exact equality with the gold bbox is unnecessary.",
+      "checked_conditions": "Units, denominator/object measured, temporal/sample conditions, all requested clauses, arithmetic, diagram relationships, axes/legends, table headers/notes and text continuations; no rerun or output repair.",
+      "all_required_answer_conditions_met": true,
+      "citation_checks": [
+        {
+          "citation": 1,
+          "page": 264,
+          "region_label": "Table 7.2, RCEP (2020) column — Unrestricted cross-border data flows row; note/legend",
+          "bbox": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "model_bbox": [
+            0.084,
+            0.086,
+            0.907,
+            0.463
+          ],
+          "quote_sha256": "08f3dce4414ec4f93737494fe50e8fb623300ac00e59f76bd2d9df32ac4104e7",
+          "original_page_image_sha256": "8ecb746d8be79775cc0d7902ce404f87d34b706fe5dd64d3ba14731ac49489b1",
+          "source_check": "Specific label/quote checked against original PDF pixels; returned full-page bbox contains the cited object and necessary context. model_bbox is audit metadata, not the delivered citation bbox.",
+          "stated_claims_supported": true
+        }
+      ]
+    },
+    "reviewed_trace_sha256": "0384ce4b60aa5a6bd764f922d6ac90005636e04b1facd8f404fdf5e83ab139eb",
+    "reviewed_answer_sha256": "3cc1f0de6582f78c4194e6d55aed1ca0b05d6ed95100a131f915c83ab40386ec",
+    "reviewed_citations_sha256": "a2bb9ca37dc2534f7384b49c0beca5598b31632ef0c974dda3026f8cf1e44c4c",
+    "citation_hash_format": "UTF-8 canonical JSON, ensure_ascii=False, sort_keys=True, compact separators",
+    "reviewed_at_local": "2026-11-16T17:05:56.151883+07:00"
+  }
+]

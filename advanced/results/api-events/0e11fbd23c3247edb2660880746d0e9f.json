@@ -1,0 +1,45 @@
+{
+  "id": "0e11fbd23c3247edb2660880746d0e9f",
+  "label": "20261116-123301-test-baseline-45143179:adv-test-08:step0",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 13825,
+  "maximum_output_tokens": 3500,
+  "images": [
+    {
+      "page": 85,
+      "path": "advanced/data/pages/p085.jpg",
+      "sha256": "e389cd1eaa4358636d986f0d69e4bd2dde3301e26053b13a5f5e1228bc4aedcd"
+    },
+    {
+      "page": 91,
+      "path": "advanced/data/pages/p091.jpg",
+      "sha256": "a531e71f4c3916711ce11d7a444b0e678219cfd7891d6475ae28ec7157e17506"
+    },
+    {
+      "page": 75,
+      "path": "advanced/data/pages/p075.jpg",
+      "sha256": "ebbd999571673b08b265aeeb7f06283d0c37f67569a9d49c8306669fd6f19240"
+    }
+  ],
+  "instructions_sha256": "7b27220272435c850770154f165a9b99ffc1a1c1848fec729da980d6adec6535",
+  "usage": {
+    "input_tokens": 13825,
+    "input_tokens_details": {
+      "cache_write_tokens": 13822,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 13822
+      }
+    },
+    "output_tokens": 206,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 14031
+  },
+  "response_id": "resp_085cb33e3910a5a3016afa95d2027087d2b5ee3c9c8897cffe",
+  "response_status": "completed",
+  "output_text": "{\"action\":\"answer\",\"expression\":\"\",\"queries\":[],\"pages\":[85],\"status\":\"answered\",\"answer\":\"The feedback loop runs from enablers—financing, technical capacity, governance, and data demand—to desirable data features, then to development value: improved service delivery, prioritization of scarce resources, and accountability and empowerment. The value feeds back to the enablers. The three attributes under “Safe to use” are impartiality, confidentiality, and appropriateness.\",\"citations\":[{\"page\":85,\"region_label\":\"Figure 2.6, complete diagram and caption\",\"bbox\":[0.093,0.539,0.8,0.928],\"quote\":\"“Enablers of public intent data” lead to “Desirable features of public intent data” and then “Value of public intent data”; the loop returns to the enablers. Under “Safe to use”: “Impartiality,” “Confidentiality,” “Appropriateness.”\"}]}",
+  "elapsed_seconds": 5.318413999993936
+}

@@ -1,0 +1,60 @@
+{
+  "id": "045520b91c23424c9cca1f62acff93a0",
+  "label": "20261116-122648-dev-baseline-91fbfbb2:adv-dev-16:step1",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 26771,
+  "maximum_output_tokens": 3500,
+  "images": [
+    {
+      "page": 49,
+      "path": "advanced/data/pages/p049.jpg",
+      "sha256": "4fc676444eecbc0577e8c29ad0e5cc31554fc8ea3594492c4d3c8e602423066c"
+    },
+    {
+      "page": 81,
+      "path": "advanced/data/pages/p081.jpg",
+      "sha256": "285c5506bcc0ab3dc8618fb949ee4bc75aec43f8d719184df8267ff47a6c09bc"
+    },
+    {
+      "page": 82,
+      "path": "advanced/data/pages/p082.jpg",
+      "sha256": "785a666cbc6e359b9c9e17ed8e4e28d1a27ace95d20d5af79fd4c5a2c31f4d27"
+    },
+    {
+      "page": 65,
+      "path": "advanced/data/pages/p065.jpg",
+      "sha256": "0f5e6cb83867d842117c9b2e0f25e8ef6e11cf1a80ee239169e17f257eee1e16"
+    },
+    {
+      "page": 105,
+      "path": "advanced/data/pages/p105.jpg",
+      "sha256": "450dd1abd524becf7c89b0036ec5232cb4139f2c53bea380255a294e485229c1"
+    },
+    {
+      "page": 57,
+      "path": "advanced/data/pages/p057.jpg",
+      "sha256": "6fa111a7cbd6dc9c4d4d92b51f69814212cc2fee89164f2cc2a8ccce7ea1c87a"
+    }
+  ],
+  "instructions_sha256": "7b27220272435c850770154f165a9b99ffc1a1c1848fec729da980d6adec6535",
+  "usage": {
+    "input_tokens": 26771,
+    "input_tokens_details": {
+      "cache_write_tokens": 26768,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 26768
+      }
+    },
+    "output_tokens": 76,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 26847
+  },
+  "response_id": "resp_0c41dd989c431900016afa949e877c87d28b00c86fe3bc4182",
+  "response_status": "completed",
+  "output_text": "{\"action\":\"answer\",\"expression\":\"\",\"queries\":[],\"pages\":[49],\"status\":\"abstain\",\"answer\":\"Insufficient evidence: the report gives an overall baseline seroprevalence of 1.4% for the 90 cities, but does not provide separate male and female rates in the cited passage.\",\"citations\":[]}",
+  "elapsed_seconds": 7.590794600000663
+}

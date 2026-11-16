@@ -1,0 +1,55 @@
+{
+  "id": "35be2b40a38244118e96541020cf5ea5",
+  "label": "20261116-121901-dev-candidate-25029307:adv-dev-02:step0",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 22269,
+  "maximum_output_tokens": 3500,
+  "images": [
+    {
+      "page": 83,
+      "path": "advanced/data/pages/p083.jpg",
+      "sha256": "0749930b2ee94306a46e9b99a8aae816d4c1b1489ce076774495d76a21b49e98"
+    },
+    {
+      "page": 84,
+      "path": "advanced/data/pages/p084.jpg",
+      "sha256": "712f3663cdb1c27a6ca472c14d7f88e5b501aeeadb3fe78e14251c5f07a0c4a6"
+    },
+    {
+      "page": 224,
+      "path": "advanced/data/pages/p224.jpg",
+      "sha256": "4feecc6616ebff4702ec71bb86eea894863e82d037b90aab323c6655bd44b0f4"
+    },
+    {
+      "page": 194,
+      "path": "advanced/data/pages/p194.jpg",
+      "sha256": "11522ebf841b73357c03324198a19cca777227e562ea03b64960a51b374324ba"
+    },
+    {
+      "page": 82,
+      "path": "advanced/data/pages/p082.jpg",
+      "sha256": "785a666cbc6e359b9c9e17ed8e4e28d1a27ace95d20d5af79fd4c5a2c31f4d27"
+    }
+  ],
+  "instructions_sha256": "ea16e5e82aecd9d10ddbf9ad06d2474cc521d3d867a62d5379a957bcf9904631",
+  "usage": {
+    "input_tokens": 22269,
+    "input_tokens_details": {
+      "cache_write_tokens": 22266,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 22266
+      }
+    },
+    "output_tokens": 147,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 22416
+  },
+  "response_id": "resp_093fbac412c8030e016afa9266d63c87d2a9d5c39003592108",
+  "response_status": "completed",
+  "output_text": "{\"action\":\"answer\",\"expression\":\"44% - 11% = 33 percentage points\",\"queries\":[],\"pages\":[83],\"status\":\"answered\",\"answer\":\"Table 2.1 reports open terms of use/license for 11% of published data in low-income countries and 44% in high-income countries. The gap is 33 percentage points.\",\"citations\":[{\"page\":83,\"region_label\":\"Table 2.1, “Open terms of use/license (%)” row; Low-income and High-income columns\",\"bbox\":[0.094,0.571,0.796,0.751],\"quote\":\"Open terms of use/license (%) 11 … 44\"}]}",
+  "elapsed_seconds": 8.757808199996362
+}

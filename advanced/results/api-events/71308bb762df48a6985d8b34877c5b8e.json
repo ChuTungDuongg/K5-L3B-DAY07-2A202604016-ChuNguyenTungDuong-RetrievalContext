@@ -1,0 +1,35 @@
+{
+  "id": "71308bb762df48a6985d8b34877c5b8e",
+  "label": "index:p114",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 3843,
+  "maximum_output_tokens": 6000,
+  "images": [
+    {
+      "page": 114,
+      "path": "advanced/data/pages/p114.jpg",
+      "sha256": "985df4b9c6997855700cd82e99e9866dd56e570c5fba26f4b49c90aeff440d49"
+    }
+  ],
+  "instructions_sha256": "01d3a56b3c678b1acd37e506320a854b17dd9ddb13ece56a92b62990aeb80d41",
+  "usage": {
+    "input_tokens": 3843,
+    "input_tokens_details": {
+      "cache_write_tokens": 3840,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 3840
+      }
+    },
+    "output_tokens": 689,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 4532
+  },
+  "response_id": "resp_0947395c1d140f1e016afa9052f77887d28535d948607d01e2",
+  "response_status": "completed",
+  "output_text": "{\"regions\":[{\"label\":\"Figure 3.1 — The role of data in the production process: Pathways to development\",\"kind\":\"diagram\",\"bbox\":[0.164,0.087,0.929,0.482],\"summary\":\"Flow diagram showing how data in production leads through data-driven decision-making or demand–supply matching to production benefits and wider development opportunities; a related-opportunities banner sits below.\",\"details\":\"The starting node, “Data in the production process,” splits into two pathways: (1) “Better data-driven decision-making,” which branches to “Quality improvements,” “Cost reduction and process optimization,” and “Product innovation”; and (2) “Data-driven matching of demand and supply and transaction facilitation,” which leads to “More effective intermediation and lower transaction costs.” A bracket groups the four orange benefit boxes alongside five listed opportunities: “Boost opportunities for lagging regions and populations”; “Create new export opportunities”; “Promote productivity and growth”; “Create new markets and disrupt the market power of traditional incumbents”; and “Support local entrepreneurship ecosystems.” A lower bracket connects the diagram to “Related opportunities: access to ‘free’ services, adaptation to COVID-19 challenges, and support for the green agenda.” Source: WDR 2021 team.\",\"limitations\":\"No quantitative values, axes, or legend. The lower related-opportunities banner is grouped beneath the main pathways, rather than shown as a specific output of one pathway.\"},{\"label\":\"Box 3.1 — Technologies and methods that support data-driven decision-making and intermediation\",\"kind\":\"image\",\"bbox\":[0.205,0.507,0.908,0.916],\"summary\":\"Shaded two-column report box describing AI and machine learning, data-intensive analytics, smart devices, and IoT as technologies supporting data-driven decision-making and intermediation.\",\"details\":\"The box has two columns of prose. Left column heading: “Technology that supports data-intensive analytics: artificial intelligence, including machine learning.” It describes AI and ML uses, defines AI broadly, says ML is an application of AI, and notes that AI algorithms use large amounts of data. It reports a prediction that firms responsible for about 70 percent of economic output will have adopted at least one type of AI technology by 2030 (footnote marker a). It also discusses data-intensive analytics, processing data in different formats and locations, cloud, bio-inspired, or quantum computing, and the need to store and clean large datasets. Right column heading: “Technology that collects data and actions insights from analytics: smart devices and devices connected through the Internet of Things (IoT).” It describes sensors and monitors generating data; smart devices using machine-generated data, often with AI; IoT devices exchanging data on ground moisture, climate and air quality, health metrics, firm assets, and supply-chain movement; and potential applications in agriculture, health, manufacturing, and transportation. The visible final claim says IoT devices already exceed the number of internet users and are forecast to reach 25 billion, but the sentence is cut off at the page boundary (“by…”). The box is marked “(Box continues next page).”\",\"limitations\":\"This is a prose box, not a chart or table; no structured numerical series. The final forecast year or completion of the sentence is not visible on this page.\"}]}",
+  "elapsed_seconds": 8.928250300006766
+}

@@ -1,0 +1,60 @@
+{
+  "id": "38e7b6be4be4406fb6ec03909c5d7cdf",
+  "label": "20261116-123301-test-baseline-45143179:adv-test-29:step2",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 26454,
+  "maximum_output_tokens": 3500,
+  "images": [
+    {
+      "page": 230,
+      "path": "advanced/data/pages/p230.jpg",
+      "sha256": "ecfab48af7baf6a5c938572adf60ba2b4fe6f4c6484b2bc0d06e370d24b20e4b"
+    },
+    {
+      "page": 299,
+      "path": "advanced/data/pages/p299.jpg",
+      "sha256": "381ac1ece0cdc861f03fc4b2342092b1a9af5f42ded2b0f8ad092cf716bc9157"
+    },
+    {
+      "page": 38,
+      "path": "advanced/data/pages/p038.jpg",
+      "sha256": "bc417710ee043cf1b8c4eeb566072e91e6f66ef4f6eea0ce9420e05769bd6d88"
+    },
+    {
+      "page": 271,
+      "path": "advanced/data/pages/p271.jpg",
+      "sha256": "29da7b73e9f02bd9857e8813586dedca3603bde3d0ebf84aefa0df927d6e13bb"
+    },
+    {
+      "page": 288,
+      "path": "advanced/data/pages/p288.jpg",
+      "sha256": "02b1ef2c179df8156a7047bbf79127957423cfb021bf3f3faec9021a3f2215a6"
+    },
+    {
+      "page": 160,
+      "path": "advanced/data/pages/p160.jpg",
+      "sha256": "a0fe0974d4c06b0e7ff4dce1be6f5fbd8a4c2b098824dbd4dd152a7af7c32235"
+    }
+  ],
+  "instructions_sha256": "7b27220272435c850770154f165a9b99ffc1a1c1848fec729da980d6adec6535",
+  "usage": {
+    "input_tokens": 26454,
+    "input_tokens_details": {
+      "cache_write_tokens": 26451,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 26451
+      }
+    },
+    "output_tokens": 95,
+    "output_tokens_details": {
+      "reasoning_tokens": 9
+    },
+    "total_tokens": 26549
+  },
+  "response_id": "resp_018b028eb09f8109016afa96aaa43c87d2a68b244808e736e4",
+  "response_status": "completed",
+  "output_text": "{\"action\":\"search\",\"expression\":\"UK Biobank revoked consent in 2020 participants and number of previously shared research records deleted\",\"queries\":[\"UK Biobank 2020 participants revoked consent records deleted withdrawal\"],\"pages\":[],\"status\":\"abstain\",\"answer\":\"Insufficient evidence in the retrieved World Development Report 2021 pages to determine either number.\",\"citations\":[]}",
+  "elapsed_seconds": 11.226451599999564
+}

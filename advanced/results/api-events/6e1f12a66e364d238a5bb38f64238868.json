@@ -1,0 +1,45 @@
+{
+  "id": "6e1f12a66e364d238a5bb38f64238868",
+  "label": "20261116-123301-test-baseline-45143179:adv-test-28:step0",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 13499,
+  "maximum_output_tokens": 3500,
+  "images": [
+    {
+      "page": 194,
+      "path": "advanced/data/pages/p194.jpg",
+      "sha256": "11522ebf841b73357c03324198a19cca777227e562ea03b64960a51b374324ba"
+    },
+    {
+      "page": 221,
+      "path": "advanced/data/pages/p221.jpg",
+      "sha256": "c89cb4e3f952c80546ef37bc90f4eddcff08f400ec2f6efab8b0f3df2ffd2a77"
+    },
+    {
+      "page": 215,
+      "path": "advanced/data/pages/p215.jpg",
+      "sha256": "f16e1a988e4375dbd7b2a9766fe968067a39548feff1088eeb3861ed58690bf1"
+    }
+  ],
+  "instructions_sha256": "7b27220272435c850770154f165a9b99ffc1a1c1848fec729da980d6adec6535",
+  "usage": {
+    "input_tokens": 13499,
+    "input_tokens_details": {
+      "cache_write_tokens": 13496,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 13496
+      }
+    },
+    "output_tokens": 139,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 13638
+  },
+  "response_id": "resp_0bfdd6d397c0e55b016afa9672cf0087d283566bf21c964c60",
+  "response_status": "completed",
+  "output_text": "{\"action\":\"search\",\"expression\":\"Percentages of women and men lacking government-recognized proof of identity in 2020, by country income group\",\"queries\":[\"World Development Report 2021 proof of identity lack identity women men income group 2020\",\"World Development Report 2021 government-recognized proof of identity 2020 women\",\"WDR 2021 Figure identity documents income groups gender\"],\"pages\":[],\"status\":\"abstain\",\"answer\":\"Insufficient evidence in the retrieved material to determine the percentage of women and men lacking government-recognized proof of identity in each income group in 2020.\",\"citations\":[]}",
+  "elapsed_seconds": 8.490750099997967
+}

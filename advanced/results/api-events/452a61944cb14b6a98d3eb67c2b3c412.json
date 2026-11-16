@@ -1,0 +1,60 @@
+{
+  "id": "452a61944cb14b6a98d3eb67c2b3c412",
+  "label": "20261116-165446-r2-test-baseline-cbad637d:adv-r2-test-28:step2",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 24017,
+  "maximum_output_tokens": 3500,
+  "images": [
+    {
+      "page": 19,
+      "path": "advanced/data/pages/p019.jpg",
+      "sha256": "2b8306e3fb2697d650805294f72a5098fcb079b270a4703df9aef30510bdfaf0"
+    },
+    {
+      "page": 50,
+      "path": "advanced/data/pages/p050.jpg",
+      "sha256": "9311a1fac1fd01eef5219db4ff2f688769f389e4640c3b1cef473f53df207e38"
+    },
+    {
+      "page": 63,
+      "path": "advanced/data/pages/p063.jpg",
+      "sha256": "c20aca212a26540e3954ad159a207a49b48f30e699b5ad28b5efd83395f19a41"
+    },
+    {
+      "page": 9,
+      "path": "advanced/data/pages/p009.jpg",
+      "sha256": "09a3224fa1c703c6ecfdc5fcb466b7f5409db80fb2f8d71bb2ca444975459220"
+    },
+    {
+      "page": 280,
+      "path": "advanced/data/pages/p280.jpg",
+      "sha256": "4aadc833f980d1dea242f35dac82c758db3aa24c69f038c471ecaf6a81877b40"
+    },
+    {
+      "page": 348,
+      "path": "advanced/data/pages/p348.jpg",
+      "sha256": "6d1b2a53c0a0f2fd258bb628aee8091d8d9b6162c10c92cb8dc657c9b407fc51"
+    }
+  ],
+  "instructions_sha256": "7b27220272435c850770154f165a9b99ffc1a1c1848fec729da980d6adec6535",
+  "usage": {
+    "input_tokens": 24017,
+    "input_tokens_details": {
+      "cache_write_tokens": 24014,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 24014
+      }
+    },
+    "output_tokens": 210,
+    "output_tokens_details": {
+      "reasoning_tokens": 52
+    },
+    "total_tokens": 24227
+  },
+  "response_id": "resp_0355d7a05fd1edec016afad4ce9e2887d2b03fd5de21c9cad9",
+  "response_status": "completed",
+  "output_text": "{\"action\":\"search\",\"expression\":\"Equinix 2018 absolute greenhouse-gas emissions totals market basis and location basis, tonnes CO2 equivalent; difference\",\"queries\":[\"Equinix 2018 emissions market-based location-based absolute tonnes CO2e in World Development Report 2021\",\"Figure S5.2.1 greenhouse gas emissions data consumption Equinix 2018 market location basis\",\"Equinix greenhouse-gas emissions 2018 market-based location-based totals\"],\"pages\":[],\"status\":\"abstain\",\"answer\":\"Insufficient evidence in the retrieved World Development Report 2021 pages to establish Equinix’s 2018 market-basis and location-basis emissions totals or their difference.\",\"citations\":[]}",
+  "elapsed_seconds": 8.015014100004919
+}

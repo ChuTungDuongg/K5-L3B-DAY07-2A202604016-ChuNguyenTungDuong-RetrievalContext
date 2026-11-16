@@ -1,0 +1,35 @@
+{
+  "id": "dfe3a6bc164e4d3eab59050dc18cd243",
+  "label": "index:p128",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 4149,
+  "maximum_output_tokens": 6000,
+  "images": [
+    {
+      "page": 128,
+      "path": "advanced/data/pages/p128.jpg",
+      "sha256": "e5b2995190a4f52ff77ba128aff035773f4fae982922c4cf8cee059bb669f631"
+    }
+  ],
+  "instructions_sha256": "01d3a56b3c678b1acd37e506320a854b17dd9ddb13ece56a92b62990aeb80d41",
+  "usage": {
+    "input_tokens": 4149,
+    "input_tokens_details": {
+      "cache_write_tokens": 4146,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 4146
+      }
+    },
+    "output_tokens": 407,
+    "output_tokens_details": {
+      "reasoning_tokens": 42
+    },
+    "total_tokens": 4556
+  },
+  "response_id": "resp_05420524fef846c9016afa9065b52087d2a32c573490cc25d1",
+  "response_status": "completed",
+  "output_text": "{\"regions\":[{\"label\":\"Figure 3.7 — Risks to market structure and market power stemming from platform firms\",\"kind\":\"diagram\",\"bbox\":[0.117,0.613,0.91,0.923],\"summary\":\"Flow diagram showing how data inputs and data-related advantages can reinforce platform market power, concentration, and conglomeration, with effects varying by platform business model.\",\"details\":\"The diagram begins with “Data as an input into economic activity,” associated with potential platform sides: consumers; suppliers or service providers/“workforce” (where a product or service is provided by a third party); and advertisers (where the revenue model is advertising-based). An arrow leads to “Data give firms a competitive advantage, especially where”: data are proprietary or access is restricted; required data are less replicable (footnote a); and network effects are stronger. A plus sign indicates these conditions feed into both “Economies of scale associated with data” and “Economies of scope associated with data.” Scale points to a tendency toward increasing concentration within markets and entrenchment of market power; scope points to a tendency to conglomeration and ability to leverage market power between markets. A feedback loop states: “Greater market power may allow more data collection by firms because users have fewer alternatives,” with an arrow returning toward data as an input. A side note says effects, depending on the platform business model, can occur in consumer markets, markets for “labor,” and advertising markets. Source: WDR 2021 team. Footnote a: “Such data include observed and inferred data and data requiring frequent updating.”\",\"limitations\":\"No numerical values are presented. Diagram text is legible; the superscript footnote marker is rendered as “a”.\"}]}",
+  "elapsed_seconds": 6.554951099999016
+}

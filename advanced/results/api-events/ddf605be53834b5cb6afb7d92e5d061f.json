@@ -1,0 +1,45 @@
+{
+  "id": "ddf605be53834b5cb6afb7d92e5d061f",
+  "label": "20261116-121843-dev-baseline-488da010:adv-dev-18:step0",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 12904,
+  "maximum_output_tokens": 3500,
+  "images": [
+    {
+      "page": 206,
+      "path": "advanced/data/pages/p206.jpg",
+      "sha256": "828f4f88e58748363cc2e59ea9f01263c2941fab1269951c522ec833eb2e64bd"
+    },
+    {
+      "page": 9,
+      "path": "advanced/data/pages/p009.jpg",
+      "sha256": "09a3224fa1c703c6ecfdc5fcb466b7f5409db80fb2f8d71bb2ca444975459220"
+    },
+    {
+      "page": 190,
+      "path": "advanced/data/pages/p190.jpg",
+      "sha256": "cc0da77a7b4db6426186c331bcff9c67701873e68f21c77692d10a6e79ea2463"
+    }
+  ],
+  "instructions_sha256": "ea16e5e82aecd9d10ddbf9ad06d2474cc521d3d867a62d5379a957bcf9904631",
+  "usage": {
+    "input_tokens": 12904,
+    "input_tokens_details": {
+      "cache_write_tokens": 12901,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 12901
+      }
+    },
+    "output_tokens": 77,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 12981
+  },
+  "response_id": "resp_0692b0c88872d009016afa92da9a6c87d2b0a41795460f067c",
+  "response_status": "completed",
+  "output_text": "{\"action\":\"answer\",\"expression\":\"\",\"queries\":[],\"pages\":[206],\"status\":\"abstain\",\"answer\":\"Insufficient evidence. The report gives the global total of 231 terawatt-hours in 2018, but the cited evidence does not break that consumption down by country income group, including low-income countries.\",\"citations\":[]}",
+  "elapsed_seconds": 4.900382799998624
+}

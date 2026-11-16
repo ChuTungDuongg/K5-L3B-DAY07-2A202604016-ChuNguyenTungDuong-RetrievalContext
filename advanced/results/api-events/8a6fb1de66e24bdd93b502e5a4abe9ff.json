@@ -1,0 +1,45 @@
+{
+  "id": "8a6fb1de66e24bdd93b502e5a4abe9ff",
+  "label": "20261116-164337-r2-dev-baseline-8b5e219c:adv-dev-13:review0",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 12638,
+  "maximum_output_tokens": 3500,
+  "images": [
+    {
+      "page": 49,
+      "path": "advanced/data/pages/p049.jpg",
+      "sha256": "4fc676444eecbc0577e8c29ad0e5cc31554fc8ea3594492c4d3c8e602423066c"
+    },
+    {
+      "page": 242,
+      "path": "advanced/data/pages/p242.jpg",
+      "sha256": "fba327f656ab4e7bf20e80c39b059ffc882f29f9797d7e2143a90488bdd963d6"
+    },
+    {
+      "page": 95,
+      "path": "advanced/data/pages/p095.jpg",
+      "sha256": "a51a2c4a7d708d4d899b82d383ecbf49948612dadeea7fc87dfe5e94d3a0f117"
+    }
+  ],
+  "instructions_sha256": "0507604096aab315eb8e0306caca34acc2d0bedacd7d3b2ec25cc18ae985e348",
+  "usage": {
+    "input_tokens": 12638,
+    "input_tokens_details": {
+      "cache_write_tokens": 12635,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 12635
+      }
+    },
+    "output_tokens": 163,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 12801
+  },
+  "response_id": "resp_04758b268da7f3ab016afad17bd6ec87d2a0f04d2cdfec5d20",
+  "response_status": "completed",
+  "output_text": "{\"action\":\"answer\",\"expression\":\"\",\"queries\":[],\"pages\":[49],\"status\":\"answered\",\"answer\":\"Asking about symptoms enabled the research team to estimate rates of asymptomatic infection. Questions about work and travel outside the home helped measure how much household members adhered to social-distancing guidelines.\",\"citations\":[{\"page\":49,\"region_label\":\"Box 1.2, paragraph beginning “Asking questions about symptoms”\",\"bbox\":[0.115,0.398,0.447,0.497],\"quote\":\"Asking questions about symptoms enabled the research team to estimate rates of asymptomatic infection. Sociodemographic questions, especially those about work and travel outside the home, enabled the team to measure how much a household member adhered to social distancing guidelines.\"}]}",
+  "elapsed_seconds": 6.058268799999496
+}

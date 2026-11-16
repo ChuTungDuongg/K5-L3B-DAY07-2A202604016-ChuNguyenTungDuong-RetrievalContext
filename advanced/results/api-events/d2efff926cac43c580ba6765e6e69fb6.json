@@ -1,0 +1,35 @@
+{
+  "id": "d2efff926cac43c580ba6765e6e69fb6",
+  "label": "index:p340",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 3980,
+  "maximum_output_tokens": 6000,
+  "images": [
+    {
+      "page": 340,
+      "path": "advanced/data/pages/p340.jpg",
+      "sha256": "5ab508376a2b801f3118f2db06f8b02a93cabe51ffa6080195457c56a92706d1"
+    }
+  ],
+  "instructions_sha256": "01d3a56b3c678b1acd37e506320a854b17dd9ddb13ece56a92b62990aeb80d41",
+  "usage": {
+    "input_tokens": 3980,
+    "input_tokens_details": {
+      "cache_write_tokens": 3977,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 3977
+      }
+    },
+    "output_tokens": 461,
+    "output_tokens_details": {
+      "reasoning_tokens": 75
+    },
+    "total_tokens": 4441
+  },
+  "response_id": "resp_038320bf6c413054016afa9103c0d887d288acd8a3f9ef2089",
+  "response_status": "completed",
+  "output_text": "{\"regions\":[{\"label\":\"Figure 9.7 — Steps to integrating international and regional organizations into the national data system and collaborating across borders\",\"kind\":\"diagram\",\"bbox\":[0.2055,0.0872,0.9073,0.4878],\"summary\":\"Three overlapping, progressively positioned panels list ways to integrate international and regional organizations into national data systems: establishing fundamentals, initiating data flows, and optimizing the system.\",\"details\":\"The diagram has three overlapping rounded panels, arranged from a large orange panel at left/back to a green panel in the middle and a blue panel at right/front. No arrows are shown; the panel placement suggests successive stages, while the note says categories overlap and are illustrative.\\n\\n• Establishing fundamentals (orange): Funding — “Seek the support needed, including technical assistance, to improve weak parts of the data life cycle.” Human capital — “Increase technical capacity and data literacy.” Institutions — “Engage in regional data cooperation to save resources through economies of scale and facilitate peer-to-peer learning.”\\n• Initiating data flows (green): Data demand — “Introduce definitions and standards into national data systems that are comparable across countries.” Infrastructure policies — “Adopt common standards to enable cross-border data flows.”\\n• Optimizing the system (blue): Incentives — “Coordinate and align data production and information sharing across international organizations active domestically.” Institutions — “Help shape the priorities of the data agendas of international organizations.” Economic policies — “Participate in negotiation of trade agreements on data and in international and regional tax treaties.”\\nSource: WDR 2021 team. Note: Categories overlap and are meant to be illustrative.\",\"limitations\":\"The diagram presents illustrative categories, not a quantified sequence or measured outcomes. The panels overlap, and their ordering does not establish that every country follows the same progression.\"}]}",
+  "elapsed_seconds": 7.28134300000238
+}

@@ -1,0 +1,18 @@
+{
+  "python": "3.13.9",
+  "platform": "Windows-11-10.0.26100-SP0",
+  "packages": {
+    "pypdfium2": "5.13.0",
+    "Pillow": "13.0.0",
+    "sentence-transformers": "6.3.0",
+    "torch": "2.15.0",
+    "transformers": "5.23.0",
+    "psycopg": "3.3.8",
+    "openai": "3.51.0",
+    "python-dotenv": "1.2.4"
+  },
+  "embedding_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "embedding_revision": "e8f8c211226b894fcb81acc59f3b34ba3efd5f42",
+  "dimensions": 384,
+  "image_render": "1800-pixel long edge JPEG quality92"
+}

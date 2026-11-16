@@ -1,0 +1,35 @@
+{
+  "id": "16694f241a5b4243af027eb3c0ab231f",
+  "label": "index:p215",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 3949,
+  "maximum_output_tokens": 6000,
+  "images": [
+    {
+      "page": 215,
+      "path": "advanced/data/pages/p215.jpg",
+      "sha256": "f16e1a988e4375dbd7b2a9766fe968067a39548feff1088eeb3861ed58690bf1"
+    }
+  ],
+  "instructions_sha256": "01d3a56b3c678b1acd37e506320a854b17dd9ddb13ece56a92b62990aeb80d41",
+  "usage": {
+    "input_tokens": 3949,
+    "input_tokens_details": {
+      "cache_write_tokens": 3946,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 3946
+      }
+    },
+    "output_tokens": 427,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 4376
+  },
+  "response_id": "resp_0abfda7d6932fe55016afa90b5a8b887d28bda83e8856a8052",
+  "response_status": "completed",
+  "output_text": "{\"regions\":[{\"label\":\"Figure 6.4 — Progress on personal data protection legislation differs markedly across country income groups\",\"kind\":\"chart\",\"bbox\":[0.091,0.087,0.804,0.525],\"summary\":\"Radar chart comparing the percentage of countries in four income groups that had adopted 11 personal-data protection provisions by 2020. High-income countries generally score highest; low-income countries lowest.\",\"details\":\"Four overlaid radar series: High-income (blue), Upper-middle-income (green), Lower-middle-income (orange), and Low-income (purple). The radial scale is 0–100, marked at 0, 20, 40, 60, 80, and 100. The 11 axes, clockwise from the top, are: Data protection law enacted; No exception to limitations on data collecting and processing by governments; Necessity and proportionality test for government exceptions; Purpose limitation requirement; Data minimization requirement; Data storage limitations; Requirements to incorporate privacy by design; Regulation of data sharing with third parties; Individual right to challenge accuracy and rectify personal data; Regulatory limitation on algorithmic decision-making; Individual right of redress to object to use of personal data; and Data protection authority created (the final axis returns toward the top). Approximate plotted comparisons visible: high-income countries reach about 80% for law enacted, purpose limitation, data storage limitations, and data-accuracy correction rights; the other groups are generally lower, with low-income countries near zero on several requirements. Values are not individually labeled, so precise percentages cannot be read reliably from the chart. Source: WDR 2021 team, based on World Bank, Global Data Regulation Survey. Note states that percentages refer to countries in each income group with good-practice legal and regulatory frameworks as of 2020.\",\"limitations\":\"Radar vertices are not numerically labeled; only the radial grid is labeled, so specific values beyond approximate visual readings should not be treated as exact. The printed legend gives the four income groups; the chart has 11 axes.\"}]}",
+  "elapsed_seconds": 7.33623880000232
+}

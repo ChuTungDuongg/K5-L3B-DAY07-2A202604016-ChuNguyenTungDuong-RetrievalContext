@@ -1,0 +1,35 @@
+{
+  "id": "dabd843429a2498f97de59167197b36f",
+  "label": "index:p080",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 4109,
+  "maximum_output_tokens": 6000,
+  "images": [
+    {
+      "page": 80,
+      "path": "advanced/data/pages/p080.jpg",
+      "sha256": "052cb7be0c92cfbb817a2d50736d16b6354a568b1ed3865686b2738c4b9740b7"
+    }
+  ],
+  "instructions_sha256": "01d3a56b3c678b1acd37e506320a854b17dd9ddb13ece56a92b62990aeb80d41",
+  "usage": {
+    "input_tokens": 4109,
+    "input_tokens_details": {
+      "cache_write_tokens": 4106,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 4106
+      }
+    },
+    "output_tokens": 495,
+    "output_tokens_details": {
+      "reasoning_tokens": 206
+    },
+    "total_tokens": 4604
+  },
+  "response_id": "resp_0adb0e3a99853aa3016afa9037eb7887d28d4a0236e8c84a07",
+  "response_status": "completed",
+  "output_text": "{\"regions\":[{\"label\":\"Figure 2.3 — Gaps in geospatial datasets are especially large in lower-income countries\",\"kind\":\"chart\",\"bbox\":[0.074,0.56,0.544,0.925],\"summary\":\"Grouped bar chart comparing the share of countries with gaps in three geospatial datasets across four income groups. Lower-income countries show the largest gaps in each dataset.\",\"details\":\"Vertical axis: “Share of countries with dataset gaps (%)”, from 0 to 100 with gridlines at 20-point intervals. Horizontal axis: “Datasets”; categories are Administrative boundaries, Addresses and locations, and National maps. Legend: Low-income (purple), Lower-middle-income (orange), Upper-middle-income (green), High-income (blue). Bar heights, read approximately from the plotted grid: Administrative boundaries—80%, 55%, 50%, 29%, respectively; Addresses and locations—100%, 89%, 90%, 61%; National maps—100%, 61%, 40%, 24%. Values are not printed on bars, so these are visual estimates. Source printed below: WDR 2021 team calculations, based on Open Knowledge Foundation, GODI (Global Open Data Index) database; URL and data link are printed.\",\"limitations\":\"Bar values are not labeled numerically; values above are approximate readings from the chart.\"}]}",
+  "elapsed_seconds": 8.636469500001112
+}

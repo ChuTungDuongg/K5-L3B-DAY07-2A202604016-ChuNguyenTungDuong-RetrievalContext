@@ -1,0 +1,55 @@
+{
+  "id": "b7aefdc24cd849b1b3b427040fe35e33",
+  "label": "20261116-164337-r2-dev-candidate-7d01ebc6:adv-dev-03:review0",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 22363,
+  "maximum_output_tokens": 3500,
+  "images": [
+    {
+      "page": 227,
+      "path": "advanced/data/pages/p227.jpg",
+      "sha256": "df18635d2ce807bb90a9feb16a147b04477be27460055770965f38dbbb63930a"
+    },
+    {
+      "page": 162,
+      "path": "advanced/data/pages/p162.jpg",
+      "sha256": "3c87eb79f59a0c83019e94b33de2758ae869eec16a9e7ea359fc6bc3f51ab34e"
+    },
+    {
+      "page": 220,
+      "path": "advanced/data/pages/p220.jpg",
+      "sha256": "f2b831a6844fece3e541c24a0b9c86e8f3173a5cce1b781e73828acc83c5f653"
+    },
+    {
+      "page": 226,
+      "path": "advanced/data/pages/p226.jpg",
+      "sha256": "739267cb582ade9654e95cf41967262b1f5c8d15e938a8fd460dcbf013ca0611"
+    },
+    {
+      "page": 229,
+      "path": "advanced/data/pages/p229.jpg",
+      "sha256": "65b955aa84f35ad2c908f92fcdc704d47cac5f52eeb1a575cd14cb7fd8ad3e00"
+    }
+  ],
+  "instructions_sha256": "0507604096aab315eb8e0306caca34acc2d0bedacd7d3b2ec25cc18ae985e348",
+  "usage": {
+    "input_tokens": 22363,
+    "input_tokens_details": {
+      "cache_write_tokens": 22360,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 22360
+      }
+    },
+    "output_tokens": 206,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 22569
+  },
+  "response_id": "resp_0370da6ba80cad6d016afad0ec72d487d2aaa87fb55a687466",
+  "response_status": "completed",
+  "output_text": "{\"action\":\"answer\",\"expression\":\"73 - 17 = 56 points\",\"queries\":[],\"pages\":[227],\"status\":\"answered\",\"answer\":\"In the Global row, e-commerce and e-transactions scores 73, which is moderate; private intent data scores 17, which is basic. The difference is 56 points.\",\"citations\":[{\"page\":227,\"region_label\":\"Table 6.1, Global row, E-commerce and e-transactions and Private intent data columns\",\"bbox\":[0.093,0.126,0.916,0.348],\"quote\":\"Global 56 44 38 73 50 17\"},{\"page\":227,\"region_label\":\"Table 6.1, note below table, regulatory-framework color-level key\",\"bbox\":[0.093,0.328,0.916,0.348],\"quote\":\"moderate level (scores of 50–75) ... basic level (scores below 25).\"}]}",
+  "elapsed_seconds": 8.613669499995012
+}

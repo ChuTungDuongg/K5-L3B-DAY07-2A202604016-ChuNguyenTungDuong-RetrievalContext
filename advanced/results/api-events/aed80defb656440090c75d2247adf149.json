@@ -1,0 +1,45 @@
+{
+  "id": "aed80defb656440090c75d2247adf149",
+  "label": "20261116-123301-test-baseline-45143179:adv-test-09:step0",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 13499,
+  "maximum_output_tokens": 3500,
+  "images": [
+    {
+      "page": 91,
+      "path": "advanced/data/pages/p091.jpg",
+      "sha256": "a531e71f4c3916711ce11d7a444b0e678219cfd7891d6475ae28ec7157e17506"
+    },
+    {
+      "page": 93,
+      "path": "advanced/data/pages/p093.jpg",
+      "sha256": "a175f4ed061df69d3e9956e5b8ceab93cf91929eb38a2f2e75668327c9a6cf3f"
+    },
+    {
+      "page": 332,
+      "path": "advanced/data/pages/p332.jpg",
+      "sha256": "eef264c350fd511c735956fb0cb0af42227704562b41feced993e1bde0a73ed0"
+    }
+  ],
+  "instructions_sha256": "7b27220272435c850770154f165a9b99ffc1a1c1848fec729da980d6adec6535",
+  "usage": {
+    "input_tokens": 13499,
+    "input_tokens_details": {
+      "cache_write_tokens": 13496,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 13496
+      }
+    },
+    "output_tokens": 226,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 13725
+  },
+  "response_id": "resp_0c315a6f049bfd28016afa95d83a8487d29faaf4b92f2bcad6",
+  "response_status": "completed",
+  "output_text": "{\"action\":\"answer\",\"expression\":\"\",\"queries\":[],\"pages\":[91],\"status\":\"answered\",\"answer\":\"Figure 2.11 gives NSOs and other government agencies distinct governance priorities. For NSOs, it emphasizes protecting the statistical office’s independence through laws and institutional arrangements, and keeping statistical laws up to date. For other agencies, it emphasizes clearly assigning roles, mandates, and responsibilities across the data life cycle. The figure notes that its categories simplify policies that may span multiple actors and barriers.\",\"citations\":[{\"page\":91,\"region_label\":\"Figure 2.11, Governance column, including NSO and other-government-agency rows and figure note\",\"bbox\":[0.09,0.36,0.9,0.91],\"quote\":\"NSOs: Ensure that NSO independence is anchored in laws and institutional setup; prevent statistical laws from becoming outdated. Other government agencies: Assign clear roles, mandates, and responsibilities along the data life cycle for government agencies. Note: Many policies span several actors and barriers but are placed into one box here for simplification.\"}]}",
+  "elapsed_seconds": 6.005156799998076
+}

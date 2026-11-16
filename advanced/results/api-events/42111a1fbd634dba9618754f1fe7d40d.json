@@ -1,0 +1,45 @@
+{
+  "id": "42111a1fbd634dba9618754f1fe7d40d",
+  "label": "20261116-165446-r2-test-baseline-cbad637d:adv-r2-test-14:review0",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 12686,
+  "maximum_output_tokens": 3500,
+  "images": [
+    {
+      "page": 195,
+      "path": "advanced/data/pages/p195.jpg",
+      "sha256": "32822f716bbf097f12878fb6788686763d8624279aba410a267e9ca32d18d60a"
+    },
+    {
+      "page": 194,
+      "path": "advanced/data/pages/p194.jpg",
+      "sha256": "11522ebf841b73357c03324198a19cca777227e562ea03b64960a51b374324ba"
+    },
+    {
+      "page": 9,
+      "path": "advanced/data/pages/p009.jpg",
+      "sha256": "09a3224fa1c703c6ecfdc5fcb466b7f5409db80fb2f8d71bb2ca444975459220"
+    }
+  ],
+  "instructions_sha256": "0507604096aab315eb8e0306caca34acc2d0bedacd7d3b2ec25cc18ae985e348",
+  "usage": {
+    "input_tokens": 12686,
+    "input_tokens_details": {
+      "cache_write_tokens": 12683,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 12683
+      }
+    },
+    "output_tokens": 234,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 12920
+  },
+  "response_id": "resp_03a09b8e933cb430016afad3cc9d6c87d28596531a629ac43f",
+  "response_status": "completed",
+  "output_text": "{\"action\":\"answer\",\"expression\":\"\",\"queries\":[],\"pages\":[195],\"status\":\"answered\",\"answer\":\"High-income countries are the only net importer of workers with disruptive technology skills. Upper-middle-income countries have the largest net outflow. In that group, mean nominal monthly ICT earnings are about US$850, versus about US$270 in low-income countries—roughly three times as high.\",\"citations\":[{\"page\":195,\"region_label\":\"Figure B5.1.2, panel a: bars and income-group labels\",\"bbox\":[0.115,0.183,0.415,0.472],\"quote\":\"High-income has a positive net-flow bar; the other three income groups have negative bars, with Upper-middle-income the largest negative.\"},{\"page\":195,\"region_label\":\"Figure B5.1.2, panel b: earnings bars and income-group labels\",\"bbox\":[0.47,0.183,0.778,0.472],\"quote\":\"Upper-middle-income is about US$850 and Low-income is about US$270 in mean nominal monthly earnings of ICT employees.\"}]}",
+  "elapsed_seconds": 5.23129820000031
+}

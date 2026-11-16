@@ -1,0 +1,35 @@
+{
+  "id": "4e814f339603420db22daee2fd8ec98c",
+  "label": "index:p293",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 4070,
+  "maximum_output_tokens": 6000,
+  "images": [
+    {
+      "page": 293,
+      "path": "advanced/data/pages/p293.jpg",
+      "sha256": "f01f12774cb1ad44a633e930dfcb4f2ae994951fa290f6b3627f09df6b9cb502"
+    }
+  ],
+  "instructions_sha256": "01d3a56b3c678b1acd37e506320a854b17dd9ddb13ece56a92b62990aeb80d41",
+  "usage": {
+    "input_tokens": 4070,
+    "input_tokens_details": {
+      "cache_write_tokens": 4067,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 4067
+      }
+    },
+    "output_tokens": 520,
+    "output_tokens_details": {
+      "reasoning_tokens": 142
+    },
+    "total_tokens": 4590
+  },
+  "response_id": "resp_042c4cf76a0e0ce9016afa90eb117087d2b7e56228ddc4e709",
+  "response_status": "completed",
+  "output_text": "{\"regions\":[{\"label\":\"Figure 8.3\",\"kind\":\"chart\",\"bbox\":[0.093,0.087,0.928,0.46],\"summary\":\"Two-panel bar chart comparing data-governance entity status and type across country income groups. No low-income countries have an entity; most entities are part of another government institution.\",\"details\":\"Title: “No low-income and few lower-middle-income countries have a separate data governance entity; most embed them in another government institution.” Panel a, “Share of countries with a data governance entity, by country income group”: vertical axis is Percent, 0–60. Legend: blue = In progress or planned; orange = Established. Values shown above bars: Low-income 0 and 0; Lower-middle-income 4 and 10; Upper-middle-income 7 and 18; High-income 8 and 53, respectively. Panel b, “Type of data governance entity, by country income group”: vertical axis is Percent, 0–100. Legend: blue = Part of another government institution; orange = Separate data governance agency. Stacked-bar values: Lower-middle-income 100% part of another institution, 0% separate agency; Upper-middle-income 71% part of another institution and 29% separate agency; High-income 44% part of another institution and 56% separate agency. Source: WDR 2021 team calculations based on World Bank, DGSS dataset. Note: Panel a covers 198 economies; entities include separate agencies and units within another institution. Panel b covers 58 countries whose entity is established or in process; low-income countries are omitted because none has a data governance entity.\",\"limitations\":\"Values are printed as whole-number percentages; the figure does not provide underlying country counts for each bar.\"}]}",
+  "elapsed_seconds": 7.985930900002131
+}

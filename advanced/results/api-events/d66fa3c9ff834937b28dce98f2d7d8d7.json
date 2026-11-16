@@ -1,0 +1,35 @@
+{
+  "id": "d66fa3c9ff834937b28dce98f2d7d8d7",
+  "label": "index:p162",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 4174,
+  "maximum_output_tokens": 6000,
+  "images": [
+    {
+      "page": 162,
+      "path": "advanced/data/pages/p162.jpg",
+      "sha256": "3c87eb79f59a0c83019e94b33de2758ae869eec16a9e7ea359fc6bc3f51ab34e"
+    }
+  ],
+  "instructions_sha256": "01d3a56b3c678b1acd37e506320a854b17dd9ddb13ece56a92b62990aeb80d41",
+  "usage": {
+    "input_tokens": 4174,
+    "input_tokens_details": {
+      "cache_write_tokens": 4171,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 4171
+      }
+    },
+    "output_tokens": 694,
+    "output_tokens_details": {
+      "reasoning_tokens": 74
+    },
+    "total_tokens": 4868
+  },
+  "response_id": "resp_0006827fe2daa6ad016afa907deb8087d28bc0e2419a44f1b6",
+  "response_status": "completed",
+  "output_text": "{\"regions\":[{\"label\":\"Table 4.1 — Selected research gaps to be addressed to advance the use of private intent data for development\",\"kind\":\"table\",\"bbox\":[0.084,0.27,0.907,0.93],\"summary\":\"Two-column table listing seven research areas and example research questions about advancing the use of private intent data for development. Alternating pale-green row shading; no numeric data.\",\"details\":\"Columns: “Research area” and “Examples of research gaps.” Rows and visible questions:\\n• Societal impacts — ensuring algorithmic policy making leads to fair outcomes; increasing transparency and interpretability of policy predictions using private intent data; safeguarding algorithms against manipulation; trade-offs between granularity and precision and the optimal mix for targeting development programs.\\n• Quality standards — how standards can be created, agreed on, updated, and communicated to the development community, and who should participate; standards for accuracy and precision in frontier applications using private intent data or combining public and private intent data so policy makers can trust and use results.\\n• External validityᵃ — promise of building models in data-rich countries and applying them in data-limited countries; avoiding data profiling and discrimination when using pre-trained models from higher-income countries for novel development uses; extent to which applications combining public intent survey data and private intent data can predict values calculated from within-country census data.\\n• Machine learning — how machine-learning approaches and spatial feature selection should change for specialized development-policy tasks; which features best predict spatial variation in development outcomes across contexts and the trade-offs between predictive accuracy and cost.\\n• Training and validation data — required volume and approach for collecting public intent data to calibrate and validate machine-learning algorithms combining public and private intent data.\\n• Deidentificationᵇ — how methods should change to protect individuals and companies when private intent data are used for public benefit; effects of spatial deidentification of public intent data on accuracy and precision of applications using it to calibrate and validate algorithms that combine public and private intent data.\\n• Capturing longitudinal change — differences in accuracy and precision between estimating longitudinal change and cross-sectional predictions of the same outcome; features that best predict longitudinal change; ensuring stability over time of algorithms predicting policy-outcome changes; effects of satellite imagery spatial, spectral, and temporal resolution on prediction accuracy and precision when survey data are combined with imagery-derived spatial features; whether effects vary with satellite imagery grid size used to extract features.\\nFootnotes: ᵃ External validity means findings from one location holding true in another. ᵇ “Deidentification” is used instead of anonymization because data may become identifiable as computing and machine learning advance, so may never be truly anonymized. ᶜ “Spectral” refers to different wavelengths; satellite images typically have multiple bands capturing different spectral ranges.\",\"limitations\":\"The table contains research questions rather than measured results; it provides no numerical values or units. Superscript footnote markers are reproduced as shown.\"}]}",
+  "elapsed_seconds": 9.518006199999945
+}

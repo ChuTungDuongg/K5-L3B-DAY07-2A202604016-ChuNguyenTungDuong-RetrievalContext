@@ -1,0 +1,45 @@
+{
+  "id": "06693e9620a24cc4bde080329ce847d4",
+  "label": "20261116-123301-test-baseline-45143179:adv-test-10:step0",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 13053,
+  "maximum_output_tokens": 3500,
+  "images": [
+    {
+      "page": 259,
+      "path": "advanced/data/pages/p259.jpg",
+      "sha256": "fdce7e6889dfccd6c3ebb5fdca98a4b97740cf82b8c30f5a082d453dcdfb27f1"
+    },
+    {
+      "page": 261,
+      "path": "advanced/data/pages/p261.jpg",
+      "sha256": "2fe86fa0726e9bb7af3a666f157232f254bf5814da46cf66d481ecf7d3a8f1fc"
+    },
+    {
+      "page": 262,
+      "path": "advanced/data/pages/p262.jpg",
+      "sha256": "9bfb506bb3bca47ba92bfbed46bd3d474313fbd7fbba2fa567964af8ab15087a"
+    }
+  ],
+  "instructions_sha256": "7b27220272435c850770154f165a9b99ffc1a1c1848fec729da980d6adec6535",
+  "usage": {
+    "input_tokens": 13053,
+    "input_tokens_details": {
+      "cache_write_tokens": 13050,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 13050
+      }
+    },
+    "output_tokens": 186,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 13239
+  },
+  "response_id": "resp_01bc9c712d148a06016afa95de653487d2b1ea8b77bc2177cd",
+  "response_status": "completed",
+  "output_text": "{\"action\":\"answer\",\"expression\":\"\",\"queries\":[],\"pages\":[259],\"status\":\"answered\",\"answer\":\"The domestic-processing branch requires broad requirements to use domestic servers for data processing; its example is the Russian Federation’s processing of personal data. By contrast, the open-transfers model’s key requirement is no a priori mandatory requirements, relying instead on private-sector accountability based on voluntary standards.\",\"citations\":[{\"page\":259,\"region_label\":\"Figure 7.5 — Three distinct approaches to handling cross-border data flows\",\"bbox\":[0.093,0.472,0.898,0.929],\"quote\":\"Domestic processing: Broad requirements to use domestic servers for data processing; Russian Federation: processing of personal data. Open transfers: No a priori mandatory requirements; private sector accountability based on voluntary standards. The figure places these along a spectrum from data closure to data openness.\"}]}",
+  "elapsed_seconds": 5.407929399996647
+}

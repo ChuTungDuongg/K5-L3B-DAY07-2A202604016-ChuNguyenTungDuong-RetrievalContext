@@ -1,0 +1,45 @@
+{
+  "id": "e40af36bb9e74a9890f7efd6eaea3b05",
+  "label": "20261116-123301-test-baseline-45143179:adv-test-07:step0",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 12933,
+  "maximum_output_tokens": 3500,
+  "images": [
+    {
+      "page": 54,
+      "path": "advanced/data/pages/p054.jpg",
+      "sha256": "49ac2c920d796423a5995e0d15d6072444f77db5b553fc4f8dd0c5a66fb0d818"
+    },
+    {
+      "page": 24,
+      "path": "advanced/data/pages/p024.jpg",
+      "sha256": "f899ff817b2bfa278622647fc79b6b22f19482e59c25048e7d6e154188baa5ac"
+    },
+    {
+      "page": 120,
+      "path": "advanced/data/pages/p120.jpg",
+      "sha256": "0b052a85da6db4810dc4f9ce9617a03e7af0a7133a66f417b46f188a5d340e23"
+    }
+  ],
+  "instructions_sha256": "7b27220272435c850770154f165a9b99ffc1a1c1848fec729da980d6adec6535",
+  "usage": {
+    "input_tokens": 12933,
+    "input_tokens_details": {
+      "cache_write_tokens": 12930,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 12930
+      }
+    },
+    "output_tokens": 151,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 13084
+  },
+  "response_id": "resp_00f480499edea5f9016afa95ccd90087d28d6822426e791c27",
+  "response_status": "completed",
+  "output_text": "{\"action\":\"answer\",\"expression\":\"\",\"queries\":[],\"pages\":[54],\"status\":\"answered\",\"answer\":\"The private-sector pathway’s positive effect (green) is **increased business opportunities**. Its three negative effects (red) are **market concentration, widening inequality, and discrimination**.\",\"citations\":[{\"page\":54,\"region_label\":\"Figure 1.3 — Three pathways along which data can foster development (diagram and color note)\",\"bbox\":[0.205,0.088,0.857,0.484],\"quote\":\"Note: Positive impacts are shown in green; negative impacts are shown in red. Increased business opportunities; Market concentration; Widening inequality; Discrimination.\"}]}",
+  "elapsed_seconds": 5.277120599996124
+}

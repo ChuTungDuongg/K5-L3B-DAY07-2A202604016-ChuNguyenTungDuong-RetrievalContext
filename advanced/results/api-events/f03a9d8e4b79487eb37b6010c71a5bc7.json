@@ -1,0 +1,35 @@
+{
+  "id": "f03a9d8e4b79487eb37b6010c71a5bc7",
+  "label": "index:p187",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 4238,
+  "maximum_output_tokens": 6000,
+  "images": [
+    {
+      "page": 187,
+      "path": "advanced/data/pages/p187.jpg",
+      "sha256": "6e34be834819adc77c6a8bb9363b769ee2b016a843289895fb1d3b7af1e2007d"
+    }
+  ],
+  "instructions_sha256": "01d3a56b3c678b1acd37e506320a854b17dd9ddb13ece56a92b62990aeb80d41",
+  "usage": {
+    "input_tokens": 4238,
+    "input_tokens_details": {
+      "cache_write_tokens": 4235,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 4235
+      }
+    },
+    "output_tokens": 672,
+    "output_tokens_details": {
+      "reasoning_tokens": 204
+    },
+    "total_tokens": 4910
+  },
+  "response_id": "resp_0f5e0969d9ab27f6016afa90965ca087d281e0a4102f59b431",
+  "response_status": "completed",
+  "output_text": "{\"regions\":[{\"label\":\"Figure 5.7\",\"kind\":\"chart\",\"bbox\":[0.093,0.087,0.438,0.343],\"summary\":\"Bar chart comparing the median monthly cost of 1 GB of data, as a percentage of GNI per capita, across income groups and the world. Low-income countries are far above the 2% affordability threshold.\",\"details\":\"Vertical axis: “Data cost (% of GNI per capita),” from 0 to 9. Horizontal categories: High-income, Upper-middle-income, Lower-middle-income, Low-income, and World. Approximate bar heights read from the chart are 0.2%, 0.9%, 1.7%, 8.6%, and 0.9%, respectively. A horizontal line marks the affordability threshold at 2%. The low-income bar is the only category clearly above the threshold; the lower-middle-income bar is just below it. Note states data are as of 2018, prices are median prices of economies in each group, and GNI means gross national income.\",\"limitations\":\"Bar values are not printed individually and are estimated from the plotted axis; exact values are not recoverable from the image.\"},{\"label\":\"Figure 5.8\",\"kind\":\"chart\",\"bbox\":[0.455,0.087,0.788,0.326],\"summary\":\"Country-level scatter plot shows monthly data use declining as average cost per user per GB rises relative to GNI per capita; the plotted relationship is strong (R² = 0.7637).\",\"details\":\"Horizontal axis: “Average cost per user per GB (% of GNI per capita),” spanning 0 to 3.0. Vertical axis: “GB usage per month,” spanning 0 to 7. Each orange circle represents a country. Points are concentrated at low costs, with usage varying broadly there; at higher costs, usage is generally low. A dotted downward-sloping fitted curve illustrates the inverse relationship. The chart reports R² = 0.7637. Note defines GB as gigabyte and GNI as gross national income.\",\"limitations\":\"Individual country identities and exact point values are not labeled; plotted values should not be read as precise data.\"}]}",
+  "elapsed_seconds": 9.671225999998569
+}

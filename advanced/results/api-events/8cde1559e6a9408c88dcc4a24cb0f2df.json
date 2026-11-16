@@ -1,0 +1,45 @@
+{
+  "id": "8cde1559e6a9408c88dcc4a24cb0f2df",
+  "label": "20261116-123301-test-baseline-45143179:adv-test-05:step0",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 12822,
+  "maximum_output_tokens": 3500,
+  "images": [
+    {
+      "page": 288,
+      "path": "advanced/data/pages/p288.jpg",
+      "sha256": "02b1ef2c179df8156a7047bbf79127957423cfb021bf3f3faec9021a3f2215a6"
+    },
+    {
+      "page": 50,
+      "path": "advanced/data/pages/p050.jpg",
+      "sha256": "9311a1fac1fd01eef5219db4ff2f688769f389e4640c3b1cef473f53df207e38"
+    },
+    {
+      "page": 287,
+      "path": "advanced/data/pages/p287.jpg",
+      "sha256": "af2b5d2958812f65da0587fc8a1c200bcae5fc7133b3c6b78d6859477f34d573"
+    }
+  ],
+  "instructions_sha256": "7b27220272435c850770154f165a9b99ffc1a1c1848fec729da980d6adec6535",
+  "usage": {
+    "input_tokens": 12822,
+    "input_tokens_details": {
+      "cache_write_tokens": 12819,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 12819
+      }
+    },
+    "output_tokens": 221,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 13043
+  },
+  "response_id": "resp_024f1ac211d19207016afa95c1c61087d281ec63b44daabdbd",
+  "response_status": "completed",
+  "output_text": "{\"action\":\"answer\",\"expression\":\"\",\"queries\":[],\"pages\":[288],\"status\":\"answered\",\"answer\":\"“Destroy or reuse” has two checks: keep records of destruction processes and verify that consent for use is still valid. By contrast, “Archive and preserve” calls for long-term organization and access: classify and catalog data so they can be found, include data dictionaries and notes on how the data were created, and maintain access, security, and integrity over time.\",\"citations\":[{\"page\":288,\"region_label\":\"Table 8.1, “Data management decisions along the data life cycle” (full table, including row and column headings)\",\"bbox\":[0.205,0.09,0.907,0.475],\"quote\":\"Archive and preserve — Classify and catalog data systematically so they can be found easily; include data dictionaries and notes on how data were created; maintain access to data and their security and integrity over time. Destroy or reuse — Keep records of destruction processes; verify that consent for use is still valid.\"}]}",
+  "elapsed_seconds": 5.533553799999936
+}

@@ -1,0 +1,45 @@
+{
+  "id": "e924a9a508c642ac9ebaf2a7bb098314",
+  "label": "20261116-165446-r2-test-baseline-cbad637d:adv-r2-test-13:review0",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 12787,
+  "maximum_output_tokens": 3500,
+  "images": [
+    {
+      "page": 180,
+      "path": "advanced/data/pages/p180.jpg",
+      "sha256": "457fe2ec419e39ac37918cbf59a9104f0753f13a99109bd66fc3f8f544ae1790"
+    },
+    {
+      "page": 185,
+      "path": "advanced/data/pages/p185.jpg",
+      "sha256": "1836c9518727d198d99a2832e670cba05ec83fe1769ae6cdecb748e4f69c827a"
+    },
+    {
+      "page": 9,
+      "path": "advanced/data/pages/p009.jpg",
+      "sha256": "09a3224fa1c703c6ecfdc5fcb466b7f5409db80fb2f8d71bb2ca444975459220"
+    }
+  ],
+  "instructions_sha256": "0507604096aab315eb8e0306caca34acc2d0bedacd7d3b2ec25cc18ae985e348",
+  "usage": {
+    "input_tokens": 12787,
+    "input_tokens_details": {
+      "cache_write_tokens": 12784,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 12784
+      }
+    },
+    "output_tokens": 279,
+    "output_tokens_details": {
+      "reasoning_tokens": 74
+    },
+    "total_tokens": 13066
+  },
+  "response_id": "resp_020b6bf16bb49b93016afad3bf522487d28d71fc0f6c3df982",
+  "response_status": "completed",
+  "output_text": "{\"action\":\"answer\",\"expression\":\"\",\"queries\":[],\"pages\":[180],\"status\":\"answered\",\"answer\":\"Estimated subscriptions per 100 persons: high-income—wireless about 130 and fixed about 35; low-income—wireless about 20 and fixed approximately 0. Only the high-income wireless bar exceeds 100. The measurement unit is broadband subscriptions per 100 persons, and the reference year is 2019.\",\"citations\":[{\"page\":180,\"region_label\":\"Figure 5.2 chart: vertical axis, income-group bars, legend, and note\",\"bbox\":[0.566,0.085,0.918,0.469],\"quote\":\"The axis is labeled “Number of broadband subscriptions per 100 persons”; the legend identifies Wireless and Fixed. The High-income bars are approximately 130 and 35, and the Low-income bars approximately 20 and 0. The note states: “Data are for 2019.”\"}]}",
+  "elapsed_seconds": 8.09063579999929
+}

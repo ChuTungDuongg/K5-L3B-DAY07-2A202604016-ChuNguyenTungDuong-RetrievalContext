@@ -1,0 +1,60 @@
+{
+  "id": "daee2c80c7f644d8baba0d08611e283f",
+  "label": "20261116-123301-test-baseline-45143179:adv-test-19:step1",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 25405,
+  "maximum_output_tokens": 3500,
+  "images": [
+    {
+      "page": 225,
+      "path": "advanced/data/pages/p225.jpg",
+      "sha256": "61d9fd2b772c407c26dd97e4498fe79cae79b0ade8a7283fb6317b1fc2a73bf2"
+    },
+    {
+      "page": 211,
+      "path": "advanced/data/pages/p211.jpg",
+      "sha256": "73e488d74a78131b4bba4d1b94152a1a7a306b460f708b2a24a6debef6e2d48e"
+    },
+    {
+      "page": 224,
+      "path": "advanced/data/pages/p224.jpg",
+      "sha256": "4feecc6616ebff4702ec71bb86eea894863e82d037b90aab323c6655bd44b0f4"
+    },
+    {
+      "page": 210,
+      "path": "advanced/data/pages/p210.jpg",
+      "sha256": "236109b06cc552e408755a6e5091421cc0d9fbf4ae3866dba3584a272d06e632"
+    },
+    {
+      "page": 300,
+      "path": "advanced/data/pages/p300.jpg",
+      "sha256": "e833ef7854057360f61cbbdd2f682468c69001e9b65c420629993197fbd4a6aa"
+    },
+    {
+      "page": 37,
+      "path": "advanced/data/pages/p037.jpg",
+      "sha256": "e9f7f789d84ec2ce93aadf4372cc4dee1a4455e617151efc1a705458aa8233a1"
+    }
+  ],
+  "instructions_sha256": "7b27220272435c850770154f165a9b99ffc1a1c1848fec729da980d6adec6535",
+  "usage": {
+    "input_tokens": 25405,
+    "input_tokens_details": {
+      "cache_write_tokens": 25402,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 25402
+      }
+    },
+    "output_tokens": 377,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 25782
+  },
+  "response_id": "resp_00cb08da9ac75c35016afa96321ab887d28f4e21b46ef14872",
+  "response_status": "completed",
+  "output_text": "{\"action\":\"answer\",\"expression\":\"\",\"queries\":[],\"pages\":[224,300],\"status\":\"answered\",\"answer\":\"Both aim to shift leverage away from data controllers and toward individuals or data contributors, but by different means. Personal-data portability gives individuals choice and control by enabling them to obtain and transfer their data to another collector or user; it is intended to reduce consumer-data lock-in and rebalance the relationship with controllers. A legally constituted data trust instead pools individuals’ legal rights in a shared intermediary, allowing them to negotiate collectively with larger controllers. Its trustees have a fiduciary duty to steward the data impartially, prudently, transparently, and with undivided loyalty to beneficiaries, following the trust’s governance rules.\",\"citations\":[{\"page\":224,\"region_label\":\"Paragraph headed “Requiring data portability” (right column)\",\"bbox\":[0.566,0.642,0.934,0.911],\"quote\":\"The right to personal data portability is designed to facilitate data transfers with the aim of increasing an individual’s choice and control over data about them. More fundamentally, the right to personal data portability is aimed at “rebalancing the relationship” between data generators/providers and data controllers (including data users and platforms) by mitigating the risk of locking in consumer data.\"},{\"page\":300,\"region_label\":\"Data-trust paragraph (left column)\",\"bbox\":[0.205,0.516,0.555,0.781],\"quote\":\"Trustees are legally required to steward data with impartiality, prudence, transparency, and undivided loyalty toward the trust’s beneficiaries, and in accordance with the trust’s internal rules of governance. ... individuals can pool the legal rights they have over their personal data within the framework of the trust and negotiate with larger data “controllers” from there.\"}]}",
+  "elapsed_seconds": 9.959575400003814
+}

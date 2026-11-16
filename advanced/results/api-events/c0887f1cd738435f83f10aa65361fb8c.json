@@ -1,0 +1,35 @@
+{
+  "id": "c0887f1cd738435f83f10aa65361fb8c",
+  "label": "index:p077",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 4117,
+  "maximum_output_tokens": 6000,
+  "images": [
+    {
+      "page": 77,
+      "path": "advanced/data/pages/p077.jpg",
+      "sha256": "c9eb2bc800a11b04206aa74e569a149be988cfbab9629a5b7fc3931bf4b929f8"
+    }
+  ],
+  "instructions_sha256": "01d3a56b3c678b1acd37e506320a854b17dd9ddb13ece56a92b62990aeb80d41",
+  "usage": {
+    "input_tokens": 4117,
+    "input_tokens_details": {
+      "cache_write_tokens": 4114,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 4114
+      }
+    },
+    "output_tokens": 274,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 4391
+  },
+  "response_id": "resp_095da7367b665132016afa90325ce887d28c7f28d6d7ad0f18",
+  "response_status": "completed",
+  "output_text": "{\"regions\":[{\"label\":\"Map 2.1 — Reducing poverty: Mapping pockets of poverty in Croatia allowed better targeting of antipoverty funds\",\"kind\":\"map\",\"bbox\":[0.456,0.087,0.906,0.656],\"summary\":\"Choropleth map of Croatian municipalities showing the percentage of the population living in poverty, with municipal boundaries and Zagreb marked as the national capital.\",\"details\":\"Croatia is subdivided into colored municipal areas. Legend, “% of population living in poverty”: 1–12 (dark green), 13–21 (green), 22–31 (yellow), 32–42 (orange), and 43–71 (red). A black star marks the national capital, Zagreb; boundary symbols distinguish international boundaries from municipality boundaries. Neighboring places labeled include Slovenia, Hungary, Serbia, Bosnia and Herzegovina, Montenegro, and Italy. Source: World Bank 2016a. Data at http://bit.do/WDR2021-Map-2_1. Map imprint: IBRD CRO45401 | MARCH 2021.\",\"limitations\":\"The map shows categorized municipal percentages; exact values for individual municipalities are not printed or legible. Colors and boundaries are visible, but the image does not provide a municipality name key.\"}]}",
+  "elapsed_seconds": 5.617922500001441
+}

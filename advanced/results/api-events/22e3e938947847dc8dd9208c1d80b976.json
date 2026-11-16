@@ -1,0 +1,45 @@
+{
+  "id": "22e3e938947847dc8dd9208c1d80b976",
+  "label": "20261116-164337-r2-dev-baseline-8b5e219c:adv-dev-09:review0",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 12770,
+  "maximum_output_tokens": 3500,
+  "images": [
+    {
+      "page": 220,
+      "path": "advanced/data/pages/p220.jpg",
+      "sha256": "f2b831a6844fece3e541c24a0b9c86e8f3173a5cce1b781e73828acc83c5f653"
+    },
+    {
+      "page": 219,
+      "path": "advanced/data/pages/p219.jpg",
+      "sha256": "4558f8d3445a2d314bcefec6b9d116ea445bdb4030fad22067d167258cb41d89"
+    },
+    {
+      "page": 9,
+      "path": "advanced/data/pages/p009.jpg",
+      "sha256": "09a3224fa1c703c6ecfdc5fcb466b7f5409db80fb2f8d71bb2ca444975459220"
+    }
+  ],
+  "instructions_sha256": "0507604096aab315eb8e0306caca34acc2d0bedacd7d3b2ec25cc18ae985e348",
+  "usage": {
+    "input_tokens": 12770,
+    "input_tokens_details": {
+      "cache_write_tokens": 12767,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 12767
+      }
+    },
+    "output_tokens": 199,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 12969
+  },
+  "response_id": "resp_0f0c74b97e7cc486016afad13155d087d28cc093cb389d6d1d",
+  "response_status": "completed",
+  "output_text": "{\"action\":\"answer\",\"expression\":\"\",\"queries\":[],\"pages\":[220],\"status\":\"answered\",\"answer\":\"Lower-middle-income countries have the highest adoption of technological neutrality of electronic communications. No. High-income countries have the highest adoption of legal recognition of electronic signatures.\",\"citations\":[{\"page\":220,\"region_label\":\"Figure 6.5 radar chart: technological neutrality axis and income-group legend\",\"bbox\":[0.08,0.083,0.52,0.39],\"quote\":\"At “Technological neutrality of electronic communications,” the lower-middle-income (orange) line extends farthest from the center.\"},{\"page\":220,\"region_label\":\"Figure 6.5 radar chart: legal recognition axis and income-group legend\",\"bbox\":[0.08,0.083,0.52,0.39],\"quote\":\"At “Legal recognition of electronic signatures,” the high-income (blue) line extends farthest from the center.\"}]}",
+  "elapsed_seconds": 8.347282199996698
+}

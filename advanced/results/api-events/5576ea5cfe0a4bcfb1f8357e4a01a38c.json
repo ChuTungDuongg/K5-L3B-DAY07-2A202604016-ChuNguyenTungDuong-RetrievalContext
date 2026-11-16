@@ -1,0 +1,45 @@
+{
+  "id": "5576ea5cfe0a4bcfb1f8357e4a01a38c",
+  "label": "20261116-165446-r2-test-baseline-cbad637d:adv-r2-test-06:step0",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 13811,
+  "maximum_output_tokens": 3500,
+  "images": [
+    {
+      "page": 83,
+      "path": "advanced/data/pages/p083.jpg",
+      "sha256": "0749930b2ee94306a46e9b99a8aae816d4c1b1489ce076774495d76a21b49e98"
+    },
+    {
+      "page": 84,
+      "path": "advanced/data/pages/p084.jpg",
+      "sha256": "712f3663cdb1c27a6ca472c14d7f88e5b501aeeadb3fe78e14251c5f07a0c4a6"
+    },
+    {
+      "page": 82,
+      "path": "advanced/data/pages/p082.jpg",
+      "sha256": "785a666cbc6e359b9c9e17ed8e4e28d1a27ace95d20d5af79fd4c5a2c31f4d27"
+    }
+  ],
+  "instructions_sha256": "7b27220272435c850770154f165a9b99ffc1a1c1848fec729da980d6adec6535",
+  "usage": {
+    "input_tokens": 13811,
+    "input_tokens_details": {
+      "cache_write_tokens": 13808,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 13808
+      }
+    },
+    "output_tokens": 277,
+    "output_tokens_details": {
+      "reasoning_tokens": 89
+    },
+    "total_tokens": 14088
+  },
+  "response_id": "resp_0fb03ec16930177d016afad360de4087d29016a797044cc2ca",
+  "response_status": "completed",
+  "output_text": "{\"action\":\"answer\",\"expression\":\"75% - 37% = 38 percentage points\",\"queries\":[],\"pages\":[83],\"status\":\"answered\",\"answer\":\"For low-income countries, 37% of published data are available in machine-readable format, versus 75% in nonproprietary format—a nonproprietary-minus-machine-readable gap of 38 percentage points. The percentages measure the share of published data, averaged by country income group.\",\"citations\":[{\"page\":83,\"region_label\":\"Table 2.1, including source and note\",\"bbox\":[0.09,0.55,0.8,0.75],\"quote\":\"Available in machine readable format (%): Low-income 37. Available in nonproprietary format (%): Low-income 75. Note: All other indicators are the percentage of published data averaged by country income group.\"}]}",
+  "elapsed_seconds": 6.845033700003114
+}

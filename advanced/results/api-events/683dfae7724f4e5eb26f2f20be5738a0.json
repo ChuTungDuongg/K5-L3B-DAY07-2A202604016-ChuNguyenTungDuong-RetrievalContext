@@ -1,0 +1,35 @@
+{
+  "id": "683dfae7724f4e5eb26f2f20be5738a0",
+  "label": "index:p301",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 3986,
+  "maximum_output_tokens": 6000,
+  "images": [
+    {
+      "page": 301,
+      "path": "advanced/data/pages/p301.jpg",
+      "sha256": "d077df9d1484c51a8c664d91352053b9e1a14a53a2ac961603592f156f5641ea"
+    }
+  ],
+  "instructions_sha256": "01d3a56b3c678b1acd37e506320a854b17dd9ddb13ece56a92b62990aeb80d41",
+  "usage": {
+    "input_tokens": 3986,
+    "input_tokens_details": {
+      "cache_write_tokens": 3983,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 3983
+      }
+    },
+    "output_tokens": 276,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 4262
+  },
+  "response_id": "resp_09438d0200c27bcb016afa90f3134487d2be8d6bbb51dbd573",
+  "response_status": "completed",
+  "output_text": "{\"regions\":[{\"label\":\"Figure 8.7 — Features of well-functioning institutions for effective data governance\",\"kind\":\"diagram\",\"bbox\":[0.093,0.087,0.779,0.423],\"summary\":\"Six interlocking puzzle pieces identify institutional features for effective data governance, grouped under a performance-enhancing environment.\",\"details\":\"The diagram is a connected, six-piece puzzle. At left, a bracket-like outline labels the overall environment “Performance-enhancing environment.” The top row contains: (1) Coordination — “Create incentives to encourage collaborative and user-centric decision-making.” (2) Leadership — “Mobilize data champions in positions of power to create a culture of data sharing and use.” (3) Multistakeholder governance — “Sustain outcomes through inclusive and legitimate stakeholder engagement.” The bottom row contains: (4) Transparency — “Build trust by promoting participation and accountability in policy making.” (5) Functional autonomy — “Promote institutional independence and autonomy for effective performance.” (6) Data literacy — “Invest in increasing technical capacity, resources, and data skills for civil servants.” Source printed below: “WDR 2021 team.”\",\"limitations\":\"No quantitative scale or values are shown; the puzzle-piece layout conveys a set of connected features, not a specified sequence or ranking.\"}]}",
+  "elapsed_seconds": 5.1255409000004875
+}

@@ -1,0 +1,35 @@
+{
+  "id": "c539f7ed625b47a7bd95413605959781",
+  "label": "index:p105",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 3809,
+  "maximum_output_tokens": 6000,
+  "images": [
+    {
+      "page": 105,
+      "path": "advanced/data/pages/p105.jpg",
+      "sha256": "450dd1abd524becf7c89b0036ec5232cb4139f2c53bea380255a294e485229c1"
+    }
+  ],
+  "instructions_sha256": "01d3a56b3c678b1acd37e506320a854b17dd9ddb13ece56a92b62990aeb80d41",
+  "usage": {
+    "input_tokens": 3809,
+    "input_tokens_details": {
+      "cache_write_tokens": 3806,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 3806
+      }
+    },
+    "output_tokens": 724,
+    "output_tokens_details": {
+      "reasoning_tokens": 153
+    },
+    "total_tokens": 4533
+  },
+  "response_id": "resp_0c6d5be43ab64362016afa9051591c87d2a39fd8cf08e2c44b",
+  "response_status": "completed",
+  "output_text": "{\"regions\":[{\"label\":\"Figure S2.1.1\",\"kind\":\"chart\",\"bbox\":[0.093,0.474,0.798,0.916],\"summary\":\"Female genital mutilation prevalence among women ages 15–49, by country and country income level, 2010–19; values range from 94.5% in Guinea to 0.3% in Uganda.\",\"details\":\"Vertical bar chart. Y-axis: “Share of women subjected to FGM (%)”, 0–100 with ticks at 0, 25, 50, 75, and 100. Countries are shown in descending prevalence order; values printed above bars: Guinea 94.5; Djibouti 94.0; Mali 88.6; Egypt, Arab Rep. 87.2; Sudan 86.6; Sierra Leone 83.0; Eritrea 83.0; Burkina Faso 75.8; Gambia, The 75.7; Mauritania 66.6; Ethiopia 65.2; Guinea-Bissau 44.9; Liberia 44.4; Chad 38.4; Côte d’Ivoire 36.7; Central African Republic 24.2; Senegal 23.3; Kenya 21.0; Nigeria 19.5; Yemen, Rep. 18.5; Maldives 12.9; Tanzania 10.0; Benin 9.2; Iraq 7.4; Ghana 3.8; Togo 3.1; Niger 2.0; Uganda 0.3. Legend: green = low-income; orange = lower-middle-income; purple = upper-middle-income. Source note cites Kashiwase and Pirlea 2019; World Bank World Development Indicators, drawing on Demographic and Health Surveys, Multiple Indicator Cluster Surveys, and UNICEF. Note defines FGM and UNICEF.\",\"limitations\":\"Values are reproduced as printed above the bars. The chart title says 2010–19; no individual year is provided for each country.\"},{\"label\":\"Spotlight 2.1 header illustration\",\"kind\":\"image\",\"bbox\":[0.076,0.092,0.276,0.251],\"summary\":\"Stylized radio transmission tower with concentric signal rings, clouds, and a hill, accompanying the spotlight on deploying data to curtail violence against women and girls.\",\"details\":\"A gray lattice communications tower rises from layered green hills; a small dark point at its top is surrounded by several concentric circular signal lines. A small cloud appears to the right. The illustration sits beside the “Spotlight 2.1” heading.\",\"limitations\":\"Illustrative artwork; it contains no visible data or labels.\"}]}",
+  "elapsed_seconds": 9.560732300000382
+}

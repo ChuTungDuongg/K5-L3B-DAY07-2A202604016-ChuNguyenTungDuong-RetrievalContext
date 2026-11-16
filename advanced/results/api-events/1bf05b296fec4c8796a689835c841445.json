@@ -1,0 +1,45 @@
+{
+  "id": "1bf05b296fec4c8796a689835c841445",
+  "label": "20261116-122648-dev-baseline-91fbfbb2:adv-dev-09:step0",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 13089,
+  "maximum_output_tokens": 3500,
+  "images": [
+    {
+      "page": 220,
+      "path": "advanced/data/pages/p220.jpg",
+      "sha256": "f2b831a6844fece3e541c24a0b9c86e8f3173a5cce1b781e73828acc83c5f653"
+    },
+    {
+      "page": 219,
+      "path": "advanced/data/pages/p219.jpg",
+      "sha256": "4558f8d3445a2d314bcefec6b9d116ea445bdb4030fad22067d167258cb41d89"
+    },
+    {
+      "page": 9,
+      "path": "advanced/data/pages/p009.jpg",
+      "sha256": "09a3224fa1c703c6ecfdc5fcb466b7f5409db80fb2f8d71bb2ca444975459220"
+    }
+  ],
+  "instructions_sha256": "7b27220272435c850770154f165a9b99ffc1a1c1848fec729da980d6adec6535",
+  "usage": {
+    "input_tokens": 13089,
+    "input_tokens_details": {
+      "cache_write_tokens": 13086,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 13086
+      }
+    },
+    "output_tokens": 133,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 13222
+  },
+  "response_id": "resp_0b4a58d1ac49e1b2016afa945ac76487d2acea2505815b175c",
+  "response_status": "completed",
+  "output_text": "{\"action\":\"answer\",\"expression\":\"\",\"queries\":[],\"pages\":[220],\"status\":\"answered\",\"answer\":\"Lower-middle-income countries have the highest adoption of technological neutrality of electronic communications. No—the highest adoption of legal recognition of electronic signatures is among high-income countries.\",\"citations\":[{\"page\":220,\"region_label\":\"Figure 6.5, radar chart and legend\",\"bbox\":[0.083,0.086,0.535,0.477],\"quote\":\"Technological neutrality: the orange lower-middle-income line reaches furthest; legal recognition of electronic signatures: the blue high-income line reaches furthest.\"}]}",
+  "elapsed_seconds": 4.708186000003479
+}

@@ -1,0 +1,35 @@
+{
+  "id": "41f3f3a79a1646e2aa19a0a3b7a330f1",
+  "label": "index:p070",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 3978,
+  "maximum_output_tokens": 6000,
+  "images": [
+    {
+      "page": 70,
+      "path": "advanced/data/pages/p070.jpg",
+      "sha256": "a3295143e172d1ccbcbd8bee6e9ca9738fe505280b476316bba7eff76557b4b5"
+    }
+  ],
+  "instructions_sha256": "01d3a56b3c678b1acd37e506320a854b17dd9ddb13ece56a92b62990aeb80d41",
+  "usage": {
+    "input_tokens": 3978,
+    "input_tokens_details": {
+      "cache_write_tokens": 3975,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 3975
+      }
+    },
+    "output_tokens": 538,
+    "output_tokens_details": {
+      "reasoning_tokens": 208
+    },
+    "total_tokens": 4516
+  },
+  "response_id": "resp_057ecf44ee80e1ea016afa9029482487d28a74732b266666f3",
+  "response_status": "completed",
+  "output_text": "{\"regions\":[{\"label\":\"Figure S1.2.1\",\"kind\":\"chart\",\"bbox\":[0.567,0.465,0.923,0.704],\"summary\":\"Grouped horizontal bars compare the composition of DSSI-eligible countries’ bilateral debt by creditor in 2013 and 2019; China’s share rose markedly while the share of other G-20 bilateral creditors fell.\",\"details\":\"Title: “In six years, the composition of debt has shifted dramatically.” Subtitle: “DSSI-eligible countries’ bilateral debt: Composition of creditors, 2013 and 2019.” Horizontal axis: “% of bilateral debt,” from 0 to 60, with ticks at 0, 10, 20, 30, 40, 50, and 60. Legend: blue = 2013; green = 2019. Categories and approximate bar endpoints (%): China, 38 (2013) and 57 (2019); Other G-20 bilateral creditors, 29 and 18; Japan, 13 and 13; India, 4 and 4; Other bilateral creditors, 15 and 9. Source: World Bank, Debt Data (dashboard); source note also provides a data link. Note refers readers to the World Bank’s External Debt Reporting System information and expands DSSI as Debt Service Suspension Initiative.\",\"limitations\":\"Bar values are not printed numerically; values above are approximate readings from the axis and bar endpoints. The 2019 China bar ends just below 60, approximately 57.\"}]}",
+  "elapsed_seconds": 8.840341800001625
+}

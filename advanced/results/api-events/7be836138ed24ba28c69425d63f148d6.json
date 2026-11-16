@@ -1,0 +1,35 @@
+{
+  "id": "7be836138ed24ba28c69425d63f148d6",
+  "label": "index:p076",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 4253,
+  "maximum_output_tokens": 6000,
+  "images": [
+    {
+      "page": 76,
+      "path": "advanced/data/pages/p076.jpg",
+      "sha256": "18647768132dc77cac67d5ececc9cf6d9b58b78d6d180e88930fae070afdc2ad"
+    }
+  ],
+  "instructions_sha256": "01d3a56b3c678b1acd37e506320a854b17dd9ddb13ece56a92b62990aeb80d41",
+  "usage": {
+    "input_tokens": 4253,
+    "input_tokens_details": {
+      "cache_write_tokens": 4250,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 4250
+      }
+    },
+    "output_tokens": 355,
+    "output_tokens_details": {
+      "reasoning_tokens": 122
+    },
+    "total_tokens": 4608
+  },
+  "response_id": "resp_06d92412b8147c9c016afa9031093487d2bee126fd754f173c",
+  "response_status": "completed",
+  "output_text": "{\"regions\":[{\"label\":\"Figure 2.2\",\"kind\":\"chart\",\"bbox\":[0.077,0.692,0.539,0.939],\"summary\":\"Kenya hand-pump repair times fell with mobile-enabled sensor data: median repair time decreased from 6 to 1 day, and mean repair time from 27 to 2.6 days.\",\"details\":\"Horizontal bar chart titled “Improving access to water: Using real-time sensor data to reduce repair time for broken hand pumps in Kenya.” The x-axis is “Number of days,” from 0 to 30. Categories are Median repair time and Mean repair time. Legend: blue = With mobile-enabled data; green = Baseline. Median: 1 day with mobile-enabled data versus 6 days at baseline. Mean: 2.6 days with mobile-enabled data versus 27 days at baseline. Source: SSEE 2014; data link printed below the chart.\",\"limitations\":\"Values are read from the labels printed at the ends of the bars; no additional uncertainty or sample-size information is shown.\"}]}",
+  "elapsed_seconds": 6.855145400004403
+}

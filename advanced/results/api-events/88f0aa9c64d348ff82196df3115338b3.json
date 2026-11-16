@@ -1,0 +1,60 @@
+{
+  "id": "88f0aa9c64d348ff82196df3115338b3",
+  "label": "20261116-123301-test-baseline-45143179:adv-test-18:step1",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 26139,
+  "maximum_output_tokens": 3500,
+  "images": [
+    {
+      "page": 295,
+      "path": "advanced/data/pages/p295.jpg",
+      "sha256": "944523bcfc3ce30f5c30d29e157fdd795a42214a9ed765896886dd0bb571ff4f"
+    },
+    {
+      "page": 53,
+      "path": "advanced/data/pages/p053.jpg",
+      "sha256": "256c137eeec96bf22cf9bdb640c9a3096bfd373375a06342f7a5733c45c37a39"
+    },
+    {
+      "page": 331,
+      "path": "advanced/data/pages/p331.jpg",
+      "sha256": "117fe6e4b90d6086e1b49b0dabd06160eb6ec6b36f64a29e39df1ef6793b30e2"
+    },
+    {
+      "page": 89,
+      "path": "advanced/data/pages/p089.jpg",
+      "sha256": "d4aa9879dd1ae6d06fdc83cd20009ec4ab8e5082a5137a3e0d45e953f3178336"
+    },
+    {
+      "page": 52,
+      "path": "advanced/data/pages/p052.jpg",
+      "sha256": "fdb52684d7bed51e27a80504faa8fd911742877da246b887d20b4562827198e4"
+    },
+    {
+      "page": 64,
+      "path": "advanced/data/pages/p064.jpg",
+      "sha256": "7cb334afe551e9cd3ff4b44529c21a3a39282fdb804ccac78334d334e268537c"
+    }
+  ],
+  "instructions_sha256": "7b27220272435c850770154f165a9b99ffc1a1c1848fec729da980d6adec6535",
+  "usage": {
+    "input_tokens": 26139,
+    "input_tokens_details": {
+      "cache_write_tokens": 26136,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 26136
+      }
+    },
+    "output_tokens": 315,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 26454
+  },
+  "response_id": "resp_09db338dddebfa02016afa9620bd4887d2bc80fd2f5f6f71f1",
+  "response_status": "completed",
+  "output_text": "{\"action\":\"answer\",\"expression\":\"\",\"queries\":[],\"pages\":[89,295],\"status\":\"answered\",\"answer\":\"Government interference with INDEC began in 2007, initially targeting the consumer price index (CPI); it later widened to other official statistics, especially reported inflation. Separately, the IMF found Argentina in breach in 2011 because it provided inaccurate CPI and GDP data. After reforms addressing methodological and data-quality issues, the IMF lifted its censure in 2016.\",\"citations\":[{\"page\":89,\"region_label\":\"Paragraph on Argentina and INDEC (printed page 69)\",\"bbox\":[0.091,0.718,0.81,0.938],\"quote\":\"in 2007 the Argentine government began interfering with the independence of Argentina’s NSO, the National Institute of Statistics and Censuses (INDEC). The effort initially focused on the consumer price index and later expanded to other official statistics, casting doubt especially on reported inflation statistics.\"},{\"page\":295,\"region_label\":\"Paragraph on IMF censure (printed page 275)\",\"bbox\":[0.091,0.75,0.804,0.928],\"quote\":\"In 2011 it found Argentina to be in breach of its obligations under the IMF’s Articles of Agreement because it was providing inaccurate consumer price index and gross domestic product data. After reforms by Argentina’s NSO to address the methodological and data quality issues in question, the IMF lifted the censure on the country in 2016.\"}]}",
+  "elapsed_seconds": 12.302842899996904
+}

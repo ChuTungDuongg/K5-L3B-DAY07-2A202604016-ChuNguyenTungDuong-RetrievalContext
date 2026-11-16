@@ -1,0 +1,45 @@
+{
+  "id": "5e0c3e66baac47d38bcb4d2f5cf3cdb3",
+  "label": "20261116-164337-r2-dev-baseline-8b5e219c:adv-dev-05:review0",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 12969,
+  "maximum_output_tokens": 3500,
+  "images": [
+    {
+      "page": 178,
+      "path": "advanced/data/pages/p178.jpg",
+      "sha256": "23ac6122a25e85f3b4680180190316fc933ee40a5a128e830b15cf69132f77db"
+    },
+    {
+      "page": 180,
+      "path": "advanced/data/pages/p180.jpg",
+      "sha256": "457fe2ec419e39ac37918cbf59a9104f0753f13a99109bd66fc3f8f544ae1790"
+    },
+    {
+      "page": 179,
+      "path": "advanced/data/pages/p179.jpg",
+      "sha256": "565d421843496bcb88eed38790d0f34514aae147b71b9a2f6ddab7d3dc232fd1"
+    }
+  ],
+  "instructions_sha256": "0507604096aab315eb8e0306caca34acc2d0bedacd7d3b2ec25cc18ae985e348",
+  "usage": {
+    "input_tokens": 12969,
+    "input_tokens_details": {
+      "cache_write_tokens": 12966,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 12966
+      }
+    },
+    "output_tokens": 254,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 13223
+  },
+  "response_id": "resp_04687546c2d0f6de016afad0f6b18c87d2acdf6c96824b9f17",
+  "response_status": "completed",
+  "output_text": "{\"action\":\"answer\",\"expression\":\"\",\"queries\":[],\"pages\":[178],\"status\":\"answered\",\"answer\":\"The middle-mile network connects bigger cities and routes data to service centers. Its typical distance is 10–1,000 km, compared with the last mile’s <1–5 km. The last mile distributes internet from the middle mile in a community to individual homes and businesses.\",\"citations\":[{\"page\":178,\"region_label\":\"Figure 5.1 — Middle-mile network: purpose and typical distances\",\"bbox\":[0.35,0.46,0.69,0.87],\"quote\":\"Connecting bigger cities together and routing data to the service centers\"},{\"page\":178,\"region_label\":\"Figure 5.1 — Typical distances, middle-mile and last-mile networks\",\"bbox\":[0.2,0.83,0.89,0.88],\"quote\":\"10–1,000 km … <1–5 km\"},{\"page\":178,\"region_label\":\"Figure 5.1 — Last mile: purpose\",\"bbox\":[0.72,0.49,0.89,0.56],\"quote\":\"Distributing internet from the middle mile in the community to individual homes and businesses\"}]}",
+  "elapsed_seconds": 7.233310799994797
+}

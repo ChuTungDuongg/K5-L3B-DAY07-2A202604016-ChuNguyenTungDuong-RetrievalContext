@@ -1,0 +1,35 @@
+{
+  "id": "df5bdb753f0b41ff87bf5907597a6a04",
+  "label": "index:p333",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 4041,
+  "maximum_output_tokens": 6000,
+  "images": [
+    {
+      "page": 333,
+      "path": "advanced/data/pages/p333.jpg",
+      "sha256": "aa853a025e293fb45f1dad0d2f25e84de490febc52f2bcdb4ea769c0fed2037d"
+    }
+  ],
+  "instructions_sha256": "01d3a56b3c678b1acd37e506320a854b17dd9ddb13ece56a92b62990aeb80d41",
+  "usage": {
+    "input_tokens": 4041,
+    "input_tokens_details": {
+      "cache_write_tokens": 4038,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 4038
+      }
+    },
+    "output_tokens": 321,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 4362
+  },
+  "response_id": "resp_046158f61a243d38016afa90fe8fd487d2a55a4d31a832f31b",
+  "response_status": "completed",
+  "output_text": "{\"regions\":[{\"label\":\"Figure 9.4 — Steps to integrating civil society into the national data system\",\"kind\":\"diagram\",\"bbox\":[0.093,0.582,0.795,0.924],\"summary\":\"Three overlapping, progressively layered panels outline steps for integrating civil society into the national data system: establishing fundamentals, initiating data flows, and optimizing the system.\",\"details\":\"Left orange panel, “Establishing fundamentals”: • Laws and regulations: Institute laws protecting people’s rights to produce, use, and disseminate data. • Incentives: Create civil society watchdogs to monitor compliance with the rules of the system. • Funding: Ensure that civil society has sufficient funding and resources for data production and use. Middle green panel, “Initiating data flows”: • Human capital: Improve data literacy through joint projects, training, and secondments and through the education system. • Infrastructure policies: Ensure adoption of common standards that improve data quality and interoperability. • Trust: Promote trust through establishment of an independent scientific quality control unit. Right blue panel, “Optimizing the system”: • Institutions: Institutionalize collaboration for the systematic use of citizen-generated data in decision-making. • Incentives: Include civil society in planning, high-level decisions, and strategy setting for the national data system. Panels overlap visually; note says categories overlap and are meant to be illustrative. Source: WDR 2021 team.\",\"limitations\":\"No quantitative values or axes. Text is legible; panel overlap is intentional and does not specify a strict sequence.\"}]}",
+  "elapsed_seconds": 5.579618499999924
+}

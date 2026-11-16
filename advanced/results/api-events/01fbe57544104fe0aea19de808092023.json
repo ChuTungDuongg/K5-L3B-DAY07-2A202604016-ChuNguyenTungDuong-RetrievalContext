@@ -1,0 +1,45 @@
+{
+  "id": "01fbe57544104fe0aea19de808092023",
+  "label": "20261116-123301-test-baseline-45143179:adv-test-23:step0",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 12935,
+  "maximum_output_tokens": 3500,
+  "images": [
+    {
+      "page": 334,
+      "path": "advanced/data/pages/p334.jpg",
+      "sha256": "b1f1a8dce8ed46069a8217885012133552f362dc8dd8cdf903c00110b8e2d211"
+    },
+    {
+      "page": 333,
+      "path": "advanced/data/pages/p333.jpg",
+      "sha256": "aa853a025e293fb45f1dad0d2f25e84de490febc52f2bcdb4ea769c0fed2037d"
+    },
+    {
+      "page": 326,
+      "path": "advanced/data/pages/p326.jpg",
+      "sha256": "cedeae6179aafaa3b710dd3d7bd5dc0816326906d85580bf670c2de1b1fc91a8"
+    }
+  ],
+  "instructions_sha256": "7b27220272435c850770154f165a9b99ffc1a1c1848fec729da980d6adec6535",
+  "usage": {
+    "input_tokens": 12935,
+    "input_tokens_details": {
+      "cache_write_tokens": 12932,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 12932
+      }
+    },
+    "output_tokens": 326,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 13261
+  },
+  "response_id": "resp_0119faedafc6fc06016afa96529b6c87d2b53c459b0b24f01c",
+  "response_status": "completed",
+  "output_text": "{\"action\":\"answer\",\"expression\":\"\",\"queries\":[],\"pages\":[334],\"status\":\"answered\",\"answer\":\"To address advocacy bias, the report proposes that relevant government agencies and CSOs could jointly establish an independent scientific quality-control unit to assess the methodological soundness and representativeness of citizen-generated data before possible use in national data portals or SDG reporting. Adopting common standards does not remove civil society’s accountability role: the report says civil society must remain able to challenge other actors’ data, views, or priorities. It adds that methodological rigor and common standards may strengthen that role by increasing the credibility and interoperability of citizen-generated and CSO data.\",\"citations\":[{\"page\":334,\"region_label\":\"Quality control unit paragraph (printed p. 314)\",\"bbox\":[0.566,0.529,0.938,0.937],\"quote\":\"One specific concern is advocacy bias in cases in which the primary purpose of the data produced by civil society is to advocate for certain issues. To this end, the relevant government agencies and CSOs could together establish an independent scientific quality control unit to assess the methodological soundness and representativeness of citizen-generated data for possible use in national data portals and in SDG reporting. Closer collaboration and the adoption of common standards do not mean that civil society ceases to play its critical role of holding other actors accountable by challenging their data, views, or priorities. Methodological rigor and common standards may in fact empower civil society to play an accountability role by increasing the credibility and interoperability of citizen-generated and CSO data.\"}]}",
+  "elapsed_seconds": 6.65251459999854
+}

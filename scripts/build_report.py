@@ -269,6 +269,13 @@ Một cấu hình có thể đồng thời là phương pháp mới và cải th
             'MAIN_INPUT':str(main_totals['input_tokens']), 'MAIN_OUTPUT':str(main_totals['output_tokens']),
             'MAIN_COST':number(Decimal(main_totals['estimated_usd']),8)}
     for key,val in values.items(): report=report.replace('@@'+key+'@@',val)
+    advanced_section=ROOT/'advanced/results/report-section.md'
+    if advanced_section.exists():
+        report=report.split('## Thử thách nâng cao (nếu thực hiện)')[0]+advanced_section.read_text(encoding='utf-8')
+        report=report.replace('Chưa có OCR, retrieval đa phương thức, dữ liệu tiếng Việt hoặc nhiều tài liệu.',
+                              'Phần cơ bản chưa có OCR, retrieval đa phương thức, dữ liệu tiếng Việt hoặc nhiều tài liệu.')
+        report=report.replace('## Dữ liệu và benchmark',
+            'Phần nâng cao dùng riêng tài liệu World Bank 350 trang, Dev 18 câu và Test 30 câu. Mục cuối giữ kết quả, chi phí và giới hạn riêng, không trộn với hai split cơ bản.\n\n## Dữ liệu và benchmark',1)
     target=ROOT/'report/individual/2A202604016_ChuNguyenTungDuong.md'
     target.write_text(report,encoding='utf-8')
 

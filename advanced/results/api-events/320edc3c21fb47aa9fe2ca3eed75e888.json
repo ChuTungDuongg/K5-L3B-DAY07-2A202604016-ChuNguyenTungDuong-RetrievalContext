@@ -1,0 +1,35 @@
+{
+  "id": "320edc3c21fb47aa9fe2ca3eed75e888",
+  "label": "index:p227",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 4141,
+  "maximum_output_tokens": 6000,
+  "images": [
+    {
+      "page": 227,
+      "path": "advanced/data/pages/p227.jpg",
+      "sha256": "df18635d2ce807bb90a9feb16a147b04477be27460055770965f38dbbb63930a"
+    }
+  ],
+  "instructions_sha256": "01d3a56b3c678b1acd37e506320a854b17dd9ddb13ece56a92b62990aeb80d41",
+  "usage": {
+    "input_tokens": 4141,
+    "input_tokens_details": {
+      "cache_write_tokens": 4138,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 4138
+      }
+    },
+    "output_tokens": 454,
+    "output_tokens_details": {
+      "reasoning_tokens": 62
+    },
+    "total_tokens": 4595
+  },
+  "response_id": "resp_033d1174f2594e6b016afa90c58d7487d29c5d03f3695ab17d",
+  "response_status": "completed",
+  "output_text": "{\"regions\":[{\"label\":\"Table 6.1\",\"kind\":\"table\",\"bbox\":[0.093,0.087,0.916,0.348],\"summary\":\"Average good-practice data governance scores by country income group across six regulatory themes; scores are generally low, with e-commerce and e-transactions strongest and private-intent data weakest.\",\"details\":\"Title: “Certain elements of the regulatory framework are much better developed than others, but performance is generally low.” Columns are grouped under Safeguards (Cybersecurity and cybercrime; Personal data; Nonpersonal data) and Enablers (E-commerce and e-transactions; Public intent data; Private intent data). Values are scores. Rows, in column order: High-income: 73, 59, 43, 86, 69, 30. Upper-middle-income: 57, 46, 29, 74, 62, 20. Lower-middle-income: 55, 43, 38, 72, 44, 15. Low-income: 39, 31, 47, 59, 28, 3. Global: 56, 44, 38, 73, 50, 17. Source: WDR 2021 team, based on World Bank, Global Data Regulation Survey (URL printed below table). Note: averages for good-practice data governance by theme across country income groups as of 2020. Color key: advanced (75–100), green; moderate (50–75), yellow; evolving (25–50), orange; basic (below 25), magenta. Values at category boundaries are reproduced as stated in the printed legend.\",\"limitations\":\"The printed color categories overlap at boundary scores 50 and 75; the table’s visible fills show the individual classifications. No additional units are stated.\"}]}",
+  "elapsed_seconds": 6.995916699997906
+}

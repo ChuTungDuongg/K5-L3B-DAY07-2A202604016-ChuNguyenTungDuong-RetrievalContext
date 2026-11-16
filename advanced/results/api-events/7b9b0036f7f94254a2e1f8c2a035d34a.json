@@ -1,0 +1,45 @@
+{
+  "id": "7b9b0036f7f94254a2e1f8c2a035d34a",
+  "label": "20261116-165446-r2-test-baseline-cbad637d:adv-r2-test-05:review0",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 13035,
+  "maximum_output_tokens": 3500,
+  "images": [
+    {
+      "page": 227,
+      "path": "advanced/data/pages/p227.jpg",
+      "sha256": "df18635d2ce807bb90a9feb16a147b04477be27460055770965f38dbbb63930a"
+    },
+    {
+      "page": 226,
+      "path": "advanced/data/pages/p226.jpg",
+      "sha256": "739267cb582ade9654e95cf41967262b1f5c8d15e938a8fd460dcbf013ca0611"
+    },
+    {
+      "page": 213,
+      "path": "advanced/data/pages/p213.jpg",
+      "sha256": "e25f7da6d8f49475d6f23df37bc22713e7ee7df888cb25ac7c68ff0ac3d054cd"
+    }
+  ],
+  "instructions_sha256": "0507604096aab315eb8e0306caca34acc2d0bedacd7d3b2ec25cc18ae985e348",
+  "usage": {
+    "input_tokens": 13035,
+    "input_tokens_details": {
+      "cache_write_tokens": 13032,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 13032
+      }
+    },
+    "output_tokens": 218,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 13253
+  },
+  "response_id": "resp_0d9af02d086ccf4b016afad359faa087d2ba1955b22e89da4a",
+  "response_status": "completed",
+  "output_text": "{\"action\":\"answer\",\"expression\":\"47 - 31 = 16 points\",\"queries\":[],\"pages\":[227],\"status\":\"answered\",\"answer\":\"Among the three safeguards, nonpersonal data has the highest average score for low-income countries: 47. The personal-data score is 31, so nonpersonal data is 16 points higher. The legend classifies both scores (25–50) as evolving.\",\"citations\":[{\"page\":227,\"region_label\":\"Table 6.1 — Safeguards columns and Low-income row\",\"bbox\":[0.093,0.126,0.584,0.282],\"quote\":\"Safeguards: Cybersecurity and cybercrime, Personal data, Nonpersonal data. Low-income: 39, 31, 47.\"},{\"page\":227,\"region_label\":\"Table 6.1 — regulatory framework color legend\",\"bbox\":[0.093,0.325,0.916,0.347],\"quote\":\"evolving level (scores of 25–50)\"}]}",
+  "elapsed_seconds": 8.401532199997746
+}

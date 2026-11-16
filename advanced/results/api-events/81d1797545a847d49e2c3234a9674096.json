@@ -1,0 +1,45 @@
+{
+  "id": "81d1797545a847d49e2c3234a9674096",
+  "label": "20261116-165446-r2-test-baseline-cbad637d:adv-r2-test-17:step0",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 13572,
+  "maximum_output_tokens": 3500,
+  "images": [
+    {
+      "page": 191,
+      "path": "advanced/data/pages/p191.jpg",
+      "sha256": "ce49f7275bd85355f834aa50ebcd60ca8bfc94510b411a581cd432d7dd52c7fc"
+    },
+    {
+      "page": 192,
+      "path": "advanced/data/pages/p192.jpg",
+      "sha256": "312e3bc583a68c3cc7bb2a311e196886a065a5905505997a164885c62bc5290a"
+    },
+    {
+      "page": 193,
+      "path": "advanced/data/pages/p193.jpg",
+      "sha256": "7e539624a9a3b907936df51d2c0b4031f5bb11c80b3ead19f5bd100fb7f058e1"
+    }
+  ],
+  "instructions_sha256": "7b27220272435c850770154f165a9b99ffc1a1c1848fec729da980d6adec6535",
+  "usage": {
+    "input_tokens": 13572,
+    "input_tokens_details": {
+      "cache_write_tokens": 13569,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 13569
+      }
+    },
+    "output_tokens": 458,
+    "output_tokens_details": {
+      "reasoning_tokens": 104
+    },
+    "total_tokens": 14030
+  },
+  "response_id": "resp_056f362ecc66a4c0016afad3ef5d1087d2924aab5a4c419ed7",
+  "response_status": "completed",
+  "output_text": "{\"action\":\"answer\",\"expression\":\"$5.60 - $0.80 = $4.80 per GB per month\",\"queries\":[],\"pages\":[191,193],\"status\":\"answered\",\"answer\":\"The average wireless broadband price is $4.80 per GB per month lower at stage 3 than at stage 0 ($5.60 versus $0.80). A cloud on-ramp is a private connection that lets clients reach overseas cloud providers through a domestic IXP in a colocation data center without using the public internet. Data travel directly via the on-ramp rather than over public infrastructure, improving security and reliability.\",\"citations\":[{\"page\":191,\"region_label\":\"Figure 5.11, “Countries develop domestic data infrastructure in stages” (full figure, including prices, stage labels, units, and note)\",\"bbox\":[0.093,0.626,0.87,0.912],\"quote\":\"Average price of wireless broadband per GB per month: stage 0, $5.60; stage 3, $0.80. Amounts are in US dollars; GB = gigabyte.\"},{\"page\":193,\"region_label\":\"Cloud on-ramps explanation, right-column paragraph\",\"bbox\":[0.45,0.148,0.81,0.37],\"quote\":\"Cloud on-ramps are private connections between data centers and cloud providers. They allow clients to interact directly with overseas cloud providers through domestic IXPs located in colocation data centers without needing to use the internet to access cloud services. This process provides greater security and reliability because data are not transmitted to the cloud over public infrastructure but rather directly via the on-ramp.\"}]}",
+  "elapsed_seconds": 7.952738899999531
+}

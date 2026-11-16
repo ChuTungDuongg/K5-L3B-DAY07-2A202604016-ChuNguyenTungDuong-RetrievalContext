@@ -1,0 +1,35 @@
+{
+  "id": "c05d41062e2f4831a02d74769febb14a",
+  "label": "index:p033",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 4178,
+  "maximum_output_tokens": 6000,
+  "images": [
+    {
+      "page": 33,
+      "path": "advanced/data/pages/p033.jpg",
+      "sha256": "8a231a6808378499a00f97d1efc07eb8b4a71a4e1351ae8909173b36f0375c9a"
+    }
+  ],
+  "instructions_sha256": "01d3a56b3c678b1acd37e506320a854b17dd9ddb13ece56a92b62990aeb80d41",
+  "usage": {
+    "input_tokens": 4178,
+    "input_tokens_details": {
+      "cache_write_tokens": 4175,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 4175
+      }
+    },
+    "output_tokens": 377,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 4555
+  },
+  "response_id": "resp_07f2edb5812b4e17016afa900c651087d2afdb80111e300b40",
+  "response_status": "completed",
+  "output_text": "{\"regions\":[{\"label\":\"Figure O.4\",\"kind\":\"chart\",\"bbox\":[0.455,0.085,0.92,0.488],\"summary\":\"Radar chart comparing the percentage of good-practice data governance laws and regulatory measures across four country income groups and seven regulatory areas.\",\"details\":\"Seven-axis radar chart with a 0–90 scale in increments of 10. Axes clockwise from top: E-commerce framework; Enabling access to public intent data; Enabling access to private intent data; Cybersecurity; Personal data protection; Nonpersonal data protection; Cross-border data flows. Series: High-income (blue), Upper-middle-income (green), Lower-middle-income (orange), Low-income (purple). Approximate plotted values by axis, read from the grid: High-income 85, 65, 40, 65, 55, 45, 40; Upper-middle-income 70, 60, 35, 45, 40, 40, 25; Lower-middle-income 65, 45, 25, 40, 40, 35, 20; Low-income 45, 25, 15, 30, 30, 40, 15. The chart compares coverage across income groups; high-income is generally highest, while values are comparatively low for enabling access to private intent data and cross-border data flows. Source: WDR 2021 team, based on the Global Data Regulation Survey conducted exclusively for the Report. Note: Figure depicts the percentage of good-practice laws and regulatory measures in place for countries covered by the survey in each income group.\",\"limitations\":\"Values are approximate visual readings from the radar chart; exact data values are not printed. The grid scale and overlapping series make some points difficult to distinguish precisely.\"}]}",
+  "elapsed_seconds": 6.54264079999848
+}

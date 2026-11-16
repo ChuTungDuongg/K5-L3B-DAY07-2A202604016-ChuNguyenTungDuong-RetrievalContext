@@ -1,0 +1,45 @@
+{
+  "id": "c8e64a9aab8d40fb9508a00af110babc",
+  "label": "20261116-165446-r2-test-baseline-cbad637d:adv-r2-test-23:step0",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 13092,
+  "maximum_output_tokens": 3500,
+  "images": [
+    {
+      "page": 207,
+      "path": "advanced/data/pages/p207.jpg",
+      "sha256": "08f3d98390fa9a2c9cfd00c0066fca581a98a5df388a6e9e78def2afbfeb5723"
+    },
+    {
+      "page": 206,
+      "path": "advanced/data/pages/p206.jpg",
+      "sha256": "828f4f88e58748363cc2e59ea9f01263c2941fab1269951c522ec833eb2e64bd"
+    },
+    {
+      "page": 122,
+      "path": "advanced/data/pages/p122.jpg",
+      "sha256": "34b70114eef7c3aa4e56e34eea9b0296d6c5a54a5862f219380656b7398b83f7"
+    }
+  ],
+  "instructions_sha256": "7b27220272435c850770154f165a9b99ffc1a1c1848fec729da980d6adec6535",
+  "usage": {
+    "input_tokens": 13092,
+    "input_tokens_details": {
+      "cache_write_tokens": 13089,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 13089
+      }
+    },
+    "output_tokens": 179,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 13271
+  },
+  "response_id": "resp_08ec8f056a129a37016afad456893087d2b30065c220620af5",
+  "response_status": "completed",
+  "output_text": "{\"action\":\"answer\",\"expression\":\"\",\"queries\":[],\"pages\":[207],\"status\":\"answered\",\"answer\":\"Equinix’s renewable-energy share rose from **less than one-third in 2014** (the report’s stated baseline) to **92 percent in 2018**. The report associates that increase with a **two-thirds reduction in greenhouse-gas emissions**.\",\"citations\":[{\"page\":207,\"region_label\":\"Spotlight 5.2, “Data’s carbon footprint,” Equinix example (printed page 187)\",\"bbox\":[0.09,0.15,0.44,0.47],\"quote\":\"Equinix … increased its share of renewable energy from less than one-third in 2014 to 92 percent in 2018, leading to a two-thirds reduction in GHG emissions.\"}]}",
+  "elapsed_seconds": 6.349857500004873
+}

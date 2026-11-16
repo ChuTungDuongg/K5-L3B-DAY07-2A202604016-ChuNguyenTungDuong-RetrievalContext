@@ -1,0 +1,35 @@
+{
+  "id": "9acce426661b45378e225ec4e1f76667",
+  "label": "index:p054",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 3884,
+  "maximum_output_tokens": 6000,
+  "images": [
+    {
+      "page": 54,
+      "path": "advanced/data/pages/p054.jpg",
+      "sha256": "49ac2c920d796423a5995e0d15d6072444f77db5b553fc4f8dd0c5a66fb0d818"
+    }
+  ],
+  "instructions_sha256": "01d3a56b3c678b1acd37e506320a854b17dd9ddb13ece56a92b62990aeb80d41",
+  "usage": {
+    "input_tokens": 3884,
+    "input_tokens_details": {
+      "cache_write_tokens": 3881,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 3881
+      }
+    },
+    "output_tokens": 592,
+    "output_tokens_details": {
+      "reasoning_tokens": 207
+    },
+    "total_tokens": 4476
+  },
+  "response_id": "resp_07e51a78145cdc56016afa901975a087d2b977591c9f568aaa",
+  "response_status": "completed",
+  "output_text": "{\"regions\":[{\"label\":\"Figure 1.3 — Three pathways along which data can foster development\",\"kind\":\"diagram\",\"bbox\":[0.205,0.088,0.857,0.484],\"summary\":\"Diagram showing data production and collection feeding data analytics and processing, with reuse by individuals/civil society/academia, government/international organizations, and the private sector; these pathways can foster development through positive outcomes but also carry negative impacts.\",\"details\":\"The diagram places “Data production and collection” at left, a central vertical “Data analytics and processing” pathway, and “Development” at right. The central pathway contains three boxes, from top to bottom: “Individuals / Civil society / Academia,” “Government / International organizations,” and “Private sector.” Dotted vertical connections between the boxes are labeled “Reuse” and show arrows in both directions; dotted side connections also link the analytics/processing area with the upper and lower boxes. The left-to-center inputs are labeled “Greater transparency” (upper route), “More data on individuals” (middle route), and “Production process in firms” (lower route). Positive impacts are printed in green and negative impacts in red: upper route, “Greater accountability” and “Criminal activity, dark net”; government route, “Better policy making and service delivery” and “Political surveillance”; private-sector route, “Increased business opportunities” and “Market concentration / Widening inequality / Discrimination.” Arrows connect the labeled routes and outcomes toward development; the upper and lower routes also show arrows returning toward data production and collection. Source: WDR 2021 team. Note: Positive impacts are shown in green; negative impacts are shown in red.\",\"limitations\":\"Some dotted side arrows are faint; their precise direction is less clear than the solid route arrows. No numerical values are shown.\"}]}",
+  "elapsed_seconds": 9.596657300004154
+}

@@ -1,0 +1,35 @@
+{
+  "id": "bf4a40150651437f8dfbf8db8a4ddbc3",
+  "label": "index:p151",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 3873,
+  "maximum_output_tokens": 6000,
+  "images": [
+    {
+      "page": 151,
+      "path": "advanced/data/pages/p151.jpg",
+      "sha256": "f0ba1992ecee3cc8407239d8c616926d4cd5058f87f258f160065d614f3fbc32"
+    }
+  ],
+  "instructions_sha256": "01d3a56b3c678b1acd37e506320a854b17dd9ddb13ece56a92b62990aeb80d41",
+  "usage": {
+    "input_tokens": 3873,
+    "input_tokens_details": {
+      "cache_write_tokens": 3870,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 3870
+      }
+    },
+    "output_tokens": 510,
+    "output_tokens_details": {
+      "reasoning_tokens": 142
+    },
+    "total_tokens": 4383
+  },
+  "response_id": "resp_0088074affaa22b4016afa907368d087d29a4665ae11536cb8",
+  "response_status": "completed",
+  "output_text": "{\"regions\":[{\"label\":\"Figure B4.3.1 — Public intent and private intent data can be combined to detect illegal fishing activity\",\"kind\":\"diagram\",\"bbox\":[0.115,0.343,0.778,0.738],\"summary\":\"Infographic shows how satellite imagery and vessel AIS data can be combined to identify and track fishing vessels. Satellite sources detect vessels or lights and provide coverage; AIS provides vessel locations and movements.\",\"details\":\"A circular, four-part infographic surrounds a central vessel. The upper-left section depicts daytime high-resolution optical imagery, described as useful for visually identifying vessels; nearby labels include “Optical images” and “High-resolution.” The lower-left section depicts nighttime optical imagery (VIIRS), which detects lights used to attract catch or conduct night operations; nearby labels include “Detect lights” and “Global daily coverage.” The upper-right section depicts AIS (Automatic Identification Systems), described as a collision-avoidance system that constantly transmits a vessel’s location at sea and can identify and track fishing vessels; nearby labels include “Track movements” and “Identify vessels.” The lower-right section depicts radar imagery (SAR), described as identifying large metal vessels and penetrating clouds; nearby labels include “Penetrate clouds” and “Identify metal vessels.” The orange circular framework and inward-pointing arrow motifs visually connect these data sources and capabilities to the central vessel. The accompanying note states that public-intent data include satellite data and private-intent data include data from trawlers’ collision-avoidance systems.\",\"limitations\":\"The infographic is schematic and gives no numerical measurements or plotted data. The page’s title, source, and note are adjacent to the diagram; source credits Global Fishing Watch and dates the infographic July 8, 2020.\"}]}",
+  "elapsed_seconds": 8.210204700000759
+}

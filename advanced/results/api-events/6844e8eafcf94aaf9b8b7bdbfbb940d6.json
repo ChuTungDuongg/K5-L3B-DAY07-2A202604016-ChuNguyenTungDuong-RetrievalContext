@@ -1,0 +1,35 @@
+{
+  "id": "6844e8eafcf94aaf9b8b7bdbfbb940d6",
+  "label": "index:p032",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 3932,
+  "maximum_output_tokens": 6000,
+  "images": [
+    {
+      "page": 32,
+      "path": "advanced/data/pages/p032.jpg",
+      "sha256": "98f90c42b6314e1bdc22e3c9b5b8b7f577a3ad1ac4fc3678d70d846f82f8a688"
+    }
+  ],
+  "instructions_sha256": "01d3a56b3c678b1acd37e506320a854b17dd9ddb13ece56a92b62990aeb80d41",
+  "usage": {
+    "input_tokens": 3932,
+    "input_tokens_details": {
+      "cache_write_tokens": 3929,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 3929
+      }
+    },
+    "output_tokens": 293,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 4225
+  },
+  "response_id": "resp_0417153b4dd28bf8016afa900991a087d29cfcd3163b70a535",
+  "response_status": "completed",
+  "output_text": "{\"regions\":[{\"label\":\"Map O.4 — Data infrastructure is not yet widespread across all parts of the world\",\"kind\":\"map\",\"bbox\":[0.103,0.088,0.904,0.469],\"summary\":\"World map showing locations of colocation data centers, internet exchange points, submarine cable landing stations, and submarine cables.\",\"details\":\"The map covers the world, with land shaded light gray and infrastructure marked by a legend: red dots = colocation data centers; blue dots = internet exchange points (IXPs); open black circles = submarine cable landing stations; green lines = submarine cables. Infrastructure markers and cable routes are dense across North America, Europe, and parts of East and Southeast Asia, with substantial cable networks connecting continents and island regions. Markers and routes are more sparsely distributed across much of Africa, Central Asia, and parts of South America. Sources listed beneath the map: PeeringDB; PCH Packet Clearing House (IXP locations, accessed December 14, 2020); and TeleGeography submarine cables. Data URL: http://bit.do/WDR2021-Map-O_4. Map imprint: IBRD WLD45643 | MARCH 2021.\",\"limitations\":\"This is a schematic global map; individual symbols and cable routes overlap densely in some regions, so exact counts and precise locations cannot be reliably read from the image.\"}]}",
+  "elapsed_seconds": 6.398029399999359
+}

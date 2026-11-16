@@ -1,0 +1,35 @@
+{
+  "id": "e402beb44a4e4a75bf83e0e60d9257ef",
+  "label": "index:p258",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 4046,
+  "maximum_output_tokens": 6000,
+  "images": [
+    {
+      "page": 258,
+      "path": "advanced/data/pages/p258.jpg",
+      "sha256": "27e205e2b661886e1d6276e9bb5ad154135b50d2e56ce7b8b8c985b25da0c19a"
+    }
+  ],
+  "instructions_sha256": "01d3a56b3c678b1acd37e506320a854b17dd9ddb13ece56a92b62990aeb80d41",
+  "usage": {
+    "input_tokens": 4046,
+    "input_tokens_details": {
+      "cache_write_tokens": 4043,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 4043
+      }
+    },
+    "output_tokens": 510,
+    "output_tokens_details": {
+      "reasoning_tokens": 117
+    },
+    "total_tokens": 4556
+  },
+  "response_id": "resp_05f21d8ee771596a016afa90d2008087d2af2207413be13fef",
+  "response_status": "completed",
+  "output_text": "{\"regions\":[{\"label\":\"Figure 7.4\",\"kind\":\"chart\",\"bbox\":[0.204,0.087,0.918,0.477],\"summary\":\"Stacked area chart of global services trade by category, with bars showing the rise in global IP traffic from 1990 to 2018. Data-driven services grow substantially and approach half of services trade by the end of the period.\",\"details\":\"Title: “Since 1990, the global trade in data-driven services has grown exponentially and now constitutes half of trade in services.” The horizontal axis lists every year from 1990 through 2018. The left vertical axis is Services (US$, billions, current), marked 0–6,000 in 1,000 increments; the right vertical axis is Digital data flows (PB per month), marked 0–100,000 in 20,000 increments. Stacked areas represent computer, communications, and other services; travel services; transport services; and other (unclassified). Dark teal vertical bars represent IP traffic on the right axis. Overall, services trade rises from under US$1,000 billion in 1990 to about US$5,800 billion in 2018; the computer, communications, and other services area expands strongly, and the chart labels the upper portion “Data-driven services” and the lower portion “Traditional services.” IP traffic rises from near zero to close to 100,000 PB per month by 2018. Source: WDR team calculations based on World Bank WITS database. Note: IP = Internet Protocol; PB = petabyte.\",\"limitations\":\"Values are shown graphically; individual annual series values are not labeled and should not be treated as exact readings. The chart’s broad service-category groupings and the data-driven/traditional annotations are visible, but no separate numeric totals for those groupings are printed.\"}]}",
+  "elapsed_seconds": 8.455456700001378
+}

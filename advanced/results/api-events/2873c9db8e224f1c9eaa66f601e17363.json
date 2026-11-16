@@ -1,0 +1,35 @@
+{
+  "id": "2873c9db8e224f1c9eaa66f601e17363",
+  "label": "index:p056",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 4032,
+  "maximum_output_tokens": 6000,
+  "images": [
+    {
+      "page": 56,
+      "path": "advanced/data/pages/p056.jpg",
+      "sha256": "5559641339d1a780f2427b10d9f344dfaed79789b5f77e09c18926290054d155"
+    }
+  ],
+  "instructions_sha256": "01d3a56b3c678b1acd37e506320a854b17dd9ddb13ece56a92b62990aeb80d41",
+  "usage": {
+    "input_tokens": 4032,
+    "input_tokens_details": {
+      "cache_write_tokens": 4029,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 4029
+      }
+    },
+    "output_tokens": 575,
+    "output_tokens_details": {
+      "reasoning_tokens": 161
+    },
+    "total_tokens": 4607
+  },
+  "response_id": "resp_0f51ffb088020f79016afa901bccdc87d294a89fc4a50f6065",
+  "response_status": "completed",
+  "output_text": "{\"regions\":[{\"label\":\"Figure B1.4.1 — Use of repurposed data to study COVID-19: Published articles, by type of private intent data used\",\"kind\":\"chart\",\"bbox\":[0.226,0.462,0.893,0.773],\"summary\":\"Stacked area chart of articles using different types of private-intent data to study COVID-19, from February to September 2020. The cumulative total rises sharply from near zero in February to just over 1,000 by September; social media is the largest category throughout the later period.\",\"details\":\"The horizontal axis is time in 2020, with labels February, April, July, and September. The vertical axis is “Number of articles,” marked 0, 250, 500, 750, and 1,000. The stacked categories, from bottom to top in the legend, are Social media, Twitter, Big data, Google Trends, Facebook, Cellphone, and Call detail records. The plotted total is near zero early in the period, rises notably after April, and reaches slightly above the 1,000 gridline by September. Social media forms the largest area at the end (roughly 530 articles by visual estimation); Twitter is the next largest (roughly 200), with smaller areas for Big data and Google Trends, and comparatively small Facebook, Cellphone, and Call detail records areas. These are visual estimates, not labeled data values. The note says the figure counts articles published in scientific, medical, and technical journals from February to September 2020, and that the sum across categories is higher because some articles appear in more than one category. Source: WDR 2021 team, based on CORD-19 data from the Semantic Scholar team, Ai2.\",\"limitations\":\"Exact category values are not printed on the chart and should not be inferred from the stacked areas. The cumulative sum across categories can include the same article more than once.\"}]}",
+  "elapsed_seconds": 8.93927370000165
+}

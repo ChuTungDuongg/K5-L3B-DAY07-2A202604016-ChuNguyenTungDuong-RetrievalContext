@@ -1,0 +1,385 @@
+[
+  {
+    "query_id": "adv-dev-01",
+    "passed": true,
+    "reason": "Đúng hàng New và hai cột public/private intent. Vùng Table 1.1 p48 bao cả hàng, cột tiêu đề và các ô được hỏi.",
+    "label_status": "assistant_proposed_pending_learner_confirmation",
+    "reviewer": "dedicated benchmark-author assistant; no API or model-judge calls",
+    "answer_correct": true,
+    "citation_correct": true,
+    "failure_type": null,
+    "source_check": {
+      "pdf_sha256": "606c8452c8b23c01d81919c3974972bebeb1e60348a56ea40cc3ae841e301616",
+      "physical_pages": [
+        48
+      ],
+      "method": "Compared every response to frozen Dev gold and original PDF pixels; inspected the returned citation rectangles through PDFium source crops and bounded text. Same strict evidence-completeness standard as v1. A full-page bbox can pass with a specific correct page/region locator; exact equality with gold bbox is not required.",
+      "checked_conditions": "All question-required facts, arithmetic, units/denominators and source conditions, plus object/axis/legend/table-header or complete paragraph support."
+    },
+    "reviewed_trace_sha256": "a4f756366b2514397f18de566fa4b3fcebe361f78802d8d17df5b095d25bbf0b",
+    "reviewed_answer_sha256": "39582d1ff951fa4c135d7ccc76cd00dd186ec443b7b79d668632f990d7d30e96",
+    "reviewed_at_local": "2026-11-16T12:32:18.995765+07:00"
+  },
+  {
+    "query_id": "adv-dev-02",
+    "passed": false,
+    "reason": "Số 11, 44 và phép trừ 33 điểm phần trăm đúng, citation Table 2.1 p83 cũng đúng và bao chú thích. Tuy nhiên đáp án nói 11%/44% của các quốc gia. Chú thích gốc xác định đây là tỷ lệ dữ liệu đã công bố, lấy trung bình theo nhóm thu nhập (percentage of published data averaged by country income group). Sai đối tượng/mẫu số đo nên fail, không được coi đúng chỉ vì số trùng.",
+    "label_status": "assistant_proposed_pending_learner_confirmation",
+    "reviewer": "dedicated benchmark-author assistant; no API or model-judge calls",
+    "answer_correct": false,
+    "citation_correct": true,
+    "failure_type": "wrong_measure_denominator",
+    "source_check": {
+      "pdf_sha256": "606c8452c8b23c01d81919c3974972bebeb1e60348a56ea40cc3ae841e301616",
+      "physical_pages": [
+        83
+      ],
+      "method": "Compared every response to frozen Dev gold and original PDF pixels; inspected the returned citation rectangles through PDFium source crops and bounded text. Same strict evidence-completeness standard as v1. A full-page bbox can pass with a specific correct page/region locator; exact equality with gold bbox is not required.",
+      "checked_conditions": "All question-required facts, arithmetic, units/denominators and source conditions, plus object/axis/legend/table-header or complete paragraph support."
+    },
+    "reviewed_trace_sha256": "a4f756366b2514397f18de566fa4b3fcebe361f78802d8d17df5b095d25bbf0b",
+    "reviewed_answer_sha256": "d939d19ea3bd666c52ab7be8913374b48645179fe23b1457a624aa21cca113b5",
+    "reviewed_at_local": "2026-11-16T12:32:18.995765+07:00"
+  },
+  {
+    "query_id": "adv-dev-03",
+    "passed": true,
+    "reason": "Đúng hàng Global: 73 và 17, chênh 56 điểm; moderate và basic. Vùng Table 6.1 p227 chứa đủ các ô và khóa mức điểm.",
+    "label_status": "assistant_proposed_pending_learner_confirmation",
+    "reviewer": "dedicated benchmark-author assistant; no API or model-judge calls",
+    "answer_correct": true,
+    "citation_correct": true,
+    "failure_type": null,
+    "source_check": {
+      "pdf_sha256": "606c8452c8b23c01d81919c3974972bebeb1e60348a56ea40cc3ae841e301616",
+      "physical_pages": [
+        227
+      ],
+      "method": "Compared every response to frozen Dev gold and original PDF pixels; inspected the returned citation rectangles through PDFium source crops and bounded text. Same strict evidence-completeness standard as v1. A full-page bbox can pass with a specific correct page/region locator; exact equality with gold bbox is not required.",
+      "checked_conditions": "All question-required facts, arithmetic, units/denominators and source conditions, plus object/axis/legend/table-header or complete paragraph support."
+    },
+    "reviewed_trace_sha256": "a4f756366b2514397f18de566fa4b3fcebe361f78802d8d17df5b095d25bbf0b",
+    "reviewed_answer_sha256": "4e99f50dc5f4baef678cd71a7ebe414525ced65784510bce0310f87e937d925d",
+    "reviewed_at_local": "2026-11-16T12:32:18.995765+07:00"
+  },
+  {
+    "query_id": "adv-dev-04",
+    "passed": true,
+    "reason": "Đúng nút Reuse ở trung tâm và mũi tên Archive and preserve -> Destroy. Vùng Figure 1.2 p50 bao đủ các nút và mũi tên được hỏi.",
+    "label_status": "assistant_proposed_pending_learner_confirmation",
+    "reviewer": "dedicated benchmark-author assistant; no API or model-judge calls",
+    "answer_correct": true,
+    "citation_correct": true,
+    "failure_type": null,
+    "source_check": {
+      "pdf_sha256": "606c8452c8b23c01d81919c3974972bebeb1e60348a56ea40cc3ae841e301616",
+      "physical_pages": [
+        50
+      ],
+      "method": "Compared every response to frozen Dev gold and original PDF pixels; inspected the returned citation rectangles through PDFium source crops and bounded text. Same strict evidence-completeness standard as v1. A full-page bbox can pass with a specific correct page/region locator; exact equality with gold bbox is not required.",
+      "checked_conditions": "All question-required facts, arithmetic, units/denominators and source conditions, plus object/axis/legend/table-header or complete paragraph support."
+    },
+    "reviewed_trace_sha256": "a4f756366b2514397f18de566fa4b3fcebe361f78802d8d17df5b095d25bbf0b",
+    "reviewed_answer_sha256": "0ef37665c202adbe302c62bc5753c0561f4666e0b39bad9110720261421a242e",
+    "reviewed_at_local": "2026-11-16T12:32:18.995765+07:00"
+  },
+  {
+    "query_id": "adv-dev-05",
+    "passed": true,
+    "reason": "Đúng mục đích middle mile, khoảng 10-1.000 km và last mile <1-5 km. Vùng Figure 5.1 p178 chứa hai cột mục đích và hàng khoảng cách, giữ đúng đơn vị km.",
+    "label_status": "assistant_proposed_pending_learner_confirmation",
+    "reviewer": "dedicated benchmark-author assistant; no API or model-judge calls",
+    "answer_correct": true,
+    "citation_correct": true,
+    "failure_type": null,
+    "source_check": {
+      "pdf_sha256": "606c8452c8b23c01d81919c3974972bebeb1e60348a56ea40cc3ae841e301616",
+      "physical_pages": [
+        178
+      ],
+      "method": "Compared every response to frozen Dev gold and original PDF pixels; inspected the returned citation rectangles through PDFium source crops and bounded text. Same strict evidence-completeness standard as v1. A full-page bbox can pass with a specific correct page/region locator; exact equality with gold bbox is not required.",
+      "checked_conditions": "All question-required facts, arithmetic, units/denominators and source conditions, plus object/axis/legend/table-header or complete paragraph support."
+    },
+    "reviewed_trace_sha256": "a4f756366b2514397f18de566fa4b3fcebe361f78802d8d17df5b095d25bbf0b",
+    "reviewed_answer_sha256": "aad4884eda620b27a564081d2f63df9da8d6ad364296eab5bc461566444524f1",
+    "reviewed_at_local": "2026-11-16T12:32:18.995765+07:00"
+  },
+  {
+    "query_id": "adv-dev-06",
+    "passed": true,
+    "reason": "Đúng ba giai đoạn từ trong ra ngoài và đậm/nhạt là hoàn thành/chưa hoàn thành. Vùng Figure 9.2 p329 nay bao toàn sơ đồ, tên ba giai đoạn và ghi chú; không còn lỗi chỉ cite note như baseline v1.",
+    "label_status": "assistant_proposed_pending_learner_confirmation",
+    "reviewer": "dedicated benchmark-author assistant; no API or model-judge calls",
+    "answer_correct": true,
+    "citation_correct": true,
+    "failure_type": null,
+    "source_check": {
+      "pdf_sha256": "606c8452c8b23c01d81919c3974972bebeb1e60348a56ea40cc3ae841e301616",
+      "physical_pages": [
+        329
+      ],
+      "method": "Compared every response to frozen Dev gold and original PDF pixels; inspected the returned citation rectangles through PDFium source crops and bounded text. Same strict evidence-completeness standard as v1. A full-page bbox can pass with a specific correct page/region locator; exact equality with gold bbox is not required.",
+      "checked_conditions": "All question-required facts, arithmetic, units/denominators and source conditions, plus object/axis/legend/table-header or complete paragraph support."
+    },
+    "reviewed_trace_sha256": "a4f756366b2514397f18de566fa4b3fcebe361f78802d8d17df5b095d25bbf0b",
+    "reviewed_answer_sha256": "8cd75468fac384cf490d6f6721929512ad21095431ae7a1c32ca1ffa29ac68c0",
+    "reviewed_at_local": "2026-11-16T12:32:18.995765+07:00"
+  },
+  {
+    "query_id": "adv-dev-07",
+    "passed": true,
+    "reason": "Đúng 94% năm 1960, 71% năm 1970 và giảm 23 điểm phần trăm; đáp án phân biệt cột tỷ trọng với vùng nền quy mô dân số. Vùng Figure 1.1 p46 bao đủ năm, số, trục World population (billions) và ghi chú. Câu hỏi không yêu cầu ước lượng một giá trị dân số tuyệt đối.",
+    "label_status": "assistant_proposed_pending_learner_confirmation",
+    "reviewer": "dedicated benchmark-author assistant; no API or model-judge calls",
+    "answer_correct": true,
+    "citation_correct": true,
+    "failure_type": null,
+    "source_check": {
+      "pdf_sha256": "606c8452c8b23c01d81919c3974972bebeb1e60348a56ea40cc3ae841e301616",
+      "physical_pages": [
+        46
+      ],
+      "method": "Compared every response to frozen Dev gold and original PDF pixels; inspected the returned citation rectangles through PDFium source crops and bounded text. Same strict evidence-completeness standard as v1. A full-page bbox can pass with a specific correct page/region locator; exact equality with gold bbox is not required.",
+      "checked_conditions": "All question-required facts, arithmetic, units/denominators and source conditions, plus object/axis/legend/table-header or complete paragraph support."
+    },
+    "reviewed_trace_sha256": "a4f756366b2514397f18de566fa4b3fcebe361f78802d8d17df5b095d25bbf0b",
+    "reviewed_answer_sha256": "5948dbbe9efaac822ac9d931b7a1494f18b04625ee32a881008afc60ee5f43c2",
+    "reviewed_at_local": "2026-11-16T12:32:18.995765+07:00"
+  },
+  {
+    "query_id": "adv-dev-08",
+    "passed": true,
+    "reason": "Đúng đủ ba cặp 41->50, 37->42, 21->8 và các chênh +9, +5, -13 điểm phần trăm. Vùng Figure 5.3 p181 nay chứa panel a, trục đơn vị, nhãn năm và toàn bộ chú giải Connected/Usage gap/Coverage gap; đủ đối chiếu các màu với chỉ tiêu.",
+    "label_status": "assistant_proposed_pending_learner_confirmation",
+    "reviewer": "dedicated benchmark-author assistant; no API or model-judge calls",
+    "answer_correct": true,
+    "citation_correct": true,
+    "failure_type": null,
+    "source_check": {
+      "pdf_sha256": "606c8452c8b23c01d81919c3974972bebeb1e60348a56ea40cc3ae841e301616",
+      "physical_pages": [
+        181
+      ],
+      "method": "Compared every response to frozen Dev gold and original PDF pixels; inspected the returned citation rectangles through PDFium source crops and bounded text. Same strict evidence-completeness standard as v1. A full-page bbox can pass with a specific correct page/region locator; exact equality with gold bbox is not required.",
+      "checked_conditions": "All question-required facts, arithmetic, units/denominators and source conditions, plus object/axis/legend/table-header or complete paragraph support."
+    },
+    "reviewed_trace_sha256": "a4f756366b2514397f18de566fa4b3fcebe361f78802d8d17df5b095d25bbf0b",
+    "reviewed_answer_sha256": "8625f347a40177d645746c66332f3f11a220947a1b6c21ea9fd98fabf1a59e30",
+    "reviewed_at_local": "2026-11-16T12:32:18.995765+07:00"
+  },
+  {
+    "query_id": "adv-dev-09",
+    "passed": true,
+    "reason": "Đúng lower-middle-income cao nhất ở technological neutrality và high-income cao nhất ở legal recognition of electronic signatures. Citation Figure 6.5 p220 chứa hai trục cần thiết, các đường và chú giải nhóm.",
+    "label_status": "assistant_proposed_pending_learner_confirmation",
+    "reviewer": "dedicated benchmark-author assistant; no API or model-judge calls",
+    "answer_correct": true,
+    "citation_correct": true,
+    "failure_type": null,
+    "source_check": {
+      "pdf_sha256": "606c8452c8b23c01d81919c3974972bebeb1e60348a56ea40cc3ae841e301616",
+      "physical_pages": [
+        220
+      ],
+      "method": "Compared every response to frozen Dev gold and original PDF pixels; inspected the returned citation rectangles through PDFium source crops and bounded text. Same strict evidence-completeness standard as v1. A full-page bbox can pass with a specific correct page/region locator; exact equality with gold bbox is not required.",
+      "checked_conditions": "All question-required facts, arithmetic, units/denominators and source conditions, plus object/axis/legend/table-header or complete paragraph support."
+    },
+    "reviewed_trace_sha256": "a4f756366b2514397f18de566fa4b3fcebe361f78802d8d17df5b095d25bbf0b",
+    "reviewed_answer_sha256": "9797893e5092cf247e7a5ad5ed40db31d976f8b84250b8fa4dc0773954c19468",
+    "reviewed_at_local": "2026-11-16T12:32:18.995765+07:00"
+  },
+  {
+    "query_id": "adv-dev-10",
+    "passed": true,
+    "reason": "Đúng nonrival, excludable và chênh lệch giữa người chịu chi phí với người hưởng giá trị tái sử dụng. Hai vùng text p50-51 hỗ trợ đầy đủ ba ý; đáp ứng hai trang khác nhau.",
+    "label_status": "assistant_proposed_pending_learner_confirmation",
+    "reviewer": "dedicated benchmark-author assistant; no API or model-judge calls",
+    "answer_correct": true,
+    "citation_correct": true,
+    "failure_type": null,
+    "source_check": {
+      "pdf_sha256": "606c8452c8b23c01d81919c3974972bebeb1e60348a56ea40cc3ae841e301616",
+      "physical_pages": [
+        50,
+        51
+      ],
+      "method": "Compared every response to frozen Dev gold and original PDF pixels; inspected the returned citation rectangles through PDFium source crops and bounded text. Same strict evidence-completeness standard as v1. A full-page bbox can pass with a specific correct page/region locator; exact equality with gold bbox is not required.",
+      "checked_conditions": "All question-required facts, arithmetic, units/denominators and source conditions, plus object/axis/legend/table-header or complete paragraph support."
+    },
+    "reviewed_trace_sha256": "a4f756366b2514397f18de566fa4b3fcebe361f78802d8d17df5b095d25bbf0b",
+    "reviewed_answer_sha256": "b3126b7513b6a366736b7c2983583e03f39f4cd9971472c443731f305cbe6dc8",
+    "reviewed_at_local": "2026-11-16T12:32:18.995765+07:00"
+  },
+  {
+    "query_id": "adv-dev-11",
+    "passed": true,
+    "reason": "Đúng cơ chế giảm đi quốc tế nhờ bản sao nội địa/IXP, trở ngại phối hợp trung lập, KIXP đóng do kiện và mở lại sau một năm. Citation p188, p338 hỗ trợ hai phần; phần bổ sung về KIXP tại p192 cũng đúng nguồn và vùng.",
+    "label_status": "assistant_proposed_pending_learner_confirmation",
+    "reviewer": "dedicated benchmark-author assistant; no API or model-judge calls",
+    "answer_correct": true,
+    "citation_correct": true,
+    "failure_type": null,
+    "source_check": {
+      "pdf_sha256": "606c8452c8b23c01d81919c3974972bebeb1e60348a56ea40cc3ae841e301616",
+      "physical_pages": [
+        188,
+        192,
+        338
+      ],
+      "method": "Compared every response to frozen Dev gold and original PDF pixels; inspected the returned citation rectangles through PDFium source crops and bounded text. Same strict evidence-completeness standard as v1. A full-page bbox can pass with a specific correct page/region locator; exact equality with gold bbox is not required.",
+      "checked_conditions": "All question-required facts, arithmetic, units/denominators and source conditions, plus object/axis/legend/table-header or complete paragraph support."
+    },
+    "reviewed_trace_sha256": "a4f756366b2514397f18de566fa4b3fcebe361f78802d8d17df5b095d25bbf0b",
+    "reviewed_answer_sha256": "71adbaf89ea7d1f9c6820275b8de71acf5f227c7aad9b75724c7dc1740595770",
+    "reviewed_at_local": "2026-11-16T12:32:18.995765+07:00"
+  },
+  {
+    "query_id": "adv-dev-12",
+    "passed": true,
+    "reason": "Đúng việc cử đơn vị giao hàng xe máy kiểm tra một tập con trong vài phút, xác minh 92% tại/gần địa điểm, cùng khảo sát hạ tầng và ghi hình/mã hóa hành vi ở 200 điểm đen. Hai vùng p172-173 đầy đủ, không nhầm 92% với giảm tai nạn.",
+    "label_status": "assistant_proposed_pending_learner_confirmation",
+    "reviewer": "dedicated benchmark-author assistant; no API or model-judge calls",
+    "answer_correct": true,
+    "citation_correct": true,
+    "failure_type": null,
+    "source_check": {
+      "pdf_sha256": "606c8452c8b23c01d81919c3974972bebeb1e60348a56ea40cc3ae841e301616",
+      "physical_pages": [
+        172,
+        173
+      ],
+      "method": "Compared every response to frozen Dev gold and original PDF pixels; inspected the returned citation rectangles through PDFium source crops and bounded text. Same strict evidence-completeness standard as v1. A full-page bbox can pass with a specific correct page/region locator; exact equality with gold bbox is not required.",
+      "checked_conditions": "All question-required facts, arithmetic, units/denominators and source conditions, plus object/axis/legend/table-header or complete paragraph support."
+    },
+    "reviewed_trace_sha256": "a4f756366b2514397f18de566fa4b3fcebe361f78802d8d17df5b095d25bbf0b",
+    "reviewed_answer_sha256": "5089f4e0efd425f7ad793bfc7cda68c791f5c148a9891a2e6209520fabe47eee",
+    "reviewed_at_local": "2026-11-16T12:32:18.995765+07:00"
+  },
+  {
+    "query_id": "adv-dev-13",
+    "passed": true,
+    "reason": "Đúng hai mục đích được hỏi: ước lượng nhiễm không triệu chứng và đo tuân thủ giãn cách qua câu hỏi công việc/di chuyển. Vùng Box 1.2 p49 chứa đầy đủ hai câu tương ứng; không bắt buộc thêm kiến thức xét nghiệm ngoài yêu cầu câu hỏi.",
+    "label_status": "assistant_proposed_pending_learner_confirmation",
+    "reviewer": "dedicated benchmark-author assistant; no API or model-judge calls",
+    "answer_correct": true,
+    "citation_correct": true,
+    "failure_type": null,
+    "source_check": {
+      "pdf_sha256": "606c8452c8b23c01d81919c3974972bebeb1e60348a56ea40cc3ae841e301616",
+      "physical_pages": [
+        49
+      ],
+      "method": "Compared every response to frozen Dev gold and original PDF pixels; inspected the returned citation rectangles through PDFium source crops and bounded text. Same strict evidence-completeness standard as v1. A full-page bbox can pass with a specific correct page/region locator; exact equality with gold bbox is not required.",
+      "checked_conditions": "All question-required facts, arithmetic, units/denominators and source conditions, plus object/axis/legend/table-header or complete paragraph support."
+    },
+    "reviewed_trace_sha256": "a4f756366b2514397f18de566fa4b3fcebe361f78802d8d17df5b095d25bbf0b",
+    "reviewed_answer_sha256": "94b70b6d951c703980c0ca4325ec53fcad15f276a0b18a12d23f13969a5aea00",
+    "reviewed_at_local": "2026-11-16T12:32:18.995765+07:00"
+  },
+  {
+    "query_id": "adv-dev-14",
+    "passed": true,
+    "reason": "Đúng tăng lưu lượng 100% và điện năng 16% trong 2015-2018, cùng chuyển sang trung tâm dữ liệu lớn hiệu quả hơn và hiện đại hóa mạng/cáp quang 85% hiệu quả hơn đồng cũ. Vùng p206 bao trọn các câu cần thiết ở cả hai cột, không còn bị cắt ngang cột phải.",
+    "label_status": "assistant_proposed_pending_learner_confirmation",
+    "reviewer": "dedicated benchmark-author assistant; no API or model-judge calls",
+    "answer_correct": true,
+    "citation_correct": true,
+    "failure_type": null,
+    "source_check": {
+      "pdf_sha256": "606c8452c8b23c01d81919c3974972bebeb1e60348a56ea40cc3ae841e301616",
+      "physical_pages": [
+        206
+      ],
+      "method": "Compared every response to frozen Dev gold and original PDF pixels; inspected the returned citation rectangles through PDFium source crops and bounded text. Same strict evidence-completeness standard as v1. A full-page bbox can pass with a specific correct page/region locator; exact equality with gold bbox is not required.",
+      "checked_conditions": "All question-required facts, arithmetic, units/denominators and source conditions, plus object/axis/legend/table-header or complete paragraph support."
+    },
+    "reviewed_trace_sha256": "a4f756366b2514397f18de566fa4b3fcebe361f78802d8d17df5b095d25bbf0b",
+    "reviewed_answer_sha256": "163b382362bb6e13315d7f1870576fb0bb724f5a70d2432fac2eea760b4fc083",
+    "reviewed_at_local": "2026-11-16T12:32:18.995765+07:00"
+  },
+  {
+    "query_id": "adv-dev-15",
+    "passed": true,
+    "reason": "Đúng nguy cơ người nghèo/dễ tổn thương bán dữ liệu và quyền cơ bản không thể mặc cả từ bỏ nhưng cho phép thương lượng sử dụng. Vùng Spotlight 6.2 p244 hỗ trợ đủ; các ý bổ sung nếu có đều có citation phù hợp.",
+    "label_status": "assistant_proposed_pending_learner_confirmation",
+    "reviewer": "dedicated benchmark-author assistant; no API or model-judge calls",
+    "answer_correct": true,
+    "citation_correct": true,
+    "failure_type": null,
+    "source_check": {
+      "pdf_sha256": "606c8452c8b23c01d81919c3974972bebeb1e60348a56ea40cc3ae841e301616",
+      "physical_pages": [
+        214,
+        244
+      ],
+      "method": "Compared every response to frozen Dev gold and original PDF pixels; inspected the returned citation rectangles through PDFium source crops and bounded text. Same strict evidence-completeness standard as v1. A full-page bbox can pass with a specific correct page/region locator; exact equality with gold bbox is not required.",
+      "checked_conditions": "All question-required facts, arithmetic, units/denominators and source conditions, plus object/axis/legend/table-header or complete paragraph support."
+    },
+    "reviewed_trace_sha256": "a4f756366b2514397f18de566fa4b3fcebe361f78802d8d17df5b095d25bbf0b",
+    "reviewed_answer_sha256": "1b974740b339421b7f08399a0c2f30ddd2278b4a948ca66158d274cb28e6cd64",
+    "reviewed_at_local": "2026-11-16T12:32:18.995765+07:00"
+  },
+  {
+    "query_id": "adv-dev-16",
+    "passed": true,
+    "reason": "Nêu rõ không có tỷ lệ nam/nữ, không bịa số. Thông tin bổ sung 1,4% cho mẫu 90 thành phố đúng với Box 1.2 p49; số chung không bị dùng thay cho các tỷ lệ thiếu.",
+    "label_status": "assistant_proposed_pending_learner_confirmation",
+    "reviewer": "dedicated benchmark-author assistant; no API or model-judge calls",
+    "answer_correct": true,
+    "citation_correct": true,
+    "failure_type": null,
+    "source_check": {
+      "pdf_sha256": "606c8452c8b23c01d81919c3974972bebeb1e60348a56ea40cc3ae841e301616",
+      "physical_pages": [
+        49
+      ],
+      "method": "Compared every response to frozen Dev gold and original PDF pixels; inspected the returned citation rectangles through PDFium source crops and bounded text. Same strict evidence-completeness standard as v1. A full-page bbox can pass with a specific correct page/region locator; exact equality with gold bbox is not required.",
+      "checked_conditions": "All question-required facts, arithmetic, units/denominators and source conditions, plus object/axis/legend/table-header or complete paragraph support."
+    },
+    "reviewed_trace_sha256": "a4f756366b2514397f18de566fa4b3fcebe361f78802d8d17df5b095d25bbf0b",
+    "reviewed_answer_sha256": "195088179031d8ae81b1209a54ee75b8925740188f565f58729f76b18a2128c4",
+    "reviewed_at_local": "2026-11-16T12:32:18.995765+07:00"
+  },
+  {
+    "query_id": "adv-dev-17",
+    "passed": true,
+    "reason": "Từ chối và không bịa ngân sách đầu tư/chi phí năm của IXP. Báo cáo chỉ đưa mô tả định tính và hướng phát triển, không có ngân sách được yêu cầu; đối chiếu các trang p178/188/197/338 và absence audit.",
+    "label_status": "assistant_proposed_pending_learner_confirmation",
+    "reviewer": "dedicated benchmark-author assistant; no API or model-judge calls",
+    "answer_correct": true,
+    "citation_correct": true,
+    "failure_type": null,
+    "source_check": {
+      "pdf_sha256": "606c8452c8b23c01d81919c3974972bebeb1e60348a56ea40cc3ae841e301616",
+      "physical_pages": [
+        338
+      ],
+      "method": "Compared every response to frozen Dev gold and original PDF pixels; inspected the returned citation rectangles through PDFium source crops and bounded text. Same strict evidence-completeness standard as v1. A full-page bbox can pass with a specific correct page/region locator; exact equality with gold bbox is not required.",
+      "checked_conditions": "All question-required facts, arithmetic, units/denominators and source conditions, plus object/axis/legend/table-header or complete paragraph support."
+    },
+    "reviewed_trace_sha256": "a4f756366b2514397f18de566fa4b3fcebe361f78802d8d17df5b095d25bbf0b",
+    "reviewed_answer_sha256": "beda1d066455dd7e5c1f9381016887d4f5085e7c87fd76d5266c028111246f31",
+    "reviewed_at_local": "2026-11-16T12:32:18.995765+07:00"
+  },
+  {
+    "query_id": "adv-dev-18",
+    "passed": true,
+    "reason": "Từ chối và không suy ra mức điện năng của nhóm thu nhập thấp từ tổng toàn cầu. Spotlight 5.2 p206-207 chỉ cho tổng 231 TWh toàn cầu, không phân bổ theo nhóm thu nhập.",
+    "label_status": "assistant_proposed_pending_learner_confirmation",
+    "reviewer": "dedicated benchmark-author assistant; no API or model-judge calls",
+    "answer_correct": true,
+    "citation_correct": true,
+    "failure_type": null,
+    "source_check": {
+      "pdf_sha256": "606c8452c8b23c01d81919c3974972bebeb1e60348a56ea40cc3ae841e301616",
+      "physical_pages": [
+        206
+      ],
+      "method": "Compared every response to frozen Dev gold and original PDF pixels; inspected the returned citation rectangles through PDFium source crops and bounded text. Same strict evidence-completeness standard as v1. A full-page bbox can pass with a specific correct page/region locator; exact equality with gold bbox is not required.",
+      "checked_conditions": "All question-required facts, arithmetic, units/denominators and source conditions, plus object/axis/legend/table-header or complete paragraph support."
+    },
+    "reviewed_trace_sha256": "a4f756366b2514397f18de566fa4b3fcebe361f78802d8d17df5b095d25bbf0b",
+    "reviewed_answer_sha256": "beda1d066455dd7e5c1f9381016887d4f5085e7c87fd76d5266c028111246f31",
+    "reviewed_at_local": "2026-11-16T12:32:18.995765+07:00"
+  }
+]

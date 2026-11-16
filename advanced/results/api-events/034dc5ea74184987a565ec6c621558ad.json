@@ -1,0 +1,55 @@
+{
+  "id": "034dc5ea74184987a565ec6c621558ad",
+  "label": "20261116-164337-r2-dev-candidate-7d01ebc6:adv-dev-07:step0",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 21394,
+  "maximum_output_tokens": 3500,
+  "images": [
+    {
+      "page": 46,
+      "path": "advanced/data/pages/p046.jpg",
+      "sha256": "85494debf929cafbaf918dad93eacec82ce69eb740e634c95e6403b55ce842b4"
+    },
+    {
+      "page": 45,
+      "path": "advanced/data/pages/p045.jpg",
+      "sha256": "5f66141db3fd78f6dfce232ed9b790b4dc3afb88b087a71ccc941d1be327e872"
+    },
+    {
+      "page": 8,
+      "path": "advanced/data/pages/p008.jpg",
+      "sha256": "db0dbafd1b954d91c8c9134ddc2e6fa9ae5c0ece7cbf43819e1d67fc0038df4a"
+    },
+    {
+      "page": 49,
+      "path": "advanced/data/pages/p049.jpg",
+      "sha256": "4fc676444eecbc0577e8c29ad0e5cc31554fc8ea3594492c4d3c8e602423066c"
+    },
+    {
+      "page": 80,
+      "path": "advanced/data/pages/p080.jpg",
+      "sha256": "052cb7be0c92cfbb817a2d50736d16b6354a568b1ed3865686b2738c4b9740b7"
+    }
+  ],
+  "instructions_sha256": "7b27220272435c850770154f165a9b99ffc1a1c1848fec729da980d6adec6535",
+  "usage": {
+    "input_tokens": 21394,
+    "input_tokens_details": {
+      "cache_write_tokens": 21391,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 21391
+      }
+    },
+    "output_tokens": 293,
+    "output_tokens_details": {
+      "reasoning_tokens": 100
+    },
+    "total_tokens": 21687
+  },
+  "response_id": "resp_0410556c1a75308d016afad1357eb487d2b63212d373e80bec",
+  "response_status": "completed",
+  "output_text": "{\"action\":\"answer\",\"expression\":\"71% - 94% = -23 percentage points\",\"queries\":[],\"pages\":[46],\"status\":\"answered\",\"answer\":\"The census-enumerated share fell from 94% in 1960 to 71% in 1970, a decrease of 23 percentage points. These percentages are shown by the bars; the shaded area represents the world’s total population, not the enumerated share.\",\"citations\":[{\"page\":46,\"region_label\":\"Figure 1.1, including chart, axes, decade labels, and note\",\"bbox\":[0.116,0.085,0.907,0.469],\"quote\":\"The bars indicate the percentage of the population that was enumerated each decade; the shaded area represents the world’s population. The 1960 bar is 94% and the 1970 bar is 71%.\"}]}",
+  "elapsed_seconds": 8.755600800002867
+}

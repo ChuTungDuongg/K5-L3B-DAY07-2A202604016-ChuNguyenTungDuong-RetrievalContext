@@ -1,0 +1,45 @@
+{
+  "id": "94d3b69f91a643ec8d06c29791012b49",
+  "label": "20261116-123301-test-baseline-45143179:adv-test-14:step0",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 13803,
+  "maximum_output_tokens": 3500,
+  "images": [
+    {
+      "page": 186,
+      "path": "advanced/data/pages/p186.jpg",
+      "sha256": "9a0233e560f2479f0df9dfa005111d5074bb9660a20c281a76fac9afb92c4c1b"
+    },
+    {
+      "page": 187,
+      "path": "advanced/data/pages/p187.jpg",
+      "sha256": "6e34be834819adc77c6a8bb9363b769ee2b016a843289895fb1d3b7af1e2007d"
+    },
+    {
+      "page": 185,
+      "path": "advanced/data/pages/p185.jpg",
+      "sha256": "1836c9518727d198d99a2832e670cba05ec83fe1769ae6cdecb748e4f69c827a"
+    }
+  ],
+  "instructions_sha256": "7b27220272435c850770154f165a9b99ffc1a1c1848fec729da980d6adec6535",
+  "usage": {
+    "input_tokens": 13803,
+    "input_tokens_details": {
+      "cache_write_tokens": 13800,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 13800
+      }
+    },
+    "output_tokens": 241,
+    "output_tokens_details": {
+      "reasoning_tokens": 56
+    },
+    "total_tokens": 14044
+  },
+  "response_id": "resp_0bc51bca26d28643016afa95f67f0c87d2aaa970951ec69198",
+  "response_status": "completed",
+  "output_text": "{\"action\":\"calculate\",\"expression\":\"7.1 GB per capita per month ÷ 0.2 GB per capita per month = 35\",\"queries\":[],\"pages\":[186],\"status\":\"answered\",\"answer\":\"In 2018, monthly mobile-data consumption was 7.1 GB per capita in high-income countries and 0.2 GB per capita in low-income countries. Using the displayed rounded values, high-income consumption was 35 times low-income consumption.\",\"citations\":[{\"page\":186,\"region_label\":\"Figure 5.6, panel a (including caption and note)\",\"bbox\":[0.084,0.085,0.915,0.487],\"quote\":\"Data are for 2018. Data consumption (GB per capita per month): High-income, 7.1; Low-income, 0.2.\"}]}",
+  "elapsed_seconds": 6.156947700001183
+}

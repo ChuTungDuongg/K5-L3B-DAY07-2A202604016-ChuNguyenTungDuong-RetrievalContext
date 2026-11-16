@@ -1,0 +1,35 @@
+{
+  "id": "2c37e3a948ea45f2821edd6f57ce5254",
+  "label": "index:p189",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 3910,
+  "maximum_output_tokens": 6000,
+  "images": [
+    {
+      "page": 189,
+      "path": "advanced/data/pages/p189.jpg",
+      "sha256": "a73c291381cada6a85b806e77193534e8259146b4ea00c5f2828dfab168895bb"
+    }
+  ],
+  "instructions_sha256": "01d3a56b3c678b1acd37e506320a854b17dd9ddb13ece56a92b62990aeb80d41",
+  "usage": {
+    "input_tokens": 3910,
+    "input_tokens_details": {
+      "cache_write_tokens": 3907,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 3907
+      }
+    },
+    "output_tokens": 345,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 4255
+  },
+  "response_id": "resp_01753ab1a1c46a07016afa909ba8c887d2ab4cf53a8f75f915",
+  "response_status": "completed",
+  "output_text": "{\"regions\":[{\"label\":\"Map 5.1 — The global fiber-optic cable submarine network reaches all corners of the world, but data infrastructure is unevenly developed\",\"kind\":\"map\",\"bbox\":[0.09,0.087,0.909,0.48],\"summary\":\"World map showing submarine cable routes and landing stations, alongside colocation data centers and internet exchange points. Infrastructure locations are visibly concentrated in North America, Europe, and parts of East Asia, while other regions have fewer mapped facilities.\",\"details\":\"The map depicts global land areas in gray and ocean areas in white. Green lines mark submarine cables, including multiple routes linking continents and coastal regions; open white circles mark submarine cable landing stations; blue dots mark internet exchange points (IXPs); red dots mark colocation data centers. The legend lists these four categories. Dense concentrations of red and blue facility markers appear in North America and Europe, with notable concentrations in East Asia; many cable routes and landing stations trace coastlines and connect across oceans. The map includes the imprint “IBRD WLD45643 | MARCH 2021.” Sources printed below: PeeringDB, Interconnection Database; PCH Packet Clearing House, Packet Clearing House Report on Internet Exchange Point Locations (accessed December 14, 2020); TeleGeography, Submarine Cables. Data link: http://bit.do/WDR2021-Map-5_1.\",\"limitations\":\"The map has no numeric scale or values; marker counts and exact locations are not legible or tabulated. Dense markers and overlapping cable routes prevent precise enumeration. The map title’s claim of uneven development is qualitative.\"}]}",
+  "elapsed_seconds": 6.520486399997026
+}

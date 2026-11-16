@@ -1,0 +1,35 @@
+{
+  "id": "c4bf62ca1f174e0e9e3bdbfbaaccc250",
+  "label": "index:p088",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 4202,
+  "maximum_output_tokens": 6000,
+  "images": [
+    {
+      "page": 88,
+      "path": "advanced/data/pages/p088.jpg",
+      "sha256": "5e982d48bce6d86c69621008df86d3dfd347c4f57bc2b888bfc55b8b26a8ffea"
+    }
+  ],
+  "instructions_sha256": "01d3a56b3c678b1acd37e506320a854b17dd9ddb13ece56a92b62990aeb80d41",
+  "usage": {
+    "input_tokens": 4202,
+    "input_tokens_details": {
+      "cache_write_tokens": 4199,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 4199
+      }
+    },
+    "output_tokens": 429,
+    "output_tokens_details": {
+      "reasoning_tokens": 80
+    },
+    "total_tokens": 4631
+  },
+  "response_id": "resp_016eb64583199350016afa9048c37087d2a0652ab21baeb02c",
+  "response_status": "completed",
+  "output_text": "{\"regions\":[{\"label\":\"Figure 2.8 — The older a country’s statistical laws, the lower is its statistical performance and the less open are its data\",\"kind\":\"chart\",\"bbox\":[0.083,0.565,0.917,0.944],\"summary\":\"Two scatterplots show negative relationships between the age of a country’s statistical law and (a) its Statistical Performance Index and (b) its ODIN overall score. Points are grouped by country income level; both panels include downward-sloping fitted lines.\",\"details\":\"Panel a, “Statistical performance”: x-axis is Age of statistical laws (years), approximately 0–70; y-axis is Statistical Performance Index, 0–90. Panel b, “Openness of data”: x-axis is Age of statistical laws (years), approximately 0–70; y-axis is ODIN overall score, 0–90. Each panel contains colored country-level scatter points and a pink downward-sloping regression line. Legend: blue = High-income; green = Upper-middle-income; orange = Lower-middle-income; ochre/gold = Low-income. In both panels, points are widely dispersed, but the fitted line slopes downward. Note reports regression coefficient on age, controlling for GDP per capita: panel a −0.48, p < .01; panel b −0.39, p < .01. Sources and notes appear below the charts; the note identifies the Statistical Performance Indicators and Open Data Inventory (ODIN).\",\"limitations\":\"Individual plotted values are not labeled, so exact country-level observations cannot be read reliably. The figure provides no numeric tick intervals beyond the visible axes.\"}]}",
+  "elapsed_seconds": 7.029408899994451
+}

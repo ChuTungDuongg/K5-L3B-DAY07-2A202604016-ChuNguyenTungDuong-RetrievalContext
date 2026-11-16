@@ -1,0 +1,45 @@
+{
+  "id": "d6d6ecc855a54e488c026f006c155566",
+  "label": "20261116-165446-r2-test-baseline-cbad637d:adv-r2-test-04:step0",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 14310,
+  "maximum_output_tokens": 3500,
+  "images": [
+    {
+      "page": 84,
+      "path": "advanced/data/pages/p084.jpg",
+      "sha256": "712f3663cdb1c27a6ca472c14d7f88e5b501aeeadb3fe78e14251c5f07a0c4a6"
+    },
+    {
+      "page": 83,
+      "path": "advanced/data/pages/p083.jpg",
+      "sha256": "0749930b2ee94306a46e9b99a8aae816d4c1b1489ce076774495d76a21b49e98"
+    },
+    {
+      "page": 162,
+      "path": "advanced/data/pages/p162.jpg",
+      "sha256": "3c87eb79f59a0c83019e94b33de2758ae869eec16a9e7ea359fc6bc3f51ab34e"
+    }
+  ],
+  "instructions_sha256": "7b27220272435c850770154f165a9b99ffc1a1c1848fec729da980d6adec6535",
+  "usage": {
+    "input_tokens": 14310,
+    "input_tokens_details": {
+      "cache_write_tokens": 14307,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 14307
+      }
+    },
+    "output_tokens": 286,
+    "output_tokens_details": {
+      "reasoning_tokens": 83
+    },
+    "total_tokens": 14596
+  },
+  "response_id": "resp_0ab88532523924a9016afad3440e1c87d2a963e751a9299e45",
+  "response_status": "completed",
+  "output_text": "{\"action\":\"answer\",\"expression\":\"98% - 30% = 68 percentage points\",\"queries\":[],\"pages\":[84],\"status\":\"answered\",\"answer\":\"Use of an advance release calendar was 30% for low-income countries and 98% for high-income countries, a high-minus-low gap of 68 percentage points. The table note says the data are for 2019 and the percentages represent the proportion of the population in each income group whose national statistical office has the listed attribute.\",\"citations\":[{\"page\":84,\"region_label\":\"Table 2.2, including note\",\"bbox\":[0.205,0.09,0.91,0.265],\"quote\":\"NSO uses advance release calendar: Low-income 30; High-income 98. Note: Data are for 2019. The percentages reflect the proportion of the population in each income group whose national statistical office (NSO) has the listed attribute.\"}]}",
+  "elapsed_seconds": 7.05907180000213
+}

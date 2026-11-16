@@ -1,0 +1,55 @@
+{
+  "id": "451257f8de624af09aa85ba08d4a0ca6",
+  "label": "20261116-122658-dev-candidate-fdc3f714:adv-dev-09:step0",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 21927,
+  "maximum_output_tokens": 3500,
+  "images": [
+    {
+      "page": 220,
+      "path": "advanced/data/pages/p220.jpg",
+      "sha256": "f2b831a6844fece3e541c24a0b9c86e8f3173a5cce1b781e73828acc83c5f653"
+    },
+    {
+      "page": 219,
+      "path": "advanced/data/pages/p219.jpg",
+      "sha256": "4558f8d3445a2d314bcefec6b9d116ea445bdb4030fad22067d167258cb41d89"
+    },
+    {
+      "page": 9,
+      "path": "advanced/data/pages/p009.jpg",
+      "sha256": "09a3224fa1c703c6ecfdc5fcb466b7f5409db80fb2f8d71bb2ca444975459220"
+    },
+    {
+      "page": 214,
+      "path": "advanced/data/pages/p214.jpg",
+      "sha256": "fd7375fd44628bf58bd22759a973cac7f0f653123242924fca06b8f2ee924d17"
+    },
+    {
+      "page": 224,
+      "path": "advanced/data/pages/p224.jpg",
+      "sha256": "4feecc6616ebff4702ec71bb86eea894863e82d037b90aab323c6655bd44b0f4"
+    }
+  ],
+  "instructions_sha256": "7b27220272435c850770154f165a9b99ffc1a1c1848fec729da980d6adec6535",
+  "usage": {
+    "input_tokens": 21927,
+    "input_tokens_details": {
+      "cache_write_tokens": 21924,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 21924
+      }
+    },
+    "output_tokens": 228,
+    "output_tokens_details": {
+      "reasoning_tokens": 82
+    },
+    "total_tokens": 22155
+  },
+  "response_id": "resp_083edc503d0d4d61016afa9478ceac87d28db45be7762eaf16",
+  "response_status": "completed",
+  "output_text": "{\"action\":\"answer\",\"expression\":\"\",\"queries\":[],\"pages\":[220],\"status\":\"answered\",\"answer\":\"Lower-middle-income countries have the highest adoption of technological neutrality of electronic communications. No—the highest adoption of legal recognition of electronic signatures is among high-income countries.\",\"citations\":[{\"page\":220,\"region_label\":\"Figure 6.5, radar chart (including axes and legend)\",\"bbox\":[0.083,0.086,0.535,0.477],\"quote\":\"“Technological neutrality of electronic communications”; “Legal recognition of electronic signatures”; legend: “High-income,” “Upper-middle-income,” “Lower-middle-income,” and “Low-income.”\"}]}",
+  "elapsed_seconds": 9.545089100000041
+}

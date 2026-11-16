@@ -1,0 +1,35 @@
+{
+  "id": "20cd6f303a1f4fb191cbe2f21896f611",
+  "label": "index:p329",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 4124,
+  "maximum_output_tokens": 6000,
+  "images": [
+    {
+      "page": 329,
+      "path": "advanced/data/pages/p329.jpg",
+      "sha256": "ca6c9eafdd3cc6ad0c4ca185644346089e4a024d87b453d323eb878a4ef09b0d"
+    }
+  ],
+  "instructions_sha256": "01d3a56b3c678b1acd37e506320a854b17dd9ddb13ece56a92b62990aeb80d41",
+  "usage": {
+    "input_tokens": 4124,
+    "input_tokens_details": {
+      "cache_write_tokens": 4121,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 4121
+      }
+    },
+    "output_tokens": 236,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 4360
+  },
+  "response_id": "resp_0231eecc3f6f9689016afa90f8855c87d293d07254146f0ff6",
+  "response_status": "completed",
+  "output_text": "{\"regions\":[{\"label\":\"Figure 9.2 — A data maturity model for a hypothetical national data system\",\"kind\":\"diagram\",\"bbox\":[0.454,0.48,0.914,0.939],\"summary\":\"Circular maturity model shows three concentric stages across five participant groups; darker segment colors indicate steps accomplished and lighter colors steps not accomplished.\",\"details\":\"A segmented circular diagram has three maturity rings, labeled from the center outward: “Establishing fundamentals” (orange), “Initiating data flows” (green), and “Optimizing the system” (blue). The outer dark-purple ring identifies five participant groups around the circle: Government entities; Civil society and individuals; Academic institutions; Private sector; International organizations. Each participant’s three ring segments are independently shaded dark or light, illustrating differing progress among participants and stages. Callout labels at the upper-left of the rings point to the three stages. Source: WDR 2021 team.\",\"limitations\":\"The diagram is illustrative and has no numeric scale or values. Segment shading is visible, but the note does not specify a quantitative measure of completion.\"}]}",
+  "elapsed_seconds": 5.548655099999451
+}

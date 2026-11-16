@@ -1,0 +1,61 @@
+{
+  "frozen_at_local": "2026-11-16T12:32:59.614547+07:00",
+  "criterion": "Strict Dev pass count descending, then median latency ascending, then estimated cost ascending; specified before Dev in design document.",
+  "config_name": "baseline",
+  "config": {
+    "image_pages": 3,
+    "max_images": 6,
+    "max_steps": 3
+  },
+  "chosen_dev_run": "20261116-122648-dev-baseline-91fbfbb2",
+  "pipeline_sha256": {
+    "advanced/agent.py": "aa0430451e2a9b6ef07547e33398415343cbf1b8bc4ac4431ff1f2e862068980",
+    "advanced/api.py": "62de5f8e683445af241e81a8e861cfe448c6c66318c3b5f1b5b864aa4b2ab568",
+    "advanced/budget.py": "8f3baed81f6b1df505a837f5b869bb189fe66b08e92bc4109d271bda137fa4f7",
+    "advanced/retrieval.py": "df877610798ef1e2e085478a6beb2cbf9a59d1d10c6a52a286b0bab93a882952",
+    "advanced/source.py": "8d3bcdf94a2ea3d91477911bd310d6098347ac90c85640570be8ae997431157b",
+    "advanced/visuals.py": "f7adbe3af982eab82dbcb03b26db9c3f9137a8493c8dcf122c985f34f82c7064",
+    "advanced/run.py": "0ac5ac1a7c37fc3bee1906e62b8be420b13d8429dfcac149a985cc5a711a5654",
+    "advanced/requirements.txt": "74112484ffa7912c7d6cb71e2c0a63825e8d7e663e765f6b9cbbb1dfd28184ab",
+    "requirements-lock.txt": "02818bfefb22b5ee8d78fdb1f509d4e363ea6e230d4054f367666115fc35b187",
+    "starter/baseline.py": "cf51d4f4dd5412270d73b51cb117eef5329695fc8fd8eb637de050b3d6488c36",
+    "starter/day6_backend/embeddings.py": "97d545bddb9fa89ad554a1a114f0e9eddfa6990e85b98c7222eb4770acb90ee9",
+    "starter/day6_backend/store.py": "78b0d35283ae842145eb88a3bc4227b64222d46415b932f93c8cb91035882aca",
+    "starter/day6_backend/models.py": "9f26a14cd6139c7b608df067894274308ae7b5c2c2ccd10566079c345fae1710",
+    "scripts/summarize_results.py": "51163f053b63d91ea91ead61f06c37e0d98f3019732e67017539234d24f56d8d",
+    "advanced/data/chunks.json": "b2d08898b899ea768feecc12be82b31a1c76c37b860d7fe73c5531eb7ace151b",
+    "advanced/data/pages.json": "087ac9c8663a171aa5eb95c2ff4685b96e9ba597754786c3cd604ecc39a78d80",
+    "advanced/data/regions.json": "03dd196815b04b3ec638d1916339f0e775bf1c090c01107464c2ba7a1eeed5cd",
+    "advanced/data/index-manifest.json": "5012e3a3113656d156d7faa7f662bc0efa84e27ace4784f45a458c1a765fb6b2",
+    "advanced/data/index.json.gz": "1d6663e44c0b7f9ae0648c49bbe20a6d4f96224961f193c9531956bdc48bdfc1",
+    "advanced/data/render-manifest.json": "8129ee479f0024add2af6a8b51716b2b8f46f1a1d63a87f32a93afd7a06cd0ad"
+  },
+  "benchmark_freeze_sha256": "79a0ce1962f201dc09e1dd6c9f0c7d4defcdcf13c630e97a1bf033de05384874",
+  "dev_experiment_plan_sha256": "bb2b2107938a4416f1d455506d83806aadf29aa46174625301d308613e0c471e",
+  "evaluation_sha256": {
+    "advanced/metrics.py": "cfad4017c1aa8c3481d0e89b2aa4027bce4d0e87318862f899b3f9c1219bbc1b",
+    "advanced/analyze.py": "640044eb314a115224efbdbadc9e1d0799cd401aa96f3cfd7f5897214d3ada65",
+    "advanced/select.py": "63bc10e9e34488289560eb10394881eb82960fc90330c0d44d979aca1b3002df",
+    "advanced/official_test.py": "9d125bbeaf7b77bf3990328c900261744709e7d15092a925c3606489178ec719"
+  },
+  "dev_evidence": [
+    {
+      "run_id": "20261116-122648-dev-baseline-91fbfbb2",
+      "passed": 17,
+      "total": 18,
+      "median_ms": 7229.076,
+      "estimated_usd": "0.0486706500",
+      "review_sha256": "6c4dbf82a43c245e2c2a2617e68164097be74854055e5c0b11b572210f6350aa"
+    },
+    {
+      "run_id": "20261116-122658-dev-candidate-fdc3f714",
+      "passed": 17,
+      "total": 18,
+      "median_ms": 8371.7695,
+      "estimated_usd": "0.0858564250",
+      "review_sha256": "857cc7fb874fece64d495bc7d7ada3bdfdebd29e091da1a09643d3fa09cd3d21"
+    }
+  ],
+  "label_status": "assistant_proposed_pending_learner_confirmation",
+  "test_not_used_for_selection": true
+}

@@ -1,0 +1,35 @@
+{
+  "id": "5fee83f4d061486dbda63a1285d18d45",
+  "label": "index:p025",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 4455,
+  "maximum_output_tokens": 6000,
+  "images": [
+    {
+      "page": 25,
+      "path": "advanced/data/pages/p025.jpg",
+      "sha256": "db6ad1d05ba0985bf4984d4d1df687776b9f71fd7b1000b86c9fa51d5a9863c8"
+    }
+  ],
+  "instructions_sha256": "01d3a56b3c678b1acd37e506320a854b17dd9ddb13ece56a92b62990aeb80d41",
+  "usage": {
+    "input_tokens": 4455,
+    "input_tokens_details": {
+      "cache_write_tokens": 4452,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 4452
+      }
+    },
+    "output_tokens": 531,
+    "output_tokens_details": {
+      "reasoning_tokens": 111
+    },
+    "total_tokens": 4986
+  },
+  "response_id": "resp_0c3a5b4275f4434f016afa8ffadee487d2ac8650808838da03",
+  "response_status": "completed",
+  "output_text": "{\"regions\":[{\"label\":\"Map O.1\",\"kind\":\"map\",\"bbox\":[0.092,0.597,0.896,0.916],\"summary\":\"Weekly maps of cellphone-record mobility flows across administrative districts in The Gambia during COVID-19 lockdowns, March–May 2020.\",\"details\":\"The figure contains 11 small maps of The Gambia, labeled Week 3 through Week 13: Week 3, March 15–21; Week 4, March 22–28; Week 5, March 29–April 4; Week 6, April 5–11; Week 7, April 12–18; Week 8, April 19–25; Week 9, April 26–May 2; Week 10, May 3–9; Week 11, May 10–16; Week 12, May 17–23; and Week 13, May 24–30. Districts are shaded by percentage change in population flows, with a blue-to-green scale labeled −60, −40, −20, −16, −12, −8, −4, 0, 4, 8, 12, 16, 20, 40, and 60+. Blue indicates outflow of people; green indicates inflow. Map labels include Banjul, Brikama, Kanifing, Kerewan, Mansa Konko, Georgetown, Basse, and Santa Su. Legend symbols identify national capital and district capitals; line styles identify international and district boundaries. Source: Knippenberg and Meyer 2020; data link printed as http://bit.do/WDR2021-Map-O_1. Note states that a nationwide lockdown was imposed on March 22, 2020, and data were gathered using call detail records.\",\"limitations\":\"Small district-level labels and individual color assignments are difficult to read at this resolution; no specific district values are stated.\"}]}",
+  "elapsed_seconds": 10.430855899998278
+}

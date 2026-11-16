@@ -1,0 +1,45 @@
+{
+  "id": "0bd7db7416d94243960a0a97f3877f7e",
+  "label": "20261116-165446-r2-test-baseline-cbad637d:adv-r2-test-10:step0",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 13087,
+  "maximum_output_tokens": 3500,
+  "images": [
+    {
+      "page": 290,
+      "path": "advanced/data/pages/p290.jpg",
+      "sha256": "07d9612eed46985874305c92c0b59c2c388a53841db8c2cf6413caf66c3c140e"
+    },
+    {
+      "page": 292,
+      "path": "advanced/data/pages/p292.jpg",
+      "sha256": "4a48e5f9a71018c6779d4f586f10f27f0e0deb2e401f133a562234e80e8e7c64"
+    },
+    {
+      "page": 30,
+      "path": "advanced/data/pages/p030.jpg",
+      "sha256": "505c25d52cf6d2b82674a2d52e7c4c49ee38d5326e1667bdeb54ab82ffefc06b"
+    }
+  ],
+  "instructions_sha256": "7b27220272435c850770154f165a9b99ffc1a1c1848fec729da980d6adec6535",
+  "usage": {
+    "input_tokens": 13087,
+    "input_tokens_details": {
+      "cache_write_tokens": 13084,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 13084
+      }
+    },
+    "output_tokens": 166,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 13253
+  },
+  "response_id": "resp_0a940541916af828016afad3986e9887d2bb6bf0f126ae7a26",
+  "response_status": "completed",
+  "output_text": "{\"action\":\"answer\",\"expression\":\"\",\"queries\":[],\"pages\":[290],\"status\":\"answered\",\"answer\":\"The **Learning and evidence** cluster combines the backward-looking function **monitor and evaluate** with the forward-looking function **anticipate and manage risks**. By contrast, **Rule making and implementation** comprises **legislate/regulate**, **set standards**, and **provide clarification and guidance**.\",\"citations\":[{\"page\":290,\"region_label\":\"Figure 8.2, Functions of data governance\",\"bbox\":[0.08,0.08,0.54,0.48],\"quote\":\"Learning and evidence: Monitor and evaluate; Anticipate and manage risks. Rule making and implementation: Legislate/regulate; Set standards; Provide clarification and guidance.\"}]}",
+  "elapsed_seconds": 4.918015199997171
+}

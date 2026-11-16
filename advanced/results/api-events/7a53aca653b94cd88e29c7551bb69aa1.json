@@ -1,0 +1,60 @@
+{
+  "id": "7a53aca653b94cd88e29c7551bb69aa1",
+  "label": "20261116-165446-r2-test-baseline-cbad637d:adv-r2-test-27:step2",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 28620,
+  "maximum_output_tokens": 3500,
+  "images": [
+    {
+      "page": 266,
+      "path": "advanced/data/pages/p266.jpg",
+      "sha256": "1422c6ec623c3a7ca5d3d448fbe006e57434a4fce90ff8d4279110c3fa1123fc"
+    },
+    {
+      "page": 274,
+      "path": "advanced/data/pages/p274.jpg",
+      "sha256": "856716b94790f71f58ee02dae4ed47e4a13b3d4ed87e64bfd250bc7750d473ed"
+    },
+    {
+      "page": 269,
+      "path": "advanced/data/pages/p269.jpg",
+      "sha256": "78edca3248ed2eae364fb2c643d0b1aa806dbfc9f40783c40e0aef5c98ce6822"
+    },
+    {
+      "page": 220,
+      "path": "advanced/data/pages/p220.jpg",
+      "sha256": "f2b831a6844fece3e541c24a0b9c86e8f3173a5cce1b781e73828acc83c5f653"
+    },
+    {
+      "page": 272,
+      "path": "advanced/data/pages/p272.jpg",
+      "sha256": "e363814b00c50df0c787a6b8bc93df074f84231ccee9758fee206ebc831a7891"
+    },
+    {
+      "page": 275,
+      "path": "advanced/data/pages/p275.jpg",
+      "sha256": "3a5bd7333e119684d889222f44dc7c1bbd10d29aa2c027696623b899d7a71151"
+    }
+  ],
+  "instructions_sha256": "7b27220272435c850770154f165a9b99ffc1a1c1848fec729da980d6adec6535",
+  "usage": {
+    "input_tokens": 28620,
+    "input_tokens_details": {
+      "cache_write_tokens": 28617,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 28617
+      }
+    },
+    "output_tokens": 194,
+    "output_tokens_details": {
+      "reasoning_tokens": 15
+    },
+    "total_tokens": 28814
+  },
+  "response_id": "resp_0c01006b729d763c016afad4b510b887d2894c4624b26c0880",
+  "response_status": "completed",
+  "output_text": "{\"action\":\"search\",\"expression\":\"Find the Singapore-specific statutory VAT/GST rate and taxable B2C e-commerce base underlying its 2025 indirect-tax potential in Figure 7.6.\",\"queries\":[\"Figure 7.6 Singapore indirect-tax VAT potential 2025 statutory rate taxable B2C e-commerce base\",\"Singapore VAT rate and B2C gross revenue e-commerce estimates Al-Rikabi Loeprick WDR 2021\",\"Singapore taxable business-to-consumer e-commerce base 2025 GST potential methodology\"],\"pages\":[],\"status\":\"abstain\",\"answer\":\"Insufficient evidence in the retrieved material to establish the Singapore statutory VAT rate and taxable B2C e-commerce base assumed for Figure 7.6. The targeted evidence needed is the figure’s notes or its underlying country-specific estimation methodology.\",\"citations\":[]}",
+  "elapsed_seconds": 11.882617900002515
+}

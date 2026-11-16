@@ -1,0 +1,35 @@
+{
+  "id": "6e2a2c666b2d4e3e960424877b6abe03",
+  "label": "index:p337",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 3995,
+  "maximum_output_tokens": 6000,
+  "images": [
+    {
+      "page": 337,
+      "path": "advanced/data/pages/p337.jpg",
+      "sha256": "8e2a10b4b6a1c453a2da2ebac4931015093414f24e85b280330ec519d0176e2c"
+    }
+  ],
+  "instructions_sha256": "01d3a56b3c678b1acd37e506320a854b17dd9ddb13ece56a92b62990aeb80d41",
+  "usage": {
+    "input_tokens": 3995,
+    "input_tokens_details": {
+      "cache_write_tokens": 3992,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 3992
+      }
+    },
+    "output_tokens": 337,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 4332
+  },
+  "response_id": "resp_0ff278f71b2e35df016afa91031fc487d2bcc3ec9177abade8",
+  "response_status": "completed",
+  "output_text": "{\"regions\":[{\"label\":\"Figure 9.6 — Steps to integrating the private sector into the national data system\",\"kind\":\"diagram\",\"bbox\":[0.093,0.591,0.796,0.942],\"summary\":\"Three overlapping, progressively layered panels outline steps for establishing fundamentals, initiating data flows, and optimizing the national data system for private-sector participation.\",\"details\":\"The diagram uses three overlapping rounded panels. Left/orange panel, “Establishing fundamentals”: (1) Infrastructure policies — construct national transmission networks for high-speed wireless broadband access; (2) Human capital — equip workers and businesses with the skills and appliances needed to produce and use data. Center/green panel, “Initiating data flows”: (1) Infrastructure policies — increase IXPs and data centers to improve the efficiency of data transfers; (2) Incentives — adopt compensation and noncompensation schemes to promote data exchanges; (3) Data demand — promote the role of data stewards in business. Right/blue panel, “Optimizing the system”: (1) Incentives — increase data interoperability through adoption of stringent data quality and privacy standards that are also pro-business; (2) Infrastructure policies — promote expansion of and access to colocation data centers; (3) Trust — engage business through trusted data intermediaries. Source: WDR 2021 team. Note: Categories overlap and are meant to be illustrative. IXPs = internet exchange points. The panels overlap visually; they present categories/steps, not an explicit directional flow or quantitative scale.\",\"limitations\":\"No quantitative values, axes, or explicit arrows are shown.\"}]}",
+  "elapsed_seconds": 5.513734799998929
+}

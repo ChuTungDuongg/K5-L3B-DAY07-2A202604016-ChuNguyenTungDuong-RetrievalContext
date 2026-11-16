@@ -1,0 +1,35 @@
+{
+  "id": "d6a22282a35949e5a5ee5bfaa242dd32",
+  "label": "index:p138",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 3816,
+  "maximum_output_tokens": 6000,
+  "images": [
+    {
+      "page": 138,
+      "path": "advanced/data/pages/p138.jpg",
+      "sha256": "b12fe472e7c1ccf06f3b290e5d515f54fb3140978a68159bbab00ce0e0951f53"
+    }
+  ],
+  "instructions_sha256": "01d3a56b3c678b1acd37e506320a854b17dd9ddb13ece56a92b62990aeb80d41",
+  "usage": {
+    "input_tokens": 3816,
+    "input_tokens_details": {
+      "cache_write_tokens": 3813,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 3813
+      }
+    },
+    "output_tokens": 413,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 4229
+  },
+  "response_id": "resp_01e5cd7eb6d6ab30016afa90674ce887d2b94893918c69de3f",
+  "response_status": "completed",
+  "output_text": "{\"regions\":[{\"label\":\"Figure S3.1.1\",\"kind\":\"diagram\",\"bbox\":[0.205,0.324,0.994,0.93],\"summary\":\"Circular chord diagram of public-data use among 500 U.S. firms, connecting company categories (green, left) with federal agencies (purple, right).\",\"details\":\"Two semicircular sector groups surround a dense web of gray connecting lines. The left-hand green semicircle is labeled “Company categories”; its categories are Transportation, Insurance, Energy, Housing and real estate, Geospatial and mapping, Governance, Lifestyle and consumer, Health care, Food and agriculture, Business and legal services, Finance and investment, Scientific research, Data and technology, Education, Environment and weather, and Research and consulting. The right-hand purple semicircle is labeled “Federal agencies”; its sectors are Department of Agriculture, Department of Commerce, Department of Defense, Department of Education, Department of Energy, Department of Health and Human Services, Department of Homeland Security, Department of Justice, Department of Labor, Department of Transportation, Department of the Interior, Department of the Treasury, Federal Election Commission, Federal Reserve Board, Multiple federal data sources, National Aeronautics and Space Administration, Securities and Exchange Commission, and Environmental Protection Agency. The gray lines show use relationships: from the federal-agency side, which private-sector firm types used data from each agency; from the company-category side, which agencies each type used. Sector arc size reflects the number of firms using that department’s data. The note gives finance and investment as an example: firms in this category used open data from 19 U.S. departments and agencies. Source: Verhulst and Caplan 2015; data link printed as http://bit.do/WDR2021-Fig-S3_1_1; © The GovLab.\",\"limitations\":\"Individual gray connections are densely overlaid and cannot be reliably enumerated from the image. No numeric scale or exact sector values are shown.\"}]}",
+  "elapsed_seconds": 5.989737299998524
+}

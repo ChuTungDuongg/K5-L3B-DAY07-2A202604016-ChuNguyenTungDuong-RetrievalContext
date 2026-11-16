@@ -1,0 +1,55 @@
+{
+  "id": "b482cee3cb5b49c59a142ad54c5b3ef9",
+  "label": "20261116-164337-r2-dev-candidate-7d01ebc6:adv-dev-06:step0",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 21029,
+  "maximum_output_tokens": 3500,
+  "images": [
+    {
+      "page": 329,
+      "path": "advanced/data/pages/p329.jpg",
+      "sha256": "ca6c9eafdd3cc6ad0c4ca185644346089e4a024d87b453d323eb878a4ef09b0d"
+    },
+    {
+      "page": 26,
+      "path": "advanced/data/pages/p026.jpg",
+      "sha256": "9eac093b7d3bd06b0e0d6e0a173f12655c03667c6e68864961384b2074357425"
+    },
+    {
+      "page": 211,
+      "path": "advanced/data/pages/p211.jpg",
+      "sha256": "73e488d74a78131b4bba4d1b94152a1a7a306b460f708b2a24a6debef6e2d48e"
+    },
+    {
+      "page": 53,
+      "path": "advanced/data/pages/p053.jpg",
+      "sha256": "256c137eeec96bf22cf9bdb640c9a3096bfd373375a06342f7a5733c45c37a39"
+    },
+    {
+      "page": 325,
+      "path": "advanced/data/pages/p325.jpg",
+      "sha256": "057beecc828654a66ec3392142501dafc7dc0ab05db1f90dbd3978d611d3d635"
+    }
+  ],
+  "instructions_sha256": "7b27220272435c850770154f165a9b99ffc1a1c1848fec729da980d6adec6535",
+  "usage": {
+    "input_tokens": 21029,
+    "input_tokens_details": {
+      "cache_write_tokens": 21026,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 21026
+      }
+    },
+    "output_tokens": 186,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 21215
+  },
+  "response_id": "resp_09a0e9d69506e124016afad1216ee487d29c2e5e599e1c5e4a",
+  "response_status": "completed",
+  "output_text": "{\"action\":\"answer\",\"expression\":\"\",\"queries\":[],\"pages\":[329],\"status\":\"answered\",\"answer\":\"Read each participant’s three segments from the center outward: establishing fundamentals first, initiating data flows second, and optimizing the system third. Darker segments mean that step has been accomplished; lighter segments mean it has not. A participant with both darker and lighter segments has completed some steps but not others, so progress can differ by stage and among participants.\",\"citations\":[{\"page\":329,\"region_label\":\"Figure 9.2 and explanatory note\",\"bbox\":[0.454,0.48,0.914,0.939],\"quote\":\"The inner circle is the first stage of maturity, the second the middle stage, and so forth. Darker colors indicate steps accomplished; lighter colors indicate steps not accomplished. Thus for each participant, segments may be dark or light.\"}]}",
+  "elapsed_seconds": 11.565356200000679
+}

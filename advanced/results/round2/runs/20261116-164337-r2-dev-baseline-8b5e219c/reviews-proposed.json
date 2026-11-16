@@ -1,0 +1,424 @@
+[
+  {
+    "query_id": "adv-dev-01",
+    "passed": true,
+    "reason": "Đúng cả hai phương pháp mới và hai cột mục đích: satellite location là public intent, hành vi/choice từ nền tảng tư nhân là private intent. P48 Table 1.1 có đủ hàng New và header. Nhãn vùng và quote định vị đúng các ô.",
+    "label_status": "assistant_proposed_pending_learner_confirmation",
+    "reviewer": "dedicated benchmark-author assistant; no API or model-judge calls",
+    "answer_correct": true,
+    "citation_correct": true,
+    "failure_type": null,
+    "source_check": {
+      "pdf_sha256": "606c8452c8b23c01d81919c3974972bebeb1e60348a56ea40cc3ae841e301616",
+      "dev_sha256": "4e892a12a132de6f51eaa81ee93ed057aa3a38e47a5afac28b313777ca90b745",
+      "physical_pages": [
+        48
+      ],
+      "method": "Compared all 18 Dev answers with frozen Dev gold and original rendered PDF pages. Checked each returned physical page, specific region label, quote, and bbox coverage, including diagrams, legends, axes, headers, notes and cross-column text. Additional KIXP/rights/IXP-setup claims were checked on original p192,p214,p189,p190. No new Test or Test output was read during this grading step.",
+      "citation_policy": "A returned full-page bbox is accepted only with a correct specific region label and quote and if the page supports all relevant claims. model_bbox is recorded for audit; it is not substituted for returned bbox.",
+      "checked_conditions": "All requested facts, arithmetic, units/denominators, time/sample conditions, correct abstention and additional factual claims."
+    },
+    "reviewed_trace_sha256": "4d46dec24501010d1633b3e454eb5bf7a0376fc25b399c80b411cd72490f0608",
+    "reviewed_answer_sha256": "d942d032b85603fe500b8d0df4a1ad2bd43029287e22574893a41a7942492283",
+    "reviewed_at_local": "2026-11-16T16:53:21.719088+07:00"
+  },
+  {
+    "query_id": "adv-dev-02",
+    "passed": true,
+    "reason": "Đúng hàng license 11%/44%, chênh 33 điểm phần trăm và nói rõ tỷ lệ dữ liệu đã công bố. Chú thích gốc là percentage of published data averaged by country income group. P83 Table 2.1 và toàn trang chứa cả row, header và note.",
+    "label_status": "assistant_proposed_pending_learner_confirmation",
+    "reviewer": "dedicated benchmark-author assistant; no API or model-judge calls",
+    "answer_correct": true,
+    "citation_correct": true,
+    "failure_type": null,
+    "source_check": {
+      "pdf_sha256": "606c8452c8b23c01d81919c3974972bebeb1e60348a56ea40cc3ae841e301616",
+      "dev_sha256": "4e892a12a132de6f51eaa81ee93ed057aa3a38e47a5afac28b313777ca90b745",
+      "physical_pages": [
+        83
+      ],
+      "method": "Compared all 18 Dev answers with frozen Dev gold and original rendered PDF pages. Checked each returned physical page, specific region label, quote, and bbox coverage, including diagrams, legends, axes, headers, notes and cross-column text. Additional KIXP/rights/IXP-setup claims were checked on original p192,p214,p189,p190. No new Test or Test output was read during this grading step.",
+      "citation_policy": "A returned full-page bbox is accepted only with a correct specific region label and quote and if the page supports all relevant claims. model_bbox is recorded for audit; it is not substituted for returned bbox.",
+      "checked_conditions": "All requested facts, arithmetic, units/denominators, time/sample conditions, correct abstention and additional factual claims."
+    },
+    "reviewed_trace_sha256": "4d46dec24501010d1633b3e454eb5bf7a0376fc25b399c80b411cd72490f0608",
+    "reviewed_answer_sha256": "a01a3e2c83336961343c90edaded4008e53992a899f0d3910e8e6f7891937185",
+    "reviewed_at_local": "2026-11-16T16:53:21.734964+07:00"
+  },
+  {
+    "query_id": "adv-dev-03",
+    "passed": true,
+    "reason": "Đúng Global: e-commerce/e-transactions 73 moderate; private intent data 17 basic; chênh 56 điểm score. P227 Table 6.1 có hàng/cột và khóa màu mức 50–75/below25, không đổi score thành tỷ lệ quốc gia.",
+    "label_status": "assistant_proposed_pending_learner_confirmation",
+    "reviewer": "dedicated benchmark-author assistant; no API or model-judge calls",
+    "answer_correct": true,
+    "citation_correct": true,
+    "failure_type": null,
+    "source_check": {
+      "pdf_sha256": "606c8452c8b23c01d81919c3974972bebeb1e60348a56ea40cc3ae841e301616",
+      "dev_sha256": "4e892a12a132de6f51eaa81ee93ed057aa3a38e47a5afac28b313777ca90b745",
+      "physical_pages": [
+        227
+      ],
+      "method": "Compared all 18 Dev answers with frozen Dev gold and original rendered PDF pages. Checked each returned physical page, specific region label, quote, and bbox coverage, including diagrams, legends, axes, headers, notes and cross-column text. Additional KIXP/rights/IXP-setup claims were checked on original p192,p214,p189,p190. No new Test or Test output was read during this grading step.",
+      "citation_policy": "A returned full-page bbox is accepted only with a correct specific region label and quote and if the page supports all relevant claims. model_bbox is recorded for audit; it is not substituted for returned bbox.",
+      "checked_conditions": "All requested facts, arithmetic, units/denominators, time/sample conditions, correct abstention and additional factual claims."
+    },
+    "reviewed_trace_sha256": "4d46dec24501010d1633b3e454eb5bf7a0376fc25b399c80b411cd72490f0608",
+    "reviewed_answer_sha256": "01f40912f46451e9f3a9aa516971249b0e84446c149b31f6dec45760f05b8295",
+    "reviewed_at_local": "2026-11-16T16:53:21.752296+07:00"
+  },
+  {
+    "query_id": "adv-dev-04",
+    "passed": true,
+    "reason": "Đúng nút Reuse ở giữa cùng các đường nối và nhánh Archive and preserve → Destroy. Các citation p50 chỉ đúng Figure 1.2; vùng nguyên trang bao toàn bộ nút, đường nối và nhánh.",
+    "label_status": "assistant_proposed_pending_learner_confirmation",
+    "reviewer": "dedicated benchmark-author assistant; no API or model-judge calls",
+    "answer_correct": true,
+    "citation_correct": true,
+    "failure_type": null,
+    "source_check": {
+      "pdf_sha256": "606c8452c8b23c01d81919c3974972bebeb1e60348a56ea40cc3ae841e301616",
+      "dev_sha256": "4e892a12a132de6f51eaa81ee93ed057aa3a38e47a5afac28b313777ca90b745",
+      "physical_pages": [
+        50
+      ],
+      "method": "Compared all 18 Dev answers with frozen Dev gold and original rendered PDF pages. Checked each returned physical page, specific region label, quote, and bbox coverage, including diagrams, legends, axes, headers, notes and cross-column text. Additional KIXP/rights/IXP-setup claims were checked on original p192,p214,p189,p190. No new Test or Test output was read during this grading step.",
+      "citation_policy": "A returned full-page bbox is accepted only with a correct specific region label and quote and if the page supports all relevant claims. model_bbox is recorded for audit; it is not substituted for returned bbox.",
+      "checked_conditions": "All requested facts, arithmetic, units/denominators, time/sample conditions, correct abstention and additional factual claims."
+    },
+    "reviewed_trace_sha256": "4d46dec24501010d1633b3e454eb5bf7a0376fc25b399c80b411cd72490f0608",
+    "reviewed_answer_sha256": "be6fa092fadadc3b38980a49dbca1fd4dc52037cb33d96f4e44e662d358d4130",
+    "reviewed_at_local": "2026-11-16T16:53:21.752296+07:00"
+  },
+  {
+    "query_id": "adv-dev-05",
+    "passed": true,
+    "reason": "Đúng middle mile nối thành phố lớn và route đến service centers, 10–1.000km; last mile nối hộ/doanh nghiệp, <1–5km. P178 Figure 5.1 giữ đủ tên cột, hàng purpose và hàng typical distances.",
+    "label_status": "assistant_proposed_pending_learner_confirmation",
+    "reviewer": "dedicated benchmark-author assistant; no API or model-judge calls",
+    "answer_correct": true,
+    "citation_correct": true,
+    "failure_type": null,
+    "source_check": {
+      "pdf_sha256": "606c8452c8b23c01d81919c3974972bebeb1e60348a56ea40cc3ae841e301616",
+      "dev_sha256": "4e892a12a132de6f51eaa81ee93ed057aa3a38e47a5afac28b313777ca90b745",
+      "physical_pages": [
+        178
+      ],
+      "method": "Compared all 18 Dev answers with frozen Dev gold and original rendered PDF pages. Checked each returned physical page, specific region label, quote, and bbox coverage, including diagrams, legends, axes, headers, notes and cross-column text. Additional KIXP/rights/IXP-setup claims were checked on original p192,p214,p189,p190. No new Test or Test output was read during this grading step.",
+      "citation_policy": "A returned full-page bbox is accepted only with a correct specific region label and quote and if the page supports all relevant claims. model_bbox is recorded for audit; it is not substituted for returned bbox.",
+      "checked_conditions": "All requested facts, arithmetic, units/denominators, time/sample conditions, correct abstention and additional factual claims."
+    },
+    "reviewed_trace_sha256": "4d46dec24501010d1633b3e454eb5bf7a0376fc25b399c80b411cd72490f0608",
+    "reviewed_answer_sha256": "85da95f259f78543aa9bde06abf7c689a220dbda2f87d96dee2f1693ea0d0bf7",
+    "reviewed_at_local": "2026-11-16T16:53:21.781371+07:00"
+  },
+  {
+    "query_id": "adv-dev-06",
+    "passed": true,
+    "reason": "Đúng thứ tự từ trong ra ngoài Establishing fundamentals → Initiating data flows → Optimizing the system và đậm/nhạt là đã/chưa hoàn thành. P329 Figure 9.2 cùng note hỗ trợ diễn giải pha trộn; đây là sơ đồ minh họa, không phải thang điểm hoàn thành định lượng.",
+    "label_status": "assistant_proposed_pending_learner_confirmation",
+    "reviewer": "dedicated benchmark-author assistant; no API or model-judge calls",
+    "answer_correct": true,
+    "citation_correct": true,
+    "failure_type": null,
+    "source_check": {
+      "pdf_sha256": "606c8452c8b23c01d81919c3974972bebeb1e60348a56ea40cc3ae841e301616",
+      "dev_sha256": "4e892a12a132de6f51eaa81ee93ed057aa3a38e47a5afac28b313777ca90b745",
+      "physical_pages": [
+        329
+      ],
+      "method": "Compared all 18 Dev answers with frozen Dev gold and original rendered PDF pages. Checked each returned physical page, specific region label, quote, and bbox coverage, including diagrams, legends, axes, headers, notes and cross-column text. Additional KIXP/rights/IXP-setup claims were checked on original p192,p214,p189,p190. No new Test or Test output was read during this grading step.",
+      "citation_policy": "A returned full-page bbox is accepted only with a correct specific region label and quote and if the page supports all relevant claims. model_bbox is recorded for audit; it is not substituted for returned bbox.",
+      "checked_conditions": "All requested facts, arithmetic, units/denominators, time/sample conditions, correct abstention and additional factual claims."
+    },
+    "reviewed_trace_sha256": "4d46dec24501010d1633b3e454eb5bf7a0376fc25b399c80b411cd72490f0608",
+    "reviewed_answer_sha256": "186964e56b22c127df3d1f93e4a1ab764f9015e9e71316dc0a731b809562a13d",
+    "reviewed_at_local": "2026-11-16T16:53:21.799058+07:00"
+  },
+  {
+    "query_id": "adv-dev-07",
+    "passed": true,
+    "reason": "Đúng 94% năm1960, 71% năm1970 và giảm23 điểm phần trăm; phân biệt cột tỷ trọng điều tra với vùng nền tổng dân số. P46 Figure1.1 có nhãn năm/số, trục world population (billions) và note. Câu hỏi không yêu cầu ước lượng dân số tuyệt đối.",
+    "label_status": "assistant_proposed_pending_learner_confirmation",
+    "reviewer": "dedicated benchmark-author assistant; no API or model-judge calls",
+    "answer_correct": true,
+    "citation_correct": true,
+    "failure_type": null,
+    "source_check": {
+      "pdf_sha256": "606c8452c8b23c01d81919c3974972bebeb1e60348a56ea40cc3ae841e301616",
+      "dev_sha256": "4e892a12a132de6f51eaa81ee93ed057aa3a38e47a5afac28b313777ca90b745",
+      "physical_pages": [
+        46
+      ],
+      "method": "Compared all 18 Dev answers with frozen Dev gold and original rendered PDF pages. Checked each returned physical page, specific region label, quote, and bbox coverage, including diagrams, legends, axes, headers, notes and cross-column text. Additional KIXP/rights/IXP-setup claims were checked on original p192,p214,p189,p190. No new Test or Test output was read during this grading step.",
+      "citation_policy": "A returned full-page bbox is accepted only with a correct specific region label and quote and if the page supports all relevant claims. model_bbox is recorded for audit; it is not substituted for returned bbox.",
+      "checked_conditions": "All requested facts, arithmetic, units/denominators, time/sample conditions, correct abstention and additional factual claims."
+    },
+    "reviewed_trace_sha256": "4d46dec24501010d1633b3e454eb5bf7a0376fc25b399c80b411cd72490f0608",
+    "reviewed_answer_sha256": "7219a5e1dbb9f82b796d47ca85a6d0194579b465b2c8a1da34f33d0d0bddef0c",
+    "reviewed_at_local": "2026-11-16T16:53:21.810266+07:00"
+  },
+  {
+    "query_id": "adv-dev-08",
+    "passed": true,
+    "reason": "Đúng cả ba chuỗi toàn cầu và phép tính: connected41→50(+9pp), usage37→42(+5pp), coverage21→8(−13pp). P181 Figure5.3 panel a và legend màu đầy đủ nằm trong bbox nguyên trang; nhãn vùng/quote xác định đúng panel/năm.",
+    "label_status": "assistant_proposed_pending_learner_confirmation",
+    "reviewer": "dedicated benchmark-author assistant; no API or model-judge calls",
+    "answer_correct": true,
+    "citation_correct": true,
+    "failure_type": null,
+    "source_check": {
+      "pdf_sha256": "606c8452c8b23c01d81919c3974972bebeb1e60348a56ea40cc3ae841e301616",
+      "dev_sha256": "4e892a12a132de6f51eaa81ee93ed057aa3a38e47a5afac28b313777ca90b745",
+      "physical_pages": [
+        181
+      ],
+      "method": "Compared all 18 Dev answers with frozen Dev gold and original rendered PDF pages. Checked each returned physical page, specific region label, quote, and bbox coverage, including diagrams, legends, axes, headers, notes and cross-column text. Additional KIXP/rights/IXP-setup claims were checked on original p192,p214,p189,p190. No new Test or Test output was read during this grading step.",
+      "citation_policy": "A returned full-page bbox is accepted only with a correct specific region label and quote and if the page supports all relevant claims. model_bbox is recorded for audit; it is not substituted for returned bbox.",
+      "checked_conditions": "All requested facts, arithmetic, units/denominators, time/sample conditions, correct abstention and additional factual claims."
+    },
+    "reviewed_trace_sha256": "4d46dec24501010d1633b3e454eb5bf7a0376fc25b399c80b411cd72490f0608",
+    "reviewed_answer_sha256": "0b1ac5e0ec478fc9d9687d054f944ff8dece5d41437f6111de2bd57e61b9ba6c",
+    "reviewed_at_local": "2026-11-16T16:53:21.815561+07:00"
+  },
+  {
+    "query_id": "adv-dev-09",
+    "passed": true,
+    "reason": "Đúng lower-middle-income ở technological neutrality và high-income ở recognition of electronic signatures. P220 Figure6.5 có trọn radar, hai trục và legend; quote mô tả đúng đường orange/blue trên pixel nguồn.",
+    "label_status": "assistant_proposed_pending_learner_confirmation",
+    "reviewer": "dedicated benchmark-author assistant; no API or model-judge calls",
+    "answer_correct": true,
+    "citation_correct": true,
+    "failure_type": null,
+    "source_check": {
+      "pdf_sha256": "606c8452c8b23c01d81919c3974972bebeb1e60348a56ea40cc3ae841e301616",
+      "dev_sha256": "4e892a12a132de6f51eaa81ee93ed057aa3a38e47a5afac28b313777ca90b745",
+      "physical_pages": [
+        220
+      ],
+      "method": "Compared all 18 Dev answers with frozen Dev gold and original rendered PDF pages. Checked each returned physical page, specific region label, quote, and bbox coverage, including diagrams, legends, axes, headers, notes and cross-column text. Additional KIXP/rights/IXP-setup claims were checked on original p192,p214,p189,p190. No new Test or Test output was read during this grading step.",
+      "citation_policy": "A returned full-page bbox is accepted only with a correct specific region label and quote and if the page supports all relevant claims. model_bbox is recorded for audit; it is not substituted for returned bbox.",
+      "checked_conditions": "All requested facts, arithmetic, units/denominators, time/sample conditions, correct abstention and additional factual claims."
+    },
+    "reviewed_trace_sha256": "4d46dec24501010d1633b3e454eb5bf7a0376fc25b399c80b411cd72490f0608",
+    "reviewed_answer_sha256": "437e13c0671f1e86784f105041e713b897f9b2cbca1a80122691272d42fbce59",
+    "reviewed_at_local": "2026-11-16T16:53:21.815561+07:00"
+  },
+  {
+    "query_id": "adv-dev-10",
+    "passed": true,
+    "reason": "Đúng dữ liệu nonrival không cạn khi dùng lại nhưng excludable, cùng động cơ underinvestment vì người trả chi phí không hưởng hết giá trị secondary use. Citation p50–51 hỗ trợ đầy đủ, đủ hai trang vật lý.",
+    "label_status": "assistant_proposed_pending_learner_confirmation",
+    "reviewer": "dedicated benchmark-author assistant; no API or model-judge calls",
+    "answer_correct": true,
+    "citation_correct": true,
+    "failure_type": null,
+    "source_check": {
+      "pdf_sha256": "606c8452c8b23c01d81919c3974972bebeb1e60348a56ea40cc3ae841e301616",
+      "dev_sha256": "4e892a12a132de6f51eaa81ee93ed057aa3a38e47a5afac28b313777ca90b745",
+      "physical_pages": [
+        50,
+        51
+      ],
+      "method": "Compared all 18 Dev answers with frozen Dev gold and original rendered PDF pages. Checked each returned physical page, specific region label, quote, and bbox coverage, including diagrams, legends, axes, headers, notes and cross-column text. Additional KIXP/rights/IXP-setup claims were checked on original p192,p214,p189,p190. No new Test or Test output was read during this grading step.",
+      "citation_policy": "A returned full-page bbox is accepted only with a correct specific region label and quote and if the page supports all relevant claims. model_bbox is recorded for audit; it is not substituted for returned bbox.",
+      "checked_conditions": "All requested facts, arithmetic, units/denominators, time/sample conditions, correct abstention and additional factual claims."
+    },
+    "reviewed_trace_sha256": "4d46dec24501010d1633b3e454eb5bf7a0376fc25b399c80b411cd72490f0608",
+    "reviewed_answer_sha256": "7f9252fe87d12f6690afc35eafbc50e42ffe048777552a03db9f485d6f18e3cc",
+    "reviewed_at_local": "2026-11-16T16:53:21.830775+07:00"
+  },
+  {
+    "query_id": "adv-dev-11",
+    "passed": true,
+    "reason": "Đúng bản sao nội địa/IXP tránh route quốc tế, giảm carrier charges và cải thiện dịch vụ; đúng trở ngại tin cậy/trung lập và KIXP2000 đóng do kiện, mở lại sau một năm. P188/p338 hỗ trợ hai hop. Phần bổ sung KIXP nonprofit, mở đối tượng kết nối, colocation Nairobi/Mombasa và cộng đồng trao đổi rộng được p192 hỗ trợ.",
+    "label_status": "assistant_proposed_pending_learner_confirmation",
+    "reviewer": "dedicated benchmark-author assistant; no API or model-judge calls",
+    "answer_correct": true,
+    "citation_correct": true,
+    "failure_type": null,
+    "source_check": {
+      "pdf_sha256": "606c8452c8b23c01d81919c3974972bebeb1e60348a56ea40cc3ae841e301616",
+      "dev_sha256": "4e892a12a132de6f51eaa81ee93ed057aa3a38e47a5afac28b313777ca90b745",
+      "physical_pages": [
+        188,
+        192,
+        338
+      ],
+      "method": "Compared all 18 Dev answers with frozen Dev gold and original rendered PDF pages. Checked each returned physical page, specific region label, quote, and bbox coverage, including diagrams, legends, axes, headers, notes and cross-column text. Additional KIXP/rights/IXP-setup claims were checked on original p192,p214,p189,p190. No new Test or Test output was read during this grading step.",
+      "citation_policy": "A returned full-page bbox is accepted only with a correct specific region label and quote and if the page supports all relevant claims. model_bbox is recorded for audit; it is not substituted for returned bbox.",
+      "checked_conditions": "All requested facts, arithmetic, units/denominators, time/sample conditions, correct abstention and additional factual claims."
+    },
+    "reviewed_trace_sha256": "4d46dec24501010d1633b3e454eb5bf7a0376fc25b399c80b411cd72490f0608",
+    "reviewed_answer_sha256": "cf3acc415fdc6013042fa79082a078330c725a8a642e3e941f1dbd74956cc9e5",
+    "reviewed_at_local": "2026-11-16T16:53:21.863618+07:00"
+  },
+  {
+    "query_id": "adv-dev-12",
+    "passed": true,
+    "reason": "Đúng kiểm tra một subset bằng đơn vị giao hàng xe máy trong vài phút, 92% crash ở/gần vị trí; đúng khảo sát hạ tầng, ghi hình/mã hóa hành vi tại200điểm đen nhằm hình thành giả thuyết chính sách. P172–173 hỗ trợ đủ, không nhầm validation với giảm tai nạn.",
+    "label_status": "assistant_proposed_pending_learner_confirmation",
+    "reviewer": "dedicated benchmark-author assistant; no API or model-judge calls",
+    "answer_correct": true,
+    "citation_correct": true,
+    "failure_type": null,
+    "source_check": {
+      "pdf_sha256": "606c8452c8b23c01d81919c3974972bebeb1e60348a56ea40cc3ae841e301616",
+      "dev_sha256": "4e892a12a132de6f51eaa81ee93ed057aa3a38e47a5afac28b313777ca90b745",
+      "physical_pages": [
+        172,
+        173
+      ],
+      "method": "Compared all 18 Dev answers with frozen Dev gold and original rendered PDF pages. Checked each returned physical page, specific region label, quote, and bbox coverage, including diagrams, legends, axes, headers, notes and cross-column text. Additional KIXP/rights/IXP-setup claims were checked on original p192,p214,p189,p190. No new Test or Test output was read during this grading step.",
+      "citation_policy": "A returned full-page bbox is accepted only with a correct specific region label and quote and if the page supports all relevant claims. model_bbox is recorded for audit; it is not substituted for returned bbox.",
+      "checked_conditions": "All requested facts, arithmetic, units/denominators, time/sample conditions, correct abstention and additional factual claims."
+    },
+    "reviewed_trace_sha256": "4d46dec24501010d1633b3e454eb5bf7a0376fc25b399c80b411cd72490f0608",
+    "reviewed_answer_sha256": "3ff493dc19ab3bb4dce4282ec1b75ad9567bb512f0d0b9757498c5041ac7d66b",
+    "reviewed_at_local": "2026-11-16T16:53:21.936204+07:00"
+  },
+  {
+    "query_id": "adv-dev-13",
+    "passed": true,
+    "reason": "Đúng hai mục đích khác nhau: triệu chứng để ước lượng nhiễm không triệu chứng; công việc/di chuyển để đo tuân thủ social distancing. P49 Box1.2 chứa cả hai câu. Không bắt buộc nêu thêm kiến thức serology ngoài hai mục đích được hỏi.",
+    "label_status": "assistant_proposed_pending_learner_confirmation",
+    "reviewer": "dedicated benchmark-author assistant; no API or model-judge calls",
+    "answer_correct": true,
+    "citation_correct": true,
+    "failure_type": null,
+    "source_check": {
+      "pdf_sha256": "606c8452c8b23c01d81919c3974972bebeb1e60348a56ea40cc3ae841e301616",
+      "dev_sha256": "4e892a12a132de6f51eaa81ee93ed057aa3a38e47a5afac28b313777ca90b745",
+      "physical_pages": [
+        49
+      ],
+      "method": "Compared all 18 Dev answers with frozen Dev gold and original rendered PDF pages. Checked each returned physical page, specific region label, quote, and bbox coverage, including diagrams, legends, axes, headers, notes and cross-column text. Additional KIXP/rights/IXP-setup claims were checked on original p192,p214,p189,p190. No new Test or Test output was read during this grading step.",
+      "citation_policy": "A returned full-page bbox is accepted only with a correct specific region label and quote and if the page supports all relevant claims. model_bbox is recorded for audit; it is not substituted for returned bbox.",
+      "checked_conditions": "All requested facts, arithmetic, units/denominators, time/sample conditions, correct abstention and additional factual claims."
+    },
+    "reviewed_trace_sha256": "4d46dec24501010d1633b3e454eb5bf7a0376fc25b399c80b411cd72490f0608",
+    "reviewed_answer_sha256": "b9aaa4c5c13bb64bec57391cd41a926a45ae9034c546799a31a8ecfa6ca8c5a9",
+    "reviewed_at_local": "2026-11-16T16:53:21.948528+07:00"
+  },
+  {
+    "query_id": "adv-dev-14",
+    "passed": true,
+    "reason": "Đúng giai đoạn2015–2018, traffic+100% và electricity+16%; đúng trung tâm dữ liệu lớn hiệu quả hơn, hiện đại hóa mạng, fiber85% hiệu quả năng lượng hơn copper và các thế hệ wireless tiết kiệm hơn. P206 đoạn hai cột hỗ trợ tất cả, bbox nguyên trang không cắt continuation.",
+    "label_status": "assistant_proposed_pending_learner_confirmation",
+    "reviewer": "dedicated benchmark-author assistant; no API or model-judge calls",
+    "answer_correct": true,
+    "citation_correct": true,
+    "failure_type": null,
+    "source_check": {
+      "pdf_sha256": "606c8452c8b23c01d81919c3974972bebeb1e60348a56ea40cc3ae841e301616",
+      "dev_sha256": "4e892a12a132de6f51eaa81ee93ed057aa3a38e47a5afac28b313777ca90b745",
+      "physical_pages": [
+        206
+      ],
+      "method": "Compared all 18 Dev answers with frozen Dev gold and original rendered PDF pages. Checked each returned physical page, specific region label, quote, and bbox coverage, including diagrams, legends, axes, headers, notes and cross-column text. Additional KIXP/rights/IXP-setup claims were checked on original p192,p214,p189,p190. No new Test or Test output was read during this grading step.",
+      "citation_policy": "A returned full-page bbox is accepted only with a correct specific region label and quote and if the page supports all relevant claims. model_bbox is recorded for audit; it is not substituted for returned bbox.",
+      "checked_conditions": "All requested facts, arithmetic, units/denominators, time/sample conditions, correct abstention and additional factual claims."
+    },
+    "reviewed_trace_sha256": "4d46dec24501010d1633b3e454eb5bf7a0376fc25b399c80b411cd72490f0608",
+    "reviewed_answer_sha256": "333ba39a73d3ec751e4bbc7bb67449b645c81178b1b1da546471086927fe2ac1",
+    "reviewed_at_local": "2026-11-16T16:53:21.953375+07:00"
+  },
+  {
+    "query_id": "adv-dev-15",
+    "passed": true,
+    "reason": "Đúng nguy cơ người nghèo/dễ tổn thương bán dữ liệu làm tăng bất bình đẳng và quyền cơ bản/immutable không thể mặc cả từ bỏ nhưng cho phép kiểm soát/thương lượng sử dụng. P244 hỗ trợ cả nguy cơ trade away digital identity và rights-based alternative. Phần bổ sung quyền notice/object, access/correct/erase và redress/remedy được paragraph procedural rights p214 hỗ trợ đầy đủ.",
+    "label_status": "assistant_proposed_pending_learner_confirmation",
+    "reviewer": "dedicated benchmark-author assistant; no API or model-judge calls",
+    "answer_correct": true,
+    "citation_correct": true,
+    "failure_type": null,
+    "source_check": {
+      "pdf_sha256": "606c8452c8b23c01d81919c3974972bebeb1e60348a56ea40cc3ae841e301616",
+      "dev_sha256": "4e892a12a132de6f51eaa81ee93ed057aa3a38e47a5afac28b313777ca90b745",
+      "physical_pages": [
+        214,
+        244
+      ],
+      "method": "Compared all 18 Dev answers with frozen Dev gold and original rendered PDF pages. Checked each returned physical page, specific region label, quote, and bbox coverage, including diagrams, legends, axes, headers, notes and cross-column text. Additional KIXP/rights/IXP-setup claims were checked on original p192,p214,p189,p190. No new Test or Test output was read during this grading step.",
+      "citation_policy": "A returned full-page bbox is accepted only with a correct specific region label and quote and if the page supports all relevant claims. model_bbox is recorded for audit; it is not substituted for returned bbox.",
+      "checked_conditions": "All requested facts, arithmetic, units/denominators, time/sample conditions, correct abstention and additional factual claims."
+    },
+    "reviewed_trace_sha256": "4d46dec24501010d1633b3e454eb5bf7a0376fc25b399c80b411cd72490f0608",
+    "reviewed_answer_sha256": "4bdcd731ef6d189b220b33babf15865b980c235dff4f7a989a76dc721bef5c56",
+    "reviewed_at_local": "2026-11-16T16:53:21.969289+07:00"
+  },
+  {
+    "query_id": "adv-dev-16",
+    "passed": true,
+    "reason": "Từ chối, không bịa tỷ lệ nam/nữ cho baseline Brazil90thành phố có≥200respondents. Phù hợp Dev gold và absence audit; không có khẳng định định lượng bổ sung cần citation.",
+    "label_status": "assistant_proposed_pending_learner_confirmation",
+    "reviewer": "dedicated benchmark-author assistant; no API or model-judge calls",
+    "answer_correct": true,
+    "citation_correct": true,
+    "failure_type": null,
+    "source_check": {
+      "pdf_sha256": "606c8452c8b23c01d81919c3974972bebeb1e60348a56ea40cc3ae841e301616",
+      "dev_sha256": "4e892a12a132de6f51eaa81ee93ed057aa3a38e47a5afac28b313777ca90b745",
+      "physical_pages": [
+        49
+      ],
+      "method": "Compared all 18 Dev answers with frozen Dev gold and original rendered PDF pages. Checked each returned physical page, specific region label, quote, and bbox coverage, including diagrams, legends, axes, headers, notes and cross-column text. Additional KIXP/rights/IXP-setup claims were checked on original p192,p214,p189,p190. No new Test or Test output was read during this grading step.",
+      "citation_policy": "A returned full-page bbox is accepted only with a correct specific region label and quote and if the page supports all relevant claims. model_bbox is recorded for audit; it is not substituted for returned bbox.",
+      "checked_conditions": "All requested facts, arithmetic, units/denominators, time/sample conditions, correct abstention and additional factual claims."
+    },
+    "reviewed_trace_sha256": "4d46dec24501010d1633b3e454eb5bf7a0376fc25b399c80b411cd72490f0608",
+    "reviewed_answer_sha256": "beda1d066455dd7e5c1f9381016887d4f5085e7c87fd76d5266c028111246f31",
+    "reviewed_at_local": "2026-11-16T16:53:21.969289+07:00"
+  },
+  {
+    "query_id": "adv-dev-17",
+    "passed": true,
+    "reason": "Từ chối rõ ràng rằng không có itemized capex/annualopex, không bịa số tiền. Phần bổ sung chi phí IXP tương đối khiêm tốn (p189), phòng server nhỏ/volunteer rồi formalize governance/hirestaff/upgradeequipment (p190) và khó duy trì trust/collaboration (p338) đều đúng pixel nguồn; không nhầm với chi phí colocation center.",
+    "label_status": "assistant_proposed_pending_learner_confirmation",
+    "reviewer": "dedicated benchmark-author assistant; no API or model-judge calls",
+    "answer_correct": true,
+    "citation_correct": true,
+    "failure_type": null,
+    "source_check": {
+      "pdf_sha256": "606c8452c8b23c01d81919c3974972bebeb1e60348a56ea40cc3ae841e301616",
+      "dev_sha256": "4e892a12a132de6f51eaa81ee93ed057aa3a38e47a5afac28b313777ca90b745",
+      "physical_pages": [
+        189,
+        190,
+        338
+      ],
+      "method": "Compared all 18 Dev answers with frozen Dev gold and original rendered PDF pages. Checked each returned physical page, specific region label, quote, and bbox coverage, including diagrams, legends, axes, headers, notes and cross-column text. Additional KIXP/rights/IXP-setup claims were checked on original p192,p214,p189,p190. No new Test or Test output was read during this grading step.",
+      "citation_policy": "A returned full-page bbox is accepted only with a correct specific region label and quote and if the page supports all relevant claims. model_bbox is recorded for audit; it is not substituted for returned bbox.",
+      "checked_conditions": "All requested facts, arithmetic, units/denominators, time/sample conditions, correct abstention and additional factual claims."
+    },
+    "reviewed_trace_sha256": "4d46dec24501010d1633b3e454eb5bf7a0376fc25b399c80b411cd72490f0608",
+    "reviewed_answer_sha256": "62f9cfc335bbdc80fb540ab3c32b8e36a981c4b87f27b172839b052aa688ced1",
+    "reviewed_at_local": "2026-11-16T16:53:22.180376+07:00"
+  },
+  {
+    "query_id": "adv-dev-18",
+    "passed": true,
+    "reason": "Từ chối và không suy điện năng low-income từ tổng231TWh toàn cầu. Phù hợp Spotlight5.2 p206–207 và absence audit; không có phân bổ điện năng theo nhóm thu nhập. Phần bổ sung phân biệt chart low-income mobile-data consumption với điện năng là đúng Figure5.6 p186: đơn vị GB per capita per month, không phải TWh.",
+    "label_status": "assistant_proposed_pending_learner_confirmation",
+    "reviewer": "dedicated benchmark-author assistant; no API or model-judge calls",
+    "answer_correct": true,
+    "citation_correct": true,
+    "failure_type": null,
+    "source_check": {
+      "pdf_sha256": "606c8452c8b23c01d81919c3974972bebeb1e60348a56ea40cc3ae841e301616",
+      "dev_sha256": "4e892a12a132de6f51eaa81ee93ed057aa3a38e47a5afac28b313777ca90b745",
+      "physical_pages": [
+        186,
+        206
+      ],
+      "method": "Compared all 18 Dev answers with frozen Dev gold and original rendered PDF pages. Checked each returned physical page, specific region label, quote, and bbox coverage, including diagrams, legends, axes, headers, notes and cross-column text. Additional KIXP/rights/IXP-setup claims were checked on original p192,p214,p189,p190. No new Test or Test output was read during this grading step.",
+      "citation_policy": "A returned full-page bbox is accepted only with a correct specific region label and quote and if the page supports all relevant claims. model_bbox is recorded for audit; it is not substituted for returned bbox.",
+      "checked_conditions": "All requested facts, arithmetic, units/denominators, time/sample conditions, correct abstention and additional factual claims."
+    },
+    "reviewed_trace_sha256": "4d46dec24501010d1633b3e454eb5bf7a0376fc25b399c80b411cd72490f0608",
+    "reviewed_answer_sha256": "a4c6790a4c224d8dcfaa1b2d7cb8b9869989ce72e9f1470d59cabfa12990604a",
+    "reviewed_at_local": "2026-11-16T16:53:22.187967+07:00"
+  }
+]

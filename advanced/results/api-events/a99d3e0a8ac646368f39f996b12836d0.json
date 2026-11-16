@@ -1,0 +1,55 @@
+{
+  "id": "a99d3e0a8ac646368f39f996b12836d0",
+  "label": "20261116-122658-dev-candidate-fdc3f714:adv-dev-01:step0",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 22246,
+  "maximum_output_tokens": 3500,
+  "images": [
+    {
+      "page": 48,
+      "path": "advanced/data/pages/p048.jpg",
+      "sha256": "66741b18cf15a118edd4096688be8100e4940085a53c4396d42acaa221c6b39e"
+    },
+    {
+      "page": 144,
+      "path": "advanced/data/pages/p144.jpg",
+      "sha256": "f6f212c4e5a445e9a92ab77ee25ebd83b495a89883e1e785bab6aaddc8c1ce74"
+    },
+    {
+      "page": 162,
+      "path": "advanced/data/pages/p162.jpg",
+      "sha256": "3c87eb79f59a0c83019e94b33de2758ae869eec16a9e7ea359fc6bc3f51ab34e"
+    },
+    {
+      "page": 47,
+      "path": "advanced/data/pages/p047.jpg",
+      "sha256": "e4ad1f5859bb7983541ddcb5f4e8a0209c50808c62902b7a975e89036e4a3205"
+    },
+    {
+      "page": 75,
+      "path": "advanced/data/pages/p075.jpg",
+      "sha256": "ebbd999571673b08b265aeeb7f06283d0c37f67569a9d49c8306669fd6f19240"
+    }
+  ],
+  "instructions_sha256": "7b27220272435c850770154f165a9b99ffc1a1c1848fec729da980d6adec6535",
+  "usage": {
+    "input_tokens": 22246,
+    "input_tokens_details": {
+      "cache_write_tokens": 22243,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 22243
+      }
+    },
+    "output_tokens": 169,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 22415
+  },
+  "response_id": "resp_04c32f7885067ff0016afa9438f83887d29c4807425f39a187",
+  "response_status": "completed",
+  "output_text": "{\"action\":\"answer\",\"expression\":\"\",\"queries\":[],\"pages\":[48],\"status\":\"answered\",\"answer\":\"Both are classified as **new** data collection methods. Satellite-imaging location data are **public intent data**; just-in-time individual behavior/choice data from private-sector digital platforms are **private intent data**.\",\"citations\":[{\"page\":48,\"region_label\":\"Table 1.1, “Examples of data types based on original intent and collection methods” (full table and source)\",\"bbox\":[0.2055,0.0883,0.906,0.288],\"quote\":\"New — Public intent data: “Location data from satellite imaging”; Private intent data: “Just-in-time digital data on individual behavior/choices from digital platforms in the private sector.”\"}]}",
+  "elapsed_seconds": 7.923006400000304
+}

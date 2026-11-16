@@ -1,0 +1,35 @@
+{
+  "id": "9dd27f92c95043a58dcb4c05a71a39e8",
+  "label": "index:p268",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 4000,
+  "maximum_output_tokens": 6000,
+  "images": [
+    {
+      "page": 268,
+      "path": "advanced/data/pages/p268.jpg",
+      "sha256": "28b18b519bf5915e19830182fef25c767ff1b023d7263056483fb38a1da4ee32"
+    }
+  ],
+  "instructions_sha256": "01d3a56b3c678b1acd37e506320a854b17dd9ddb13ece56a92b62990aeb80d41",
+  "usage": {
+    "input_tokens": 4000,
+    "input_tokens_details": {
+      "cache_write_tokens": 3997,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 3997
+      }
+    },
+    "output_tokens": 570,
+    "output_tokens_details": {
+      "reasoning_tokens": 152
+    },
+    "total_tokens": 4570
+  },
+  "response_id": "resp_0664521dd0af020b016afa90de9da487d284100b63b4508afd",
+  "response_status": "completed",
+  "output_text": "{\"regions\":[{\"label\":\"Figure 7.6\",\"kind\":\"chart\",\"bbox\":[0.205,0.087,0.911,0.394],\"summary\":\"Stacked bar chart of estimated indirect tax potential from business-to-consumer e-commerce in six East Asian countries, 2015–2025; the combined volume rises markedly over the period.\",\"details\":\"Title: “East Asian countries are losing a substantial volume of tax revenue by failing to apply current VAT rules to digital services.” Vertical axis: Volume (US$, billions), marked 0–14 in increments of 2. Horizontal axis: years 2015–2025. Stacked series, as shown in the legend from bottom to top: Indonesia (blue), Malaysia (green), Philippines (orange), Singapore (purple), Thailand (gold), Vietnam (pink). Combined bar heights increase each year, from well under US$1 billion in 2015 to about US$13.5 billion in 2025. Approximate totals from the plotted bars: 2015 0.4; 2016 0.8; 2017 1.4; 2018 2.2; 2019 3.7; 2020 5.2; 2021 6.5; 2022 7.8; 2023 9.4; 2024 11.1; 2025 13.6 (US$ billions). Indonesia is the largest component in every year and grows substantially; Vietnam is also a prominent and growing component, especially in later years. Source: Al-Rikabi and Loeprick, forthcoming; data at http://bit.do/WDR2021-Fig-7_6. Note: Figure shows the indirect tax potential of business-to-consumer e-commerce. VAT = value added tax.\",\"limitations\":\"Bars are stacked and no numerical data labels are printed; totals and relative contributions above are visual estimates, not exact values.\"}]}",
+  "elapsed_seconds": 8.774402199996985
+}

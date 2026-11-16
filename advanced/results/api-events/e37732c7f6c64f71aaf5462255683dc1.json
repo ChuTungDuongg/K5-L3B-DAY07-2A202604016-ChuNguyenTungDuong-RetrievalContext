@@ -1,0 +1,55 @@
+{
+  "id": "e37732c7f6c64f71aaf5462255683dc1",
+  "label": "20261116-164337-r2-dev-candidate-7d01ebc6:adv-dev-10:review0",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 20639,
+  "maximum_output_tokens": 3500,
+  "images": [
+    {
+      "page": 51,
+      "path": "advanced/data/pages/p051.jpg",
+      "sha256": "7b931c34dc439a6365a2e581a0407b029b5dd32c2b30ebfa478c1ecd926cec14"
+    },
+    {
+      "page": 50,
+      "path": "advanced/data/pages/p050.jpg",
+      "sha256": "9311a1fac1fd01eef5219db4ff2f688769f389e4640c3b1cef473f53df207e38"
+    },
+    {
+      "page": 13,
+      "path": "advanced/data/pages/p013.jpg",
+      "sha256": "7cf6e549ea25d91e5594482887f426148a52cf2357450e5eef06780391da4f08"
+    },
+    {
+      "page": 36,
+      "path": "advanced/data/pages/p036.jpg",
+      "sha256": "43295eb34e3b1c2375f3d68597d20bbf791f60a81d24cc0c8ec63d254d3ce7a8"
+    },
+    {
+      "page": 48,
+      "path": "advanced/data/pages/p048.jpg",
+      "sha256": "66741b18cf15a118edd4096688be8100e4940085a53c4396d42acaa221c6b39e"
+    }
+  ],
+  "instructions_sha256": "0507604096aab315eb8e0306caca34acc2d0bedacd7d3b2ec25cc18ae985e348",
+  "usage": {
+    "input_tokens": 20639,
+    "input_tokens_details": {
+      "cache_write_tokens": 20636,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 20636
+      }
+    },
+    "output_tokens": 375,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 21014
+  },
+  "response_id": "resp_0a562bdcb4cf782c016afad181be9087d29c9c178a075c03c3",
+  "response_status": "completed",
+  "output_text": "{\"action\":\"answer\",\"expression\":\"\",\"queries\":[],\"pages\":[50,51],\"status\":\"answered\",\"answer\":\"Data can be used repeatedly without being depleted because it is nonrival (the page also calls it inexhaustible). But it is not a pure public good because it is excludable: the entity that collects and holds it can prevent others from accessing it. Collection may be underfunded from society’s perspective because the value of unforeseen secondary uses may exceed the value of the original use, while the entities paying to collect the data may not capture its full economic value.\",\"citations\":[{\"page\":50,\"region_label\":\"Right-column paragraph beneath “The economics of data and political economy issues”\",\"bbox\":[0.565,0.374,0.918,0.52],\"quote\":\"data are inexhaustible or “nonrival”—that is, a person’s call detail records, location history, internet usage, and medical records, among other things, can be used repeatedly by firms and governments for different purposes without depleting them.\"},{\"page\":51,\"region_label\":\"Left-column paragraphs on secondary uses, underinvestment, and excludability\",\"bbox\":[0.092,0.385,0.449,0.619],\"quote\":\"the economic value of unanticipated secondary uses of data may far exceed the value of the primary use of data—that is, the use for which they were originally collected. These characteristics raise the prospect of serious underinvestment in data collection from a social perspective because the entities bearing the cost of data collection will not necessarily be the ones capturing its full economic value. At the same time, data are not a pure public good because they are excludable, allowing the entity that originally collects and holds the data to prevent others from accessing them.\"}]}",
+  "elapsed_seconds": 9.950729999996838
+}

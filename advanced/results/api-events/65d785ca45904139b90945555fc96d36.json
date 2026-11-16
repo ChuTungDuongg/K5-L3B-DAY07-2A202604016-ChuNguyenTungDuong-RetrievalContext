@@ -1,0 +1,35 @@
+{
+  "id": "65d785ca45904139b90945555fc96d36",
+  "label": "index:p048",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 4152,
+  "maximum_output_tokens": 6000,
+  "images": [
+    {
+      "page": 48,
+      "path": "advanced/data/pages/p048.jpg",
+      "sha256": "66741b18cf15a118edd4096688be8100e4940085a53c4396d42acaa221c6b39e"
+    }
+  ],
+  "instructions_sha256": "01d3a56b3c678b1acd37e506320a854b17dd9ddb13ece56a92b62990aeb80d41",
+  "usage": {
+    "input_tokens": 4152,
+    "input_tokens_details": {
+      "cache_write_tokens": 4149,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 4149
+      }
+    },
+    "output_tokens": 297,
+    "output_tokens_details": {
+      "reasoning_tokens": 60
+    },
+    "total_tokens": 4449
+  },
+  "response_id": "resp_007eae9734ead004016afa901618dc87d28569b98c272bae89",
+  "response_status": "completed",
+  "output_text": "{\"regions\":[{\"label\":\"Table 1.1 — Examples of data types based on original intent and collection methods\",\"kind\":\"table\",\"bbox\":[0.2055,0.0883,0.906,0.288],\"summary\":\"Examples classified by data collection method (traditional or new) and original intent (public or private).\",\"details\":\"Columns: Data collection methods and tools | Public intent data | Private intent data. Traditional: Public—Census, national accounts, household surveys, enterprise surveys, labor force surveys, surveys of personal finance, administrative records. Private—Any survey conducted by private entities, including public opinion surveys deployed by private entities; administrative data from company financial accounts. New: Public—Location data from satellite imaging, digital identification, facial recognition from public cameras, public procurement data from e-government platforms. Private—Just-in-time digital data on individual behavior/choices from digital platforms in the private sector. Source printed below table: WDR 2021 team.\",\"limitations\":\"No numeric values or units; the table presents examples. Bounding box includes the source line immediately below the table.\"}]}",
+  "elapsed_seconds": 5.7030156000037096
+}

@@ -1,0 +1,45 @@
+{
+  "id": "f4cb726f3d474a129f80abe1b6241875",
+  "label": "20261116-165446-r2-test-baseline-cbad637d:adv-r2-test-02:review0",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 13588,
+  "maximum_output_tokens": 3500,
+  "images": [
+    {
+      "page": 264,
+      "path": "advanced/data/pages/p264.jpg",
+      "sha256": "eaaa3577045b901915ad6899ee5c246e164e9e70a07a8daa7eab7860c5abef75"
+    },
+    {
+      "page": 263,
+      "path": "advanced/data/pages/p263.jpg",
+      "sha256": "e4c1e2b17102037c5fd0e7aff5dfb057df262c1a679f8a20615f28c35aacd012"
+    },
+    {
+      "page": 229,
+      "path": "advanced/data/pages/p229.jpg",
+      "sha256": "65b955aa84f35ad2c908f92fcdc704d47cac5f52eeb1a575cd14cb7fd8ad3e00"
+    }
+  ],
+  "instructions_sha256": "0507604096aab315eb8e0306caca34acc2d0bedacd7d3b2ec25cc18ae985e348",
+  "usage": {
+    "input_tokens": 13588,
+    "input_tokens_details": {
+      "cache_write_tokens": 13585,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 13585
+      }
+    },
+    "output_tokens": 395,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 13983
+  },
+  "response_id": "resp_0614da6e154d4939016afad32f8c1087d2b864d30965a4ebff",
+  "response_status": "completed",
+  "output_text": "{\"action\":\"answer\",\"expression\":\"\",\"queries\":[],\"pages\":[264],\"status\":\"answered\",\"answer\":\"Table 7.2 shows:\\n\\n| Provision | CPTPP (2018) | RCEP (2020) |\\n|---|---|---|\\n| Cybersecurity | Soft law provision | No provision |\\n| Unrestricted cross-border data flows | Binding provision | Soft law provision |\\n| Prohibition of data localization | Binding provision | Soft law provision |\",\"citations\":[{\"page\":264,\"region_label\":\"Table 7.2, Cybersecurity row; CPTPP (2018) and RCEP (2020) cells\",\"bbox\":[0.084,0.086,0.907,0.463],\"quote\":\"Cybersecurity row: CPTPP cell is yellow (soft law); RCEP cell is empty. The note says yellow indicates a soft law provision and an empty cell indicates no provision.\"},{\"page\":264,\"region_label\":\"Table 7.2, Unrestricted cross-border data flows row; CPTPP (2018) and RCEP (2020) cells\",\"bbox\":[0.084,0.086,0.907,0.463],\"quote\":\"Unrestricted cross-border data flows row: CPTPP cell is orange (binding); RCEP cell is yellow (soft law). The note says orange indicates a binding provision and yellow indicates a soft law provision.\"},{\"page\":264,\"region_label\":\"Table 7.2, Prohibition of data localization row; CPTPP (2018) and RCEP (2020) cells\",\"bbox\":[0.084,0.086,0.907,0.463],\"quote\":\"Prohibition of data localization row: CPTPP cell is orange (binding); RCEP cell is yellow (soft law). The note says orange indicates a binding provision and yellow indicates a soft law provision.\"}]}",
+  "elapsed_seconds": 7.848813199998403
+}

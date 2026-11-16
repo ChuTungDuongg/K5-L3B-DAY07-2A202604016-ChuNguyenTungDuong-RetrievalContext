@@ -1,0 +1,45 @@
+{
+  "id": "23e554d896e04b67a41c06b88bf3928b",
+  "label": "20261116-121843-dev-baseline-488da010:adv-dev-08:step0",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 13464,
+  "maximum_output_tokens": 3500,
+  "images": [
+    {
+      "page": 181,
+      "path": "advanced/data/pages/p181.jpg",
+      "sha256": "93056cafe09e4dc0dca6de4e6581ecd44bf9ec64e1cc1ef0ccf0a5d3e4548df2"
+    },
+    {
+      "page": 185,
+      "path": "advanced/data/pages/p185.jpg",
+      "sha256": "1836c9518727d198d99a2832e670cba05ec83fe1769ae6cdecb748e4f69c827a"
+    },
+    {
+      "page": 180,
+      "path": "advanced/data/pages/p180.jpg",
+      "sha256": "457fe2ec419e39ac37918cbf59a9104f0753f13a99109bd66fc3f8f544ae1790"
+    }
+  ],
+  "instructions_sha256": "ea16e5e82aecd9d10ddbf9ad06d2474cc521d3d867a62d5379a957bcf9904631",
+  "usage": {
+    "input_tokens": 13464,
+    "input_tokens_details": {
+      "cache_write_tokens": 13461,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 13461
+      }
+    },
+    "output_tokens": 283,
+    "output_tokens_details": {
+      "reasoning_tokens": 53
+    },
+    "total_tokens": 13747
+  },
+  "response_id": "resp_01c3013211000606016afa9278466887d2adc035af73351e34",
+  "response_status": "completed",
+  "output_text": "{\"action\":\"answer\",\"expression\":\"Connected: 50%-41%=+9 percentage points; usage gap: 42%-37%=+5 percentage points; coverage gap: 8%-21%=-13 percentage points\",\"queries\":[],\"pages\":[181],\"status\":\"answered\",\"answer\":\"Globally from 2015 to 2018, the connected share rose from 41% to 50% (+9 percentage points); the usage gap rose from 37% to 42% (+5 percentage points); and the coverage gap fell from 21% to 8% (−13 percentage points).\",\"citations\":[{\"page\":181,\"region_label\":\"Figure 5.3, panel a, “Globally over time, 2015–18”\",\"bbox\":[0.15,0.126,0.504,0.344],\"quote\":\"2015: Connected 41, Usage gap 37, Coverage gap 21; 2018: Connected 50, Usage gap 42, Coverage gap 8 (share of population, %).\"}]}",
+  "elapsed_seconds": 7.122405999994953
+}

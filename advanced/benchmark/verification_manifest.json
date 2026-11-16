@@ -1,0 +1,490 @@
+[
+  {
+    "id": "adv-dev-01",
+    "group": "table",
+    "source_pages": [
+      48
+    ],
+    "source_render_inspection": "completed by benchmark-author assistant",
+    "gold_status": "assistant-proposed source-verified; learner confirmation pending",
+    "evidence_regions": 1
+  },
+  {
+    "id": "adv-dev-02",
+    "group": "table",
+    "source_pages": [
+      83
+    ],
+    "source_render_inspection": "completed by benchmark-author assistant",
+    "gold_status": "assistant-proposed source-verified; learner confirmation pending",
+    "evidence_regions": 1
+  },
+  {
+    "id": "adv-dev-03",
+    "group": "table",
+    "source_pages": [
+      227
+    ],
+    "source_render_inspection": "completed by benchmark-author assistant",
+    "gold_status": "assistant-proposed source-verified; learner confirmation pending",
+    "evidence_regions": 1
+  },
+  {
+    "id": "adv-dev-04",
+    "group": "image",
+    "source_pages": [
+      50
+    ],
+    "source_render_inspection": "completed by benchmark-author assistant",
+    "gold_status": "assistant-proposed source-verified; learner confirmation pending",
+    "evidence_regions": 1
+  },
+  {
+    "id": "adv-dev-05",
+    "group": "image",
+    "source_pages": [
+      178
+    ],
+    "source_render_inspection": "completed by benchmark-author assistant",
+    "gold_status": "assistant-proposed source-verified; learner confirmation pending",
+    "evidence_regions": 1
+  },
+  {
+    "id": "adv-dev-06",
+    "group": "image",
+    "source_pages": [
+      329
+    ],
+    "source_render_inspection": "completed by benchmark-author assistant",
+    "gold_status": "assistant-proposed source-verified; learner confirmation pending",
+    "evidence_regions": 1
+  },
+  {
+    "id": "adv-dev-07",
+    "group": "chart",
+    "source_pages": [
+      46
+    ],
+    "source_render_inspection": "completed by benchmark-author assistant",
+    "gold_status": "assistant-proposed source-verified; learner confirmation pending",
+    "evidence_regions": 1
+  },
+  {
+    "id": "adv-dev-08",
+    "group": "chart",
+    "source_pages": [
+      181
+    ],
+    "source_render_inspection": "completed by benchmark-author assistant",
+    "gold_status": "assistant-proposed source-verified; learner confirmation pending",
+    "evidence_regions": 2
+  },
+  {
+    "id": "adv-dev-09",
+    "group": "chart",
+    "source_pages": [
+      220
+    ],
+    "source_render_inspection": "completed by benchmark-author assistant",
+    "gold_status": "assistant-proposed source-verified; learner confirmation pending",
+    "evidence_regions": 1
+  },
+  {
+    "id": "adv-dev-10",
+    "group": "multihop",
+    "source_pages": [
+      50,
+      51
+    ],
+    "source_render_inspection": "completed by benchmark-author assistant",
+    "gold_status": "assistant-proposed source-verified; learner confirmation pending",
+    "evidence_regions": 2
+  },
+  {
+    "id": "adv-dev-11",
+    "group": "multihop",
+    "source_pages": [
+      188,
+      338
+    ],
+    "source_render_inspection": "completed by benchmark-author assistant",
+    "gold_status": "assistant-proposed source-verified; learner confirmation pending",
+    "evidence_regions": 2
+  },
+  {
+    "id": "adv-dev-12",
+    "group": "multihop",
+    "source_pages": [
+      172,
+      173
+    ],
+    "source_render_inspection": "completed by benchmark-author assistant",
+    "gold_status": "assistant-proposed source-verified; learner confirmation pending",
+    "evidence_regions": 2
+  },
+  {
+    "id": "adv-dev-13",
+    "group": "text",
+    "source_pages": [
+      49
+    ],
+    "source_render_inspection": "completed by benchmark-author assistant",
+    "gold_status": "assistant-proposed source-verified; learner confirmation pending",
+    "evidence_regions": 1
+  },
+  {
+    "id": "adv-dev-14",
+    "group": "text",
+    "source_pages": [
+      206
+    ],
+    "source_render_inspection": "completed by benchmark-author assistant",
+    "gold_status": "assistant-proposed source-verified; learner confirmation pending",
+    "evidence_regions": 1
+  },
+  {
+    "id": "adv-dev-15",
+    "group": "text",
+    "source_pages": [
+      244
+    ],
+    "source_render_inspection": "completed by benchmark-author assistant",
+    "gold_status": "assistant-proposed source-verified; learner confirmation pending",
+    "evidence_regions": 1
+  },
+  {
+    "id": "adv-dev-16",
+    "group": "unanswerable",
+    "source_pages": [
+      49
+    ],
+    "source_render_inspection": "completed by benchmark-author assistant",
+    "gold_status": "assistant-proposed source-verified; learner confirmation pending",
+    "evidence_regions": 1
+  },
+  {
+    "id": "adv-dev-17",
+    "group": "unanswerable",
+    "source_pages": [
+      338
+    ],
+    "source_render_inspection": "completed by benchmark-author assistant",
+    "gold_status": "assistant-proposed source-verified; learner confirmation pending",
+    "evidence_regions": 1
+  },
+  {
+    "id": "adv-dev-18",
+    "group": "unanswerable",
+    "source_pages": [
+      206
+    ],
+    "source_render_inspection": "completed by benchmark-author assistant",
+    "gold_status": "assistant-proposed source-verified; learner confirmation pending",
+    "evidence_regions": 1
+  },
+  {
+    "id": "adv-test-01",
+    "group": "table",
+    "source_pages": [
+      84
+    ],
+    "source_render_inspection": "completed by benchmark-author assistant",
+    "gold_status": "assistant-proposed source-verified; learner confirmation pending",
+    "evidence_regions": 1
+  },
+  {
+    "id": "adv-test-02",
+    "group": "table",
+    "source_pages": [
+      197
+    ],
+    "source_render_inspection": "completed by benchmark-author assistant",
+    "gold_status": "assistant-proposed source-verified; learner confirmation pending",
+    "evidence_regions": 1
+  },
+  {
+    "id": "adv-test-03",
+    "group": "table",
+    "source_pages": [
+      229
+    ],
+    "source_render_inspection": "completed by benchmark-author assistant",
+    "gold_status": "assistant-proposed source-verified; learner confirmation pending",
+    "evidence_regions": 1
+  },
+  {
+    "id": "adv-test-04",
+    "group": "table",
+    "source_pages": [
+      261
+    ],
+    "source_render_inspection": "completed by benchmark-author assistant",
+    "gold_status": "assistant-proposed source-verified; learner confirmation pending",
+    "evidence_regions": 1
+  },
+  {
+    "id": "adv-test-05",
+    "group": "table",
+    "source_pages": [
+      288
+    ],
+    "source_render_inspection": "completed by benchmark-author assistant",
+    "gold_status": "assistant-proposed source-verified; learner confirmation pending",
+    "evidence_regions": 1
+  },
+  {
+    "id": "adv-test-06",
+    "group": "table",
+    "source_pages": [
+      298
+    ],
+    "source_render_inspection": "completed by benchmark-author assistant",
+    "gold_status": "assistant-proposed source-verified; learner confirmation pending",
+    "evidence_regions": 1
+  },
+  {
+    "id": "adv-test-07",
+    "group": "image",
+    "source_pages": [
+      54
+    ],
+    "source_render_inspection": "completed by benchmark-author assistant",
+    "gold_status": "assistant-proposed source-verified; learner confirmation pending",
+    "evidence_regions": 1
+  },
+  {
+    "id": "adv-test-08",
+    "group": "image",
+    "source_pages": [
+      85
+    ],
+    "source_render_inspection": "completed by benchmark-author assistant",
+    "gold_status": "assistant-proposed source-verified; learner confirmation pending",
+    "evidence_regions": 1
+  },
+  {
+    "id": "adv-test-09",
+    "group": "image",
+    "source_pages": [
+      91
+    ],
+    "source_render_inspection": "completed by benchmark-author assistant",
+    "gold_status": "assistant-proposed source-verified; learner confirmation pending",
+    "evidence_regions": 1
+  },
+  {
+    "id": "adv-test-10",
+    "group": "image",
+    "source_pages": [
+      259
+    ],
+    "source_render_inspection": "completed by benchmark-author assistant",
+    "gold_status": "assistant-proposed source-verified; learner confirmation pending",
+    "evidence_regions": 1
+  },
+  {
+    "id": "adv-test-11",
+    "group": "image",
+    "source_pages": [
+      330
+    ],
+    "source_render_inspection": "completed by benchmark-author assistant",
+    "gold_status": "assistant-proposed source-verified; learner confirmation pending",
+    "evidence_regions": 1
+  },
+  {
+    "id": "adv-test-12",
+    "group": "chart",
+    "source_pages": [
+      117
+    ],
+    "source_render_inspection": "completed by benchmark-author assistant",
+    "gold_status": "assistant-proposed source-verified; learner confirmation pending",
+    "evidence_regions": 1
+  },
+  {
+    "id": "adv-test-13",
+    "group": "chart",
+    "source_pages": [
+      119
+    ],
+    "source_render_inspection": "completed by benchmark-author assistant",
+    "gold_status": "assistant-proposed source-verified; learner confirmation pending",
+    "evidence_regions": 1
+  },
+  {
+    "id": "adv-test-14",
+    "group": "chart",
+    "source_pages": [
+      186
+    ],
+    "source_render_inspection": "completed by benchmark-author assistant",
+    "gold_status": "assistant-proposed source-verified; learner confirmation pending",
+    "evidence_regions": 1
+  },
+  {
+    "id": "adv-test-15",
+    "group": "chart",
+    "source_pages": [
+      214
+    ],
+    "source_render_inspection": "completed by benchmark-author assistant",
+    "gold_status": "assistant-proposed source-verified; learner confirmation pending",
+    "evidence_regions": 1
+  },
+  {
+    "id": "adv-test-16",
+    "group": "chart",
+    "source_pages": [
+      297
+    ],
+    "source_render_inspection": "completed by benchmark-author assistant",
+    "gold_status": "assistant-proposed source-verified; learner confirmation pending",
+    "evidence_regions": 1
+  },
+  {
+    "id": "adv-test-17",
+    "group": "multihop",
+    "source_pages": [
+      181,
+      186
+    ],
+    "source_render_inspection": "completed by benchmark-author assistant",
+    "gold_status": "assistant-proposed source-verified; learner confirmation pending",
+    "evidence_regions": 2
+  },
+  {
+    "id": "adv-test-18",
+    "group": "multihop",
+    "source_pages": [
+      89,
+      295
+    ],
+    "source_render_inspection": "completed by benchmark-author assistant",
+    "gold_status": "assistant-proposed source-verified; learner confirmation pending",
+    "evidence_regions": 3
+  },
+  {
+    "id": "adv-test-19",
+    "group": "multihop",
+    "source_pages": [
+      224,
+      300
+    ],
+    "source_render_inspection": "completed by benchmark-author assistant",
+    "gold_status": "assistant-proposed source-verified; learner confirmation pending",
+    "evidence_regions": 2
+  },
+  {
+    "id": "adv-test-20",
+    "group": "multihop",
+    "source_pages": [
+      49,
+      50
+    ],
+    "source_render_inspection": "completed by benchmark-author assistant",
+    "gold_status": "assistant-proposed source-verified; learner confirmation pending",
+    "evidence_regions": 2
+  },
+  {
+    "id": "adv-test-21",
+    "group": "text",
+    "source_pages": [
+      170
+    ],
+    "source_render_inspection": "completed by benchmark-author assistant",
+    "gold_status": "assistant-proposed source-verified; learner confirmation pending",
+    "evidence_regions": 1
+  },
+  {
+    "id": "adv-test-22",
+    "group": "text",
+    "source_pages": [
+      286
+    ],
+    "source_render_inspection": "completed by benchmark-author assistant",
+    "gold_status": "assistant-proposed source-verified; learner confirmation pending",
+    "evidence_regions": 1
+  },
+  {
+    "id": "adv-test-23",
+    "group": "text",
+    "source_pages": [
+      334
+    ],
+    "source_render_inspection": "completed by benchmark-author assistant",
+    "gold_status": "assistant-proposed source-verified; learner confirmation pending",
+    "evidence_regions": 1
+  },
+  {
+    "id": "adv-test-24",
+    "group": "text",
+    "source_pages": [
+      124
+    ],
+    "source_render_inspection": "completed by benchmark-author assistant",
+    "gold_status": "assistant-proposed source-verified; learner confirmation pending",
+    "evidence_regions": 1
+  },
+  {
+    "id": "adv-test-25",
+    "group": "unanswerable",
+    "source_pages": [
+      172
+    ],
+    "source_render_inspection": "completed by benchmark-author assistant",
+    "gold_status": "assistant-proposed source-verified; learner confirmation pending",
+    "evidence_regions": 1
+  },
+  {
+    "id": "adv-test-26",
+    "group": "unanswerable",
+    "source_pages": [
+      170
+    ],
+    "source_render_inspection": "completed by benchmark-author assistant",
+    "gold_status": "assistant-proposed source-verified; learner confirmation pending",
+    "evidence_regions": 1
+  },
+  {
+    "id": "adv-test-27",
+    "group": "unanswerable",
+    "source_pages": [
+      338
+    ],
+    "source_render_inspection": "completed by benchmark-author assistant",
+    "gold_status": "assistant-proposed source-verified; learner confirmation pending",
+    "evidence_regions": 1
+  },
+  {
+    "id": "adv-test-28",
+    "group": "unanswerable",
+    "source_pages": [
+      220
+    ],
+    "source_render_inspection": "completed by benchmark-author assistant",
+    "gold_status": "assistant-proposed source-verified; learner confirmation pending",
+    "evidence_regions": 2
+  },
+  {
+    "id": "adv-test-29",
+    "group": "unanswerable",
+    "source_pages": [
+      299
+    ],
+    "source_render_inspection": "completed by benchmark-author assistant",
+    "gold_status": "assistant-proposed source-verified; learner confirmation pending",
+    "evidence_regions": 1
+  },
+  {
+    "id": "adv-test-30",
+    "group": "unanswerable",
+    "source_pages": [
+      86,
+      92
+    ],
+    "source_render_inspection": "completed by benchmark-author assistant",
+    "gold_status": "assistant-proposed source-verified; learner confirmation pending",
+    "evidence_regions": 2
+  }
+]

@@ -1,0 +1,35 @@
+{
+  "id": "5dd411fb1e7143d29cc5fd6f78defaa7",
+  "label": "index:p182",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 4194,
+  "maximum_output_tokens": 6000,
+  "images": [
+    {
+      "page": 182,
+      "path": "advanced/data/pages/p182.jpg",
+      "sha256": "fbabb4ac6ffa565b784a6a06b4c90793e0611ed10b36eae2ffc1c5f3eac32dea"
+    }
+  ],
+  "instructions_sha256": "01d3a56b3c678b1acd37e506320a854b17dd9ddb13ece56a92b62990aeb80d41",
+  "usage": {
+    "input_tokens": 4194,
+    "input_tokens_details": {
+      "cache_write_tokens": 4191,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 4191
+      }
+    },
+    "output_tokens": 407,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 4601
+  },
+  "response_id": "resp_020cfb475b562686016afa908edabc87d2b46df8ec105b9dfd",
+  "response_status": "completed",
+  "output_text": "{\"regions\":[{\"label\":\"Figure 5.4\",\"kind\":\"chart\",\"bbox\":[0.083,0.088,0.535,0.431],\"summary\":\"Global population coverage of 2G, 3G, and 4G wireless services, alongside world population and internet users, 2013–2018.\",\"details\":\"Stacked area chart with x-axis years 2013–2018 and y-axis Coverage (billions of people), scaled 0–8. The stacked areas show 4G (orange), 3G (green), and 2G (blue); the legend also identifies World population (solid purple line) and Internet users (dotted purple line). Approximate visible values by year: 4G coverage rises from 1.3 billion (2013) to 2.3 (2014), 3.0 (2015), 4.8 (2016), 5.7 (2017), and 6.0 (2018). The top of the 3G area is about 4.3, 4.6, 5.8, 6.3, 6.7, and 6.9 billion, respectively; the top of the 2G area is about 6.8, 6.9, 7.0, 7.1, 7.2, and 7.3 billion. World population line increases from about 7.1 to 7.6 billion; internet users rise from about 2.6 to 3.8 billion. The chart depicts rapid expansion of 4G while 2G coverage contracts; values are approximate readings from the plotted lines/areas.\",\"limitations\":\"Area boundaries and line values are not labeled numerically; intermediate values are estimates from the graphic. Source printed below chart: WDR 2021 team, based on ITU (2018a).\"}]}",
+  "elapsed_seconds": 6.141573200002313
+}

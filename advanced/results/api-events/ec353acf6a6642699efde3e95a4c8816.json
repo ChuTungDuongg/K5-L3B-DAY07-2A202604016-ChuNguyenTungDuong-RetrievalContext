@@ -1,0 +1,45 @@
+{
+  "id": "ec353acf6a6642699efde3e95a4c8816",
+  "label": "20261116-165446-r2-test-baseline-cbad637d:adv-r2-test-15:step0",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 14047,
+  "maximum_output_tokens": 3500,
+  "images": [
+    {
+      "page": 250,
+      "path": "advanced/data/pages/p250.jpg",
+      "sha256": "9fd4f89ab5a6698c480fa7660cd31b45f08d3dbd4efaad7b89f22b06c7e15a3d"
+    },
+    {
+      "page": 251,
+      "path": "advanced/data/pages/p251.jpg",
+      "sha256": "a5971aedbd4a947b1aabc556e7a29c7ee1b96b22012715c0225255e2d83bcf84"
+    },
+    {
+      "page": 296,
+      "path": "advanced/data/pages/p296.jpg",
+      "sha256": "c36f509f15c1f8e408f0f73f66860ce3e1267638d41ebb5dfed0617d8d160060"
+    }
+  ],
+  "instructions_sha256": "7b27220272435c850770154f165a9b99ffc1a1c1848fec729da980d6adec6535",
+  "usage": {
+    "input_tokens": 14047,
+    "input_tokens_details": {
+      "cache_write_tokens": 14044,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 14044
+      }
+    },
+    "output_tokens": 261,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 14308
+  },
+  "response_id": "resp_086eac99d226e93d016afad3d3e14487d2a5d890cecc24900e",
+  "response_status": "completed",
+  "output_text": "{\"action\":\"answer\",\"expression\":\"35% - 8% = 27 percentage points\",\"queries\":[],\"pages\":[250],\"status\":\"answered\",\"answer\":\"Passenger transport accounts for 8% of antitrust cases in high-income countries and 35% in middle-income countries—a gap of 27 percentage points, with the middle-income share higher. The largest-share sector is retail e-commerce in the high-income panel (21%) and passenger transport in the middle-income panel (35%). The shares cover antitrust cases involving digital platforms for which information was publicly available as of January 2020: 62 cases in high-income countries and 40 in middle-income countries.\",\"citations\":[{\"page\":250,\"region_label\":\"Figure 7.2, both panels and complete caption/note\",\"bbox\":[0.084,0.587,0.906,0.938],\"quote\":\"High-income: Retail e-commerce, 21; Passenger transport, 8. Middle-income: Passenger transport, 35. Note: Percentages are based on information for all antitrust cases involving digital platforms globally for which information was publicly available as of January 2020. Cases total 62 in high-income countries and 40 in middle-income countries.\"}]}",
+  "elapsed_seconds": 7.097310999997717
+}

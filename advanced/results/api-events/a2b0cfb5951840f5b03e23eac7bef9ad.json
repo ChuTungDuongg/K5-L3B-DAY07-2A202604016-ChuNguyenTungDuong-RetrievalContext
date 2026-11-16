@@ -1,0 +1,45 @@
+{
+  "id": "a2b0cfb5951840f5b03e23eac7bef9ad",
+  "label": "20261116-165446-r2-test-baseline-cbad637d:adv-r2-test-16:review0",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 13110,
+  "maximum_output_tokens": 3500,
+  "images": [
+    {
+      "page": 268,
+      "path": "advanced/data/pages/p268.jpg",
+      "sha256": "28b18b519bf5915e19830182fef25c767ff1b023d7263056483fb38a1da4ee32"
+    },
+    {
+      "page": 45,
+      "path": "advanced/data/pages/p045.jpg",
+      "sha256": "5f66141db3fd78f6dfce232ed9b790b4dc3afb88b087a71ccc941d1be327e872"
+    },
+    {
+      "page": 46,
+      "path": "advanced/data/pages/p046.jpg",
+      "sha256": "85494debf929cafbaf918dad93eacec82ce69eb740e634c95e6403b55ce842b4"
+    }
+  ],
+  "instructions_sha256": "0507604096aab315eb8e0306caca34acc2d0bedacd7d3b2ec25cc18ae985e348",
+  "usage": {
+    "input_tokens": 13110,
+    "input_tokens_details": {
+      "cache_write_tokens": 13107,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 13107
+      }
+    },
+    "output_tokens": 218,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 13328
+  },
+  "response_id": "resp_00a9b56a668e3ae3016afad3e89a9c87d29799430b69a37146",
+  "response_status": "completed",
+  "output_text": "{\"action\":\"answer\",\"expression\":\"\",\"queries\":[],\"pages\":[268],\"status\":\"answered\",\"answer\":\"The 2025 stacked bar totals approximately US$13.6 billion. Indonesia is the largest contribution, at about US$7 billion; Vietnam is second-largest, at about US$2.3 billion. The figure measures the indirect tax potential of business-to-consumer e-commerce, in US$ billions—not tax revenue actually collected.\",\"citations\":[{\"page\":268,\"region_label\":\"Figure 7.6—2025 bar, vertical axis and country legend\",\"bbox\":[0.205,0.132,0.911,0.354],\"quote\":\"Volume (US$, billions) ... Indonesia Malaysia Philippines Singapore Thailand Vietnam\"},{\"page\":268,\"region_label\":\"Figure 7.6—note beneath chart\",\"bbox\":[0.205,0.381,0.71,0.398],\"quote\":\"Note: Figure shows the indirect tax potential of business-to-consumer e-commerce. VAT = value added tax.\"}]}",
+  "elapsed_seconds": 5.918833699994138
+}

@@ -1,0 +1,45 @@
+{
+  "id": "2cdae6f7ecd647218af7fb40ecde5eac",
+  "label": "20261116-165446-r2-test-baseline-cbad637d:adv-r2-test-28:step0",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 13125,
+  "maximum_output_tokens": 3500,
+  "images": [
+    {
+      "page": 207,
+      "path": "advanced/data/pages/p207.jpg",
+      "sha256": "08f3d98390fa9a2c9cfd00c0066fca581a98a5df388a6e9e78def2afbfeb5723"
+    },
+    {
+      "page": 206,
+      "path": "advanced/data/pages/p206.jpg",
+      "sha256": "828f4f88e58748363cc2e59ea9f01263c2941fab1269951c522ec833eb2e64bd"
+    },
+    {
+      "page": 31,
+      "path": "advanced/data/pages/p031.jpg",
+      "sha256": "1468f7a6310238df8acb638bd4a9ceaee79032c345d0fd8b51b4339f55ba9445"
+    }
+  ],
+  "instructions_sha256": "7b27220272435c850770154f165a9b99ffc1a1c1848fec729da980d6adec6535",
+  "usage": {
+    "input_tokens": 13125,
+    "input_tokens_details": {
+      "cache_write_tokens": 13122,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 13122
+      }
+    },
+    "output_tokens": 185,
+    "output_tokens_details": {
+      "reasoning_tokens": 37
+    },
+    "total_tokens": 13310
+  },
+  "response_id": "resp_0be0efddb76a215a016afad4bcd4c487d2bbe2e78bc57d4277",
+  "response_status": "completed",
+  "output_text": "{\"action\":\"search\",\"expression\":\"Equinix 2018 absolute greenhouse-gas emissions market-based and location-based totals (tonnes CO2e)\",\"queries\":[\"Equinix 2018 absolute greenhouse gas emissions market-based location-based tonnes CO2e\",\"WDR 2021 Equinix emissions market basis location basis totals\"],\"pages\":[],\"status\":\"abstain\",\"answer\":\"Insufficient evidence in the retrieved World Development Report 2021 pages to give Equinix’s 2018 market-based and location-based emissions totals or calculate their difference. The report explains the distinction and notes that location-based emissions are higher, but provides no totals.\",\"citations\":[]}",
+  "elapsed_seconds": 6.041573299997253
+}

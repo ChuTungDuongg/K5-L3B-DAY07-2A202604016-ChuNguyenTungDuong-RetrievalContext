@@ -1,0 +1,35 @@
+{
+  "id": "3090f44c150c4b6cbfa32350355d9ff9",
+  "label": "index:p292",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 3916,
+  "maximum_output_tokens": 6000,
+  "images": [
+    {
+      "page": 292,
+      "path": "advanced/data/pages/p292.jpg",
+      "sha256": "4a48e5f9a71018c6779d4f586f10f27f0e0deb2e401f133a562234e80e8e7c64"
+    }
+  ],
+  "instructions_sha256": "01d3a56b3c678b1acd37e506320a854b17dd9ddb13ece56a92b62990aeb80d41",
+  "usage": {
+    "input_tokens": 3916,
+    "input_tokens_details": {
+      "cache_write_tokens": 3913,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 3913
+      }
+    },
+    "output_tokens": 449,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 4365
+  },
+  "response_id": "resp_07aa988b37481838016afa90eacacc87d28255690b650a8b42",
+  "response_status": "completed",
+  "output_text": "{\"regions\":[{\"label\":\"Table 8.2 — Candidate institutions and actors to perform or inform data governance functions\",\"kind\":\"table\",\"bbox\":[0.206,0.087,0.907,0.753],\"summary\":\"Four thematic clusters pair data-governance functions with indicative institutions and actors: strategic planning, rule making and implementation, compliance, and learning and evidence.\",\"details\":\"Two columns: “Thematic clusters and functions” and “Indicative institutions and actors.” Strategic planning: developing strategies and policies in line with the social contract for data; establishing institutional arrangements. Indicative actors: data governance arrangement (centralized agency/unit embedded in an existing institution, such as NSO or digital economy ministry; or decentralized units and responsibilities embedded across government), CSOs, universities, research institutions. Rule making and implementation: legislating/regulating; setting standards; providing clarification and guidance. Actors: national legislature and sector-specific regulators; telecom regulator; banking and financial securities market regulator; industry associations; CSOs; Institutional Review Boards; international institutions, including sector-specific SSOs and international organizations (World Bank, IMF, UN, WTO). Compliance: enforcing; auditing; arbitrating; remedying. Actors under “Watchdog and umpire”: data protection authority; access to information agency; antitrust authority; consumer protection agency; audit body; courts; ombudsperson; CSIRT. Learning and evidence: engaging in backward-looking monitoring and evaluation; engaging in forward-looking learning and risk management. Actors under “Knowledge community”: M&E unit within entity or independent M&E body; CSOs and NGOs, multilateral development institutions, international development banks; academic institutions; think tanks, policy institutes, research institutions; news media; training bodies; professional associations. Source: WDR 2021 team, based on a functional approach to governance and public sector management. Note expands CSIRT, CSO, IMF, M&E, NGO, NSO, SSO, UN, and WTO.\",\"limitations\":\"No numerical values; table entries are text. Minor ambiguity in visual alignment of the “International institutions” subheading: it is part of the rule-making/implementation actor list.\"}]}",
+  "elapsed_seconds": 8.84763550000207
+}

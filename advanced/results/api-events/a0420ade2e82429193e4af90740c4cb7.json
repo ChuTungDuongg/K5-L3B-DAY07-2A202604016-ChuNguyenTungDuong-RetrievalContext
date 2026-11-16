@@ -1,0 +1,35 @@
+{
+  "id": "a0420ade2e82429193e4af90740c4cb7",
+  "label": "index:p259",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 3958,
+  "maximum_output_tokens": 6000,
+  "images": [
+    {
+      "page": 259,
+      "path": "advanced/data/pages/p259.jpg",
+      "sha256": "fdce7e6889dfccd6c3ebb5fdca98a4b97740cf82b8c30f5a082d453dcdfb27f1"
+    }
+  ],
+  "instructions_sha256": "01d3a56b3c678b1acd37e506320a854b17dd9ddb13ece56a92b62990aeb80d41",
+  "usage": {
+    "input_tokens": 3958,
+    "input_tokens_details": {
+      "cache_write_tokens": 3955,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 3955
+      }
+    },
+    "output_tokens": 560,
+    "output_tokens_details": {
+      "reasoning_tokens": 121
+    },
+    "total_tokens": 4518
+  },
+  "response_id": "resp_0f8b77f1ffa81440016afa90d4faf887d287b8035576e7f7d9",
+  "response_status": "completed",
+  "output_text": "{\"regions\":[{\"label\":\"Figure 7.5 — Three distinct approaches to handling cross-border data flows\",\"kind\":\"diagram\",\"bbox\":[0.093,0.472,0.898,0.929],\"summary\":\"Infographic compares limited, conditional, and open transfers models by regulatory options, key features, and examples, arranged along a data-closure to data-openness spectrum.\",\"details\":\"The figure is organized into three model groups, with vertical row labels at left: “Regulatory options,” “Key features,” and “Examples.” Left-to-right, from greater data closure toward greater data openness:\\n\\n• Limited transfers model (blue), divided into three regulatory-option columns:\\n  – Domestic storage. Key feature: broad requirements to use domestic servers for data storage. Examples: China—certain personal data; US states—government data; Australia and United Kingdom—health data; Russian Federation—telecommunications data.\\n  – Domestic processing. Key feature: broad requirements to use domestic servers for data processing. Example: Russian Federation—processing of personal data.\\n  – Government approval. Key feature: prior approval required for data transfers. Example: China—Cybersecurity Law.\\n• Conditional transfers model (green), regulatory option “Regulatory safeguards.” Key features: consent; adequacy findings; private sector assessment (for example, codes of conduct, binding corporate rules, contractual arrangements). Example: European Union—General Data Protection Regulation.\\n• Open transfers model (orange), regulatory option “Private standards.” Key features: no a priori mandatory requirements; private sector accountability based on voluntary standards. Examples: US federal rules; APEC Privacy Framework.\\n\\nA horizontal gradient arrow beneath the groups runs from “Data closure” on the left to “Data openness” on the right. Source: WDR 2021 team, based on Casalini and López González (2019); Cory (2017). Note: APEC = Asia-Pacific Economic Cooperation.\",\"limitations\":\"The graphic is a categorical comparison, not a quantitative chart; it gives no numerical scale or measured values. The source note expands APEC.\"}]}",
+  "elapsed_seconds": 9.49817470000562
+}

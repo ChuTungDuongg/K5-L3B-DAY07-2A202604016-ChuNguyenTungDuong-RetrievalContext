@@ -1,0 +1,45 @@
+{
+  "id": "e7b3fa1980bc4988acdf05d862aeb83b",
+  "label": "20261116-164337-r2-dev-baseline-8b5e219c:adv-dev-06:review0",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 13093,
+  "maximum_output_tokens": 3500,
+  "images": [
+    {
+      "page": 329,
+      "path": "advanced/data/pages/p329.jpg",
+      "sha256": "ca6c9eafdd3cc6ad0c4ca185644346089e4a024d87b453d323eb878a4ef09b0d"
+    },
+    {
+      "page": 26,
+      "path": "advanced/data/pages/p026.jpg",
+      "sha256": "9eac093b7d3bd06b0e0d6e0a173f12655c03667c6e68864961384b2074357425"
+    },
+    {
+      "page": 211,
+      "path": "advanced/data/pages/p211.jpg",
+      "sha256": "73e488d74a78131b4bba4d1b94152a1a7a306b460f708b2a24a6debef6e2d48e"
+    }
+  ],
+  "instructions_sha256": "0507604096aab315eb8e0306caca34acc2d0bedacd7d3b2ec25cc18ae985e348",
+  "usage": {
+    "input_tokens": 13093,
+    "input_tokens_details": {
+      "cache_write_tokens": 13090,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 13090
+      }
+    },
+    "output_tokens": 379,
+    "output_tokens_details": {
+      "reasoning_tokens": 129
+    },
+    "total_tokens": 13472
+  },
+  "response_id": "resp_095f7343c718b62f016afad1039a9087d289279f5faae6599b",
+  "response_status": "completed",
+  "output_text": "{\"action\":\"answer\",\"expression\":\"\",\"queries\":[],\"pages\":[329],\"status\":\"answered\",\"answer\":\"Read Figure 9.2 from the center outward: establishing fundamentals, then initiating data flows, then optimizing the system. For a given participant, darker segments mark steps accomplished and lighter segments mark steps not accomplished. A mix of dark and light segments means that the participant has accomplished some steps but not others; the figure is illustrative and does not give a quantitative completion score.\",\"citations\":[{\"page\":329,\"region_label\":\"Figure 9.2, concentric-ring stage labels\",\"bbox\":[0.455,0.48,0.914,0.939],\"quote\":\"Establishing fundamentals; Initiating data flows; Optimizing the system\"},{\"page\":329,\"region_label\":\"Figure 9.2, explanatory note beneath the diagram\",\"bbox\":[0.454,0.887,0.914,0.939],\"quote\":\"The inner circle is the first stage of maturity, the second the middle stage, and so forth. Darker colors indicate steps accomplished; lighter colors indicate steps not accomplished. Thus for each participant, segments may be dark or light.\"}]}",
+  "elapsed_seconds": 8.296876999993401
+}

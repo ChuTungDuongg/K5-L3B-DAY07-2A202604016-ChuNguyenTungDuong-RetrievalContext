@@ -1,0 +1,55 @@
+{
+  "id": "feb7d6e0e47e45188d738f86a338be43",
+  "label": "20261116-164337-r2-dev-candidate-7d01ebc6:adv-dev-01:review0",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 21987,
+  "maximum_output_tokens": 3500,
+  "images": [
+    {
+      "page": 48,
+      "path": "advanced/data/pages/p048.jpg",
+      "sha256": "66741b18cf15a118edd4096688be8100e4940085a53c4396d42acaa221c6b39e"
+    },
+    {
+      "page": 144,
+      "path": "advanced/data/pages/p144.jpg",
+      "sha256": "f6f212c4e5a445e9a92ab77ee25ebd83b495a89883e1e785bab6aaddc8c1ce74"
+    },
+    {
+      "page": 162,
+      "path": "advanced/data/pages/p162.jpg",
+      "sha256": "3c87eb79f59a0c83019e94b33de2758ae869eec16a9e7ea359fc6bc3f51ab34e"
+    },
+    {
+      "page": 47,
+      "path": "advanced/data/pages/p047.jpg",
+      "sha256": "e4ad1f5859bb7983541ddcb5f4e8a0209c50808c62902b7a975e89036e4a3205"
+    },
+    {
+      "page": 75,
+      "path": "advanced/data/pages/p075.jpg",
+      "sha256": "ebbd999571673b08b265aeeb7f06283d0c37f67569a9d49c8306669fd6f19240"
+    }
+  ],
+  "instructions_sha256": "0507604096aab315eb8e0306caca34acc2d0bedacd7d3b2ec25cc18ae985e348",
+  "usage": {
+    "input_tokens": 21987,
+    "input_tokens_details": {
+      "cache_write_tokens": 21984,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 21984
+      }
+    },
+    "output_tokens": 165,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 22152
+  },
+  "response_id": "resp_05c2d7428a68113a016afad0c7acc487d2bb282aaf4020b598",
+  "response_status": "completed",
+  "output_text": "{\"action\":\"answer\",\"expression\":\"\",\"queries\":[],\"pages\":[48],\"status\":\"answered\",\"answer\":\"Satellite-imaging location data are listed under **New** collection methods and **Public intent data**. Just-in-time digital data on individual behavior/choices from private-sector digital platforms are listed under **New** collection methods and **Private intent data**.\",\"citations\":[{\"page\":48,\"region_label\":\"Table 1.1, column headers and New row\",\"bbox\":[0.2055,0.108,0.906,0.273],\"quote\":\"Data collection methods and tools | Public intent data | Private intent data\\nNew | Location data from satellite imaging ... | Just-in-time digital data on individual behavior/choices from digital platforms in the private sector\"}]}",
+  "elapsed_seconds": 7.496522199995525
+}

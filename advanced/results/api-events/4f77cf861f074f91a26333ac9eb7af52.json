@@ -1,0 +1,35 @@
+{
+  "id": "4f77cf861f074f91a26333ac9eb7af52",
+  "label": "index:p173",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 3999,
+  "maximum_output_tokens": 6000,
+  "images": [
+    {
+      "page": 173,
+      "path": "advanced/data/pages/p173.jpg",
+      "sha256": "45753aa3788d1ed7ab0c4e8f1f6608de059fd7564469c0d5b0aa6c2fa17347c6"
+    }
+  ],
+  "instructions_sha256": "01d3a56b3c678b1acd37e506320a854b17dd9ddb13ece56a92b62990aeb80d41",
+  "usage": {
+    "input_tokens": 3999,
+    "input_tokens_details": {
+      "cache_write_tokens": 3996,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 3996
+      }
+    },
+    "output_tokens": 257,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 4256
+  },
+  "response_id": "resp_0167003c0379dc40016afa9085544087d2ba52a1e0bb3aaa02",
+  "response_status": "completed",
+  "output_text": "{\"regions\":[{\"label\":\"Map S4.2.1\",\"kind\":\"map\",\"bbox\":[0.094,0.126,0.793,0.494],\"summary\":\"Map of Nairobi showing police-reported and crowdsourced crash locations along the road network; caption states that combining the sources identified the 5 percent of roads where half of crashes occur.\",\"details\":\"The map uses a dark background with a fine gray road network. The legend shows orange dots for “Crashes geolocated from police situation reports” and green dots/road markings for “Crashes identified by crowdsourced reports that were geolocated and clustered into individual crashes.” The two sets of markers appear across Nairobi, with many concentrated along central and major routes. Caption: “By combining police reports and crowdsourced data, researchers were able to identify the 5 percent of roads where half of the crashes occur in Nairobi.” Source: Milusheva et al. 2020. Note: data shown are for July 2017–July 2018.\",\"limitations\":\"No scale, north arrow, named roads, or numerical counts are visible; the map does not delineate the 5 percent of roads as a separately labeled category.\"}]}",
+  "elapsed_seconds": 5.151766300004965
+}

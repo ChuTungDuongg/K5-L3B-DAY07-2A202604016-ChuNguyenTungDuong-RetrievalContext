@@ -1,0 +1,1712 @@
+[
+  {
+    "page": 24,
+    "label": "Figure O.1 — How data can support development: A theory of change",
+    "kind": "diagram",
+    "bbox": [
+      0.205,
+      0.087,
+      0.854,
+      0.501
+    ],
+    "summary": "A theory-of-change diagram links data production and collection, data analytics and processing across three groups, and development. Reuse connects the groups; the diagram contrasts potential positive impacts (green) with negative impacts (red).",
+    "details": "The diagram is arranged left to right. At left is a circle labeled “Data production and collection.” In the central shaded column, headed “Data analytics and processing,” three boxes are stacked: “Individuals / Civil society / Academia,” “Government / International organizations,” and “Private sector.” Two-way vertical arrows labeled “Reuse” connect the top and middle boxes and the middle and bottom boxes. Dotted side routes with arrowheads also connect the top and bottom groups. Gray arrows link data production and collection with the central groups: the upper route is labeled “Greater transparency,” the horizontal two-way link “More data on individuals,” and the lower route “Production process in firms.” Routes from the central groups lead to the right-hand circle labeled “Development.” The top route is labeled in green “Greater accountability” and in red “Criminal activity, dark net”; the middle route in green “Better policy making and service delivery” and in red “Political surveillance”; the bottom route in green “Increased business opportunities” and in red “Market concentration / Widening inequality / Discrimination.” Source: WDR 2021 team. Note: “Positive impacts are shown in green; negative impacts are shown in red.”",
+    "limitations": "Arrow routes are visible, but some line intersections and arrowheads are small; no numerical data are shown. The upper and lower routes include bends, so their precise connections are interpreted from the visible arrowheads and labels.",
+    "id": "wdr2021:p024:visual:0"
+  },
+  {
+    "page": 25,
+    "label": "Map O.1",
+    "kind": "map",
+    "bbox": [
+      0.092,
+      0.597,
+      0.896,
+      0.916
+    ],
+    "summary": "Weekly maps of cellphone-record mobility flows across administrative districts in The Gambia during COVID-19 lockdowns, March–May 2020.",
+    "details": "The figure contains 11 small maps of The Gambia, labeled Week 3 through Week 13: Week 3, March 15–21; Week 4, March 22–28; Week 5, March 29–April 4; Week 6, April 5–11; Week 7, April 12–18; Week 8, April 19–25; Week 9, April 26–May 2; Week 10, May 3–9; Week 11, May 10–16; Week 12, May 17–23; and Week 13, May 24–30. Districts are shaded by percentage change in population flows, with a blue-to-green scale labeled −60, −40, −20, −16, −12, −8, −4, 0, 4, 8, 12, 16, 20, 40, and 60+. Blue indicates outflow of people; green indicates inflow. Map labels include Banjul, Brikama, Kanifing, Kerewan, Mansa Konko, Georgetown, Basse, and Santa Su. Legend symbols identify national capital and district capitals; line styles identify international and district boundaries. Source: Knippenberg and Meyer 2020; data link printed as http://bit.do/WDR2021-Map-O_1. Note states that a nationwide lockdown was imposed on March 22, 2020, and data were gathered using call detail records.",
+    "limitations": "Small district-level labels and individual color assignments are difficult to read at this resolution; no specific district values are stated.",
+    "id": "wdr2021:p025:visual:0"
+  },
+  {
+    "page": 26,
+    "label": "Figure O.2 — A social contract for data founded on value, trust, and equity",
+    "kind": "diagram",
+    "bbox": [
+      0.094,
+      0.58,
+      0.546,
+      0.94
+    ],
+    "summary": "Three interlocking hexagons present value, trust, and equity as foundations of a social contract for data.",
+    "details": "The diagram has three large colored hexagons arranged around a central orange triangular overlap labeled “THE SOCIAL CONTRACT.” The upper blue hexagon is labeled “VALUE” and states: “The full value of data materializes when systems enable the use and reuse of data for different purposes.” The lower-left green hexagon is labeled “TRUST” and states: “A trust environment is created when the rights and interests that all stakeholders have in data are safeguarded.” The lower-right purple hexagon is labeled “EQUITY” and states: “All share equitably in the benefits of data when investments and regulations create a level playing field.” Source printed below: “WDR 2021 team.”",
+    "limitations": "No directional arrows or quantitative values are shown.",
+    "id": "wdr2021:p026:visual:0"
+  },
+  {
+    "page": 27,
+    "label": "Map O.2 — Highly refined data pinpointed areas of Nigeria that needed better sanitation",
+    "kind": "map",
+    "bbox": [
+      0.455,
+      0.087,
+      0.902,
+      0.522
+    ],
+    "summary": "Choropleth map of Nigeria showing the share of the population with inadequate access to improved sanitation, by geographic area; Abuja is marked as the national capital.",
+    "details": "Nigeria is filled with area-level colors and outlined internal state boundaries; international boundaries are also identified in the legend. The legend categories for “% of population with inadequate access to improved sanitation” are 0–19.9, 20–39.9, 40–59.9, 60–79.9, and 80–100. Colors progress from dark teal through green and pale yellow to orange-red. A star marks Abuja as the national capital. Source printed below map: World Bank 2017; data link shown as http://bit.do/WDR2021-Map-O_2. Map imprint: IBRD NIR45641 | MARCH 2021. Note states that geographic hotspots are shown from least severe to most severe in terms of the percentage of the population in the area that meets an international benchmark for sanitation; the note’s wording appears inconsistent with the legend’s “inadequate access” measure.",
+    "limitations": "No individual area values are printed on the map; only the five legend ranges are readable. The note uses wording about the percentage meeting a benchmark, while the legend describes inadequate access.",
+    "id": "wdr2021:p027:visual:0"
+  },
+  {
+    "page": 29,
+    "label": "Map O.3 — Combining satellite imagery with household survey data increases the resolution of the poverty map of Tanzania",
+    "kind": "map",
+    "bbox": [
+      0.093,
+      0.461,
+      0.892,
+      0.924
+    ],
+    "summary": "Two 2018 Tanzania poverty-incidence maps compare a Household Budget Survey map for 20 regions with a finer map combining that survey data and satellite imagery for 169 districts.",
+    "details": "The figure has two side-by-side panels. (a) “Poverty map using the Household Budget Survey (20 regions)” shows regional boundaries and names. Its legend is “Poverty incidence, 2018 (% of population)”: 36–45, 32–35, 26–31, 22–25, 8–21, and No data. It also marks the national capital, international boundaries, and province boundaries. (b) “Poverty map combining the data in panel a with satellite imagery (169 districts)” shows finer district boundaries. Its legend uses the same measure and year, with classes 38–67, 31–37, 24–30, 17–23, 4–16, and No data; it also marks the national capital, international boundaries, and district boundaries. Both maps depict Tanzania, including mainland and Zanzibar; Dodoma is marked as the national capital. Source: World Bank 2019; data link printed as http://bit.do/WDR2021-Map-O_3. Map identifier printed near the lower right: IBRD TAN45642 | MARCH 2021.",
+    "limitations": "The maps encode ranges by color; individual locations do not have printed numeric incidence values. Some small district shapes and labels are difficult to distinguish at this page scale. The panels use different poverty-class intervals, so the color categories are not identical.",
+    "id": "wdr2021:p029:visual:0"
+  },
+  {
+    "page": 31,
+    "label": "Figure O.3",
+    "kind": "diagram",
+    "bbox": [
+      0.093,
+      0.087,
+      0.797,
+      0.526
+    ],
+    "summary": "Matrix of four data-governance layers, showing policy areas at national and international levels.",
+    "details": "Title: “Data governance layers at the national and international levels.” Three columns: governance layer; National; International. Rows and contents:\n• Infrastructure policies — National: Universal coverage of broadband networks; domestic infrastructure to exchange, store, and process data. International: Global technical standards for compatibility of hardware and software; regional collaboration on data infrastructure to achieve scale.\n• Laws and regulations — National: Safeguards to secure and protect data from the threat of misuse; enablers to facilitate data sharing among different stakeholders. International: Cybersecurity conventions for collaboration on tackling cybercrime; interoperability standards to facilitate data exchanges across borders.\n• Economic policies — National: Antitrust for data platform businesses; trade in data-enabled services; taxation of data platform businesses. International: International tax treaties to allocate taxation rights across countries; global trade agreements on cross-border trade in data-enabled services.\n• Institutions — National: Government entities to oversee, regulate, and secure data; other stakeholders to set standards and increase data access and reuse. International: International organizations to support collaboration on data governance and promote standardization; cooperation on cross-border regulatory spillovers and enforcement issues.\nSource: WDR 2021 team.",
+    "limitations": "No quantitative values or directional links are shown; the visual organizes examples by layer and governance level.",
+    "id": "wdr2021:p031:visual:0"
+  },
+  {
+    "page": 32,
+    "label": "Map O.4 — Data infrastructure is not yet widespread across all parts of the world",
+    "kind": "map",
+    "bbox": [
+      0.103,
+      0.088,
+      0.904,
+      0.469
+    ],
+    "summary": "World map showing locations of colocation data centers, internet exchange points, submarine cable landing stations, and submarine cables.",
+    "details": "The map covers the world, with land shaded light gray and infrastructure marked by a legend: red dots = colocation data centers; blue dots = internet exchange points (IXPs); open black circles = submarine cable landing stations; green lines = submarine cables. Infrastructure markers and cable routes are dense across North America, Europe, and parts of East and Southeast Asia, with substantial cable networks connecting continents and island regions. Markers and routes are more sparsely distributed across much of Africa, Central Asia, and parts of South America. Sources listed beneath the map: PeeringDB; PCH Packet Clearing House (IXP locations, accessed December 14, 2020); and TeleGeography submarine cables. Data URL: http://bit.do/WDR2021-Map-O_4. Map imprint: IBRD WLD45643 | MARCH 2021.",
+    "limitations": "This is a schematic global map; individual symbols and cable routes overlap densely in some regions, so exact counts and precise locations cannot be reliably read from the image.",
+    "id": "wdr2021:p032:visual:0"
+  },
+  {
+    "page": 33,
+    "label": "Figure O.4",
+    "kind": "chart",
+    "bbox": [
+      0.455,
+      0.085,
+      0.92,
+      0.488
+    ],
+    "summary": "Radar chart comparing the percentage of good-practice data governance laws and regulatory measures across four country income groups and seven regulatory areas.",
+    "details": "Seven-axis radar chart with a 0–90 scale in increments of 10. Axes clockwise from top: E-commerce framework; Enabling access to public intent data; Enabling access to private intent data; Cybersecurity; Personal data protection; Nonpersonal data protection; Cross-border data flows. Series: High-income (blue), Upper-middle-income (green), Lower-middle-income (orange), Low-income (purple). Approximate plotted values by axis, read from the grid: High-income 85, 65, 40, 65, 55, 45, 40; Upper-middle-income 70, 60, 35, 45, 40, 40, 25; Lower-middle-income 65, 45, 25, 40, 40, 35, 20; Low-income 45, 25, 15, 30, 30, 40, 15. The chart compares coverage across income groups; high-income is generally highest, while values are comparatively low for enabling access to private intent data and cross-border data flows. Source: WDR 2021 team, based on the Global Data Regulation Survey conducted exclusively for the Report. Note: Figure depicts the percentage of good-practice laws and regulatory measures in place for countries covered by the survey in each income group.",
+    "limitations": "Values are approximate visual readings from the radar chart; exact data values are not printed. The grid scale and overlapping series make some points difficult to distinguish precisely.",
+    "id": "wdr2021:p033:visual:0"
+  },
+  {
+    "page": 34,
+    "label": "Figure O.5",
+    "kind": "chart",
+    "bbox": [
+      0.204,
+      0.519,
+      0.916,
+      0.909
+    ],
+    "summary": "Global trade in data-driven services and digital data flows, 1990–2018; data-driven services rise substantially and account for about half of services trade by 2018, while IP traffic grows sharply.",
+    "details": "Title: “Since 1990, the global trade in data-driven services has grown exponentially and now constitutes half of trade in services.” The chart combines stacked areas for services trade (left axis, US$ billions, current; 0–6,000) and vertical bars for IP traffic (right axis, PB per month; 0–100,000). The horizontal axis shows each year from 1990 through 2018. Stacked-area legend: computer, communications, and other services; travel services; transport services; other (unclassified). Bar series: IP traffic (right axis). In-chart labels distinguish “Data-driven services” from “Traditional services” and identify “Global digital data flows.” Overall, services trade grows from under US$1,000 billion in 1990 to nearly US$6,000 billion in 2018; IP traffic rises from near zero to close to 100,000 PB per month by 2018. Source: WDR 2021 team calculations, based on World Bank, WITS database. Note: IP = Internet Protocol; PB = petabytes.",
+    "limitations": "The chart does not print numeric data labels for individual years or series, so precise annual values and exact component amounts cannot be read reliably. The source note includes a data URL.",
+    "id": "wdr2021:p034:visual:0"
+  },
+  {
+    "page": 37,
+    "label": "Figure O.6 — What happens in an integrated national data system?",
+    "kind": "diagram",
+    "bbox": [
+      0.093,
+      0.087,
+      0.794,
+      0.694
+    ],
+    "summary": "Diagram of an integrated national data system, showing what happens to data, who participates, the system’s pillars, and the foundation sustaining it.",
+    "details": "Four stacked, outlined sections. “Data are”: produced; protected; open; quality controlled; used and reused. “By”: government entities; civil society and individuals; academic institutions; the private sector; international organizations. “Built on the pillars of”: infrastructure policies; laws and regulations; economic policies; institutions. “Sustained by the foundation of”: human capital; trust; funding; incentives; data demand. Source: WDR 2021 team.",
+    "limitations": "The diagram groups items into four sections but does not show directional arrows or specify relationships among items within each section.",
+    "id": "wdr2021:p037:visual:0"
+  },
+  {
+    "page": 46,
+    "label": "Figure 1.1",
+    "kind": "chart",
+    "bbox": [
+      0.116,
+      0.085,
+      0.907,
+      0.469
+    ],
+    "summary": "World population enumerated in censuses rose from 11% in 1850 to 90% in 2010, alongside growth in total world population.",
+    "details": "Title: “The share of people counted in a census grew from about 1 in 10 in 1850 to 9 in 10 today.” Horizontal axis: decades 1850–2010. Vertical axis: World population (billions), 0–8. The shaded area represents world population, increasing from about 1.2 billion in 1850 to about 7.7 billion in 2010; green bars show the percentage enumerated each decade. Percentages printed above/in bars: 1850 11%, 1860 14%, 1870 17%, 1880 21%, 1890 38%, 1900 51%, 1910 44%, 1920 46%, 1930 58%, 1940 58%, 1950 82%, 1960 94%, 1970 71%, 1980 92%, 1990 92%, 2000 88%, 2010 90%. Source: Whitby 2020; data link printed as http://bit.do/WDR2021-Fig-1_1. Note: bars indicate the share enumerated each decade; shaded area indicates world population. Values for population are read approximately from the plotted area, not individually labeled.",
+    "limitations": "Population-area values are not labeled numerically at each decade; approximate readings only. The chart’s “today” wording refers to its latest plotted year, 2010.",
+    "id": "wdr2021:p046:visual:0"
+  },
+  {
+    "page": 47,
+    "label": "Map 1.1",
+    "kind": "map",
+    "bbox": [
+      0.455,
+      0.143,
+      0.888,
+      0.665
+    ],
+    "summary": "John Snow’s map of London’s 1854 cholera epidemic, illustrating the locations of cholera deaths.",
+    "details": "A black-and-white historical street map of part of London, with street and place labels and solid black rectangles of varying sizes marking cholera deaths. The map is captioned: “John Snow’s innovative mapping of the cholera epidemic in London in 1854 revolutionized tracing of the disease.” Source: Ball 2009; map segment reproduced from John Snow, On the Mode of Communication of Cholera, 2nd ed. (London: John Churchill, 1855).",
+    "limitations": "Individual map labels and the exact number or locations of death markers are not reliably legible at this resolution. The note identifies the black rectangles as deaths from cholera.",
+    "id": "wdr2021:p047:visual:0"
+  },
+  {
+    "page": 48,
+    "label": "Table 1.1 — Examples of data types based on original intent and collection methods",
+    "kind": "table",
+    "bbox": [
+      0.2055,
+      0.0883,
+      0.906,
+      0.288
+    ],
+    "summary": "Examples classified by data collection method (traditional or new) and original intent (public or private).",
+    "details": "Columns: Data collection methods and tools | Public intent data | Private intent data. Traditional: Public—Census, national accounts, household surveys, enterprise surveys, labor force surveys, surveys of personal finance, administrative records. Private—Any survey conducted by private entities, including public opinion surveys deployed by private entities; administrative data from company financial accounts. New: Public—Location data from satellite imaging, digital identification, facial recognition from public cameras, public procurement data from e-government platforms. Private—Just-in-time digital data on individual behavior/choices from digital platforms in the private sector. Source printed below table: WDR 2021 team.",
+    "limitations": "No numeric values or units; the table presents examples. Bounding box includes the source line immediately below the table.",
+    "id": "wdr2021:p048:visual:0"
+  },
+  {
+    "page": 50,
+    "label": "Figure 1.2 — The data life cycle",
+    "kind": "diagram",
+    "bbox": [
+      0.206,
+      0.541,
+      0.859,
+      0.923
+    ],
+    "summary": "Circular data life-cycle diagram: Create/receive, Process, Store, Transfer/share, Analyze and use, Archive and preserve, and Destroy, with Reuse at the center.",
+    "details": "Outer cycle stages, in clockwise order: Create/receive (top), Process (upper right), Store (lower right), Transfer/share (bottom), Analyze and use (lower left), Archive and preserve (upper left). Broad curved arrows connect the main stages around the loop. Reuse is central, connected by lines to the surrounding stages, indicating reuse across the cycle. A separate arrow points from Archive and preserve toward Destroy. Source printed below: “Source: WDR 2021 team.”",
+    "limitations": "Diagram shows relationships but no numerical data. Direction of the full outer cycle is indicated by arrows; small connector lines between Reuse and stages do not show additional directional arrows.",
+    "id": "wdr2021:p050:visual:0"
+  },
+  {
+    "page": 54,
+    "label": "Figure 1.3 — Three pathways along which data can foster development",
+    "kind": "diagram",
+    "bbox": [
+      0.205,
+      0.088,
+      0.857,
+      0.484
+    ],
+    "summary": "Diagram showing data production and collection feeding data analytics and processing, with reuse by individuals/civil society/academia, government/international organizations, and the private sector; these pathways can foster development through positive outcomes but also carry negative impacts.",
+    "details": "The diagram places “Data production and collection” at left, a central vertical “Data analytics and processing” pathway, and “Development” at right. The central pathway contains three boxes, from top to bottom: “Individuals / Civil society / Academia,” “Government / International organizations,” and “Private sector.” Dotted vertical connections between the boxes are labeled “Reuse” and show arrows in both directions; dotted side connections also link the analytics/processing area with the upper and lower boxes. The left-to-center inputs are labeled “Greater transparency” (upper route), “More data on individuals” (middle route), and “Production process in firms” (lower route). Positive impacts are printed in green and negative impacts in red: upper route, “Greater accountability” and “Criminal activity, dark net”; government route, “Better policy making and service delivery” and “Political surveillance”; private-sector route, “Increased business opportunities” and “Market concentration / Widening inequality / Discrimination.” Arrows connect the labeled routes and outcomes toward development; the upper and lower routes also show arrows returning toward data production and collection. Source: WDR 2021 team. Note: Positive impacts are shown in green; negative impacts are shown in red.",
+    "limitations": "Some dotted side arrows are faint; their precise direction is less clear than the solid route arrows. No numerical values are shown.",
+    "id": "wdr2021:p054:visual:0"
+  },
+  {
+    "page": 56,
+    "label": "Figure B1.4.1 — Use of repurposed data to study COVID-19: Published articles, by type of private intent data used",
+    "kind": "chart",
+    "bbox": [
+      0.226,
+      0.462,
+      0.893,
+      0.773
+    ],
+    "summary": "Stacked area chart of articles using different types of private-intent data to study COVID-19, from February to September 2020. The cumulative total rises sharply from near zero in February to just over 1,000 by September; social media is the largest category throughout the later period.",
+    "details": "The horizontal axis is time in 2020, with labels February, April, July, and September. The vertical axis is “Number of articles,” marked 0, 250, 500, 750, and 1,000. The stacked categories, from bottom to top in the legend, are Social media, Twitter, Big data, Google Trends, Facebook, Cellphone, and Call detail records. The plotted total is near zero early in the period, rises notably after April, and reaches slightly above the 1,000 gridline by September. Social media forms the largest area at the end (roughly 530 articles by visual estimation); Twitter is the next largest (roughly 200), with smaller areas for Big data and Google Trends, and comparatively small Facebook, Cellphone, and Call detail records areas. These are visual estimates, not labeled data values. The note says the figure counts articles published in scientific, medical, and technical journals from February to September 2020, and that the sum across categories is higher because some articles appear in more than one category. Source: WDR 2021 team, based on CORD-19 data from the Semantic Scholar team, Ai2.",
+    "limitations": "Exact category values are not printed on the chart and should not be inferred from the stacked areas. The cumulative sum across categories can include the same article more than once.",
+    "id": "wdr2021:p056:visual:0"
+  },
+  {
+    "page": 57,
+    "label": "Map B1.4.1 — Use of repurposed data to study COVID-19: Published articles, by country",
+    "kind": "map",
+    "bbox": [
+      0.186,
+      0.144,
+      0.776,
+      0.466
+    ],
+    "summary": "World choropleth showing country-level counts of published COVID-19 research articles, adjusted by COVID-19 death incidence rate, February–September 2020.",
+    "details": "The map shades countries using a yellow-to-green/teal-to-dark-purple scale. The legend is titled “Number of articles” and shows reference values 7.5, 10.0, 12.5, and 15.0; gray denotes “No data.” Country shading varies widely: China is among the darkest purple areas, while many countries are shown in intermediate green/teal shades and some in yellow. The note states that the map covers articles published in scientific, medical, and technical journals from February to September 2020, and that article counts are divided by the COVID-19 death incidence rate. Source: WDR 2021 team, based on CORD-19 data from the Semantic Scholar team, Ai2. Exact country-level values are not printed on the map; colors indicate the mapped scale.",
+    "limitations": "The legend provides only selected reference values, not numeric break boundaries for every color. Individual country values cannot be read exactly from the map.",
+    "id": "wdr2021:p057:visual:0"
+  },
+  {
+    "page": 59,
+    "label": "Figure 1.4 — Data governance layers at the national and international levels",
+    "kind": "diagram",
+    "bbox": [
+      0.094,
+      0.087,
+      0.797,
+      0.533
+    ],
+    "summary": "Four data-governance layers compare policy priorities at national and international levels: infrastructure policies, laws and regulations, economic policies, and institutions.",
+    "details": "The diagram has four horizontal rows. Each row pairs an illustrated layer label at left with National and International columns.\n\n• Infrastructure policies — National: “Universal coverage of broadband networks”; “Domestic infrastructure to exchange, store, and process data.” International: “Global technical standards for compatibility of hardware and software”; “Regional collaboration on data infrastructure to achieve scale.”\n• Laws and regulations — National: “Safeguards to secure and protect data from the threat of misuse”; “Enablers to facilitate data sharing among different stakeholders.” International: “Cybersecurity conventions for collaboration on tackling cybercrime”; “Interoperability standards to facilitate data exchanges across borders.”\n• Economic policies — National: “Antitrust for data platform businesses”; “Trade in data-enabled services”; “Taxation of data platform businesses.” International: “International tax treaties to allocate taxation rights across countries”; “Global trade agreements on cross-border trade in data-enabled services.”\n• Institutions — National: “Government entities to oversee, regulate, and secure data”; “Other stakeholders to set standards and increase data access and reuse.” International: “International organizations to support collaboration on data governance and promote standardization”; “Cooperation on cross-border regulatory spillovers and enforcement issues.”\nSource: WDR 2021 team.",
+    "limitations": "The figure is legible. The native text contains a likely OCR error (“dierent”); the image reads “different.”",
+    "id": "wdr2021:p059:visual:0"
+  },
+  {
+    "page": 61,
+    "label": "Figure 1.5",
+    "kind": "diagram",
+    "bbox": [
+      0.093,
+      0.436,
+      0.742,
+      0.924
+    ],
+    "summary": "Diagram of data flowing safely among five stakeholder groups in an integrated national data system, with a connected pathway of five data attributes.",
+    "details": "The figure is titled “Data flow safely across all stakeholders in an integrated national data system.” Five blue-outlined circular nodes—Academic institutions, Government entities, International organizations, Private sector, and Civil society and individuals—surround a central area labeled “Data.” Multiple intersecting green pathways with directional arrowheads connect the stakeholder nodes and pass around and through the central data area, depicting flows among stakeholders. Below, a “Data attributes” sequence shows five labeled icons connected left to right: Produced → Protected → Open → Quality controlled → Used and reused. Source: WDR 2021 team.",
+    "limitations": "The many crossing pathways and arrowheads make individual routes between specific stakeholder pairs ambiguous; the figure does not label particular transactions or assign data attributes to individual routes.",
+    "id": "wdr2021:p061:visual:0"
+  },
+  {
+    "page": 69,
+    "label": "Figure S1.1.1 — A citizen-led method to ascertain who has authority in household decision-making in rural Indian villages",
+    "kind": "table",
+    "bbox": [
+      0.093,
+      0.216,
+      0.792,
+      0.641
+    ],
+    "summary": "A screenshot-style matrix compares household decision-making authority across four decisions and two village groups. Larger family-member faces indicate greater authority; greener backgrounds indicate greater authority for women.",
+    "details": "The visual has four decision rows and two comparison columns, with a question and illustrative icon at left. Row questions: (1) whether the respondent’s opinion is accepted regarding a child’s education and marriage; (2) who makes decisions regarding clothing; (3) who makes decisions regarding the number of children; and (4) who decides when to visit the respondent’s parents’ house. Each row shows family-member faces in both comparison columns, with varying relative face sizes and background shades. The column header text appears to read “H1 Agam…” and “H9 Manalath…”; the full names are not reliably legible. No numeric values or scale are shown. The printed note says face size represents relative authority over a decision and that backgrounds shade from dark gray toward dark green when women have more authority.",
+    "limitations": "The screenshot is small and some village names, labels, and facial details are indistinct. The visual gives qualitative comparisons only; no exact measurements or legend scale are visible.",
+    "id": "wdr2021:p069:visual:0"
+  },
+  {
+    "page": 70,
+    "label": "Figure S1.2.1",
+    "kind": "chart",
+    "bbox": [
+      0.567,
+      0.465,
+      0.923,
+      0.704
+    ],
+    "summary": "Grouped horizontal bars compare the composition of DSSI-eligible countries’ bilateral debt by creditor in 2013 and 2019; China’s share rose markedly while the share of other G-20 bilateral creditors fell.",
+    "details": "Title: “In six years, the composition of debt has shifted dramatically.” Subtitle: “DSSI-eligible countries’ bilateral debt: Composition of creditors, 2013 and 2019.” Horizontal axis: “% of bilateral debt,” from 0 to 60, with ticks at 0, 10, 20, 30, 40, 50, and 60. Legend: blue = 2013; green = 2019. Categories and approximate bar endpoints (%): China, 38 (2013) and 57 (2019); Other G-20 bilateral creditors, 29 and 18; Japan, 13 and 13; India, 4 and 4; Other bilateral creditors, 15 and 9. Source: World Bank, Debt Data (dashboard); source note also provides a data link. Note refers readers to the World Bank’s External Debt Reporting System information and expands DSSI as Debt Service Suspension Initiative.",
+    "limitations": "Bar values are not printed numerically; values above are approximate readings from the axis and bar endpoints. The 2019 China bar ends just below 60, approximately 57.",
+    "id": "wdr2021:p070:visual:0"
+  },
+  {
+    "page": 75,
+    "label": "Box 2.1 — Six types of public intent data",
+    "kind": "diagram",
+    "bbox": [
+      0.093,
+      0.087,
+      0.796,
+      0.772
+    ],
+    "summary": "A two-column illustrated overview of six public-intent data types, with descriptions and examples; notes that the types can overlap and be interoperable.",
+    "details": "The box presents six types with icons: Administrative data (registration and record-keeping, including birth, marriage, death, identification, population, health, education, tax, trade-flow, and government project/program/service data); Censuses (systematic enumeration of a population of interest, including population and housing censuses); Sample surveys (representative samples used for more frequent detailed information across household, farm, enterprise, labor-force, and demographic/health domains); Citizen-generated data (individual-produced data that can fill gaps or support monitoring and accountability; examples: HarassMap and ForestWatchers); Machine-generated data (automatically produced by sensors, applications, or computer processes; example: air-pollution sensors and the Internet of Things); and Geospatial data (information layers associated with geographic location; examples include Landsat and Copernicus satellite imagery, weather, and cadastral data). A concluding note says the types are neither exhaustive nor mutually exclusive: sources can be georeferenced, and some administrative and geospatial data can be machine-generated. Interoperability can use common numeric identifiers, geospatial coordinates, time stamps, and classification standards. Three footnotes discuss social-media surveys, cite Meijer and Potjer (2018), and refer readers to chapter 4.",
+    "limitations": "The box is text-led and has no quantitative values. The six icons are illustrative; no additional legend is shown.",
+    "id": "wdr2021:p075:visual:0"
+  },
+  {
+    "page": 75,
+    "label": "Figure 2.1 — Certain data features can maximize the value of public intent data",
+    "kind": "diagram",
+    "bbox": [
+      0.093,
+      0.79,
+      0.804,
+      0.936
+    ],
+    "summary": "Four adjacent columns group data features under coverage, quality, ease of use, and safety of use.",
+    "details": "From left to right: “Ensuring the data have adequate coverage” lists Completeness, Timeliness, Frequency; “Ensuring the data are of high quality” lists Granularity, Accuracy, Comparability; “Ensuring the data are easy to use” lists Accessibility, Understandability, Interoperability; “Ensuring the data are safe to use” lists Impartiality, Confidentiality, Appropriateness. Source: WDR 2021 team, drawing on Jolliffe et al. (forthcoming).",
+    "limitations": "The graphic is a categorical grouping, with no axes, numerical scale, or indicated ranking.",
+    "id": "wdr2021:p075:visual:1"
+  },
+  {
+    "page": 76,
+    "label": "Figure 2.2",
+    "kind": "chart",
+    "bbox": [
+      0.077,
+      0.692,
+      0.539,
+      0.939
+    ],
+    "summary": "Kenya hand-pump repair times fell with mobile-enabled sensor data: median repair time decreased from 6 to 1 day, and mean repair time from 27 to 2.6 days.",
+    "details": "Horizontal bar chart titled “Improving access to water: Using real-time sensor data to reduce repair time for broken hand pumps in Kenya.” The x-axis is “Number of days,” from 0 to 30. Categories are Median repair time and Mean repair time. Legend: blue = With mobile-enabled data; green = Baseline. Median: 1 day with mobile-enabled data versus 6 days at baseline. Mean: 2.6 days with mobile-enabled data versus 27 days at baseline. Source: SSEE 2014; data link printed below the chart.",
+    "limitations": "Values are read from the labels printed at the ends of the bars; no additional uncertainty or sample-size information is shown.",
+    "id": "wdr2021:p076:visual:0"
+  },
+  {
+    "page": 77,
+    "label": "Map 2.1 — Reducing poverty: Mapping pockets of poverty in Croatia allowed better targeting of antipoverty funds",
+    "kind": "map",
+    "bbox": [
+      0.456,
+      0.087,
+      0.906,
+      0.656
+    ],
+    "summary": "Choropleth map of Croatian municipalities showing the percentage of the population living in poverty, with municipal boundaries and Zagreb marked as the national capital.",
+    "details": "Croatia is subdivided into colored municipal areas. Legend, “% of population living in poverty”: 1–12 (dark green), 13–21 (green), 22–31 (yellow), 32–42 (orange), and 43–71 (red). A black star marks the national capital, Zagreb; boundary symbols distinguish international boundaries from municipality boundaries. Neighboring places labeled include Slovenia, Hungary, Serbia, Bosnia and Herzegovina, Montenegro, and Italy. Source: World Bank 2016a. Data at http://bit.do/WDR2021-Map-2_1. Map imprint: IBRD CRO45401 | MARCH 2021.",
+    "limitations": "The map shows categorized municipal percentages; exact values for individual municipalities are not printed or legible. Colors and boundaries are visible, but the image does not provide a municipality name key.",
+    "id": "wdr2021:p077:visual:0"
+  },
+  {
+    "page": 79,
+    "label": "Map 2.2",
+    "kind": "map",
+    "bbox": [
+      0.455,
+      0.088,
+      0.939,
+      0.668
+    ],
+    "summary": "Map of Bogotá showing citizen-collected safety ratings around bike paths, with most mapped points appearing in the excellent category and a pie chart reporting 81%, 15%, 3%, and 1%.",
+    "details": "Title: “Improving public safety: The use of citizen-collected data in Bogotá led to greater safety around bike paths.” The map depicts Bogotá and its urban perimeter, with surrounding place labels including Funza, Mosquera, and Soacha. Legend “Safety ratings, bike paths” lists Excellent (dark teal), Very good (green), Good (yellow), Fair (light orange), Poor (red), and Bogotá urban perimeter. Colored safety-rating points are densely distributed through the urban area; dark-teal points are visually most prevalent, with other categories interspersed. An inset pie chart shows 81%, 15%, 3%, and 1%; the labels are visible but the corresponding category-to-slice mapping is not fully clear. Source: Safetipin 2016. Note: “Safety ratings of poor to excellent for Bogotá bike paths are based on safety scores.”",
+    "limitations": "The map is a detailed, low-resolution reproduction; exact point counts and precise geographic boundaries cannot be read. Pie-chart category labels are not visibly linked unambiguously to every percentage.",
+    "id": "wdr2021:p079:visual:0"
+  },
+  {
+    "page": 80,
+    "label": "Figure 2.3 — Gaps in geospatial datasets are especially large in lower-income countries",
+    "kind": "chart",
+    "bbox": [
+      0.074,
+      0.56,
+      0.544,
+      0.925
+    ],
+    "summary": "Grouped bar chart comparing the share of countries with gaps in three geospatial datasets across four income groups. Lower-income countries show the largest gaps in each dataset.",
+    "details": "Vertical axis: “Share of countries with dataset gaps (%)”, from 0 to 100 with gridlines at 20-point intervals. Horizontal axis: “Datasets”; categories are Administrative boundaries, Addresses and locations, and National maps. Legend: Low-income (purple), Lower-middle-income (orange), Upper-middle-income (green), High-income (blue). Bar heights, read approximately from the plotted grid: Administrative boundaries—80%, 55%, 50%, 29%, respectively; Addresses and locations—100%, 89%, 90%, 61%; National maps—100%, 61%, 40%, 24%. Values are not printed on bars, so these are visual estimates. Source printed below: WDR 2021 team calculations, based on Open Knowledge Foundation, GODI (Global Open Data Index) database; URL and data link are printed.",
+    "limitations": "Bar values are not labeled numerically; values above are approximate readings from the chart.",
+    "id": "wdr2021:p080:visual:0"
+  },
+  {
+    "page": 81,
+    "label": "Figure B2.3.1 — Proportion of COVID-19 cases reported with sex-disaggregated data for 190 countries",
+    "kind": "chart",
+    "bbox": [
+      0.455,
+      0.278,
+      0.783,
+      0.596
+    ],
+    "summary": "Stacked monthly bars show the share of countries reporting COVID-19 cases with sex-disaggregated data (Yes) versus without it (No), March–November 2020; an orange line shows the proportion of countries reporting sex-disaggregated data.",
+    "details": "Vertical axis is Percent, 0–100, with ticks at 0, 25, 50, 75, and 100. Horizontal axis lists March through November; “2020” is printed beneath. Each stacked bar totals 100%; green denotes “Yes” and blue denotes “No.” Approximate green shares by month, read from the bars: March 61%, April 25%, May 69%, June 30%, July 40%, August 72%, September 74%, October 60%, November 60%. The orange line, labeled “Proportion of countries reporting sex-disaggregated data,” rises from about 13% in March to about 49% in July, then stays around 45–47% through November. The figure title specifies 190 countries. Source note cites Global Health 50/50 and University College London’s COVID-19 Sex-Disaggregated Data Tracker (November 30, 2020 release), Our World in Data, and Open Data Watch calculations.",
+    "limitations": "Bar and line values are estimated from the plotted marks; exact monthly values are not printed. The source note includes database links.",
+    "id": "wdr2021:p081:visual:0"
+  },
+  {
+    "page": 83,
+    "label": "Figure 2.4",
+    "kind": "chart",
+    "bbox": [
+      0.093,
+      0.087,
+      0.802,
+      0.531
+    ],
+    "summary": "Stacked bar chart compares poverty-data comparability across income groups, regions, and FCS status; lower-income and FCS economies have a larger share with noncomparable or fewer than three poverty data points.",
+    "details": "Vertical 100% stacked bars; y-axis is “Share of countries (%)” with ticks 0, 20, 40, 60, 80, 100. Groups from left to right: income group (Low-income, Lower-middle-income, Upper-middle-income, High-income); region (East Asia and Pacific, Europe and Central Asia, Latin America and the Caribbean, Middle East and North Africa, South Asia, Sub-Saharan Africa); FCS status (Non-FCS, FCS). Legend: green = last three poverty data points comparable; orange = last three poverty data points not comparable; blue = less than three poverty data points. Approximate segment shares read from bars, in green/orange/blue order: Low-income 40/41/19%; Lower-middle-income 56/22/22%; Upper-middle-income 68/16/16%; High-income 90/2/8%; East Asia and Pacific 57/13/30%; Europe and Central Asia 96/2/2%; Latin America and the Caribbean 72/8/20%; Middle East and North Africa 47/27/26%; South Asia 71/29/0%; Sub-Saharan Africa 40/40/20%; Non-FCS 77/16/7%; FCS 18/29/53%. Values are visually estimated from the plotted bars, not printed labels. Source: WDR 2021 team calculations based on World Bank PovcalNet. Note: only economies with at least one international poverty estimate are included; FCS refers to the World Bank Classification of Fragile and Conflict-Affected Situations.",
+    "limitations": "Bar segment values are not numerically labeled and are approximate visual readings. The chart’s categories are grouped by income, region, and FCS status.",
+    "id": "wdr2021:p083:visual:0"
+  },
+  {
+    "page": 83,
+    "label": "Table 2.1",
+    "kind": "table",
+    "bbox": [
+      0.094,
+      0.571,
+      0.796,
+      0.751
+    ],
+    "summary": "Assessment of data openness by country income group, reporting openness scores and four availability/open-use indicators; high-income groups generally score higher, though nonproprietary-format availability is similar across groups.",
+    "details": "Columns: Indicator; Low-income; Lower-middle-income; Upper-middle-income; High-income. Rows and values: Openness score (0–100): 38, 47, 50, 66. Available in machine readable format (%): 37, 51, 61, 81. Available in nonproprietary format (%): 75, 85, 81, 84. Download options available (%): 56, 68, 68, 78. Open terms of use/license (%): 11, 19, 22, 44. Source: WDR 2021 team calculations based on 2020/21 Open Data Inventory indicators (Open Data Watch, ODIN), also used as part of the World Bank Statistical Performance Indicators database. Note: openness score is the average by country income group on a 0–100 scale; all other indicators are the percentage of published data averaged by country income group.",
+    "limitations": "",
+    "id": "wdr2021:p083:visual:1"
+  },
+  {
+    "page": 84,
+    "label": "Table 2.2",
+    "kind": "table",
+    "bbox": [
+      0.2055,
+      0.1117,
+      0.906,
+      0.2622
+    ],
+    "summary": "Data dissemination practices and openness by country income group, 2019; percentages of each income-group population whose NSO has each listed attribute.",
+    "details": "Columns: Indicator; Low-income; Lower-middle-income; Upper-middle-income; High-income. Rows (values in percent): NSO uses advance release calendar — 30, 75, 92, 98; NSO has data portal — 84, 91, 95, 92; NSO has conducted user satisfaction survey — 10, 20, 19, 33; NSO makes metadata available — 63, 91, 97, 100. Source: Cameron et al. 2019. Note: Data are for 2019. Percentages reflect the proportion of the population in each income group whose national statistical office (NSO) has the listed attribute.",
+    "limitations": "The table gives percentages, not counts. No unit other than the stated percentages is shown.",
+    "id": "wdr2021:p084:visual:0"
+  },
+  {
+    "page": 84,
+    "label": "Figure 2.5",
+    "kind": "chart",
+    "bbox": [
+      0.5663,
+      0.2972,
+      0.9125,
+      0.6683
+    ],
+    "summary": "Grouped bar chart comparing countries’ use of two international statistical standards across four income groups; lower-income countries are less likely to use the employment classification.",
+    "details": "Title: “Lower-income countries are less likely than other countries to adhere to international best-practice statistical standards and methodologies.” Vertical axis: Share of countries (%), 0–100, marked in 20-point increments. Horizontal groups: “At least 1993 System of National Accounts in use” and “International Classification of Status in Employment in use.” Legend: Low-income (purple), Lower-middle-income (orange), Upper-middle-income (green), High-income (blue). Approximate bar values read from the plotted heights: System of National Accounts — 87%, 91%, 93%, 88%, respectively; Status in Employment classification — 4%, 12%, 15%, 67%, respectively. Source: WDR 2021 team calculations, based on World Bank, Statistical Performance Indicators (database); URLs printed below the chart include worldbank.org/spi and bit.do/WDR2021-Fig-2_5.",
+    "limitations": "Exact data labels are not printed; bar values are approximate readings from the axis. The chart does not state a specific year.",
+    "id": "wdr2021:p084:visual:1"
+  },
+  {
+    "page": 85,
+    "label": "Figure 2.6 — A positive feedback loop can connect enablers and features of public intent data with greater development value",
+    "kind": "diagram",
+    "bbox": [
+      0.093,
+      0.539,
+      0.8,
+      0.928
+    ],
+    "summary": "Three stacked stages show how enablers support desirable features of public intent data, which contribute to development value; side arrows form a feedback loop back to the enablers.",
+    "details": "Top green stage, “Enablers of public intent data”: Financing; Technical capacity; Governance; Data demand. A downward arrow leads to the middle blue stage, “Desirable features of public intent data,” organized into four columns: (1) Adequate coverage—Completeness, Timeliness, Frequency; (2) High quality—Granularity, Accuracy, Comparability; (3) Easy to use—Accessibility, Understandability, Interoperability; (4) Safe to use—Impartiality, Confidentiality, Appropriateness. A downward arrow leads to the bottom purple stage, “Value of public intent data”: Improved service delivery; Prioritization of scarce resources; Accountability and empowerment. A large loop runs from the value stage up both outer sides and points back into the enablers stage, indicating feedback. Source: WDR 2021 team.",
+    "limitations": "The diagram gives no numerical values. The outer feedback arrows’ direction is visible; the graphic does not specify a quantitative measure of the feedback.",
+    "id": "wdr2021:p085:visual:0"
+  },
+  {
+    "page": 86,
+    "label": "Figure 2.7",
+    "kind": "chart",
+    "bbox": [
+      0.2055,
+      0.0883,
+      0.906,
+      0.49
+    ],
+    "summary": "Share of countries with fully funded national statistical plans, by income group, region, and FCS status. High-income countries and Europe and Central Asia have the highest shares; low-income countries have none.",
+    "details": "Title: “Most countries do not fully fund their national statistical plans.” Vertical axis: “Share of countries with fully funded plan (%)”, scaled 0–100 with ticks at 20-point intervals. Bars are grouped by category (blue for income groups, green for regions, orange for FCS status). Income group: Low-income 0%; Lower-middle-income 41%; Upper-middle-income 61%; High-income 93%. Region: Sub-Saharan Africa 22%; South Asia 43%; Latin America and the Caribbean 50%; Middle East and North Africa 69%; East Asia and Pacific 74%; Europe and Central Asia 94%. FCS status: FCS 3%; Non-FCS 48%. Source note: WDR 2021 team calculations based on PARIS21 indicators, also used as Statistical Performance Indicators; data link shown as http://bit.do/WDR2021-Fig-2_7. Note: A fully funded national statistical plan under implementation is SDG Indicator 17.18.3; FCS means fragile and conflict-affected situations.",
+    "limitations": "The chart gives percentages but does not show group sample sizes. The 0% low-income value is printed at the baseline.",
+    "id": "wdr2021:p086:visual:0"
+  },
+  {
+    "page": 88,
+    "label": "Figure 2.8 — The older a country’s statistical laws, the lower is its statistical performance and the less open are its data",
+    "kind": "chart",
+    "bbox": [
+      0.083,
+      0.565,
+      0.917,
+      0.944
+    ],
+    "summary": "Two scatterplots show negative relationships between the age of a country’s statistical law and (a) its Statistical Performance Index and (b) its ODIN overall score. Points are grouped by country income level; both panels include downward-sloping fitted lines.",
+    "details": "Panel a, “Statistical performance”: x-axis is Age of statistical laws (years), approximately 0–70; y-axis is Statistical Performance Index, 0–90. Panel b, “Openness of data”: x-axis is Age of statistical laws (years), approximately 0–70; y-axis is ODIN overall score, 0–90. Each panel contains colored country-level scatter points and a pink downward-sloping regression line. Legend: blue = High-income; green = Upper-middle-income; orange = Lower-middle-income; ochre/gold = Low-income. In both panels, points are widely dispersed, but the fitted line slopes downward. Note reports regression coefficient on age, controlling for GDP per capita: panel a −0.48, p < .01; panel b −0.39, p < .01. Sources and notes appear below the charts; the note identifies the Statistical Performance Indicators and Open Data Inventory (ODIN).",
+    "limitations": "Individual plotted values are not labeled, so exact country-level observations cannot be read reliably. The figure provides no numeric tick intervals beyond the visible axes.",
+    "id": "wdr2021:p088:visual:0"
+  },
+  {
+    "page": 89,
+    "label": "Figure 2.9",
+    "kind": "chart",
+    "bbox": [
+      0.093,
+      0.088,
+      0.923,
+      0.423
+    ],
+    "summary": "Two scatterplots show positive correlations between statistical performance and (a) NSO independence among African countries and (b) press freedom among countries with data. Both panels include upward-sloping trend lines.",
+    "details": "Title: “Greater NSO independence and freedom of the press are positively correlated with better statistical performance.” Panel a, “NSO independence and statistical performance”: x-axis NSO independence score, 0–100; y-axis Statistical Performance Index, 0–70. Green x marks represent countries; a pink fitted line rises from about 30 at x=0 to about 49 at x=100. R² = 0.22. Panel b, “Freedom of the press and statistical performance”: x-axis RSF World Press Freedom Index, reversed from 100 at left to 0 at right; y-axis Statistical Performance Index, 0–90. Green x marks represent countries; the pink fitted line rises as the index value decreases, from about 19 near x=85 to about 67 near x=5. R² = 0.23. Sources name the Mo Ibrahim Foundation’s Ibrahim Index of African Governance and Reporters Without Borders’ 2020 World Press Freedom Index; data URL shown as http://bit.do/WDR2021-Fig-2_9. Note: x’s represent countries; panel a includes African countries only, panel b all countries with available data. NSO independence score ranges 0–100; World Press Freedom Index ranges 100–0, with lower values meaning greater press freedom. Statistical Performance Index is attributed to World Bank Statistical Performance Indicators. Axes and individual country values are visible, but exact values for most marks are not labeled.",
+    "limitations": "Scatter points have no country labels. Values are approximate when read from plotted positions; source text does not provide a point-by-point dataset.",
+    "id": "wdr2021:p089:visual:0"
+  },
+  {
+    "page": 90,
+    "label": "Figure 2.10 — Data supply and demand can generate either virtuous or vicious cycles of data production and use",
+    "kind": "diagram",
+    "bbox": [
+      0.061,
+      0.517,
+      0.547,
+      0.91
+    ],
+    "summary": "A two-axis schematic classifies countries by data quality and supply (low to high, horizontal) and demand (low to high, vertical), with four country categories in the quadrants.",
+    "details": "Title: “Data supply and demand can generate either virtuous or vicious cycles of data production and use.” Vertical axis runs from Low demand at the bottom to High demand at the top. Horizontal axis runs from Low quality and supply on the left to High quality and supply on the right. The quadrants are: upper left, “Data supply-constrained countries”; upper right, “Virtuous cycle countries”; lower left, “Vicious cycle countries”; lower right, “Data demand-constrained countries.” Arrows mark the axes. A diagonal arrow points from the lower-left area toward the upper-right area. Source: Adapted from Sanga (2013).",
+    "limitations": "The diagram does not provide numeric scales or thresholds. The diagonal arrow’s exact origin and endpoint are approximate from the image.",
+    "id": "wdr2021:p090:visual:0"
+  },
+  {
+    "page": 91,
+    "label": "Figure 2.11 — Policies to realize the potential of public intent data",
+    "kind": "diagram",
+    "bbox": [
+      0.092,
+      0.362,
+      0.899,
+      0.908
+    ],
+    "summary": "Policy framework linking four barriers—financing, technical capacity, governance, and data demand—to actions for national statistical offices (NSOs), other government agencies, and civil society and academia. A political-commitment banner spans all four areas.",
+    "details": "The diagram is organized as four columns (Financing; Technical capacity; Governance; Data demand) and three actor rows (NSOs; Other government agencies; Civil society and academia). Across the top, a green banner states: “Political commitment — Create a broad-based political and societal agreement on the value of high-quality public intent data.”\n\nFinancing:\n• NSOs: Create a target fraction of government spending or a line item in the national budget dedicated to the NSO; engage recurrently with the Ministry of Finance to understand and support its data needs.\n• Other government agencies: Designate a budget line for data in each ministry and agency; ensure use of produced data across the public sector for monitoring, evaluation, and more.\n• Civil society and academia: Allocate resources to citizen-generated data collection.\n\nTechnical capacity:\n• NSOs: Ensure more competitive pay scales; devote more time and resources to building capacity among staff.\n• Other government agencies: Create technical units in charge of data production and use; create a governmentwide approach to the salaries of statisticians and data scientists.\n• Civil society and academia: Promote data literacy in primary and secondary education; enhance tertiary education in data science and statistics.\n\nGovernance:\n• NSOs: Ensure that NSO independence is anchored in laws and institutional setup; prevent statistical laws from becoming outdated.\n• Other government agencies: Assign clear roles, mandates, and responsibilities along the data life cycle for government agencies (see chapters 8 and 9).\n• Civil society and academia: Ensure that laws and regulations facilitate the safe dissemination of data.\n\nData demand:\n• NSOs: Build trust in integrity of official statistics via public release calendars and best practices in dissemination; engage proactively with nongovernmental entities.\n• Other government agencies: Designate knowledge brokers in government agencies to champion the flow and use of data; institutionalize data-intensive management practices.\n• Civil society and academia: Enable citizens to engage more easily with data through open data platforms, machine readability, and data visualizations.\n\nThe colored actor-row labels are purple for NSOs, blue for other government agencies, and orange for civil society and academia. Source: WDR 2021 team. Note: The figure summarizes policies governments can enact, categorized by the actors and barriers they primarily address. Many policies span several actors and barriers but are placed into one box here for simplification. The role of the private sector is discussed in chapter 4; the role of international organizations is examined in spotlight 2.2. NSO = national statistical office.",
+    "limitations": "The figure’s note says policies may span several actors and barriers, but are placed in one box for simplification. No quantitative data or scales are shown.",
+    "id": "wdr2021:p091:visual:0"
+  },
+  {
+    "page": 105,
+    "label": "Figure S2.1.1",
+    "kind": "chart",
+    "bbox": [
+      0.093,
+      0.474,
+      0.798,
+      0.916
+    ],
+    "summary": "Female genital mutilation prevalence among women ages 15–49, by country and country income level, 2010–19; values range from 94.5% in Guinea to 0.3% in Uganda.",
+    "details": "Vertical bar chart. Y-axis: “Share of women subjected to FGM (%)”, 0–100 with ticks at 0, 25, 50, 75, and 100. Countries are shown in descending prevalence order; values printed above bars: Guinea 94.5; Djibouti 94.0; Mali 88.6; Egypt, Arab Rep. 87.2; Sudan 86.6; Sierra Leone 83.0; Eritrea 83.0; Burkina Faso 75.8; Gambia, The 75.7; Mauritania 66.6; Ethiopia 65.2; Guinea-Bissau 44.9; Liberia 44.4; Chad 38.4; Côte d’Ivoire 36.7; Central African Republic 24.2; Senegal 23.3; Kenya 21.0; Nigeria 19.5; Yemen, Rep. 18.5; Maldives 12.9; Tanzania 10.0; Benin 9.2; Iraq 7.4; Ghana 3.8; Togo 3.1; Niger 2.0; Uganda 0.3. Legend: green = low-income; orange = lower-middle-income; purple = upper-middle-income. Source note cites Kashiwase and Pirlea 2019; World Bank World Development Indicators, drawing on Demographic and Health Surveys, Multiple Indicator Cluster Surveys, and UNICEF. Note defines FGM and UNICEF.",
+    "limitations": "Values are reproduced as printed above the bars. The chart title says 2010–19; no individual year is provided for each country.",
+    "id": "wdr2021:p105:visual:0"
+  },
+  {
+    "page": 105,
+    "label": "Spotlight 2.1 header illustration",
+    "kind": "image",
+    "bbox": [
+      0.076,
+      0.092,
+      0.276,
+      0.251
+    ],
+    "summary": "Stylized radio transmission tower with concentric signal rings, clouds, and a hill, accompanying the spotlight on deploying data to curtail violence against women and girls.",
+    "details": "A gray lattice communications tower rises from layered green hills; a small dark point at its top is surrounded by several concentric circular signal lines. A small cloud appears to the right. The illustration sits beside the “Spotlight 2.1” heading.",
+    "limitations": "Illustrative artwork; it contains no visible data or labels.",
+    "id": "wdr2021:p105:visual:1"
+  },
+  {
+    "page": 114,
+    "label": "Figure 3.1 — The role of data in the production process: Pathways to development",
+    "kind": "diagram",
+    "bbox": [
+      0.164,
+      0.087,
+      0.929,
+      0.482
+    ],
+    "summary": "Flow diagram showing how data in production leads through data-driven decision-making or demand–supply matching to production benefits and wider development opportunities; a related-opportunities banner sits below.",
+    "details": "The starting node, “Data in the production process,” splits into two pathways: (1) “Better data-driven decision-making,” which branches to “Quality improvements,” “Cost reduction and process optimization,” and “Product innovation”; and (2) “Data-driven matching of demand and supply and transaction facilitation,” which leads to “More effective intermediation and lower transaction costs.” A bracket groups the four orange benefit boxes alongside five listed opportunities: “Boost opportunities for lagging regions and populations”; “Create new export opportunities”; “Promote productivity and growth”; “Create new markets and disrupt the market power of traditional incumbents”; and “Support local entrepreneurship ecosystems.” A lower bracket connects the diagram to “Related opportunities: access to ‘free’ services, adaptation to COVID-19 challenges, and support for the green agenda.” Source: WDR 2021 team.",
+    "limitations": "No quantitative values, axes, or legend. The lower related-opportunities banner is grouped beneath the main pathways, rather than shown as a specific output of one pathway.",
+    "id": "wdr2021:p114:visual:0"
+  },
+  {
+    "page": 114,
+    "label": "Box 3.1 — Technologies and methods that support data-driven decision-making and intermediation",
+    "kind": "image",
+    "bbox": [
+      0.205,
+      0.507,
+      0.908,
+      0.916
+    ],
+    "summary": "Shaded two-column report box describing AI and machine learning, data-intensive analytics, smart devices, and IoT as technologies supporting data-driven decision-making and intermediation.",
+    "details": "The box has two columns of prose. Left column heading: “Technology that supports data-intensive analytics: artificial intelligence, including machine learning.” It describes AI and ML uses, defines AI broadly, says ML is an application of AI, and notes that AI algorithms use large amounts of data. It reports a prediction that firms responsible for about 70 percent of economic output will have adopted at least one type of AI technology by 2030 (footnote marker a). It also discusses data-intensive analytics, processing data in different formats and locations, cloud, bio-inspired, or quantum computing, and the need to store and clean large datasets. Right column heading: “Technology that collects data and actions insights from analytics: smart devices and devices connected through the Internet of Things (IoT).” It describes sensors and monitors generating data; smart devices using machine-generated data, often with AI; IoT devices exchanging data on ground moisture, climate and air quality, health metrics, firm assets, and supply-chain movement; and potential applications in agriculture, health, manufacturing, and transportation. The visible final claim says IoT devices already exceed the number of internet users and are forecast to reach 25 billion, but the sentence is cut off at the page boundary (“by…”). The box is marked “(Box continues next page).”",
+    "limitations": "This is a prose box, not a chart or table; no structured numerical series. The final forecast year or completion of the sentence is not visible on this page.",
+    "id": "wdr2021:p114:visual:1"
+  },
+  {
+    "page": 116,
+    "label": "Figure 3.2 — The role of data in economic activity",
+    "kind": "diagram",
+    "bbox": [
+      0.118,
+      0.085,
+      0.904,
+      0.626
+    ],
+    "summary": "Circular flow diagram shows data as both an input to and by-product of economic activity, with platforms and data-driven businesses using data and technologies; connectivity, storage, and processing support the system.",
+    "details": "Main nodes: “Economic activity (firms, entrepreneurs, farmers)” and “Platforms and other data-driven businesses using technologies, including” big data analytics for insights and innovation (including AI), IoT and smart devices, and transactions facilitated by DLT (including blockchain); “Data produced as a by-product of economic activity”; “Data inputs for economic activity”; and “Data used to inform advertising.” The diagram indicates data observed on users, objects, and processes through economic activity (including machine-generated data) and data inferred through analytics flowing from economic activity toward data produced as a by-product. That data goes through “Big data cleaning and storage” and feeds data inputs for economic activity. “Data volunteered by users” and “Open public data” also feed data inputs. Data inputs connect to platforms/economic activity and to advertising use; a callout states advertising data is a source of revenue for economic activities in advertising-based business models. A bracketed base reads “Supported by network connectivity, storage capacity, and processing capacity.” Source: WDR 2021 team. Note defines AI as artificial intelligence, DLT as distributed ledger technology, and IoT as Internet of Things.",
+    "limitations": "Diagram arrows and callouts are visible; some connector endpoints overlap the circles, but the overall relationships are legible.",
+    "id": "wdr2021:p116:visual:0"
+  },
+  {
+    "page": 117,
+    "label": "Figure 3.3a",
+    "kind": "chart",
+    "bbox": [
+      0.09,
+      0.11,
+      0.56,
+      0.41
+    ],
+    "summary": "Platform-firm counts and GDP-per-capita-weighted counts across 17 selected lower- and middle-income countries.",
+    "details": "Title: “Number of platform firms and platform firms weighted by GDP per capita.” Countries, in chart order, and labeled firm counts: Armenia 2; Morocco 5; Tunisia 6; Sri Lanka 9; Peru 15; Philippines 25; Egypt, Arab Rep. 34; Colombia 34; Ukraine 35; Bangladesh 41; Kenya 42; South Africa 43; Malaysia 56; Nigeria 78; Indonesia 106; Russian Federation 149; Brazil 284. Blue bars encode number of firms, read on the left axis (0–300). Orange dots encode number of firms per US$1,000 GDP per capita, read on the right axis (0–40); the dots show substantial variation, with the highest plotted values around Kenya and South Africa and the lowest near Armenia. The exact dot values are not labeled. Note: total platform-firm sample is 959; GDP per capita is constant 2010 US dollars for 2019.",
+    "limitations": "Dot values are shown graphically but not numerically labeled; only approximate readings are possible.",
+    "id": "wdr2021:p117:visual:0"
+  },
+  {
+    "page": 117,
+    "label": "Figure 3.3b",
+    "kind": "chart",
+    "bbox": [
+      0.57,
+      0.11,
+      0.93,
+      0.41
+    ],
+    "summary": "Stacked shares of platform firms by employee-size category across six world regions.",
+    "details": "Title: “Distribution of platform firms, by region and number of employees.” Vertical axis is share of firms (%) from 0 to 100. Regions, left to right: South Asia; East Asia and Pacific; Europe and Central Asia; Middle East and North Africa; Latin America and the Caribbean; Sub-Saharan Africa. Each bar is stacked by employee count: 1–10 (blue), 11–50 (green), 51–100 (orange), 101–250 (purple), and >250 (gold). Approximate visible segment shares, in that category order: South Asia 32%, 40%, 14%, 12%, 2%; East Asia and Pacific 38%, 44%, 4%, 12%, 2%; Europe and Central Asia 40%, 34%, 10%, 9%, 7%; Middle East and North Africa 40%, 41%, 5%, 8%, 6%; Latin America and the Caribbean 52%, 29%, 3%, 10%, 6%; Sub-Saharan Africa 53%, 27%, 7%, 7%, 6%. Note: panel covers a sample of 595 active platform firms.",
+    "limitations": "Segment shares are estimated from the plotted bars; individual segment values are not printed.",
+    "id": "wdr2021:p117:visual:1"
+  },
+  {
+    "page": 117,
+    "label": "Figure 3.4",
+    "kind": "chart",
+    "bbox": [
+      0.09,
+      0.52,
+      0.92,
+      0.94
+    ],
+    "summary": "Foreign- versus domestic-headquartered firms’ shares among the top websites in 17 countries; foreign firms predominate in most listed countries.",
+    "details": "Title: “The importance of domestic versus foreign-headquartered firms differs across countries as indicated by firm share of top websites.” Horizontal 100% stacked bars show share of top websites (%) from 0 to 100; blue = foreign firms, green = domestic firms. Printed foreign/domestic shares: Philippines 84/16; Peru 80/20; Colombia 76/24; Sri Lanka 68/32; Brazil 68/32; Tunisia 64/36; Ukraine 64/36; Malaysia 64/36; South Africa 64/36; Armenia 60/40; Kenya 56/44; Morocco 56/44; Nigeria 52/48; Bangladesh 52/48; Egypt, Arab Rep. 48/52; Russian Federation 24/76; Indonesia 20/80. The bars sum to 100% for each country. Note: shares are among the top 25 websites per country by traffic; headquarters means global headquarters. Total sample size is 425 websites.",
+    "limitations": "None noted for the printed percentages.",
+    "id": "wdr2021:p117:visual:2"
+  },
+  {
+    "page": 118,
+    "label": "Figure 3.5",
+    "kind": "chart",
+    "bbox": [
+      0.2055,
+      0.0878,
+      0.9096,
+      0.4083
+    ],
+    "summary": "Two-panel chart comparing countries where Facebook, Google, and YouTube rank among the top 10 visited websites, and average daily time spent per user on those sites versus other top-10 sites.",
+    "details": "Title: “Users visit and spend more time on Facebook, Google, and YouTube than other websites.” Panel a: “Share of countries where Facebook, Google, and YouTube are in the top 10 visited websites, by country income group.” Vertical axis is Percent, 0–100. Bars: Low-income 100%; High-income 94%; Middle-income 78%. Panel b: “Daily time spent on website (global average): Facebook, Google, and YouTube versus other top 10 visited websites.” Horizontal axis is average daily time spent per user, in minutes, 0–20. Values: Facebook.com 17.42; Google.com 13.12; Youtube.com 13.04; Others (average) 7.01. Source: WDR 2021 team, based on Alexa Internet, “The Top 500 Sites on the Web, by Country” (accessed April 2020). Note: sample of 1,270 websites (top 10 websites in 127 countries).",
+    "limitations": "Panel a’s three bars report the share of countries in each income group in which the named platforms are in the top 10; the chart does not give separate values for each platform. The printed chart labels the site “Youtube.com.”",
+    "id": "wdr2021:p118:visual:0"
+  },
+  {
+    "page": 119,
+    "label": "Figure 3.6",
+    "kind": "chart",
+    "bbox": [
+      0.093,
+      0.087,
+      0.907,
+      0.527
+    ],
+    "summary": "Two-panel figure showing concentration of internet traffic and ownership of popular websites in low- and middle-income countries.",
+    "details": "Panel a, “Share of global internet traffic by firm, 2018 (% of total),” is a treemap: Others 57%; Google 12%; Netflix 11%; Facebook 8%; Microsoft 5%; Apple 4%; Amazon 3%. Note: “Others” refers to file sharing, marketplace, security and VPN messaging, as well as cloud and audio streaming. Source: Sandvine 2019. Panel b, “Ten most visited parent firms among the top 25 websites,” has bars for share of top websites owned by firm (%) and orange points for average rank on a right axis (rank 1 = more traffic; 20 = least traffic). Firms and bar values: Google 28.3%, Microsoft 11.4%, Facebook 8.9%, Verizon 6.3%, Amazon 5.9%, Zoom 5.5%, Alibaba 3.8%, Naspers 3.8%, Jumia 1.7%. Approximate point ranks read from the plotted right axis: Google 7, Microsoft 16, Facebook 9.5, Verizon 11, Amazon 18, Zoom 13, Alibaba 14, Naspers 10, Jumia 11.5. Source: Nyman and Stinshoff (forthcoming), based on Alexa Internet country top-sites data accessed April 2020. Note: Percentages represent listed parent organizations’ share of top 25 websites in the sample; total sample 425 websites from 17 low- and middle-income countries; ownership means majority shareholding.",
+    "limitations": "Only nine firms are visibly listed in panel b despite the title saying “Ten.” Point ranks are visually estimated from the axis; the chart does not print point values.",
+    "id": "wdr2021:p119:visual:0"
+  },
+  {
+    "page": 128,
+    "label": "Figure 3.7 — Risks to market structure and market power stemming from platform firms",
+    "kind": "diagram",
+    "bbox": [
+      0.117,
+      0.613,
+      0.91,
+      0.923
+    ],
+    "summary": "Flow diagram showing how data inputs and data-related advantages can reinforce platform market power, concentration, and conglomeration, with effects varying by platform business model.",
+    "details": "The diagram begins with “Data as an input into economic activity,” associated with potential platform sides: consumers; suppliers or service providers/“workforce” (where a product or service is provided by a third party); and advertisers (where the revenue model is advertising-based). An arrow leads to “Data give firms a competitive advantage, especially where”: data are proprietary or access is restricted; required data are less replicable (footnote a); and network effects are stronger. A plus sign indicates these conditions feed into both “Economies of scale associated with data” and “Economies of scope associated with data.” Scale points to a tendency toward increasing concentration within markets and entrenchment of market power; scope points to a tendency to conglomeration and ability to leverage market power between markets. A feedback loop states: “Greater market power may allow more data collection by firms because users have fewer alternatives,” with an arrow returning toward data as an input. A side note says effects, depending on the platform business model, can occur in consumer markets, markets for “labor,” and advertising markets. Source: WDR 2021 team. Footnote a: “Such data include observed and inferred data and data requiring frequent updating.”",
+    "limitations": "No numerical values are presented. Diagram text is legible; the superscript footnote marker is rendered as “a”.",
+    "id": "wdr2021:p128:visual:0"
+  },
+  {
+    "page": 138,
+    "label": "Figure S3.1.1",
+    "kind": "diagram",
+    "bbox": [
+      0.205,
+      0.324,
+      0.994,
+      0.93
+    ],
+    "summary": "Circular chord diagram of public-data use among 500 U.S. firms, connecting company categories (green, left) with federal agencies (purple, right).",
+    "details": "Two semicircular sector groups surround a dense web of gray connecting lines. The left-hand green semicircle is labeled “Company categories”; its categories are Transportation, Insurance, Energy, Housing and real estate, Geospatial and mapping, Governance, Lifestyle and consumer, Health care, Food and agriculture, Business and legal services, Finance and investment, Scientific research, Data and technology, Education, Environment and weather, and Research and consulting. The right-hand purple semicircle is labeled “Federal agencies”; its sectors are Department of Agriculture, Department of Commerce, Department of Defense, Department of Education, Department of Energy, Department of Health and Human Services, Department of Homeland Security, Department of Justice, Department of Labor, Department of Transportation, Department of the Interior, Department of the Treasury, Federal Election Commission, Federal Reserve Board, Multiple federal data sources, National Aeronautics and Space Administration, Securities and Exchange Commission, and Environmental Protection Agency. The gray lines show use relationships: from the federal-agency side, which private-sector firm types used data from each agency; from the company-category side, which agencies each type used. Sector arc size reflects the number of firms using that department’s data. The note gives finance and investment as an example: firms in this category used open data from 19 U.S. departments and agencies. Source: Verhulst and Caplan 2015; data link printed as http://bit.do/WDR2021-Fig-S3_1_1; © The GovLab.",
+    "limitations": "Individual gray connections are densely overlaid and cannot be reliably enumerated from the image. No numeric scale or exact sector values are shown.",
+    "id": "wdr2021:p138:visual:0"
+  },
+  {
+    "page": 142,
+    "label": "Map B4.1.1 — Mapping the home location of smartphone users in Jakarta, 2020",
+    "kind": "map",
+    "bbox": [
+      0.205,
+      0.616,
+      0.907,
+      0.923
+    ],
+    "summary": "Choropleth map of smartphone users’ home locations across Jakarta’s metropolitan area, shown as a percentage of the total population by kelurahan.",
+    "details": "The map marks Jakarta’s national-capital location with a star and shows kelurahan boundaries. Legend classes for smartphone users (% of total population): <1; 1–4.99; 5–7.49; 7.5–12.49; >12.5; and no data. The mapped values vary across the metropolitan area, with higher classes visible in scattered areas among lower-class and no-data polygons. Source: Fraiberger et al. 2020. Note: the map shows the spatial distribution of smartphone users’ home location as a percentage of Jakarta’s total population.",
+    "limitations": "No individual polygon values are labeled, so exact values for specific locations cannot be determined from the map. The visual does not provide a scale or orientation marker.",
+    "id": "wdr2021:p142:visual:0"
+  },
+  {
+    "page": 143,
+    "label": "Figure B4.1.1",
+    "kind": "chart",
+    "bbox": [
+      0.115,
+      0.15,
+      0.797,
+      0.57
+    ],
+    "summary": "Line chart of smartphone users’ change in time spent at home in Jakarta during 2020, by wealth group, with COVID-19 policy milestones marked.",
+    "details": "Title: “Smartphone location data reveal the changes in the time users spend at home in Jakarta.” The x-axis shows months February–December 2020 (the note says data run February 1 to November 15), and the y-axis is “Time spent at home (% change),” ranging from −5 to 25. A dashed horizontal line marks 0. Three series: low-wealth users (0%–40% of wealth; blue), medium-wealth (>40%–80%; green), and high-wealth (>80%–100%; orange). All hover around 0 in February, rise sharply in March–April, peak around late April/May (approximately 18%, 22%, and 24% for low, medium, and high wealth, respectively), then decline into July (roughly 9%, 11%, and 12%). From August onward, the lines fluctuate and rise around October; high-wealth users remain highest and low-wealth users lowest. Vertical dashed policy markers are labeled Presidential address, State of emergency, Strict PSBB, Transport restrictions lifted, PSBB transition, and Strict PSBB. Source: adapted from Fraiberger et al. 2020. Note defines PSBB as Pembatasan Sosial Berskala Besar (large-scale social restrictions), and reports values relative to the baseline period.",
+    "limitations": "Values are read approximately from plotted lines; no exact point values are labeled. The final plotted period is mid-November although the x-axis extends through December.",
+    "id": "wdr2021:p143:visual:0"
+  },
+  {
+    "page": 146,
+    "label": "Figure B4.2.1",
+    "kind": "chart",
+    "bbox": [
+      0.226,
+      0.278,
+      0.871,
+      0.537
+    ],
+    "summary": "Stacked area chart of published articles using repurposed private-intent data to study COVID-19, by data type, from February to September 2020.",
+    "details": "The horizontal axis shows time in 2020, with labels February, April, July, and September. The vertical axis is “Number of articles,” marked 0, 250, 500, 750, and 1,000. Seven stacked categories are identified in the legend: Social media, Twitter, Big data, Google Trends, Facebook, Cellphone, and Call detail records. The cumulative total rises from near zero in February to just over 1,000 by September; Social media is the largest band, followed by Twitter. The figure note says some articles appear in more than one category, so the cumulative sum across categories is higher. Exact category values are not labeled.",
+    "limitations": "Values are shown as stacked areas without point labels; category-specific counts can only be estimated visually.",
+    "id": "wdr2021:p146:visual:0"
+  },
+  {
+    "page": 147,
+    "label": "Map B4.2.1",
+    "kind": "map",
+    "bbox": [
+      0.094,
+      0.087,
+      0.795,
+      0.563
+    ],
+    "summary": "Choropleth world map of country-level published articles using repurposed data to study COVID-19, adjusted by COVID-19 death incidence rate, February–September 2020.",
+    "details": "The world map colors countries by a continuous scale labeled “Number of articles”: yellow at 7.5, green/teal around 10.0 and 12.5, dark blue/purple above 15.0; gray indicates “No data.” The legend shows labeled values 7.5, 10.0, 12.5, and 15.0 (the gradient extends above 15.0). Among visible patterns, China is in the darkest purple range; the United States, India, and Australia are teal/dark teal; Brazil and Russia are green; Peru is yellow. Many countries are gray/no data. Note states counts are divided by COVID-19 death incidence rate; source is WDR 2021 team based on CORD-19 data from the Semantic Scholar team, Ai2. Map covers articles published in scientific, medical, and technical journals from February to September 2020.",
+    "limitations": "The map provides no country-level numeric labels, and exact values cannot be recovered from colors. Color distinctions between intermediate shades are approximate.",
+    "id": "wdr2021:p147:visual:0"
+  },
+  {
+    "page": 151,
+    "label": "Figure B4.3.1 — Public intent and private intent data can be combined to detect illegal fishing activity",
+    "kind": "diagram",
+    "bbox": [
+      0.115,
+      0.343,
+      0.778,
+      0.738
+    ],
+    "summary": "Infographic shows how satellite imagery and vessel AIS data can be combined to identify and track fishing vessels. Satellite sources detect vessels or lights and provide coverage; AIS provides vessel locations and movements.",
+    "details": "A circular, four-part infographic surrounds a central vessel. The upper-left section depicts daytime high-resolution optical imagery, described as useful for visually identifying vessels; nearby labels include “Optical images” and “High-resolution.” The lower-left section depicts nighttime optical imagery (VIIRS), which detects lights used to attract catch or conduct night operations; nearby labels include “Detect lights” and “Global daily coverage.” The upper-right section depicts AIS (Automatic Identification Systems), described as a collision-avoidance system that constantly transmits a vessel’s location at sea and can identify and track fishing vessels; nearby labels include “Track movements” and “Identify vessels.” The lower-right section depicts radar imagery (SAR), described as identifying large metal vessels and penetrating clouds; nearby labels include “Penetrate clouds” and “Identify metal vessels.” The orange circular framework and inward-pointing arrow motifs visually connect these data sources and capabilities to the central vessel. The accompanying note states that public-intent data include satellite data and private-intent data include data from trawlers’ collision-avoidance systems.",
+    "limitations": "The infographic is schematic and gives no numerical measurements or plotted data. The page’s title, source, and note are adjacent to the diagram; source credits Global Fishing Watch and dates the infographic July 8, 2020.",
+    "id": "wdr2021:p151:visual:0"
+  },
+  {
+    "page": 152,
+    "label": "Map 4.1 — Private intent data and adults without a formal financial account",
+    "kind": "map",
+    "bbox": [
+      0.08,
+      0.445,
+      0.935,
+      0.93
+    ],
+    "summary": "World bubble map showing the number of adults without a formal financial account by economy in 2017; globally, 1.7 billion adults lacked an account.",
+    "details": "The map covers the world and uses green proportional circles to show the number of adults without an account in each displayed economy. The bubble-size legend is labeled 1 million, 10 million, 100 million, and 200 million. The subtitle states: “Globally, 1.7 billion adults lacked a formal financial account in 2017.” Source: World Bank, Global Findex (Global Financial Inclusion Database).",
+    "limitations": "Data are not displayed for economies where the share of adults without an account is 5 percent or less. The map provides no country-level numeric labels, so exact values cannot be read from the bubbles.",
+    "id": "wdr2021:p152:visual:0"
+  },
+  {
+    "page": 153,
+    "label": "Map 4.2 — Agricultural extension services can be tailored to the slower, older broadband internet accessible to many small-scale farmers",
+    "kind": "map",
+    "bbox": [
+      0.093,
+      0.603,
+      0.917,
+      0.928
+    ],
+    "summary": "World map showing mobile network coverage on farms, classified as 4G, 3G, 2G, or no coverage.",
+    "details": "Global map with farm locations colored by mobile network coverage. Legend at lower left: 4G (dark purple), 3G (orange), 2G (green), None (light gray). Coverage patterns vary geographically; the map shows substantial areas of 4G coverage in parts of North America and Europe, and mixed 3G/2G/no coverage across many farm areas in Africa, South Asia, and other regions. Source: Mehrabi et al. 2020; data link printed as http://bit.do/WDR2021-Map-4_2. Map identifier printed inside map: IBRD WLD45647 | MARCH 2021.",
+    "limitations": "Map has no numerical scale or tabulated values; individual locations and coverage classes are difficult to distinguish at this resolution. The title’s phrasing is descriptive and does not itself encode quantitative comparisons.",
+    "id": "wdr2021:p153:visual:0"
+  },
+  {
+    "page": 154,
+    "label": "Figure 4.1",
+    "kind": "chart",
+    "bbox": [
+      0.083,
+      0.087,
+      0.53,
+      0.382
+    ],
+    "summary": "Network coverage by farm size and internet service (2G, 3G, 4G); 2G coverage is consistently high, while 4G coverage rises with farm size.",
+    "details": "Title: “Gaps in network coverage differ across farm sizes, affecting agricultural extension services.” Horizontal axis: Farm size (hectares), categories 0–1, 1–2, 2–5, 5–10, 10–50, 50–100, 100–200, >200. Vertical axis: Network coverage (%), 0–100, with gridlines at 20-point intervals. Legend: 2G (green), 3G (orange), 4G (purple). Approximate plotted values by category, in axis order: 2G: 81, 80, 88, 80, 87, 84, 91, 87%; 3G: 37, 50, 64, 56, 58, 84, 84, 80%; 4G: 23, 33, 39, 40, 40, 48, 56, 73%. Comparisons: 2G coverage remains around 80–91% across farm sizes; 3G rises overall but dips at 5–10 and 10–50 hectares before reaching about 84% for 50–200 hectares; 4G increases with farm size, especially above 100 hectares. Source: Mehrabi et al. 2020. Data at http://bit.do/WDR2021-Fig-4_1.",
+    "limitations": "Values are approximate readings from the plotted lines; exact point values are not printed.",
+    "id": "wdr2021:p154:visual:0"
+  },
+  {
+    "page": 157,
+    "label": "Figure 4.2",
+    "kind": "chart",
+    "bbox": [
+      0.093,
+      0.61,
+      0.786,
+      0.925
+    ],
+    "summary": "Two pie charts compare where AI specialists are employed (panel a) with where they completed undergraduate study (panel b). The United States has the largest employment share (59%), while China has the largest study share (29%).",
+    "details": "Panel a, “Location of employment (%)”: United States 59; China 11; Europe 10; Canada 6; United Kingdom 4; Others 10. Panel b, “Location of study (%)”: China 29; United States 20; Europe 18; India 8; Canada 5; United Kingdom 4; Iran, Islamic Rep. 3; Israel 3; Others 10. Each panel is a pie chart with labeled slices; values are percentages. Source: MacroPolo, “The Global AI Talent Tracker,” adapted with permission of MacroPolo/Paulson Institute; further permission required for reuse. The note says panel a affiliations are based on the headquarters of institutions where researchers currently work, and panel b on the country where researchers received their undergraduate degree.",
+    "limitations": "The charts show reported percentages only; no underlying counts or reference date are visible.",
+    "id": "wdr2021:p157:visual:0"
+  },
+  {
+    "page": 162,
+    "label": "Table 4.1 — Selected research gaps to be addressed to advance the use of private intent data for development",
+    "kind": "table",
+    "bbox": [
+      0.084,
+      0.27,
+      0.907,
+      0.93
+    ],
+    "summary": "Two-column table listing seven research areas and example research questions about advancing the use of private intent data for development. Alternating pale-green row shading; no numeric data.",
+    "details": "Columns: “Research area” and “Examples of research gaps.” Rows and visible questions:\n• Societal impacts — ensuring algorithmic policy making leads to fair outcomes; increasing transparency and interpretability of policy predictions using private intent data; safeguarding algorithms against manipulation; trade-offs between granularity and precision and the optimal mix for targeting development programs.\n• Quality standards — how standards can be created, agreed on, updated, and communicated to the development community, and who should participate; standards for accuracy and precision in frontier applications using private intent data or combining public and private intent data so policy makers can trust and use results.\n• External validityᵃ — promise of building models in data-rich countries and applying them in data-limited countries; avoiding data profiling and discrimination when using pre-trained models from higher-income countries for novel development uses; extent to which applications combining public intent survey data and private intent data can predict values calculated from within-country census data.\n• Machine learning — how machine-learning approaches and spatial feature selection should change for specialized development-policy tasks; which features best predict spatial variation in development outcomes across contexts and the trade-offs between predictive accuracy and cost.\n• Training and validation data — required volume and approach for collecting public intent data to calibrate and validate machine-learning algorithms combining public and private intent data.\n• Deidentificationᵇ — how methods should change to protect individuals and companies when private intent data are used for public benefit; effects of spatial deidentification of public intent data on accuracy and precision of applications using it to calibrate and validate algorithms that combine public and private intent data.\n• Capturing longitudinal change — differences in accuracy and precision between estimating longitudinal change and cross-sectional predictions of the same outcome; features that best predict longitudinal change; ensuring stability over time of algorithms predicting policy-outcome changes; effects of satellite imagery spatial, spectral, and temporal resolution on prediction accuracy and precision when survey data are combined with imagery-derived spatial features; whether effects vary with satellite imagery grid size used to extract features.\nFootnotes: ᵃ External validity means findings from one location holding true in another. ᵇ “Deidentification” is used instead of anonymization because data may become identifiable as computing and machine learning advance, so may never be truly anonymized. ᶜ “Spectral” refers to different wavelengths; satellite images typically have multiple bands capturing different spectral ranges.",
+    "limitations": "The table contains research questions rather than measured results; it provides no numerical values or units. Superscript footnote markers are reproduced as shown.",
+    "id": "wdr2021:p162:visual:0"
+  },
+  {
+    "page": 171,
+    "label": "Map S4.1.1",
+    "kind": "map",
+    "bbox": [
+      0.093,
+      0.119,
+      0.781,
+      0.463
+    ],
+    "summary": "World map showing widespread gaps in reporting basic surface land observations for global numerical weather prediction on December 14, 2020.",
+    "details": "The world map plots surface land observation availability by station. Its legend categories are: More than 100%; Normal ≥ 80%; Availability issues ≥ 30%; Availability issues < 30%; Not received in period; OSCAR schedule issues; and No match in OSCAR/surface land observation. The map shows observations across all continents, with dense station reporting in some regions and conspicuous gaps or issue categories in others; no numeric totals are shown. The note describes this as a snapshot of the WMO Integrated Global Observing System interactive map for a typical day (December 14) in 2020. NWP = numerical weather prediction; OSCAR = Observing Systems Capability Analysis and Review Tool. Source: World Bank map based on WDQMS data, World Meteorological Organization.",
+    "limitations": "Individual station symbols are densely overlaid and too small to identify or count reliably; the map does not provide readable country-level values.",
+    "id": "wdr2021:p171:visual:0"
+  },
+  {
+    "page": 173,
+    "label": "Map S4.2.1",
+    "kind": "map",
+    "bbox": [
+      0.094,
+      0.126,
+      0.793,
+      0.494
+    ],
+    "summary": "Map of Nairobi showing police-reported and crowdsourced crash locations along the road network; caption states that combining the sources identified the 5 percent of roads where half of crashes occur.",
+    "details": "The map uses a dark background with a fine gray road network. The legend shows orange dots for “Crashes geolocated from police situation reports” and green dots/road markings for “Crashes identified by crowdsourced reports that were geolocated and clustered into individual crashes.” The two sets of markers appear across Nairobi, with many concentrated along central and major routes. Caption: “By combining police reports and crowdsourced data, researchers were able to identify the 5 percent of roads where half of the crashes occur in Nairobi.” Source: Milusheva et al. 2020. Note: data shown are for July 2017–July 2018.",
+    "limitations": "No scale, north arrow, named roads, or numerical counts are visible; the map does not delineate the 5 percent of roads as a separately labeled category.",
+    "id": "wdr2021:p173:visual:0"
+  },
+  {
+    "page": 178,
+    "label": "Figure 5.1 — The data infrastructure supply chain",
+    "kind": "diagram",
+    "bbox": [
+      0.084,
+      0.404,
+      0.89,
+      0.91
+    ],
+    "summary": "Diagram of the internet/data infrastructure supply chain across cross-border, middle-mile, and last-mile networks, showing purposes, typical distances, and example technologies.",
+    "details": "Three network stages are arranged from left to right. Cross-border network (international links): purpose is “Connecting the service centers to the worldwide internet”; typical distance >1,000 km. Technologies shown include WWW, terrestrial fiber, and subsea cable. Middle-mile network (distribution): purpose is “Connecting bigger cities together and routing data to the service centers”; typical distance 10–1,000 km. The diagram shows fiber-optic backbone/fiber, an IXP, a colocation data center, fiber or microwave backbone, and a satellite link connected through an earth station. Last mile (access): purpose is “Distributing internet from the middle mile in the community to individual homes and businesses”; typical distance <1–5 km. Technologies shown include fiber, DSL, coaxial, cellular towers, wireless (Wi-Fi, LTE, TV white space), satellite link (DTH), and balloons and drones. The network paths visually connect international links to middle-mile infrastructure and then to household/business endpoints; satellite and wireless routes also connect to last-mile endpoints. Source: Adapted from World Bank (2019c). Note defines DSL as digital subscriber line; DTH as direct-to-home; IXP as internet exchange point; km as kilometers; LTE as Long-Term Evolution; WWW as World Wide Web (internet).",
+    "limitations": "The figure is a schematic, not a scale map; paths indicate connections but do not provide quantitative capacity or traffic values. The printed distance for last mile appears as “<1–5 km”; preserve as printed.",
+    "id": "wdr2021:p178:visual:0"
+  },
+  {
+    "page": 180,
+    "label": "Figure 5.2",
+    "kind": "chart",
+    "bbox": [
+      0.566,
+      0.085,
+      0.918,
+      0.469
+    ],
+    "summary": "Grouped bar chart comparing wireless and fixed broadband subscriptions per 100 persons across income groups and the world in 2019; wireless subscriptions are higher in every group.",
+    "details": "Title: “The developing world overwhelmingly accesses data using wireless networks.” Vertical axis: Number of broadband subscriptions per 100 persons, scaled from 0 to 140 in increments of 20. Horizontal-axis groups, in order: High-income, Upper-middle-income, Lower-middle-income, Low-income, World. Legend: orange = Wireless; blue = Fixed. Approximate bar heights read from the chart (wireless, fixed): High-income 130, 35; Upper-middle-income 92, 24; Lower-middle-income 52, 3; Low-income 20, 0; World 78, 16 subscriptions per 100 persons. Wireless exceeds fixed in every group; the gap is especially large in high-income and upper-middle-income groups. Source: WDR 2021 team, based on International Telecommunication Union, Statistics database; note says data are for 2019.",
+    "limitations": "Bar heights are visually estimated from the plotted bars; the chart does not print exact values.",
+    "id": "wdr2021:p180:visual:0"
+  },
+  {
+    "page": 181,
+    "label": "Figure 5.3 — Gaps in 3G wireless broadband internet coverage have been shrinking, but usage gaps remain stubbornly high",
+    "kind": "chart",
+    "bbox": [
+      0.093,
+      0.088,
+      0.917,
+      0.454
+    ],
+    "summary": "Two stacked-bar panels compare population shares that are connected, have a usage gap, or have a 3G coverage gap: globally from 2015–18 and across seven regions in 2018. Globally, the usage gap stays near 40% while the coverage gap falls; regional usage and coverage gaps vary substantially.",
+    "details": "Both panels use a vertical axis of share of population (%) from 0 to 100. Legend: orange = Connected; green = Usage gap; blue = Coverage gap. Panel a, “Globally over time, 2015–18”: values printed inside bars, in legend order (Connected / Usage gap / Coverage gap): 2015: 41 / 37 / 21; 2016: 45 / 40 / 15; 2017: 48 / 41 / 11; 2018: 50 / 42 / 8. Panel b, “By region, 2018,” same order: East Asia and Pacific: 60 / 39 / 2; Europe and Central Asia: 78 / 15 / 6; Latin America and the Caribbean: 56 / 36 / 8; Middle East and North Africa: 58 / 36 / 6; North America: 89 / 11 / <1; South Asia: 28 / 64 / 8; Sub-Saharan Africa: 22 / 49 / 29. Regional labels are angled beneath the bars. Source printed below: “WDR 2021 team, based on 2015 and 2018 data in ITU (2018a). Data at http://bit.do/WDR2021-Fig-5_3.”",
+    "limitations": "Values are reproduced as printed; rounded component shares may not sum exactly to 100. The East Asia and Pacific blue segment is very small, with the printed label 2.",
+    "id": "wdr2021:p181:visual:0"
+  },
+  {
+    "page": 182,
+    "label": "Figure 5.4",
+    "kind": "chart",
+    "bbox": [
+      0.083,
+      0.088,
+      0.535,
+      0.431
+    ],
+    "summary": "Global population coverage of 2G, 3G, and 4G wireless services, alongside world population and internet users, 2013–2018.",
+    "details": "Stacked area chart with x-axis years 2013–2018 and y-axis Coverage (billions of people), scaled 0–8. The stacked areas show 4G (orange), 3G (green), and 2G (blue); the legend also identifies World population (solid purple line) and Internet users (dotted purple line). Approximate visible values by year: 4G coverage rises from 1.3 billion (2013) to 2.3 (2014), 3.0 (2015), 4.8 (2016), 5.7 (2017), and 6.0 (2018). The top of the 3G area is about 4.3, 4.6, 5.8, 6.3, 6.7, and 6.9 billion, respectively; the top of the 2G area is about 6.8, 6.9, 7.0, 7.1, 7.2, and 7.3 billion. World population line increases from about 7.1 to 7.6 billion; internet users rise from about 2.6 to 3.8 billion. The chart depicts rapid expansion of 4G while 2G coverage contracts; values are approximate readings from the plotted lines/areas.",
+    "limitations": "Area boundaries and line values are not labeled numerically; intermediate values are estimates from the graphic. Source printed below chart: WDR 2021 team, based on ITU (2018a).",
+    "id": "wdr2021:p182:visual:0"
+  },
+  {
+    "page": 184,
+    "label": "Figure 5.5",
+    "kind": "chart",
+    "bbox": [
+      0.084,
+      0.59,
+      0.907,
+      0.924
+    ],
+    "summary": "Stacked bars compare reported reasons for not using the internet across 22 countries and the total; digital literacy is the largest reason overall (69%).",
+    "details": "The chart title is “In low- and middle-income countries, nearly 70 percent of those who do not use the internet are held back by deficiencies in digital literacy.” Vertical axis: “Share of respondents (%)”, 0–100, in 10-point increments. Each bar is a 100% stacked bar. Legend, bottom to top colors: Digital literacy (orange), Affordability (green), Relevance (blue), Other (gold). Horizontal categories, left to right: Nepal, Colombia, India, Bangladesh, Pakistan, Lesotho, Senegal, Peru, Guatemala, Cambodia, Paraguay, Nigeria, Ghana, Ecuador, Sri Lanka, Kenya, Argentina, Uganda, Mozambique, Tanzania, Rwanda, South Africa, Total. Approximate segment readings from the bars (digital literacy / affordability / relevance / other, percent): Nepal 77/10/11/2; Colombia 73/13/9/5; India 73/13/12/2; Bangladesh 72/12/26/0; Pakistan 71/20/7/2; Lesotho 67/13/14/6; Senegal 64/16/10/10; Peru 63/12/6/19; Guatemala 62/13/16/9; Cambodia 61/26/9/4; Paraguay 59/21/19/1; Nigeria 56/24/12/8; Ghana 55/26/11/8; Ecuador 50/20/16/14; Sri Lanka 46/14/34/6; Kenya 37/29/27/7; Argentina 34/18/38/10; Uganda 23/56/15/6; Mozambique 14/76/4/6; Tanzania 13/66/15/6; Rwanda 11/76/4/9; South Africa 9/52/16/23; Total 69/15/12/4. Source: Chen 2021; data URL printed as http://bit.do/WDR2021-Fig-5_5. Note: respondents had access to internet service. Digital literacy responses included “Do not know what internet is” and “Do not know how to use internet”; affordability included “No access device” and “Too expensive”; relevance included “No interest/not useful” and “No relevant content in local language.”",
+    "limitations": "Country segment values are approximate visual readings from the stacked bars; the chart does not print numeric labels on individual segments. Total values are also supported by the accompanying text for the first three categories (69%, 15%, 12%); Other is approximately 4%.",
+    "id": "wdr2021:p184:visual:0"
+  },
+  {
+    "page": 186,
+    "label": "Figure 5.6 — Inequities in mobile data consumption across country income groups and regions are huge",
+    "kind": "chart",
+    "bbox": [
+      0.084,
+      0.085,
+      0.915,
+      0.487
+    ],
+    "summary": "Two bar charts compare 2018 mobile data consumption (GB per capita per month) across country income groups and world regions; values range from 0.2 GB in low-income economies to 7.4 GB in Middle East and North Africa.",
+    "details": "Two panels, both with vertical axes labeled “Data consumption (GB per capita per month),” scale 0–8 with ticks at 1-unit intervals; orange bars have numeric values printed above them. Panel a, “By country income group”: High-income 7.1; Upper-middle-income 2.8; Lower-middle-income 1.3; Low-income 0.2; World 3.7. Panel b, “By region”: Middle East and North Africa 7.4; Europe and Central Asia 5.0; North America 4.5; East Asia and Pacific 4.2; Latin America and the Caribbean 2.4; South Asia 1.1; Sub-Saharan Africa 0.3. Source: WDR 2021 team; data URL printed as http://bit.do/WDR2021-Fig-5_6. Note: data are for 2018; figures include averages of 119 economies with data; GB = gigabytes.",
+    "limitations": "No uncertainty intervals or additional series are shown. The chart’s displayed values are rounded to one decimal place.",
+    "id": "wdr2021:p186:visual:0"
+  },
+  {
+    "page": 187,
+    "label": "Figure 5.7",
+    "kind": "chart",
+    "bbox": [
+      0.093,
+      0.087,
+      0.438,
+      0.343
+    ],
+    "summary": "Bar chart comparing the median monthly cost of 1 GB of data, as a percentage of GNI per capita, across income groups and the world. Low-income countries are far above the 2% affordability threshold.",
+    "details": "Vertical axis: “Data cost (% of GNI per capita),” from 0 to 9. Horizontal categories: High-income, Upper-middle-income, Lower-middle-income, Low-income, and World. Approximate bar heights read from the chart are 0.2%, 0.9%, 1.7%, 8.6%, and 0.9%, respectively. A horizontal line marks the affordability threshold at 2%. The low-income bar is the only category clearly above the threshold; the lower-middle-income bar is just below it. Note states data are as of 2018, prices are median prices of economies in each group, and GNI means gross national income.",
+    "limitations": "Bar values are not printed individually and are estimated from the plotted axis; exact values are not recoverable from the image.",
+    "id": "wdr2021:p187:visual:0"
+  },
+  {
+    "page": 187,
+    "label": "Figure 5.8",
+    "kind": "chart",
+    "bbox": [
+      0.455,
+      0.087,
+      0.788,
+      0.326
+    ],
+    "summary": "Country-level scatter plot shows monthly data use declining as average cost per user per GB rises relative to GNI per capita; the plotted relationship is strong (R² = 0.7637).",
+    "details": "Horizontal axis: “Average cost per user per GB (% of GNI per capita),” spanning 0 to 3.0. Vertical axis: “GB usage per month,” spanning 0 to 7. Each orange circle represents a country. Points are concentrated at low costs, with usage varying broadly there; at higher costs, usage is generally low. A dotted downward-sloping fitted curve illustrates the inverse relationship. The chart reports R² = 0.7637. Note defines GB as gigabyte and GNI as gross national income.",
+    "limitations": "Individual country identities and exact point values are not labeled; plotted values should not be read as precise data.",
+    "id": "wdr2021:p187:visual:1"
+  },
+  {
+    "page": 188,
+    "label": "Figure 5.9 — The presence of domestic data infrastructure facilitates national data exchanges",
+    "kind": "diagram",
+    "bbox": [
+      0.086,
+      0.492,
+      0.538,
+      0.909
+    ],
+    "summary": "Diagram contrasts international “tromboning” of local content with a local exchange through an IXP between domestic ISPs and end users.",
+    "details": "Two horizontal zones are labeled International (upper, pale green) and Domestic (lower, pale blue), separated by a dashed boundary. At the top, International carrier 1 and International carrier 2 are connected. At the bottom, Domestic ISP 1 and Domestic ISP 2 connect to separate end users. In the international route, an orange path labeled “Tromboning of local content” carries a request from the left end-user side upward through international carrier 1, across to international carrier 2, then down toward the right end user; envelope icons indicate data packets. In the domestic route, a purple cloud labeled IXP links the two domestic ISPs, and a curved purple path labeled “Local content data flow” connects the end users locally via the IXP. Source: WDR 2021 team. Note: ISP = internet service provider; IXP = internet exchange point.",
+    "limitations": "No numerical values or scale. The diagram shows routing paths schematically; precise line connections at crossings may be difficult to distinguish.",
+    "id": "wdr2021:p188:visual:0"
+  },
+  {
+    "page": 189,
+    "label": "Map 5.1 — The global fiber-optic cable submarine network reaches all corners of the world, but data infrastructure is unevenly developed",
+    "kind": "map",
+    "bbox": [
+      0.09,
+      0.087,
+      0.909,
+      0.48
+    ],
+    "summary": "World map showing submarine cable routes and landing stations, alongside colocation data centers and internet exchange points. Infrastructure locations are visibly concentrated in North America, Europe, and parts of East Asia, while other regions have fewer mapped facilities.",
+    "details": "The map depicts global land areas in gray and ocean areas in white. Green lines mark submarine cables, including multiple routes linking continents and coastal regions; open white circles mark submarine cable landing stations; blue dots mark internet exchange points (IXPs); red dots mark colocation data centers. The legend lists these four categories. Dense concentrations of red and blue facility markers appear in North America and Europe, with notable concentrations in East Asia; many cable routes and landing stations trace coastlines and connect across oceans. The map includes the imprint “IBRD WLD45643 | MARCH 2021.” Sources printed below: PeeringDB, Interconnection Database; PCH Packet Clearing House, Packet Clearing House Report on Internet Exchange Point Locations (accessed December 14, 2020); TeleGeography, Submarine Cables. Data link: http://bit.do/WDR2021-Map-5_1.",
+    "limitations": "The map has no numeric scale or values; marker counts and exact locations are not legible or tabulated. Dense markers and overlapping cable routes prevent precise enumeration. The map title’s claim of uneven development is qualitative.",
+    "id": "wdr2021:p189:visual:0"
+  },
+  {
+    "page": 190,
+    "label": "Figure 5.10 — Data infrastructure is relatively scarce in low- and middle-income countries",
+    "kind": "chart",
+    "bbox": [
+      0.544,
+      0.588,
+      0.904,
+      0.908
+    ],
+    "summary": "Grouped bar chart comparing the percentage of countries with internet exchange points, colocation data centers, and cloud on-ramps across four income groups.",
+    "details": "Vertical axis: “Percentage of countries with data infrastructure,” scaled 0–100 in increments of 10. Categories: Internet exchange points; Colocation data centers; Cloud on-ramps. Legend: high-income (orange), upper-middle-income (green), lower-middle-income (blue), low-income (purple). Approximate bar heights read from the chart: Internet exchange points—high-income 75%, lower-middle-income 77%, low-income 66%; Colocation data centers—high-income 84%, upper-middle-income 58%, lower-middle-income 73%, low-income 52%; Cloud on-ramps—high-income 54%, upper-middle-income 17%, lower-middle-income 9%. No visible bars for upper-middle-income internet exchange points or low-income cloud on-ramps. Source: WDR 2021 team, adapted from PeeringDB; data extracted June 2020.",
+    "limitations": "Bar values are approximate visual readings; the chart does not print individual values. Some bars are absent or too small to distinguish, so their values are not inferred.",
+    "id": "wdr2021:p190:visual:0"
+  },
+  {
+    "page": 191,
+    "label": "Figure 5.11 — Countries develop domestic data infrastructure in stages",
+    "kind": "diagram",
+    "bbox": [
+      0.093,
+      0.626,
+      0.87,
+      0.912
+    ],
+    "summary": "Four-step rising ladder illustrates development of domestic data infrastructure, country counts and income-group shares at each stage, and average fixed and wireless broadband prices.",
+    "details": "The visual is a four-step staircase ascending left to right. Stage 0: “Data exchanged overseas”; 28 countries; low-income 48%, lower-middle-income 30%. Stage 1: “Domestic data between ISPs exchanged at the IXP”; 29 countries; low-income 38%, lower-middle-income 36%. Stage 2: “Diversity of participants at the IXP and presence of major international content providers”; 13 countries; low-income 14%, lower-middle-income 18%. Stage 3: “IXP located alongside a colocation data center”; 7 countries; low-income 0%, lower-middle-income 16%. Two price series are displayed in colored value boxes: average fixed broadband price per MB per month (purple), from stage 0 to 3: $140.00, $18.30, $17.10, $4.30; average wireless broadband price per GB per month (green), respectively: $5.60, $4.50, $2.20, $0.80. Source: Comini, Srinivasan, and Minges, forthcoming. Note states data provide close to global coverage for 2020 and are compiled from industry sources including Packet Clearing House, CAIDA, PeeringDB, EURO-IX, and AF-IX; amounts are in US dollars. Abbreviations: GB = gigabyte; ISP = internet service provider; IXP = internet exchange point; MB = megabit.",
+    "limitations": "The figure visually associates each price pair with the corresponding stage; no separate axis or explicit methodological definition for the price averages is shown.",
+    "id": "wdr2021:p191:visual:0"
+  },
+  {
+    "page": 194,
+    "label": "Figure B5.1.1 — Low- and middle-income countries are educating ICT professionals but not retaining them",
+    "kind": "chart",
+    "bbox": [
+      0.228,
+      0.362,
+      0.887,
+      0.734
+    ],
+    "summary": "Two bar-chart panels compare ICT graduates by gender across four country income groups and ICT professionals as a share of total professionals across income groups and the world. Graduate shares vary less across income groups than professional employment shares; men’s graduate share exceeds women’s in every group.",
+    "details": "Panel a, “ICT graduates, by gender”: vertical axis is percentage of total graduates, scaled 0–9. Categories are High-income, Upper-middle-income, Lower-middle-income, and Low-income; legend: Male (orange) and Female (blue). Approximate plotted values, read from bars: High-income male 8.1%, female 2.5%; Upper-middle-income 7.1% and 2.7%; Lower-middle-income 7.7% and 4.0%; Low-income 4.0% and 3.2%. Panel b, “ICT professionals, by country income group”: vertical axis is percentage of total professionals, scaled 0–2.5. Orange bars show approximately High-income 2.1%, Upper-middle-income 0.65%, Lower-middle-income 0.22%, Low-income 0.12%, and World 1.2%. The chart notes that panel a uses latest available data from 2015–2018 for 120 economies and panel b from 2016–2019 for 73 economies; income-group percentages are collective country averages. Sources named: UNESCO Institute for Statistics (UIS.Stat) and International Labour Organization (ILOSTAT).",
+    "limitations": "Bar values are estimated visually from the plotted bars and axis ticks; exact underlying values are not printed on the chart. The panel-a values are approximate.",
+    "id": "wdr2021:p194:visual:0"
+  },
+  {
+    "page": 195,
+    "label": "Figure B5.1.2 — Major wage differentials for ICT professionals create a brain drain, especially in low- and middle-income countries",
+    "kind": "chart",
+    "bbox": [
+      0.116,
+      0.145,
+      0.773,
+      0.541
+    ],
+    "summary": "Two bar charts compare net worker flows with disruptive technology skills and mean nominal monthly ICT earnings across four income groups. High-income countries show positive net flows and much higher earnings; the other groups show negative net flows and lower earnings.",
+    "details": "Panel a, “Net flow of workers with disruptive technology skills”: vertical axis is net flow (per 10,000 workers), from −200 to 200; a dashed horizontal line marks zero. Categories, in order: High-income, Upper-middle-income, Lower-middle-income, Low-income. Approximate bar values read from the chart: +120, −180, −160, and −135, respectively. Panel b, “Mean nominal monthly earnings of ICT employees”: vertical axis is earnings (US$), from 0 to 4,000 in 500 increments. The same income-group order has approximate bars of US$3,450, US$850, US$280, and US$270. No legend is shown. Source note cites ILOSTAT and LinkedIn data (2015–19); the note defines “disruptive technology skills” and expands ICT as information and communication technology.",
+    "limitations": "Bar values are approximate readings from the plotted heights; exact values are not printed. The chart provides no explicit data labels.",
+    "id": "wdr2021:p195:visual:0"
+  },
+  {
+    "page": 197,
+    "label": "Table 5.1 — Recommendations for data infrastructure improvements sequenced according to a maturity model",
+    "kind": "table",
+    "bbox": [
+      0.093,
+      0.636,
+      0.916,
+      0.894
+    ],
+    "summary": "Three-stage maturity model table organizes recommendations under “Connecting people” and “Connecting countries.”",
+    "details": "Columns: Stage of country | Connecting people | Connecting countries.\nEstablishing fundamentals | Eliminate coverage gaps by reducing costs through wholesale and retail competition, infrastructure sharing arrangements, and, where still required, well-crafted state support. | Ensure adequate international bandwidth. Create a competitive market environment for international gateways and internet service providers.\nInitiating data flows | Narrow usage gaps through digital literacy campaigns, investment in basic education, lower taxation and import duties on low-end handsets, and support of local ventures for manufacturing handsets. | Encourage creation of the first domestic IXP and facilitate participation by all relevant domestic players. Allow additional IXPs to emerge and players to formalize and mature. Encourage arrangements to cache popular international internet content on local servers.\nOptimizing the system | Upgrade digital networks to the latest generation to improve speed and efficiency and facilitate higher consumption. | Create a supportive environment in which colocation data centers can emerge, integrate with IXPs, and provide on-ramp access to cloud services.\nSource: WDR 2021 team. Note: IXPs = internet exchange points.",
+    "limitations": "No numerical data or units; recommendations are text. Table title is above the grid and source/note are below it.",
+    "id": "wdr2021:p197:visual:0"
+  },
+  {
+    "page": 206,
+    "label": "Figure S5.2.1 — Worldwide greenhouse gas emissions from data consumption have been flat, even though electricity consumption has been growing",
+    "kind": "chart",
+    "bbox": [
+      0.205,
+      0.562,
+      0.93,
+      0.906
+    ],
+    "summary": "Two-panel chart, 2015–18: electricity use by data infrastructure rises while its share of global electricity stays near 1%; data-infrastructure greenhouse gas emissions and their global share are broadly flat.",
+    "details": "Panel a, “Electricity consumption”: bars show data-infrastructure electricity consumption in terawatt-hours, left axis 0–250; a blue line with circular markers shows “% of world total (right axis),” right axis 0–1.2 percent. Years are 2015, 2016, 2017, 2018. Bars rise from about 200 TWh in 2015 to about 230 TWh in 2018 (the accompanying text gives 231 TWh in 2018); the share line remains around 1 percent, increasing slightly. Panel b, “Greenhouse gas emissions from data infrastructure”: stacked bars show tCO₂e (millions), left axis 0–125, with orange for telecommunication services and dark purple for software and IT services; the blue line shows “% of world total (right axis),” right axis 0–0.3 percent. Years are 2015–18. Total emissions are roughly 100 million tCO₂e each year, with telecommunications the larger component and software/IT services the smaller component; the share line is approximately 0.2 percent and nearly flat. Source: World Bank, original research based on annual reports from 49 companies in 26 countries. Note: data derived from environmental reports of companies accounting for 90 percent of data traffic; IT = information technology; tCO₂e = tonnes of carbon dioxide equivalent.",
+    "limitations": "Bar heights and line values are read approximately from the plotted axes; exact annual values are not printed. The chart labels do not provide data tables.",
+    "id": "wdr2021:p206:visual:0"
+  },
+  {
+    "page": 211,
+    "label": "Figure 6.1 — Envisioning the multidimensional nature of the legal framework for trust",
+    "kind": "diagram",
+    "bbox": [
+      0.456,
+      0.086,
+      0.887,
+      0.507
+    ],
+    "summary": "Three intersecting dimensions show how types of data, types of actors, and types of transactions combine within a multidimensional legal framework for trust.",
+    "details": "A gray circular field contains three intersecting, colored oval planes. Purple denotes types of data, with endpoints labeled Personal and Nonpersonal. Orange denotes types of actors, with endpoints Public and Private. Blue denotes types of transactions, with endpoints Cross-border and Domestic. The planes overlap through the center to depict the dimensions interacting; no numeric values or directional flow are shown. Legend beneath the diagram maps purple to Types of data, orange to Types of actors, and blue to Types of transactions. Source: WDR 2021 team.",
+    "limitations": "Conceptual diagram; intersections are not labeled and have no quantitative scale.",
+    "id": "wdr2021:p211:visual:0"
+  },
+  {
+    "page": 212,
+    "label": "Figure 6.2 — The evolution of data protection",
+    "kind": "diagram",
+    "bbox": [
+      0.084,
+      0.459,
+      0.898,
+      0.925
+    ],
+    "summary": "An upward, segmented timeline traces the development of rights and data-protection concepts from the Treaties of Westphalia (1648) to a projected “NEXT?” stage. Milestones include individual rights, international law, data-privacy practices, and modern data-protection instruments.",
+    "details": "The rising sequence of colored arrow segments is labeled, in order: 1648; 1789; 1948; 1973; 1981; 1983 and 2013 (printed together near one segment); 1995; 1995; 2009; 2018; 2018; and “NEXT?”. Callouts identify: Treaties of Westphalia — “Introduces the rule of law”; Déclaration des droits de l'homme et du citoyen — “Expression of individual rights”; Article 12, UDHR — “Rights codified in international law”; Fair Information Practices — “Modern expression of data privacy”; Council of Europe Convention 108 — “2019 Convention 108+ codifies data protection”; OECD guidelines; WWW launched; EU directive — “First expression of data protection rights of the digital age”; Privacy by design; GDPR; and UN Principles. The figure’s note says the arc runs from historical concepts of rights governing interactions between the state and the individual (and between states) to principles guiding data protection. Source: WDR 2021 team. Abbreviations explained in the note: EU, European Union; GDPR, General Data Protection Regulation; OECD, Organisation for Economic Co-operation and Development; UDHR, Universal Declaration of Human Rights; UN, United Nations; WWW, World Wide Web.",
+    "limitations": "The printed years 1983 and 2013 appear together on one arrow segment, and their precise association with nearby callouts is unclear from the layout. The callout says Convention 108+ was codified in 2019, while the nearby timeline also includes 2018; the figure does not make that relationship explicit.",
+    "id": "wdr2021:p212:visual:0"
+  },
+  {
+    "page": 214,
+    "label": "Figure 6.3 — Gaps in the regulatory framework for cybersecurity are glaring across country income groups",
+    "kind": "chart",
+    "bbox": [
+      0.084,
+      0.087,
+      0.544,
+      0.522
+    ],
+    "summary": "Radar chart compares the share of countries in four income groups with good-practice cybersecurity and cybercrime frameworks across four regulatory categories. High-income countries lead on CSIRTs and security requirements; regulation of cybercrime is comparatively widespread across groups.",
+    "details": "Four-axis radar chart with a 0–100 percentage scale and concentric gridlines at 0, 20, 40, 60, 80, and 100. Categories: security requirements for automated processing of personal data (top); cybersecurity requirements for data processors and controllers (right); CSIRT (bottom); regulation of cybercrime activities (left). Legend: High-income (blue), Upper-middle-income (green), Lower-middle-income (orange), Low-income (purple). Approximate values read from plotted vertices: security requirements are about 30% for high-income, around 10% for upper-middle-income, low single digits for lower-middle-income, and near 0% for low-income; processor/controller requirements are about 40%, 15%, 10%, and near 0%, respectively. CSIRT values are about 100%, 70%, 55%, and 35%, respectively. Cybercrime regulation is roughly 65% for high-income and upper-middle-income, about 55% for lower-middle-income, and about 45% for low-income. Source: WDR 2021 team, based on World Bank, Global Data Regulation Survey. Note: percentages of countries in each income group with good-practice legal and regulatory frameworks for cybersecurity and cybercrime as of 2020; CSIRT = Computer Security Incident Response Team.",
+    "limitations": "Values are estimated from the plotted positions; the figure does not print data labels for individual vertices. The chart region includes its title, legend, source, and note.",
+    "id": "wdr2021:p214:visual:0"
+  },
+  {
+    "page": 215,
+    "label": "Figure 6.4 — Progress on personal data protection legislation differs markedly across country income groups",
+    "kind": "chart",
+    "bbox": [
+      0.091,
+      0.087,
+      0.804,
+      0.525
+    ],
+    "summary": "Radar chart comparing the percentage of countries in four income groups that had adopted 11 personal-data protection provisions by 2020. High-income countries generally score highest; low-income countries lowest.",
+    "details": "Four overlaid radar series: High-income (blue), Upper-middle-income (green), Lower-middle-income (orange), and Low-income (purple). The radial scale is 0–100, marked at 0, 20, 40, 60, 80, and 100. The 11 axes, clockwise from the top, are: Data protection law enacted; No exception to limitations on data collecting and processing by governments; Necessity and proportionality test for government exceptions; Purpose limitation requirement; Data minimization requirement; Data storage limitations; Requirements to incorporate privacy by design; Regulation of data sharing with third parties; Individual right to challenge accuracy and rectify personal data; Regulatory limitation on algorithmic decision-making; Individual right of redress to object to use of personal data; and Data protection authority created (the final axis returns toward the top). Approximate plotted comparisons visible: high-income countries reach about 80% for law enacted, purpose limitation, data storage limitations, and data-accuracy correction rights; the other groups are generally lower, with low-income countries near zero on several requirements. Values are not individually labeled, so precise percentages cannot be read reliably from the chart. Source: WDR 2021 team, based on World Bank, Global Data Regulation Survey. Note states that percentages refer to countries in each income group with good-practice legal and regulatory frameworks as of 2020.",
+    "limitations": "Radar vertices are not numerically labeled; only the radial grid is labeled, so specific values beyond approximate visual readings should not be treated as exact. The printed legend gives the four income groups; the chart has 11 axes.",
+    "id": "wdr2021:p215:visual:0"
+  },
+  {
+    "page": 220,
+    "label": "Figure 6.5",
+    "kind": "chart",
+    "bbox": [
+      0.083,
+      0.086,
+      0.535,
+      0.477
+    ],
+    "summary": "Radar chart compares adoption of five good-practice e-commerce and related legal/regulatory frameworks across four country-income groups, as of 2020.",
+    "details": "Title: “Adoption of e-commerce and related legislation is widespread across country income groups.” Radar axes are percentages from 0 to 100, marked in 20-point increments. The five measures are E-commerce law; Legal equivalence of paper-based and electronic communications; Legal recognition of electronic signatures; Technological neutrality of electronic communications; and Digital ID system to access e-government services. Legend: High-income (blue), Upper-middle-income (green), Lower-middle-income (orange), Low-income (purple). Approximate plotted percentages, read clockwise from the top axis: E-commerce law—about 78, 75, 78, 65; legal equivalence—about 75, 72, 65, 80; legal recognition of electronic signatures—about 100, 78, 72, 75; technological neutrality—about 65, 55, 70, 50; digital ID for e-government access—about 85, 55, 30, near 0, respectively. Values are visual estimates; exact point values are not labeled. Source: WDR 2021 team, based on World Bank, Global Data Regulation Survey. Note: percentage of countries in each income group with good-practice legal and regulatory frameworks for e-commerce as of 2020.",
+    "limitations": "Radar vertices have no printed data labels, so individual values are approximate visual readings. The low-income digital-ID value appears near zero; exact value is not stated.",
+    "id": "wdr2021:p220:visual:0"
+  },
+  {
+    "page": 221,
+    "label": "Figure 6.6",
+    "kind": "chart",
+    "bbox": [
+      0.455,
+      0.087,
+      0.941,
+      0.549
+    ],
+    "summary": "Radar chart comparing the percentage of countries in four income groups with seven regulatory frameworks enabling access to and reuse of public intent data, as of 2020.",
+    "details": "The radar chart has a percentage scale from 0 to 100, with concentric gridlines marked at 0, 20, 40, 60, 80, and 100. The seven axes are: semantic interoperability mandated for government entities; open data law; data classification policy; mandatory use of data classification for government data; access to information (ATI) legislation; exceptions to the ATI right; and adoption of an open licensing regime by government. Four plotted series are identified in the legend: High-income (blue), Upper-middle-income (green), Lower-middle-income (orange), and Low-income (purple). The lines show differing patterns across the categories; exact point values are not printed and should not be read as precise values from the plot. Source: WDR 2021 team, based on World Bank, Global Data Regulation Survey; data link shown as http://bit.do/WDR2021-Fig-6_6. Note: percentages are of countries in each income group that had adopted good-practice legal and regulatory frameworks to enable access, use, and reuse of public intent data as of 2020.",
+    "limitations": "Individual data-point values are not labeled; only the 0–100 radial scale and relative plotted positions are visible.",
+    "id": "wdr2021:p221:visual:0"
+  },
+  {
+    "page": 224,
+    "label": "Figure 6.7",
+    "kind": "chart",
+    "bbox": [
+      0.084,
+      0.476,
+      0.536,
+      0.906
+    ],
+    "summary": "Radar chart comparing adoption of four legal and regulatory enablers for sharing private-intent data across four country income groups; adoption is generally low, with a marked exception for digital ID verification/authentication among high-income countries.",
+    "details": "Title: “Adoption of enablers for sharing private intent data lags those for public intent data across country income groups.” Four radar axes: Data portability right for individuals (top); Data portability formatting requirement (right); Private sector able to digitally verify or authenticate ID (bottom); and Mandate for voluntary licensing of access to essential data on FRAND basis (left). The radial scale is marked 0, 20, 40, 60, 80, and 100 percent. Legend: High-income (blue), Upper-middle-income (green), Lower-middle-income (orange), Low-income (purple). The plotted groups are clustered at relatively low levels on the portability and FRAND-licensing axes. On the digital ID verification/authentication axis, the high-income series extends substantially farther than the others; the other groups also extend farther on this axis than on most of the remaining axes. Source: WDR 2021 team, based on World Bank, Global Data Regulation Survey. Note: Percent of countries in each income group that had adopted good-practice legal and regulatory frameworks to enable access to, sharing, and reuse of private-intent data as of 2020. FRAND = fair, reasonable, and non-discriminatory; ID = identification.",
+    "limitations": "The colored traces overlap near the center and exact values for individual groups are not labeled, so precise values are not reliably legible.",
+    "id": "wdr2021:p224:visual:0"
+  },
+  {
+    "page": 227,
+    "label": "Table 6.1",
+    "kind": "table",
+    "bbox": [
+      0.093,
+      0.087,
+      0.916,
+      0.348
+    ],
+    "summary": "Average good-practice data governance scores by country income group across six regulatory themes; scores are generally low, with e-commerce and e-transactions strongest and private-intent data weakest.",
+    "details": "Title: “Certain elements of the regulatory framework are much better developed than others, but performance is generally low.” Columns are grouped under Safeguards (Cybersecurity and cybercrime; Personal data; Nonpersonal data) and Enablers (E-commerce and e-transactions; Public intent data; Private intent data). Values are scores. Rows, in column order: High-income: 73, 59, 43, 86, 69, 30. Upper-middle-income: 57, 46, 29, 74, 62, 20. Lower-middle-income: 55, 43, 38, 72, 44, 15. Low-income: 39, 31, 47, 59, 28, 3. Global: 56, 44, 38, 73, 50, 17. Source: WDR 2021 team, based on World Bank, Global Data Regulation Survey (URL printed below table). Note: averages for good-practice data governance by theme across country income groups as of 2020. Color key: advanced (75–100), green; moderate (50–75), yellow; evolving (25–50), orange; basic (below 25), magenta. Values at category boundaries are reproduced as stated in the printed legend.",
+    "limitations": "The printed color categories overlap at boundary scores 50 and 75; the table’s visible fills show the individual classifications. No additional units are stated.",
+    "id": "wdr2021:p227:visual:0"
+  },
+  {
+    "page": 229,
+    "label": "Table 6.2 — Recommendations organized according to a maturity model based on data safeguards and enablers",
+    "kind": "table",
+    "bbox": [
+      0.094,
+      0.088,
+      0.916,
+      0.659
+    ],
+    "summary": "Three-stage maturity model table comparing recommended safeguards and enablers for a country’s data system: establishing fundamentals, initiating data flows, and optimizing the system.",
+    "details": "The table has three columns: “Stage of country’s data system,” “Safeguards,” and “Enablers.” Rows and content:\n\n• Establishing fundamentals. Safeguards: Conduct a baseline needs assessment. Develop a comprehensive policy framework based on best practices that (1) safeguards personal, nonpersonal, and evolving categories of data and promotes greater equity around data; (2) enhances the security of systems and infrastructure that protect against misuse of data; (3) expands individuals’ agency and control over their personal data; and (4) promotes certainty and predictability, integrating fundamental safeguards discussed in the chapter, such as data protection and cybersecurity. Enablers: Conduct a baseline needs assessment. Develop a comprehensive policy framework based on best practices that enables the use and sharing of data for development purposes, ensuring access, openness, interoperability, portability, predictability, and transparency, while integrating fundamental enablers discussed in the chapter, such as electronic transactions.\n\n• Initiating data flows. Safeguards: Elaborate a legal framework embodying policy prerogatives that include personal data protection; promotion of cybersecurity and combating cybercrime; regulation of competition; and provisions for establishing relevant enforcement institutions. Enablers: Elaborate a legal framework embodying policy prerogatives that include legal recognition of e-transactions; access to information; intellectual property rights for nonpersonal data; openness of public intent data, including use of licenses that encourage data sharing; and data classification principles.\n\n• Optimizing the system. Safeguards: Promote awareness of safeguards domestically through adoption of data protection by design and default, together with associated cybersecurity measures; internationally through cross-border interoperability of data protection standards; address more complex issues such as mixed data and group rights; ensure sufficient capacity of institutions responsible for oversight; and establish metrics to monitor and evaluate implementation and enforcement of these policies and laws. Enablers: Consider issues such as data portability and increasing incentives around sharing private intent data; ensure sufficient capacity of institutions responsible for oversight; and establish metrics to monitor and evaluate implementation of these policies, laws, and institutions.\n\nSource: WDR 2021 team. No numeric units or values; the table is qualitative.",
+    "limitations": "Text and table structure are legible. No material ambiguity detected.",
+    "id": "wdr2021:p229:visual:0"
+  },
+  {
+    "page": 248,
+    "label": "Figure 7.1 — The unusual characteristics of data-driven businesses pose complex challenges for policy makers in the areas of competition, trade, and taxation",
+    "kind": "diagram",
+    "bbox": [
+      0.206,
+      0.459,
+      0.907,
+      0.923
+    ],
+    "summary": "Conceptual flow diagram linking data-driven business characteristics to competition between firms and trade between countries, and then to competition, tax, and trade policy responses.",
+    "details": "At the top, “Data as a factor of production” sits above three green characteristic boxes: “Propensity for market dominance,” “Scale without mass,” and “Intangibility of transactions.” Green connector arrows link these characteristics to the orange outcome boxes “Competition between firms” (left) and “Trade between countries” (right). Between the orange boxes are two opposing horizontal arrows: competition to trade, “Entry of new firms and competition dynamics drive ability to export”; trade to competition, “Trade in digital services can drive competition in importing countries.” Below are three purple policy panels, each connected by vertical arrows to the relevant outcome area: “Competition policy” lists “Adapt antitrust rules to challenges posed by data-driven businesses”; “Adopt pro-competition data remedies subject to safeguards for innovation”; “Ensure that traditional regulations promote competition and consumer choice.” “Tax policy” lists “Create a level playing field between digital and analog businesses”; “Adapt indirect tax administration to platform businesses”; “Adapt direct tax rules to account for intangible value drivers.” “Trade policy” lists “Establish regulatory framework for cross-border data flows”; “Balance individual rights, implementation costs, and business opportunities”; “Adopt international (trade) agreements for data.” The vertical policy connectors include downward orange arrows and upward purple arrows. Source: WDR 2021 team.",
+    "limitations": "The diagram’s connectors from the three characteristic boxes to the two outcome boxes cross and branch; exact assignment of each crossing connector is not fully unambiguous from the graphic. Arrow directions and the two labeled horizontal relationships are visible.",
+    "id": "wdr2021:p248:visual:0"
+  },
+  {
+    "page": 250,
+    "label": "Figure 7.2",
+    "kind": "chart",
+    "bbox": [
+      0.084,
+      0.587,
+      0.906,
+      0.938
+    ],
+    "summary": "Treemap comparison of antitrust cases involving digital platforms by sector in high-income and middle-income countries. Passenger transport accounts for a much larger share in middle-income countries (35%) than in high-income countries (8%).",
+    "details": "Title: “In the digital economy, antitrust cases related to passenger transport are more prevalent in middle-income countries than in high-income countries.” Two treemap panels show percentages of cases by sector. Panel a, high-income countries: Retail e-commerce 21%; Others 15%; Online search and advertising 15%; Software and operating systems 15%; Tourism (accommodation) 13%; Social media and communications 10%; Passenger transport 8%; Online real estate platforms 5%. Panel b, middle-income countries: Passenger transport 35%; Retail e-commerce 23%; Software and operating systems 18%; Others 10%; Mobile financial services 8%; Online search and advertising 8%. Note states cases total 62 in high-income countries and 40 in middle-income countries; percentages are based on publicly available information as of January 2020. Panel a “Others” includes digital music, e-books, educational materials, food delivery, online comparison platforms, dating platforms, and ticketing. Panel b “Others” includes online delivery services, ticketing, and tourism. Source: Nyman and Barajas, forthcoming; data URL printed as http://bit.do/WDR2021-Fig-7_2. Note says no cases were finalized in low-income countries according to publicly available information.",
+    "limitations": "Treemap areas and labels are visible; percentages are printed as whole numbers, so totals may differ from 100 because of rounding. No values are shown for sectors omitted from the middle-income panel.",
+    "id": "wdr2021:p250:visual:0"
+  },
+  {
+    "page": 251,
+    "label": "Figure 7.3",
+    "kind": "chart",
+    "bbox": [
+      0.093,
+      0.594,
+      0.914,
+      0.938
+    ],
+    "summary": "Stacked bar chart of antitrust-case counts by digital-economy sector and practice type; abuse of dominance is widespread across several sectors, while vertical restraints dominate e-commerce and tourism and collusion is prominent in passenger transport.",
+    "details": "Title: “Among anticompetitive practices, abuse of dominance is more widespread worldwide across multiple sectors of the digital economy.” The y-axis is “Number of antitrust cases,” scaled from 0 to 16 in increments of 2. Stacked bars show abuse of dominance (blue), collusion (green), and vertical restraints (orange). Values printed in the bars, in that order, are: E-commerce 3, 3, 9 (total 15); Passenger transport 5, 6, 1 (total 12); Software and operating systems 9, 0, 1 (total 10); Online search and advertising 9, 0, 0 (total 9); Tourism (accommodation) 0, 1, 7 (total 8); Online real estate platforms 2, 0, 0 (total 2); E-books 0, 1, 1 (total 2); Social media and communications services 1, 0, 0 (total 1); Mobile financial services 1, 0, 0 (total 1); Ticketing 1, 0, 0 (total 1); Online delivery service 0, 1, 0 (total 1). Source: Nyman and Barajas, forthcoming; data link printed as http://bit.do/WDR2021-Fig-7_3. Note: Based on publicly available information as of January 2020 for antitrust cases involving digital platforms globally.",
+    "limitations": "The chart presents counts, not percentages. Zeroes above mean no segment/value is shown for that practice in the sector; no unreadable values inferred.",
+    "id": "wdr2021:p251:visual:0"
+  },
+  {
+    "page": 258,
+    "label": "Figure 7.4",
+    "kind": "chart",
+    "bbox": [
+      0.204,
+      0.087,
+      0.918,
+      0.477
+    ],
+    "summary": "Stacked area chart of global services trade by category, with bars showing the rise in global IP traffic from 1990 to 2018. Data-driven services grow substantially and approach half of services trade by the end of the period.",
+    "details": "Title: “Since 1990, the global trade in data-driven services has grown exponentially and now constitutes half of trade in services.” The horizontal axis lists every year from 1990 through 2018. The left vertical axis is Services (US$, billions, current), marked 0–6,000 in 1,000 increments; the right vertical axis is Digital data flows (PB per month), marked 0–100,000 in 20,000 increments. Stacked areas represent computer, communications, and other services; travel services; transport services; and other (unclassified). Dark teal vertical bars represent IP traffic on the right axis. Overall, services trade rises from under US$1,000 billion in 1990 to about US$5,800 billion in 2018; the computer, communications, and other services area expands strongly, and the chart labels the upper portion “Data-driven services” and the lower portion “Traditional services.” IP traffic rises from near zero to close to 100,000 PB per month by 2018. Source: WDR team calculations based on World Bank WITS database. Note: IP = Internet Protocol; PB = petabyte.",
+    "limitations": "Values are shown graphically; individual annual series values are not labeled and should not be treated as exact readings. The chart’s broad service-category groupings and the data-driven/traditional annotations are visible, but no separate numeric totals for those groupings are printed.",
+    "id": "wdr2021:p258:visual:0"
+  },
+  {
+    "page": 259,
+    "label": "Figure 7.5 — Three distinct approaches to handling cross-border data flows",
+    "kind": "diagram",
+    "bbox": [
+      0.093,
+      0.472,
+      0.898,
+      0.929
+    ],
+    "summary": "Infographic compares limited, conditional, and open transfers models by regulatory options, key features, and examples, arranged along a data-closure to data-openness spectrum.",
+    "details": "The figure is organized into three model groups, with vertical row labels at left: “Regulatory options,” “Key features,” and “Examples.” Left-to-right, from greater data closure toward greater data openness:\n\n• Limited transfers model (blue), divided into three regulatory-option columns:\n  – Domestic storage. Key feature: broad requirements to use domestic servers for data storage. Examples: China—certain personal data; US states—government data; Australia and United Kingdom—health data; Russian Federation—telecommunications data.\n  – Domestic processing. Key feature: broad requirements to use domestic servers for data processing. Example: Russian Federation—processing of personal data.\n  – Government approval. Key feature: prior approval required for data transfers. Example: China—Cybersecurity Law.\n• Conditional transfers model (green), regulatory option “Regulatory safeguards.” Key features: consent; adequacy findings; private sector assessment (for example, codes of conduct, binding corporate rules, contractual arrangements). Example: European Union—General Data Protection Regulation.\n• Open transfers model (orange), regulatory option “Private standards.” Key features: no a priori mandatory requirements; private sector accountability based on voluntary standards. Examples: US federal rules; APEC Privacy Framework.\n\nA horizontal gradient arrow beneath the groups runs from “Data closure” on the left to “Data openness” on the right. Source: WDR 2021 team, based on Casalini and López González (2019); Cory (2017). Note: APEC = Asia-Pacific Economic Cooperation.",
+    "limitations": "The graphic is a categorical comparison, not a quantitative chart; it gives no numerical scale or measured values. The source note expands APEC.",
+    "id": "wdr2021:p259:visual:0"
+  },
+  {
+    "page": 261,
+    "label": "Map 7.1",
+    "kind": "map",
+    "bbox": [
+      0.093,
+      0.087,
+      0.8,
+      0.452
+    ],
+    "summary": "World map showing country uptake of regulatory models for cross-border data flows: limited transfers, conditional transfers, open transfers, and no data.",
+    "details": "The map uses four legend categories: Limited transfers model (dark orange), Conditional transfers model (medium orange), Open transfers model (pale peach), and No data (light gray). Countries are shaded by category. The map visibly shows extensive dark-orange shading across Russia and China; mixed categories across Europe, the Americas, Africa, and Asia; and pale-peach shading in places including Canada and Australia. The source is WDR 2021 team, based on the World Bank Global Data Regulation Survey. Map imprint: IBRD WLD45649 | MARCH 2021.",
+    "limitations": "Country names and individual category assignments are not labeled on the map; colors are difficult to distinguish for some countries at this scale. No numerical values or date series are shown.",
+    "id": "wdr2021:p261:visual:0"
+  },
+  {
+    "page": 261,
+    "label": "Table 7.1",
+    "kind": "table",
+    "bbox": [
+      0.093,
+      0.789,
+      0.795,
+      0.922
+    ],
+    "summary": "Policy bases for regulating cross-border personal data, comparing three models by policy goal, regulatory costs, and digital trade flows.",
+    "details": "Columns: Model | Policy goal | Regulatory costs | Digital trade flows. Rows: Limited transfers | Cybersecurity and other security concerns | Higher | Limited by transfer approval or data localization requirements. Conditional transfers | Protection of personal data | Medium | Subject to regulatory conditions. Open transfers | Business freedom | Lower | Largely open. Source: WDR 2021 team.",
+    "limitations": "None apparent.",
+    "id": "wdr2021:p261:visual:1"
+  },
+  {
+    "page": 264,
+    "label": "Table 7.2 — Key provisions on digital trade in recent trade agreements",
+    "kind": "table",
+    "bbox": [
+      0.084,
+      0.086,
+      0.907,
+      0.463
+    ],
+    "summary": "Comparison of nine digital-trade provisions across eight trade agreements (2004–2020). Colored cells distinguish binding from soft-law provisions; blank cells indicate no provision.",
+    "details": "Columns, in order: Provision; US–Singapore FTA (2004); Canada–EU CETA (2014); ChAFTA (2015); CPTPP (2018); ASEAN (2019); USMCA (2020); DEPA (2020); RCEP (2020). Rows and cell statuses in that column order (binding / soft law / no provision): Nondiscrimination of digital products — binding, none, none, binding, none, binding, binding, soft law. E-documents and e-signatures — none, none, binding, binding, binding, binding, binding, binding. Paperless trading — none, none, binding, soft law, binding, soft law, binding, soft law. Online consumer protection — none, none, soft law, binding, binding, binding, binding, binding. Privacy protection — none, soft law, soft law, binding, binding, binding, binding, binding. Cybersecurity — none, none, none, soft law, soft law, soft law, soft law, none. Unrestricted cross-border data flows — none, none, none, binding, soft law, binding, binding, soft law. Prohibition of data localization — none, none, none, binding, soft law, binding, binding, soft law. Customs duties — binding, binding, binding, binding, none, binding, binding, binding. Legend: orange indicates a binding provision; yellow indicates a soft-law provision; empty cell indicates no provision. Source: WDR 2021 team. Abbreviations expanded in the printed note: ASEAN = Association of Southeast Asian Nations; CETA = Comprehensive Economic and Trade Agreement; ChAFTA = China-Australia Free Trade Agreement; CPTPP = Comprehensive and Progressive Agreement for Trans-Pacific Partnership; DEPA = Digital Economy Partnership Agreement; EU = European Union; FTA = Free Trade Agreement; RCEP = Regional Comprehensive Economic Partnership; US = United States; USMCA = United States–Mexico–Canada Agreement.",
+    "limitations": "Cell statuses are transcribed from the visible orange, yellow, and blank fills and the printed legend. No quantitative values are shown.",
+    "id": "wdr2021:p264:visual:0"
+  },
+  {
+    "page": 268,
+    "label": "Figure 7.6",
+    "kind": "chart",
+    "bbox": [
+      0.205,
+      0.087,
+      0.911,
+      0.394
+    ],
+    "summary": "Stacked bar chart of estimated indirect tax potential from business-to-consumer e-commerce in six East Asian countries, 2015–2025; the combined volume rises markedly over the period.",
+    "details": "Title: “East Asian countries are losing a substantial volume of tax revenue by failing to apply current VAT rules to digital services.” Vertical axis: Volume (US$, billions), marked 0–14 in increments of 2. Horizontal axis: years 2015–2025. Stacked series, as shown in the legend from bottom to top: Indonesia (blue), Malaysia (green), Philippines (orange), Singapore (purple), Thailand (gold), Vietnam (pink). Combined bar heights increase each year, from well under US$1 billion in 2015 to about US$13.5 billion in 2025. Approximate totals from the plotted bars: 2015 0.4; 2016 0.8; 2017 1.4; 2018 2.2; 2019 3.7; 2020 5.2; 2021 6.5; 2022 7.8; 2023 9.4; 2024 11.1; 2025 13.6 (US$ billions). Indonesia is the largest component in every year and grows substantially; Vietnam is also a prominent and growing component, especially in later years. Source: Al-Rikabi and Loeprick, forthcoming; data at http://bit.do/WDR2021-Fig-7_6. Note: Figure shows the indirect tax potential of business-to-consumer e-commerce. VAT = value added tax.",
+    "limitations": "Bars are stacked and no numerical data labels are printed; totals and relative contributions above are visual estimates, not exact values.",
+    "id": "wdr2021:p268:visual:0"
+  },
+  {
+    "page": 288,
+    "label": "Table 8.1 — Data management decisions along the data life cycle",
+    "kind": "table",
+    "bbox": [
+      0.205,
+      0.09,
+      0.907,
+      0.475
+    ],
+    "summary": "Two-column table lists seven data life-cycle stages and management decisions for each, including consent, standardization, security, sharing, analysis, archiving, and destruction or reuse.",
+    "details": "Columns: “Stage of life cycle” and “Area in which data management is needed.” Rows: Create/receive — Determine lawful use (such as obtaining consent for data collection and sharing); collect identifications that allow data to be merged with other datasets. Process — Standardize units and categories (such as industry classifications); use data formats that are widely compatible and accessible; validate the quality (accuracy), relevance, and integrity of data. Store — Encrypt data; use secure servers; back up and archive data. Transfer/share — Verify whether consent allows for data to be shared; deidentify data, if appropriate (footnote a); sign confidentiality agreements for use of identified data; publish data via bulk downloads or APIs. Analyze and use — Ensure reproducibility; publish code or algorithms; do not publish identifiable data; visualize and communicate insights from data. Archive and preserve — Classify and catalog data systematically so they can be found easily; include data dictionaries and notes on how data were created; maintain access to data and their security and integrity over time. Destroy or reuse — Keep records of destruction processes; verify that consent for use is still valid. Source: WDR 2021 team. Note: APIs = application programming interfaces. Footnote a: See Elliot et al. (2016); Polonetsky, Tene, and Finch (2016).",
+    "limitations": "No apparent unreadable values.",
+    "id": "wdr2021:p288:visual:0"
+  },
+  {
+    "page": 288,
+    "label": "Figure 8.1 — Data governance and data management, working seamlessly together in support of the social contract",
+    "kind": "diagram",
+    "bbox": [
+      0.205,
+      0.648,
+      0.91,
+      0.941
+    ],
+    "summary": "Two cyclical systems—data governance and the data management life cycle—are connected through a central set of social-contract values: value, trust, and equity.",
+    "details": "Left circle: central node “Data governance,” surrounded by four sectors labeled “Learning and evidence,” “Strategic planning,” “Compliance,” and “Rule making and implementation.” Right circle: central node “Data management,” surrounded by six nodes connected in a cycle: Create → Process → Store → Transfer → Analyze → Archive → Create. Between the circles is an orange node labeled “Value / Trust / Equity.” Orange curved arrows around both systems and arrows connecting each system to the central values indicate ongoing, linked cycles. Source: WDR 2021 team. Note: The data management life cycle at right appears in figure 1.2 in chapter 1.",
+    "limitations": "The arrowheads indicate cyclic flow; the diagram does not specify additional directional links among the governance sectors.",
+    "id": "wdr2021:p288:visual:1"
+  },
+  {
+    "page": 290,
+    "label": "Figure 8.2 — Functions of data governance",
+    "kind": "diagram",
+    "bbox": [
+      0.085,
+      0.088,
+      0.537,
+      0.475
+    ],
+    "summary": "Circular diagram organizes data governance into four thematic clusters and lists the functions in each.",
+    "details": "A central circle labeled “Data governance” is surrounded by four connected sectors: Strategic planning — Develop strategies; Establish institutional arrangements. Rule making and implementation — Legislate/regulate; Set standards; Provide clarification and guidance. Compliance — Enforce; Audit; Arbitrate; Remedy. Learning and evidence — Monitor and evaluate; Anticipate and manage risks. Source: WDR 2021 team.",
+    "limitations": "No quantitative values, axes, or directional sequence are shown.",
+    "id": "wdr2021:p290:visual:0"
+  },
+  {
+    "page": 292,
+    "label": "Table 8.2 — Candidate institutions and actors to perform or inform data governance functions",
+    "kind": "table",
+    "bbox": [
+      0.206,
+      0.087,
+      0.907,
+      0.753
+    ],
+    "summary": "Four thematic clusters pair data-governance functions with indicative institutions and actors: strategic planning, rule making and implementation, compliance, and learning and evidence.",
+    "details": "Two columns: “Thematic clusters and functions” and “Indicative institutions and actors.” Strategic planning: developing strategies and policies in line with the social contract for data; establishing institutional arrangements. Indicative actors: data governance arrangement (centralized agency/unit embedded in an existing institution, such as NSO or digital economy ministry; or decentralized units and responsibilities embedded across government), CSOs, universities, research institutions. Rule making and implementation: legislating/regulating; setting standards; providing clarification and guidance. Actors: national legislature and sector-specific regulators; telecom regulator; banking and financial securities market regulator; industry associations; CSOs; Institutional Review Boards; international institutions, including sector-specific SSOs and international organizations (World Bank, IMF, UN, WTO). Compliance: enforcing; auditing; arbitrating; remedying. Actors under “Watchdog and umpire”: data protection authority; access to information agency; antitrust authority; consumer protection agency; audit body; courts; ombudsperson; CSIRT. Learning and evidence: engaging in backward-looking monitoring and evaluation; engaging in forward-looking learning and risk management. Actors under “Knowledge community”: M&E unit within entity or independent M&E body; CSOs and NGOs, multilateral development institutions, international development banks; academic institutions; think tanks, policy institutes, research institutions; news media; training bodies; professional associations. Source: WDR 2021 team, based on a functional approach to governance and public sector management. Note expands CSIRT, CSO, IMF, M&E, NGO, NSO, SSO, UN, and WTO.",
+    "limitations": "No numerical values; table entries are text. Minor ambiguity in visual alignment of the “International institutions” subheading: it is part of the rule-making/implementation actor list.",
+    "id": "wdr2021:p292:visual:0"
+  },
+  {
+    "page": 293,
+    "label": "Figure 8.3",
+    "kind": "chart",
+    "bbox": [
+      0.093,
+      0.087,
+      0.928,
+      0.46
+    ],
+    "summary": "Two-panel bar chart comparing data-governance entity status and type across country income groups. No low-income countries have an entity; most entities are part of another government institution.",
+    "details": "Title: “No low-income and few lower-middle-income countries have a separate data governance entity; most embed them in another government institution.” Panel a, “Share of countries with a data governance entity, by country income group”: vertical axis is Percent, 0–60. Legend: blue = In progress or planned; orange = Established. Values shown above bars: Low-income 0 and 0; Lower-middle-income 4 and 10; Upper-middle-income 7 and 18; High-income 8 and 53, respectively. Panel b, “Type of data governance entity, by country income group”: vertical axis is Percent, 0–100. Legend: blue = Part of another government institution; orange = Separate data governance agency. Stacked-bar values: Lower-middle-income 100% part of another institution, 0% separate agency; Upper-middle-income 71% part of another institution and 29% separate agency; High-income 44% part of another institution and 56% separate agency. Source: WDR 2021 team calculations based on World Bank, DGSS dataset. Note: Panel a covers 198 economies; entities include separate agencies and units within another institution. Panel b covers 58 countries whose entity is established or in process; low-income countries are omitted because none has a data governance entity.",
+    "limitations": "Values are printed as whole-number percentages; the figure does not provide underlying country counts for each bar.",
+    "id": "wdr2021:p293:visual:0"
+  },
+  {
+    "page": 296,
+    "label": "Figure 8.4",
+    "kind": "chart",
+    "bbox": [
+      0.204,
+      0.087,
+      0.548,
+      0.533
+    ],
+    "summary": "Share of countries with data protection authorities by income group, showing planned/in-progress and established authorities.",
+    "details": "Grouped bar chart. Y-axis: “Share of countries with data protection authority (%)”, 0–90 in 10-point increments. Income groups on x-axis, left to right: Low-income, Lower-middle-income, Upper-middle-income, High-income. Legend: blue = In progress or planned; orange = Established. Values (%): Low-income 3 planned/in progress, 24 established; Lower-middle-income 16, 38; Upper-middle-income 2, 45; High-income 5, 81. Established shares rise across income groups; planned/in-progress shares are much smaller. Note: Data are for 198 economies. Source: WDR 2021 team calculations based on World Bank DGSS dataset.",
+    "limitations": "Bar labels provide the values; exact underlying counts and rounding conventions are not shown.",
+    "id": "wdr2021:p296:visual:0"
+  },
+  {
+    "page": 296,
+    "label": "Figure 8.5",
+    "kind": "chart",
+    "bbox": [
+      0.567,
+      0.087,
+      0.91,
+      0.508
+    ],
+    "summary": "Share of countries with antitrust authorities by income group, showing planned and operational authorities.",
+    "details": "Grouped bar chart. Y-axis: “Share of countries with antitrust authority (%)”, 0–80 in 10-point increments. Income groups on x-axis, left to right: Low-income, Lower-middle-income, Upper-middle-income, High-income. Legend: blue = Planned; orange = Operational. Values (%): Low-income 17 planned, 52 operational; Lower-middle-income 12, 64; Upper-middle-income 2, 68; High-income 4, 75. Operational shares exceed planned shares in every group and are above 50% across all income groups. Note: Data are for 218 economies. Source: WDR 2021 team calculations based on World Bank data.",
+    "limitations": "Bar labels provide the values; exact underlying counts and rounding conventions are not shown.",
+    "id": "wdr2021:p296:visual:1"
+  },
+  {
+    "page": 297,
+    "label": "Figure 8.6 — Only about one-quarter of low-income countries have cybersecurity agencies",
+    "kind": "chart",
+    "bbox": [
+      0.093,
+      0.087,
+      0.43,
+      0.531
+    ],
+    "summary": "Grouped bar chart compares countries with cybersecurity agencies by income group, split between agencies in progress or planned and established.",
+    "details": "Vertical axis: “Share of countries with cybersecurity agency (%)”, 0–100 with 10-point intervals. Horizontal groups, in order: Low-income, Lower-middle-income, Upper-middle-income, High-income. Legend: blue = “In progress or planned”; orange = “Established”. Values printed above bars (blue, orange): Low-income 14, 24; Lower-middle-income 12, 66; Upper-middle-income 15, 65; High-income 6, 86. Source: WDR 2021 team calculations based on World Bank, DGSS (Digital Government/GovTech Systems and Services) dataset. Note: Data are for 198 economies.",
+    "limitations": "Values are shown as whole-number percentages; the chart does not provide underlying counts. The figure title says “about one-quarter” for low-income countries, corresponding to the 24% established bar.",
+    "id": "wdr2021:p297:visual:0"
+  },
+  {
+    "page": 298,
+    "label": "Table 8.3 — Snapshot of common data intermediary structures",
+    "kind": "table",
+    "bbox": [
+      0.206,
+      0.087,
+      0.907,
+      0.365
+    ],
+    "summary": "Four-column table comparing purposes, objectives, intermediary types, and examples across commercial data markets, collaborative data sharing, and trusted sharing of sensitive data.",
+    "details": "Columns: Purposes | Objectives | Types | Examples. Rows (some purpose cells span multiple rows): 1) Create commercial value and data markets. | Transform raw data into more consumable information. | Data aggregators, data brokers | Acxiom, Experian. 2) Exchange data to solve public problems through collaborative structures. | Increase incentives for competitors to share and combine data resources for common use within sectors. | Data pools | Global Data Synchronization Network (GDSN). 3) Same purpose as row 2. | Create and manage shared and interoperable data assets and computing infrastructure for research. | Data commons, data clubs | The Open Commons Consortium (OCC), UK Biobank. 4) Same purpose as row 2. | Contribute data in exchange for collective benefits. | Data cooperatives | LunaDNA (community-owned platform for health research). 5) Enable trusted sharing and use of sensitive data through enhanced accountability mechanisms. | Facilitate sharing of sensitive data and provide collective bargaining power to individuals. | Data trusts | Platform Info Exchange, UK (Mozilla Data Futures Lab pilot). Source: WDR 2021 team.",
+    "limitations": "No numeric values. The purpose in row 2 spans the data pools, data commons/data clubs, and data cooperatives entries; the table’s merged-cell layout is reflected in the details.",
+    "id": "wdr2021:p298:visual:0"
+  },
+  {
+    "page": 301,
+    "label": "Figure 8.7 — Features of well-functioning institutions for effective data governance",
+    "kind": "diagram",
+    "bbox": [
+      0.093,
+      0.087,
+      0.779,
+      0.423
+    ],
+    "summary": "Six interlocking puzzle pieces identify institutional features for effective data governance, grouped under a performance-enhancing environment.",
+    "details": "The diagram is a connected, six-piece puzzle. At left, a bracket-like outline labels the overall environment “Performance-enhancing environment.” The top row contains: (1) Coordination — “Create incentives to encourage collaborative and user-centric decision-making.” (2) Leadership — “Mobilize data champions in positions of power to create a culture of data sharing and use.” (3) Multistakeholder governance — “Sustain outcomes through inclusive and legitimate stakeholder engagement.” The bottom row contains: (4) Transparency — “Build trust by promoting participation and accountability in policy making.” (5) Functional autonomy — “Promote institutional independence and autonomy for effective performance.” (6) Data literacy — “Invest in increasing technical capacity, resources, and data skills for civil servants.” Source printed below: “WDR 2021 team.”",
+    "limitations": "No quantitative scale or values are shown; the puzzle-piece layout conveys a set of connected features, not a specified sequence or ranking.",
+    "id": "wdr2021:p301:visual:0"
+  },
+  {
+    "page": 320,
+    "label": "Figure S8.2.1",
+    "kind": "diagram",
+    "bbox": [
+      0.182,
+      0.087,
+      1.0,
+      0.563
+    ],
+    "summary": "Infographic on open-science and citizen-science tools used by network partners in the Amazon basin to investigate fish migration and environmental influences.",
+    "details": "Title: “Using a diverse set of open science and citizen science tools and technologies in the Amazon basin.” The guiding question is: “Where and when do fish migrate in the Amazon basin and what environmental factors influence those migrations?” Introductory text says network partners use diverse technologies to answer the question, gather, share, and use data, and collaborate to generate information for multiple purposes and audiences. Four photographic examples are paired with descriptions: (1) Community-based, participatory, and Indigenous and local knowledge methods, tools, and protocols (e.g., journals, printed survey forms, community maps) facilitate engagement of diverse audiences. (2) Ictio.org is an application and open and safe database to collect and share information on Amazonian migratory fish. (3) Data is safely transferred and stored in servers; open data is then accessible to multiple audiences with diverse levels of access and in user-friendly formats. (4) Collaboration is enabled through carefully designed methodologies, in-person and virtual meetings, social media, Google platform and tools. The four photos show a group gathered outdoors, hands using a phone among fish, people seated around displayed materials, and a large group gathered outside a building. A Citizen Science for the Amazon logo appears near the upper right of the infographic.",
+    "limitations": "The infographic’s right edge meets or is clipped by the supplied page image, so the full extent may continue beyond the visible page. Small text within the infographic is slightly soft, but the descriptions above are legible; no numeric data or chart axes are present.",
+    "id": "wdr2021:p320:visual:0"
+  },
+  {
+    "page": 325,
+    "label": "Figure 9.1 — What happens in an integrated national data system?",
+    "kind": "diagram",
+    "bbox": [
+      0.093,
+      0.34,
+      0.796,
+      0.925
+    ],
+    "summary": "Four stacked, color-outlined bands describe what happens to data, who participates, the pillars of the system, and the foundation that sustains it.",
+    "details": "Top-to-bottom structure: “Data are” produced, protected, open, quality controlled, and used and reused. “By” government entities; civil society and individuals; academic institutions; the private sector; international organizations. “Built on the pillars of” infrastructure policies; laws and regulations; economic policies; institutions. “Sustained by the foundation of” human capital; trust; funding; incentives; data demand. Each item is accompanied by an icon. Source: WDR 2021 team.",
+    "limitations": "The diagram shows grouped components, not explicit directional arrows or quantitative values.",
+    "id": "wdr2021:p325:visual:0"
+  },
+  {
+    "page": 329,
+    "label": "Figure 9.2 — A data maturity model for a hypothetical national data system",
+    "kind": "diagram",
+    "bbox": [
+      0.454,
+      0.48,
+      0.914,
+      0.939
+    ],
+    "summary": "Circular maturity model shows three concentric stages across five participant groups; darker segment colors indicate steps accomplished and lighter colors steps not accomplished.",
+    "details": "A segmented circular diagram has three maturity rings, labeled from the center outward: “Establishing fundamentals” (orange), “Initiating data flows” (green), and “Optimizing the system” (blue). The outer dark-purple ring identifies five participant groups around the circle: Government entities; Civil society and individuals; Academic institutions; Private sector; International organizations. Each participant’s three ring segments are independently shaded dark or light, illustrating differing progress among participants and stages. Callout labels at the upper-left of the rings point to the three stages. Source: WDR 2021 team.",
+    "limitations": "The diagram is illustrative and has no numeric scale or values. Segment shading is visible, but the note does not specify a quantitative measure of completion.",
+    "id": "wdr2021:p329:visual:0"
+  },
+  {
+    "page": 330,
+    "label": "Figure 9.3 — Steps to integrating the public sector into the national data system",
+    "kind": "diagram",
+    "bbox": [
+      0.204,
+      0.465,
+      0.907,
+      0.923
+    ],
+    "summary": "Three overlapping, progressively positioned panels describe steps for integrating the public sector into the national data system: establishing fundamentals, initiating data flows, and optimizing the system.",
+    "details": "The diagram has three overlapping rounded panels arranged from left/back to right/front. Orange panel, “Establishing fundamentals”: Policies—recognize the importance of an integrated national data system in a high-level strategic document; Laws and regulations—put in place robust data protection regulations; Human capital and funding—strengthen the technical capacity and financing of NSOs; Institutions—create technical units in ministries to strengthen administrative data and coordinate data efforts across ministries; Incentives—ensure public-sector data scientists and statisticians are appropriately remunerated. Green panel, “Initiating data flows”: Data demand—establish a culture of data use in ministries and among policy makers and legislators; Incentives—prioritize open data for development and use of common standards throughout the data life cycle; Infrastructure policies—establish a secure, integrated digital platform for storing and providing access to deidentified public intent data. Blue panel, “Optimizing the system”: Institutions—charge an existing or new government unit with responsibility for overseeing and reporting on implementation of a national data strategy; Incentives—empower the NSO to take an active role in the national data system; Policies—define clear institutional mandates for the various government institutions. Source: WDR 2021 team. Note: Categories overlap and are meant to be illustrative. NSO = national statistical office.",
+    "limitations": "The panels overlap; the note explicitly says categories overlap and are illustrative. No arrows or explicit causal links are shown.",
+    "id": "wdr2021:p330:visual:0"
+  },
+  {
+    "page": 333,
+    "label": "Figure 9.4 — Steps to integrating civil society into the national data system",
+    "kind": "diagram",
+    "bbox": [
+      0.093,
+      0.582,
+      0.795,
+      0.924
+    ],
+    "summary": "Three overlapping, progressively layered panels outline steps for integrating civil society into the national data system: establishing fundamentals, initiating data flows, and optimizing the system.",
+    "details": "Left orange panel, “Establishing fundamentals”: • Laws and regulations: Institute laws protecting people’s rights to produce, use, and disseminate data. • Incentives: Create civil society watchdogs to monitor compliance with the rules of the system. • Funding: Ensure that civil society has sufficient funding and resources for data production and use. Middle green panel, “Initiating data flows”: • Human capital: Improve data literacy through joint projects, training, and secondments and through the education system. • Infrastructure policies: Ensure adoption of common standards that improve data quality and interoperability. • Trust: Promote trust through establishment of an independent scientific quality control unit. Right blue panel, “Optimizing the system”: • Institutions: Institutionalize collaboration for the systematic use of citizen-generated data in decision-making. • Incentives: Include civil society in planning, high-level decisions, and strategy setting for the national data system. Panels overlap visually; note says categories overlap and are meant to be illustrative. Source: WDR 2021 team.",
+    "limitations": "No quantitative values or axes. Text is legible; panel overlap is intentional and does not specify a strict sequence.",
+    "id": "wdr2021:p333:visual:0"
+  },
+  {
+    "page": 335,
+    "label": "Figure 9.5 — Steps to integrating academia into the national data system",
+    "kind": "diagram",
+    "bbox": [
+      0.094,
+      0.611,
+      0.796,
+      0.943
+    ],
+    "summary": "Three overlapping, progressively layered panels list actions for integrating academia into the national data system: establishing fundamentals, initiating data flows, and optimizing the system.",
+    "details": "The diagram has three overlapping rounded panels, arranged from largest/rearmost to smaller/frontmost. Establishing fundamentals (orange, left/rear): Infrastructure policies—ensure academics have adequate financial support and access to key ICT infrastructure; Data demand—promote awareness of participants’ datasets by building relationships among partners in academia and government. Initiating data flows (green, center): Data demand—set up data-sharing agreements, commission data production by academics, and support repurposing of academic data; Human capital—promote data literacy through quantitative degree programs, workshops, and secondments. Optimizing the system (blue, right/front): Infrastructure policies—institutionalize access to data through data portals and data enclaves; Data demand—support and adopt data innovations by academia; Incentives—support initiatives that provide legal access to scientific journals. Source: WDR 2021 team. Note: Categories overlap and are meant to be illustrative. ICT = information and communication technology.",
+    "limitations": "The diagram explicitly says categories overlap and are illustrative; the panel overlap indicates stages but does not specify a strict sequence or directional arrows.",
+    "id": "wdr2021:p335:visual:0"
+  },
+  {
+    "page": 337,
+    "label": "Figure 9.6 — Steps to integrating the private sector into the national data system",
+    "kind": "diagram",
+    "bbox": [
+      0.093,
+      0.591,
+      0.796,
+      0.942
+    ],
+    "summary": "Three overlapping, progressively layered panels outline steps for establishing fundamentals, initiating data flows, and optimizing the national data system for private-sector participation.",
+    "details": "The diagram uses three overlapping rounded panels. Left/orange panel, “Establishing fundamentals”: (1) Infrastructure policies — construct national transmission networks for high-speed wireless broadband access; (2) Human capital — equip workers and businesses with the skills and appliances needed to produce and use data. Center/green panel, “Initiating data flows”: (1) Infrastructure policies — increase IXPs and data centers to improve the efficiency of data transfers; (2) Incentives — adopt compensation and noncompensation schemes to promote data exchanges; (3) Data demand — promote the role of data stewards in business. Right/blue panel, “Optimizing the system”: (1) Incentives — increase data interoperability through adoption of stringent data quality and privacy standards that are also pro-business; (2) Infrastructure policies — promote expansion of and access to colocation data centers; (3) Trust — engage business through trusted data intermediaries. Source: WDR 2021 team. Note: Categories overlap and are meant to be illustrative. IXPs = internet exchange points. The panels overlap visually; they present categories/steps, not an explicit directional flow or quantitative scale.",
+    "limitations": "No quantitative values, axes, or explicit arrows are shown.",
+    "id": "wdr2021:p337:visual:0"
+  },
+  {
+    "page": 340,
+    "label": "Figure 9.7 — Steps to integrating international and regional organizations into the national data system and collaborating across borders",
+    "kind": "diagram",
+    "bbox": [
+      0.2055,
+      0.0872,
+      0.9073,
+      0.4878
+    ],
+    "summary": "Three overlapping, progressively positioned panels list ways to integrate international and regional organizations into national data systems: establishing fundamentals, initiating data flows, and optimizing the system.",
+    "details": "The diagram has three overlapping rounded panels, arranged from a large orange panel at left/back to a green panel in the middle and a blue panel at right/front. No arrows are shown; the panel placement suggests successive stages, while the note says categories overlap and are illustrative.\n\n• Establishing fundamentals (orange): Funding — “Seek the support needed, including technical assistance, to improve weak parts of the data life cycle.” Human capital — “Increase technical capacity and data literacy.” Institutions — “Engage in regional data cooperation to save resources through economies of scale and facilitate peer-to-peer learning.”\n• Initiating data flows (green): Data demand — “Introduce definitions and standards into national data systems that are comparable across countries.” Infrastructure policies — “Adopt common standards to enable cross-border data flows.”\n• Optimizing the system (blue): Incentives — “Coordinate and align data production and information sharing across international organizations active domestically.” Institutions — “Help shape the priorities of the data agendas of international organizations.” Economic policies — “Participate in negotiation of trade agreements on data and in international and regional tax treaties.”\nSource: WDR 2021 team. Note: Categories overlap and are meant to be illustrative.",
+    "limitations": "The diagram presents illustrative categories, not a quantified sequence or measured outcomes. The panels overlap, and their ordering does not establish that every country follows the same progression.",
+    "id": "wdr2021:p340:visual:0"
+  }
+]

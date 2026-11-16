@@ -1,0 +1,35 @@
+{
+  "id": "dfd5b2e530404181be415cc035d81f1a",
+  "label": "index:p047",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 4046,
+  "maximum_output_tokens": 6000,
+  "images": [
+    {
+      "page": 47,
+      "path": "advanced/data/pages/p047.jpg",
+      "sha256": "e4ad1f5859bb7983541ddcb5f4e8a0209c50808c62902b7a975e89036e4a3205"
+    }
+  ],
+  "instructions_sha256": "01d3a56b3c678b1acd37e506320a854b17dd9ddb13ece56a92b62990aeb80d41",
+  "usage": {
+    "input_tokens": 4046,
+    "input_tokens_details": {
+      "cache_write_tokens": 4043,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 4043
+      }
+    },
+    "output_tokens": 204,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 4250
+  },
+  "response_id": "resp_01a119ff5f7bdef2016afa9013925c87d2955e2f651050a222",
+  "response_status": "completed",
+  "output_text": "{\"regions\":[{\"label\":\"Map 1.1\",\"kind\":\"map\",\"bbox\":[0.455,0.143,0.888,0.665],\"summary\":\"John Snow’s map of London’s 1854 cholera epidemic, illustrating the locations of cholera deaths.\",\"details\":\"A black-and-white historical street map of part of London, with street and place labels and solid black rectangles of varying sizes marking cholera deaths. The map is captioned: “John Snow’s innovative mapping of the cholera epidemic in London in 1854 revolutionized tracing of the disease.” Source: Ball 2009; map segment reproduced from John Snow, On the Mode of Communication of Cholera, 2nd ed. (London: John Churchill, 1855).\",\"limitations\":\"Individual map labels and the exact number or locations of death markers are not reliably legible at this resolution. The note identifies the black rectangles as deaths from cholera.\"}]}",
+  "elapsed_seconds": 5.637618499997188
+}

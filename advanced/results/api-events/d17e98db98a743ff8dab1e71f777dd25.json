@@ -1,0 +1,45 @@
+{
+  "id": "d17e98db98a743ff8dab1e71f777dd25",
+  "label": "20261116-164337-r2-dev-baseline-8b5e219c:adv-dev-01:review0",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 13454,
+  "maximum_output_tokens": 3500,
+  "images": [
+    {
+      "page": 48,
+      "path": "advanced/data/pages/p048.jpg",
+      "sha256": "66741b18cf15a118edd4096688be8100e4940085a53c4396d42acaa221c6b39e"
+    },
+    {
+      "page": 144,
+      "path": "advanced/data/pages/p144.jpg",
+      "sha256": "f6f212c4e5a445e9a92ab77ee25ebd83b495a89883e1e785bab6aaddc8c1ce74"
+    },
+    {
+      "page": 162,
+      "path": "advanced/data/pages/p162.jpg",
+      "sha256": "3c87eb79f59a0c83019e94b33de2758ae869eec16a9e7ea359fc6bc3f51ab34e"
+    }
+  ],
+  "instructions_sha256": "0507604096aab315eb8e0306caca34acc2d0bedacd7d3b2ec25cc18ae985e348",
+  "usage": {
+    "input_tokens": 13454,
+    "input_tokens_details": {
+      "cache_write_tokens": 13451,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 13451
+      }
+    },
+    "output_tokens": 162,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 13616
+  },
+  "response_id": "resp_0e6dc0f37585109e016afad0c56bbc87d2895d86498d23018e",
+  "response_status": "completed",
+  "output_text": "{\"action\":\"answer\",\"expression\":\"\",\"queries\":[],\"pages\":[48],\"status\":\"answered\",\"answer\":\"Both examples are classified under the **new** collection method. Satellite-imaging location data are **public intent** data; just-in-time digital data on individual behavior or choices from private-sector digital platforms are **private intent** data.\",\"citations\":[{\"page\":48,\"region_label\":\"Table 1.1, column headings and New row\",\"bbox\":[0.2055,0.0883,0.906,0.288],\"quote\":\"Data collection methods and tools | Public intent data | Private intent data ... New | Location data from satellite imaging ... | Just-in-time digital data on individual behavior/choices from digital platforms in the private sector\"}]}",
+  "elapsed_seconds": 6.525868099997751
+}

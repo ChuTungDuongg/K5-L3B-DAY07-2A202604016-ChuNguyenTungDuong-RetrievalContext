@@ -1,0 +1,45 @@
+{
+  "id": "9cb73d8a95bf4550bcca460c32a73b6b",
+  "label": "20261116-165446-r2-test-baseline-cbad637d:adv-r2-test-20:step0",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 13271,
+  "maximum_output_tokens": 3500,
+  "images": [
+    {
+      "page": 77,
+      "path": "advanced/data/pages/p077.jpg",
+      "sha256": "c9eb2bc800a11b04206aa74e569a149be988cfbab9629a5b7fc3931bf4b929f8"
+    },
+    {
+      "page": 29,
+      "path": "advanced/data/pages/p029.jpg",
+      "sha256": "1938d80962e06d206e2fcad529ea91a2ed0d254676c4df4e2f90810cdb543496"
+    },
+    {
+      "page": 78,
+      "path": "advanced/data/pages/p078.jpg",
+      "sha256": "ae82e2a87a75da3ef1ba8f9a522dccfb96ca6801206b968001cfa9c74d39bfc0"
+    }
+  ],
+  "instructions_sha256": "7b27220272435c850770154f165a9b99ffc1a1c1848fec729da980d6adec6535",
+  "usage": {
+    "input_tokens": 13271,
+    "input_tokens_details": {
+      "cache_write_tokens": 13268,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 13268
+      }
+    },
+    "output_tokens": 319,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 13590
+  },
+  "response_id": "resp_042ceae5ac44dfc3016afad4282d3487d284c1cf28bf135128",
+  "response_status": "completed",
+  "output_text": "{\"action\":\"answer\",\"expression\":\"\",\"queries\":[],\"pages\":[77,78],\"status\":\"answered\",\"answer\":\"In Croatia, allocating EU funds by an area’s GDP per capita meant poor municipalities in otherwise nonpoor regions could miss out. Using poverty-map evidence, Croatia proposed new geographical subdivisions to concentrate EU funds in the poorest areas. Costa Rica used a multidimensional poverty index as an official measure for budget allocation and for monitoring and evaluating social programs. The report says changing allocations based on the index helped accelerate poverty reduction during austerity, without increasing the budget.\",\"citations\":[{\"page\":77,\"region_label\":\"Croatia poverty-map example, paragraph beside Map 2.1\",\"bbox\":[0.092,0.085,0.906,0.374],\"quote\":\"Because the allocation of funds depends on an area’s gross domestic product (GDP) per capita, poor municipalities situated in nonpoor regions may not receive funding. Armed with the poverty map, Croatia responded with proposals for new geographical subdivisions that concentrate EU funds in the poorest areas.\"},{\"page\":78,\"region_label\":\"Costa Rica example, paragraph at top left\",\"bbox\":[0.204,0.085,0.548,0.209],\"quote\":\"Costa Rica issued a presidential directive calling for use of such an index for budgetary planning and as an official measure for allocating resources and monitoring and evaluating social programs. The country has used the index to modify its budget allocation, which helped accelerate poverty reduction during a period of austerity without an increase in budget.\"}]}",
+  "elapsed_seconds": 7.365140200003225
+}

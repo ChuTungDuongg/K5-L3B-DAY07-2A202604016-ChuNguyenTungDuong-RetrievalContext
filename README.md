@@ -43,5 +43,8 @@ MSSV: **2A202604016**, lớp L3B. Controller và retriever thật nằm trong `s
 - [Phụ lục lịch sử phiên bản, lỗi và chạy lại](docs/EXPERIMENT_HISTORY.md)
 - [Kiểm tra yêu cầu và các giới hạn còn lại](docs/REQUIREMENTS_AUDIT.md)
 - [Nguồn và điều kiện sử dụng dữ liệu](data/ATTRIBUTION.md)
+- [Phần nâng cao World Bank: cài đặt và tái lập](advanced/README.md)
+- [Báo cáo nâng cao vòng hai, bảng Dev/Test và chi phí riêng](advanced/results/round2/REPORT.md)
+- [Báo cáo nâng cao vòng một, giữ lại để đối chiếu](advanced/ROUND1_REPORT.md)
 
 Báo cáo chính dùng hai split **Dev** (15 câu có đáp án + 2 thiếu bằng chứng) và **Test** (5 + 2). Các bảng chính gồm ba phương pháp retrieval, ba cấu hình agent trên Dev và baseline/ứng viên trên Test. Phụ lục giữ phiên bản cũ và mọi lượt lỗi/chạy lại. Baseline Test dùng lượt chạy lại vì lần đầu lỗi API 1/7 câu, được công bố trong báo cáo. Việc rút gọn cách trình bày giữ nguyên trace, nhãn và các giới hạn đánh giá.

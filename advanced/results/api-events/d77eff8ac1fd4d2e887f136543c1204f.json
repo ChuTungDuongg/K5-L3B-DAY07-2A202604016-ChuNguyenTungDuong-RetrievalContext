@@ -1,0 +1,60 @@
+{
+  "id": "d77eff8ac1fd4d2e887f136543c1204f",
+  "label": "20261116-165446-r2-test-baseline-cbad637d:adv-r2-test-30:step1",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 26373,
+  "maximum_output_tokens": 3500,
+  "images": [
+    {
+      "page": 264,
+      "path": "advanced/data/pages/p264.jpg",
+      "sha256": "eaaa3577045b901915ad6899ee5c246e164e9e70a07a8daa7eab7860c5abef75"
+    },
+    {
+      "page": 260,
+      "path": "advanced/data/pages/p260.jpg",
+      "sha256": "b13876f5b6ca3e47efc34d759be0d9e264891645e20726bb157e917982bed538"
+    },
+    {
+      "page": 263,
+      "path": "advanced/data/pages/p263.jpg",
+      "sha256": "e4c1e2b17102037c5fd0e7aff5dfb057df262c1a679f8a20615f28c35aacd012"
+    },
+    {
+      "page": 259,
+      "path": "advanced/data/pages/p259.jpg",
+      "sha256": "fdce7e6889dfccd6c3ebb5fdca98a4b97740cf82b8c30f5a082d453dcdfb27f1"
+    },
+    {
+      "page": 261,
+      "path": "advanced/data/pages/p261.jpg",
+      "sha256": "2fe86fa0726e9bb7af3a666f157232f254bf5814da46cf66d481ecf7d3a8f1fc"
+    },
+    {
+      "page": 229,
+      "path": "advanced/data/pages/p229.jpg",
+      "sha256": "65b955aa84f35ad2c908f92fcdc704d47cac5f52eeb1a575cd14cb7fd8ad3e00"
+    }
+  ],
+  "instructions_sha256": "7b27220272435c850770154f165a9b99ffc1a1c1848fec729da980d6adec6535",
+  "usage": {
+    "input_tokens": 26373,
+    "input_tokens_details": {
+      "cache_write_tokens": 26370,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 26370
+      }
+    },
+    "output_tokens": 239,
+    "output_tokens_details": {
+      "reasoning_tokens": 155
+    },
+    "total_tokens": 26612
+  },
+  "response_id": "resp_0389e7f514e6309e016afad4ef1be487d2ae84affac0d553a5",
+  "response_status": "completed",
+  "output_text": "{\"action\":\"answer\",\"expression\":\"\",\"queries\":[],\"pages\":[],\"status\":\"abstain\",\"answer\":\"Insufficient evidence. Table 7.2 classifies RCEP’s cross-border-data-flow provision as soft law; it does not report disputes, binding rulings, or compensation awarded, so those counts cannot be determined from the cited table.\",\"citations\":[]}",
+  "elapsed_seconds": 10.025925500005542
+}

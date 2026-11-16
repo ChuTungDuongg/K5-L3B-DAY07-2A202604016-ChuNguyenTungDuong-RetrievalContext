@@ -1,0 +1,45 @@
+{
+  "id": "e46f07e3d3a44f01b235f581155322ab",
+  "label": "20261116-165446-r2-test-baseline-cbad637d:adv-r2-test-19:review0",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 12896,
+  "maximum_output_tokens": 3500,
+  "images": [
+    {
+      "page": 123,
+      "path": "advanced/data/pages/p123.jpg",
+      "sha256": "00721e65ff3c3156e9953e6632f0ede13fc688d10ec7d069537f7f5861cc27d8"
+    },
+    {
+      "page": 55,
+      "path": "advanced/data/pages/p055.jpg",
+      "sha256": "bc9ec56424a481e6354249432c51713eef6615c99b24c786468bc74a27ef7bc0"
+    },
+    {
+      "page": 28,
+      "path": "advanced/data/pages/p028.jpg",
+      "sha256": "57fa21abf0c96df7089952316a438fac92277418dac1d61fd1d32e2c2d9ed857"
+    }
+  ],
+  "instructions_sha256": "0507604096aab315eb8e0306caca34acc2d0bedacd7d3b2ec25cc18ae985e348",
+  "usage": {
+    "input_tokens": 12896,
+    "input_tokens_details": {
+      "cache_write_tokens": 12893,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 12893
+      }
+    },
+    "output_tokens": 647,
+    "output_tokens_details": {
+      "reasoning_tokens": 223
+    },
+    "total_tokens": 13543
+  },
+  "response_id": "resp_02da7054cd786486016afad41cfea087d29fb1f85e410bba03",
+  "response_status": "completed",
+  "output_text": "{\"action\":\"answer\",\"expression\":\"\",\"queries\":[],\"pages\":[123,28],\"status\":\"answered\",\"answer\":\"Alternative scoring uses digital footprints to assess creditworthiness and can help score people who lack conventional documentation, addressing gaps in information about potential borrowers. Two risks described in the report are: (1) discriminatory assumptions embedded in the data used to train machine-learning systems can be amplified by those systems; and (2) social connections can be used as a creditworthiness signal—for example, Lenddo reportedly rated consumers as less creditworthy if they were Facebook friends with someone who repaid a loan late. The cited pages support these two risks, but do not specifically describe the first as a data-visibility mechanism.\",\"citations\":[{\"page\":123,\"region_label\":\"Finance — alternative credit scoring algorithms, left column\",\"bbox\":[0.09,0.53,0.44,0.78],\"quote\":\"take advantage of users’ digital footprints to train ML algorithms to identify, score, and underwrite credit for individuals who otherwise lack documentation of their creditworthiness.\"},{\"page\":28,\"region_label\":\"Private intent data can fuel growth and boost development — algorithmic discrimination, right column\",\"bbox\":[0.56,0.27,0.91,0.52],\"quote\":\"if the data fed into the machine learning embed discriminatory assumptions, machine learning will amplify that discrimination\"},{\"page\":123,\"region_label\":\"Finance — algorithmic discrimination example, right column\",\"bbox\":[0.45,0.33,0.82,0.42],\"quote\":\"has been known to rate consumers as less creditworthy if they are friends on Facebook with someone who was late paying back a loan.\"},{\"page\":28,\"region_label\":\"Private intent data can fuel growth and boost development — lack of data on borrowers, left column\",\"bbox\":[0.2,0.54,0.54,0.7],\"quote\":\"solve the long-standing issue of lack of data on potential borrowers (or more specifically, asymmetric information) in banking.\"}]}",
+  "elapsed_seconds": 10.639780199999223
+}

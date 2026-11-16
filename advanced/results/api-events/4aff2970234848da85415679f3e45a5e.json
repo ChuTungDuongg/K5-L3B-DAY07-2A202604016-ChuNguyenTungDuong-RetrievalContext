@@ -1,0 +1,35 @@
+{
+  "id": "4aff2970234848da85415679f3e45a5e",
+  "label": "index:p264",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 4052,
+  "maximum_output_tokens": 6000,
+  "images": [
+    {
+      "page": 264,
+      "path": "advanced/data/pages/p264.jpg",
+      "sha256": "eaaa3577045b901915ad6899ee5c246e164e9e70a07a8daa7eab7860c5abef75"
+    }
+  ],
+  "instructions_sha256": "01d3a56b3c678b1acd37e506320a854b17dd9ddb13ece56a92b62990aeb80d41",
+  "usage": {
+    "input_tokens": 4052,
+    "input_tokens_details": {
+      "cache_write_tokens": 4049,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 4049
+      }
+    },
+    "output_tokens": 759,
+    "output_tokens_details": {
+      "reasoning_tokens": 228
+    },
+    "total_tokens": 4811
+  },
+  "response_id": "resp_0e30c22e80cd55cf016afa90da98fc87d29a78aa92923c2e58",
+  "response_status": "completed",
+  "output_text": "{\"regions\":[{\"label\":\"Table 7.2 — Key provisions on digital trade in recent trade agreements\",\"kind\":\"table\",\"bbox\":[0.084,0.086,0.907,0.463],\"summary\":\"Comparison of nine digital-trade provisions across eight trade agreements (2004–2020). Colored cells distinguish binding from soft-law provisions; blank cells indicate no provision.\",\"details\":\"Columns, in order: Provision; US–Singapore FTA (2004); Canada–EU CETA (2014); ChAFTA (2015); CPTPP (2018); ASEAN (2019); USMCA (2020); DEPA (2020); RCEP (2020). Rows and cell statuses in that column order (binding / soft law / no provision): Nondiscrimination of digital products — binding, none, none, binding, none, binding, binding, soft law. E-documents and e-signatures — none, none, binding, binding, binding, binding, binding, binding. Paperless trading — none, none, binding, soft law, binding, soft law, binding, soft law. Online consumer protection — none, none, soft law, binding, binding, binding, binding, binding. Privacy protection — none, soft law, soft law, binding, binding, binding, binding, binding. Cybersecurity — none, none, none, soft law, soft law, soft law, soft law, none. Unrestricted cross-border data flows — none, none, none, binding, soft law, binding, binding, soft law. Prohibition of data localization — none, none, none, binding, soft law, binding, binding, soft law. Customs duties — binding, binding, binding, binding, none, binding, binding, binding. Legend: orange indicates a binding provision; yellow indicates a soft-law provision; empty cell indicates no provision. Source: WDR 2021 team. Abbreviations expanded in the printed note: ASEAN = Association of Southeast Asian Nations; CETA = Comprehensive Economic and Trade Agreement; ChAFTA = China-Australia Free Trade Agreement; CPTPP = Comprehensive and Progressive Agreement for Trans-Pacific Partnership; DEPA = Digital Economy Partnership Agreement; EU = European Union; FTA = Free Trade Agreement; RCEP = Regional Comprehensive Economic Partnership; US = United States; USMCA = United States–Mexico–Canada Agreement.\",\"limitations\":\"Cell statuses are transcribed from the visible orange, yellow, and blank fills and the printed legend. No quantitative values are shown.\"}]}",
+  "elapsed_seconds": 10.30737180000142
+}

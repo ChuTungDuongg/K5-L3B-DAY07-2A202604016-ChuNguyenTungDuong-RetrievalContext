@@ -1,0 +1,55 @@
+{
+  "id": "40989a8608ef4976bcb92f9a13a82e74",
+  "label": "20261116-121901-dev-candidate-25029307:adv-dev-13:step0",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 20806,
+  "maximum_output_tokens": 3500,
+  "images": [
+    {
+      "page": 49,
+      "path": "advanced/data/pages/p049.jpg",
+      "sha256": "4fc676444eecbc0577e8c29ad0e5cc31554fc8ea3594492c4d3c8e602423066c"
+    },
+    {
+      "page": 242,
+      "path": "advanced/data/pages/p242.jpg",
+      "sha256": "fba327f656ab4e7bf20e80c39b059ffc882f29f9797d7e2143a90488bdd963d6"
+    },
+    {
+      "page": 95,
+      "path": "advanced/data/pages/p095.jpg",
+      "sha256": "a51a2c4a7d708d4d899b82d383ecbf49948612dadeea7fc87dfe5e94d3a0f117"
+    },
+    {
+      "page": 125,
+      "path": "advanced/data/pages/p125.jpg",
+      "sha256": "8e2e32eb941660c9944fbc308629f58f696a861184cc48a0e9c7eb9906c46455"
+    },
+    {
+      "page": 8,
+      "path": "advanced/data/pages/p008.jpg",
+      "sha256": "db0dbafd1b954d91c8c9134ddc2e6fa9ae5c0ece7cbf43819e1d67fc0038df4a"
+    }
+  ],
+  "instructions_sha256": "ea16e5e82aecd9d10ddbf9ad06d2474cc521d3d867a62d5379a957bcf9904631",
+  "usage": {
+    "input_tokens": 20806,
+    "input_tokens_details": {
+      "cache_write_tokens": 20803,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 20803
+      }
+    },
+    "output_tokens": 159,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 20965
+  },
+  "response_id": "resp_09bee94b2add1281016afa92d3eab487d29385cd8121b8c949",
+  "response_status": "completed",
+  "output_text": "{\"action\":\"answer\",\"expression\":\"\",\"queries\":[],\"pages\":[49],\"status\":\"answered\",\"answer\":\"Symptoms questions let the research team estimate asymptomatic infection rates; questions about work and travel outside the home helped measure how much household members adhered to social-distancing guidelines.\",\"citations\":[{\"page\":49,\"region_label\":\"Box 1.2, paragraph beginning “Asking questions about symptoms”\",\"bbox\":[0.115,0.398,0.439,0.496],\"quote\":\"Asking questions about symptoms enabled the research team to estimate rates of asymptomatic infection. Sociodemographic questions, especially those about work and travel outside the home, enabled the team to measure how much a household member adhered to social distancing guidelines.\"}]}",
+  "elapsed_seconds": 7.981158500006131
+}

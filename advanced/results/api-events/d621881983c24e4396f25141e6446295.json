@@ -1,0 +1,45 @@
+{
+  "id": "d621881983c24e4396f25141e6446295",
+  "label": "20261116-122648-dev-baseline-91fbfbb2:adv-dev-10:step0",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 12430,
+  "maximum_output_tokens": 3500,
+  "images": [
+    {
+      "page": 51,
+      "path": "advanced/data/pages/p051.jpg",
+      "sha256": "7b931c34dc439a6365a2e581a0407b029b5dd32c2b30ebfa478c1ecd926cec14"
+    },
+    {
+      "page": 50,
+      "path": "advanced/data/pages/p050.jpg",
+      "sha256": "9311a1fac1fd01eef5219db4ff2f688769f389e4640c3b1cef473f53df207e38"
+    },
+    {
+      "page": 13,
+      "path": "advanced/data/pages/p013.jpg",
+      "sha256": "7cf6e549ea25d91e5594482887f426148a52cf2357450e5eef06780391da4f08"
+    }
+  ],
+  "instructions_sha256": "7b27220272435c850770154f165a9b99ffc1a1c1848fec729da980d6adec6535",
+  "usage": {
+    "input_tokens": 12430,
+    "input_tokens_details": {
+      "cache_write_tokens": 12427,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 12427
+      }
+    },
+    "output_tokens": 312,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 12742
+  },
+  "response_id": "resp_0fd4445ffb178e25016afa9462e57487d2b75da40ed71092ab",
+  "response_status": "completed",
+  "output_text": "{\"action\":\"answer\",\"expression\":\"\",\"queries\":[],\"pages\":[],\"status\":\"answered\",\"answer\":\"Data are nonrival: they can be reused for different purposes without being depleted. But they are not a pure public good because they are excludable—the holder can prevent others from accessing them. Collection may be underfunded socially because the collector bears the cost but may not capture the full value, especially the potentially much greater value of unanticipated secondary uses.\",\"citations\":[{\"page\":50,\"region_label\":\"Paragraph under “The economics of data and political economy issues”\",\"bbox\":[0.565,0.371,0.925,0.516],\"quote\":\"data are inexhaustible or “nonrival”—that is, a person’s call detail records, location history, internet usage, and medical records, among other things, can be used repeatedly by firms and governments for different purposes without depleting them.\"},{\"page\":51,\"region_label\":\"Paragraphs on social underinvestment and data excludability\",\"bbox\":[0.09,0.381,0.448,0.93],\"quote\":\"These characteristics raise the prospect of serious underinvestment in data collection from a social perspective because the entities bearing the cost of data collection will not necessarily be the ones capturing its full economic value. At the same time, data are not a pure public good because they are excludable, allowing the entity that originally collects and holds the data to prevent others from accessing them.\"}]}",
+  "elapsed_seconds": 12.832547500001965
+}

@@ -1,0 +1,35 @@
+{
+  "id": "751d835283f94769a7f2bc64058c7512",
+  "label": "index:p157",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 4095,
+  "maximum_output_tokens": 6000,
+  "images": [
+    {
+      "page": 157,
+      "path": "advanced/data/pages/p157.jpg",
+      "sha256": "426023e07f0006e2e02c1f9401ad68d599bb3cf1479142364ae33e52db0db0ef"
+    }
+  ],
+  "instructions_sha256": "01d3a56b3c678b1acd37e506320a854b17dd9ddb13ece56a92b62990aeb80d41",
+  "usage": {
+    "input_tokens": 4095,
+    "input_tokens_details": {
+      "cache_write_tokens": 4092,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 4092
+      }
+    },
+    "output_tokens": 395,
+    "output_tokens_details": {
+      "reasoning_tokens": 119
+    },
+    "total_tokens": 4490
+  },
+  "response_id": "resp_0a078f5f0ab651df016afa907cbfb487d29d35718aa268e4ae",
+  "response_status": "completed",
+  "output_text": "{\"regions\":[{\"label\":\"Figure 4.2\",\"kind\":\"chart\",\"bbox\":[0.093,0.61,0.786,0.925],\"summary\":\"Two pie charts compare where AI specialists are employed (panel a) with where they completed undergraduate study (panel b). The United States has the largest employment share (59%), while China has the largest study share (29%).\",\"details\":\"Panel a, “Location of employment (%)”: United States 59; China 11; Europe 10; Canada 6; United Kingdom 4; Others 10. Panel b, “Location of study (%)”: China 29; United States 20; Europe 18; India 8; Canada 5; United Kingdom 4; Iran, Islamic Rep. 3; Israel 3; Others 10. Each panel is a pie chart with labeled slices; values are percentages. Source: MacroPolo, “The Global AI Talent Tracker,” adapted with permission of MacroPolo/Paulson Institute; further permission required for reuse. The note says panel a affiliations are based on the headquarters of institutions where researchers currently work, and panel b on the country where researchers received their undergraduate degree.\",\"limitations\":\"The charts show reported percentages only; no underlying counts or reference date are visible.\"}]}",
+  "elapsed_seconds": 8.020421000001079
+}

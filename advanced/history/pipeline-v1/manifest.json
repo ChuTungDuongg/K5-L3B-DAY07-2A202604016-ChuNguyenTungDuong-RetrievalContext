@@ -1,0 +1,8 @@
+{
+  "purpose": "Historical diagnostic Dev v1 code, reconstructed from the three known edits and verified byte-for-byte against the hashes saved before those runs. All other transitive runtime files match current pipeline hashes. Do not use this historical code to replace the selected Test pipeline.",
+  "files": {
+    "advanced/agent.py": "037b205afc29f484faae6992666e545acc3fe995b7a793fe38e65f710e71ceb7",
+    "advanced/source.py": "dfb16f84915a3ff6111631567263bde56621a074e1042caa47b2078b6218b50f",
+    "advanced/run.py": "319815ec80d6e13d01bbbfcf6314d63f1359ab4e9456bb14c59d1e6504fd7c25"
+  }
+}

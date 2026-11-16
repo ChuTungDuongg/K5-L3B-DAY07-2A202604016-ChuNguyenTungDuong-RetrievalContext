@@ -1,0 +1,45 @@
+{
+  "id": "25547c37b93b4eaaaad724ff9bc7c4a2",
+  "label": "20261116-165446-r2-test-baseline-cbad637d:adv-r2-test-29:step0",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 12960,
+  "maximum_output_tokens": 3500,
+  "images": [
+    {
+      "page": 77,
+      "path": "advanced/data/pages/p077.jpg",
+      "sha256": "c9eb2bc800a11b04206aa74e569a149be988cfbab9629a5b7fc3931bf4b929f8"
+    },
+    {
+      "page": 10,
+      "path": "advanced/data/pages/p010.jpg",
+      "sha256": "efcb7b6edc3038fbf5e663d5989c9ab9e31d5cafe3184b7cac3c08ccb7e7e032"
+    },
+    {
+      "page": 82,
+      "path": "advanced/data/pages/p082.jpg",
+      "sha256": "785a666cbc6e359b9c9e17ed8e4e28d1a27ace95d20d5af79fd4c5a2c31f4d27"
+    }
+  ],
+  "instructions_sha256": "7b27220272435c850770154f165a9b99ffc1a1c1848fec729da980d6adec6535",
+  "usage": {
+    "input_tokens": 12960,
+    "input_tokens_details": {
+      "cache_write_tokens": 12957,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 12957
+      }
+    },
+    "output_tokens": 77,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 13037
+  },
+  "response_id": "resp_046c1735c4225c83016afad4d67f2487d2aaae962ceb085c90",
+  "response_status": "completed",
+  "output_text": "{\"action\":\"answer\",\"expression\":\"\",\"queries\":[],\"pages\":[77],\"status\":\"abstain\",\"answer\":\"The report does not state an exact amount of EU funds actually reallocated. It says Croatia proposed new geographical subdivisions to concentrate funds in the poorest areas, and that this reordering had the potential to reduce inequality.\",\"citations\":[]}",
+  "elapsed_seconds": 5.897585599996091
+}

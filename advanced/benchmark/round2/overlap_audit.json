@@ -1,0 +1,168 @@
+{
+  "status": "Assistant comparison of all 30 proposed target answer facts against the 18 original Dev and 30 original Test cases; no reused target answer fact or paraphrase identified. Shared source tables, background concepts, and units are permitted but are not counted as novel target facts.",
+  "old_dev_sha256": "4e892a12a132de6f51eaa81ee93ed057aa3a38e47a5afac28b313777ca90b745",
+  "old_test_sha256": "e60bb6943846a45e0af5d3dd1719eb8d06014983afa25e50ebcb62bb1d6d192e",
+  "old_cases_reviewed": 48,
+  "new_cases_reviewed": 30,
+  "per_case": [
+    {
+      "query_id": "adv-r2-test-01",
+      "new_target": "External validity definition/transfer/profiling research gaps",
+      "same_answer_fact_as_old": false
+    },
+    {
+      "query_id": "adv-r2-test-02",
+      "new_target": "CPTPP versus RCEP six provision cells",
+      "same_answer_fact_as_old": false
+    },
+    {
+      "query_id": "adv-r2-test-03",
+      "new_target": "Strategic-planning centralized/decentralized actors",
+      "same_answer_fact_as_old": false
+    },
+    {
+      "query_id": "adv-r2-test-04",
+      "new_target": "Advance-release-calendar row, 30/98 and gap 68",
+      "same_answer_fact_as_old": false
+    },
+    {
+      "query_id": "adv-r2-test-05",
+      "new_target": "Low-income safeguards nonpersonal47 versus personal31",
+      "same_answer_fact_as_old": false
+    },
+    {
+      "query_id": "adv-r2-test-06",
+      "new_target": "Low-income machine-readable/nonproprietary37/75",
+      "same_answer_fact_as_old": false
+    },
+    {
+      "query_id": "adv-r2-test-07",
+      "new_target": "National/international laws/regulations layer",
+      "same_answer_fact_as_old": false
+    },
+    {
+      "query_id": "adv-r2-test-08",
+      "new_target": "Economic data-cycle cleaning/feed/support",
+      "same_answer_fact_as_old": false
+    },
+    {
+      "query_id": "adv-r2-test-09",
+      "new_target": "Three dimensions of trust legal framework",
+      "same_answer_fact_as_old": false
+    },
+    {
+      "query_id": "adv-r2-test-10",
+      "new_target": "Learning/evidence versus rule-making functions",
+      "same_answer_fact_as_old": false
+    },
+    {
+      "query_id": "adv-r2-test-11",
+      "new_target": "Academia fundamentals/initiating actions",
+      "same_answer_fact_as_old": false
+    },
+    {
+      "query_id": "adv-r2-test-12",
+      "new_target": "Kenya pump repair mean/median absolute reductions",
+      "same_answer_fact_as_old": false
+    },
+    {
+      "query_id": "adv-r2-test-13",
+      "new_target": "High/low wireless/fixed subscriptions per100,2019",
+      "same_answer_fact_as_old": false
+    },
+    {
+      "query_id": "adv-r2-test-14",
+      "new_target": "Disruptive-skill net flow and ICT wage panels",
+      "same_answer_fact_as_old": false
+    },
+    {
+      "query_id": "adv-r2-test-15",
+      "new_target": "Passenger-transport shares and sector leaders in antitrust cases",
+      "same_answer_fact_as_old": false
+    },
+    {
+      "query_id": "adv-r2-test-16",
+      "new_target": "2025 indirect-tax-potential country contributions and total",
+      "same_answer_fact_as_old": false
+    },
+    {
+      "query_id": "adv-r2-test-17",
+      "new_target": "Stage0/3 wireless prices plus private cloud-onramp mechanism",
+      "same_answer_fact_as_old": false
+    },
+    {
+      "query_id": "adv-r2-test-18",
+      "new_target": "Agesic2007,presidentialleadership,IGA+TOGAF",
+      "same_answer_fact_as_old": false
+    },
+    {
+      "query_id": "adv-r2-test-19",
+      "new_target": "Credit-access promise plus invisibility/network discrimination",
+      "same_answer_fact_as_old": false
+    },
+    {
+      "query_id": "adv-r2-test-20",
+      "new_target": "Croatia allocation-rule mismatch plus CostaRica multidimensional-index budget constraint",
+      "same_answer_fact_as_old": false
+    },
+    {
+      "query_id": "adv-r2-test-21",
+      "new_target": "Government-exception limitations and surveillance/missioncreep",
+      "same_answer_fact_as_old": false
+    },
+    {
+      "query_id": "adv-r2-test-22",
+      "new_target": "Uganda procurement verification and reform chain",
+      "same_answer_fact_as_old": false
+    },
+    {
+      "query_id": "adv-r2-test-23",
+      "new_target": "Equinix renewable-share change and relative GHG reduction",
+      "same_answer_fact_as_old": false
+    },
+    {
+      "query_id": "adv-r2-test-24",
+      "new_target": "eEstoniaCouncil leadership plus XRoad transparency",
+      "same_answer_fact_as_old": false
+    },
+    {
+      "query_id": "adv-r2-test-25",
+      "new_target": "Missing wealth-quintile Kenya pump repair averages",
+      "same_answer_fact_as_old": false
+    },
+    {
+      "query_id": "adv-r2-test-26",
+      "new_target": "Missing yearly DS-versus-AI worker outflow",
+      "same_answer_fact_as_old": false
+    },
+    {
+      "query_id": "adv-r2-test-27",
+      "new_target": "Missing Singapore2025 tax-rate/base input pair",
+      "same_answer_fact_as_old": false
+    },
+    {
+      "query_id": "adv-r2-test-28",
+      "new_target": "Missing paired Equinix2018 absolute accounting-basis GHG totals",
+      "same_answer_fact_as_old": false
+    },
+    {
+      "query_id": "adv-r2-test-29",
+      "new_target": "Missing realized Croatia poverty-map euro reallocation",
+      "same_answer_fact_as_old": false
+    },
+    {
+      "query_id": "adv-r2-test-30",
+      "new_target": "Missing RCEP2020 dispute/ruling/compensation outcomes",
+      "same_answer_fact_as_old": false
+    }
+  ],
+  "close_source_reuse_checks": [
+    "Table2.1: new format rows versus old license row; target values and comparison differ.",
+    "Table2.2: new calendar row versus old metadata row; shared population/year qualification is background, not the target fact.",
+    "Table6.1: new low-income safeguard comparison versus old global commerce/private-enabler comparison.",
+    "Box8.1: new Agesic/architecture foundation versus old definition/inventory steps of soft infrastructure.",
+    "Figure5.11 prices/private on-ramp mechanism versus old KIXP closure and local-routing narrative.",
+    "Unanswerable conditions are new; thematic adjacency to new answerable cases is intentional, not duplication of their requested answer facts."
+  ],
+  "human_confirmed": false
+}

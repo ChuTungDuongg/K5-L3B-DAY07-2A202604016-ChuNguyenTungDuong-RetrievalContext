@@ -1,0 +1,35 @@
+{
+  "id": "75cf5fb05dcd4d848ca01590ab4328ea",
+  "label": "index:p251",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 4182,
+  "maximum_output_tokens": 6000,
+  "images": [
+    {
+      "page": 251,
+      "path": "advanced/data/pages/p251.jpg",
+      "sha256": "a5971aedbd4a947b1aabc556e7a29c7ee1b96b22012715c0225255e2d83bcf84"
+    }
+  ],
+  "instructions_sha256": "01d3a56b3c678b1acd37e506320a854b17dd9ddb13ece56a92b62990aeb80d41",
+  "usage": {
+    "input_tokens": 4182,
+    "input_tokens_details": {
+      "cache_write_tokens": 4179,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 4179
+      }
+    },
+    "output_tokens": 643,
+    "output_tokens_details": {
+      "reasoning_tokens": 203
+    },
+    "total_tokens": 4825
+  },
+  "response_id": "resp_080ebbff6a56bcdf016afa90cf629487d281e8e0e252fb4998",
+  "response_status": "completed",
+  "output_text": "{\"regions\":[{\"label\":\"Figure 7.3\",\"kind\":\"chart\",\"bbox\":[0.093,0.594,0.914,0.938],\"summary\":\"Stacked bar chart of antitrust-case counts by digital-economy sector and practice type; abuse of dominance is widespread across several sectors, while vertical restraints dominate e-commerce and tourism and collusion is prominent in passenger transport.\",\"details\":\"Title: “Among anticompetitive practices, abuse of dominance is more widespread worldwide across multiple sectors of the digital economy.” The y-axis is “Number of antitrust cases,” scaled from 0 to 16 in increments of 2. Stacked bars show abuse of dominance (blue), collusion (green), and vertical restraints (orange). Values printed in the bars, in that order, are: E-commerce 3, 3, 9 (total 15); Passenger transport 5, 6, 1 (total 12); Software and operating systems 9, 0, 1 (total 10); Online search and advertising 9, 0, 0 (total 9); Tourism (accommodation) 0, 1, 7 (total 8); Online real estate platforms 2, 0, 0 (total 2); E-books 0, 1, 1 (total 2); Social media and communications services 1, 0, 0 (total 1); Mobile financial services 1, 0, 0 (total 1); Ticketing 1, 0, 0 (total 1); Online delivery service 0, 1, 0 (total 1). Source: Nyman and Barajas, forthcoming; data link printed as http://bit.do/WDR2021-Fig-7_3. Note: Based on publicly available information as of January 2020 for antitrust cases involving digital platforms globally.\",\"limitations\":\"The chart presents counts, not percentages. Zeroes above mean no segment/value is shown for that practice in the sector; no unreadable values inferred.\"}]}",
+  "elapsed_seconds": 9.078542399998696
+}

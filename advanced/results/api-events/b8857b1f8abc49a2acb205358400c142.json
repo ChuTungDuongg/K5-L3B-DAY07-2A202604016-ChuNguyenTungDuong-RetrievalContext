@@ -1,0 +1,35 @@
+{
+  "id": "b8857b1f8abc49a2acb205358400c142",
+  "label": "index:p085",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 3887,
+  "maximum_output_tokens": 6000,
+  "images": [
+    {
+      "page": 85,
+      "path": "advanced/data/pages/p085.jpg",
+      "sha256": "e389cd1eaa4358636d986f0d69e4bd2dde3301e26053b13a5f5e1228bc4aedcd"
+    }
+  ],
+  "instructions_sha256": "01d3a56b3c678b1acd37e506320a854b17dd9ddb13ece56a92b62990aeb80d41",
+  "usage": {
+    "input_tokens": 3887,
+    "input_tokens_details": {
+      "cache_write_tokens": 3884,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 3884
+      }
+    },
+    "output_tokens": 508,
+    "output_tokens_details": {
+      "reasoning_tokens": 195
+    },
+    "total_tokens": 4395
+  },
+  "response_id": "resp_05b3fab1917ee466016afa904077d887d2baca708b3dc56860",
+  "response_status": "completed",
+  "output_text": "{\"regions\":[{\"label\":\"Figure 2.6 — A positive feedback loop can connect enablers and features of public intent data with greater development value\",\"kind\":\"diagram\",\"bbox\":[0.093,0.539,0.8,0.928],\"summary\":\"Three stacked stages show how enablers support desirable features of public intent data, which contribute to development value; side arrows form a feedback loop back to the enablers.\",\"details\":\"Top green stage, “Enablers of public intent data”: Financing; Technical capacity; Governance; Data demand. A downward arrow leads to the middle blue stage, “Desirable features of public intent data,” organized into four columns: (1) Adequate coverage—Completeness, Timeliness, Frequency; (2) High quality—Granularity, Accuracy, Comparability; (3) Easy to use—Accessibility, Understandability, Interoperability; (4) Safe to use—Impartiality, Confidentiality, Appropriateness. A downward arrow leads to the bottom purple stage, “Value of public intent data”: Improved service delivery; Prioritization of scarce resources; Accountability and empowerment. A large loop runs from the value stage up both outer sides and points back into the enablers stage, indicating feedback. Source: WDR 2021 team.\",\"limitations\":\"The diagram gives no numerical values. The outer feedback arrows’ direction is visible; the graphic does not specify a quantitative measure of the feedback.\"}]}",
+  "elapsed_seconds": 8.165117100004863
+}

@@ -1,0 +1,35 @@
+{
+  "id": "bc0f18e7b27c48ed892bbd54f5d9e9d5",
+  "label": "index:p116",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 3897,
+  "maximum_output_tokens": 6000,
+  "images": [
+    {
+      "page": 116,
+      "path": "advanced/data/pages/p116.jpg",
+      "sha256": "5d26a3e03001e9cc66a4f873b9b8a780828326676327512c31cd0107d16bd66c"
+    }
+  ],
+  "instructions_sha256": "01d3a56b3c678b1acd37e506320a854b17dd9ddb13ece56a92b62990aeb80d41",
+  "usage": {
+    "input_tokens": 3897,
+    "input_tokens_details": {
+      "cache_write_tokens": 3894,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 3894
+      }
+    },
+    "output_tokens": 356,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 4253
+  },
+  "response_id": "resp_01e8960c5a92d28e016afa905af03887d28e10245e7fef3291",
+  "response_status": "completed",
+  "output_text": "{\"regions\":[{\"label\":\"Figure 3.2 — The role of data in economic activity\",\"kind\":\"diagram\",\"bbox\":[0.118,0.085,0.904,0.626],\"summary\":\"Circular flow diagram shows data as both an input to and by-product of economic activity, with platforms and data-driven businesses using data and technologies; connectivity, storage, and processing support the system.\",\"details\":\"Main nodes: “Economic activity (firms, entrepreneurs, farmers)” and “Platforms and other data-driven businesses using technologies, including” big data analytics for insights and innovation (including AI), IoT and smart devices, and transactions facilitated by DLT (including blockchain); “Data produced as a by-product of economic activity”; “Data inputs for economic activity”; and “Data used to inform advertising.” The diagram indicates data observed on users, objects, and processes through economic activity (including machine-generated data) and data inferred through analytics flowing from economic activity toward data produced as a by-product. That data goes through “Big data cleaning and storage” and feeds data inputs for economic activity. “Data volunteered by users” and “Open public data” also feed data inputs. Data inputs connect to platforms/economic activity and to advertising use; a callout states advertising data is a source of revenue for economic activities in advertising-based business models. A bracketed base reads “Supported by network connectivity, storage capacity, and processing capacity.” Source: WDR 2021 team. Note defines AI as artificial intelligence, DLT as distributed ledger technology, and IoT as Internet of Things.\",\"limitations\":\"Diagram arrows and callouts are visible; some connector endpoints overlap the circles, but the overall relationships are legible.\"}]}",
+  "elapsed_seconds": 5.7210647000028985
+}

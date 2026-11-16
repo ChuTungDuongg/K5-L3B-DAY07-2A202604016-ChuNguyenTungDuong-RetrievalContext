@@ -1,0 +1,45 @@
+{
+  "id": "c579858ac4fc416484facb118bf7a3a8",
+  "label": "20261116-123301-test-baseline-45143179:adv-test-17:step0",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 13637,
+  "maximum_output_tokens": 3500,
+  "images": [
+    {
+      "page": 186,
+      "path": "advanced/data/pages/p186.jpg",
+      "sha256": "9a0233e560f2479f0df9dfa005111d5074bb9660a20c281a76fac9afb92c4c1b"
+    },
+    {
+      "page": 181,
+      "path": "advanced/data/pages/p181.jpg",
+      "sha256": "93056cafe09e4dc0dca6de4e6581ecd44bf9ec64e1cc1ef0ccf0a5d3e4548df2"
+    },
+    {
+      "page": 185,
+      "path": "advanced/data/pages/p185.jpg",
+      "sha256": "1836c9518727d198d99a2832e670cba05ec83fe1769ae6cdecb748e4f69c827a"
+    }
+  ],
+  "instructions_sha256": "7b27220272435c850770154f165a9b99ffc1a1c1848fec729da980d6adec6535",
+  "usage": {
+    "input_tokens": 13637,
+    "input_tokens_details": {
+      "cache_write_tokens": 13634,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 13634
+      }
+    },
+    "output_tokens": 274,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 13911
+  },
+  "response_id": "resp_0306509c7e54786e016afa960dcc7c87d2a6c0707921272cf9",
+  "response_status": "completed",
+  "output_text": "{\"action\":\"answer\",\"expression\":\"\",\"queries\":[],\"pages\":[181,186],\"status\":\"answered\",\"answer\":\"South Asia has the larger usage gap: 64% versus 49% in Sub-Saharan Africa, a difference of 15 percentage points. Sub-Saharan Africa consumes more mobile data per capita: 0.3 GB per month versus 0.1 GB in South Asia, a difference of 0.2 GB per capita per month. Both figures are for 2018.\",\"citations\":[{\"page\":181,\"region_label\":\"Figure 5.3, panel b: By region, 2018 (legend and full chart)\",\"bbox\":[0.093,0.088,0.917,0.454],\"quote\":\"Legend: Connected; Usage gap; Coverage gap. South Asia usage gap: 64; Sub-Saharan Africa usage gap: 49.\"},{\"page\":186,\"region_label\":\"Figure 5.6, panel b: By region (full chart with units and note)\",\"bbox\":[0.084,0.085,0.915,0.487],\"quote\":\"Data consumption (GB per capita per month): South Asia 1.1; Sub-Saharan Africa 0.3. Note: Data are for 2018.\"}]}",
+  "elapsed_seconds": 7.392309299997578
+}

@@ -1,0 +1,35 @@
+{
+  "id": "c2fef55690284e11bc111b49b70d91d9",
+  "label": "index:p212",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 3966,
+  "maximum_output_tokens": 6000,
+  "images": [
+    {
+      "page": 212,
+      "path": "advanced/data/pages/p212.jpg",
+      "sha256": "6a72d590c7027c62b0611952c5b47cde5f61865e264d368b4868d837280a0e9b"
+    }
+  ],
+  "instructions_sha256": "01d3a56b3c678b1acd37e506320a854b17dd9ddb13ece56a92b62990aeb80d41",
+  "usage": {
+    "input_tokens": 3966,
+    "input_tokens_details": {
+      "cache_write_tokens": 3963,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 3963
+      }
+    },
+    "output_tokens": 750,
+    "output_tokens_details": {
+      "reasoning_tokens": 294
+    },
+    "total_tokens": 4716
+  },
+  "response_id": "resp_0067c783b87a2b1d016afa90b23e3087d2b38a0d566a83c27d",
+  "response_status": "completed",
+  "output_text": "{\"regions\":[{\"label\":\"Figure 6.2 — The evolution of data protection\",\"kind\":\"diagram\",\"bbox\":[0.084,0.459,0.898,0.925],\"summary\":\"An upward, segmented timeline traces the development of rights and data-protection concepts from the Treaties of Westphalia (1648) to a projected “NEXT?” stage. Milestones include individual rights, international law, data-privacy practices, and modern data-protection instruments.\",\"details\":\"The rising sequence of colored arrow segments is labeled, in order: 1648; 1789; 1948; 1973; 1981; 1983 and 2013 (printed together near one segment); 1995; 1995; 2009; 2018; 2018; and “NEXT?”. Callouts identify: Treaties of Westphalia — “Introduces the rule of law”; Déclaration des droits de l'homme et du citoyen — “Expression of individual rights”; Article 12, UDHR — “Rights codified in international law”; Fair Information Practices — “Modern expression of data privacy”; Council of Europe Convention 108 — “2019 Convention 108+ codifies data protection”; OECD guidelines; WWW launched; EU directive — “First expression of data protection rights of the digital age”; Privacy by design; GDPR; and UN Principles. The figure’s note says the arc runs from historical concepts of rights governing interactions between the state and the individual (and between states) to principles guiding data protection. Source: WDR 2021 team. Abbreviations explained in the note: EU, European Union; GDPR, General Data Protection Regulation; OECD, Organisation for Economic Co-operation and Development; UDHR, Universal Declaration of Human Rights; UN, United Nations; WWW, World Wide Web.\",\"limitations\":\"The printed years 1983 and 2013 appear together on one arrow segment, and their precise association with nearby callouts is unclear from the layout. The callout says Convention 108+ was codified in 2019, while the nearby timeline also includes 2018; the figure does not make that relationship explicit.\"}]}",
+  "elapsed_seconds": 10.460952900000848
+}

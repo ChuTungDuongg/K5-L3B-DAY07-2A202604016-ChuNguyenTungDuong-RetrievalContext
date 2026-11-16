@@ -1,0 +1,45 @@
+{
+  "id": "a87ef3feb7434f34990510f79d140231",
+  "label": "20261116-165446-r2-test-baseline-cbad637d:adv-r2-test-12:step0",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 13109,
+  "maximum_output_tokens": 3500,
+  "images": [
+    {
+      "page": 76,
+      "path": "advanced/data/pages/p076.jpg",
+      "sha256": "18647768132dc77cac67d5ececc9cf6d9b58b78d6d180e88930fae070afdc2ad"
+    },
+    {
+      "page": 8,
+      "path": "advanced/data/pages/p008.jpg",
+      "sha256": "db0dbafd1b954d91c8c9134ddc2e6fa9ae5c0ece7cbf43819e1d67fc0038df4a"
+    },
+    {
+      "page": 158,
+      "path": "advanced/data/pages/p158.jpg",
+      "sha256": "1ee49ed2dd1def99bf92944528a9ddcbf634d5b24ebbb0bb0e20167208684a36"
+    }
+  ],
+  "instructions_sha256": "7b27220272435c850770154f165a9b99ffc1a1c1848fec729da980d6adec6535",
+  "usage": {
+    "input_tokens": 13109,
+    "input_tokens_details": {
+      "cache_write_tokens": 13106,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 13106
+      }
+    },
+    "output_tokens": 316,
+    "output_tokens_details": {
+      "reasoning_tokens": 83
+    },
+    "total_tokens": 13425
+  },
+  "response_id": "resp_03628d12ca14207d016afad3b2960087d2855fe427545c17d5",
+  "response_status": "completed",
+  "output_text": "{\"action\":\"calculate\",\"expression\":\"Mean reduction: 27 days (baseline) - 2.6 days (with mobile-enabled data) = 24.4 days. Median reduction: 6 days (baseline) - 1 day (with mobile-enabled data) = 5 days.\",\"queries\":[],\"pages\":[76],\"status\":\"answered\",\"answer\":\"The mean repair time falls from 27 days at baseline to 2.6 days with mobile-enabled data, a reduction of 24.4 days. The median falls from 6 days to 1 day, a reduction of 5 days.\",\"citations\":[{\"page\":76,\"region_label\":\"Figure 2.2, “Improving access to water” (chart, axes, category labels, legend, and values)\",\"bbox\":[0.077,0.692,0.539,0.939],\"quote\":\"Mean repair time: 27 days at baseline and 2.6 with mobile-enabled data. Median repair time: 6 days at baseline and 1 with mobile-enabled data. Number of days.\"}]}",
+  "elapsed_seconds": 6.423802999997861
+}

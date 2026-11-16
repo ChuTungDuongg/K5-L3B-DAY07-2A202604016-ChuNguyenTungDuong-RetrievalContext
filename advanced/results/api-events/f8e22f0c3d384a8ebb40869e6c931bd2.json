@@ -1,0 +1,60 @@
+{
+  "id": "f8e22f0c3d384a8ebb40869e6c931bd2",
+  "label": "20261116-121843-dev-baseline-488da010:adv-dev-17:step1",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 26390,
+  "maximum_output_tokens": 3500,
+  "images": [
+    {
+      "page": 92,
+      "path": "advanced/data/pages/p092.jpg",
+      "sha256": "876e9d4bf9de1bc8f1eacc37a5cb49a09480e68087650dfc46e99141dfe18e20"
+    },
+    {
+      "page": 191,
+      "path": "advanced/data/pages/p191.jpg",
+      "sha256": "ce49f7275bd85355f834aa50ebcd60ca8bfc94510b411a581cd432d7dd52c7fc"
+    },
+    {
+      "page": 86,
+      "path": "advanced/data/pages/p086.jpg",
+      "sha256": "82210093bc25d46addaf4ad7c248eaff00c174db7444d7155b1d92d0bee2fef1"
+    },
+    {
+      "page": 190,
+      "path": "advanced/data/pages/p190.jpg",
+      "sha256": "cc0da77a7b4db6426186c331bcff9c67701873e68f21c77692d10a6e79ea2463"
+    },
+    {
+      "page": 188,
+      "path": "advanced/data/pages/p188.jpg",
+      "sha256": "d8cefe3906eef54ba87ff0d46b7066f11d32c6887390fa6f9acb3335a865cab0"
+    },
+    {
+      "page": 192,
+      "path": "advanced/data/pages/p192.jpg",
+      "sha256": "312e3bc583a68c3cc7bb2a311e196886a065a5905505997a164885c62bc5290a"
+    }
+  ],
+  "instructions_sha256": "ea16e5e82aecd9d10ddbf9ad06d2474cc521d3d867a62d5379a957bcf9904631",
+  "usage": {
+    "input_tokens": 26390,
+    "input_tokens_details": {
+      "cache_write_tokens": 26387,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 26387
+      }
+    },
+    "output_tokens": 86,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 26476
+  },
+  "response_id": "resp_06e1aec45de0b50a016afa92d5391887d299301ba93524e860",
+  "response_status": "completed",
+  "output_text": "{\"action\":\"answer\",\"expression\":\"\",\"queries\":[],\"pages\":[190,191,192],\"status\":\"abstain\",\"answer\":\"Insufficient evidence. The report describes how IXPs are initially established and notes that some use development-assistance equipment, but the retrieved pages do not prescribe an itemized capital budget or recurring annual operating cost for a first domestic IXP.\",\"citations\":[]}",
+  "elapsed_seconds": 8.38379200000054
+}

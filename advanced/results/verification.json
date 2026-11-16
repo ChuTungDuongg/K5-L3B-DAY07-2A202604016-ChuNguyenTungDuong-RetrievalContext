@@ -1,0 +1,13 @@
+{
+  "checks": "passed",
+  "benchmark_before_dev": true,
+  "selection_before_test": true,
+  "exact_test_runs": 1,
+  "full_test_denominator": 30,
+  "source_pages": 350,
+  "image_hashes_checked": 350,
+  "indexed_chunks": 5493,
+  "recorded_estimated_usd": "0.4040189750",
+  "unknown_reserved_usd": "0",
+  "semantic_review": "Separate reviews-proposed.json; these code checks do not prove answer correctness or bonus eligibility."
+}

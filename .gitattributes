@@ -1,0 +1,9 @@
+# Frozen advanced artifacts are hashed as bytes, including their original line endings.
+advanced/** -text whitespace=cr-at-eol
+# Keep transitive runtime files in the exact on-disk form used by the frozen runs.
+requirements-lock.txt text eol=crlf
+starter/baseline.py text eol=crlf
+starter/day6_backend/embeddings.py text eol=crlf
+starter/day6_backend/store.py text eol=crlf
+starter/day6_backend/models.py text eol=crlf
+scripts/summarize_results.py text eol=lf

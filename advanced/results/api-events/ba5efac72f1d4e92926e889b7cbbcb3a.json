@@ -1,0 +1,45 @@
+{
+  "id": "ba5efac72f1d4e92926e889b7cbbcb3a",
+  "label": "20261116-165446-r2-test-baseline-cbad637d:adv-r2-test-04:review0",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 14032,
+  "maximum_output_tokens": 3500,
+  "images": [
+    {
+      "page": 84,
+      "path": "advanced/data/pages/p084.jpg",
+      "sha256": "712f3663cdb1c27a6ca472c14d7f88e5b501aeeadb3fe78e14251c5f07a0c4a6"
+    },
+    {
+      "page": 83,
+      "path": "advanced/data/pages/p083.jpg",
+      "sha256": "0749930b2ee94306a46e9b99a8aae816d4c1b1489ce076774495d76a21b49e98"
+    },
+    {
+      "page": 162,
+      "path": "advanced/data/pages/p162.jpg",
+      "sha256": "3c87eb79f59a0c83019e94b33de2758ae869eec16a9e7ea359fc6bc3f51ab34e"
+    }
+  ],
+  "instructions_sha256": "0507604096aab315eb8e0306caca34acc2d0bedacd7d3b2ec25cc18ae985e348",
+  "usage": {
+    "input_tokens": 14032,
+    "input_tokens_details": {
+      "cache_write_tokens": 14029,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 14029
+      }
+    },
+    "output_tokens": 242,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 14274
+  },
+  "response_id": "resp_04040151146d1e9e016afad34b033887d282514a39f4823c08",
+  "response_status": "completed",
+  "output_text": "{\"action\":\"answer\",\"expression\":\"98% - 30% = 68 percentage points\",\"queries\":[],\"pages\":[84],\"status\":\"answered\",\"answer\":\"Use of an advance release calendar was 30% for low-income countries and 98% for high-income countries, a high-minus-low gap of 68 percentage points. The table note says the data are for 2019; the percentages represent the proportion of the population in each income group whose national statistical office has the listed attribute.\",\"citations\":[{\"page\":84,\"region_label\":\"Table 2.2, advance release calendar row and income-group columns\",\"bbox\":[0.206,0.112,0.906,0.262],\"quote\":\"NSO uses advance release calendar 30 75 92 98\"},{\"page\":84,\"region_label\":\"Table 2.2, note beneath source\",\"bbox\":[0.205,0.243,0.907,0.265],\"quote\":\"Note: Data are for 2019. The percentages reflect the proportion of the population in each income group whose national statistical office (NSO) has the listed attribute.\"}]}",
+  "elapsed_seconds": 6.019839900000079
+}

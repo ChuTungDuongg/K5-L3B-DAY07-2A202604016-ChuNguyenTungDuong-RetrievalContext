@@ -1,0 +1,45 @@
+{
+  "id": "49268dbe852645878e9e005dbc1c8aba",
+  "label": "20261116-165446-r2-test-baseline-cbad637d:adv-r2-test-05:step0",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 13323,
+  "maximum_output_tokens": 3500,
+  "images": [
+    {
+      "page": 227,
+      "path": "advanced/data/pages/p227.jpg",
+      "sha256": "df18635d2ce807bb90a9feb16a147b04477be27460055770965f38dbbb63930a"
+    },
+    {
+      "page": 226,
+      "path": "advanced/data/pages/p226.jpg",
+      "sha256": "739267cb582ade9654e95cf41967262b1f5c8d15e938a8fd460dcbf013ca0611"
+    },
+    {
+      "page": 213,
+      "path": "advanced/data/pages/p213.jpg",
+      "sha256": "e25f7da6d8f49475d6f23df37bc22713e7ee7df888cb25ac7c68ff0ac3d054cd"
+    }
+  ],
+  "instructions_sha256": "7b27220272435c850770154f165a9b99ffc1a1c1848fec729da980d6adec6535",
+  "usage": {
+    "input_tokens": 13323,
+    "input_tokens_details": {
+      "cache_write_tokens": 13320,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 13320
+      }
+    },
+    "output_tokens": 183,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 13506
+  },
+  "response_id": "resp_09301545f7a4fa78016afad351d3ec87d2a6ddc6a32df13807",
+  "response_status": "completed",
+  "output_text": "{\"action\":\"answer\",\"expression\":\"47 - 31 = 16 points\",\"queries\":[],\"pages\":[227],\"status\":\"answered\",\"answer\":\"Among the three safeguards, nonpersonal data has the highest low-income-country average score: 47. Compared with the personal-data score of 31, that is 16 points higher. Using the legend, both scores are at the evolving maturity level (scores 25–50).\",\"citations\":[{\"page\":227,\"region_label\":\"Table 6.1, including safeguards scores and regulatory-level legend\",\"bbox\":[0.093,0.087,0.916,0.348],\"quote\":\"Low-income: cybersecurity and cybercrime 39; personal data 31; nonpersonal data 47. Colors refer to the level of the regulatory framework: evolving level (scores of 25–50).\"}]}",
+  "elapsed_seconds": 6.043173400001251
+}

@@ -1,0 +1,13 @@
+{
+  "strategy": "ADV-WDR2021-v1",
+  "model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "dimensions": 384,
+  "chunks": 5493,
+  "physical_pages": 350,
+  "chunks_sha256": "b2d08898b899ea768feecc12be82b31a1c76c37b860d7fe73c5531eb7ace151b",
+  "snapshot_sha256": "1d6663e44c0b7f9ae0648c49bbe20a6d4f96224961f193c9531956bdc48bdfc1",
+  "base_A_B_modified": false,
+  "dense_search": "exact cosine distance",
+  "chunking": "350 characters with 50-character overlap; visual label repeated",
+  "limitation": "Embedding model has 128-token input; long technical strings may truncate. Lexical branch and original images remain available."
+}

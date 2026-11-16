@@ -1,0 +1,45 @@
+{
+  "id": "b6877ff356c44454a0217b5e4ad747d6",
+  "label": "20261116-165446-r2-test-baseline-cbad637d:adv-r2-test-08:review0",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 12408,
+  "maximum_output_tokens": 3500,
+  "images": [
+    {
+      "page": 116,
+      "path": "advanced/data/pages/p116.jpg",
+      "sha256": "5d26a3e03001e9cc66a4f873b9b8a780828326676327512c31cd0107d16bd66c"
+    },
+    {
+      "page": 115,
+      "path": "advanced/data/pages/p115.jpg",
+      "sha256": "afe23b96299ec894ae916381d1535b2fb96a07b040336a81e3f40b7fe06396c1"
+    },
+    {
+      "page": 50,
+      "path": "advanced/data/pages/p050.jpg",
+      "sha256": "9311a1fac1fd01eef5219db4ff2f688769f389e4640c3b1cef473f53df207e38"
+    }
+  ],
+  "instructions_sha256": "0507604096aab315eb8e0306caca34acc2d0bedacd7d3b2ec25cc18ae985e348",
+  "usage": {
+    "input_tokens": 12408,
+    "input_tokens_details": {
+      "cache_write_tokens": 12405,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 12405
+      }
+    },
+    "output_tokens": 488,
+    "output_tokens_details": {
+      "reasoning_tokens": 225
+    },
+    "total_tokens": 12896
+  },
+  "response_id": "resp_0fff3a705b9046a5016afad382452487d28e6149ae4b7226a2",
+  "response_status": "completed",
+  "output_text": "{\"action\":\"answer\",\"expression\":\"\",\"queries\":[],\"pages\":[116],\"status\":\"answered\",\"answer\":\"The intervening operation is **big data cleaning and storage**. The two additional sources feeding data inputs are **data volunteered by users** and **open public data**. The cycle is supported by **network connectivity, storage capacity, and processing capacity**.\",\"citations\":[{\"page\":116,\"region_label\":\"Figure 3.2, data by-product and data-input nodes and connecting operation\",\"bbox\":[0.249,0.339,0.771,0.488],\"quote\":\"“Data produced as a by-product of economic activity” connects through “Big data cleaning and storage” to “Data inputs for economic activity.”\"},{\"page\":116,\"region_label\":\"Figure 3.2, additional data sources feeding data inputs\",\"bbox\":[0.232,0.478,0.406,0.518],\"quote\":\"“Data volunteered by users”; “Open public data”\"},{\"page\":116,\"region_label\":\"Figure 3.2, infrastructure support statement\",\"bbox\":[0.118,0.552,0.903,0.583],\"quote\":\"“Supported by network connectivity, storage capacity, and processing capacity”\"}]}",
+  "elapsed_seconds": 7.728715099998226
+}

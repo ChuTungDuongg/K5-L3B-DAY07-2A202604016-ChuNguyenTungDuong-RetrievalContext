@@ -1,0 +1,35 @@
+{
+  "id": "fce0a2270683426a9d134175abaf9039",
+  "label": "index:p119",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 4107,
+  "maximum_output_tokens": 6000,
+  "images": [
+    {
+      "page": 119,
+      "path": "advanced/data/pages/p119.jpg",
+      "sha256": "bb5109ef1193f7ce970297870f689817583250764e319ce3ec62cddc5bd2a044"
+    }
+  ],
+  "instructions_sha256": "01d3a56b3c678b1acd37e506320a854b17dd9ddb13ece56a92b62990aeb80d41",
+  "usage": {
+    "input_tokens": 4107,
+    "input_tokens_details": {
+      "cache_write_tokens": 4104,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 4104
+      }
+    },
+    "output_tokens": 423,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 4530
+  },
+  "response_id": "resp_0a9e579c5c09b5eb016afa9060f81487d294fc2d88d3d325ef",
+  "response_status": "completed",
+  "output_text": "{\"regions\":[{\"label\":\"Figure 3.6\",\"kind\":\"chart\",\"bbox\":[0.093,0.087,0.907,0.527],\"summary\":\"Two-panel figure showing concentration of internet traffic and ownership of popular websites in low- and middle-income countries.\",\"details\":\"Panel a, “Share of global internet traffic by firm, 2018 (% of total),” is a treemap: Others 57%; Google 12%; Netflix 11%; Facebook 8%; Microsoft 5%; Apple 4%; Amazon 3%. Note: “Others” refers to file sharing, marketplace, security and VPN messaging, as well as cloud and audio streaming. Source: Sandvine 2019. Panel b, “Ten most visited parent firms among the top 25 websites,” has bars for share of top websites owned by firm (%) and orange points for average rank on a right axis (rank 1 = more traffic; 20 = least traffic). Firms and bar values: Google 28.3%, Microsoft 11.4%, Facebook 8.9%, Verizon 6.3%, Amazon 5.9%, Zoom 5.5%, Alibaba 3.8%, Naspers 3.8%, Jumia 1.7%. Approximate point ranks read from the plotted right axis: Google 7, Microsoft 16, Facebook 9.5, Verizon 11, Amazon 18, Zoom 13, Alibaba 14, Naspers 10, Jumia 11.5. Source: Nyman and Stinshoff (forthcoming), based on Alexa Internet country top-sites data accessed April 2020. Note: Percentages represent listed parent organizations’ share of top 25 websites in the sample; total sample 425 websites from 17 low- and middle-income countries; ownership means majority shareholding.\",\"limitations\":\"Only nine firms are visibly listed in panel b despite the title saying “Ten.” Point ranks are visually estimated from the axis; the chart does not print point values.\"}]}",
+  "elapsed_seconds": 6.491328399999475
+}

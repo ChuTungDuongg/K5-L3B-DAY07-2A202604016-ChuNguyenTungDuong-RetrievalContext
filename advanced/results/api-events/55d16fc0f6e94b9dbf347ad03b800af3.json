@@ -1,0 +1,55 @@
+{
+  "id": "55d16fc0f6e94b9dbf347ad03b800af3",
+  "label": "20261116-122658-dev-candidate-fdc3f714:adv-dev-13:step0",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 20915,
+  "maximum_output_tokens": 3500,
+  "images": [
+    {
+      "page": 49,
+      "path": "advanced/data/pages/p049.jpg",
+      "sha256": "4fc676444eecbc0577e8c29ad0e5cc31554fc8ea3594492c4d3c8e602423066c"
+    },
+    {
+      "page": 242,
+      "path": "advanced/data/pages/p242.jpg",
+      "sha256": "fba327f656ab4e7bf20e80c39b059ffc882f29f9797d7e2143a90488bdd963d6"
+    },
+    {
+      "page": 95,
+      "path": "advanced/data/pages/p095.jpg",
+      "sha256": "a51a2c4a7d708d4d899b82d383ecbf49948612dadeea7fc87dfe5e94d3a0f117"
+    },
+    {
+      "page": 125,
+      "path": "advanced/data/pages/p125.jpg",
+      "sha256": "8e2e32eb941660c9944fbc308629f58f696a861184cc48a0e9c7eb9906c46455"
+    },
+    {
+      "page": 8,
+      "path": "advanced/data/pages/p008.jpg",
+      "sha256": "db0dbafd1b954d91c8c9134ddc2e6fa9ae5c0ece7cbf43819e1d67fc0038df4a"
+    }
+  ],
+  "instructions_sha256": "7b27220272435c850770154f165a9b99ffc1a1c1848fec729da980d6adec6535",
+  "usage": {
+    "input_tokens": 20915,
+    "input_tokens_details": {
+      "cache_write_tokens": 20912,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 20912
+      }
+    },
+    "output_tokens": 166,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 21081
+  },
+  "response_id": "resp_05dda0dc77f99b4c016afa949f89cc87d28c3ee651092d3e42",
+  "response_status": "completed",
+  "output_text": "{\"action\":\"answer\",\"expression\":\"\",\"queries\":[],\"pages\":[49],\"status\":\"answered\",\"answer\":\"The symptom questions let researchers estimate the rate of asymptomatic infection. Questions about work and travel outside the home let them measure how closely household members adhered to social-distancing guidelines.\",\"citations\":[{\"page\":49,\"region_label\":\"Box 1.2, “Innovation in traditional surveys: A COVID-19 example in Brazil”\",\"bbox\":[0.093,0.087,0.795,0.819],\"quote\":\"Asking questions about symptoms enabled the research team to estimate rates of asymptomatic infection. Sociodemographic questions, especially those about work and travel outside the home, enabled the team to measure how much a household member adhered to social distancing guidelines.\"}]}",
+  "elapsed_seconds": 6.168159099994227
+}

@@ -1,0 +1,45 @@
+{
+  "id": "c7fd999a797a458cb2f774062720815c",
+  "label": "20261116-123301-test-baseline-45143179:adv-test-27:step0",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 13202,
+  "maximum_output_tokens": 3500,
+  "images": [
+    {
+      "page": 338,
+      "path": "advanced/data/pages/p338.jpg",
+      "sha256": "0ea25a730513182e003d8995fc383509951085d27d8bc616a9a97fcc9c9a0873"
+    },
+    {
+      "page": 186,
+      "path": "advanced/data/pages/p186.jpg",
+      "sha256": "9a0233e560f2479f0df9dfa005111d5074bb9660a20c281a76fac9afb92c4c1b"
+    },
+    {
+      "page": 223,
+      "path": "advanced/data/pages/p223.jpg",
+      "sha256": "6018a15f406319bd918a90b2c2832e6d58ba89e1e84f246a95386dd2909173e6"
+    }
+  ],
+  "instructions_sha256": "7b27220272435c850770154f165a9b99ffc1a1c1848fec729da980d6adec6535",
+  "usage": {
+    "input_tokens": 13202,
+    "input_tokens_details": {
+      "cache_write_tokens": 13199,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 13199
+      }
+    },
+    "output_tokens": 294,
+    "output_tokens_details": {
+      "reasoning_tokens": 119
+    },
+    "total_tokens": 13496
+  },
+  "response_id": "resp_0672a7610b8f0d68016afa9669cbbc87d2812c2ac738dc1c00",
+  "response_status": "completed",
+  "output_text": "{\"action\":\"answer\",\"expression\":\"\",\"queries\":[],\"pages\":[338],\"status\":\"answered\",\"answer\":\"The report does not require a universally mandatory minimum payment per gigabyte. It says B2G data exchanges are generally voluntary contractual agreements and lists possible compensation approaches, from free data to market pricing.\",\"citations\":[{\"page\":338,\"region_label\":\"“Compensation and noncompensation schemes” paragraph, World Development Report 2021, printed p. 318\",\"bbox\":[0.19,0.08,0.93,0.94],\"quote\":\"Business-to-government (B2G) data exchanges are generally based on voluntary contractual agreements… Options include free data; free of charge plus tax incentives; marginal cost pricing; marginal cost pricing plus a return on investment markup; or market price.\"}]}",
+  "elapsed_seconds": 7.1596441000001505
+}

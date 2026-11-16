@@ -1,0 +1,35 @@
+{
+  "id": "de877876247c4fa8aba3ef0a45e5bc5b",
+  "label": "index:p191",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 4234,
+  "maximum_output_tokens": 6000,
+  "images": [
+    {
+      "page": 191,
+      "path": "advanced/data/pages/p191.jpg",
+      "sha256": "ce49f7275bd85355f834aa50ebcd60ca8bfc94510b411a581cd432d7dd52c7fc"
+    }
+  ],
+  "instructions_sha256": "01d3a56b3c678b1acd37e506320a854b17dd9ddb13ece56a92b62990aeb80d41",
+  "usage": {
+    "input_tokens": 4234,
+    "input_tokens_details": {
+      "cache_write_tokens": 4231,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 4231
+      }
+    },
+    "output_tokens": 416,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 4650
+  },
+  "response_id": "resp_0e1f10f395a4d260016afa90a156c087d29fb22e82220d0c94",
+  "response_status": "completed",
+  "output_text": "{\"regions\":[{\"label\":\"Figure 5.11 — Countries develop domestic data infrastructure in stages\",\"kind\":\"diagram\",\"bbox\":[0.093,0.626,0.87,0.912],\"summary\":\"Four-step rising ladder illustrates development of domestic data infrastructure, country counts and income-group shares at each stage, and average fixed and wireless broadband prices.\",\"details\":\"The visual is a four-step staircase ascending left to right. Stage 0: “Data exchanged overseas”; 28 countries; low-income 48%, lower-middle-income 30%. Stage 1: “Domestic data between ISPs exchanged at the IXP”; 29 countries; low-income 38%, lower-middle-income 36%. Stage 2: “Diversity of participants at the IXP and presence of major international content providers”; 13 countries; low-income 14%, lower-middle-income 18%. Stage 3: “IXP located alongside a colocation data center”; 7 countries; low-income 0%, lower-middle-income 16%. Two price series are displayed in colored value boxes: average fixed broadband price per MB per month (purple), from stage 0 to 3: $140.00, $18.30, $17.10, $4.30; average wireless broadband price per GB per month (green), respectively: $5.60, $4.50, $2.20, $0.80. Source: Comini, Srinivasan, and Minges, forthcoming. Note states data provide close to global coverage for 2020 and are compiled from industry sources including Packet Clearing House, CAIDA, PeeringDB, EURO-IX, and AF-IX; amounts are in US dollars. Abbreviations: GB = gigabyte; ISP = internet service provider; IXP = internet exchange point; MB = megabit.\",\"limitations\":\"The figure visually associates each price pair with the corresponding stage; no separate axis or explicit methodological definition for the price averages is shown.\"}]}",
+  "elapsed_seconds": 7.397745300004317
+}

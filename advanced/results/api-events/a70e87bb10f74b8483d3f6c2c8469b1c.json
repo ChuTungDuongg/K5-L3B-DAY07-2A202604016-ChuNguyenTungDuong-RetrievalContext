@@ -1,0 +1,35 @@
+{
+  "id": "a70e87bb10f74b8483d3f6c2c8469b1c",
+  "label": "index:p146",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 3960,
+  "maximum_output_tokens": 6000,
+  "images": [
+    {
+      "page": 146,
+      "path": "advanced/data/pages/p146.jpg",
+      "sha256": "7cd6665544a99cd9a65fe42ddf22826a28d26e181a98c0030c6f7586ef4631dd"
+    }
+  ],
+  "instructions_sha256": "01d3a56b3c678b1acd37e506320a854b17dd9ddb13ece56a92b62990aeb80d41",
+  "usage": {
+    "input_tokens": 3960,
+    "input_tokens_details": {
+      "cache_write_tokens": 3957,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 3957
+      }
+    },
+    "output_tokens": 443,
+    "output_tokens_details": {
+      "reasoning_tokens": 198
+    },
+    "total_tokens": 4403
+  },
+  "response_id": "resp_01d351f2dacacf91016afa906dcb3887d2aa1799158e5141d6",
+  "response_status": "completed",
+  "output_text": "{\"regions\":[{\"label\":\"Figure B4.2.1\",\"kind\":\"chart\",\"bbox\":[0.226,0.278,0.871,0.537],\"summary\":\"Stacked area chart of published articles using repurposed private-intent data to study COVID-19, by data type, from February to September 2020.\",\"details\":\"The horizontal axis shows time in 2020, with labels February, April, July, and September. The vertical axis is “Number of articles,” marked 0, 250, 500, 750, and 1,000. Seven stacked categories are identified in the legend: Social media, Twitter, Big data, Google Trends, Facebook, Cellphone, and Call detail records. The cumulative total rises from near zero in February to just over 1,000 by September; Social media is the largest band, followed by Twitter. The figure note says some articles appear in more than one category, so the cumulative sum across categories is higher. Exact category values are not labeled.\",\"limitations\":\"Values are shown as stacked areas without point labels; category-specific counts can only be estimated visually.\"}]}",
+  "elapsed_seconds": 7.708730099999229
+}

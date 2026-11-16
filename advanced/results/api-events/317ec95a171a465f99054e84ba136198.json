@@ -1,0 +1,35 @@
+{
+  "id": "317ec95a171a465f99054e84ba136198",
+  "label": "index:p330",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 3976,
+  "maximum_output_tokens": 6000,
+  "images": [
+    {
+      "page": 330,
+      "path": "advanced/data/pages/p330.jpg",
+      "sha256": "dd0a29f55bd27e2605be53e0759af19166e6d9423f4313d515a5cea4710c868f"
+    }
+  ],
+  "instructions_sha256": "01d3a56b3c678b1acd37e506320a854b17dd9ddb13ece56a92b62990aeb80d41",
+  "usage": {
+    "input_tokens": 3976,
+    "input_tokens_details": {
+      "cache_write_tokens": 3973,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 3973
+      }
+    },
+    "output_tokens": 383,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 4359
+  },
+  "response_id": "resp_099a4395b0e05a27016afa90fd3ed087d281c21f7979d69638",
+  "response_status": "completed",
+  "output_text": "{\"regions\":[{\"label\":\"Figure 9.3 — Steps to integrating the public sector into the national data system\",\"kind\":\"diagram\",\"bbox\":[0.204,0.465,0.907,0.923],\"summary\":\"Three overlapping, progressively positioned panels describe steps for integrating the public sector into the national data system: establishing fundamentals, initiating data flows, and optimizing the system.\",\"details\":\"The diagram has three overlapping rounded panels arranged from left/back to right/front. Orange panel, “Establishing fundamentals”: Policies—recognize the importance of an integrated national data system in a high-level strategic document; Laws and regulations—put in place robust data protection regulations; Human capital and funding—strengthen the technical capacity and financing of NSOs; Institutions—create technical units in ministries to strengthen administrative data and coordinate data efforts across ministries; Incentives—ensure public-sector data scientists and statisticians are appropriately remunerated. Green panel, “Initiating data flows”: Data demand—establish a culture of data use in ministries and among policy makers and legislators; Incentives—prioritize open data for development and use of common standards throughout the data life cycle; Infrastructure policies—establish a secure, integrated digital platform for storing and providing access to deidentified public intent data. Blue panel, “Optimizing the system”: Institutions—charge an existing or new government unit with responsibility for overseeing and reporting on implementation of a national data strategy; Incentives—empower the NSO to take an active role in the national data system; Policies—define clear institutional mandates for the various government institutions. Source: WDR 2021 team. Note: Categories overlap and are meant to be illustrative. NSO = national statistical office.\",\"limitations\":\"The panels overlap; the note explicitly says categories overlap and are illustrative. No arrows or explicit causal links are shown.\"}]}",
+  "elapsed_seconds": 5.586355400002503
+}

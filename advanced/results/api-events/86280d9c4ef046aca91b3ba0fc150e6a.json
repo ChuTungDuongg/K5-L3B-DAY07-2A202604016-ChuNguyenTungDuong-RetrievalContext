@@ -1,0 +1,35 @@
+{
+  "id": "86280d9c4ef046aca91b3ba0fc150e6a",
+  "label": "index:p214",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 4159,
+  "maximum_output_tokens": 6000,
+  "images": [
+    {
+      "page": 214,
+      "path": "advanced/data/pages/p214.jpg",
+      "sha256": "fd7375fd44628bf58bd22759a973cac7f0f653123242924fca06b8f2ee924d17"
+    }
+  ],
+  "instructions_sha256": "01d3a56b3c678b1acd37e506320a854b17dd9ddb13ece56a92b62990aeb80d41",
+  "usage": {
+    "input_tokens": 4159,
+    "input_tokens_details": {
+      "cache_write_tokens": 4156,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 4156
+      }
+    },
+    "output_tokens": 614,
+    "output_tokens_details": {
+      "reasoning_tokens": 193
+    },
+    "total_tokens": 4773
+  },
+  "response_id": "resp_07bbac83ad8a3b00016afa90b4e16487d2af43f7c2c88b96a0",
+  "response_status": "completed",
+  "output_text": "{\"regions\":[{\"label\":\"Figure 6.3 — Gaps in the regulatory framework for cybersecurity are glaring across country income groups\",\"kind\":\"chart\",\"bbox\":[0.084,0.087,0.544,0.522],\"summary\":\"Radar chart compares the share of countries in four income groups with good-practice cybersecurity and cybercrime frameworks across four regulatory categories. High-income countries lead on CSIRTs and security requirements; regulation of cybercrime is comparatively widespread across groups.\",\"details\":\"Four-axis radar chart with a 0–100 percentage scale and concentric gridlines at 0, 20, 40, 60, 80, and 100. Categories: security requirements for automated processing of personal data (top); cybersecurity requirements for data processors and controllers (right); CSIRT (bottom); regulation of cybercrime activities (left). Legend: High-income (blue), Upper-middle-income (green), Lower-middle-income (orange), Low-income (purple). Approximate values read from plotted vertices: security requirements are about 30% for high-income, around 10% for upper-middle-income, low single digits for lower-middle-income, and near 0% for low-income; processor/controller requirements are about 40%, 15%, 10%, and near 0%, respectively. CSIRT values are about 100%, 70%, 55%, and 35%, respectively. Cybercrime regulation is roughly 65% for high-income and upper-middle-income, about 55% for lower-middle-income, and about 45% for low-income. Source: WDR 2021 team, based on World Bank, Global Data Regulation Survey. Note: percentages of countries in each income group with good-practice legal and regulatory frameworks for cybersecurity and cybercrime as of 2020; CSIRT = Computer Security Incident Response Team.\",\"limitations\":\"Values are estimated from the plotted positions; the figure does not print data labels for individual vertices. The chart region includes its title, legend, source, and note.\"}]}",
+  "elapsed_seconds": 9.504455100002815
+}

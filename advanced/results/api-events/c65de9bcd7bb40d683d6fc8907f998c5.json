@@ -1,0 +1,35 @@
+{
+  "id": "c65de9bcd7bb40d683d6fc8907f998c5",
+  "label": "index:p081",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 4288,
+  "maximum_output_tokens": 6000,
+  "images": [
+    {
+      "page": 81,
+      "path": "advanced/data/pages/p081.jpg",
+      "sha256": "285c5506bcc0ab3dc8618fb949ee4bc75aec43f8d719184df8267ff47a6c09bc"
+    }
+  ],
+  "instructions_sha256": "01d3a56b3c678b1acd37e506320a854b17dd9ddb13ece56a92b62990aeb80d41",
+  "usage": {
+    "input_tokens": 4288,
+    "input_tokens_details": {
+      "cache_write_tokens": 4285,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 4285
+      }
+    },
+    "output_tokens": 595,
+    "output_tokens_details": {
+      "reasoning_tokens": 238
+    },
+    "total_tokens": 4883
+  },
+  "response_id": "resp_093c82f0b4a42557016afa9037da4487d2a0121acdf43a4165",
+  "response_status": "completed",
+  "output_text": "{\"regions\":[{\"label\":\"Figure B2.3.1 — Proportion of COVID-19 cases reported with sex-disaggregated data for 190 countries\",\"kind\":\"chart\",\"bbox\":[0.455,0.278,0.783,0.596],\"summary\":\"Stacked monthly bars show the share of countries reporting COVID-19 cases with sex-disaggregated data (Yes) versus without it (No), March–November 2020; an orange line shows the proportion of countries reporting sex-disaggregated data.\",\"details\":\"Vertical axis is Percent, 0–100, with ticks at 0, 25, 50, 75, and 100. Horizontal axis lists March through November; “2020” is printed beneath. Each stacked bar totals 100%; green denotes “Yes” and blue denotes “No.” Approximate green shares by month, read from the bars: March 61%, April 25%, May 69%, June 30%, July 40%, August 72%, September 74%, October 60%, November 60%. The orange line, labeled “Proportion of countries reporting sex-disaggregated data,” rises from about 13% in March to about 49% in July, then stays around 45–47% through November. The figure title specifies 190 countries. Source note cites Global Health 50/50 and University College London’s COVID-19 Sex-Disaggregated Data Tracker (November 30, 2020 release), Our World in Data, and Open Data Watch calculations.\",\"limitations\":\"Bar and line values are estimated from the plotted marks; exact monthly values are not printed. The source note includes database links.\"}]}",
+  "elapsed_seconds": 8.420924100006232
+}

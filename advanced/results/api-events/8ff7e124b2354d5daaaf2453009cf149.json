@@ -1,0 +1,35 @@
+{
+  "id": "8ff7e124b2354d5daaaf2453009cf149",
+  "label": "index:p090",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 4125,
+  "maximum_output_tokens": 6000,
+  "images": [
+    {
+      "page": 90,
+      "path": "advanced/data/pages/p090.jpg",
+      "sha256": "420635c50adaf927796ce7395e9047dec6c32ea9e7e020bc9808e2a42ae394fb"
+    }
+  ],
+  "instructions_sha256": "01d3a56b3c678b1acd37e506320a854b17dd9ddb13ece56a92b62990aeb80d41",
+  "usage": {
+    "input_tokens": 4125,
+    "input_tokens_details": {
+      "cache_write_tokens": 4122,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 4122
+      }
+    },
+    "output_tokens": 263,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 4388
+  },
+  "response_id": "resp_09f55c66f99464ac016afa904dfdbc87d2831df21259b2ccfc",
+  "response_status": "completed",
+  "output_text": "{\"regions\":[{\"label\":\"Figure 2.10 — Data supply and demand can generate either virtuous or vicious cycles of data production and use\",\"kind\":\"diagram\",\"bbox\":[0.061,0.517,0.547,0.91],\"summary\":\"A two-axis schematic classifies countries by data quality and supply (low to high, horizontal) and demand (low to high, vertical), with four country categories in the quadrants.\",\"details\":\"Title: “Data supply and demand can generate either virtuous or vicious cycles of data production and use.” Vertical axis runs from Low demand at the bottom to High demand at the top. Horizontal axis runs from Low quality and supply on the left to High quality and supply on the right. The quadrants are: upper left, “Data supply-constrained countries”; upper right, “Virtuous cycle countries”; lower left, “Vicious cycle countries”; lower right, “Data demand-constrained countries.” Arrows mark the axes. A diagonal arrow points from the lower-left area toward the upper-right area. Source: Adapted from Sanga (2013).\",\"limitations\":\"The diagram does not provide numeric scales or thresholds. The diagonal arrow’s exact origin and endpoint are approximate from the image.\"}]}",
+  "elapsed_seconds": 5.029160199999751
+}

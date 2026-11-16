@@ -1,0 +1,35 @@
+{
+  "id": "dd662e7d160c48e98e601bd617158500",
+  "label": "index:p290",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 4064,
+  "maximum_output_tokens": 6000,
+  "images": [
+    {
+      "page": 290,
+      "path": "advanced/data/pages/p290.jpg",
+      "sha256": "07d9612eed46985874305c92c0b59c2c388a53841db8c2cf6413caf66c3c140e"
+    }
+  ],
+  "instructions_sha256": "01d3a56b3c678b1acd37e506320a854b17dd9ddb13ece56a92b62990aeb80d41",
+  "usage": {
+    "input_tokens": 4064,
+    "input_tokens_details": {
+      "cache_write_tokens": 4061,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 4061
+      }
+    },
+    "output_tokens": 242,
+    "output_tokens_details": {
+      "reasoning_tokens": 75
+    },
+    "total_tokens": 4306
+  },
+  "response_id": "resp_003f517647cdf464016afa90e5b2ec87d29ca0ad0728f2d636",
+  "response_status": "completed",
+  "output_text": "{\"regions\":[{\"label\":\"Figure 8.2 — Functions of data governance\",\"kind\":\"diagram\",\"bbox\":[0.085,0.088,0.537,0.475],\"summary\":\"Circular diagram organizes data governance into four thematic clusters and lists the functions in each.\",\"details\":\"A central circle labeled “Data governance” is surrounded by four connected sectors: Strategic planning — Develop strategies; Establish institutional arrangements. Rule making and implementation — Legislate/regulate; Set standards; Provide clarification and guidance. Compliance — Enforce; Audit; Arbitrate; Remedy. Learning and evidence — Monitor and evaluate; Anticipate and manage risks. Source: WDR 2021 team.\",\"limitations\":\"No quantitative values, axes, or directional sequence are shown.\"}]}",
+  "elapsed_seconds": 5.871441699993738
+}

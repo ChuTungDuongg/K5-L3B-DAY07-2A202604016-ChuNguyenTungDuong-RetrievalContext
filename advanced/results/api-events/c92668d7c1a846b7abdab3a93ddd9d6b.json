@@ -1,0 +1,45 @@
+{
+  "id": "c92668d7c1a846b7abdab3a93ddd9d6b",
+  "label": "20261116-123301-test-baseline-45143179:adv-test-06:step0",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 12652,
+  "maximum_output_tokens": 3500,
+  "images": [
+    {
+      "page": 298,
+      "path": "advanced/data/pages/p298.jpg",
+      "sha256": "2a3f5214f4767ba61282500b67236395b14fd199ad1dd520fc120ee6a005f999"
+    },
+    {
+      "page": 11,
+      "path": "advanced/data/pages/p011.jpg",
+      "sha256": "2a66279d251e9879600a0d87b5d15afca5cb96760b5961d8e0a22a7ae90a7a02"
+    },
+    {
+      "page": 288,
+      "path": "advanced/data/pages/p288.jpg",
+      "sha256": "02b1ef2c179df8156a7047bbf79127957423cfb021bf3f3faec9021a3f2215a6"
+    }
+  ],
+  "instructions_sha256": "7b27220272435c850770154f165a9b99ffc1a1c1848fec729da980d6adec6535",
+  "usage": {
+    "input_tokens": 12652,
+    "input_tokens_details": {
+      "cache_write_tokens": 12649,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 12649
+      }
+    },
+    "output_tokens": 138,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 12790
+  },
+  "response_id": "resp_0ea00d846842e4ae016afa95c7349087d28025a91a27b24dae",
+  "response_status": "completed",
+  "output_text": "{\"action\":\"answer\",\"expression\":\"\",\"queries\":[],\"pages\":[298],\"status\":\"answered\",\"answer\":\"The intermediary types are data commons and data clubs. The two examples listed are the Open Commons Consortium (OCC) and UK Biobank.\",\"citations\":[{\"page\":298,\"region_label\":\"Table 8.3, “Snapshot of common data intermediary structures”\",\"bbox\":[0.206,0.087,0.907,0.365],\"quote\":\"Create and manage shared and interoperable data assets and computing infrastructure for research. | Data commons, data clubs | The Open Commons Consortium (OCC), UK Biobank\"}]}",
+  "elapsed_seconds": 4.37417099999584
+}

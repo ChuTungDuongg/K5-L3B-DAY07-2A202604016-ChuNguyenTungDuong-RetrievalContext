@@ -1,0 +1,35 @@
+{
+  "id": "4f15ad5ef74845478bee2e83358f2d8d",
+  "label": "index:p147",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 3879,
+  "maximum_output_tokens": 6000,
+  "images": [
+    {
+      "page": 147,
+      "path": "advanced/data/pages/p147.jpg",
+      "sha256": "f96c63fd6dd4a3d3d9779173c2d9c75cae8e03b7164be7cefe5666acf91d4eb9"
+    }
+  ],
+  "instructions_sha256": "01d3a56b3c678b1acd37e506320a854b17dd9ddb13ece56a92b62990aeb80d41",
+  "usage": {
+    "input_tokens": 3879,
+    "input_tokens_details": {
+      "cache_write_tokens": 3876,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 3876
+      }
+    },
+    "output_tokens": 305,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 4184
+  },
+  "response_id": "resp_0856761250964b14016afa90731e4887d280ecc3577bcef16b",
+  "response_status": "completed",
+  "output_text": "{\"regions\":[{\"label\":\"Map B4.2.1\",\"kind\":\"map\",\"bbox\":[0.094,0.087,0.795,0.563],\"summary\":\"Choropleth world map of country-level published articles using repurposed data to study COVID-19, adjusted by COVID-19 death incidence rate, February–September 2020.\",\"details\":\"The world map colors countries by a continuous scale labeled “Number of articles”: yellow at 7.5, green/teal around 10.0 and 12.5, dark blue/purple above 15.0; gray indicates “No data.” The legend shows labeled values 7.5, 10.0, 12.5, and 15.0 (the gradient extends above 15.0). Among visible patterns, China is in the darkest purple range; the United States, India, and Australia are teal/dark teal; Brazil and Russia are green; Peru is yellow. Many countries are gray/no data. Note states counts are divided by COVID-19 death incidence rate; source is WDR 2021 team based on CORD-19 data from the Semantic Scholar team, Ai2. Map covers articles published in scientific, medical, and technical journals from February to September 2020.\",\"limitations\":\"The map provides no country-level numeric labels, and exact values cannot be recovered from colors. Color distinctions between intermediate shades are approximate.\"}]}",
+  "elapsed_seconds": 5.2444546000042465
+}

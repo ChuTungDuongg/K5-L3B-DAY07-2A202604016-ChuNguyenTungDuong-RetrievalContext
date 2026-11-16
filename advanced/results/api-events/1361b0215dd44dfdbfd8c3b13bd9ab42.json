@@ -1,0 +1,35 @@
+{
+  "id": "1361b0215dd44dfdbfd8c3b13bd9ab42",
+  "label": "index:p079",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 3962,
+  "maximum_output_tokens": 6000,
+  "images": [
+    {
+      "page": 79,
+      "path": "advanced/data/pages/p079.jpg",
+      "sha256": "87ad3bdd53a8dbb27a68d2fdd2fdb316b7f39729e28e1d5d95910e332debe206"
+    }
+  ],
+  "instructions_sha256": "01d3a56b3c678b1acd37e506320a854b17dd9ddb13ece56a92b62990aeb80d41",
+  "usage": {
+    "input_tokens": 3962,
+    "input_tokens_details": {
+      "cache_write_tokens": 3959,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 3959
+      }
+    },
+    "output_tokens": 307,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 4269
+  },
+  "response_id": "resp_0e4d2c19d0a17c1b016afa9037118487d29558fb184c55779b",
+  "response_status": "completed",
+  "output_text": "{\"regions\":[{\"label\":\"Map 2.2\",\"kind\":\"map\",\"bbox\":[0.455,0.088,0.939,0.668],\"summary\":\"Map of Bogotá showing citizen-collected safety ratings around bike paths, with most mapped points appearing in the excellent category and a pie chart reporting 81%, 15%, 3%, and 1%.\",\"details\":\"Title: “Improving public safety: The use of citizen-collected data in Bogotá led to greater safety around bike paths.” The map depicts Bogotá and its urban perimeter, with surrounding place labels including Funza, Mosquera, and Soacha. Legend “Safety ratings, bike paths” lists Excellent (dark teal), Very good (green), Good (yellow), Fair (light orange), Poor (red), and Bogotá urban perimeter. Colored safety-rating points are densely distributed through the urban area; dark-teal points are visually most prevalent, with other categories interspersed. An inset pie chart shows 81%, 15%, 3%, and 1%; the labels are visible but the corresponding category-to-slice mapping is not fully clear. Source: Safetipin 2016. Note: “Safety ratings of poor to excellent for Bogotá bike paths are based on safety scores.”\",\"limitations\":\"The map is a detailed, low-resolution reproduction; exact point counts and precise geographic boundaries cannot be read. Pie-chart category labels are not visibly linked unambiguously to every percentage.\"}]}",
+  "elapsed_seconds": 5.497401000000536
+}

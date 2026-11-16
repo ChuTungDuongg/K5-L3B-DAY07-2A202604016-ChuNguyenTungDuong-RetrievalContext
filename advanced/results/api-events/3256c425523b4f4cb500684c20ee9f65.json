@@ -1,0 +1,35 @@
+{
+  "id": "3256c425523b4f4cb500684c20ee9f65",
+  "label": "index:p181",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 4109,
+  "maximum_output_tokens": 6000,
+  "images": [
+    {
+      "page": 181,
+      "path": "advanced/data/pages/p181.jpg",
+      "sha256": "93056cafe09e4dc0dca6de4e6581ecd44bf9ec64e1cc1ef0ccf0a5d3e4548df2"
+    }
+  ],
+  "instructions_sha256": "01d3a56b3c678b1acd37e506320a854b17dd9ddb13ece56a92b62990aeb80d41",
+  "usage": {
+    "input_tokens": 4109,
+    "input_tokens_details": {
+      "cache_write_tokens": 4106,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 4106
+      }
+    },
+    "output_tokens": 702,
+    "output_tokens_details": {
+      "reasoning_tokens": 242
+    },
+    "total_tokens": 4811
+  },
+  "response_id": "resp_0989ddb7c903ef82016afa908b5d0887d2a5263ef13e003e78",
+  "response_status": "completed",
+  "output_text": "{\"regions\":[{\"label\":\"Figure 5.3 — Gaps in 3G wireless broadband internet coverage have been shrinking, but usage gaps remain stubbornly high\",\"kind\":\"chart\",\"bbox\":[0.093,0.088,0.917,0.454],\"summary\":\"Two stacked-bar panels compare population shares that are connected, have a usage gap, or have a 3G coverage gap: globally from 2015–18 and across seven regions in 2018. Globally, the usage gap stays near 40% while the coverage gap falls; regional usage and coverage gaps vary substantially.\",\"details\":\"Both panels use a vertical axis of share of population (%) from 0 to 100. Legend: orange = Connected; green = Usage gap; blue = Coverage gap. Panel a, “Globally over time, 2015–18”: values printed inside bars, in legend order (Connected / Usage gap / Coverage gap): 2015: 41 / 37 / 21; 2016: 45 / 40 / 15; 2017: 48 / 41 / 11; 2018: 50 / 42 / 8. Panel b, “By region, 2018,” same order: East Asia and Pacific: 60 / 39 / 2; Europe and Central Asia: 78 / 15 / 6; Latin America and the Caribbean: 56 / 36 / 8; Middle East and North Africa: 58 / 36 / 6; North America: 89 / 11 / <1; South Asia: 28 / 64 / 8; Sub-Saharan Africa: 22 / 49 / 29. Regional labels are angled beneath the bars. Source printed below: “WDR 2021 team, based on 2015 and 2018 data in ITU (2018a). Data at http://bit.do/WDR2021-Fig-5_3.”\",\"limitations\":\"Values are reproduced as printed; rounded component shares may not sum exactly to 100. The East Asia and Pacific blue segment is very small, with the printed label 2.\"}]}",
+  "elapsed_seconds": 10.84222609999415
+}

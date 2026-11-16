@@ -1,0 +1,35 @@
+{
+  "id": "da295bc341ad477b9f8d081805bfe579",
+  "label": "index:p091",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 4060,
+  "maximum_output_tokens": 6000,
+  "images": [
+    {
+      "page": 91,
+      "path": "advanced/data/pages/p091.jpg",
+      "sha256": "a531e71f4c3916711ce11d7a444b0e678219cfd7891d6475ae28ec7157e17506"
+    }
+  ],
+  "instructions_sha256": "01d3a56b3c678b1acd37e506320a854b17dd9ddb13ece56a92b62990aeb80d41",
+  "usage": {
+    "input_tokens": 4060,
+    "input_tokens_details": {
+      "cache_write_tokens": 4057,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 4057
+      }
+    },
+    "output_tokens": 760,
+    "output_tokens_details": {
+      "reasoning_tokens": 88
+    },
+    "total_tokens": 4820
+  },
+  "response_id": "resp_010fdd101f54d745016afa904fd9a087d2b998e89fc6f500bd",
+  "response_status": "completed",
+  "output_text": "{\"regions\":[{\"label\":\"Figure 2.11 — Policies to realize the potential of public intent data\",\"kind\":\"diagram\",\"bbox\":[0.092,0.362,0.899,0.908],\"summary\":\"Policy framework linking four barriers—financing, technical capacity, governance, and data demand—to actions for national statistical offices (NSOs), other government agencies, and civil society and academia. A political-commitment banner spans all four areas.\",\"details\":\"The diagram is organized as four columns (Financing; Technical capacity; Governance; Data demand) and three actor rows (NSOs; Other government agencies; Civil society and academia). Across the top, a green banner states: “Political commitment — Create a broad-based political and societal agreement on the value of high-quality public intent data.”\\n\\nFinancing:\\n• NSOs: Create a target fraction of government spending or a line item in the national budget dedicated to the NSO; engage recurrently with the Ministry of Finance to understand and support its data needs.\\n• Other government agencies: Designate a budget line for data in each ministry and agency; ensure use of produced data across the public sector for monitoring, evaluation, and more.\\n• Civil society and academia: Allocate resources to citizen-generated data collection.\\n\\nTechnical capacity:\\n• NSOs: Ensure more competitive pay scales; devote more time and resources to building capacity among staff.\\n• Other government agencies: Create technical units in charge of data production and use; create a governmentwide approach to the salaries of statisticians and data scientists.\\n• Civil society and academia: Promote data literacy in primary and secondary education; enhance tertiary education in data science and statistics.\\n\\nGovernance:\\n• NSOs: Ensure that NSO independence is anchored in laws and institutional setup; prevent statistical laws from becoming outdated.\\n• Other government agencies: Assign clear roles, mandates, and responsibilities along the data life cycle for government agencies (see chapters 8 and 9).\\n• Civil society and academia: Ensure that laws and regulations facilitate the safe dissemination of data.\\n\\nData demand:\\n• NSOs: Build trust in integrity of official statistics via public release calendars and best practices in dissemination; engage proactively with nongovernmental entities.\\n• Other government agencies: Designate knowledge brokers in government agencies to champion the flow and use of data; institutionalize data-intensive management practices.\\n• Civil society and academia: Enable citizens to engage more easily with data through open data platforms, machine readability, and data visualizations.\\n\\nThe colored actor-row labels are purple for NSOs, blue for other government agencies, and orange for civil society and academia. Source: WDR 2021 team. Note: The figure summarizes policies governments can enact, categorized by the actors and barriers they primarily address. Many policies span several actors and barriers but are placed into one box here for simplification. The role of the private sector is discussed in chapter 4; the role of international organizations is examined in spotlight 2.2. NSO = national statistical office.\",\"limitations\":\"The figure’s note says policies may span several actors and barriers, but are placed in one box for simplification. No quantitative data or scales are shown.\"}]}",
+  "elapsed_seconds": 9.049980399999185
+}

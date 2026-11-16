@@ -1,0 +1,45 @@
+{
+  "id": "f8edb2e2bcca447899281867ce0e3e9c",
+  "label": "20261116-165446-r2-test-baseline-cbad637d:adv-r2-test-01:step0",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 13501,
+  "maximum_output_tokens": 3500,
+  "images": [
+    {
+      "page": 162,
+      "path": "advanced/data/pages/p162.jpg",
+      "sha256": "3c87eb79f59a0c83019e94b33de2758ae869eec16a9e7ea359fc6bc3f51ab34e"
+    },
+    {
+      "page": 121,
+      "path": "advanced/data/pages/p121.jpg",
+      "sha256": "6f27529865bb2e447bd17422b04d135cbfca8d2eb173caa07a2b58dd7bad7757"
+    },
+    {
+      "page": 261,
+      "path": "advanced/data/pages/p261.jpg",
+      "sha256": "2fe86fa0726e9bb7af3a666f157232f254bf5814da46cf66d481ecf7d3a8f1fc"
+    }
+  ],
+  "instructions_sha256": "7b27220272435c850770154f165a9b99ffc1a1c1848fec729da980d6adec6535",
+  "usage": {
+    "input_tokens": 13501,
+    "input_tokens_details": {
+      "cache_write_tokens": 13498,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 13498
+      }
+    },
+    "output_tokens": 210,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 13711
+  },
+  "response_id": "resp_0a2a85f0efe2af0e016afad3199fac87d2a91b30da7f582726",
+  "response_status": "completed",
+  "output_text": "{\"action\":\"answer\",\"expression\":\"\",\"queries\":[],\"pages\":[162],\"status\":\"answered\",\"answer\":\"The research area is **External validity**. The table note defines it as research findings from one location holding true in another location. It asks about transferring models built in countries with data to countries with limited data, and flags the concern that using pre-trained models from higher-income countries for novel development uses may lead to data profiling and discrimination.\",\"citations\":[{\"page\":162,\"region_label\":\"Table 4.1, External validity row and note a\",\"bbox\":[0.084,0.27,0.907,0.93],\"quote\":\"External validity: How promising is the approach of building models in countries that have data and applying them to countries with limited data? How can issues akin to data profiling and discrimination be avoided when using pre-trained models from higher-income countries in cases of novel development use? External validity relates to the research findings of one location holding true in another location.\"}]}",
+  "elapsed_seconds": 27.97002369999973
+}

@@ -1,0 +1,60 @@
+{
+  "id": "1d14f9db44df4439bee8173402239b2f",
+  "label": "20261116-123301-test-baseline-45143179:adv-test-29:step1",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 26596,
+  "maximum_output_tokens": 3500,
+  "images": [
+    {
+      "page": 215,
+      "path": "advanced/data/pages/p215.jpg",
+      "sha256": "f16e1a988e4375dbd7b2a9766fe968067a39548feff1088eeb3861ed58690bf1"
+    },
+    {
+      "page": 309,
+      "path": "advanced/data/pages/p309.jpg",
+      "sha256": "0b679d0ba2713f0ac79383411f470980f5df7b09c7978a41782b64eb073e8877"
+    },
+    {
+      "page": 63,
+      "path": "advanced/data/pages/p063.jpg",
+      "sha256": "c20aca212a26540e3954ad159a207a49b48f30e699b5ad28b5efd83395f19a41"
+    },
+    {
+      "page": 230,
+      "path": "advanced/data/pages/p230.jpg",
+      "sha256": "ecfab48af7baf6a5c938572adf60ba2b4fe6f4c6484b2bc0d06e370d24b20e4b"
+    },
+    {
+      "page": 299,
+      "path": "advanced/data/pages/p299.jpg",
+      "sha256": "381ac1ece0cdc861f03fc4b2342092b1a9af5f42ded2b0f8ad092cf716bc9157"
+    },
+    {
+      "page": 38,
+      "path": "advanced/data/pages/p038.jpg",
+      "sha256": "bc417710ee043cf1b8c4eeb566072e91e6f66ef4f6eea0ce9420e05769bd6d88"
+    }
+  ],
+  "instructions_sha256": "7b27220272435c850770154f165a9b99ffc1a1c1848fec729da980d6adec6535",
+  "usage": {
+    "input_tokens": 26596,
+    "input_tokens_details": {
+      "cache_write_tokens": 26593,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 26593
+      }
+    },
+    "output_tokens": 125,
+    "output_tokens_details": {
+      "reasoning_tokens": 13
+    },
+    "total_tokens": 26721
+  },
+  "response_id": "resp_012a83266a40fa5b016afa969f52ec87d2a3207c17d29af084",
+  "response_status": "completed",
+  "output_text": "{\"action\":\"search\",\"expression\":\"Find the World Development Report 2021 passage giving UK Biobank consent revocations and research records deleted in 2020.\",\"queries\":[\"UK Biobank participants revoked consent in 2020 research records deleted\",\"UK Biobank 2020 withdrawn consent records deleted shared\",\"UK Biobank consent withdrawal 2020 number deleted research records\"],\"pages\":[],\"status\":\"abstain\",\"answer\":\"Insufficient evidence in the retrieved pages to determine the numbers.\",\"citations\":[]}",
+  "elapsed_seconds": 12.994453799998155
+}

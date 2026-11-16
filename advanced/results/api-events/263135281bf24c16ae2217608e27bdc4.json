@@ -1,0 +1,35 @@
+{
+  "id": "263135281bf24c16ae2217608e27bdc4",
+  "label": "index:p061",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 3694,
+  "maximum_output_tokens": 6000,
+  "images": [
+    {
+      "page": 61,
+      "path": "advanced/data/pages/p061.jpg",
+      "sha256": "8bcbcafb4c90e4678174f95b5f5c6d313394c6a642c91805e381aab03fa01b7d"
+    }
+  ],
+  "instructions_sha256": "01d3a56b3c678b1acd37e506320a854b17dd9ddb13ece56a92b62990aeb80d41",
+  "usage": {
+    "input_tokens": 3694,
+    "input_tokens_details": {
+      "cache_write_tokens": 3691,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 3691
+      }
+    },
+    "output_tokens": 408,
+    "output_tokens_details": {
+      "reasoning_tokens": 180
+    },
+    "total_tokens": 4102
+  },
+  "response_id": "resp_09f691cd2d7de108016afa9024b4c887d2a257fd652d19fc3b",
+  "response_status": "completed",
+  "output_text": "{\"regions\":[{\"label\":\"Figure 1.5\",\"kind\":\"diagram\",\"bbox\":[0.093,0.436,0.742,0.924],\"summary\":\"Diagram of data flowing safely among five stakeholder groups in an integrated national data system, with a connected pathway of five data attributes.\",\"details\":\"The figure is titled “Data flow safely across all stakeholders in an integrated national data system.” Five blue-outlined circular nodes—Academic institutions, Government entities, International organizations, Private sector, and Civil society and individuals—surround a central area labeled “Data.” Multiple intersecting green pathways with directional arrowheads connect the stakeholder nodes and pass around and through the central data area, depicting flows among stakeholders. Below, a “Data attributes” sequence shows five labeled icons connected left to right: Produced → Protected → Open → Quality controlled → Used and reused. Source: WDR 2021 team.\",\"limitations\":\"The many crossing pathways and arrowheads make individual routes between specific stakeholder pairs ambiguous; the figure does not label particular transactions or assign data attributes to individual routes.\"}]}",
+  "elapsed_seconds": 7.847024899994722
+}

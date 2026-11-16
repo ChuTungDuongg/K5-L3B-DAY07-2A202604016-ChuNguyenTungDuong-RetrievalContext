@@ -1,0 +1,619 @@
+{
+  "model": "gpt-6-luna",
+  "price_date": "2026-11-16",
+  "currency": "USD",
+  "rates_per_million": {
+    "input": "0.10",
+    "cached": "0.01",
+    "write30": "0.125",
+    "write12": "0.25",
+    "output": "0.50"
+  },
+  "price_source": "https://developers.openai.com/api/docs/models/gpt-6-luna",
+  "cost_scope": "Recorded generation response usage; estimate, not account invoice. Local compute, tax and authoring-assistant tokens are not measured. Token-count calls are logged separately, not generation usage.",
+  "index": {
+    "input_tokens": 431087,
+    "output_tokens": 48140,
+    "uncached_input_tokens": 321,
+    "cached_input_tokens": 0,
+    "cache_write_30m_tokens": 430766,
+    "cache_write_12h_tokens": 0,
+    "estimated_usd": "0.0779478500",
+    "generation_requests": 107,
+    "responses_with_usage": 107,
+    "unknown_usage_requests": 0,
+    "token_count_requests": 107,
+    "sum_api_elapsed_seconds": 796.80377890003
+  },
+  "runs": [
+    {
+      "run_id": "20261116-121843-dev-baseline-488da010",
+      "path": "advanced/results/runs/20261116-121843-dev-baseline-488da010",
+      "split": "dev",
+      "config_name": "baseline",
+      "config": {
+        "image_pages": 3,
+        "max_images": 6,
+        "max_steps": 3
+      },
+      "started_local": "2026-11-16T12:18:43.015942",
+      "metrics": {
+        "passed": 14,
+        "total": 18,
+        "errors": 0,
+        "missing_results": 0,
+        "unreviewed": 0,
+        "groups": {
+          "table": {
+            "passed": 3,
+            "total": 3,
+            "errors": 0
+          },
+          "image": {
+            "passed": 2,
+            "total": 3,
+            "errors": 0
+          },
+          "chart": {
+            "passed": 1,
+            "total": 3,
+            "errors": 0
+          },
+          "multihop": {
+            "passed": 2,
+            "total": 3,
+            "errors": 0
+          },
+          "text": {
+            "passed": 3,
+            "total": 3,
+            "errors": 0
+          },
+          "unanswerable": {
+            "passed": 3,
+            "total": 3,
+            "errors": 0
+          }
+        },
+        "rate": 0.7777777777777778,
+        "score_threshold_met": false,
+        "labels_confirmed": false,
+        "threshold_met": false,
+        "label_status": "assistant_proposed_pending_learner_confirmation"
+      },
+      "usage_cost": {
+        "input_tokens": 313846,
+        "output_tokens": 4396,
+        "uncached_input_tokens": 63,
+        "cached_input_tokens": 0,
+        "cache_write_30m_tokens": 313783,
+        "cache_write_12h_tokens": 0,
+        "estimated_usd": "0.0414271750",
+        "generation_requests": 21,
+        "responses_with_usage": 21,
+        "unknown_usage_requests": 0,
+        "token_count_requests": 21,
+        "sum_api_elapsed_seconds": 142.10531209997134
+      },
+      "elapsed_all_seconds": 149.680761,
+      "median_ms": 6732.0225,
+      "status_counts": {
+        "answered": 15,
+        "abstain": 3
+      },
+      "tool_calls": {
+        "search": 27,
+        "inspect_page": 66,
+        "model_action": 21
+      },
+      "analysis_inputs_sha256": {
+        "config.json": "d0d8d1339347c281bd98a95e587c6b638150f65ee448c2ee069d3781f0aeae78",
+        "traces.json": "36b7f2b851a032e0836c57026d033542825b64f648582fda9d164e4f08282c01",
+        "reviews-proposed.json": "ace50c388a728b010ae2e734b4b3831c65e5c922b58075397037a5b60c6908f7"
+      },
+      "analysis_api_sha256": {
+        "1bf9719f14834a69a4373447ade7bd48": "fa2ee21c291af60c2170cace0f136f3e78eef59ce6294aea4d1dffe114ba5868",
+        "23e554d896e04b67a41c06b88bf3928b": "9114f1e7e354c92ffcacc8d9df22d7e67998f407bebc258daef654b40e6ae50c",
+        "3daa4166bf0c4b12867759f5796b26ad": "ffae5aae357359f60ff996cb14ba10941ea633bee78275ba1ad587261f8210a2",
+        "4584beff754b4f4ca765d4dfea6772e9": "0314b9843de8d7546031e1938146473a2b4bbfb389d8698ba258326b81fc6436",
+        "4e0051d8804f424fb0861225485acf0a": "aca364539c85a4788597b237b916e5fcf10fb55696a19ad9a9f7317afd449bd0",
+        "53f2b2cfa36046dea093962549a04472": "1e1339f8da89bbb8d93c3ddda82fa286f567bd57c211e561fb2b3ef1641a5eba",
+        "694864f4e09a401387db4c7decead269": "6cea9c8415eb9b714ef79fb9e7ef51f7dbb89d70dde173ceae3921f4fa113605",
+        "7da600d6c753433eab6a9ba2f795c8bf": "0715b2aa1aefad837d64ed0195a0f29852f6b38569fdbda7137440e89be922fd",
+        "8e3133e5474b4a488d6366b8a3204209": "5b54434283514b3d7e3aeb98a67b97f93ae3cf457a3d4d23435589f308418d6a",
+        "9c2ce518825e40f2a8c98813354f316c": "c9c46cc6f025cb656e9ffe6f5c73a2bbc85be6a137d299d18b569923b653ca6b",
+        "9fd0d21971634ef59627c9c7f0b8f569": "0475063d52cd33186d2d654693d3444c5435f8c49c3721db12936c966ea37523",
+        "a4014aa203aa4444bc129f28d390c59a": "351fa56560ec74b578e4f72c07ff9022baeea2fad29d703a2a2090df7d6fc158",
+        "ac6d449565ea4f1ab1e7ac94b0ba6bcb": "afbede756a2911ae1635cb8f1c4dd1bbe44c0ca1e23b9b86c41414edeac92ae2",
+        "c5437ff2ab8a4aecb6c6aa2532e249a3": "e5e121c91fe048a87c498cfd660ef3496d70f055165a892f6cf574d4b5b9d0d9",
+        "c5eb43b88eb74ac88506384fbb4b1464": "48d7aee190d88d431f8e7f8808fa275bfe39a5372e4577b69ab45d1664f7ae3d",
+        "d33178707ee64518bdb06df6cabbf49a": "af3616a7c6f7ab25fb9b60b19908cf0a11d09fde931bfc962f0a859a583c7d36",
+        "d8a27c25cc1440c5810a8cea470c63cc": "dfea261dd01e120716bf305d4d3d1439b411363e83faf0cf94c1abcd5a7f751a",
+        "ddf605be53834b5cb6afb7d92e5d061f": "eed691d88ff251ae2b7ae6db707ff2649a7ca6aa191109aac89ea57bc53ba9a5",
+        "ee1ff6a18c1f4b3d8589a105d103232b": "71e1a360f3a5d20819c69ffc2cf7b547d5acde6a97dbb954aa04820ea83d633a",
+        "f8e22f0c3d384a8ebb40869e6c931bd2": "40db7b4c4bda10b88b62fa713c21200fee4ea4769bb06789ebbeabc88c720358",
+        "feac0b7c6c2943d8969380c5f30d3441": "b903d6dfb7ecc2d5f941e57f9c8e3c9117b3c39bc956d5b30d89a917fdff712f"
+      }
+    },
+    {
+      "run_id": "20261116-121901-dev-candidate-25029307",
+      "path": "advanced/results/runs/20261116-121901-dev-candidate-25029307",
+      "split": "dev",
+      "config_name": "candidate",
+      "config": {
+        "image_pages": 5,
+        "max_images": 8,
+        "max_steps": 4
+      },
+      "started_local": "2026-11-16T12:19:01.549352",
+      "metrics": {
+        "passed": 16,
+        "total": 18,
+        "errors": 0,
+        "missing_results": 0,
+        "unreviewed": 0,
+        "groups": {
+          "table": {
+            "passed": 3,
+            "total": 3,
+            "errors": 0
+          },
+          "image": {
+            "passed": 3,
+            "total": 3,
+            "errors": 0
+          },
+          "chart": {
+            "passed": 2,
+            "total": 3,
+            "errors": 0
+          },
+          "multihop": {
+            "passed": 3,
+            "total": 3,
+            "errors": 0
+          },
+          "text": {
+            "passed": 2,
+            "total": 3,
+            "errors": 0
+          },
+          "unanswerable": {
+            "passed": 3,
+            "total": 3,
+            "errors": 0
+          }
+        },
+        "rate": 0.8888888888888888,
+        "score_threshold_met": false,
+        "labels_confirmed": false,
+        "threshold_met": false,
+        "label_status": "assistant_proposed_pending_learner_confirmation"
+      },
+      "usage_cost": {
+        "input_tokens": 594521,
+        "output_tokens": 4918,
+        "uncached_input_tokens": 72,
+        "cached_input_tokens": 0,
+        "cache_write_30m_tokens": 594449,
+        "cache_write_12h_tokens": 0,
+        "estimated_usd": "0.0767723250",
+        "generation_requests": 24,
+        "responses_with_usage": 24,
+        "unknown_usage_requests": 0,
+        "token_count_requests": 24,
+        "sum_api_elapsed_seconds": 235.57915739998862
+      },
+      "elapsed_all_seconds": 247.756523,
+      "median_ms": 9769.190999999999,
+      "status_counts": {
+        "answered": 15,
+        "abstain": 3
+      },
+      "tool_calls": {
+        "search": 42,
+        "inspect_page": 130,
+        "model_action": 24
+      },
+      "analysis_inputs_sha256": {
+        "config.json": "780cb5a2e0e4840f22178329733c94db68ccfbf0e5c20a0f9170fa9570740b9b",
+        "traces.json": "88211f9fe0b3c62bf06b8491ad6db1db45618b8753b7a2d044f1b7ba01924f2b",
+        "reviews-proposed.json": "b7fcc5738f0587293638bdf2a9c8c702d299342f48b1f6da7ad31fc5028ef2c8"
+      },
+      "analysis_api_sha256": {
+        "062ed3a96d914059a702df68ab6dc317": "1467c7a577d929e78dc88b1ebc74b1a4d1637fe79d7cf42a1ef0b62bbdce6335",
+        "0a8f108d06834a838c4ce4a48aa40499": "c67166a478019b58e536b8dba48cc53ba5b8cc0bfb06fc913fb00ef9b39b4b8b",
+        "12fc58e314434c2ea59f89a3256426f7": "6f1c1c8c3a33ffb92126382a3a5658a7b638e07c625348d4ae4007e42f56cda4",
+        "26b9cae92a13405cb1dab34eaf908adb": "228e32b98954c6af2a2473a33a77cae9d2cced07a578157610cf0e7407dbadd3",
+        "29b78925615b4d79a4bb265690573193": "462d9ee729f46e81412eb8b19e2c4152063c785d602f8541369a9ad9562db5eb",
+        "2f58b71adf7f4665bc8e2b6306541eb0": "0c8d6acf5bf3a67d895099e7448f9db104d7f95267dd9cc7dbefc1f5170bb154",
+        "35be2b40a38244118e96541020cf5ea5": "2c1842ddda3806feb38363f61b161be37eadc4ab3f829d3842f194dec436d3bc",
+        "40989a8608ef4976bcb92f9a13a82e74": "19a001094a93059d3c72cc7c19e9f87f2ec89f1f71973f2e4284f6caaccf1974",
+        "4faa26f9354c4a51924842d9bfe04478": "2cb07190b4613ba8038a41ae5b135f514255b3ac6efd1c45f1c4db753915e44a",
+        "599714b02e1744ad8b045d142e0bd28e": "c7f546343cbfcb593f28df92e87d6230ee26da23329f11eed17ff75df7b1877f",
+        "61b0594f2571425280a3d96e302f8b7f": "2d9eae73c04d15f026d9a017b9e56aa7f867d08f509d591bdd48c83332234c12",
+        "64121deadd7b4e0d97ec3614bf35ce22": "9720e26cd54e36b9de258d3f926cde10bb0d27d1fb3525e4cff90ffd2c1e1387",
+        "7c45fa4430d549d69cd5a1296452c6de": "951c9c2043ec0eb10ea29e26eceec5073b48e9d0d56fe65856f0a7ac0a5e578a",
+        "908c29a5b4984747b880bb09a102c73c": "83041665215224a75dedc5670768e525720e89fb592d6e9e836822e20a61e25b",
+        "960dfd2fffd54c369d9ceabead583644": "8d4ebc622ac1bbc0ace301f131b3bdba6c8a66e858cde15e3c4cd7a4fff50bed",
+        "98a46c0eb03b4465b377b0e171a2b2af": "f0b885300f3d8945ae902a9ed265047f6f5180c79760120f0c4603190ce701d9",
+        "9aaa6eb4bcbe446081b3861c130ca1b8": "828f0ed0f6296ddac70da9a216aeb5350f5d1f152b0081d2f9c355a6084f03b0",
+        "a5db8c9af9aa48babd610c83afd3546c": "defceaeb69a98225d1580dd251f2d5fb05fdeefe3a217163b01b1e7ee1d1815e",
+        "a69e3e39b67a48508758b75924086340": "56edc28267d33c862a8d610c55181386adc9c687f828b3c09317be65a4af0ac0",
+        "aacde10d7dbc4ae1b08a0a02d4ed2f66": "d41d6d5e5355742519cd37dceb12c058629bfe1a8888a1762871085a8ad9b868",
+        "bbbb9a29d3eb4993b1ba49906f75fcaa": "ae458780c654a980d28242c559f00638cab491b2bca911059af5b07e7b7c36c9",
+        "c51916b77cd148068c0b05d4c2aa76e1": "ad532eac52fbf595e32878e3052d1f0d966a597de4393d3028067715c3542f1e",
+        "cf461892a3e34f2f86991fc2752c08ba": "6306b5e385cdfa0bab107a895d4156e75b716c8249ab0cabc114bc5bc3dcfe05",
+        "ebf8e223010f4e3eaaf2f45b5cd85b67": "3e039b7ef7aa8f3af32fe17329204c5a194679a0c1c9a45126598d7224548ca8"
+      }
+    },
+    {
+      "run_id": "20261116-122648-dev-baseline-91fbfbb2",
+      "path": "advanced/results/runs/20261116-122648-dev-baseline-91fbfbb2",
+      "split": "dev",
+      "config_name": "baseline",
+      "config": {
+        "image_pages": 3,
+        "max_images": 6,
+        "max_steps": 3
+      },
+      "started_local": "2026-11-16T12:26:48.993357",
+      "metrics": {
+        "passed": 17,
+        "total": 18,
+        "errors": 0,
+        "missing_results": 0,
+        "unreviewed": 0,
+        "groups": {
+          "table": {
+            "passed": 2,
+            "total": 3,
+            "errors": 0
+          },
+          "image": {
+            "passed": 3,
+            "total": 3,
+            "errors": 0
+          },
+          "chart": {
+            "passed": 3,
+            "total": 3,
+            "errors": 0
+          },
+          "multihop": {
+            "passed": 3,
+            "total": 3,
+            "errors": 0
+          },
+          "text": {
+            "passed": 3,
+            "total": 3,
+            "errors": 0
+          },
+          "unanswerable": {
+            "passed": 3,
+            "total": 3,
+            "errors": 0
+          }
+        },
+        "rate": 0.9444444444444444,
+        "score_threshold_met": true,
+        "labels_confirmed": false,
+        "threshold_met": false,
+        "label_status": "assistant_proposed_pending_learner_confirmation"
+      },
+      "usage_cost": {
+        "input_tokens": 370243,
+        "output_tokens": 4784,
+        "uncached_input_tokens": 69,
+        "cached_input_tokens": 0,
+        "cache_write_30m_tokens": 370174,
+        "cache_write_12h_tokens": 0,
+        "estimated_usd": "0.0486706500",
+        "generation_requests": 23,
+        "responses_with_usage": 23,
+        "unknown_usage_requests": 0,
+        "token_count_requests": 23,
+        "sum_api_elapsed_seconds": 153.77471179999702
+      },
+      "elapsed_all_seconds": 162.758052,
+      "median_ms": 7229.076,
+      "status_counts": {
+        "answered": 15,
+        "abstain": 3
+      },
+      "tool_calls": {
+        "search": 36,
+        "inspect_page": 75,
+        "model_action": 23
+      },
+      "analysis_inputs_sha256": {
+        "config.json": "a18f43a9daccc61d2ccda581933da748d8faef549e32018ebae85f94c118baae",
+        "traces.json": "a4f756366b2514397f18de566fa4b3fcebe361f78802d8d17df5b095d25bbf0b",
+        "reviews-proposed.json": "6c4dbf82a43c245e2c2a2617e68164097be74854055e5c0b11b572210f6350aa"
+      },
+      "analysis_api_sha256": {
+        "045520b91c23424c9cca1f62acff93a0": "00dc3d56b268233685df8e75173f4a43e8b155da8c68d501aa432198f8724385",
+        "0f602ddadae5494992d3c515fd01aebb": "2d8ea318eee53704108719ba67c29c4be9f2b210d4ba511adcaacdccbf7ed375",
+        "1bf05b296fec4c8796a689835c841445": "7c0051d94d82d5c01c54725e2593c5e651861b608f14dc2f5086774d2c6d198d",
+        "1dcf203607924053bbf7636fe1bdc3b6": "5627e973a82fa8cc0cafadd16187cc0675c3dbe10f68e006b7263b18a0965859",
+        "22b833438ad1455a82567de18c6ff05b": "2f27f63b5c8cf5e5b032b6ee5e27a2929fb90813b2ac51356db57960904b04f5",
+        "24259471a47a4f82bf377fbe503160d8": "2d46d3cd5d8258ccccbdc536f15453dce6dbc7a25e25cd016648ac36d9a5433e",
+        "31c96f523bb74a0698bb83f005c93431": "789d8a84e61b04589d505f6ec8b14454551bd03fc35e27d6ceec6685b8a4f00c",
+        "4a17438447d54e47ae6cc0ac2ff53171": "8b049417552e2d1846d425b9848e4800705b530145134b83748fcf77b9d32eb5",
+        "57c0c718509c421884abd89fe9066308": "5fd650826b88a01e5a6389b7d8295596d5d379fa8b65ce1a8688cb4c5f4c4e62",
+        "5a96b986f3544f70bf01290f061685e7": "2843a6ecbd7ae1948819d24a3eb65ca16ec98bf24c9928242ac5ba2147097ab1",
+        "6473e4f12aec44f4873217f27b71e66c": "aa69141e43c9bd2bdd6182d27157edcf43541cc7a28f459cd282e1e159f4801d",
+        "677934fded234ef197951e7b898b6ae2": "260b4a8551ad7cb0b8c141638159e05199ed08751f6a8d447d69abbd9a697b4a",
+        "8e546466837440ba841435ccfe824461": "67fcf8159a52fff82e2348b07823e3fc4a613a53e8a631fcb74371fc5f71e3bd",
+        "9e5b4b48f7d04f52ae74bd1312ba0c10": "b636c1479aa5de8d1c7da822a6a849f243ed136c46de25f9efde38db90214648",
+        "a83ab5bf0a624caa9f1ae096e69016a1": "a9a1fe010dc9040639f2e48057ee00d75d8983de661d0ec7b0c0f29dd71362ed",
+        "b7613f22a5394a30bc266825b77d998c": "909d5e469b1531f4615ecec862ab64e03c1d6f1616ca317891d3cf576dc23253",
+        "d382894180e64c6db6c87f0fd7be2191": "d56ebd680f192d9771cb3fc0cdc6d68e3c618b03821e1a1194055d587b5a9718",
+        "d58a6be0ae10415bb2e40554c3827ca5": "1ce91c99629297d6ce8b34e78d2ac2658f9688b080072ba3958dbfa83bd41625",
+        "d621881983c24e4396f25141e6446295": "0edaa34b748720ec5c75d93129c5e7d749f40d81138691ad686eddd4b951457d",
+        "dc581b5b4bbf4499af9e14badd3f7424": "33f622182630cc857257a444317c6a4c424eda6f9d123e4f3c519dc2c9918afd",
+        "f294a7dc36d44841a920f3f0bbf66582": "10a1c2af8112aa734917d78a3c2e84566fd8bff77da513108dc7558b64977484",
+        "f3a88d3b0ada4535b4973f0a2b5dd0f1": "2481285137afe320b83e618cb0ccb1ef34cb6e42b26c2fa65fdd74df92b9400e",
+        "f5282daf17794b6489378dc00b5cea1b": "afdc2742716667d5c7b6e378a1e88778052848dde753715d7854439c908e74ee"
+      }
+    },
+    {
+      "run_id": "20261116-122658-dev-candidate-fdc3f714",
+      "path": "advanced/results/runs/20261116-122658-dev-candidate-fdc3f714",
+      "split": "dev",
+      "config_name": "candidate",
+      "config": {
+        "image_pages": 5,
+        "max_images": 8,
+        "max_steps": 4
+      },
+      "started_local": "2026-11-16T12:26:58.874512",
+      "metrics": {
+        "passed": 17,
+        "total": 18,
+        "errors": 0,
+        "missing_results": 0,
+        "unreviewed": 0,
+        "groups": {
+          "table": {
+            "passed": 2,
+            "total": 3,
+            "errors": 0
+          },
+          "image": {
+            "passed": 3,
+            "total": 3,
+            "errors": 0
+          },
+          "chart": {
+            "passed": 3,
+            "total": 3,
+            "errors": 0
+          },
+          "multihop": {
+            "passed": 3,
+            "total": 3,
+            "errors": 0
+          },
+          "text": {
+            "passed": 3,
+            "total": 3,
+            "errors": 0
+          },
+          "unanswerable": {
+            "passed": 3,
+            "total": 3,
+            "errors": 0
+          }
+        },
+        "rate": 0.9444444444444444,
+        "score_threshold_met": true,
+        "labels_confirmed": false,
+        "threshold_met": false,
+        "label_status": "assistant_proposed_pending_learner_confirmation"
+      },
+      "usage_cost": {
+        "input_tokens": 664083,
+        "output_tokens": 5696,
+        "uncached_input_tokens": 78,
+        "cached_input_tokens": 0,
+        "cache_write_30m_tokens": 664005,
+        "cache_write_12h_tokens": 0,
+        "estimated_usd": "0.0858564250",
+        "generation_requests": 26,
+        "responses_with_usage": 26,
+        "unknown_usage_requests": 0,
+        "token_count_requests": 26,
+        "sum_api_elapsed_seconds": 231.2787862000041
+      },
+      "elapsed_all_seconds": 245.262434,
+      "median_ms": 8371.7695,
+      "status_counts": {
+        "answered": 16,
+        "abstain": 2
+      },
+      "tool_calls": {
+        "search": 46,
+        "inspect_page": 140,
+        "model_action": 26
+      },
+      "analysis_inputs_sha256": {
+        "config.json": "d090cf093b81f0535d579b2780fc27c0829e79e502575d50d6e1ab9cf03f0a32",
+        "traces.json": "d994c4f955073f3e7b87b1866dcf8dc6ae65b6eedc7540babdea5073d4899b26",
+        "reviews-proposed.json": "857cc7fb874fece64d495bc7d7ada3bdfdebd29e091da1a09643d3fa09cd3d21"
+      },
+      "analysis_api_sha256": {
+        "0cb4acd2b7374f058dffec5177d87a87": "d589cdb296b7769b781c0a526811e18681c171d6d0cfd2254e9cc3414d7f893f",
+        "0e6177dd19f94cb4b5f87ad1a38a1cab": "4d43428bb495d8578d8ef47889981e1af448a3bbd62ffc0b0456e1a236fab1cc",
+        "138f472fc63847cc9f7b11fafd1f0b2f": "b3df795cfb6a623039e0ff3c2aa6d11d13d1ed301786193574eb9f28daf9965e",
+        "14672cf4b87a4ae7bf1de37955fec4cd": "c1387b851757bf68d945fc10adb2a5fed14c0ffb2673bd83d4631b3ae904ebee",
+        "2136ac7ba1ce4c0db04573e99c8a8355": "4db066a607b5d6ea8435715081078a131239341d69cb84ff35edb411fdeb0069",
+        "309afbe7379647fa98400532ea2b8e55": "2d33e6b7a5d1e34423bf61a7a18f3c560f1467a042a5210aab7def483c5cc7c7",
+        "3627ad6ae8f74c28a4ce80b71f07e770": "15dd40917363291001c5c049d91f46beec5a652c083dfd01f9c35a4353514f49",
+        "44062fefb65b4e28849dd4bb095adc3c": "5bb7d644970a5f782311d19a51f73dabe7eb035cf153fd19a07ea6d5f3fba3d2",
+        "451257f8de624af09aa85ba08d4a0ca6": "8254883a3f040a29be0c6a28fa86a203633f448c4c1ad643bbdcdd1c488f88c4",
+        "4e5c3694c0864a488a8687dbd54a0bb2": "7d4c3ab3c43d9fd4c00442ffe746bcad3a99236ec36395975a1178758049d8ae",
+        "5585f29ff98740cd86959581fdceaf23": "ccdabbc91bfe429f0c21465311d4d0b6295f70bebf7152fdc4bfb2918d1e7242",
+        "55d16fc0f6e94b9dbf347ad03b800af3": "5e0910df23cf1517ee9039a6eff83bc22a5eb45981d83ed08a01650a84c01423",
+        "63f1d3433ff84a7d9dd609cd53e2d455": "1f4b708b7e7ecfdd6e1f23eb266efe6be9b601ee0a10bc8bf9123982f5a3756c",
+        "64465ed3f0d14992841f9ac16c3c9c40": "6dec0c7b31700b031da28c238dda1113a7513145dcf1623b2d1f3ae04d0d9b60",
+        "64afba76ec0b4df1b79452e5b9d9c755": "89e8d423b7f4ee3ebba4d5197c6a66becf93b5539d884e95f41f4b2a5e0ac673",
+        "64ffb09acb464a36b39518ef34269c4c": "654d93365bc22e598badb17697306cc985d155b7019b7886ded834e62ce9bc09",
+        "68cda9e2e9b648bd891f95d8d8d2ee4a": "b05ed84f2c8e945c08858a28065e98a975ca750a5e2f24dbf2e30a5b31ebd793",
+        "7ad81626f72c463f933d96947d459031": "fd60760d5c87f3a011016aeb837e1e4f4b1067041fc46746d2fe391cf2525449",
+        "85e0d6a9a16a4e4ea4e8ca47ee182476": "df175f370e0b17c3c14108b06e7d353ba1ef970c675165ed662e40374130c6e1",
+        "894427594a0f473589df468617e0bc2a": "5c4bcca6eb2958680ccc9e76874d45fccdbb35ca2726fb4d0e42c4b69d5bbe97",
+        "92803fd92de945e0b6f58b112761504a": "9da0c23d758a3d1df61327f41c10a0969abd507f8b1c164e4a90c44ee211b1c6",
+        "9eb5d872d6874314b7c7cc497428afc9": "2881169f2475ebf9302dfc9124653998eb35b81b9457b5277a97eeccf1ec1e21",
+        "a99d3e0a8ac646368f39f996b12836d0": "c04069196e134137898fba7129fa30949e79fafbe8c5706ff274aad49dfff924",
+        "ce4e6b2a80a24de9ac8fcba7a6eabbb7": "dc017ecccce58cb004a4b5e574d156e38fabf5b7db8d611fb7c5b738f258bf51",
+        "e8882a5de2b44a5d80640a75b839aa18": "ea533b912566446ef70ad8f68e7eba547718bb52a67840695af6606a74e66da4",
+        "ef151a3eeb7d4aabb6d9bc943fd2fd65": "f6e9435b8d69ca95294ec23d6fa032ef8a1b8a6c6497fdb3c506a37eb5ce515b"
+      }
+    },
+    {
+      "run_id": "20261116-123301-test-baseline-45143179",
+      "path": "advanced/results/runs/20261116-123301-test-baseline-45143179",
+      "split": "test",
+      "config_name": "baseline",
+      "config": {
+        "image_pages": 3,
+        "max_images": 6,
+        "max_steps": 3
+      },
+      "started_local": "2026-11-16T12:33:01.283090",
+      "metrics": {
+        "passed": 26,
+        "total": 30,
+        "errors": 1,
+        "missing_results": 0,
+        "unreviewed": 0,
+        "groups": {
+          "table": {
+            "passed": 6,
+            "total": 6,
+            "errors": 0
+          },
+          "image": {
+            "passed": 5,
+            "total": 5,
+            "errors": 0
+          },
+          "chart": {
+            "passed": 4,
+            "total": 5,
+            "errors": 1
+          },
+          "multihop": {
+            "passed": 2,
+            "total": 4,
+            "errors": 0
+          },
+          "text": {
+            "passed": 3,
+            "total": 4,
+            "errors": 0
+          },
+          "unanswerable": {
+            "passed": 6,
+            "total": 6,
+            "errors": 0
+          }
+        },
+        "rate": 0.8666666666666667,
+        "score_threshold_met": false,
+        "labels_confirmed": false,
+        "threshold_met": false,
+        "label_status": "assistant_proposed_pending_learner_confirmation"
+      },
+      "usage_cost": {
+        "input_tokens": 558094,
+        "output_tokens": 7171,
+        "uncached_input_tokens": 108,
+        "cached_input_tokens": 0,
+        "cache_write_30m_tokens": 557986,
+        "cache_write_12h_tokens": 0,
+        "estimated_usd": "0.0733445500",
+        "generation_requests": 36,
+        "responses_with_usage": 36,
+        "unknown_usage_requests": 0,
+        "token_count_requests": 36,
+        "sum_api_elapsed_seconds": 258.5354401999575
+      },
+      "elapsed_all_seconds": 274.19057,
+      "median_ms": 6326.502,
+      "status_counts": {
+        "answered": 24,
+        "error": 1,
+        "abstain": 5
+      },
+      "tool_calls": {
+        "search": 49,
+        "inspect_page": 114,
+        "model_action": 36
+      },
+      "analysis_inputs_sha256": {
+        "config.json": "8f74eeecef714371941e9da000684eda573eb5ea2f0140860bf0fff853752422",
+        "traces.json": "0b290ac1e7b35887312246fa76866eace45d0a90ad750a91159bec6778e8c453",
+        "reviews-proposed.json": "05837c460fd1e78d0f0b1463a45c0b1e152a51da6a2b4a6636239779c0a18703"
+      },
+      "analysis_api_sha256": {
+        "01fbe57544104fe0aea19de808092023": "d57b21571db68f439a48a09a4e1dbf0366bb28a53698a20423de09988616a48f",
+        "06693e9620a24cc4bde080329ce847d4": "1cb1c629a4d664a169bb62b5ca43e2b20805956f6dde3051feb8d1ae9db29758",
+        "0e11fbd23c3247edb2660880746d0e9f": "8de98e88e4e51baea5e0d61574532fea08e0b37cd406bea452a7dfbc141ab34f",
+        "13d450208c0b4faea3e1d7db41b93362": "874c8c6e4968a4554af42c08bc64ecb61276e25eeeb650677b24779a4fd70249",
+        "1d14f9db44df4439bee8173402239b2f": "4dc00c7d6be038428bd5b01787fb41a9b34a1ce7eb546d21867a70aeccc011f8",
+        "1ee637051b384c3a8ba0ca63e2c09aed": "d888a90f7be7c0c752d5fcd25d8e4739526166f59545e89ded6b24a15aba80f9",
+        "24cf153ba36e4287955003badd0c4c3c": "1077f97f14d8c08506604b7ef1b14458b7d39b386e0dc64ed3d8ff581138f6b9",
+        "283bc4cbdd34406fbfd7dac2e00ba47d": "4471e0a09963198fac824ce063a276179556e2fdfd690f22c98013c93adf9f45",
+        "2eeb1eecff3340e78b86fcbff34d0fb2": "1c694fa56c9b5480726e8692b9d46d08538c12d05ac3ba4ff23f3603fe298112",
+        "3016959068564a9fb51d45cd149dc0df": "4cffecb24b83fe042b18279cfc1f1c0e77af4ddc7774837e8015d2f6315aa81f",
+        "3886c41f292645f6b7d7772343006248": "dec1e4ce517dd4ffb2ef299dd1a19c6d30697562dd41b8ece21ed9e542d48f74",
+        "38e7b6be4be4406fb6ec03909c5d7cdf": "36a87324e24efa781b855b2b11ccbba911a3e43f27c4ea9977a32cf3df5fb1b5",
+        "49cf918520884d358e9acb2a4af30197": "90e70c28a6fe38c0400689b59d93d9f704cbe450588ee12eae02900e19236929",
+        "6e1f12a66e364d238a5bb38f64238868": "53c93d351e1ac260bf0251a674654dda5e202defc0d34c9a248021412a69da3e",
+        "71ffc6dcf27f4fc98dadbe0e4d66204b": "6f85ef7bc68e7227d43529bfbba08fa02b0725ee028c52e66e9fb0515deb6392",
+        "88f0aa9c64d348ff82196df3115338b3": "8b17895e95a3864bcbca3acb325e6603912230888a4fd4fe75cb0aa3175a4fa8",
+        "8cde1559e6a9408c88dcc4a24cb0f2df": "361dd4837e87460a606170e749e11cbf11ae8380fe514770038eb2ec66cf7957",
+        "94d3b69f91a643ec8d06c29791012b49": "6fc1908129559db4f2d28ec48075ecf01903a1c8b20d1c34f96f360c504c9570",
+        "9b3643d969b247e29a170a37ed55c1ae": "e6900def1866a317fe2e0b9a85ff3e2fb532affa6bec425ae1712296b836b7f9",
+        "9e75c9966d4d44f9a33e481e5bb6c4f0": "f04bc4c8ee2d6fd9f79e3b82e4243497cddd56975fb926ef171d1d4b98d28462",
+        "a914a95e2fe94500962ed87b0db6c065": "076ffbc80e01f8033d96576c0c19ddcc9fae069ad41b877443e2a69d0e81a448",
+        "aa0dcf00976c4878951cc7db950c6315": "7edd06e02f9535741e3dccd7920d991d1c83f7c81acc5a16e873c0ea50dfed06",
+        "aed80defb656440090c75d2247adf149": "75f2a56072324bb6cd4dfa4d425f7d93cb4b02baa9e34ea80d50787d381bd8d8",
+        "bf26f01531ac486bad5409a3d484f939": "e831ba64b16a5f1b846564991d23639a23cfd97d03988cb0d9562e2d1b939f99",
+        "c05fa8a8833e4a6b8042f24c1827253e": "3b43cc04e9457b69a687a18cf16af6c8e72a94b83c60785599befa4e78fcc84b",
+        "c4d48696660748318248cac750f2cf72": "3636d1e234bc4d31fff84e1d160e2d62f54b225033e4ef214166d7ceffb6c14a",
+        "c579858ac4fc416484facb118bf7a3a8": "d0d0235dbd274a421e8d1dbbc3afaa060016b1a2ad5a450dbb91d53343633d15",
+        "c7fd999a797a458cb2f774062720815c": "30699c987bad3242ad7e65158165d5af9711fd288f2a5249b6b2182295bb9e58",
+        "c92668d7c1a846b7abdab3a93ddd9d6b": "e3a3eb44349ab95062ee609a032cd63265596ea9030cea116c12ee15aaa4ce06",
+        "d993c399ef5a48f787140285a343feb2": "d2d97c8384654301e124e9e5a294883d797f688c32d45e7aa760f510266c84e2",
+        "daee2c80c7f644d8baba0d08611e283f": "ec34f83f1b9bd83df9372cf72bddfb27ca50e0a105ffa725c04a46bc8a749d50",
+        "df5354d8799d43a1803a6c16e7e245b7": "dede1cd5b5be42718aa438b8d828cb2a522c0731da8fce38dbb11cd693f7bad7",
+        "e40af36bb9e74a9890f7efd6eaea3b05": "c7b1cc6ec6a420142c66da719d72ed5f9d31bfc3c0893748f5d7e41f9936e4c2",
+        "eab4ecdc9b974cf384e0eaed1475105d": "723dd6581e5f117148727162f70f699413f9c5510e0d50837aeaf3ded71dbb25",
+        "f51576d7040d4542bb169f84431911bd": "777040d7627249877a9778554ef96acacca86ce5d87b330e8f228112099d44e8",
+        "f53b4c9f8f0d4c30b0cdb7f95c1ca2a7": "465b0461ba0556e028633b2650cdc444a452c3b2d9b1654e9891183599ac4570"
+      }
+    }
+  ],
+  "total": {
+    "input_tokens": 2931874,
+    "output_tokens": 75105,
+    "uncached_input_tokens": 711,
+    "cached_input_tokens": 0,
+    "cache_write_30m_tokens": 2931163,
+    "cache_write_12h_tokens": 0,
+    "estimated_usd": "0.4040189750",
+    "generation_requests": 237,
+    "responses_with_usage": 237,
+    "unknown_usage_requests": 0,
+    "token_count_requests": 237,
+    "sum_api_elapsed_seconds": 1818.0771865999486
+  },
+  "cap_usd": "5",
+  "unknown_reserved_usd": "0",
+  "exposure_usd": "0.404018975",
+  "remaining_estimated_usd": "4.595981025"
+}

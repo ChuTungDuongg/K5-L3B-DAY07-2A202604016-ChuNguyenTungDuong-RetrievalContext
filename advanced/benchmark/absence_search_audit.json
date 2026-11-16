@@ -1,0 +1,636 @@
+{
+  "dev16": {
+    "terms": [
+      "brazil",
+      "seroprevalence",
+      "serology",
+      "sex-disaggregated",
+      "asymptomatic"
+    ],
+    "matching_physical_pages": {
+      "brazil": [
+        7,
+        18,
+        19,
+        49,
+        55,
+        64,
+        65,
+        66,
+        67,
+        76,
+        100,
+        116,
+        117,
+        126,
+        131,
+        158,
+        193,
+        216,
+        219,
+        233,
+        235,
+        253,
+        254,
+        255,
+        269,
+        270,
+        281,
+        293,
+        312,
+        315,
+        332,
+        344
+      ],
+      "seroprevalence": [
+        49
+      ],
+      "serology": [
+        49
+      ],
+      "sex-disaggregated": [
+        8,
+        81
+      ],
+      "asymptomatic": [
+        49
+      ]
+    },
+    "pages_scanned": 350,
+    "normalization": "NFKC lowercase; remove soft/control hyphen; join line-break hyphens; collapse whitespace"
+  },
+  "dev17": {
+    "terms": [
+      "ixp",
+      "exchange point",
+      "operating cost",
+      "capital cost",
+      "one million"
+    ],
+    "matching_physical_pages": {
+      "ixp": [
+        20,
+        32,
+        178,
+        179,
+        188,
+        189,
+        190,
+        191,
+        192,
+        193,
+        194,
+        197,
+        199,
+        200,
+        327,
+        337,
+        338,
+        343,
+        345
+      ],
+      "exchange point": [
+        18,
+        20,
+        32,
+        59,
+        177,
+        178,
+        179,
+        188,
+        189,
+        190,
+        191,
+        192,
+        196,
+        197,
+        199,
+        200,
+        281,
+        327,
+        337,
+        345
+      ],
+      "operating cost": [
+        186
+      ],
+      "capital cost": [],
+      "one million": [
+        254
+      ]
+    },
+    "pages_scanned": 350,
+    "normalization": "NFKC lowercase; remove soft/control hyphen; join line-break hyphens; collapse whitespace"
+  },
+  "dev18": {
+    "terms": [
+      "231",
+      "terawatt",
+      "carbon footprint",
+      "low-income",
+      "electricity consumption"
+    ],
+    "matching_physical_pages": {
+      "231": [
+        9,
+        206,
+        251
+      ],
+      "terawatt": [
+        206
+      ],
+      "carbon footprint": [
+        6,
+        32,
+        206,
+        207
+      ],
+      "low-income": [
+        9,
+        10,
+        26,
+        27,
+        30,
+        31,
+        33,
+        37,
+        54,
+        55,
+        70,
+        73,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        88,
+        89,
+        92,
+        97,
+        105,
+        118,
+        120,
+        122,
+        123,
+        125,
+        130,
+        145,
+        180,
+        184,
+        185,
+        186,
+        187,
+        188,
+        190,
+        191,
+        192,
+        193,
+        194,
+        195,
+        197,
+        209,
+        213,
+        214,
+        215,
+        216,
+        219,
+        220,
+        221,
+        224,
+        226,
+        227,
+        250,
+        253,
+        256,
+        261,
+        263,
+        264,
+        270,
+        271,
+        279,
+        282,
+        292,
+        293,
+        294,
+        295,
+        296,
+        297,
+        324,
+        340
+      ],
+      "electricity consumption": [
+        9,
+        206,
+        207
+      ]
+    },
+    "pages_scanned": 350,
+    "normalization": "NFKC lowercase; remove soft/control hyphen; join line-break hyphens; collapse whitespace"
+  },
+  "test25": {
+    "terms": [
+      "nairobi",
+      "crash black spots",
+      "road traffic deaths",
+      "road safety",
+      "fatalities"
+    ],
+    "matching_physical_pages": {
+      "nairobi": [
+        10,
+        101,
+        150,
+        159,
+        172,
+        173,
+        192,
+        201,
+        277,
+        320
+      ],
+      "crash black spots": [
+        172,
+        173
+      ],
+      "road traffic deaths": [
+        172
+      ],
+      "road safety": [
+        30,
+        149,
+        150,
+        159,
+        173
+      ],
+      "fatalities": [
+        149,
+        172
+      ]
+    },
+    "pages_scanned": 350,
+    "normalization": "NFKC lowercase; remove soft/control hyphen; join line-break hyphens; collapse whitespace"
+  },
+  "test26": {
+    "terms": [
+      "bangladesh",
+      "rimes",
+      "lead time",
+      "ecmwf",
+      "observational data"
+    ],
+    "matching_physical_pages": {
+      "bangladesh": [
+        98,
+        116,
+        117,
+        131,
+        170,
+        184,
+        185,
+        219,
+        256,
+        262
+      ],
+      "rimes": [
+        170,
+        171,
+        213
+      ],
+      "lead time": [
+        170
+      ],
+      "ecmwf": [
+        170,
+        171
+      ],
+      "observational data": [
+        170
+      ]
+    },
+    "pages_scanned": 350,
+    "normalization": "NFKC lowercase; remove soft/control hyphen; join line-break hyphens; collapse whitespace"
+  },
+  "test27": {
+    "terms": [
+      "compensation",
+      "gigabyte",
+      "marginal cost pricing",
+      "business-to-government",
+      "b2g"
+    ],
+    "matching_physical_pages": {
+      "compensation": [
+        66,
+        337,
+        338
+      ],
+      "gigabyte": [
+        9,
+        31,
+        179,
+        182,
+        185,
+        186,
+        187,
+        191,
+        192
+      ],
+      "marginal cost pricing": [
+        338
+      ],
+      "business-to-government": [
+        223,
+        343,
+        345
+      ],
+      "b2g": [
+        19,
+        223,
+        338,
+        339,
+        345
+      ]
+    },
+    "pages_scanned": 350,
+    "normalization": "NFKC lowercase; remove soft/control hyphen; join line-break hyphens; collapse whitespace"
+  },
+  "test28": {
+    "terms": [
+      "government-recognized",
+      "proof of their identity",
+      "digital identification",
+      "women",
+      "gender"
+    ],
+    "matching_physical_pages": {
+      "government-recognized": [
+        220
+      ],
+      "proof of their identity": [
+        220
+      ],
+      "digital identification": [
+        8,
+        48,
+        74,
+        103,
+        220,
+        289,
+        308
+      ],
+      "women": [
+        6,
+        8,
+        68,
+        69,
+        77,
+        81,
+        82,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        103,
+        105,
+        106,
+        107,
+        108,
+        120,
+        127,
+        130,
+        155,
+        179,
+        184,
+        185,
+        194,
+        201,
+        236,
+        334
+      ],
+      "gender": [
+        7,
+        24,
+        38,
+        56,
+        63,
+        75,
+        77,
+        81,
+        82,
+        96,
+        98,
+        99,
+        101,
+        103,
+        106,
+        107,
+        108,
+        115,
+        123,
+        130,
+        134,
+        136,
+        149,
+        153,
+        165,
+        166,
+        184,
+        185,
+        194,
+        201,
+        203,
+        217,
+        218,
+        231,
+        307
+      ]
+    },
+    "pages_scanned": 350,
+    "normalization": "NFKC lowercase; remove soft/control hyphen; join line-break hyphens; collapse whitespace"
+  },
+  "test29": {
+    "terms": [
+      "biobank",
+      "revok",
+      "withdraw",
+      "consent",
+      "500,000"
+    ],
+    "matching_physical_pages": {
+      "biobank": [
+        298,
+        299,
+        309
+      ],
+      "revok": [
+        233
+      ],
+      "withdraw": [],
+      "consent": [
+        33,
+        58,
+        211,
+        212,
+        215,
+        216,
+        227,
+        230,
+        235,
+        237,
+        254,
+        257,
+        259,
+        272,
+        288,
+        289,
+        299,
+        300,
+        339
+      ],
+      "500,000": [
+        126,
+        299
+      ]
+    },
+    "pages_scanned": 350,
+    "normalization": "NFKC lowercase; remove soft/control hyphen; join line-break hyphens; collapse whitespace"
+  },
+  "test30": {
+    "terms": [
+      "target fraction",
+      "national budget",
+      "statistical plans",
+      "nso",
+      "financing"
+    ],
+    "matching_physical_pages": {
+      "target fraction": [
+        91
+      ],
+      "national budget": [
+        91,
+        92,
+        101,
+        109
+      ],
+      "statistical plans": [
+        8,
+        86
+      ],
+      "nso": [
+        8,
+        15,
+        16,
+        20,
+        44,
+        48,
+        63,
+        67,
+        75,
+        76,
+        79,
+        81,
+        82,
+        84,
+        85,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        100,
+        107,
+        108,
+        109,
+        110,
+        112,
+        113,
+        114,
+        115,
+        125,
+        139,
+        143,
+        148,
+        149,
+        156,
+        158,
+        159,
+        163,
+        165,
+        168,
+        179,
+        182,
+        188,
+        193,
+        233,
+        240,
+        243,
+        254,
+        256,
+        258,
+        260,
+        272,
+        280,
+        292,
+        293,
+        294,
+        295,
+        298,
+        299,
+        301,
+        303,
+        304,
+        305,
+        306,
+        307,
+        308,
+        309,
+        314,
+        330,
+        331,
+        332,
+        333,
+        335,
+        343,
+        344
+      ],
+      "financing": [
+        27,
+        71,
+        73,
+        80,
+        85,
+        86,
+        91,
+        92,
+        95,
+        98,
+        99,
+        109,
+        139,
+        158,
+        182,
+        267,
+        278,
+        314,
+        328,
+        330,
+        331
+      ]
+    },
+    "pages_scanned": 350,
+    "normalization": "NFKC lowercase; remove soft/control hyphen; join line-break hyphens; collapse whitespace"
+  }
+}

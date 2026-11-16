@@ -1,0 +1,45 @@
+{
+  "id": "73a7976d739e456a8c9bf4fbd791918f",
+  "label": "20261116-165446-r2-test-baseline-cbad637d:adv-r2-test-03:step0",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 13037,
+  "maximum_output_tokens": 3500,
+  "images": [
+    {
+      "page": 292,
+      "path": "advanced/data/pages/p292.jpg",
+      "sha256": "4a48e5f9a71018c6779d4f586f10f27f0e0deb2e401f133a562234e80e8e7c64"
+    },
+    {
+      "page": 291,
+      "path": "advanced/data/pages/p291.jpg",
+      "sha256": "98090f6166ef3054f67ae1b1cf9ff85707342d509a2a999c1a1d15229e0994b0"
+    },
+    {
+      "page": 290,
+      "path": "advanced/data/pages/p290.jpg",
+      "sha256": "07d9612eed46985874305c92c0b59c2c388a53841db8c2cf6413caf66c3c140e"
+    }
+  ],
+  "instructions_sha256": "7b27220272435c850770154f165a9b99ffc1a1c1848fec729da980d6adec6535",
+  "usage": {
+    "input_tokens": 13037,
+    "input_tokens_details": {
+      "cache_write_tokens": 13034,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 13034
+      }
+    },
+    "output_tokens": 193,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 13230
+  },
+  "response_id": "resp_0779dc0a7c745f90016afad3373a6c87d2aee53aa82a7add72",
+  "response_status": "completed",
+  "output_text": "{\"action\":\"answer\",\"expression\":\"\",\"queries\":[],\"pages\":[292],\"status\":\"answered\",\"answer\":\"In Table 8.2, a centralized arrangement puts a data-governance agency or unit in an existing institution (for example, an NSO or digital economy ministry); a decentralized arrangement embeds data-governance units and responsibilities across government. The three nonstate actor categories listed in that strategic-planning row are CSOs, universities, and research institutions.\",\"citations\":[{\"page\":292,\"region_label\":\"Table 8.2, Strategic planning row (both columns)\",\"bbox\":[0.206,0.087,0.907,0.753],\"quote\":\"Centralized approach: data governance agency/unit embedded in an existing institution (such as NSO, digital economy ministry); Decentralized approach: data governance units and responsibilities embedded across government; CSOs; Universities; Research institutions.\"}]}",
+  "elapsed_seconds": 5.593377800003509
+}

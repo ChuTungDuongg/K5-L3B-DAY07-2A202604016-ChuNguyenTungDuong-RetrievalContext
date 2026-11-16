@@ -1,0 +1,35 @@
+{
+  "id": "e724b31a4b224a83a3dcded0baaee832",
+  "label": "index:p029",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 4025,
+  "maximum_output_tokens": 6000,
+  "images": [
+    {
+      "page": 29,
+      "path": "advanced/data/pages/p029.jpg",
+      "sha256": "1938d80962e06d206e2fcad529ea91a2ed0d254676c4df4e2f90810cdb543496"
+    }
+  ],
+  "instructions_sha256": "01d3a56b3c678b1acd37e506320a854b17dd9ddb13ece56a92b62990aeb80d41",
+  "usage": {
+    "input_tokens": 4025,
+    "input_tokens_details": {
+      "cache_write_tokens": 4022,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 4022
+      }
+    },
+    "output_tokens": 473,
+    "output_tokens_details": {
+      "reasoning_tokens": 86
+    },
+    "total_tokens": 4498
+  },
+  "response_id": "resp_094f35b3ce0298eb016afa900400a887d2aad50d065981bdf5",
+  "response_status": "completed",
+  "output_text": "{\"regions\":[{\"label\":\"Map O.3 — Combining satellite imagery with household survey data increases the resolution of the poverty map of Tanzania\",\"kind\":\"map\",\"bbox\":[0.093,0.461,0.892,0.924],\"summary\":\"Two 2018 Tanzania poverty-incidence maps compare a Household Budget Survey map for 20 regions with a finer map combining that survey data and satellite imagery for 169 districts.\",\"details\":\"The figure has two side-by-side panels. (a) “Poverty map using the Household Budget Survey (20 regions)” shows regional boundaries and names. Its legend is “Poverty incidence, 2018 (% of population)”: 36–45, 32–35, 26–31, 22–25, 8–21, and No data. It also marks the national capital, international boundaries, and province boundaries. (b) “Poverty map combining the data in panel a with satellite imagery (169 districts)” shows finer district boundaries. Its legend uses the same measure and year, with classes 38–67, 31–37, 24–30, 17–23, 4–16, and No data; it also marks the national capital, international boundaries, and district boundaries. Both maps depict Tanzania, including mainland and Zanzibar; Dodoma is marked as the national capital. Source: World Bank 2019; data link printed as http://bit.do/WDR2021-Map-O_3. Map identifier printed near the lower right: IBRD TAN45642 | MARCH 2021.\",\"limitations\":\"The maps encode ranges by color; individual locations do not have printed numeric incidence values. Some small district shapes and labels are difficult to distinguish at this page scale. The panels use different poverty-class intervals, so the color categories are not identical.\"}]}",
+  "elapsed_seconds": 7.79782150000392
+}

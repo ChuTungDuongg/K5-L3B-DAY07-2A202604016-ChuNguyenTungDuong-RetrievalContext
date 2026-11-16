@@ -1,0 +1,35 @@
+{
+  "id": "56eb3502fc124372b4819f54719f4de4",
+  "label": "index:p083",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 3923,
+  "maximum_output_tokens": 6000,
+  "images": [
+    {
+      "page": 83,
+      "path": "advanced/data/pages/p083.jpg",
+      "sha256": "0749930b2ee94306a46e9b99a8aae816d4c1b1489ce076774495d76a21b49e98"
+    }
+  ],
+  "instructions_sha256": "01d3a56b3c678b1acd37e506320a854b17dd9ddb13ece56a92b62990aeb80d41",
+  "usage": {
+    "input_tokens": 3923,
+    "input_tokens_details": {
+      "cache_write_tokens": 3920,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 3920
+      }
+    },
+    "output_tokens": 725,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 4648
+  },
+  "response_id": "resp_07512082d3ea6ffa016afa903c9ff887d2a091ffcf7a3a3f9e",
+  "response_status": "completed",
+  "output_text": "{\"regions\":[{\"label\":\"Figure 2.4\",\"kind\":\"chart\",\"bbox\":[0.093,0.087,0.802,0.531],\"summary\":\"Stacked bar chart compares poverty-data comparability across income groups, regions, and FCS status; lower-income and FCS economies have a larger share with noncomparable or fewer than three poverty data points.\",\"details\":\"Vertical 100% stacked bars; y-axis is “Share of countries (%)” with ticks 0, 20, 40, 60, 80, 100. Groups from left to right: income group (Low-income, Lower-middle-income, Upper-middle-income, High-income); region (East Asia and Pacific, Europe and Central Asia, Latin America and the Caribbean, Middle East and North Africa, South Asia, Sub-Saharan Africa); FCS status (Non-FCS, FCS). Legend: green = last three poverty data points comparable; orange = last three poverty data points not comparable; blue = less than three poverty data points. Approximate segment shares read from bars, in green/orange/blue order: Low-income 40/41/19%; Lower-middle-income 56/22/22%; Upper-middle-income 68/16/16%; High-income 90/2/8%; East Asia and Pacific 57/13/30%; Europe and Central Asia 96/2/2%; Latin America and the Caribbean 72/8/20%; Middle East and North Africa 47/27/26%; South Asia 71/29/0%; Sub-Saharan Africa 40/40/20%; Non-FCS 77/16/7%; FCS 18/29/53%. Values are visually estimated from the plotted bars, not printed labels. Source: WDR 2021 team calculations based on World Bank PovcalNet. Note: only economies with at least one international poverty estimate are included; FCS refers to the World Bank Classification of Fragile and Conflict-Affected Situations.\",\"limitations\":\"Bar segment values are not numerically labeled and are approximate visual readings. The chart’s categories are grouped by income, region, and FCS status.\"},{\"label\":\"Table 2.1\",\"kind\":\"table\",\"bbox\":[0.094,0.571,0.796,0.751],\"summary\":\"Assessment of data openness by country income group, reporting openness scores and four availability/open-use indicators; high-income groups generally score higher, though nonproprietary-format availability is similar across groups.\",\"details\":\"Columns: Indicator; Low-income; Lower-middle-income; Upper-middle-income; High-income. Rows and values: Openness score (0–100): 38, 47, 50, 66. Available in machine readable format (%): 37, 51, 61, 81. Available in nonproprietary format (%): 75, 85, 81, 84. Download options available (%): 56, 68, 68, 78. Open terms of use/license (%): 11, 19, 22, 44. Source: WDR 2021 team calculations based on 2020/21 Open Data Inventory indicators (Open Data Watch, ODIN), also used as part of the World Bank Statistical Performance Indicators database. Note: openness score is the average by country income group on a 0–100 scale; all other indicators are the percentage of published data averaged by country income group.\",\"limitations\":\"\"}]}",
+  "elapsed_seconds": 9.235377799996058
+}

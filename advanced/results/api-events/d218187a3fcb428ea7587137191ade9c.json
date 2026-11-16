@@ -1,0 +1,35 @@
+{
+  "id": "d218187a3fcb428ea7587137191ade9c",
+  "label": "index:p224",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 4239,
+  "maximum_output_tokens": 6000,
+  "images": [
+    {
+      "page": 224,
+      "path": "advanced/data/pages/p224.jpg",
+      "sha256": "4feecc6616ebff4702ec71bb86eea894863e82d037b90aab323c6655bd44b0f4"
+    }
+  ],
+  "instructions_sha256": "01d3a56b3c678b1acd37e506320a854b17dd9ddb13ece56a92b62990aeb80d41",
+  "usage": {
+    "input_tokens": 4239,
+    "input_tokens_details": {
+      "cache_write_tokens": 4236,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 4236
+      }
+    },
+    "output_tokens": 534,
+    "output_tokens_details": {
+      "reasoning_tokens": 155
+    },
+    "total_tokens": 4773
+  },
+  "response_id": "resp_0d51cf6d2dc783a9016afa90bead1c87d2869fdd326d2d6f25",
+  "response_status": "completed",
+  "output_text": "{\"regions\":[{\"label\":\"Figure 6.7\",\"kind\":\"chart\",\"bbox\":[0.084,0.476,0.536,0.906],\"summary\":\"Radar chart comparing adoption of four legal and regulatory enablers for sharing private-intent data across four country income groups; adoption is generally low, with a marked exception for digital ID verification/authentication among high-income countries.\",\"details\":\"Title: “Adoption of enablers for sharing private intent data lags those for public intent data across country income groups.” Four radar axes: Data portability right for individuals (top); Data portability formatting requirement (right); Private sector able to digitally verify or authenticate ID (bottom); and Mandate for voluntary licensing of access to essential data on FRAND basis (left). The radial scale is marked 0, 20, 40, 60, 80, and 100 percent. Legend: High-income (blue), Upper-middle-income (green), Lower-middle-income (orange), Low-income (purple). The plotted groups are clustered at relatively low levels on the portability and FRAND-licensing axes. On the digital ID verification/authentication axis, the high-income series extends substantially farther than the others; the other groups also extend farther on this axis than on most of the remaining axes. Source: WDR 2021 team, based on World Bank, Global Data Regulation Survey. Note: Percent of countries in each income group that had adopted good-practice legal and regulatory frameworks to enable access to, sharing, and reuse of private-intent data as of 2020. FRAND = fair, reasonable, and non-discriminatory; ID = identification.\",\"limitations\":\"The colored traces overlap near the center and exact values for individual groups are not labeled, so precise values are not reliably legible.\"}]}",
+  "elapsed_seconds": 9.684962500003166
+}

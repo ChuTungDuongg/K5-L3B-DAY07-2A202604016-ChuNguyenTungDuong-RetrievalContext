@@ -1,0 +1,35 @@
+{
+  "id": "38c7dba923994d72b82bdd2b4075a4c8",
+  "label": "index:p180",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 4144,
+  "maximum_output_tokens": 6000,
+  "images": [
+    {
+      "page": 180,
+      "path": "advanced/data/pages/p180.jpg",
+      "sha256": "457fe2ec419e39ac37918cbf59a9104f0753f13a99109bd66fc3f8f544ae1790"
+    }
+  ],
+  "instructions_sha256": "01d3a56b3c678b1acd37e506320a854b17dd9ddb13ece56a92b62990aeb80d41",
+  "usage": {
+    "input_tokens": 4144,
+    "input_tokens_details": {
+      "cache_write_tokens": 4141,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 4141
+      }
+    },
+    "output_tokens": 388,
+    "output_tokens_details": {
+      "reasoning_tokens": 105
+    },
+    "total_tokens": 4532
+  },
+  "response_id": "resp_0f0bb70f511eaeaf016afa908a2d8087d287cc84020b25cac4",
+  "response_status": "completed",
+  "output_text": "{\"regions\":[{\"label\":\"Figure 5.2\",\"kind\":\"chart\",\"bbox\":[0.566,0.085,0.918,0.469],\"summary\":\"Grouped bar chart comparing wireless and fixed broadband subscriptions per 100 persons across income groups and the world in 2019; wireless subscriptions are higher in every group.\",\"details\":\"Title: “The developing world overwhelmingly accesses data using wireless networks.” Vertical axis: Number of broadband subscriptions per 100 persons, scaled from 0 to 140 in increments of 20. Horizontal-axis groups, in order: High-income, Upper-middle-income, Lower-middle-income, Low-income, World. Legend: orange = Wireless; blue = Fixed. Approximate bar heights read from the chart (wireless, fixed): High-income 130, 35; Upper-middle-income 92, 24; Lower-middle-income 52, 3; Low-income 20, 0; World 78, 16 subscriptions per 100 persons. Wireless exceeds fixed in every group; the gap is especially large in high-income and upper-middle-income groups. Source: WDR 2021 team, based on International Telecommunication Union, Statistics database; note says data are for 2019.\",\"limitations\":\"Bar heights are visually estimated from the plotted bars; the chart does not print exact values.\"}]}",
+  "elapsed_seconds": 6.139524700003676
+}

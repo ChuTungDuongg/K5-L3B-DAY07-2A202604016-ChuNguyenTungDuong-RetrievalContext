@@ -1,0 +1,35 @@
+{
+  "id": "45b0be79c8bf4059a714fae8398c0f9f",
+  "label": "index:p297",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 4126,
+  "maximum_output_tokens": 6000,
+  "images": [
+    {
+      "page": 297,
+      "path": "advanced/data/pages/p297.jpg",
+      "sha256": "e9aab7237c703954e7a0611c31305390110528fe634fb7345c159e77b1b2a22f"
+    }
+  ],
+  "instructions_sha256": "01d3a56b3c678b1acd37e506320a854b17dd9ddb13ece56a92b62990aeb80d41",
+  "usage": {
+    "input_tokens": 4126,
+    "input_tokens_details": {
+      "cache_write_tokens": 4123,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 4123
+      }
+    },
+    "output_tokens": 261,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 4387
+  },
+  "response_id": "resp_0393bd12a2475b01016afa90f203e887d2b698e8b5f3a82bfa",
+  "response_status": "completed",
+  "output_text": "{\"regions\":[{\"label\":\"Figure 8.6 — Only about one-quarter of low-income countries have cybersecurity agencies\",\"kind\":\"chart\",\"bbox\":[0.093,0.087,0.43,0.531],\"summary\":\"Grouped bar chart compares countries with cybersecurity agencies by income group, split between agencies in progress or planned and established.\",\"details\":\"Vertical axis: “Share of countries with cybersecurity agency (%)”, 0–100 with 10-point intervals. Horizontal groups, in order: Low-income, Lower-middle-income, Upper-middle-income, High-income. Legend: blue = “In progress or planned”; orange = “Established”. Values printed above bars (blue, orange): Low-income 14, 24; Lower-middle-income 12, 66; Upper-middle-income 15, 65; High-income 6, 86. Source: WDR 2021 team calculations based on World Bank, DGSS (Digital Government/GovTech Systems and Services) dataset. Note: Data are for 198 economies.\",\"limitations\":\"Values are shown as whole-number percentages; the chart does not provide underlying counts. The figure title says “about one-quarter” for low-income countries, corresponding to the 24% established bar.\"}]}",
+  "elapsed_seconds": 5.332276200002525
+}

@@ -1,0 +1,35 @@
+{
+  "id": "66dc5adac5444924959e48622c110369",
+  "label": "index:p298",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 4160,
+  "maximum_output_tokens": 6000,
+  "images": [
+    {
+      "page": 298,
+      "path": "advanced/data/pages/p298.jpg",
+      "sha256": "2a3f5214f4767ba61282500b67236395b14fd199ad1dd520fc120ee6a005f999"
+    }
+  ],
+  "instructions_sha256": "01d3a56b3c678b1acd37e506320a854b17dd9ddb13ece56a92b62990aeb80d41",
+  "usage": {
+    "input_tokens": 4160,
+    "input_tokens_details": {
+      "cache_write_tokens": 4157,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 4157
+      }
+    },
+    "output_tokens": 359,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 4519
+  },
+  "response_id": "resp_0129ef27c42dafd8016afa90f2f81887d2b111e025978577a4",
+  "response_status": "completed",
+  "output_text": "{\"regions\":[{\"label\":\"Table 8.3 — Snapshot of common data intermediary structures\",\"kind\":\"table\",\"bbox\":[0.206,0.087,0.907,0.365],\"summary\":\"Four-column table comparing purposes, objectives, intermediary types, and examples across commercial data markets, collaborative data sharing, and trusted sharing of sensitive data.\",\"details\":\"Columns: Purposes | Objectives | Types | Examples. Rows (some purpose cells span multiple rows): 1) Create commercial value and data markets. | Transform raw data into more consumable information. | Data aggregators, data brokers | Acxiom, Experian. 2) Exchange data to solve public problems through collaborative structures. | Increase incentives for competitors to share and combine data resources for common use within sectors. | Data pools | Global Data Synchronization Network (GDSN). 3) Same purpose as row 2. | Create and manage shared and interoperable data assets and computing infrastructure for research. | Data commons, data clubs | The Open Commons Consortium (OCC), UK Biobank. 4) Same purpose as row 2. | Contribute data in exchange for collective benefits. | Data cooperatives | LunaDNA (community-owned platform for health research). 5) Enable trusted sharing and use of sensitive data through enhanced accountability mechanisms. | Facilitate sharing of sensitive data and provide collective bargaining power to individuals. | Data trusts | Platform Info Exchange, UK (Mozilla Data Futures Lab pilot). Source: WDR 2021 team.\",\"limitations\":\"No numeric values. The purpose in row 2 spans the data pools, data commons/data clubs, and data cooperatives entries; the table’s merged-cell layout is reflected in the details.\"}]}",
+  "elapsed_seconds": 5.569119599997066
+}

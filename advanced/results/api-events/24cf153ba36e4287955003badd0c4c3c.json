@@ -1,0 +1,45 @@
+{
+  "id": "24cf153ba36e4287955003badd0c4c3c",
+  "label": "20261116-123301-test-baseline-45143179:adv-test-20:step0",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 12833,
+  "maximum_output_tokens": 3500,
+  "images": [
+    {
+      "page": 49,
+      "path": "advanced/data/pages/p049.jpg",
+      "sha256": "4fc676444eecbc0577e8c29ad0e5cc31554fc8ea3594492c4d3c8e602423066c"
+    },
+    {
+      "page": 50,
+      "path": "advanced/data/pages/p050.jpg",
+      "sha256": "9311a1fac1fd01eef5219db4ff2f688769f389e4640c3b1cef473f53df207e38"
+    },
+    {
+      "page": 161,
+      "path": "advanced/data/pages/p161.jpg",
+      "sha256": "8088fdbd01f5505b254efb75d0547c04db2a98c618156fd20c61924c79ad6c26"
+    }
+  ],
+  "instructions_sha256": "7b27220272435c850770154f165a9b99ffc1a1c1848fec729da980d6adec6535",
+  "usage": {
+    "input_tokens": 12833,
+    "input_tokens_details": {
+      "cache_write_tokens": 12830,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 12830
+      }
+    },
+    "output_tokens": 436,
+    "output_tokens_details": {
+      "reasoning_tokens": 169
+    },
+    "total_tokens": 13269
+  },
+  "response_id": "resp_0cb74bfb0bc936f2016afa963993d487d2ac30e6f694eac204",
+  "response_status": "completed",
+  "output_text": "{\"action\":\"answer\",\"expression\":\"\",\"queries\":[],\"pages\":[49,50],\"status\":\"answered\",\"answer\":\"Traditional surveys relying on farmers’ reports of crop production and land area measure crop yields poorly. Objective sample measurements can accurately capture yields at surveyed locations; combined with satellite data, they can inform remote-sensing models that estimate highly localized yields across whole regions and countries, including places where no sample survey was conducted.\",\"citations\":[{\"page\":49,\"region_label\":\"Crop-yield example paragraph, printed page 29\",\"bbox\":[0.09,0.84,0.81,0.93],\"quote\":\"crop yield, is poorly measured with traditional survey approaches that rely on farmer-reported information on crop production and land areas. When sample surveys rely instead on objective measurement methods, the resulting data not only accurately capture crop yields at surveyed locations, but also can be used\"},{\"page\":50,\"region_label\":\"Continuation of crop-yield example paragraph, printed page 30\",\"bbox\":[0.20,0.08,0.55,0.17],\"quote\":\"to inform and develop remote sensing models that combine data from surveys and satellites to provide highly localized crop yield estimates across entire regions and countries beyond the locations in which sample surveys are conducted.\"}]}",
+  "elapsed_seconds": 11.320857999999134
+}

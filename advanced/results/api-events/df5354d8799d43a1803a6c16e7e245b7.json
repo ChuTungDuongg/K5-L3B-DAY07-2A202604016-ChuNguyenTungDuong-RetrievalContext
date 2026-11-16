@@ -1,0 +1,45 @@
+{
+  "id": "df5354d8799d43a1803a6c16e7e245b7",
+  "label": "20261116-123301-test-baseline-45143179:adv-test-30:step0",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 13391,
+  "maximum_output_tokens": 3500,
+  "images": [
+    {
+      "page": 92,
+      "path": "advanced/data/pages/p092.jpg",
+      "sha256": "876e9d4bf9de1bc8f1eacc37a5cb49a09480e68087650dfc46e99141dfe18e20"
+    },
+    {
+      "page": 84,
+      "path": "advanced/data/pages/p084.jpg",
+      "sha256": "712f3663cdb1c27a6ca472c14d7f88e5b501aeeadb3fe78e14251c5f07a0c4a6"
+    },
+    {
+      "page": 86,
+      "path": "advanced/data/pages/p086.jpg",
+      "sha256": "82210093bc25d46addaf4ad7c248eaff00c174db7444d7155b1d92d0bee2fef1"
+    }
+  ],
+  "instructions_sha256": "7b27220272435c850770154f165a9b99ffc1a1c1848fec729da980d6adec6535",
+  "usage": {
+    "input_tokens": 13391,
+    "input_tokens_details": {
+      "cache_write_tokens": 13388,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 13388
+      }
+    },
+    "output_tokens": 96,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 13487
+  },
+  "response_id": "resp_0c55f05ce9cfef07016afa96b1eedc87d28ff6541f2d047dfb",
+  "response_status": "completed",
+  "output_text": "{\"action\":\"answer\",\"expression\":\"\",\"queries\":[],\"pages\":[92],\"status\":\"abstain\",\"answer\":\"Insufficient evidence. The report discusses setting a target for government expenditure on the national statistical system, but says the target can be based on the resources needed to fund the national statistical plan or on peer-country spending. It does not recommend a single minimum percentage of the national budget for every country’s NSO.\",\"citations\":[]}",
+  "elapsed_seconds": 5.884424799995031
+}

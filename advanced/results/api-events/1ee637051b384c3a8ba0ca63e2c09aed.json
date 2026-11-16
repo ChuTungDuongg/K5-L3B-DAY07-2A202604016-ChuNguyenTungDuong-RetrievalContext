@@ -1,0 +1,45 @@
+{
+  "id": "1ee637051b384c3a8ba0ca63e2c09aed",
+  "label": "20261116-123301-test-baseline-45143179:adv-test-22:step0",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 13001,
+  "maximum_output_tokens": 3500,
+  "images": [
+    {
+      "page": 286,
+      "path": "advanced/data/pages/p286.jpg",
+      "sha256": "d48d22af73de2aae03b05e1eeaf3d6ee7a805dff703c234c090778f3431de200"
+    },
+    {
+      "page": 327,
+      "path": "advanced/data/pages/p327.jpg",
+      "sha256": "2074b7be95bf3797599dc740d47495bd0ed7f235dc7b1fc90cc75d496a55cabb"
+    },
+    {
+      "page": 308,
+      "path": "advanced/data/pages/p308.jpg",
+      "sha256": "7d651217ec9f375587ce6873ff2d702fbe5c39f0a3cc6d8f676e93db7be7c9b5"
+    }
+  ],
+  "instructions_sha256": "7b27220272435c850770154f165a9b99ffc1a1c1848fec729da980d6adec6535",
+  "usage": {
+    "input_tokens": 13001,
+    "input_tokens_details": {
+      "cache_write_tokens": 12998,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 12998
+      }
+    },
+    "output_tokens": 230,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 13231
+  },
+  "response_id": "resp_006639af97253701016afa964c298487d2811e6ce49e87da86",
+  "response_status": "completed",
+  "output_text": "{\"action\":\"answer\",\"expression\":\"\",\"queries\":[],\"pages\":[286],\"status\":\"answered\",\"answer\":\"In the first step, the government should identify the data it can access, how the data are classified (open, restricted, or personal), and who produces or uses them, along with information such as limitations and provenance. Besides software platforms, soft infrastructure includes technical interoperability standards, data integration methods, and people accountable for the systems’ functioning.\",\"citations\":[{\"page\":286,\"region_label\":\"Box 8.1, “Uruguay’s whole-of-government approach to data governance”\",\"bbox\":[0.205,0.405,0.702,0.506],\"quote\":\"The first step in the process should be identifying the data to which the government has access, how these data are classified (open, restricted, or personal), and who produces or uses the data, along with other information such as limitations and provenance. This Report interprets soft infrastructure broadly to include software platforms ... supported by technical interoperability standards, data integration methods, and people accountable for the functioning of these systems.\"}]}",
+  "elapsed_seconds": 7.152155999996467
+}

@@ -1,0 +1,45 @@
+{
+  "id": "829a5f436b3545a6b2d4338636d01279",
+  "label": "20261116-165446-r2-test-baseline-cbad637d:adv-r2-test-10:review0",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 12803,
+  "maximum_output_tokens": 3500,
+  "images": [
+    {
+      "page": 290,
+      "path": "advanced/data/pages/p290.jpg",
+      "sha256": "07d9612eed46985874305c92c0b59c2c388a53841db8c2cf6413caf66c3c140e"
+    },
+    {
+      "page": 292,
+      "path": "advanced/data/pages/p292.jpg",
+      "sha256": "4a48e5f9a71018c6779d4f586f10f27f0e0deb2e401f133a562234e80e8e7c64"
+    },
+    {
+      "page": 30,
+      "path": "advanced/data/pages/p030.jpg",
+      "sha256": "505c25d52cf6d2b82674a2d52e7c4c49ee38d5326e1667bdeb54ab82ffefc06b"
+    }
+  ],
+  "instructions_sha256": "0507604096aab315eb8e0306caca34acc2d0bedacd7d3b2ec25cc18ae985e348",
+  "usage": {
+    "input_tokens": 12803,
+    "input_tokens_details": {
+      "cache_write_tokens": 12800,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 12800
+      }
+    },
+    "output_tokens": 207,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 13010
+  },
+  "response_id": "resp_0abcfe2dfc5b0306016afad39dad7c87d282d071661a0b8cbb",
+  "response_status": "completed",
+  "output_text": "{\"action\":\"answer\",\"expression\":\"\",\"queries\":[],\"pages\":[290],\"status\":\"answered\",\"answer\":\"The **Learning and evidence** cluster combines **monitor and evaluate** with **anticipate and manage risks**. The distinct **Rule making and implementation** cluster has three functions: **legislate/regulate**, **set standards**, and **provide clarification and guidance**.\",\"citations\":[{\"page\":290,\"region_label\":\"Figure 8.2, left sector labeled “Learning and evidence”\",\"bbox\":[0.117,0.238,0.273,0.331],\"quote\":\"Learning and evidence • Monitor and evaluate • Anticipate and manage risks\"},{\"page\":290,\"region_label\":\"Figure 8.2, right sector labeled “Rule making and implementation”\",\"bbox\":[0.379,0.238,0.511,0.328],\"quote\":\"Rule making and implementation • Legislate/regulate • Set standards • Provide clarification and guidance\"}]}",
+  "elapsed_seconds": 5.654744700004812
+}

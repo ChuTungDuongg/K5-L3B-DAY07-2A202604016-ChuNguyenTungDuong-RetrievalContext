@@ -1,0 +1,45 @@
+{
+  "id": "c05fa8a8833e4a6b8042f24c1827253e",
+  "label": "20261116-123301-test-baseline-45143179:adv-test-16:step0",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 13733,
+  "maximum_output_tokens": 3500,
+  "images": [
+    {
+      "page": 297,
+      "path": "advanced/data/pages/p297.jpg",
+      "sha256": "e9aab7237c703954e7a0611c31305390110528fe634fb7345c159e77b1b2a22f"
+    },
+    {
+      "page": 214,
+      "path": "advanced/data/pages/p214.jpg",
+      "sha256": "fd7375fd44628bf58bd22759a973cac7f0f653123242924fca06b8f2ee924d17"
+    },
+    {
+      "page": 296,
+      "path": "advanced/data/pages/p296.jpg",
+      "sha256": "c36f509f15c1f8e408f0f73f66860ce3e1267638d41ebb5dfed0617d8d160060"
+    }
+  ],
+  "instructions_sha256": "7b27220272435c850770154f165a9b99ffc1a1c1848fec729da980d6adec6535",
+  "usage": {
+    "input_tokens": 13733,
+    "input_tokens_details": {
+      "cache_write_tokens": 13730,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 13730
+      }
+    },
+    "output_tokens": 159,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 13892
+  },
+  "response_id": "resp_0018f340f7ddbcff016afa9606d32487d2a9f2fba13221a532",
+  "response_status": "completed",
+  "output_text": "{\"action\":\"answer\",\"expression\":\"\",\"queries\":[],\"pages\":[297],\"status\":\"answered\",\"answer\":\"Lower-middle-income countries have the larger established share: 66%, compared with 65% for upper-middle-income countries. Upper-middle-income countries have the larger in-progress-or-planned share: 15%, compared with 12% for lower-middle-income countries.\",\"citations\":[{\"page\":297,\"region_label\":\"Figure 8.6, complete chart and legend\",\"bbox\":[0.09,0.08,0.44,0.54],\"quote\":\"Lower-middle-income: 12% in progress or planned; 66% established. Upper-middle-income: 15% in progress or planned; 65% established.\"}]}",
+  "elapsed_seconds": 8.570697399998608
+}

@@ -1,0 +1,221 @@
+{
+  "schema_version": 1,
+  "round": 2,
+  "frozen_at_local": "2026-11-16T16:41:02.943530+07:00",
+  "frozen_before_first_experiment": true,
+  "pdf_sha256": "606c8452c8b23c01d81919c3974972bebeb1e60348a56ea40cc3ae841e301616",
+  "pdf_physical_pages": 350,
+  "source_url": "https://documents1.worldbank.org/curated/en/248201616598597113/pdf/World-Development-Report-2021-Data-for-Better-Lives.pdf",
+  "gold_status": "assistant-proposed source-verified; learner confirmation pending",
+  "authoring": "One dedicated benchmark-author assistant; fresh Test independent of inference development; original Dev copied exact bytes.",
+  "files": {
+    "absence_search_audit.json": {
+      "sha256": "0a592045c08606ffbc3a68c2d3e68a18f7412f0a85360e2f6f9d201dbeb20a97",
+      "bytes": 14603
+    },
+    "dev.json": {
+      "sha256": "4e892a12a132de6f51eaa81ee93ed057aa3a38e47a5afac28b313777ca90b745",
+      "bytes": 30599
+    },
+    "evidence_checks.md": {
+      "sha256": "ac70b97ed83b151c4bd780dd882e053a5de7138f5f324e50867f05df6ced9d4b",
+      "bytes": 5811
+    },
+    "overlap_audit.json": {
+      "sha256": "9659e49b99f2015e8cfa55de30254b8ce3c449261950a32c9764e804b7f1d9e6",
+      "bytes": 6395
+    },
+    "samples/adv-r2-test-01-e1.png": {
+      "sha256": "ffb8758ab14b7e407a2d669ede920659963ab72ae1af4e78907bc09de3a9e560",
+      "bytes": 250538
+    },
+    "samples/adv-r2-test-02-e1.png": {
+      "sha256": "f2a2f13e9ac4b5ea35f18a9e4b5b139d0f581f58d66870b4741a6abb223dadcb",
+      "bytes": 78782
+    },
+    "samples/adv-r2-test-03-e1.png": {
+      "sha256": "99023db80f5a9c991f3b715229f532a04b66d66580eaf8b1b82c946409172d59",
+      "bytes": 167955
+    },
+    "samples/adv-r2-test-04-e1.png": {
+      "sha256": "d80a02f161fc50133991e4d66d5d249b3c918a01240550eb38d339856fed25ea",
+      "bytes": 49809
+    },
+    "samples/adv-r2-test-05-e1.png": {
+      "sha256": "61f48b0f1596d62601ebf8462578769c143700b9dd9074bea3f36a8e05322dc5",
+      "bytes": 78220
+    },
+    "samples/adv-r2-test-06-e1.png": {
+      "sha256": "cc6f070417da256d765f78b1f210a8117b3e3203306cd26f92f94d2fb0e907cf",
+      "bytes": 62654
+    },
+    "samples/adv-r2-test-07-e1.png": {
+      "sha256": "597919f8ac8d2ef0102dbe4993472a5ff365e90e2c11a6699546f7d193148f48",
+      "bytes": 135243
+    },
+    "samples/adv-r2-test-08-e1.png": {
+      "sha256": "3cfb7ec7a4fde534b0aed46e0275d1c4100f3b954e7d7622696ed12b722177a2",
+      "bytes": 127085
+    },
+    "samples/adv-r2-test-09-e1.png": {
+      "sha256": "a7f566f824b42a4ab0aac127ed834e973653064a62061fd28c76312e5c3aa3de",
+      "bytes": 64009
+    },
+    "samples/adv-r2-test-10-e1.png": {
+      "sha256": "6e74cfd75ea22f828be4d1061444fa089c603947de839c5f8d37bfe133017d8c",
+      "bytes": 61341
+    },
+    "samples/adv-r2-test-11-e1.png": {
+      "sha256": "b39251cadee6916bfc0affb3d11e94230709bd3c194ecbf2fa26514b6cbb10e5",
+      "bytes": 110829
+    },
+    "samples/adv-r2-test-12-e1.png": {
+      "sha256": "5d76ae8e8d2470d134d2da9c0153c6168be0918044c25c39a59bcf9fa06d9a21",
+      "bytes": 30084
+    },
+    "samples/adv-r2-test-13-e1.png": {
+      "sha256": "508684a7da26e6160ee1c3900b0d73423e6f0c43194e682d53a5689c0e9dd898",
+      "bytes": 43050
+    },
+    "samples/adv-r2-test-14-e1.png": {
+      "sha256": "1c08d2a53baeb0a8daf88abf66731ec6f01a5060a616c223ddfe01976a79ccff",
+      "bytes": 84564
+    },
+    "samples/adv-r2-test-15-e1.png": {
+      "sha256": "9cc3e0a6f8b51940118b2677ee6068ea1927f7174e3934e30a9b7023ee2718a9",
+      "bytes": 87976
+    },
+    "samples/adv-r2-test-16-e1.png": {
+      "sha256": "f83a147288527dd1efe32f51fcc12fb6e046d9a86ac85803be40068c45bb4dcb",
+      "bytes": 46324
+    },
+    "samples/adv-r2-test-17-e1.png": {
+      "sha256": "3b43eac16273628a1bae07f65af1ce1ceb2ac00ae2aa6de96406689ccac0f615",
+      "bytes": 98169
+    },
+    "samples/adv-r2-test-17-e2.png": {
+      "sha256": "c15a181490f9bafd202095fddbe300473bfc84edf46d8c7c9c145ef46c2215d3",
+      "bytes": 61713
+    },
+    "samples/adv-r2-test-18-e1.png": {
+      "sha256": "63bcc93cdceba1dd02992994f8abcd84e07df8aaf405835e0b85141bbbb9af24",
+      "bytes": 52994
+    },
+    "samples/adv-r2-test-18-e2.png": {
+      "sha256": "19beb3558d66e775016fae428d5464e62cb5bee9a2f7dcde8df4bbec659dfc04",
+      "bytes": 66570
+    },
+    "samples/adv-r2-test-19-e1.png": {
+      "sha256": "7795660d94638d017302cb6f762f54eb0a2639e70ba314395cb773c9439bfd63",
+      "bytes": 21855
+    },
+    "samples/adv-r2-test-19-e2.png": {
+      "sha256": "8442ec60a8155b3bf3da9bccb3dc263a1ec55062b35a399f5c3caa33e4a883ed",
+      "bytes": 64985
+    },
+    "samples/adv-r2-test-20-e1.png": {
+      "sha256": "b5f1b620e8609788b9fb7d2efb64ff39dc3ae9414a939f419e59bc1ecd6fc20d",
+      "bytes": 55539
+    },
+    "samples/adv-r2-test-20-e2.png": {
+      "sha256": "99e2c5834192161874f7ed938b3a39c8fb3034ff2618a120db0f27dcc0e88446",
+      "bytes": 27513
+    },
+    "samples/adv-r2-test-20-e3.png": {
+      "sha256": "d8d4cc2fb9e5766da10612eabccb5a6f29b6c0bbcd0139d0fa16ad9d0923d651",
+      "bytes": 25059
+    },
+    "samples/adv-r2-test-21-e1.png": {
+      "sha256": "194c1c93c0a8e6bc2cae8579df7ce468c8d9903980aca16400c125063f344cf6",
+      "bytes": 50842
+    },
+    "samples/adv-r2-test-22-e1.png": {
+      "sha256": "3e4d6bbe02a9a03a5b3622eda8107de9e039c98336e133c65658be36cd70c05d",
+      "bytes": 68133
+    },
+    "samples/adv-r2-test-23-e1.png": {
+      "sha256": "f3303aff962fa6c46a19c7b43747e82c72e94b8fb6b4fe17856c1d9d9f04ea5c",
+      "bytes": 36890
+    },
+    "samples/adv-r2-test-24-e1.png": {
+      "sha256": "8f0a66dd976882ed1e770e2097746242e7a85dae1f68673afe36577a0c5f591d",
+      "bytes": 54993
+    },
+    "samples/adv-r2-test-25-e1.png": {
+      "sha256": "5d76ae8e8d2470d134d2da9c0153c6168be0918044c25c39a59bcf9fa06d9a21",
+      "bytes": 30084
+    },
+    "samples/adv-r2-test-26-e1.png": {
+      "sha256": "9b36ca9e4fdadaab18f066a58e48f0b7457b7a96a9bcd66805643e218ac335cd",
+      "bytes": 157815
+    },
+    "samples/adv-r2-test-27-e1.png": {
+      "sha256": "f83a147288527dd1efe32f51fcc12fb6e046d9a86ac85803be40068c45bb4dcb",
+      "bytes": 46324
+    },
+    "samples/adv-r2-test-28-e1.png": {
+      "sha256": "f3303aff962fa6c46a19c7b43747e82c72e94b8fb6b4fe17856c1d9d9f04ea5c",
+      "bytes": 36890
+    },
+    "samples/adv-r2-test-28-e2.png": {
+      "sha256": "ae0aad69b1557dd2c5e9f76782e869bda472c6e78db83f679b041d53de8bbf26",
+      "bytes": 9411
+    },
+    "samples/adv-r2-test-28-e3.png": {
+      "sha256": "2ea5fb3242ab117b646210651f5f05461a48d26452abeb6252c6905c1984abdd",
+      "bytes": 17001
+    },
+    "samples/adv-r2-test-29-e1.png": {
+      "sha256": "b5f1b620e8609788b9fb7d2efb64ff39dc3ae9414a939f419e59bc1ecd6fc20d",
+      "bytes": 55539
+    },
+    "samples/adv-r2-test-30-e1.png": {
+      "sha256": "f2a2f13e9ac4b5ea35f18a9e4b5b139d0f581f58d66870b4741a6abb223dadcb",
+      "bytes": 78782
+    },
+    "test.json": {
+      "sha256": "743e640a5570e4dd0acadcbd35b3e7851f482c0047e65ddbf476183b4711fe46",
+      "bytes": 63000
+    },
+    "verification_manifest.json": {
+      "sha256": "f237e0e42023bb3649ed45f27db14c2750b766da416ed67587f973f3eac71dfa",
+      "bytes": 26348
+    }
+  },
+  "counts": {
+    "dev": {
+      "total": 18,
+      "answerable": 15,
+      "unanswerable": 3,
+      "groups": {
+        "table": 3,
+        "image": 3,
+        "chart": 3,
+        "multihop": 3,
+        "text": 3,
+        "unanswerable": 3
+      }
+    },
+    "test": {
+      "total": 30,
+      "answerable": 24,
+      "unanswerable": 6,
+      "groups": {
+        "table": 6,
+        "image": 5,
+        "chart": 5,
+        "multihop": 4,
+        "text": 4,
+        "unanswerable": 6
+      }
+    }
+  },
+  "original_round1_files_unchanged": true,
+  "dev_exact_copy_of_original": true,
+  "original_dev_sha256": "4e892a12a132de6f51eaa81ee93ed057aa3a38e47a5afac28b313777ca90b745",
+  "original_test_sha256": "e60bb6943846a45e0af5d3dd1719eb8d06014983afa25e50ebcb62bb1d6d192e",
+  "new_test_target_answer_fact_overlap_with_original": 0,
+  "unique_source_regions": 32,
+  "evidence_region_references": 37,
+  "coordinate_system": "top-left origin, normalized x0,y0,x1,y1; physical pages 1-based; printed body page=physical-20"
+}

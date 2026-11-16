@@ -8,6 +8,8 @@ Repo bài nộp: [K5-L3B-DAY07-2A202604016-ChuNguyenTungDuong-RetrievalContext](
 
 Bài thực hành gồm ba phương pháp tìm kiếm là Dense, TF-IDF và Hybrid, cùng ba cấu hình agent dùng Dense. Phần chính trình bày hai split Dev và Test. Các phiên bản dữ liệu cũ, lượt debug và kết quả trước lần chạy lại nằm trong [phụ lục lịch sử](../../docs/EXPERIMENT_HISTORY.md). Nhãn có Codex hỗ trợ đối chiếu, học viên xác nhận sử dụng và chưa có người chấm độc lập.
 
+Phần nâng cao dùng riêng tài liệu World Bank 350 trang, Dev 18 câu và Test 30 câu. Mục cuối giữ kết quả, chi phí và giới hạn riêng, không trộn với hai split cơ bản.
+
 ## Dữ liệu và benchmark
 
 - Nguồn, quyền sử dụng, số trang và số chunk:
@@ -160,7 +162,7 @@ Một cấu hình có thể đồng thời là phương pháp mới và cải th
 
   Cấu hình 4000 được chọn sơ bộ trong giai đoạn phát triển, Dev sửa câu trùng được đo bổ sung sau Test. Lượt baseline đầu lỗi API vẫn được lưu và công bố. Việc rút gọn báo cáo không tạo ra một đánh giá độc lập mới. Cùng trợ lý tham gia viết code, soạn câu và chấm nhãn nên có nguy cơ thiên lệch, chưa có đánh giá mù.
 
-  Corpus chỉ là 38 trang của một sách tiếng Anh, đã loại trang thiên về bảng/hình. Chưa có OCR, retrieval đa phương thức, dữ liệu tiếng Việt hoặc nhiều tài liệu. Chunk theo ký tự có thể cắt câu và vượt giới hạn token của embedding model. Day 6 ghi nhận model có cửa sổ 128 token, nên một số chunk dài bị cắt đầu vào khi encode. Có dòng đầu/chân trang làm nhiễu ranking. Exact gold chưa bao quát mọi bằng chứng hợp lệ ở trang khác.
+  Corpus chỉ là 38 trang của một sách tiếng Anh, đã loại trang thiên về bảng/hình. Phần cơ bản chưa có OCR, retrieval đa phương thức, dữ liệu tiếng Việt hoặc nhiều tài liệu. Chunk theo ký tự có thể cắt câu và vượt giới hạn token của embedding model. Day 6 ghi nhận model có cửa sổ 128 token, nên một số chunk dài bị cắt đầu vào khi encode. Có dòng đầu/chân trang làm nhiễu ranking. Exact gold chưa bao quát mọi bằng chứng hợp lệ ở trang khác.
 
   Câu thiếu bằng chứng sử dụng tên tổ chức hư cấu, dễ hơn các câu gần đúng có điều kiện bị thiếu. Abstain cuối có thể do validator hoặc giới hạn search, không tách hoàn toàn năng lực nhận biết thiếu bằng chứng của model. Kiểm tra citation trong code chưa chấm được hỗ trợ ngữ nghĩa. Các nhãn thủ công và cách xử lý trường hợp một phần cần người chấm khác kiểm tra thêm. Không có fine-tuning hay huấn luyện model trong bài, chỉ điều chỉnh retrieval, context và vòng agent.
 
@@ -170,30 +172,34 @@ Một cấu hình có thể đồng thời là phương pháp mới và cải th
 
 - Tài liệu, nguồn, quyền sử dụng, số trang và phiên bản:
 
-  Không thực hiện thử thách nâng cao. Corpus index có 38 trang nội dung, không đáp ứng yêu cầu tài liệu từ 100 trang dù PDF gốc dài 939 trang. Bài nộp chỉ báo phần cơ bản, không tự nhận 15 điểm bonus.
+  World Bank, [World Development Report 2021: Data for Better Lives](https://documents1.worldbank.org/curated/en/248201616598597113/pdf/World-Development-Report-2021-Data-for-Better-Lives.pdf), 350 trang PDF, SHA-256 `606c8452c8b23c01d81919c3974972bebeb1e60348a56ea40cc3ae841e301616`, CC BY 3.0 IGO kèm điều kiện thành phần bên thứ ba. Thông tin ghi công và giới hạn quyền trong [báo cáo vòng một](../../advanced/ROUND1_REPORT.md).
 
 - Cách xử lý text, bảng, ảnh, biểu đồ; phạm vi index và phần chưa xử lý:
 
-  Chỉ dùng văn bản từ corpus Day 6. Không có pipeline bảng, ảnh, biểu đồ hoặc evidence theo vùng để đánh giá nâng cao.
+  Xử lý 350 trang và lưu ảnh gốc có checksum. Index gồm 4995 chunk native text và 498 chunk mô tả 114 vùng trực quan, tổng 5493 chunk. Vision phân tích 107 trang chọn theo caption hoặc ảnh raster. Mười bốn trang trống và một trang nhan đề không có native text. Hình trang trí không mô tả riêng, quy tắc chọn trang có thể bỏ sót hình vector không nhãn. Agent xem ảnh gốc, dùng mô tả chỉ làm tín hiệu tìm kiếm.
 
 - Cách chia benchmark, schema evidence, model và cấu hình đã chốt trên dev:
 
-  Không có benchmark riêng cho nâng cao. Bộ 24 câu cuối phục vụ phần cơ bản.
+  Dev vòng hai có 15 câu có đáp án và ba câu thiếu evidence. Test mới có 24 câu có đáp án và sáu câu thiếu evidence. Câu lưu ID, nhóm, đáp án hoặc lý do thiếu evidence, trang, vùng và điều kiện. Hai split được kiểm tra không trùng fact và khóa trước Dev vòng hai. Test vòng một sau khi dùng để sửa pipeline được giữ làm chẩn đoán. Trợ lý soạn Test mới cũng đã chấm Test cũ nên chưa có đánh giá mù giữa những người độc lập.
+
+  Pipeline dùng TF-IDF theo trang kết hợp dense pgvector bằng RRF, embedding 384 chiều và model `gpt-6-luna`. Agent có search, inspect, calculate và thêm lượt tự kiểm câu trả lời bằng ảnh gốc. Citation dùng bbox nguyên trang kèm nhãn vùng/trích dẫn, lưu thêm bbox model đề xuất. Chọn **baseline** theo điểm Dev nghiêm, rồi thời gian và chi phí khi hòa. Gold không được đưa vào model khi inference. Chi tiết trong [báo cáo vòng hai](../../advanced/results/round2/REPORT.md).
 
 | Nhóm test | Đạt / tổng | Tỷ lệ | Lỗi / nhận xét |
 |---|---|---|---|
-| Bảng | Không đánh giá | Không áp dụng | Chưa xử lý bảng |
-| Ảnh, sơ đồ | Không đánh giá | Không áp dụng | Chưa xử lý ảnh |
-| Biểu đồ | Không đánh giá | Không áp dụng | Chưa xử lý biểu đồ |
-| Multi-hop | Không đánh giá | Không áp dụng | Chưa có bộ nhãn multi-hop riêng |
-| Text | Không đánh giá nâng cao | Không áp dụng | Kết quả text cơ bản đã trình bày phía trên |
-| Thiếu bằng chứng | Không đánh giá nâng cao | Không áp dụng | Hai câu test thiếu evidence thuộc phần cơ bản |
-| **Toàn bộ** | Không thực hiện | Không áp dụng | Không đề nghị bonus |
+| Bảng | 6/6 | 100,00% | 0 lỗi hệ thống, 0 câu không đạt |
+| Ảnh, sơ đồ | 5/5 | 100,00% | 0 lỗi hệ thống, 0 câu không đạt |
+| Biểu đồ | 4/5 | 80,00% | 1 lỗi hệ thống, 1 câu không đạt |
+| Multi-hop | 3/4 | 75,00% | 0 lỗi hệ thống, 1 câu không đạt |
+| Text | 4/4 | 100,00% | 0 lỗi hệ thống, 0 câu không đạt |
+| Thiếu bằng chứng | 6/6 | 100,00% | 0 lỗi hệ thống, 0 câu không đạt |
+| **Toàn bộ** | **28/30** | **93,33%** | 1 lỗi hệ thống, 2 câu không đạt |
 
 - Trace, nhãn và evidence từng câu; thời gian, chi phí, lỗi hệ thống:
 
-  Không phát sinh trace, nhãn hoặc chi phí riêng cho phần nâng cao.
+  Test vòng hai đạt **28/30 (93,33%)**, đạt ngưỡng số học 27/30. Nhãn chưa được học viên xác nhận. Lỗi và thiếu kết quả giữ trong mẫu số. [Bảng 30 câu](../../advanced/results/round2/TEST_REVIEW.md) và trace lưu lý do, nguồn và công cụ. [Bảng mọi lượt, token, thời gian và chi phí](../../advanced/results/round2/REPORT.md) giữ cả vòng chẩn đoán.
+
+  Tổng phần nâng cao qua hai vòng là 5459864 input token, 112567 output token và **0,73873792 USD ước tính** trên trần 5 USD. Dự phòng usage chưa rõ là 0,00000000 USD. Đây là phép tính theo response usage và giá công khai, không phải hóa đơn. Reasoning nằm trong output, chi phí local và token trợ lý ngoài pipeline chưa đo.
 
 - Giới hạn, cách tái lập và đường dẫn benchmark:
 
-  Hướng dẫn tái lập phần cơ bản ở `REPRODUCE.md`. Muốn thực hiện nâng cao phải bổ sung corpus, pipeline và bộ đánh giá đúng yêu cầu `ADVANCED.md`, sau đó báo kết quả như một thí nghiệm riêng.
+  [Hướng dẫn nâng cao](../../advanced/README.md), [vòng hai](../../advanced/ROUND2.md), [benchmark](../../advanced/benchmark/round2/test.json), [selection](../../advanced/results/round2/selection-freeze.json) và [ledger](../../advanced/results/round2/ledger.json) cho phép đối chiếu. Chỉ có một tài liệu, một lượt Test vòng hai, không có ablation chỉ-text hoặc đánh giá mù giữa nhiều người. Bbox nguyên trang có độ chính xác định vị thấp. Model alias và mạng có thể làm chạy lại khác lịch sử. Việc nhận bonus phụ thuộc kiểm tra đủ yêu cầu của giảng viên.

@@ -1,0 +1,45 @@
+{
+  "id": "5b706b6c8c4d4f4bbda64d3e1d5f2614",
+  "label": "20261116-164337-r2-dev-baseline-8b5e219c:adv-dev-08:review0",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 13321,
+  "maximum_output_tokens": 3500,
+  "images": [
+    {
+      "page": 181,
+      "path": "advanced/data/pages/p181.jpg",
+      "sha256": "93056cafe09e4dc0dca6de4e6581ecd44bf9ec64e1cc1ef0ccf0a5d3e4548df2"
+    },
+    {
+      "page": 185,
+      "path": "advanced/data/pages/p185.jpg",
+      "sha256": "1836c9518727d198d99a2832e670cba05ec83fe1769ae6cdecb748e4f69c827a"
+    },
+    {
+      "page": 180,
+      "path": "advanced/data/pages/p180.jpg",
+      "sha256": "457fe2ec419e39ac37918cbf59a9104f0753f13a99109bd66fc3f8f544ae1790"
+    }
+  ],
+  "instructions_sha256": "0507604096aab315eb8e0306caca34acc2d0bedacd7d3b2ec25cc18ae985e348",
+  "usage": {
+    "input_tokens": 13321,
+    "input_tokens_details": {
+      "cache_write_tokens": 13318,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 13318
+      }
+    },
+    "output_tokens": 264,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 13585
+  },
+  "response_id": "resp_001b383a74067b07016afad121ab1087d2bdb3690336f90ef5",
+  "response_status": "completed",
+  "output_text": "{\"action\":\"answer\",\"expression\":\"2015 to 2018 changes in panel a: connected share = 50% − 41% = +9 percentage points; usage gap = 42% − 37% = +5 percentage points; coverage gap = 8% − 21% = −13 percentage points.\",\"queries\":[],\"pages\":[181],\"status\":\"answered\",\"answer\":\"Globally, the connected share rose from 41% in 2015 to 50% in 2018 (+9 percentage points). The usage gap rose from 37% to 42% (+5 percentage points), while the coverage gap fell from 21% to 8% (−13 percentage points).\",\"citations\":[{\"page\":181,\"region_label\":\"Figure 5.3, panel a: globally over time; legend and values inside the 2015 and 2018 bars\",\"bbox\":[0.092,0.126,0.662,0.434],\"quote\":\"a. Globally over time, 2015–18; 2015 values: Connected 41, Usage gap 37, Coverage gap 21; 2018 values: Connected 50, Usage gap 42, Coverage gap 8.\"}]}",
+  "elapsed_seconds": 6.649380099996051
+}

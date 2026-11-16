@@ -1,0 +1,35 @@
+{
+  "id": "01b7bcc79dc64d8aa30eed8c8b3c3907",
+  "label": "index:p220",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 4170,
+  "maximum_output_tokens": 6000,
+  "images": [
+    {
+      "page": 220,
+      "path": "advanced/data/pages/p220.jpg",
+      "sha256": "f2b831a6844fece3e541c24a0b9c86e8f3173a5cce1b781e73828acc83c5f653"
+    }
+  ],
+  "instructions_sha256": "01d3a56b3c678b1acd37e506320a854b17dd9ddb13ece56a92b62990aeb80d41",
+  "usage": {
+    "input_tokens": 4170,
+    "input_tokens_details": {
+      "cache_write_tokens": 4167,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 4167
+      }
+    },
+    "output_tokens": 605,
+    "output_tokens_details": {
+      "reasoning_tokens": 229
+    },
+    "total_tokens": 4775
+  },
+  "response_id": "resp_0ccd6b8164349004016afa90bd1a7887d2bd6c547c29c04f45",
+  "response_status": "completed",
+  "output_text": "{\"regions\":[{\"label\":\"Figure 6.5\",\"kind\":\"chart\",\"bbox\":[0.083,0.086,0.535,0.477],\"summary\":\"Radar chart compares adoption of five good-practice e-commerce and related legal/regulatory frameworks across four country-income groups, as of 2020.\",\"details\":\"Title: “Adoption of e-commerce and related legislation is widespread across country income groups.” Radar axes are percentages from 0 to 100, marked in 20-point increments. The five measures are E-commerce law; Legal equivalence of paper-based and electronic communications; Legal recognition of electronic signatures; Technological neutrality of electronic communications; and Digital ID system to access e-government services. Legend: High-income (blue), Upper-middle-income (green), Lower-middle-income (orange), Low-income (purple). Approximate plotted percentages, read clockwise from the top axis: E-commerce law—about 78, 75, 78, 65; legal equivalence—about 75, 72, 65, 80; legal recognition of electronic signatures—about 100, 78, 72, 75; technological neutrality—about 65, 55, 70, 50; digital ID for e-government access—about 85, 55, 30, near 0, respectively. Values are visual estimates; exact point values are not labeled. Source: WDR 2021 team, based on World Bank, Global Data Regulation Survey. Note: percentage of countries in each income group with good-practice legal and regulatory frameworks for e-commerce as of 2020.\",\"limitations\":\"Radar vertices have no printed data labels, so individual values are approximate visual readings. The low-income digital-ID value appears near zero; exact value is not stated.\"}]}",
+  "elapsed_seconds": 9.9021888999996
+}

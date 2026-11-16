@@ -1,0 +1,35 @@
+{
+  "id": "06a440372c844f7a98c29dcc6a4008a1",
+  "label": "index:p320",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 3982,
+  "maximum_output_tokens": 6000,
+  "images": [
+    {
+      "page": 320,
+      "path": "advanced/data/pages/p320.jpg",
+      "sha256": "65c9ba34d6b707bb2233eac48e6d400c7f619b94d5eaaf86c930ab7f08e26c66"
+    }
+  ],
+  "instructions_sha256": "01d3a56b3c678b1acd37e506320a854b17dd9ddb13ece56a92b62990aeb80d41",
+  "usage": {
+    "input_tokens": 3982,
+    "input_tokens_details": {
+      "cache_write_tokens": 3979,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 3979
+      }
+    },
+    "output_tokens": 520,
+    "output_tokens_details": {
+      "reasoning_tokens": 130
+    },
+    "total_tokens": 4502
+  },
+  "response_id": "resp_065138a9ecd38937016afa90f73cc887d2a83d6a0edbc869af",
+  "response_status": "completed",
+  "output_text": "{\"regions\":[{\"label\":\"Figure S8.2.1\",\"kind\":\"diagram\",\"bbox\":[0.182,0.087,1.0,0.563],\"summary\":\"Infographic on open-science and citizen-science tools used by network partners in the Amazon basin to investigate fish migration and environmental influences.\",\"details\":\"Title: “Using a diverse set of open science and citizen science tools and technologies in the Amazon basin.” The guiding question is: “Where and when do fish migrate in the Amazon basin and what environmental factors influence those migrations?” Introductory text says network partners use diverse technologies to answer the question, gather, share, and use data, and collaborate to generate information for multiple purposes and audiences. Four photographic examples are paired with descriptions: (1) Community-based, participatory, and Indigenous and local knowledge methods, tools, and protocols (e.g., journals, printed survey forms, community maps) facilitate engagement of diverse audiences. (2) Ictio.org is an application and open and safe database to collect and share information on Amazonian migratory fish. (3) Data is safely transferred and stored in servers; open data is then accessible to multiple audiences with diverse levels of access and in user-friendly formats. (4) Collaboration is enabled through carefully designed methodologies, in-person and virtual meetings, social media, Google platform and tools. The four photos show a group gathered outdoors, hands using a phone among fish, people seated around displayed materials, and a large group gathered outside a building. A Citizen Science for the Amazon logo appears near the upper right of the infographic.\",\"limitations\":\"The infographic’s right edge meets or is clipped by the supplied page image, so the full extent may continue beyond the visible page. Small text within the infographic is slightly soft, but the descriptions above are legible; no numeric data or chart axes are present.\"}]}",
+  "elapsed_seconds": 6.8499508000022615
+}

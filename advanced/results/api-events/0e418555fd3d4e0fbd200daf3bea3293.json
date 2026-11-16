@@ -1,0 +1,45 @@
+{
+  "id": "0e418555fd3d4e0fbd200daf3bea3293",
+  "label": "20261116-164337-r2-dev-baseline-8b5e219c:adv-dev-03:review0",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 13819,
+  "maximum_output_tokens": 3500,
+  "images": [
+    {
+      "page": 227,
+      "path": "advanced/data/pages/p227.jpg",
+      "sha256": "df18635d2ce807bb90a9feb16a147b04477be27460055770965f38dbbb63930a"
+    },
+    {
+      "page": 162,
+      "path": "advanced/data/pages/p162.jpg",
+      "sha256": "3c87eb79f59a0c83019e94b33de2758ae869eec16a9e7ea359fc6bc3f51ab34e"
+    },
+    {
+      "page": 220,
+      "path": "advanced/data/pages/p220.jpg",
+      "sha256": "f2b831a6844fece3e541c24a0b9c86e8f3173a5cce1b781e73828acc83c5f653"
+    }
+  ],
+  "instructions_sha256": "0507604096aab315eb8e0306caca34acc2d0bedacd7d3b2ec25cc18ae985e348",
+  "usage": {
+    "input_tokens": 13819,
+    "input_tokens_details": {
+      "cache_write_tokens": 13816,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 13816
+      }
+    },
+    "output_tokens": 209,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 14028
+  },
+  "response_id": "resp_0778e2f6d038ac50016afad0dded3887d2bd260235378ff871",
+  "response_status": "completed",
+  "output_text": "{\"action\":\"answer\",\"expression\":\"73 - 17 = 56 points\",\"queries\":[],\"pages\":[227],\"status\":\"answered\",\"answer\":\"In Table 6.1’s Global row, e-commerce and e-transactions scores 73, which is at the moderate level; private intent data scores 17, which is at the basic level. The difference is 56 points.\",\"citations\":[{\"page\":227,\"region_label\":\"Table 6.1, Global row and column headings\",\"bbox\":[0.093,0.126,0.917,0.305],\"quote\":\"Global ... E-commerce and e-transactions 73 ... Private intent data 17\"},{\"page\":227,\"region_label\":\"Table 6.1, score-level color key beneath the table\",\"bbox\":[0.093,0.328,0.914,0.348],\"quote\":\"moderate level (scores of 50–75) ... basic level (scores below 25)\"}]}",
+  "elapsed_seconds": 6.548956800004817
+}

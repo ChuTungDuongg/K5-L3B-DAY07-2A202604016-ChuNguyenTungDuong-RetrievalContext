@@ -1,0 +1,1084 @@
+[
+  {
+    "id": "adv-r2-test-01",
+    "split": "test",
+    "group": "table",
+    "question": "In Table 4.1, which research area covers transferring models from countries with abundant data to countries with limited data? Explain the term using the table note and identify the related concern about using models pretrained in higher-income countries.",
+    "answerable": true,
+    "expected_answer": "External validity. The note defines it as research findings from one location holding true in another. The row asks how promising it is to build models in countries that have data and apply them in countries with limited data, and how to avoid profiling and discrimination when pretrained models from higher-income countries are used for novel development applications.",
+    "reason": "Phải đọc đúng hàng External validity, nối với chú thích a và nêu rủi ro profiling/discrimination; chỉ nhắc tên lĩnh vực chưa đủ.",
+    "evidence": [
+      {
+        "page": 162,
+        "printed_page": "142",
+        "region_label": "Table 4.1 — External validity row and note a",
+        "bbox": [
+          0.083,
+          0.27,
+          0.909,
+          0.935
+        ],
+        "quote": "External validity: How promising is the approach of building models in countries that have data and applying them to countries with limited data? How can issues akin to data profiling and discrimination be avoided when using pre-trained models from higher-income countries in cases of novel development use? a. External validity relates to the research findings of one location holding true in another location.",
+        "facts": [
+          "Research area: external validity",
+          "Definition: findings from one location holding true in another",
+          "Research gap: transfer from data-rich to data-limited countries",
+          "Risk: profiling and discrimination from pretrained higher-income-country models"
+        ],
+        "units": "Not applicable"
+      }
+    ]
+  },
+  {
+    "id": "adv-r2-test-02",
+    "split": "test",
+    "group": "table",
+    "question": "Compare CPTPP (2018) and RCEP (2020) in Table 7.2 for cybersecurity, unrestricted cross-border data flows, and prohibition of data localization. For each agreement and provision, state whether the table shows a binding provision, a soft law provision, or no provision.",
+    "answerable": true,
+    "expected_answer": "CPTPP: cybersecurity is soft law; unrestricted cross-border data flows and prohibition of data localization are binding. RCEP: cybersecurity has no provision; unrestricted cross-border data flows and prohibition of data localization are soft law. The table legend codes orange as binding, yellow as soft law, and an empty cell as no provision.",
+    "reason": "Cần giải mã màu và ô trống bằng legend rồi đọc đủ sáu giao điểm, không suy từ đoạn văn hoặc tên hiệp định.",
+    "evidence": [
+      {
+        "page": 264,
+        "printed_page": "244",
+        "region_label": "Table 7.2 — CPTPP/RCEP columns and legend",
+        "bbox": [
+          0.083,
+          0.084,
+          0.909,
+          0.466
+        ],
+        "quote": "Cybersecurity; Unrestricted cross-border data flows; Prohibition of data localization. Note: [orange] indicates a binding provision; [yellow] indicates a soft law provision; empty cell indicates no provision.",
+        "facts": [
+          "CPTPP cybersecurity: yellow/soft law",
+          "CPTPP cross-border flows: orange/binding",
+          "CPTPP localization prohibition: orange/binding",
+          "RCEP cybersecurity: blank/no provision",
+          "RCEP cross-border flows: yellow/soft law",
+          "RCEP localization prohibition: yellow/soft law"
+        ],
+        "units": "Categorical provision status; agreement years 2018 and 2020"
+      }
+    ]
+  },
+  {
+    "id": "adv-r2-test-03",
+    "split": "test",
+    "group": "table",
+    "question": "For strategic planning in Table 8.2, how do centralized and decentralized data governance arrangements differ? Name the three nonstate actor categories listed in the same strategic-planning row.",
+    "answerable": true,
+    "expected_answer": "A centralized approach places a data governance agency or unit in an existing institution, such as the NSO or digital economy ministry. A decentralized approach embeds data governance units and responsibilities across government. The three nonstate categories in that row are civil society organizations (CSOs), universities, and research institutions.",
+    "reason": "Phải đối chiếu hai cách tổ chức và giữ đúng ba actor của hàng strategic planning, không lấy actor từ hàng compliance.",
+    "evidence": [
+      {
+        "page": 292,
+        "printed_page": "272",
+        "region_label": "Table 8.2 — Strategic planning row",
+        "bbox": [
+          0.205,
+          0.085,
+          0.909,
+          0.755
+        ],
+        "quote": "Centralized approach: data governance agency/unit embedded in an existing institution (such as NSO, digital economy ministry). Decentralized approach: data governance units and responsibilities embedded across government. CSOs; Universities; Research institutions.",
+        "facts": [
+          "Centralized: unit embedded in an existing institution",
+          "Decentralized: units/responsibilities embedded across government",
+          "Nonstate actors: CSOs, universities, research institutions"
+        ],
+        "units": "Not applicable"
+      }
+    ]
+  },
+  {
+    "id": "adv-r2-test-04",
+    "split": "test",
+    "group": "table",
+    "question": "Using Table 2.2, report the low-income and high-income values for use of an advance release calendar and calculate the high-minus-low gap. What population and year do those percentages represent according to the table note?",
+    "answerable": true,
+    "expected_answer": "Low-income: 30%; high-income: 98%; gap: 98 − 30 = 68 percentage points. These are 2019 percentages of the population in each income group whose national statistical office has an advance release calendar, rather than an unweighted percentage of NSOs.",
+    "reason": "Cần đúng hàng calendar, phép trừ theo điểm phần trăm và mẫu số theo chú thích bảng; không thay mẫu số thành số NSO.",
+    "evidence": [
+      {
+        "page": 84,
+        "printed_page": "64",
+        "region_label": "Table 2.2 — Advance release calendar row and note",
+        "bbox": [
+          0.204,
+          0.089,
+          0.909,
+          0.265
+        ],
+        "quote": "NSO uses advance release calendar: 30, 75, 92, 98. Note: Data are for 2019. The percentages reflect the proportion of the population in each income group whose national statistical office (NSO) has the listed attribute.",
+        "facts": [
+          "Low-income: 30%",
+          "High-income: 98%",
+          "98 − 30 = 68 percentage points",
+          "Denominator: population in each income group whose NSO has the attribute",
+          "Reference year: 2019"
+        ],
+        "units": "Percent of population; gap in percentage points; 2019"
+      }
+    ]
+  },
+  {
+    "id": "adv-r2-test-05",
+    "split": "test",
+    "group": "table",
+    "question": "Among the three safeguards in Table 6.1, which has the highest average score for low-income countries? Compare its score with the personal-data safeguard score, calculate the difference, and give the regulatory maturity level of both scores using the legend.",
+    "answerable": true,
+    "expected_answer": "The nonpersonal-data safeguard has the highest low-income score, 47 (versus cybersecurity and cybercrime 39 and personal data 31). Its lead over personal data is 47 − 31 = 16 score points. Both 47 and 31 are in the evolving level, defined as scores of 25–50.",
+    "reason": "Phải so ba cột safeguards, tính chênh lệch 16 điểm score và đọc legend evolving; các số không phải tỷ lệ quốc gia.",
+    "evidence": [
+      {
+        "page": 227,
+        "printed_page": "207",
+        "region_label": "Table 6.1 — Low-income safeguards and maturity legend",
+        "bbox": [
+          0.091,
+          0.086,
+          0.92,
+          0.35
+        ],
+        "quote": "Low-income: Cybersecurity and cybercrime 39; Personal data 31; Nonpersonal data 47. Note: The table shows the average score for good-practice data governance by theme across country income groups as of 2020. Evolving level (scores of 25–50).",
+        "facts": [
+          "Low-income safeguards: 39, 31, 47",
+          "Highest: nonpersonal data, 47",
+          "Personal data: 31",
+          "Difference: 16 score points",
+          "Both evolving, scores 25–50"
+        ],
+        "units": "Average regulatory good-practice score on a 0–100 scale; score-point difference; as of 2020"
+      }
+    ]
+  },
+  {
+    "id": "adv-r2-test-06",
+    "split": "test",
+    "group": "table",
+    "question": "In Table 2.1, how do low-income countries compare on data available in machine-readable format and in nonproprietary format? Give both percentages, calculate the nonproprietary-minus-machine-readable gap, and specify what the percentages measure.",
+    "answerable": true,
+    "expected_answer": "Machine-readable format: 37%; nonproprietary format: 75%. The gap is 75 − 37 = 38 percentage points. These indicators measure the percentage of published data, averaged by country income group.",
+    "reason": "Đòi hỏi hai hàng định dạng, phép tính và mẫu số published data. Đây là fact mới, khác hàng open license ở Dev cũ.",
+    "evidence": [
+      {
+        "page": 83,
+        "printed_page": "63",
+        "region_label": "Table 2.1 — Low-income format indicators and note",
+        "bbox": [
+          0.091,
+          0.55,
+          0.796,
+          0.751
+        ],
+        "quote": "Available in machine readable format (%): 37, 51, 61, 81. Available in nonproprietary format (%): 75, 85, 81, 84. All other indicators are the percentage of published data averaged by country income group.",
+        "facts": [
+          "Low-income machine-readable: 37%",
+          "Low-income nonproprietary: 75%",
+          "75 − 37 = 38 percentage points",
+          "Percentages are of published data averaged by income group"
+        ],
+        "units": "Percent of published data averaged by income group; gap in percentage points"
+      }
+    ]
+  },
+  {
+    "id": "adv-r2-test-07",
+    "split": "test",
+    "group": "image",
+    "question": "In the laws-and-regulations layer of Figure 1.4, what two purposes are assigned to the national level, and what two instruments are assigned to the international level? Explain the distinction between these levels.",
+    "answerable": true,
+    "expected_answer": "National laws and regulations provide safeguards to secure and protect data against misuse and enablers to facilitate sharing among stakeholders. At the international level, cybersecurity conventions support collaboration against cybercrime, while interoperability standards facilitate data exchanges across borders. The national layer governs protection and sharing within the country; the international layer supports cross-border cooperation and exchange.",
+    "reason": "Phải đọc đúng lớp laws/regulations và hai cột national/international, ghép công cụ với chức năng tương ứng.",
+    "evidence": [
+      {
+        "page": 59,
+        "printed_page": "39",
+        "region_label": "Figure 1.4 — Laws and regulations row with level headers",
+        "bbox": [
+          0.092,
+          0.086,
+          0.797,
+          0.533
+        ],
+        "quote": "National: Safeguards to secure and protect data from the threat of misuse; Enablers to facilitate data sharing among different stakeholders. International: Cybersecurity conventions for collaboration on tackling cybercrime; Interoperability standards to facilitate data exchanges across borders.",
+        "facts": [
+          "National safeguards: secure/protect data against misuse",
+          "National enablers: facilitate stakeholder sharing",
+          "International cybersecurity conventions: collaborative cybercrime response",
+          "International interoperability standards: cross-border data exchanges"
+        ],
+        "units": "Not applicable"
+      }
+    ]
+  },
+  {
+    "id": "adv-r2-test-08",
+    "split": "test",
+    "group": "image",
+    "question": "Follow the cycle in Figure 3.2 from data produced as a by-product of economic activity back to data inputs for economic activity. What operation intervenes, what two additional sources feed the inputs, and what infrastructure supports the whole cycle?",
+    "answerable": true,
+    "expected_answer": "Big data cleaning and storage intervenes between by-product data and data inputs. The input node also receives data volunteered by users and open public data. The entire cycle is supported by network connectivity, storage capacity, and processing capacity.",
+    "reason": "Cần theo mũi tên, phân biệt hai nguồn bổ sung với dữ liệu by-product và đọc thanh hạ tầng bên dưới.",
+    "evidence": [
+      {
+        "page": 116,
+        "printed_page": "96",
+        "region_label": "Figure 3.2 — Economic-activity data cycle, input feed, and support bar",
+        "bbox": [
+          0.113,
+          0.085,
+          0.907,
+          0.622
+        ],
+        "quote": "Data produced as a by-product of economic activity → Big data cleaning and storage → Data inputs for economic activity. Data volunteered by users; Open public data. Supported by network connectivity, storage capacity, and processing capacity.",
+        "facts": [
+          "Intervening operation: big data cleaning and storage",
+          "Additional inputs: user-volunteered data and open public data",
+          "Support: network connectivity, storage capacity, processing capacity"
+        ],
+        "units": "Not applicable"
+      }
+    ]
+  },
+  {
+    "id": "adv-r2-test-09",
+    "split": "test",
+    "group": "image",
+    "question": "Decode the three colored dimensions in Figure 6.1. For each dimension, give its name and its pair of endpoints, and explain why a transaction can involve all three dimensions at once.",
+    "answerable": true,
+    "expected_answer": "Purple is types of data: personal/nonpersonal. Orange is types of actors: public/private. Blue is types of transactions: domestic/cross-border. These are intersecting dimensions of the legal framework, so data type, participating actors, and domestic or cross-border context can describe the same use or transaction simultaneously.",
+    "reason": "Cần dùng legend và đọc cả sáu đầu trục; các chiều giao nhau không phải sáu nhóm loại trừ nhau.",
+    "evidence": [
+      {
+        "page": 211,
+        "printed_page": "191",
+        "region_label": "Figure 6.1 — Three intersecting dimensions and color legend",
+        "bbox": [
+          0.454,
+          0.085,
+          0.917,
+          0.513
+        ],
+        "quote": "Types of data: Personal, Nonpersonal. Types of actors: Public, Private. Types of transactions: Domestic, Cross-border.",
+        "facts": [
+          "Purple: types of data, personal/nonpersonal",
+          "Orange: types of actors, public/private",
+          "Blue: types of transactions, domestic/cross-border",
+          "Three intersecting dimensions, not mutually exclusive categories"
+        ],
+        "units": "Not applicable"
+      }
+    ]
+  },
+  {
+    "id": "adv-r2-test-10",
+    "split": "test",
+    "group": "image",
+    "question": "In Figure 8.2, which data governance cluster combines backward-looking assessment with forward-looking risk work? Name both functions shown there and distinguish them from the three functions in the rule-making-and-implementation cluster.",
+    "answerable": true,
+    "expected_answer": "Learning and evidence combines monitoring and evaluation with anticipating and managing risks. Rule making and implementation instead comprises legislating/regulating, setting standards, and providing clarification and guidance.",
+    "reason": "Đọc hai múi sơ đồ và đầy đủ chức năng từng múi; chỉ nêu tên cluster là thiếu điều kiện.",
+    "evidence": [
+      {
+        "page": 290,
+        "printed_page": "270",
+        "region_label": "Figure 8.2 — Learning/evidence and rule-making sectors",
+        "bbox": [
+          0.084,
+          0.085,
+          0.542,
+          0.473
+        ],
+        "quote": "Learning and evidence: Monitor and evaluate; Anticipate and manage risks. Rule making and implementation: Legislate/regulate; Set standards; Provide clarification and guidance.",
+        "facts": [
+          "Learning/evidence: monitor and evaluate",
+          "Learning/evidence: anticipate and manage risks",
+          "Rules/implementation: legislate/regulate, standards, clarification/guidance"
+        ],
+        "units": "Not applicable"
+      }
+    ]
+  },
+  {
+    "id": "adv-r2-test-11",
+    "split": "test",
+    "group": "image",
+    "question": "For integrating academia in Figure 9.5, what data-demand action belongs to establishing fundamentals? Then give the data-demand and human-capital actions at the initiating-data-flows stage.",
+    "answerable": true,
+    "expected_answer": "Establishing fundamentals: promote awareness of participants’ datasets by building relationships among partners in academia and government. Initiating data flows: set up data-sharing agreements, commission data production by academics, and support repurposing academic data; promote data literacy through quantitative degree programs, workshops, and secondments.",
+    "reason": "Phải phân biệt hai tầng màu/stage và giữ đúng nhãn data demand/human capital; không dùng bước optimizing.",
+    "evidence": [
+      {
+        "page": 335,
+        "printed_page": "315",
+        "region_label": "Figure 9.5 — Establishing fundamentals and initiating data flows",
+        "bbox": [
+          0.092,
+          0.607,
+          0.797,
+          0.943
+        ],
+        "quote": "Establishing fundamentals — Data demand: Promote awareness of the datasets of participants by building relationships among partners in academia and government. Initiating data flows — Data demand: Set up data sharing agreements, commission data production by academics, and support the repurposing of academic data. Human capital: Promote data literacy through quantitative degree programs, workshops, and secondments.",
+        "facts": [
+          "Fundamentals data demand: dataset awareness through academia/government relationships",
+          "Initiating demand: sharing agreements, commissioned academic production, repurposing",
+          "Initiating human capital: quantitative degree programs, workshops, secondments"
+        ],
+        "units": "Not applicable"
+      }
+    ]
+  },
+  {
+    "id": "adv-r2-test-12",
+    "split": "test",
+    "group": "chart",
+    "question": "Read Figure 2.2 for broken hand pumps in Kenya. By how many days does mobile-enabled data reduce the mean repair time, and by how many days does it reduce the median? Show the baseline and with-data values used in each calculation.",
+    "answerable": true,
+    "expected_answer": "Mean: baseline 27 days versus 2.6 days with mobile-enabled data, a reduction of 27 − 2.6 = 24.4 days. Median: baseline 6 days versus 1 day with mobile-enabled data, a reduction of 6 − 1 = 5 days.",
+    "reason": "Đọc đúng legend xanh lá baseline/xanh dương with-data và hai hàng mean/median; dùng 2,6 từ chart thay vì làm tròn thành 3 từ văn bản.",
+    "evidence": [
+      {
+        "page": 76,
+        "printed_page": "56",
+        "region_label": "Figure 2.2 — Mean and median repair-time bars, axes, and legend",
+        "bbox": [
+          0.077,
+          0.688,
+          0.543,
+          0.941
+        ],
+        "quote": "Mean repair time: With mobile-enabled data 2.6; Baseline 27. Median repair time: With mobile-enabled data 1; Baseline 6. Number of days.",
+        "facts": [
+          "Mean baseline 27 days; with data 2.6 days",
+          "Mean reduction 24.4 days",
+          "Median baseline 6 days; with data 1 day",
+          "Median reduction 5 days"
+        ],
+        "units": "Days of pump repair time; absolute day reductions"
+      }
+    ]
+  },
+  {
+    "id": "adv-r2-test-13",
+    "split": "test",
+    "group": "chart",
+    "question": "Using the bars and legend of Figure 5.2, estimate wireless and fixed broadband subscriptions for the high-income and low-income groups. Which of these four bars exceeds 100, and what is the chart’s measurement unit and reference year?",
+    "answerable": true,
+    "expected_answer": "High-income: about 130 wireless and 35 fixed subscriptions per 100 persons. Low-income: about 20 wireless and about 1 fixed subscription per 100 persons. Only high-income wireless exceeds 100. The unit is broadband subscriptions per 100 persons, with data for 2019; it is not the percentage of distinct people connected. Approximate readings of 125–135, 30–40, 18–22, and 0–2 respectively are acceptable.",
+    "reason": "Cần đọc bốn cột theo legend, trục subscriptions per 100 persons và note 2019. Cho khoảng dung sai vì cột không ghi số trực tiếp.",
+    "evidence": [
+      {
+        "page": 180,
+        "printed_page": "160",
+        "region_label": "Figure 5.2 — Broadband subscriptions by income group",
+        "bbox": [
+          0.566,
+          0.086,
+          0.914,
+          0.47
+        ],
+        "quote": "Number of broadband subscriptions per 100 persons. Wireless; Fixed. High-income; Upper-middle-income; Lower-middle-income; Low-income; World. Note: Data are for 2019.",
+        "facts": [
+          "High-income wireless ≈130 (125–135)",
+          "High-income fixed ≈35 (30–40)",
+          "Low-income wireless ≈20 (18–22)",
+          "Low-income fixed ≈1 (0–2)",
+          "Only high-income wireless exceeds 100",
+          "Unit: subscriptions per 100 persons; 2019"
+        ],
+        "units": "Broadband subscriptions per 100 persons, not distinct-person percent; 2019; approximate bar readings"
+      }
+    ]
+  },
+  {
+    "id": "adv-r2-test-14",
+    "split": "test",
+    "group": "chart",
+    "question": "Compare the two panels of Figure B5.1.2. Which income group is the only net importer of workers with disruptive technology skills, and which has the largest net outflow? Approximately how do monthly ICT earnings in that largest-outflow group compare with those in low-income countries?",
+    "answerable": true,
+    "expected_answer": "High-income countries are the only net importer (about +120 per 10,000 workers). Upper-middle-income countries have the largest net outflow (about −180 per 10,000 workers). Their mean nominal monthly ICT earnings are about US$850–900, versus about US$250 in low-income countries. Accept approximately +110 to +130, −190 to −170, US$800–1,000, and US$200–300 respectively; the earnings measure is monthly, not annual.",
+    "reason": "Cần dấu dương/âm và độ dài cột ở panel a, rồi nối cùng nhóm sang panel b; không suy quan hệ nhân quả từ hai chart.",
+    "evidence": [
+      {
+        "page": 195,
+        "printed_page": "175",
+        "region_label": "Figure B5.1.2 — Net-flow and nominal-monthly-earnings panels",
+        "bbox": [
+          0.093,
+          0.087,
+          0.796,
+          0.542
+        ],
+        "quote": "a. Net flow of workers with disruptive technology skills. Net flow (per 10,000 workers). b. Mean nominal monthly earnings of ICT employees. Earnings (US$). High-income; Upper-middle-income; Lower-middle-income; Low-income.",
+        "facts": [
+          "Only high-income has positive net flow, ≈+120/10,000",
+          "Upper-middle-income most negative, ≈−180/10,000",
+          "Upper-middle-income ICT earnings ≈US$850–900 monthly",
+          "Low-income ICT earnings ≈US$250 monthly",
+          "Monthly nominal earnings and net flow per 10,000 are distinct units"
+        ],
+        "units": "Net flow per 10,000 workers; mean nominal monthly ICT earnings in US dollars; approximate bars"
+      }
+    ]
+  },
+  {
+    "id": "adv-r2-test-15",
+    "split": "test",
+    "group": "chart",
+    "question": "From both panels of Figure 7.2, give the passenger-transport share of antitrust cases for high-income and middle-income countries and calculate the gap. Which sector has the largest share in each panel, and what cases and cutoff date do these shares cover?",
+    "answerable": true,
+    "expected_answer": "Passenger transport is 8% in high-income countries and 35% in middle-income countries, a middle-minus-high gap of 27 percentage points. The largest high-income category is retail e-commerce (21%); the largest middle-income category is passenger transport (35%). These are shares of publicly available antitrust cases involving digital platforms as of January 2020, with 62 high-income and 40 middle-income cases.",
+    "reason": "Cần dùng nhãn diện tích trong cả hai treemap, tìm cực đại, tính gap và giữ đúng denominator/cutoff; không phải tỷ trọng ngành kinh tế.",
+    "evidence": [
+      {
+        "page": 250,
+        "printed_page": "230",
+        "region_label": "Figure 7.2 — Antitrust-case treemaps, panel headers, and note",
+        "bbox": [
+          0.083,
+          0.587,
+          0.908,
+          0.939
+        ],
+        "quote": "a. High-income countries (% of total cases): Passenger transport, 8; Retail e-commerce, 21. b. Middle-income countries (% of total cases): Passenger transport, 35; Retail e-commerce, 23. Note: Percentages are based on information for all antitrust cases involving digital platforms globally for which information was publicly available as of January 2020. Cases total 62 in high-income countries and 40 in middle-income countries.",
+        "facts": [
+          "Passenger transport high-income 8%, middle-income 35%",
+          "35 − 8 = 27 percentage points",
+          "Largest high-income: retail e-commerce 21%",
+          "Largest middle-income: passenger transport 35%",
+          "Publicly available digital-platform antitrust cases as of January 2020; n=62 and 40"
+        ],
+        "units": "Percent of antitrust cases; percentage-point gap; January 2020 information cutoff"
+      }
+    ]
+  },
+  {
+    "id": "adv-r2-test-16",
+    "split": "test",
+    "group": "chart",
+    "question": "Use the stacked bars and country legend of Figure 7.6 to estimate the total in 2025 and identify the largest and second-largest country contributions in that year, with their approximate amounts. What exactly does the figure measure?",
+    "answerable": true,
+    "expected_answer": "The 2025 total is about US$13.6 billion (accept US$13–14 billion). Indonesia contributes the most, about US$7 billion (6.5–7.5); Vietnam is second, about US$2.3 billion (2.0–2.5). The figure measures the indirect tax potential of business-to-consumer e-commerce in US$ billions, rather than realized tax receipts.",
+    "reason": "Phải đọc chiều cao tổng và độ dày từng phần màu theo legend; không được đọc vị trí đỉnh phần màu như giá trị đóng góp hoặc gọi là thu ngân sách thực tế.",
+    "evidence": [
+      {
+        "page": 268,
+        "printed_page": "248",
+        "region_label": "Figure 7.6 — 2025 stacked tax-potential bar, axes, legend, and note",
+        "bbox": [
+          0.204,
+          0.085,
+          0.913,
+          0.396
+        ],
+        "quote": "Volume (US$, billions). 2015–2025. Indonesia; Malaysia; Philippines; Singapore; Thailand; Vietnam. Note: Figure shows the indirect tax potential of business-to-consumer e-commerce. VAT = value added tax.",
+        "facts": [
+          "2025 total ≈US$13.6 billion (13–14)",
+          "Largest 2025: Indonesia ≈US$7 billion (6.5–7.5)",
+          "Second largest 2025: Vietnam ≈US$2.3 billion (2.0–2.5)",
+          "Indirect tax potential of B2C e-commerce, not realized receipts"
+        ],
+        "units": "US$ billions of indirect tax potential, business-to-consumer e-commerce; 2025; approximate stacked-bar readings"
+      }
+    ]
+  },
+  {
+    "id": "adv-r2-test-17",
+    "split": "test",
+    "group": "multihop",
+    "question": "Combine the infrastructure ladder in Figure 5.11 with the report’s explanation of cloud on-ramps. What is the difference in average wireless broadband price between stage 0 and stage 3, and how can an on-ramp at a colocation data center improve the security and reliability of overseas cloud access?",
+    "answerable": true,
+    "expected_answer": "Stage 0 wireless broadband averages US$5.60 per GB per month and stage 3 US$0.80, so the difference is US$4.80 per GB per month (stage 3 is lower). A cloud on-ramp is a private connection between a data center and cloud provider. Clients connect directly to overseas cloud providers through domestic IXPs in colocation data centers, rather than sending data over public internet infrastructure; that direct route improves security and reliability.",
+    "reason": "Phải nối Figure 5.11 trên trang 191 với định nghĩa/cơ chế trang 193; giá là wireless per GB per month, không phải fixed per MB.",
+    "evidence": [
+      {
+        "page": 191,
+        "printed_page": "171",
+        "region_label": "Figure 5.11 — Stage 0/3 wireless prices and ladder legend",
+        "bbox": [
+          0.092,
+          0.604,
+          0.87,
+          0.911
+        ],
+        "quote": "Average price of wireless broadband per GB per month: Stage 0 $5.60; Stage 3 $0.80. Stage 3: IXP located alongside a colocation data center. Amounts are in US dollars.",
+        "facts": [
+          "Stage 0 wireless: US$5.60/GB/month",
+          "Stage 3 wireless: US$0.80/GB/month",
+          "Difference: US$4.80/GB/month"
+        ],
+        "units": "US dollars per GB per month; 2020 infrastructure coverage"
+      },
+      {
+        "page": 193,
+        "printed_page": "173",
+        "region_label": "Text paragraph — Cloud on-ramps",
+        "bbox": [
+          0.454,
+          0.146,
+          0.799,
+          0.48
+        ],
+        "quote": "Cloud on-ramps are private connections between data centers and cloud providers. They allow clients to interact directly with overseas cloud providers through domestic IXPs located in colocation data centers without needing to use the internet to access cloud services. This process provides greater security and reliability because data are not transmitted to the cloud over public infrastructure but rather directly via the on-ramp.",
+        "facts": [
+          "Private data-center/cloud-provider connection",
+          "Domestic IXP in colocation connects directly to overseas cloud",
+          "Avoiding public infrastructure improves security/reliability"
+        ],
+        "units": "Not applicable"
+      }
+    ]
+  },
+  {
+    "id": "adv-r2-test-18",
+    "split": "test",
+    "group": "multihop",
+    "question": "In the Uruguay example in Box 8.1, when was Agesic launched, why did its proximity to the Office of the President matter, and which platform and supporting framework form the technical foundation for the country’s data governance framework?",
+    "answerable": true,
+    "expected_answer": "Agesic was launched in 2007. Its proximity to the Office of the President provided high-level strategic leadership to drive the digital agenda in a multistakeholder manner. The technical foundation is the Integrated Government Architecture interoperability platform and its supporting Enterprise Architecture Framework (TOGAF).",
+    "reason": "Cần đọc Box 8.1 qua hai trang vật lý 286–287; câu về nền tảng kỹ thuật bị ngắt trang nên một trang không đủ.",
+    "evidence": [
+      {
+        "page": 286,
+        "printed_page": "266",
+        "region_label": "Box 8.1 — Agesic launch, leadership, and platform name",
+        "bbox": [
+          0.565,
+          0.621,
+          0.909,
+          0.907
+        ],
+        "quote": "Agesic, launched in 2007, has driven the country’s successful e-government reforms. Because of its proximity to the Office of the President, Agesic has benefited from the high-level strategic leadership required to drive the country’s digital agenda in a multistakeholder manner. The country’s interoperability platform, the Integrated Government Architecture,",
+        "facts": [
+          "Agesic launched 2007",
+          "Proximity to president: high-level strategic leadership, multistakeholder agenda",
+          "Interoperability platform: Integrated Government Architecture"
+        ],
+        "units": "Launch year: 2007"
+      },
+      {
+        "page": 287,
+        "printed_page": "267",
+        "region_label": "Box 8.1 continued — Technical foundation",
+        "bbox": [
+          0.092,
+          0.087,
+          0.797,
+          0.31
+        ],
+        "quote": "and its supporting Enterprise Architecture Framework (TOGAF), are the technical foundation on which a robust data governance framework has been built.",
+        "facts": [
+          "Supporting Enterprise Architecture Framework: TOGAF",
+          "Platform plus supporting framework form the technical foundation"
+        ],
+        "units": "Not applicable"
+      }
+    ]
+  },
+  {
+    "id": "adv-r2-test-19",
+    "split": "test",
+    "group": "multihop",
+    "question": "How can alternative credit scoring based on digital footprints expand access to credit, and what two mechanisms described elsewhere in the report can make such scoring discriminatory—one involving data visibility and one involving social connections?",
+    "answerable": true,
+    "expected_answer": "Digital footprints can train machine-learning algorithms to identify, score, and underwrite borrowers who lack conventional documentation of creditworthiness. But people with less access to mobile phones, the internet, and bank accounts, such as women, can be less visible in training data and face biased decisions. Using friends or neighbors as inputs can also spread discrimination: one person’s poor score may lower the scores of people in their social network or neighborhood.",
+    "reason": "Phải nối lợi ích tiếp cận ở trang 123 và hai cơ chế bias ở trang 130; chỉ nói AI có bias là chưa đủ.",
+    "evidence": [
+      {
+        "page": 123,
+        "printed_page": "103",
+        "region_label": "Text paragraph — Alternative credit scoring algorithms",
+        "bbox": [
+          0.092,
+          0.528,
+          0.438,
+          0.641
+        ],
+        "quote": "Financial service providers are increasingly adopting alternative credit scoring techniques that take advantage of users’ digital footprints to train ML algorithms to identify, score, and underwrite credit for individuals who otherwise lack documentation of their creditworthiness.",
+        "facts": [
+          "Digital footprints train credit-scoring ML",
+          "Target: individuals lacking conventional creditworthiness documentation"
+        ],
+        "units": "Not applicable"
+      },
+      {
+        "page": 130,
+        "printed_page": "110",
+        "region_label": "Text paragraph — Credit scoring bias and social-network effects",
+        "bbox": [
+          0.566,
+          0.195,
+          0.913,
+          0.542
+        ],
+        "quote": "Groups with more limited access to mobile phones, the internet, and bank accounts, such as women, may become less visible in data and decision-making if algorithmic bias is perpetuated through the use of biased datasets. If decisions are based on data about those with whom a person interacts, such as friends and neighbors, this, too, may amplify discriminatory effects. For example, a poor credit score for an individual may contribute to lower scores for those in their neighborhood or social network.",
+        "facts": [
+          "Limited digital/banking access reduces data visibility, including women",
+          "Biased datasets can perpetuate discriminatory credit decisions",
+          "Friends/neighbors inputs can transmit lower scores across networks"
+        ],
+        "units": "Not applicable"
+      }
+    ]
+  },
+  {
+    "id": "adv-r2-test-20",
+    "split": "test",
+    "group": "multihop",
+    "question": "Compare how data changed resource allocation in the Croatia poverty-map example and the Costa Rica example. What problem did Croatia’s previous allocation rule create and what reorganization was proposed? What measure did Costa Rica use, and what result was reported under its budget constraint?",
+    "answerable": true,
+    "expected_answer": "Croatia’s GDP-per-capita-based allocation could leave poor municipalities in nonpoor regions without EU funds. The poverty map prompted proposals for new geographical subdivisions to concentrate EU funds in the poorest areas. Costa Rica used a multidimensional poverty index for budget planning and allocation, monitoring and evaluating social programs; modifying allocation helped accelerate poverty reduction during austerity without increasing the budget.",
+    "reason": "Cần ghép hai ví dụ và giữ Croatia ở mức proposals, không khẳng định đã chi thêm tiền; loại index của Costa Rica nằm ở cuối trang 77, kết quả ở trang 78.",
+    "evidence": [
+      {
+        "page": 77,
+        "printed_page": "57",
+        "region_label": "Text paragraph — Croatia poverty-map allocation",
+        "bbox": [
+          0.092,
+          0.086,
+          0.438,
+          0.371
+        ],
+        "quote": "Because the allocation of funds depends on an area’s gross domestic product (GDP) per capita, poor municipalities situated in nonpoor regions may not receive funding. Armed with the poverty map, Croatia responded with proposals for new geographical subdivisions that concentrate EU funds in the poorest areas.",
+        "facts": [
+          "GDP-per-capita rule can omit poor municipalities in nonpoor regions",
+          "Proposed new geographical subdivisions concentrate EU funds in poorest areas"
+        ],
+        "units": "Not applicable"
+      },
+      {
+        "page": 77,
+        "printed_page": "57",
+        "region_label": "Text paragraph — Multidimensional poverty indexes",
+        "bbox": [
+          0.454,
+          0.8,
+          0.799,
+          0.94
+        ],
+        "quote": "Multidimensional poverty indexes, which measure poverty at the household and individual levels, track certain indicators in countries",
+        "facts": [
+          "Measure carried into next page: multidimensional poverty index"
+        ],
+        "units": "Not applicable"
+      },
+      {
+        "page": 78,
+        "printed_page": "58",
+        "region_label": "Text paragraph — Costa Rica index and budget constraint",
+        "bbox": [
+          0.204,
+          0.086,
+          0.547,
+          0.212
+        ],
+        "quote": "Costa Rica issued a presidential directive calling for use of such an index for budgetary planning and as an official measure for allocating resources and monitoring and evaluating social programs. The country has used the index to modify its budget allocation, which helped accelerate poverty reduction during a period of austerity without an increase in budget.",
+        "facts": [
+          "Costa Rica: index used for budgeting, resource allocation, monitoring/evaluation",
+          "Allocation change helped accelerate poverty reduction during austerity without budget increase"
+        ],
+        "units": "Not applicable"
+      }
+    ]
+  },
+  {
+    "id": "adv-r2-test-21",
+    "split": "test",
+    "group": "text",
+    "question": "According to the discussion of government exceptions to personal-data protections, what conditions should constrain those exceptions, and what two risks arise when such limits are absent?",
+    "answerable": true,
+    "expected_answer": "Exceptions should be transparent and objective; limited in scope and duration, for example by sunset provisions; necessary and proportionate to their objectives; and consistent with international human rights law. Without such limits, unchecked state surveillance and mission creep can undermine trust in data use.",
+    "reason": "Cần đủ điều kiện về minh bạch, phạm vi/thời hạn, cần thiết/tương xứng, nhân quyền và hai rủi ro; đây là mô tả nguồn, không phải tư vấn pháp lý.",
+    "evidence": [
+      {
+        "page": 216,
+        "printed_page": "196",
+        "region_label": "Text paragraph — Good-practice limits on government exceptions",
+        "bbox": [
+          0.566,
+          0.086,
+          0.913,
+          0.353
+        ],
+        "quote": "Where such government exceptions exist, good practice calls for them to be transparent and objective. They should also be limited in scope and duration (such as through sunset provisions) to respect due process limitations. These exceptions must be necessary and proportionate to the intended objectives. Furthermore, exceptions should be consistent with international human rights law. This lack of limitations creates additional opportunities for unchecked state surveillance or mission creep, thereby undermining trust in data use.",
+        "facts": [
+          "Transparent and objective",
+          "Limited scope and duration, e.g. sunset provisions",
+          "Necessary and proportionate",
+          "Consistent with international human rights law",
+          "Risks: unchecked state surveillance and mission creep"
+        ],
+        "units": "Not applicable"
+      }
+    ]
+  },
+  {
+    "id": "adv-r2-test-22",
+    "split": "test",
+    "group": "text",
+    "question": "Describe the Uganda procurement example: what information was given to CSOs, how did they verify it, what problems did they find, and what two government responses followed?",
+    "answerable": true,
+    "expected_answer": "Local government entities made administrative procurement information from bidding through contract execution available to selected CSOs. The CSOs trained community members to understand contract information and conduct site checks. They found contractor and official resource mismanagement and heavy reliance on noncompetitive contracts. Uganda reformed compliance with national procurement standards and upgraded the national procurement portal to international open contracting data standards, becoming the first African country to do so.",
+    "reason": "Phải giữ chuỗi dữ liệu → cộng đồng kiểm tra thực địa → phát hiện → hai thay đổi của chính phủ, không chỉ nói transparency.",
+    "evidence": [
+      {
+        "page": 78,
+        "printed_page": "58",
+        "region_label": "Text paragraph — Uganda procurement transparency and reform",
+        "bbox": [
+          0.204,
+          0.512,
+          0.548,
+          0.878
+        ],
+        "quote": "Local government entities made administrative procurement data from the bidding process down to the level of execution of contracts available to certain CSOs. These CSOs trained community members to understand the information in the contracts and conduct site checks to verify it. The findings revealed mismanagement of resources by contractors and government officials and a high dependence on noncompetitive contracts. Uganda undertook reforms to ensure that contracts were complying with national procurement standards; the national public procurement agency also upgraded its procurement portal in line with international open contracting data standards, making Uganda the first African country to do so.",
+        "facts": [
+          "Procurement data: bidding through execution",
+          "CSO-trained community contract reading and site checks",
+          "Findings: mismanagement and noncompetitive contracts",
+          "Reform national standards compliance",
+          "Portal upgraded to international open contracting data standards; first African country"
+        ],
+        "units": "Not applicable"
+      }
+    ]
+  },
+  {
+    "id": "adv-r2-test-23",
+    "split": "test",
+    "group": "text",
+    "question": "In the Equinix example in the carbon-footprint spotlight, how did the renewable-energy share change from 2014 to 2018, and what greenhouse-gas outcome is associated with that change? Give the baseline as precisely as the report permits.",
+    "answerable": true,
+    "expected_answer": "Equinix’s renewable-energy share rose from less than one-third in 2014 to 92% in 2018, leading to a two-thirds reduction in greenhouse-gas emissions. The report gives the 2014 baseline as less than one-third, so an exact baseline percentage or exact percentage-point increase cannot be recovered.",
+    "reason": "Cần giữ bất đẳng thức less than one-third và không biến nó thành chính xác 33%; kết quả là giảm GHG hai phần ba, không phải lượng tấn tuyệt đối.",
+    "evidence": [
+      {
+        "page": 207,
+        "printed_page": "187",
+        "region_label": "Text paragraph — Equinix renewable energy and GHG reduction",
+        "bbox": [
+          0.092,
+          0.15,
+          0.437,
+          0.31
+        ],
+        "quote": "Equinix, one of the world’s leading data center operators, increased its share of renewable energy from less than one-third in 2014 to 92 percent in 2018, leading to a two-thirds reduction in GHG emissions.",
+        "facts": [
+          "2014 renewable share <1/3",
+          "2018 renewable share 92%",
+          "Associated GHG reduction: 2/3",
+          "No exact 2014 percentage is provided"
+        ],
+        "units": "Renewable share: percent; GHG outcome: relative two-thirds reduction; 2014–2018"
+      }
+    ]
+  },
+  {
+    "id": "adv-r2-test-24",
+    "split": "test",
+    "group": "text",
+    "question": "For Estonia’s national data system, who chairs the e-Estonia Council and which unit organizes it? Name the data-exchange system and explain how its logging mechanism supports transparency for individuals.",
+    "answerable": true,
+    "expected_answer": "The prime minister chairs the e-Estonia Council, organized by the Strategy Unit of Government Office. The system is X-Road, an open-source data exchange layer. Its cryptography protocols log system entries and give individuals detailed information about who is sharing their data and for what purposes.",
+    "reason": "Đòi hỏi đúng cơ quan/chức danh và cơ chế X-Road cụ thể, không trả lời chung rằng mã hóa bảo mật dữ liệu.",
+    "evidence": [
+      {
+        "page": 332,
+        "printed_page": "312",
+        "region_label": "Text paragraph — Estonia council and X-Road transparency",
+        "bbox": [
+          0.566,
+          0.229,
+          0.913,
+          0.527
+        ],
+        "quote": "The steering body for implementing the government’s digital strategy, which includes overseeing its national data system, is the e-Estonia Council. The council is chaired by the prime minister and organized by the Strategy Unit of Government Office. Estonia’s national data system centers around X-Road, an open-source data exchange layer solution. X-Road’s cryptography protocols enhance transparency because they log entries into the system and give individuals detailed insights into who is sharing their data and for what purposes.",
+        "facts": [
+          "Council chair: prime minister",
+          "Organized by Strategy Unit of Government Office",
+          "System: open-source X-Road",
+          "Logged entries show individuals who shares their data and for what purposes"
+        ],
+        "units": "Not applicable"
+      }
+    ]
+  },
+  {
+    "id": "adv-r2-test-25",
+    "split": "test",
+    "group": "unanswerable",
+    "question": "For the Kenya hand-pump sensor intervention in Figure 2.2, what were the mean repair times with mobile-enabled data separately for the poorest and richest household wealth quintiles, and what was the gap between those quintiles?",
+    "answerable": false,
+    "expected_answer": "Insufficient evidence",
+    "reason": "Báo cáo chỉ có mean/median tổng hợp theo baseline/with-data, không phân tổ wealth quintile; không thể suy hai trung bình hay gap từ số tổng hợp.",
+    "evidence": [
+      {
+        "page": 76,
+        "printed_page": "56",
+        "region_label": "Figure 2.2 — Aggregate repair times only",
+        "bbox": [
+          0.077,
+          0.688,
+          0.543,
+          0.941
+        ],
+        "quote": "Mean repair time; Median repair time. With mobile-enabled data; Baseline. Number of days.",
+        "facts": [
+          "Chart has aggregate mean/median by treatment condition",
+          "No household wealth-quintile breakdown"
+        ],
+        "units": "Requested: mean repair days by household wealth quintile; unavailable"
+      }
+    ],
+    "absence_check": {
+      "terms": [
+        "hand pump",
+        "hand pumps",
+        "repair time",
+        "sensor",
+        "kenya",
+        "wealth quintile",
+        "quintiles"
+      ],
+      "method": "Search all 350 PDFium-extracted report pages using normalized word-boundary terms and phrase variants; inspect all subject-specific hits and related sections in context; inspect the original rendered cited source regions. Full hit lists and context decisions are recorded in absence_search_audit.json. No external linked source was imported.",
+      "reason": "The Kenya discussion and Figure 2.2 give aggregate repair-time statistics. No poorest/richest household-quintile repair-time estimates are reported anywhere in the corpus."
+    }
+  },
+  {
+    "id": "adv-r2-test-26",
+    "split": "test",
+    "group": "unanswerable",
+    "question": "Box 5.1 reports an annual net outflow of workers from low- and middle-income countries during 2015–2019. How many of those workers were data-science specialists and how many were artificial-intelligence specialists, reported separately for each year?",
+    "answerable": false,
+    "expected_answer": "Insufficient evidence",
+    "reason": "Nguồn nêu ít nhất 70.000 mỗi năm nhưng không có bảng đếm riêng data science/AI từng năm; danh sách kỹ năng trong note không cung cấp phân tổ và có thể giao nhau.",
+    "evidence": [
+      {
+        "page": 195,
+        "printed_page": "175",
+        "region_label": "Box 5.1 and Figure B5.1.2 note — Aggregate outflow and skill definition",
+        "bbox": [
+          0.093,
+          0.087,
+          0.796,
+          0.789
+        ],
+        "quote": "There was a net outflow of at least 70,000 workers from low- and middle-income countries every year from 2015 to 2019. Disruptive technology skills include ... data science ... artificial intelligence ...",
+        "facts": [
+          "Aggregate outflow at least 70,000 per year, 2015–2019",
+          "Skill classification lists data science and AI without separate annual counts"
+        ],
+        "units": "Requested: workers by skill and year; unavailable"
+      }
+    ],
+    "absence_check": {
+      "terms": [
+        "70,000",
+        "disruptive technology skills",
+        "net outflow",
+        "data science",
+        "artificial intelligence",
+        "2015 to 2019"
+      ],
+      "method": "Search all 350 PDFium-extracted report pages using normalized word-boundary terms and phrase variants; inspect all subject-specific hits and related sections in context; inspect the original rendered cited source regions. Full hit lists and context decisions are recorded in absence_search_audit.json. No external linked source was imported.",
+      "reason": "The outflow total and broad skills list do not disaggregate annual counts into data-science and AI specialists. Related ICT-employment and earnings sections do not supply those missing counts."
+    }
+  },
+  {
+    "id": "adv-r2-test-27",
+    "split": "test",
+    "group": "unanswerable",
+    "question": "For the Singapore component of the 2025 indirect-tax potential in Figure 7.6, what statutory VAT rate and what taxable business-to-consumer e-commerce base were assumed to produce that component?",
+    "answerable": false,
+    "expected_answer": "Insufficient evidence",
+    "reason": "Chart chỉ cho potential tổng hợp; không có cặp rate và taxable base riêng Singapore/2025. Không lấy thuế suất hiện nay từ ngoài báo cáo hoặc suy duy nhất hai tham số từ một tích.",
+    "evidence": [
+      {
+        "page": 268,
+        "printed_page": "248",
+        "region_label": "Figure 7.6 — Aggregated tax-potential stacks and note",
+        "bbox": [
+          0.204,
+          0.085,
+          0.913,
+          0.396
+        ],
+        "quote": "Figure shows the indirect tax potential of business-to-consumer e-commerce. VAT = value added tax.",
+        "facts": [
+          "Singapore is a legend component of the 2025 stack",
+          "No Singapore-specific statutory rate and taxable-base assumptions"
+        ],
+        "units": "Requested: VAT percent and taxable B2C base in currency; unavailable"
+      }
+    ],
+    "absence_check": {
+      "terms": [
+        "vat",
+        "value added tax",
+        "singapore",
+        "tax potential",
+        "taxable",
+        "2025"
+      ],
+      "method": "Search all 350 PDFium-extracted report pages using normalized word-boundary terms and phrase variants; inspect all subject-specific hits and related sections in context; inspect the original rendered cited source regions. Full hit lists and context decisions are recorded in absence_search_audit.json. No external linked source was imported.",
+      "reason": "The tax discussion and methodology notes give potential estimates and general collection considerations, but not the Singapore-specific VAT-rate/base pair underlying 2025. A potential amount alone cannot identify both inputs."
+    }
+  },
+  {
+    "id": "adv-r2-test-28",
+    "split": "test",
+    "group": "unanswerable",
+    "question": "For Equinix in 2018, what are the absolute greenhouse-gas emissions totals on both the market basis and location basis, in tonnes of CO2 equivalent, and what is the difference between those totals?",
+    "answerable": false,
+    "expected_answer": "Insufficient evidence",
+    "reason": "Báo cáo phân biệt hai basis và nêu tỷ lệ giảm GHG, nhưng không ghi hai tổng tuyệt đối Equinix 2018; không thể chuyển tỷ lệ thành tCO2e.",
+    "evidence": [
+      {
+        "page": 207,
+        "printed_page": "187",
+        "region_label": "Text paragraph — Equinix relative outcome",
+        "bbox": [
+          0.092,
+          0.15,
+          0.437,
+          0.31
+        ],
+        "quote": "increased its share of renewable energy from less than one-third in 2014 to 92 percent in 2018, leading to a two-thirds reduction in GHG emissions.",
+        "facts": [
+          "Only renewable share and relative GHG reduction are given"
+        ],
+        "units": "Renewable share and relative GHG reduction, not absolute tonnes CO2e"
+      },
+      {
+        "page": 207,
+        "printed_page": "187",
+        "region_label": "Spotlight 5.2 note 2 — Emissions accounting bases across columns",
+        "bbox": [
+          0.091,
+          0.872,
+          0.438,
+          0.912
+        ],
+        "quote": "Direct emissions from electricity are reported on either a market basis or a location basis",
+        "facts": [
+          "The note introduces two emissions accounting bases"
+        ],
+        "units": "Not applicable"
+      },
+      {
+        "page": 207,
+        "printed_page": "187",
+        "region_label": "Spotlight 5.2 note 2 continued — Basis explanation",
+        "bbox": [
+          0.454,
+          0.12,
+          0.799,
+          0.19
+        ],
+        "quote": "Market basis reflects the emissions from the electricity that a company is purchasing, which may differ from the electricity that the company is using at its location. Location-based emissions are higher, yet most companies report market-based emissions.",
+        "facts": [
+          "Market/location basis explanation is qualitative",
+          "No absolute Equinix 2018 pair or difference"
+        ],
+        "units": "Requested: tonnes of CO2 equivalent for each basis and difference; unavailable"
+      }
+    ],
+    "absence_check": {
+      "terms": [
+        "equinix",
+        "market basis",
+        "location basis",
+        "location-based",
+        "market-based",
+        "2018",
+        "emissions"
+      ],
+      "method": "Search all 350 PDFium-extracted report pages using normalized word-boundary terms and phrase variants; inspect all subject-specific hits and related sections in context; inspect the original rendered cited source regions. Full hit lists and context decisions are recorded in absence_search_audit.json. No external linked source was imported.",
+      "reason": "All Equinix occurrences in the report are on page 207. The company example is relative; the note explains accounting bases without reporting paired absolute totals. The referenced external sustainability report is not part of the report corpus."
+    }
+  },
+  {
+    "id": "adv-r2-test-29",
+    "split": "test",
+    "group": "unanswerable",
+    "question": "In the Croatia poverty-map example, exactly how many euros of EU funds were actually reallocated to the new geographical subdivisions as a result of the poverty map?",
+    "answerable": false,
+    "expected_answer": "Insufficient evidence",
+    "reason": "Nguồn mô tả proposals và tiềm năng phân bổ tốt hơn, không có khoản euro đã giải ngân/điều chuyển vì bản đồ. Con số hơn €50 tỷ là ngân sách EU tổng thể, không phải đáp án Croatia.",
+    "evidence": [
+      {
+        "page": 77,
+        "printed_page": "57",
+        "region_label": "Text paragraph — Croatia allocation proposals",
+        "bbox": [
+          0.092,
+          0.086,
+          0.438,
+          0.371
+        ],
+        "quote": "More than one-third of the EU’s annual budget—equivalent to more than €50 billion—is dedicated to investments in infrastructure ... Croatia responded with proposals for new geographical subdivisions that concentrate EU funds in the poorest areas. This reordering ... has the potential to reduce inequality and pockets of poverty in Croatia.",
+        "facts": [
+          "Croatia response is proposals for new subdivisions",
+          "EU-wide >€50 billion is not a Croatia reallocation amount",
+          "No actual euro amount causally attributed to poverty-map reallocation"
+        ],
+        "units": "Requested: euros actually reallocated because of map; unavailable"
+      }
+    ],
+    "absence_check": {
+      "terms": [
+        "croatia",
+        "geographical subdivisions",
+        "eu funds",
+        "allocation",
+        "municipalities"
+      ],
+      "method": "Search all 350 PDFium-extracted report pages using normalized word-boundary terms and phrase variants; inspect all subject-specific hits and related sections in context; inspect the original rendered cited source regions. Full hit lists and context decisions are recorded in absence_search_audit.json. No external linked source was imported.",
+      "reason": "All Croatia and EU-fund context was checked, including map captions, notes, and references. The report gives the proposed targeting change and an EU-wide budget figure, not the realized Croatia-specific reallocation."
+    }
+  },
+  {
+    "id": "adv-r2-test-30",
+    "split": "test",
+    "group": "unanswerable",
+    "question": "As of the report’s 2020 reference point for RCEP in Table 7.2, how many cross-border-data-flow disputes had produced binding rulings under RCEP, and what total compensation had been awarded in those rulings?",
+    "answerable": false,
+    "expected_answer": "Insufficient evidence",
+    "reason": "Table 7.2 phân loại điều khoản, không phải thống kê tranh chấp/kết quả. Không được diễn giải soft law thành số vụ bằng 0 hay tự suy tổng bồi thường.",
+    "evidence": [
+      {
+        "page": 264,
+        "printed_page": "244",
+        "region_label": "Table 7.2 — RCEP provision column and legend",
+        "bbox": [
+          0.083,
+          0.084,
+          0.909,
+          0.466
+        ],
+        "quote": "RCEP (2020). Unrestricted cross-border data flows. Prohibition of data localization. Note: ... binding provision ... soft law provision ... no provision.",
+        "facts": [
+          "RCEP column concerns provision status",
+          "No dispute counts, binding-ruling counts, or compensation totals"
+        ],
+        "units": "Requested: number of disputes/rulings and compensation currency total; unavailable"
+      }
+    ],
+    "absence_check": {
+      "terms": [
+        "rcep",
+        "regional comprehensive economic partnership",
+        "dispute",
+        "disputes",
+        "compensation",
+        "ruling",
+        "rulings",
+        "cross-border data flows"
+      ],
+      "method": "Search all 350 PDFium-extracted report pages using normalized word-boundary terms and phrase variants; inspect all subject-specific hits and related sections in context; inspect the original rendered cited source regions. Full hit lists and context decisions are recorded in absence_search_audit.json. No external linked source was imported.",
+      "reason": "The RCEP table and discussion classify agreement provisions and describe a national-security exception. No report section gives RCEP cross-border-data-flow dispute outcomes or awarded compensation. Provision status cannot supply case statistics."
+    }
+  }
+]

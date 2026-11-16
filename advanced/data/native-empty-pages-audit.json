@@ -1,0 +1,276 @@
+{
+  "pdf_sha256": "606c8452c8b23c01d81919c3974972bebeb1e60348a56ea40cc3ae841e301616",
+  "method": "Original PDFium renders at scale1.7, visually inspected contact sheet; RGB extrema confirm fourteen pages are completely white.",
+  "pages": [
+    {
+      "page": 2,
+      "render_extrema": [
+        [
+          255,
+          255
+        ],
+        [
+          255,
+          255
+        ],
+        [
+          255,
+          255
+        ]
+      ],
+      "classification": "blank white page"
+    },
+    {
+      "page": 3,
+      "render_extrema": [
+        [
+          0,
+          255
+        ],
+        [
+          0,
+          255
+        ],
+        [
+          0,
+          255
+        ]
+      ],
+      "classification": "illustrated title page; document metadata only"
+    },
+    {
+      "page": 12,
+      "render_extrema": [
+        [
+          255,
+          255
+        ],
+        [
+          255,
+          255
+        ],
+        [
+          255,
+          255
+        ]
+      ],
+      "classification": "blank white page"
+    },
+    {
+      "page": 22,
+      "render_extrema": [
+        [
+          255,
+          255
+        ],
+        [
+          255,
+          255
+        ],
+        [
+          255,
+          255
+        ]
+      ],
+      "classification": "blank white page"
+    },
+    {
+      "page": 42,
+      "render_extrema": [
+        [
+          255,
+          255
+        ],
+        [
+          255,
+          255
+        ],
+        [
+          255,
+          255
+        ]
+      ],
+      "classification": "blank white page"
+    },
+    {
+      "page": 72,
+      "render_extrema": [
+        [
+          255,
+          255
+        ],
+        [
+          255,
+          255
+        ],
+        [
+          255,
+          255
+        ]
+      ],
+      "classification": "blank white page"
+    },
+    {
+      "page": 140,
+      "render_extrema": [
+        [
+          255,
+          255
+        ],
+        [
+          255,
+          255
+        ],
+        [
+          255,
+          255
+        ]
+      ],
+      "classification": "blank white page"
+    },
+    {
+      "page": 174,
+      "render_extrema": [
+        [
+          255,
+          255
+        ],
+        [
+          255,
+          255
+        ],
+        [
+          255,
+          255
+        ]
+      ],
+      "classification": "blank white page"
+    },
+    {
+      "page": 176,
+      "render_extrema": [
+        [
+          255,
+          255
+        ],
+        [
+          255,
+          255
+        ],
+        [
+          255,
+          255
+        ]
+      ],
+      "classification": "blank white page"
+    },
+    {
+      "page": 208,
+      "render_extrema": [
+        [
+          255,
+          255
+        ],
+        [
+          255,
+          255
+        ],
+        [
+          255,
+          255
+        ]
+      ],
+      "classification": "blank white page"
+    },
+    {
+      "page": 246,
+      "render_extrema": [
+        [
+          255,
+          255
+        ],
+        [
+          255,
+          255
+        ],
+        [
+          255,
+          255
+        ]
+      ],
+      "classification": "blank white page"
+    },
+    {
+      "page": 284,
+      "render_extrema": [
+        [
+          255,
+          255
+        ],
+        [
+          255,
+          255
+        ],
+        [
+          255,
+          255
+        ]
+      ],
+      "classification": "blank white page"
+    },
+    {
+      "page": 322,
+      "render_extrema": [
+        [
+          255,
+          255
+        ],
+        [
+          255,
+          255
+        ],
+        [
+          255,
+          255
+        ]
+      ],
+      "classification": "blank white page"
+    },
+    {
+      "page": 347,
+      "render_extrema": [
+        [
+          255,
+          255
+        ],
+        [
+          255,
+          255
+        ],
+        [
+          255,
+          255
+        ]
+      ],
+      "classification": "blank white page"
+    },
+    {
+      "page": 349,
+      "render_extrema": [
+        [
+          255,
+          255
+        ],
+        [
+          255,
+          255
+        ],
+        [
+          255,
+          255
+        ]
+      ],
+      "classification": "blank white page"
+    }
+  ]
+}

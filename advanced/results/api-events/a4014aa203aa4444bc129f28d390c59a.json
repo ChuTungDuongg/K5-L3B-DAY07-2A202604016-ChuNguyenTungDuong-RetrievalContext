@@ -1,0 +1,45 @@
+{
+  "id": "a4014aa203aa4444bc129f28d390c59a",
+  "label": "20261116-121843-dev-baseline-488da010:adv-dev-13:step0",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 12821,
+  "maximum_output_tokens": 3500,
+  "images": [
+    {
+      "page": 49,
+      "path": "advanced/data/pages/p049.jpg",
+      "sha256": "4fc676444eecbc0577e8c29ad0e5cc31554fc8ea3594492c4d3c8e602423066c"
+    },
+    {
+      "page": 242,
+      "path": "advanced/data/pages/p242.jpg",
+      "sha256": "fba327f656ab4e7bf20e80c39b059ffc882f29f9797d7e2143a90488bdd963d6"
+    },
+    {
+      "page": 95,
+      "path": "advanced/data/pages/p095.jpg",
+      "sha256": "a51a2c4a7d708d4d899b82d383ecbf49948612dadeea7fc87dfe5e94d3a0f117"
+    }
+  ],
+  "instructions_sha256": "ea16e5e82aecd9d10ddbf9ad06d2474cc521d3d867a62d5379a957bcf9904631",
+  "usage": {
+    "input_tokens": 12821,
+    "input_tokens_details": {
+      "cache_write_tokens": 12818,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 12818
+      }
+    },
+    "output_tokens": 155,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 12976
+  },
+  "response_id": "resp_082101949cd4eb2b016afa929e40e087d286d53550ff09d63b",
+  "response_status": "completed",
+  "output_text": "{\"action\":\"answer\",\"expression\":\"\",\"queries\":[],\"pages\":[49],\"status\":\"answered\",\"answer\":\"They asked about symptoms to estimate how many infections were asymptomatic, and about work or travel outside the home to measure how closely household members followed social-distancing guidelines.\",\"citations\":[{\"page\":49,\"region_label\":\"Box 1.2, Brazil COVID-19 survey\",\"bbox\":[0.115,0.405,0.445,0.497],\"quote\":\"Asking questions about symptoms enabled the research team to estimate rates of asymptomatic infection. Sociodemographic questions, especially those about work and travel outside the home, enabled the team to measure how much a household member adhered to social distancing guidelines.\"}]}",
+  "elapsed_seconds": 5.482376200001454
+}

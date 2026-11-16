@@ -1,0 +1,35 @@
+{
+  "id": "ce32ff25081f4d05834549b219729993",
+  "label": "index:p057",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 3859,
+  "maximum_output_tokens": 6000,
+  "images": [
+    {
+      "page": 57,
+      "path": "advanced/data/pages/p057.jpg",
+      "sha256": "6fa111a7cbd6dc9c4d4d92b51f69814212cc2fee89164f2cc2a8ccce7ea1c87a"
+    }
+  ],
+  "instructions_sha256": "01d3a56b3c678b1acd37e506320a854b17dd9ddb13ece56a92b62990aeb80d41",
+  "usage": {
+    "input_tokens": 3859,
+    "input_tokens_details": {
+      "cache_write_tokens": 3856,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 3856
+      }
+    },
+    "output_tokens": 468,
+    "output_tokens_details": {
+      "reasoning_tokens": 167
+    },
+    "total_tokens": 4327
+  },
+  "response_id": "resp_0b1347d6a2bc3c4e016afa901d791487d2bc49c10ac82b8445",
+  "response_status": "completed",
+  "output_text": "{\"regions\":[{\"label\":\"Map B1.4.1 — Use of repurposed data to study COVID-19: Published articles, by country\",\"kind\":\"map\",\"bbox\":[0.186,0.144,0.776,0.466],\"summary\":\"World choropleth showing country-level counts of published COVID-19 research articles, adjusted by COVID-19 death incidence rate, February–September 2020.\",\"details\":\"The map shades countries using a yellow-to-green/teal-to-dark-purple scale. The legend is titled “Number of articles” and shows reference values 7.5, 10.0, 12.5, and 15.0; gray denotes “No data.” Country shading varies widely: China is among the darkest purple areas, while many countries are shown in intermediate green/teal shades and some in yellow. The note states that the map covers articles published in scientific, medical, and technical journals from February to September 2020, and that article counts are divided by the COVID-19 death incidence rate. Source: WDR 2021 team, based on CORD-19 data from the Semantic Scholar team, Ai2. Exact country-level values are not printed on the map; colors indicate the mapped scale.\",\"limitations\":\"The legend provides only selected reference values, not numeric break boundaries for every color. Individual country values cannot be read exactly from the map.\"}]}",
+  "elapsed_seconds": 7.981429999999818
+}

@@ -1,0 +1,45 @@
+{
+  "id": "d8a27c25cc1440c5810a8cea470c63cc",
+  "label": "20261116-121843-dev-baseline-488da010:adv-dev-01:step0",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 13605,
+  "maximum_output_tokens": 3500,
+  "images": [
+    {
+      "page": 48,
+      "path": "advanced/data/pages/p048.jpg",
+      "sha256": "66741b18cf15a118edd4096688be8100e4940085a53c4396d42acaa221c6b39e"
+    },
+    {
+      "page": 144,
+      "path": "advanced/data/pages/p144.jpg",
+      "sha256": "f6f212c4e5a445e9a92ab77ee25ebd83b495a89883e1e785bab6aaddc8c1ce74"
+    },
+    {
+      "page": 162,
+      "path": "advanced/data/pages/p162.jpg",
+      "sha256": "3c87eb79f59a0c83019e94b33de2758ae869eec16a9e7ea359fc6bc3f51ab34e"
+    }
+  ],
+  "instructions_sha256": "ea16e5e82aecd9d10ddbf9ad06d2474cc521d3d867a62d5379a957bcf9904631",
+  "usage": {
+    "input_tokens": 13605,
+    "input_tokens_details": {
+      "cache_write_tokens": 13602,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 13602
+      }
+    },
+    "output_tokens": 184,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 13789
+  },
+  "response_id": "resp_08b6c148c549c8e1016afa924c267c87d2b8e20a48bef38e9e",
+  "response_status": "completed",
+  "output_text": "{\"action\":\"answer\",\"expression\":\"\",\"queries\":[],\"pages\":[48],\"status\":\"answered\",\"answer\":\"Both are classified as new data. Satellite-imaging location data are public-intent data; just-in-time individual behavior/choice data from private digital platforms are private-intent data.\",\"citations\":[{\"page\":48,\"region_label\":\"Table 1.1, New row — Public intent data\",\"bbox\":[0.2055,0.2083,0.906,0.2722],\"quote\":\"New — Location data from satellite imaging\"},{\"page\":48,\"region_label\":\"Table 1.1, New row — Private intent data\",\"bbox\":[0.2055,0.2083,0.906,0.2722],\"quote\":\"New — Just-in-time digital data on individual behavior/choices from digital platforms in the private sector\"}]}",
+  "elapsed_seconds": 7.5578275000007125
+}

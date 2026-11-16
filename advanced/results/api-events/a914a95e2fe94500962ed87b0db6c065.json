@@ -1,0 +1,45 @@
+{
+  "id": "a914a95e2fe94500962ed87b0db6c065",
+  "label": "20261116-123301-test-baseline-45143179:adv-test-24:step0",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 12960,
+  "maximum_output_tokens": 3500,
+  "images": [
+    {
+      "page": 124,
+      "path": "advanced/data/pages/p124.jpg",
+      "sha256": "5df4e93cfead9af1c74cdf682f57754ae23674ac8f3441a51cce11ec63434e18"
+    },
+    {
+      "page": 248,
+      "path": "advanced/data/pages/p248.jpg",
+      "sha256": "a08fb42b09860fd57b4d2ddf352eda7ee2b3e2c8f238feff3f50e759a599607e"
+    },
+    {
+      "page": 153,
+      "path": "advanced/data/pages/p153.jpg",
+      "sha256": "44f79d7078d475615c340bf4b978a532d77d553110f34862f086620c5968bc75"
+    }
+  ],
+  "instructions_sha256": "7b27220272435c850770154f165a9b99ffc1a1c1848fec729da980d6adec6535",
+  "usage": {
+    "input_tokens": 12960,
+    "input_tokens_details": {
+      "cache_write_tokens": 12957,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 12957
+      }
+    },
+    "output_tokens": 190,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 13150
+  },
+  "response_id": "resp_0f58f2ebb893be0f016afa9659192c87d282caeb0c212f0980",
+  "response_status": "completed",
+  "output_text": "{\"action\":\"answer\",\"expression\":\"\",\"queries\":[],\"pages\":[124],\"status\":\"answered\",\"answer\":\"Hello Tractor monitors tractor locations and availability using an installed device; the data are transmitted to its mobile app platform, where farmers can submit booking requests. A farmer seeking equipment can use the app to find the most cost-effective available tractor. A tractor owner can monitor equipment use.\",\"citations\":[{\"page\":124,\"region_label\":\"Hello Tractor example, agriculture paragraph (printed page 104)\",\"bbox\":[0.565,0.194,0.922,0.405],\"quote\":\"Data about tractor locations and availability are monitored using an installed device and then transmitted to Hello Tractor’s mobile app platform, which farmers can use to submit a booking request. In this way, farmers are able to find the most cost-effective available tractor, and tractor owners are able to monitor the use of equipment.\"}]}",
+  "elapsed_seconds": 4.716560299995763
+}

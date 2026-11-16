@@ -1,0 +1,35 @@
+{
+  "id": "26308316269c4c3684a4bad832735ef5",
+  "label": "index:p186",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 4115,
+  "maximum_output_tokens": 6000,
+  "images": [
+    {
+      "page": 186,
+      "path": "advanced/data/pages/p186.jpg",
+      "sha256": "9a0233e560f2479f0df9dfa005111d5074bb9660a20c281a76fac9afb92c4c1b"
+    }
+  ],
+  "instructions_sha256": "01d3a56b3c678b1acd37e506320a854b17dd9ddb13ece56a92b62990aeb80d41",
+  "usage": {
+    "input_tokens": 4115,
+    "input_tokens_details": {
+      "cache_write_tokens": 4112,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 4112
+      }
+    },
+    "output_tokens": 344,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 4459
+  },
+  "response_id": "resp_070f0bb5b0a241b4016afa9094e42087d295141c72208f516b",
+  "response_status": "completed",
+  "output_text": "{\"regions\":[{\"label\":\"Figure 5.6 — Inequities in mobile data consumption across country income groups and regions are huge\",\"kind\":\"chart\",\"bbox\":[0.084,0.085,0.915,0.487],\"summary\":\"Two bar charts compare 2018 mobile data consumption (GB per capita per month) across country income groups and world regions; values range from 0.2 GB in low-income economies to 7.4 GB in Middle East and North Africa.\",\"details\":\"Two panels, both with vertical axes labeled “Data consumption (GB per capita per month),” scale 0–8 with ticks at 1-unit intervals; orange bars have numeric values printed above them. Panel a, “By country income group”: High-income 7.1; Upper-middle-income 2.8; Lower-middle-income 1.3; Low-income 0.2; World 3.7. Panel b, “By region”: Middle East and North Africa 7.4; Europe and Central Asia 5.0; North America 4.5; East Asia and Pacific 4.2; Latin America and the Caribbean 2.4; South Asia 1.1; Sub-Saharan Africa 0.3. Source: WDR 2021 team; data URL printed as http://bit.do/WDR2021-Fig-5_6. Note: data are for 2018; figures include averages of 119 economies with data; GB = gigabytes.\",\"limitations\":\"No uncertainty intervals or additional series are shown. The chart’s displayed values are rounded to one decimal place.\"}]}",
+  "elapsed_seconds": 6.248063799997908
+}

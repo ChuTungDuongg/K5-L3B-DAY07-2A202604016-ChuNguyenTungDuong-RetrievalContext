@@ -1,0 +1,35 @@
+{
+  "id": "25e14a0966054f4fbb05e43f28714469",
+  "label": "index:p139",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 4455,
+  "maximum_output_tokens": 6000,
+  "images": [
+    {
+      "page": 139,
+      "path": "advanced/data/pages/p139.jpg",
+      "sha256": "c0ce754a26ee3ea119091001456415d3a6eb54b6664306c083184a7b8483f551"
+    }
+  ],
+  "instructions_sha256": "01d3a56b3c678b1acd37e506320a854b17dd9ddb13ece56a92b62990aeb80d41",
+  "usage": {
+    "input_tokens": 4455,
+    "input_tokens_details": {
+      "cache_write_tokens": 4452,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 4452
+      }
+    },
+    "output_tokens": 72,
+    "output_tokens_details": {
+      "reasoning_tokens": 57
+    },
+    "total_tokens": 4527
+  },
+  "response_id": "resp_08292df41e9eead5016afa9068ec5087d2b933c229c08e309c",
+  "response_status": "completed",
+  "output_text": "{\"regions\":[]}",
+  "elapsed_seconds": 2.99678010000207
+}

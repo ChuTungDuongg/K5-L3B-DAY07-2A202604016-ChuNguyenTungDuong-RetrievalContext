@@ -1,0 +1,45 @@
+{
+  "id": "283bc4cbdd34406fbfd7dac2e00ba47d",
+  "label": "20261116-123301-test-baseline-45143179:adv-test-12:step0",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 14157,
+  "maximum_output_tokens": 3500,
+  "images": [
+    {
+      "page": 117,
+      "path": "advanced/data/pages/p117.jpg",
+      "sha256": "24a55e8bb61abf49c91fb8a57ff98f629bab019de167e6a9ad0c4cc8d16e1457"
+    },
+    {
+      "page": 119,
+      "path": "advanced/data/pages/p119.jpg",
+      "sha256": "bb5109ef1193f7ce970297870f689817583250764e319ce3ec62cddc5bd2a044"
+    },
+    {
+      "page": 118,
+      "path": "advanced/data/pages/p118.jpg",
+      "sha256": "c7c2c13240ff07fcbb248423e49caa1532dd3e12f696a3af9a698c2b8a306957"
+    }
+  ],
+  "instructions_sha256": "7b27220272435c850770154f165a9b99ffc1a1c1848fec729da980d6adec6535",
+  "usage": {
+    "input_tokens": 14157,
+    "input_tokens_details": {
+      "cache_write_tokens": 14154,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 14154
+      }
+    },
+    "output_tokens": 235,
+    "output_tokens_details": {
+      "reasoning_tokens": 101
+    },
+    "total_tokens": 14392
+  },
+  "response_id": "resp_0ae6263aa7001062016afa95e9f38087d2819475982b5d42d1",
+  "response_status": "completed",
+  "output_text": "{\"action\":\"answer\",\"expression\":\"80% - 16% = 64 percentage points\",\"queries\":[],\"pages\":[117],\"status\":\"answered\",\"answer\":\"Domestic firms account for 80% of the top websites in Indonesia and 16% in the Philippines. The shares are 64 percentage points apart.\",\"citations\":[{\"page\":117,\"region_label\":\"Figure 3.4, domestic-firm shares (green bars)\",\"bbox\":[0.09,0.52,0.8,0.94],\"quote\":\"Indonesia 80; Philippines 16. Share of top websites (%)\"}]}",
+  "elapsed_seconds": 6.115361999996821
+}

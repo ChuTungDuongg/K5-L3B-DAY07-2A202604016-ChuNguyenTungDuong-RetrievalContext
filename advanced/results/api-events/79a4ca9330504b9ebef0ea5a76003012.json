@@ -1,0 +1,35 @@
+{
+  "id": "79a4ca9330504b9ebef0ea5a76003012",
+  "label": "index:p206",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 3748,
+  "maximum_output_tokens": 6000,
+  "images": [
+    {
+      "page": 206,
+      "path": "advanced/data/pages/p206.jpg",
+      "sha256": "828f4f88e58748363cc2e59ea9f01263c2941fab1269951c522ec833eb2e64bd"
+    }
+  ],
+  "instructions_sha256": "01d3a56b3c678b1acd37e506320a854b17dd9ddb13ece56a92b62990aeb80d41",
+  "usage": {
+    "input_tokens": 3748,
+    "input_tokens_details": {
+      "cache_write_tokens": 3745,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 3745
+      }
+    },
+    "output_tokens": 600,
+    "output_tokens_details": {
+      "reasoning_tokens": 162
+    },
+    "total_tokens": 4348
+  },
+  "response_id": "resp_0994038049e4d149016afa90ab6c1087d2aaed32a9709fa47c",
+  "response_status": "completed",
+  "output_text": "{\"regions\":[{\"label\":\"Figure S5.2.1 — Worldwide greenhouse gas emissions from data consumption have been flat, even though electricity consumption has been growing\",\"kind\":\"chart\",\"bbox\":[0.205,0.562,0.93,0.906],\"summary\":\"Two-panel chart, 2015–18: electricity use by data infrastructure rises while its share of global electricity stays near 1%; data-infrastructure greenhouse gas emissions and their global share are broadly flat.\",\"details\":\"Panel a, “Electricity consumption”: bars show data-infrastructure electricity consumption in terawatt-hours, left axis 0–250; a blue line with circular markers shows “% of world total (right axis),” right axis 0–1.2 percent. Years are 2015, 2016, 2017, 2018. Bars rise from about 200 TWh in 2015 to about 230 TWh in 2018 (the accompanying text gives 231 TWh in 2018); the share line remains around 1 percent, increasing slightly. Panel b, “Greenhouse gas emissions from data infrastructure”: stacked bars show tCO₂e (millions), left axis 0–125, with orange for telecommunication services and dark purple for software and IT services; the blue line shows “% of world total (right axis),” right axis 0–0.3 percent. Years are 2015–18. Total emissions are roughly 100 million tCO₂e each year, with telecommunications the larger component and software/IT services the smaller component; the share line is approximately 0.2 percent and nearly flat. Source: World Bank, original research based on annual reports from 49 companies in 26 countries. Note: data derived from environmental reports of companies accounting for 90 percent of data traffic; IT = information technology; tCO₂e = tonnes of carbon dioxide equivalent.\",\"limitations\":\"Bar heights and line values are read approximately from the plotted axes; exact annual values are not printed. The chart labels do not provide data tables.\"}]}",
+  "elapsed_seconds": 9.025092899995798
+}

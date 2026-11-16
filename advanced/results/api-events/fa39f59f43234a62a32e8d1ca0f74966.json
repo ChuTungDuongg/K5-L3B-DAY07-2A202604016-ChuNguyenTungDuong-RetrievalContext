@@ -1,0 +1,35 @@
+{
+  "id": "fa39f59f43234a62a32e8d1ca0f74966",
+  "label": "index:p188",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 4119,
+  "maximum_output_tokens": 6000,
+  "images": [
+    {
+      "page": 188,
+      "path": "advanced/data/pages/p188.jpg",
+      "sha256": "d8cefe3906eef54ba87ff0d46b7066f11d32c6887390fa6f9acb3335a865cab0"
+    }
+  ],
+  "instructions_sha256": "01d3a56b3c678b1acd37e506320a854b17dd9ddb13ece56a92b62990aeb80d41",
+  "usage": {
+    "input_tokens": 4119,
+    "input_tokens_details": {
+      "cache_write_tokens": 4116,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 4116
+      }
+    },
+    "output_tokens": 295,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 4414
+  },
+  "response_id": "resp_02435c2735200802016afa909b38d887d2b5717179b04c1ae1",
+  "response_status": "completed",
+  "output_text": "{\"regions\":[{\"label\":\"Figure 5.9 — The presence of domestic data infrastructure facilitates national data exchanges\",\"kind\":\"diagram\",\"bbox\":[0.086,0.492,0.538,0.909],\"summary\":\"Diagram contrasts international “tromboning” of local content with a local exchange through an IXP between domestic ISPs and end users.\",\"details\":\"Two horizontal zones are labeled International (upper, pale green) and Domestic (lower, pale blue), separated by a dashed boundary. At the top, International carrier 1 and International carrier 2 are connected. At the bottom, Domestic ISP 1 and Domestic ISP 2 connect to separate end users. In the international route, an orange path labeled “Tromboning of local content” carries a request from the left end-user side upward through international carrier 1, across to international carrier 2, then down toward the right end user; envelope icons indicate data packets. In the domestic route, a purple cloud labeled IXP links the two domestic ISPs, and a curved purple path labeled “Local content data flow” connects the end users locally via the IXP. Source: WDR 2021 team. Note: ISP = internet service provider; IXP = internet exchange point.\",\"limitations\":\"No numerical values or scale. The diagram shows routing paths schematically; precise line connections at crossings may be difficult to distinguish.\"}]}",
+  "elapsed_seconds": 6.022518599995237
+}

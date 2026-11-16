@@ -1,0 +1,35 @@
+{
+  "id": "bbe366c595914b469a674691a5ee6bff",
+  "label": "index:p031",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 3984,
+  "maximum_output_tokens": 6000,
+  "images": [
+    {
+      "page": 31,
+      "path": "advanced/data/pages/p031.jpg",
+      "sha256": "1468f7a6310238df8acb638bd4a9ceaee79032c345d0fd8b51b4339f55ba9445"
+    }
+  ],
+  "instructions_sha256": "01d3a56b3c678b1acd37e506320a854b17dd9ddb13ece56a92b62990aeb80d41",
+  "usage": {
+    "input_tokens": 3984,
+    "input_tokens_details": {
+      "cache_write_tokens": 3981,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 3981
+      }
+    },
+    "output_tokens": 401,
+    "output_tokens_details": {
+      "reasoning_tokens": 71
+    },
+    "total_tokens": 4385
+  },
+  "response_id": "resp_03160ad20cdfe7ca016afa9004081087d2b29743c7a8daad8b",
+  "response_status": "completed",
+  "output_text": "{\"regions\":[{\"label\":\"Figure O.3\",\"kind\":\"diagram\",\"bbox\":[0.093,0.087,0.797,0.526],\"summary\":\"Matrix of four data-governance layers, showing policy areas at national and international levels.\",\"details\":\"Title: “Data governance layers at the national and international levels.” Three columns: governance layer; National; International. Rows and contents:\\n• Infrastructure policies — National: Universal coverage of broadband networks; domestic infrastructure to exchange, store, and process data. International: Global technical standards for compatibility of hardware and software; regional collaboration on data infrastructure to achieve scale.\\n• Laws and regulations — National: Safeguards to secure and protect data from the threat of misuse; enablers to facilitate data sharing among different stakeholders. International: Cybersecurity conventions for collaboration on tackling cybercrime; interoperability standards to facilitate data exchanges across borders.\\n• Economic policies — National: Antitrust for data platform businesses; trade in data-enabled services; taxation of data platform businesses. International: International tax treaties to allocate taxation rights across countries; global trade agreements on cross-border trade in data-enabled services.\\n• Institutions — National: Government entities to oversee, regulate, and secure data; other stakeholders to set standards and increase data access and reuse. International: International organizations to support collaboration on data governance and promote standardization; cooperation on cross-border regulatory spillovers and enforcement issues.\\nSource: WDR 2021 team.\",\"limitations\":\"No quantitative values or directional links are shown; the visual organizes examples by layer and governance level.\"}]}",
+  "elapsed_seconds": 7.650532999999996
+}

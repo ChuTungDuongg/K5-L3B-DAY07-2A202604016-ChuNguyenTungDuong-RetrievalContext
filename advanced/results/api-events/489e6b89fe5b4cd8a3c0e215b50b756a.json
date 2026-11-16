@@ -1,0 +1,35 @@
+{
+  "id": "489e6b89fe5b4cd8a3c0e215b50b756a",
+  "label": "index:p261",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 3774,
+  "maximum_output_tokens": 6000,
+  "images": [
+    {
+      "page": 261,
+      "path": "advanced/data/pages/p261.jpg",
+      "sha256": "2fe86fa0726e9bb7af3a666f157232f254bf5814da46cf66d481ecf7d3a8f1fc"
+    }
+  ],
+  "instructions_sha256": "01d3a56b3c678b1acd37e506320a854b17dd9ddb13ece56a92b62990aeb80d41",
+  "usage": {
+    "input_tokens": 3774,
+    "input_tokens_details": {
+      "cache_write_tokens": 3771,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 3771
+      }
+    },
+    "output_tokens": 451,
+    "output_tokens_details": {
+      "reasoning_tokens": 82
+    },
+    "total_tokens": 4225
+  },
+  "response_id": "resp_06ab1bde1f66d6c3016afa90d8adac87d2a33480cef0a33327",
+  "response_status": "completed",
+  "output_text": "{\"regions\":[{\"label\":\"Map 7.1\",\"kind\":\"map\",\"bbox\":[0.093,0.087,0.8,0.452],\"summary\":\"World map showing country uptake of regulatory models for cross-border data flows: limited transfers, conditional transfers, open transfers, and no data.\",\"details\":\"The map uses four legend categories: Limited transfers model (dark orange), Conditional transfers model (medium orange), Open transfers model (pale peach), and No data (light gray). Countries are shaded by category. The map visibly shows extensive dark-orange shading across Russia and China; mixed categories across Europe, the Americas, Africa, and Asia; and pale-peach shading in places including Canada and Australia. The source is WDR 2021 team, based on the World Bank Global Data Regulation Survey. Map imprint: IBRD WLD45649 | MARCH 2021.\",\"limitations\":\"Country names and individual category assignments are not labeled on the map; colors are difficult to distinguish for some countries at this scale. No numerical values or date series are shown.\"},{\"label\":\"Table 7.1\",\"kind\":\"table\",\"bbox\":[0.093,0.789,0.795,0.922],\"summary\":\"Policy bases for regulating cross-border personal data, comparing three models by policy goal, regulatory costs, and digital trade flows.\",\"details\":\"Columns: Model | Policy goal | Regulatory costs | Digital trade flows. Rows: Limited transfers | Cybersecurity and other security concerns | Higher | Limited by transfer approval or data localization requirements. Conditional transfers | Protection of personal data | Medium | Subject to regulatory conditions. Open transfers | Business freedom | Lower | Largely open. Source: WDR 2021 team.\",\"limitations\":\"None apparent.\"}]}",
+  "elapsed_seconds": 7.681926699995529
+}

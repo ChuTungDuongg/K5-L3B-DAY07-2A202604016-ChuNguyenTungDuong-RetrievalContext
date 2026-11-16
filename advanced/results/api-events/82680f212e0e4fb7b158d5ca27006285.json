@@ -1,0 +1,45 @@
+{
+  "id": "82680f212e0e4fb7b158d5ca27006285",
+  "label": "20261116-165446-r2-test-baseline-cbad637d:adv-r2-test-27:step0",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 13536,
+  "maximum_output_tokens": 3500,
+  "images": [
+    {
+      "page": 268,
+      "path": "advanced/data/pages/p268.jpg",
+      "sha256": "28b18b519bf5915e19830182fef25c767ff1b023d7263056483fb38a1da4ee32"
+    },
+    {
+      "page": 273,
+      "path": "advanced/data/pages/p273.jpg",
+      "sha256": "a648bf4badad84550b32046760f0676bcf6233a5df56058b5a85e7eb3b45b8bd"
+    },
+    {
+      "page": 267,
+      "path": "advanced/data/pages/p267.jpg",
+      "sha256": "68dbbf600e1a6daa714089cd63bb24d58b03dd3b38af3272cbb631c6fe931bf2"
+    }
+  ],
+  "instructions_sha256": "7b27220272435c850770154f165a9b99ffc1a1c1848fec729da980d6adec6535",
+  "usage": {
+    "input_tokens": 13536,
+    "input_tokens_details": {
+      "cache_write_tokens": 13533,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 13533
+      }
+    },
+    "output_tokens": 179,
+    "output_tokens_details": {
+      "reasoning_tokens": 30
+    },
+    "total_tokens": 13715
+  },
+  "response_id": "resp_073ff9c0f47c4926016afad49b937c87d28cdcc6dae955f71f",
+  "response_status": "completed",
+  "output_text": "{\"action\":\"search\",\"expression\":\"Find the assumptions used for Singapore's estimated indirect VAT tax potential in Figure 7.6: statutory VAT rate and taxable B2C e-commerce base.\",\"queries\":[\"Singapore statutory VAT rate taxable B2C e-commerce base Figure 7.6 Al-Rikabi Loeprick\",\"Singapore B2C e-commerce tax potential VAT rate taxable base 2025\",\"Singapore e-commerce VAT taxable sales base statutory GST rate Figure 7.6\"],\"pages\":[],\"status\":\"abstain\",\"answer\":\"Insufficient evidence in the retrieved pages to identify the statutory VAT rate and taxable business-to-consumer e-commerce base assumed for Singapore.\",\"citations\":[]}",
+  "elapsed_seconds": 6.535344300005818
+}

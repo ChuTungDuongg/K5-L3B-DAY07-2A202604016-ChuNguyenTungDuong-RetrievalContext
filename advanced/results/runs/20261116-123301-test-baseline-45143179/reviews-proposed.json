@@ -1,0 +1,667 @@
+[
+  {
+    "query_id": "adv-test-01",
+    "passed": true,
+    "reason": "Đúng 63% nhóm thu nhập thấp, 100% nhóm cao và chênh 37 điểm phần trăm. Đáp án giữ đúng đối tượng: tỷ lệ dân số có NSO cung cấp metadata, dữ liệu 2019, không biến thành tỷ lệ NSO/quốc gia. Vùng Table 2.2 p84 chứa hàng/cột cùng toàn bộ chú thích.",
+    "label_status": "assistant_proposed_pending_learner_confirmation",
+    "reviewer": "dedicated benchmark-author assistant; no API or model-judge calls",
+    "answer_correct": true,
+    "citation_correct": true,
+    "failure_type": null,
+    "source_check": {
+      "pdf_sha256": "606c8452c8b23c01d81919c3974972bebeb1e60348a56ea40cc3ae841e301616",
+      "benchmark_sha256": "e60bb6943846a45e0af5d3dd1719eb8d06014983afa25e50ebcb62bb1d6d192e",
+      "physical_pages": [
+        84
+      ],
+      "method": "Individually compared response facts and all substantive additional claims to the frozen Test gold and original PDF pixels, using PDFium source-page/citation crops and bounded text as a locator aid. Same strict content/unit/condition/citation-completeness criteria as Dev2. Full-page regions can pass with a correct specific page/region label; exact equality with gold bbox is not required.",
+      "checked_conditions": "Every requested fact, arithmetic, unit/denominator, time/scope condition, diagram relation, chart scale/legend, table header or paragraph continuation. Unanswerable cases checked against documented whole-report absence audit and nearby original pages."
+    },
+    "reviewed_trace_sha256": "0b290ac1e7b35887312246fa76866eace45d0a90ad750a91159bec6778e8c453",
+    "reviewed_answer_sha256": "3228780fc6641c65f659f2ebd42ed1c30366281bd1b8ab96618460d1bb4ebd71",
+    "reviewed_at_local": "2026-11-16T12:39:47.139362+07:00"
+  },
+  {
+    "query_id": "adv-test-02",
+    "passed": true,
+    "reason": "Liệt kê đủ ba khuyến nghị trong ô Initiating data flows / Connecting countries: IXP đầu tiên và tham gia trong nước, thêm IXP và trưởng thành, cache nội dung quốc tế phổ biến ở máy chủ nội địa. Vùng Table 5.1 p197 chứa đúng ô và các tiêu đề.",
+    "label_status": "assistant_proposed_pending_learner_confirmation",
+    "reviewer": "dedicated benchmark-author assistant; no API or model-judge calls",
+    "answer_correct": true,
+    "citation_correct": true,
+    "failure_type": null,
+    "source_check": {
+      "pdf_sha256": "606c8452c8b23c01d81919c3974972bebeb1e60348a56ea40cc3ae841e301616",
+      "benchmark_sha256": "e60bb6943846a45e0af5d3dd1719eb8d06014983afa25e50ebcb62bb1d6d192e",
+      "physical_pages": [
+        197
+      ],
+      "method": "Individually compared response facts and all substantive additional claims to the frozen Test gold and original PDF pixels, using PDFium source-page/citation crops and bounded text as a locator aid. Same strict content/unit/condition/citation-completeness criteria as Dev2. Full-page regions can pass with a correct specific page/region label; exact equality with gold bbox is not required.",
+      "checked_conditions": "Every requested fact, arithmetic, unit/denominator, time/scope condition, diagram relation, chart scale/legend, table header or paragraph continuation. Unanswerable cases checked against documented whole-report absence audit and nearby original pages."
+    },
+    "reviewed_trace_sha256": "0b290ac1e7b35887312246fa76866eace45d0a90ad750a91159bec6778e8c453",
+    "reviewed_answer_sha256": "c2b83b86235d86726a1455ac6bf1e06b701af873500320f10d618c9743db2324",
+    "reviewed_at_local": "2026-11-16T12:39:47.139362+07:00"
+  },
+  {
+    "query_id": "adv-test-03",
+    "passed": true,
+    "reason": "Đúng đủ bốn mục safeguards ở giai đoạn Initiating data flows: dữ liệu cá nhân, an ninh mạng/chống tội phạm mạng, cạnh tranh, và cơ quan thực thi. Vùng Table 6.2 p229 có hàng, cột và đầy đủ các mục, không nhầm sang enablers.",
+    "label_status": "assistant_proposed_pending_learner_confirmation",
+    "reviewer": "dedicated benchmark-author assistant; no API or model-judge calls",
+    "answer_correct": true,
+    "citation_correct": true,
+    "failure_type": null,
+    "source_check": {
+      "pdf_sha256": "606c8452c8b23c01d81919c3974972bebeb1e60348a56ea40cc3ae841e301616",
+      "benchmark_sha256": "e60bb6943846a45e0af5d3dd1719eb8d06014983afa25e50ebcb62bb1d6d192e",
+      "physical_pages": [
+        229
+      ],
+      "method": "Individually compared response facts and all substantive additional claims to the frozen Test gold and original PDF pixels, using PDFium source-page/citation crops and bounded text as a locator aid. Same strict content/unit/condition/citation-completeness criteria as Dev2. Full-page regions can pass with a correct specific page/region label; exact equality with gold bbox is not required.",
+      "checked_conditions": "Every requested fact, arithmetic, unit/denominator, time/scope condition, diagram relation, chart scale/legend, table header or paragraph continuation. Unanswerable cases checked against documented whole-report absence audit and nearby original pages."
+    },
+    "reviewed_trace_sha256": "0b290ac1e7b35887312246fa76866eace45d0a90ad750a91159bec6778e8c453",
+    "reviewed_answer_sha256": "8f2adb6c3ee213b3e06485b48ba251cb6640b54edc99b2b80e35fc00e263fbf2",
+    "reviewed_at_local": "2026-11-16T12:39:47.139362+07:00"
+  },
+  {
+    "query_id": "adv-test-04",
+    "passed": true,
+    "reason": "Đúng conditional transfers nhằm bảo vệ dữ liệu cá nhân với chi phí medium; open transfers nhằm business freedom với chi phí lower. Vùng Table 7.1 p261 bao đủ tiêu đề và hai hàng; giữ đúng mức chi phí định tính.",
+    "label_status": "assistant_proposed_pending_learner_confirmation",
+    "reviewer": "dedicated benchmark-author assistant; no API or model-judge calls",
+    "answer_correct": true,
+    "citation_correct": true,
+    "failure_type": null,
+    "source_check": {
+      "pdf_sha256": "606c8452c8b23c01d81919c3974972bebeb1e60348a56ea40cc3ae841e301616",
+      "benchmark_sha256": "e60bb6943846a45e0af5d3dd1719eb8d06014983afa25e50ebcb62bb1d6d192e",
+      "physical_pages": [
+        261
+      ],
+      "method": "Individually compared response facts and all substantive additional claims to the frozen Test gold and original PDF pixels, using PDFium source-page/citation crops and bounded text as a locator aid. Same strict content/unit/condition/citation-completeness criteria as Dev2. Full-page regions can pass with a correct specific page/region label; exact equality with gold bbox is not required.",
+      "checked_conditions": "Every requested fact, arithmetic, unit/denominator, time/scope condition, diagram relation, chart scale/legend, table header or paragraph continuation. Unanswerable cases checked against documented whole-report absence audit and nearby original pages."
+    },
+    "reviewed_trace_sha256": "0b290ac1e7b35887312246fa76866eace45d0a90ad750a91159bec6778e8c453",
+    "reviewed_answer_sha256": "d5c98eb98fe5faa4c4fdfa33f80fa7b9983de9f783329e08e69ff0964e7a83e3",
+    "reviewed_at_local": "2026-11-16T12:39:47.139362+07:00"
+  },
+  {
+    "query_id": "adv-test-05",
+    "passed": true,
+    "reason": "Đúng hai nghĩa vụ Destroy or reuse và đủ ba nhóm nghĩa vụ Archive and preserve. Vùng Table 8.1 p288 chứa đầy đủ các hàng, tiêu đề và các câu về consent, destruction, cataloging, dictionaries/provenance, access/security/integrity.",
+    "label_status": "assistant_proposed_pending_learner_confirmation",
+    "reviewer": "dedicated benchmark-author assistant; no API or model-judge calls",
+    "answer_correct": true,
+    "citation_correct": true,
+    "failure_type": null,
+    "source_check": {
+      "pdf_sha256": "606c8452c8b23c01d81919c3974972bebeb1e60348a56ea40cc3ae841e301616",
+      "benchmark_sha256": "e60bb6943846a45e0af5d3dd1719eb8d06014983afa25e50ebcb62bb1d6d192e",
+      "physical_pages": [
+        288
+      ],
+      "method": "Individually compared response facts and all substantive additional claims to the frozen Test gold and original PDF pixels, using PDFium source-page/citation crops and bounded text as a locator aid. Same strict content/unit/condition/citation-completeness criteria as Dev2. Full-page regions can pass with a correct specific page/region label; exact equality with gold bbox is not required.",
+      "checked_conditions": "Every requested fact, arithmetic, unit/denominator, time/scope condition, diagram relation, chart scale/legend, table header or paragraph continuation. Unanswerable cases checked against documented whole-report absence audit and nearby original pages."
+    },
+    "reviewed_trace_sha256": "0b290ac1e7b35887312246fa76866eace45d0a90ad750a91159bec6778e8c453",
+    "reviewed_answer_sha256": "b270df64b0ef9fc02b84df73c42196ba0700b54740b1223b8d557d3cb58616a5",
+    "reviewed_at_local": "2026-11-16T12:39:47.139362+07:00"
+  },
+  {
+    "query_id": "adv-test-06",
+    "passed": true,
+    "reason": "Đúng data commons/data clubs và hai ví dụ OCC, UK Biobank. Vùng Table 8.3 p298 chứa đúng hàng mục tiêu nghiên cứu và các ô Types/Examples, không lẫn data pools hoặc cooperatives.",
+    "label_status": "assistant_proposed_pending_learner_confirmation",
+    "reviewer": "dedicated benchmark-author assistant; no API or model-judge calls",
+    "answer_correct": true,
+    "citation_correct": true,
+    "failure_type": null,
+    "source_check": {
+      "pdf_sha256": "606c8452c8b23c01d81919c3974972bebeb1e60348a56ea40cc3ae841e301616",
+      "benchmark_sha256": "e60bb6943846a45e0af5d3dd1719eb8d06014983afa25e50ebcb62bb1d6d192e",
+      "physical_pages": [
+        298
+      ],
+      "method": "Individually compared response facts and all substantive additional claims to the frozen Test gold and original PDF pixels, using PDFium source-page/citation crops and bounded text as a locator aid. Same strict content/unit/condition/citation-completeness criteria as Dev2. Full-page regions can pass with a correct specific page/region label; exact equality with gold bbox is not required.",
+      "checked_conditions": "Every requested fact, arithmetic, unit/denominator, time/scope condition, diagram relation, chart scale/legend, table header or paragraph continuation. Unanswerable cases checked against documented whole-report absence audit and nearby original pages."
+    },
+    "reviewed_trace_sha256": "0b290ac1e7b35887312246fa76866eace45d0a90ad750a91159bec6778e8c453",
+    "reviewed_answer_sha256": "aaf6cd0e12cd40c72b03c76da02ede886946bd83422d012551a7270f090926ef",
+    "reviewed_at_local": "2026-11-16T12:39:47.139362+07:00"
+  },
+  {
+    "query_id": "adv-test-07",
+    "passed": true,
+    "reason": "Đúng green benefit Increased business opportunities và đủ ba red risks Market concentration, Widening inequality, Discrimination. Vùng Figure 1.3 p54 bao trọn nhánh Private sector, các nhãn được hỏi và ghi chú xanh/đỏ; phần rìa nút Development không cần cho các khẳng định này.",
+    "label_status": "assistant_proposed_pending_learner_confirmation",
+    "reviewer": "dedicated benchmark-author assistant; no API or model-judge calls",
+    "answer_correct": true,
+    "citation_correct": true,
+    "failure_type": null,
+    "source_check": {
+      "pdf_sha256": "606c8452c8b23c01d81919c3974972bebeb1e60348a56ea40cc3ae841e301616",
+      "benchmark_sha256": "e60bb6943846a45e0af5d3dd1719eb8d06014983afa25e50ebcb62bb1d6d192e",
+      "physical_pages": [
+        54
+      ],
+      "method": "Individually compared response facts and all substantive additional claims to the frozen Test gold and original PDF pixels, using PDFium source-page/citation crops and bounded text as a locator aid. Same strict content/unit/condition/citation-completeness criteria as Dev2. Full-page regions can pass with a correct specific page/region label; exact equality with gold bbox is not required.",
+      "checked_conditions": "Every requested fact, arithmetic, unit/denominator, time/scope condition, diagram relation, chart scale/legend, table header or paragraph continuation. Unanswerable cases checked against documented whole-report absence audit and nearby original pages."
+    },
+    "reviewed_trace_sha256": "0b290ac1e7b35887312246fa76866eace45d0a90ad750a91159bec6778e8c453",
+    "reviewed_answer_sha256": "e200073e213d570f0a8ded9bc54d2c50ea198a50cfa2f364fd3f53f05ce0e85b",
+    "reviewed_at_local": "2026-11-16T12:39:47.139362+07:00"
+  },
+  {
+    "query_id": "adv-test-08",
+    "passed": true,
+    "reason": "Đúng hướng enablers -> desirable features -> value -> phản hồi về enablers và đủ impartiality/confidentiality/appropriateness. Các thành phần và giá trị bổ sung cũng đúng sơ đồ. Vùng Figure 2.6 p85 bao các mũi tên vòng lặp và toàn bộ nhãn liên quan.",
+    "label_status": "assistant_proposed_pending_learner_confirmation",
+    "reviewer": "dedicated benchmark-author assistant; no API or model-judge calls",
+    "answer_correct": true,
+    "citation_correct": true,
+    "failure_type": null,
+    "source_check": {
+      "pdf_sha256": "606c8452c8b23c01d81919c3974972bebeb1e60348a56ea40cc3ae841e301616",
+      "benchmark_sha256": "e60bb6943846a45e0af5d3dd1719eb8d06014983afa25e50ebcb62bb1d6d192e",
+      "physical_pages": [
+        85
+      ],
+      "method": "Individually compared response facts and all substantive additional claims to the frozen Test gold and original PDF pixels, using PDFium source-page/citation crops and bounded text as a locator aid. Same strict content/unit/condition/citation-completeness criteria as Dev2. Full-page regions can pass with a correct specific page/region label; exact equality with gold bbox is not required.",
+      "checked_conditions": "Every requested fact, arithmetic, unit/denominator, time/scope condition, diagram relation, chart scale/legend, table header or paragraph continuation. Unanswerable cases checked against documented whole-report absence audit and nearby original pages."
+    },
+    "reviewed_trace_sha256": "0b290ac1e7b35887312246fa76866eace45d0a90ad750a91159bec6778e8c453",
+    "reviewed_answer_sha256": "0a163782132e4aec67ef0395edb346dd33a768e38bb73c75dd8e7d56108639e0",
+    "reviewed_at_local": "2026-11-16T12:39:47.139362+07:00"
+  },
+  {
+    "query_id": "adv-test-09",
+    "passed": true,
+    "reason": "Đúng NSO cần độc lập trong luật/thể chế và luật thống kê cập nhật; cơ quan khác cần rõ roles/mandates/responsibilities theo vòng đời. Ghi chú về chính sách có thể trải nhiều tác nhân cũng đúng nguồn. Vùng Figure 2.11 p91 chứa cột Governance, nhãn hai hàng tác nhân và note.",
+    "label_status": "assistant_proposed_pending_learner_confirmation",
+    "reviewer": "dedicated benchmark-author assistant; no API or model-judge calls",
+    "answer_correct": true,
+    "citation_correct": true,
+    "failure_type": null,
+    "source_check": {
+      "pdf_sha256": "606c8452c8b23c01d81919c3974972bebeb1e60348a56ea40cc3ae841e301616",
+      "benchmark_sha256": "e60bb6943846a45e0af5d3dd1719eb8d06014983afa25e50ebcb62bb1d6d192e",
+      "physical_pages": [
+        91
+      ],
+      "method": "Individually compared response facts and all substantive additional claims to the frozen Test gold and original PDF pixels, using PDFium source-page/citation crops and bounded text as a locator aid. Same strict content/unit/condition/citation-completeness criteria as Dev2. Full-page regions can pass with a correct specific page/region label; exact equality with gold bbox is not required.",
+      "checked_conditions": "Every requested fact, arithmetic, unit/denominator, time/scope condition, diagram relation, chart scale/legend, table header or paragraph continuation. Unanswerable cases checked against documented whole-report absence audit and nearby original pages."
+    },
+    "reviewed_trace_sha256": "0b290ac1e7b35887312246fa76866eace45d0a90ad750a91159bec6778e8c453",
+    "reviewed_answer_sha256": "4023aac8f2f313ad34782e9a414e3bb81779fc623e4fc0fe6b7cfaf3bb3fcd81",
+    "reviewed_at_local": "2026-11-16T12:39:47.139362+07:00"
+  },
+  {
+    "query_id": "adv-test-10",
+    "passed": true,
+    "reason": "Đúng nhánh domestic processing yêu cầu máy chủ nội địa cho xử lý và ví dụ Russian Federation/personal data; open transfers không có yêu cầu bắt buộc a priori, dựa chuẩn tự nguyện/trách nhiệm tư nhân. Vùng Figure 7.5 p259 bao đủ các nhánh và trục đóng-mở.",
+    "label_status": "assistant_proposed_pending_learner_confirmation",
+    "reviewer": "dedicated benchmark-author assistant; no API or model-judge calls",
+    "answer_correct": true,
+    "citation_correct": true,
+    "failure_type": null,
+    "source_check": {
+      "pdf_sha256": "606c8452c8b23c01d81919c3974972bebeb1e60348a56ea40cc3ae841e301616",
+      "benchmark_sha256": "e60bb6943846a45e0af5d3dd1719eb8d06014983afa25e50ebcb62bb1d6d192e",
+      "physical_pages": [
+        259
+      ],
+      "method": "Individually compared response facts and all substantive additional claims to the frozen Test gold and original PDF pixels, using PDFium source-page/citation crops and bounded text as a locator aid. Same strict content/unit/condition/citation-completeness criteria as Dev2. Full-page regions can pass with a correct specific page/region label; exact equality with gold bbox is not required.",
+      "checked_conditions": "Every requested fact, arithmetic, unit/denominator, time/scope condition, diagram relation, chart scale/legend, table header or paragraph continuation. Unanswerable cases checked against documented whole-report absence audit and nearby original pages."
+    },
+    "reviewed_trace_sha256": "0b290ac1e7b35887312246fa76866eace45d0a90ad750a91159bec6778e8c453",
+    "reviewed_answer_sha256": "8aeb13b381043df4a473b67152c2e2518df18876c1ca8735b0142190f12fd1d3",
+    "reviewed_at_local": "2026-11-16T12:39:47.139362+07:00"
+  },
+  {
+    "query_id": "adv-test-11",
+    "passed": true,
+    "reason": "Đúng ba nhiệm vụ Optimizing the system: đơn vị chính phủ hiện có/mới giám sát và báo cáo chiến lược, NSO có vai trò chủ động, và xác định rõ mandates. Vùng Figure 9.3 p330 bao cả panel được hỏi và nhãn giai đoạn.",
+    "label_status": "assistant_proposed_pending_learner_confirmation",
+    "reviewer": "dedicated benchmark-author assistant; no API or model-judge calls",
+    "answer_correct": true,
+    "citation_correct": true,
+    "failure_type": null,
+    "source_check": {
+      "pdf_sha256": "606c8452c8b23c01d81919c3974972bebeb1e60348a56ea40cc3ae841e301616",
+      "benchmark_sha256": "e60bb6943846a45e0af5d3dd1719eb8d06014983afa25e50ebcb62bb1d6d192e",
+      "physical_pages": [
+        330
+      ],
+      "method": "Individually compared response facts and all substantive additional claims to the frozen Test gold and original PDF pixels, using PDFium source-page/citation crops and bounded text as a locator aid. Same strict content/unit/condition/citation-completeness criteria as Dev2. Full-page regions can pass with a correct specific page/region label; exact equality with gold bbox is not required.",
+      "checked_conditions": "Every requested fact, arithmetic, unit/denominator, time/scope condition, diagram relation, chart scale/legend, table header or paragraph continuation. Unanswerable cases checked against documented whole-report absence audit and nearby original pages."
+    },
+    "reviewed_trace_sha256": "0b290ac1e7b35887312246fa76866eace45d0a90ad750a91159bec6778e8c453",
+    "reviewed_answer_sha256": "cda6dad6402200517d3bcf879d62029fcf30b4e8e7e4f9e46c00affab5224d34",
+    "reviewed_at_local": "2026-11-16T12:39:47.139362+07:00"
+  },
+  {
+    "query_id": "adv-test-12",
+    "passed": true,
+    "reason": "Đúng domestic-firm share Indonesia 80%, Philippines 16%, chênh 64 điểm phần trăm. Vùng Figure 3.4 p117 chứa hai hàng, số trên thanh, trục phần trăm và chú giải Foreign/Domestic; đáp án không nhầm share website thành lưu lượng.",
+    "label_status": "assistant_proposed_pending_learner_confirmation",
+    "reviewer": "dedicated benchmark-author assistant; no API or model-judge calls",
+    "answer_correct": true,
+    "citation_correct": true,
+    "failure_type": null,
+    "source_check": {
+      "pdf_sha256": "606c8452c8b23c01d81919c3974972bebeb1e60348a56ea40cc3ae841e301616",
+      "benchmark_sha256": "e60bb6943846a45e0af5d3dd1719eb8d06014983afa25e50ebcb62bb1d6d192e",
+      "physical_pages": [
+        117
+      ],
+      "method": "Individually compared response facts and all substantive additional claims to the frozen Test gold and original PDF pixels, using PDFium source-page/citation crops and bounded text as a locator aid. Same strict content/unit/condition/citation-completeness criteria as Dev2. Full-page regions can pass with a correct specific page/region label; exact equality with gold bbox is not required.",
+      "checked_conditions": "Every requested fact, arithmetic, unit/denominator, time/scope condition, diagram relation, chart scale/legend, table header or paragraph continuation. Unanswerable cases checked against documented whole-report absence audit and nearby original pages."
+    },
+    "reviewed_trace_sha256": "0b290ac1e7b35887312246fa76866eace45d0a90ad750a91159bec6778e8c453",
+    "reviewed_answer_sha256": "42bf945310c8d2baaacaa8a07dd7d2b0978708446dd34be6c4f35f321386b1e4",
+    "reviewed_at_local": "2026-11-16T12:39:47.139362+07:00"
+  },
+  {
+    "query_id": "adv-test-13",
+    "passed": true,
+    "reason": "Đúng Google 28,3%, Microsoft 11,4%, chênh 16,9 điểm phần trăm và Google lớn nhất. Vùng Figure 3.6 panel b p119 chứa các cột/nhãn giá trị, chú giải % of websites và note về quyền sở hữu; không dùng điểm cam xếp hạng hoặc treemap lưu lượng.",
+    "label_status": "assistant_proposed_pending_learner_confirmation",
+    "reviewer": "dedicated benchmark-author assistant; no API or model-judge calls",
+    "answer_correct": true,
+    "citation_correct": true,
+    "failure_type": null,
+    "source_check": {
+      "pdf_sha256": "606c8452c8b23c01d81919c3974972bebeb1e60348a56ea40cc3ae841e301616",
+      "benchmark_sha256": "e60bb6943846a45e0af5d3dd1719eb8d06014983afa25e50ebcb62bb1d6d192e",
+      "physical_pages": [
+        119
+      ],
+      "method": "Individually compared response facts and all substantive additional claims to the frozen Test gold and original PDF pixels, using PDFium source-page/citation crops and bounded text as a locator aid. Same strict content/unit/condition/citation-completeness criteria as Dev2. Full-page regions can pass with a correct specific page/region label; exact equality with gold bbox is not required.",
+      "checked_conditions": "Every requested fact, arithmetic, unit/denominator, time/scope condition, diagram relation, chart scale/legend, table header or paragraph continuation. Unanswerable cases checked against documented whole-report absence audit and nearby original pages."
+    },
+    "reviewed_trace_sha256": "0b290ac1e7b35887312246fa76866eace45d0a90ad750a91159bec6778e8c453",
+    "reviewed_answer_sha256": "4de1840c022e156eec366b7dd468b96d1d8030cb5126216fce2dce18cd4cb78a",
+    "reviewed_at_local": "2026-11-16T12:39:47.139362+07:00"
+  },
+  {
+    "query_id": "adv-test-14",
+    "passed": false,
+    "reason": "Lỗi hệ thống/calculator: trace kết thúc với invalid character ÷ (U+00F7), không có đáp án hay citation. Tính fail và giữ nguyên trong mẫu số 30; không thay bằng đáp án tính ngoài hoặc loại khỏi mẫu.",
+    "label_status": "assistant_proposed_pending_learner_confirmation",
+    "reviewer": "dedicated benchmark-author assistant; no API or model-judge calls",
+    "answer_correct": false,
+    "citation_correct": false,
+    "failure_type": "system_error_calculator",
+    "source_check": {
+      "pdf_sha256": "606c8452c8b23c01d81919c3974972bebeb1e60348a56ea40cc3ae841e301616",
+      "benchmark_sha256": "e60bb6943846a45e0af5d3dd1719eb8d06014983afa25e50ebcb62bb1d6d192e",
+      "physical_pages": [
+        186
+      ],
+      "method": "Individually compared response facts and all substantive additional claims to the frozen Test gold and original PDF pixels, using PDFium source-page/citation crops and bounded text as a locator aid. Same strict content/unit/condition/citation-completeness criteria as Dev2. Full-page regions can pass with a correct specific page/region label; exact equality with gold bbox is not required.",
+      "checked_conditions": "Every requested fact, arithmetic, unit/denominator, time/scope condition, diagram relation, chart scale/legend, table header or paragraph continuation. Unanswerable cases checked against documented whole-report absence audit and nearby original pages."
+    },
+    "reviewed_trace_sha256": "0b290ac1e7b35887312246fa76866eace45d0a90ad750a91159bec6778e8c453",
+    "reviewed_answer_sha256": null,
+    "reviewed_at_local": "2026-11-16T12:39:47.139362+07:00"
+  },
+  {
+    "query_id": "adv-test-15",
+    "passed": true,
+    "reason": "Đúng CSIRT là khoảng cách lớn nhất giữa high-income và low-income. 100% so với khoảng 35% và chênh khoảng 65 điểm là cách đọc xấp xỉ phù hợp đồ thị radar với bước lưới 20 điểm và mô tả about one-third của nguồn; gold cũng ghi xấp xỉ, không yêu cầu số nguyên không được in. Vùng Figure 6.3 p214 chứa trục, scale, bốn đường và chú giải.",
+    "label_status": "assistant_proposed_pending_learner_confirmation",
+    "reviewer": "dedicated benchmark-author assistant; no API or model-judge calls",
+    "answer_correct": true,
+    "citation_correct": true,
+    "failure_type": null,
+    "source_check": {
+      "pdf_sha256": "606c8452c8b23c01d81919c3974972bebeb1e60348a56ea40cc3ae841e301616",
+      "benchmark_sha256": "e60bb6943846a45e0af5d3dd1719eb8d06014983afa25e50ebcb62bb1d6d192e",
+      "physical_pages": [
+        214
+      ],
+      "method": "Individually compared response facts and all substantive additional claims to the frozen Test gold and original PDF pixels, using PDFium source-page/citation crops and bounded text as a locator aid. Same strict content/unit/condition/citation-completeness criteria as Dev2. Full-page regions can pass with a correct specific page/region label; exact equality with gold bbox is not required.",
+      "checked_conditions": "Every requested fact, arithmetic, unit/denominator, time/scope condition, diagram relation, chart scale/legend, table header or paragraph continuation. Unanswerable cases checked against documented whole-report absence audit and nearby original pages."
+    },
+    "reviewed_trace_sha256": "0b290ac1e7b35887312246fa76866eace45d0a90ad750a91159bec6778e8c453",
+    "reviewed_answer_sha256": "566cd3d61f7558ddd1be7f6297d077aad3a92ff6021e05fcbc365c4987f79067",
+    "reviewed_at_local": "2026-11-16T12:39:47.139362+07:00"
+  },
+  {
+    "query_id": "adv-test-16",
+    "passed": true,
+    "reason": "Đúng established lower-middle 66% > upper-middle 65%; in progress/planned upper-middle 15% > lower-middle 12%. Vùng Figure 8.6 p297 có đủ nhóm thu nhập, hai màu chú giải, trục phần trăm và bốn số; không đảo trạng thái cơ quan.",
+    "label_status": "assistant_proposed_pending_learner_confirmation",
+    "reviewer": "dedicated benchmark-author assistant; no API or model-judge calls",
+    "answer_correct": true,
+    "citation_correct": true,
+    "failure_type": null,
+    "source_check": {
+      "pdf_sha256": "606c8452c8b23c01d81919c3974972bebeb1e60348a56ea40cc3ae841e301616",
+      "benchmark_sha256": "e60bb6943846a45e0af5d3dd1719eb8d06014983afa25e50ebcb62bb1d6d192e",
+      "physical_pages": [
+        297
+      ],
+      "method": "Individually compared response facts and all substantive additional claims to the frozen Test gold and original PDF pixels, using PDFium source-page/citation crops and bounded text as a locator aid. Same strict content/unit/condition/citation-completeness criteria as Dev2. Full-page regions can pass with a correct specific page/region label; exact equality with gold bbox is not required.",
+      "checked_conditions": "Every requested fact, arithmetic, unit/denominator, time/scope condition, diagram relation, chart scale/legend, table header or paragraph continuation. Unanswerable cases checked against documented whole-report absence audit and nearby original pages."
+    },
+    "reviewed_trace_sha256": "0b290ac1e7b35887312246fa76866eace45d0a90ad750a91159bec6778e8c453",
+    "reviewed_answer_sha256": "bc1bc93d2430597a75b349b25e0f21c6f9265dbb917f1019ce3e3a599dc85811",
+    "reviewed_at_local": "2026-11-16T12:39:47.139362+07:00"
+  },
+  {
+    "query_id": "adv-test-17",
+    "passed": false,
+    "reason": "Usage gap 64% so với 49% và chênh 15 điểm phần trăm đúng. Nhưng đáp án đọc South Asia thành 0,1 GB thay vì 1,1 GB/người/tháng, rồi kết luận Sub-Saharan Africa cao hơn và chênh 0,2 GB. Nguồn Figure 5.6 p186 và chính quote của trace ghi South Asia 1,1; Sub-Saharan Africa 0,3, nên South Asia cao hơn 0,8 GB. Hai citation chứa đủ nguồn nhưng câu trả lời sai số, chiều so sánh và phép trừ: fail.",
+    "label_status": "assistant_proposed_pending_learner_confirmation",
+    "reviewer": "dedicated benchmark-author assistant; no API or model-judge calls",
+    "answer_correct": false,
+    "citation_correct": true,
+    "failure_type": "incorrect_numeric_value_comparison_and_difference",
+    "source_check": {
+      "pdf_sha256": "606c8452c8b23c01d81919c3974972bebeb1e60348a56ea40cc3ae841e301616",
+      "benchmark_sha256": "e60bb6943846a45e0af5d3dd1719eb8d06014983afa25e50ebcb62bb1d6d192e",
+      "physical_pages": [
+        181,
+        186
+      ],
+      "method": "Individually compared response facts and all substantive additional claims to the frozen Test gold and original PDF pixels, using PDFium source-page/citation crops and bounded text as a locator aid. Same strict content/unit/condition/citation-completeness criteria as Dev2. Full-page regions can pass with a correct specific page/region label; exact equality with gold bbox is not required.",
+      "checked_conditions": "Every requested fact, arithmetic, unit/denominator, time/scope condition, diagram relation, chart scale/legend, table header or paragraph continuation. Unanswerable cases checked against documented whole-report absence audit and nearby original pages."
+    },
+    "reviewed_trace_sha256": "0b290ac1e7b35887312246fa76866eace45d0a90ad750a91159bec6778e8c453",
+    "reviewed_answer_sha256": "656f12603bee4e181a008a57db305fa8d202a0167fb87822a4606dbe034db393",
+    "reviewed_at_local": "2026-11-16T12:39:47.139362+07:00"
+  },
+  {
+    "query_id": "adv-test-18",
+    "passed": false,
+    "reason": "Các mốc và nội dung trả lời đúng (2007/CPI, 2011/inaccurate CPI+GDP, dỡ censure 2016 sau cải cách), nhưng citation p295 bbox [0.091,0.75,0.804,0.928] chỉ bao đáy hai cột. Nó kết thúc ở consumer price ở cột trái và ghép vùng antitrust không liên quan ở cột phải; phần tiếp nối index and GDP cùng mốc dỡ censure 2016 nằm đầu cột phải ngoài bbox. Citation p89 không bù được evidence thiếu của hop p295: fail vì vùng không hỗ trợ toàn bộ điều kiện.",
+    "label_status": "assistant_proposed_pending_learner_confirmation",
+    "reviewer": "dedicated benchmark-author assistant; no API or model-judge calls",
+    "answer_correct": true,
+    "citation_correct": false,
+    "failure_type": "citation_region_excludes_column_continuation",
+    "source_check": {
+      "pdf_sha256": "606c8452c8b23c01d81919c3974972bebeb1e60348a56ea40cc3ae841e301616",
+      "benchmark_sha256": "e60bb6943846a45e0af5d3dd1719eb8d06014983afa25e50ebcb62bb1d6d192e",
+      "physical_pages": [
+        89,
+        295
+      ],
+      "method": "Individually compared response facts and all substantive additional claims to the frozen Test gold and original PDF pixels, using PDFium source-page/citation crops and bounded text as a locator aid. Same strict content/unit/condition/citation-completeness criteria as Dev2. Full-page regions can pass with a correct specific page/region label; exact equality with gold bbox is not required.",
+      "checked_conditions": "Every requested fact, arithmetic, unit/denominator, time/scope condition, diagram relation, chart scale/legend, table header or paragraph continuation. Unanswerable cases checked against documented whole-report absence audit and nearby original pages."
+    },
+    "reviewed_trace_sha256": "0b290ac1e7b35887312246fa76866eace45d0a90ad750a91159bec6778e8c453",
+    "reviewed_answer_sha256": "2e82d8ce1d936a8dd93e50dfcf407543ce4f3be4a1320adad555e1cf43c04119",
+    "reviewed_at_local": "2026-11-16T12:39:47.139362+07:00"
+  },
+  {
+    "query_id": "adv-test-19",
+    "passed": true,
+    "reason": "Đúng portability giảm lock-in và tăng lựa chọn/khả năng chuyển dữ liệu; data trust tập hợp quyền để thương lượng tập thể, trustee có fiduciary duty với impartiality/prudence/transparency/undivided loyalty theo quy tắc trust. Hai vùng p224 và p300 chứa đủ các cơ chế và nghĩa vụ; đạt multi-hop.",
+    "label_status": "assistant_proposed_pending_learner_confirmation",
+    "reviewer": "dedicated benchmark-author assistant; no API or model-judge calls",
+    "answer_correct": true,
+    "citation_correct": true,
+    "failure_type": null,
+    "source_check": {
+      "pdf_sha256": "606c8452c8b23c01d81919c3974972bebeb1e60348a56ea40cc3ae841e301616",
+      "benchmark_sha256": "e60bb6943846a45e0af5d3dd1719eb8d06014983afa25e50ebcb62bb1d6d192e",
+      "physical_pages": [
+        224,
+        300
+      ],
+      "method": "Individually compared response facts and all substantive additional claims to the frozen Test gold and original PDF pixels, using PDFium source-page/citation crops and bounded text as a locator aid. Same strict content/unit/condition/citation-completeness criteria as Dev2. Full-page regions can pass with a correct specific page/region label; exact equality with gold bbox is not required.",
+      "checked_conditions": "Every requested fact, arithmetic, unit/denominator, time/scope condition, diagram relation, chart scale/legend, table header or paragraph continuation. Unanswerable cases checked against documented whole-report absence audit and nearby original pages."
+    },
+    "reviewed_trace_sha256": "0b290ac1e7b35887312246fa76866eace45d0a90ad750a91159bec6778e8c453",
+    "reviewed_answer_sha256": "279e825d393bf8e8b2c226797a7675def77527e22ebfe49815fd24c9e2b74325",
+    "reviewed_at_local": "2026-11-16T12:39:47.139362+07:00"
+  },
+  {
+    "query_id": "adv-test-20",
+    "passed": true,
+    "reason": "Đúng yếu điểm tự báo cáo sản lượng/diện tích; đo khách quan cho yield chính xác tại mẫu, kết hợp vệ tinh để mở rộng ước lượng chi tiết vượt địa điểm khảo sát ra vùng/quốc gia. Hai citation p49-50 khớp đúng đoạn bị ngắt trang và chứa toàn bộ mệnh đề.",
+    "label_status": "assistant_proposed_pending_learner_confirmation",
+    "reviewer": "dedicated benchmark-author assistant; no API or model-judge calls",
+    "answer_correct": true,
+    "citation_correct": true,
+    "failure_type": null,
+    "source_check": {
+      "pdf_sha256": "606c8452c8b23c01d81919c3974972bebeb1e60348a56ea40cc3ae841e301616",
+      "benchmark_sha256": "e60bb6943846a45e0af5d3dd1719eb8d06014983afa25e50ebcb62bb1d6d192e",
+      "physical_pages": [
+        49,
+        50
+      ],
+      "method": "Individually compared response facts and all substantive additional claims to the frozen Test gold and original PDF pixels, using PDFium source-page/citation crops and bounded text as a locator aid. Same strict content/unit/condition/citation-completeness criteria as Dev2. Full-page regions can pass with a correct specific page/region label; exact equality with gold bbox is not required.",
+      "checked_conditions": "Every requested fact, arithmetic, unit/denominator, time/scope condition, diagram relation, chart scale/legend, table header or paragraph continuation. Unanswerable cases checked against documented whole-report absence audit and nearby original pages."
+    },
+    "reviewed_trace_sha256": "0b290ac1e7b35887312246fa76866eace45d0a90ad750a91159bec6778e8c453",
+    "reviewed_answer_sha256": "697a4805101cef94378817bd885882635a8cc10c40b5c7ac443fce40e4f68ad5",
+    "reviewed_at_local": "2026-11-16T12:39:47.139362+07:00"
+  },
+  {
+    "query_id": "adv-test-21",
+    "passed": true,
+    "reason": "Đúng 10->32 trạm, mỗi ba giờ, gần 40 năm lịch sử, NDA vì dữ liệu không thuộc essential/open, và sản phẩm dự báo số độ phân giải cao từ ECMWF. Vùng Spotlight 4.1 p170 bao đầy đủ các câu và điều kiện trao đổi; không nhầm ba giờ với lead time.",
+    "label_status": "assistant_proposed_pending_learner_confirmation",
+    "reviewer": "dedicated benchmark-author assistant; no API or model-judge calls",
+    "answer_correct": true,
+    "citation_correct": true,
+    "failure_type": null,
+    "source_check": {
+      "pdf_sha256": "606c8452c8b23c01d81919c3974972bebeb1e60348a56ea40cc3ae841e301616",
+      "benchmark_sha256": "e60bb6943846a45e0af5d3dd1719eb8d06014983afa25e50ebcb62bb1d6d192e",
+      "physical_pages": [
+        170
+      ],
+      "method": "Individually compared response facts and all substantive additional claims to the frozen Test gold and original PDF pixels, using PDFium source-page/citation crops and bounded text as a locator aid. Same strict content/unit/condition/citation-completeness criteria as Dev2. Full-page regions can pass with a correct specific page/region label; exact equality with gold bbox is not required.",
+      "checked_conditions": "Every requested fact, arithmetic, unit/denominator, time/scope condition, diagram relation, chart scale/legend, table header or paragraph continuation. Unanswerable cases checked against documented whole-report absence audit and nearby original pages."
+    },
+    "reviewed_trace_sha256": "0b290ac1e7b35887312246fa76866eace45d0a90ad750a91159bec6778e8c453",
+    "reviewed_answer_sha256": "13e2b16e5a924a934f67cb76030fea0252236f371e07b1699ed2375b6ad4b528",
+    "reviewed_at_local": "2026-11-16T12:39:47.139362+07:00"
+  },
+  {
+    "query_id": "adv-test-22",
+    "passed": false,
+    "reason": "Đáp án nội dung đúng nhưng bbox p286 [0.205,0.405,0.702,0.506] chỉ bao tiêu đề Box 8.1 và vài dòng mở đầu nói cải cách phức tạp. Nó không chứa định nghĩa soft infrastructure cùng standards/methods/accountable people, cũng không chứa đoạn first step về access/classification/producers-users/limitations/provenance ở phía dưới cột trái. Quote không nằm trong vùng đã trả: fail citation.",
+    "label_status": "assistant_proposed_pending_learner_confirmation",
+    "reviewer": "dedicated benchmark-author assistant; no API or model-judge calls",
+    "answer_correct": true,
+    "citation_correct": false,
+    "failure_type": "citation_region_excludes_required_paragraphs",
+    "source_check": {
+      "pdf_sha256": "606c8452c8b23c01d81919c3974972bebeb1e60348a56ea40cc3ae841e301616",
+      "benchmark_sha256": "e60bb6943846a45e0af5d3dd1719eb8d06014983afa25e50ebcb62bb1d6d192e",
+      "physical_pages": [
+        286
+      ],
+      "method": "Individually compared response facts and all substantive additional claims to the frozen Test gold and original PDF pixels, using PDFium source-page/citation crops and bounded text as a locator aid. Same strict content/unit/condition/citation-completeness criteria as Dev2. Full-page regions can pass with a correct specific page/region label; exact equality with gold bbox is not required.",
+      "checked_conditions": "Every requested fact, arithmetic, unit/denominator, time/scope condition, diagram relation, chart scale/legend, table header or paragraph continuation. Unanswerable cases checked against documented whole-report absence audit and nearby original pages."
+    },
+    "reviewed_trace_sha256": "0b290ac1e7b35887312246fa76866eace45d0a90ad750a91159bec6778e8c453",
+    "reviewed_answer_sha256": "9079ffd23976f0a3df1aabc72d82c3cce5c7d34d32ab9adcf607645e9fe342e9",
+    "reviewed_at_local": "2026-11-16T12:39:47.139362+07:00"
+  },
+  {
+    "query_id": "adv-test-23",
+    "passed": true,
+    "reason": "Đúng đơn vị scientific quality control độc lập do cơ quan chính phủ và CSO cùng lập, đánh giá methodological soundness/representativeness cho portal/SDG; vẫn giữ vai trò phản biện và tiêu chuẩn có thể tăng uy tín/interoperability. Vùng Quality control unit p334 chứa đầy đủ cả điều kiện và khẳng định bổ sung.",
+    "label_status": "assistant_proposed_pending_learner_confirmation",
+    "reviewer": "dedicated benchmark-author assistant; no API or model-judge calls",
+    "answer_correct": true,
+    "citation_correct": true,
+    "failure_type": null,
+    "source_check": {
+      "pdf_sha256": "606c8452c8b23c01d81919c3974972bebeb1e60348a56ea40cc3ae841e301616",
+      "benchmark_sha256": "e60bb6943846a45e0af5d3dd1719eb8d06014983afa25e50ebcb62bb1d6d192e",
+      "physical_pages": [
+        334
+      ],
+      "method": "Individually compared response facts and all substantive additional claims to the frozen Test gold and original PDF pixels, using PDFium source-page/citation crops and bounded text as a locator aid. Same strict content/unit/condition/citation-completeness criteria as Dev2. Full-page regions can pass with a correct specific page/region label; exact equality with gold bbox is not required.",
+      "checked_conditions": "Every requested fact, arithmetic, unit/denominator, time/scope condition, diagram relation, chart scale/legend, table header or paragraph continuation. Unanswerable cases checked against documented whole-report absence audit and nearby original pages."
+    },
+    "reviewed_trace_sha256": "0b290ac1e7b35887312246fa76866eace45d0a90ad750a91159bec6778e8c453",
+    "reviewed_answer_sha256": "5ebe1472a46e95e6758358970a1756440f6e259ada36cb0533de98d01c612e9c",
+    "reviewed_at_local": "2026-11-16T12:39:47.139362+07:00"
+  },
+  {
+    "query_id": "adv-test-24",
+    "passed": true,
+    "reason": "Đúng thiết bị theo dõi vị trí/availability -> mobile app -> booking; farmer tìm tractor có hiệu quả chi phí, owner theo dõi sử dụng. Vùng Hello Tractor p124 chứa đủ luồng dữ liệu và lợi ích riêng hai phía.",
+    "label_status": "assistant_proposed_pending_learner_confirmation",
+    "reviewer": "dedicated benchmark-author assistant; no API or model-judge calls",
+    "answer_correct": true,
+    "citation_correct": true,
+    "failure_type": null,
+    "source_check": {
+      "pdf_sha256": "606c8452c8b23c01d81919c3974972bebeb1e60348a56ea40cc3ae841e301616",
+      "benchmark_sha256": "e60bb6943846a45e0af5d3dd1719eb8d06014983afa25e50ebcb62bb1d6d192e",
+      "physical_pages": [
+        124
+      ],
+      "method": "Individually compared response facts and all substantive additional claims to the frozen Test gold and original PDF pixels, using PDFium source-page/citation crops and bounded text as a locator aid. Same strict content/unit/condition/citation-completeness criteria as Dev2. Full-page regions can pass with a correct specific page/region label; exact equality with gold bbox is not required.",
+      "checked_conditions": "Every requested fact, arithmetic, unit/denominator, time/scope condition, diagram relation, chart scale/legend, table header or paragraph continuation. Unanswerable cases checked against documented whole-report absence audit and nearby original pages."
+    },
+    "reviewed_trace_sha256": "0b290ac1e7b35887312246fa76866eace45d0a90ad750a91159bec6778e8c453",
+    "reviewed_answer_sha256": "0259e31e20b36f446d868cf1a37a2154cd2b26f24c3230f4e2f35555cac10e19",
+    "reviewed_at_local": "2026-11-16T12:39:47.139362+07:00"
+  },
+  {
+    "query_id": "adv-test-25",
+    "passed": true,
+    "reason": "Từ chối đúng thống kê nhân quả sau triển khai và không lấy 5% roads/50% deaths hoặc 92% validation thay mức giảm. Phần nói dữ liệu điểm đen hướng dẫn nỗ lực tương lai được Spotlight 4.2 p172-173 hỗ trợ; không bịa hiệu quả can thiệp.",
+    "label_status": "assistant_proposed_pending_learner_confirmation",
+    "reviewer": "dedicated benchmark-author assistant; no API or model-judge calls",
+    "answer_correct": true,
+    "citation_correct": true,
+    "failure_type": null,
+    "source_check": {
+      "pdf_sha256": "606c8452c8b23c01d81919c3974972bebeb1e60348a56ea40cc3ae841e301616",
+      "benchmark_sha256": "e60bb6943846a45e0af5d3dd1719eb8d06014983afa25e50ebcb62bb1d6d192e",
+      "physical_pages": [
+        172
+      ],
+      "method": "Individually compared response facts and all substantive additional claims to the frozen Test gold and original PDF pixels, using PDFium source-page/citation crops and bounded text as a locator aid. Same strict content/unit/condition/citation-completeness criteria as Dev2. Full-page regions can pass with a correct specific page/region label; exact equality with gold bbox is not required.",
+      "checked_conditions": "Every requested fact, arithmetic, unit/denominator, time/scope condition, diagram relation, chart scale/legend, table header or paragraph continuation. Unanswerable cases checked against documented whole-report absence audit and nearby original pages."
+    },
+    "reviewed_trace_sha256": "0b290ac1e7b35887312246fa76866eace45d0a90ad750a91159bec6778e8c453",
+    "reviewed_answer_sha256": "dfe3704c5499c82d86ef7e23e439092968833a908705b1f2f850174816032ad8",
+    "reviewed_at_local": "2026-11-16T12:39:47.139362+07:00"
+  },
+  {
+    "query_id": "adv-test-26",
+    "passed": true,
+    "reason": "Nêu rõ không có số giờ tăng lead time hoặc bằng chứng quy toàn bộ thay đổi cho 10->32 trạm, không đưa một ước lượng giờ suy đoán. Bối cảnh bổ sung về tăng mạng quan trắc và cải thiện dự báo phù hợp thảo luận chung ở p170-171; không được dùng như ước lượng nhân quả riêng của Bangladesh.",
+    "label_status": "assistant_proposed_pending_learner_confirmation",
+    "reviewer": "dedicated benchmark-author assistant; no API or model-judge calls",
+    "answer_correct": true,
+    "citation_correct": true,
+    "failure_type": null,
+    "source_check": {
+      "pdf_sha256": "606c8452c8b23c01d81919c3974972bebeb1e60348a56ea40cc3ae841e301616",
+      "benchmark_sha256": "e60bb6943846a45e0af5d3dd1719eb8d06014983afa25e50ebcb62bb1d6d192e",
+      "physical_pages": [
+        170
+      ],
+      "method": "Individually compared response facts and all substantive additional claims to the frozen Test gold and original PDF pixels, using PDFium source-page/citation crops and bounded text as a locator aid. Same strict content/unit/condition/citation-completeness criteria as Dev2. Full-page regions can pass with a correct specific page/region label; exact equality with gold bbox is not required.",
+      "checked_conditions": "Every requested fact, arithmetic, unit/denominator, time/scope condition, diagram relation, chart scale/legend, table header or paragraph continuation. Unanswerable cases checked against documented whole-report absence audit and nearby original pages."
+    },
+    "reviewed_trace_sha256": "0b290ac1e7b35887312246fa76866eace45d0a90ad750a91159bec6778e8c453",
+    "reviewed_answer_sha256": "5174da72a4643a15476a4f99d0fc1b7e01b19213cbbd2e400f3ba461e7f48b29",
+    "reviewed_at_local": "2026-11-16T12:39:47.139362+07:00"
+  },
+  {
+    "query_id": "adv-test-27",
+    "passed": true,
+    "reason": "Dù status ghi answered, nội dung nêu rõ không có mức tối thiểu bắt buộc chung mỗi GB, nên đáp ứng từ chối phần thiếu bằng chứng. Thông tin bổ sung B2G tự nguyện và các lựa chọn từ miễn phí đến market pricing có nguồn/citation đầy đủ tại p338; không bịa một mức tiền.",
+    "label_status": "assistant_proposed_pending_learner_confirmation",
+    "reviewer": "dedicated benchmark-author assistant; no API or model-judge calls",
+    "answer_correct": true,
+    "citation_correct": true,
+    "failure_type": null,
+    "source_check": {
+      "pdf_sha256": "606c8452c8b23c01d81919c3974972bebeb1e60348a56ea40cc3ae841e301616",
+      "benchmark_sha256": "e60bb6943846a45e0af5d3dd1719eb8d06014983afa25e50ebcb62bb1d6d192e",
+      "physical_pages": [
+        338
+      ],
+      "method": "Individually compared response facts and all substantive additional claims to the frozen Test gold and original PDF pixels, using PDFium source-page/citation crops and bounded text as a locator aid. Same strict content/unit/condition/citation-completeness criteria as Dev2. Full-page regions can pass with a correct specific page/region label; exact equality with gold bbox is not required.",
+      "checked_conditions": "Every requested fact, arithmetic, unit/denominator, time/scope condition, diagram relation, chart scale/legend, table header or paragraph continuation. Unanswerable cases checked against documented whole-report absence audit and nearby original pages."
+    },
+    "reviewed_trace_sha256": "0b290ac1e7b35887312246fa76866eace45d0a90ad750a91159bec6778e8c453",
+    "reviewed_answer_sha256": "911c4a7d9d2f5e8860158a9871c2669dde1b154eac4d1cc7af2b44128063e3dc",
+    "reviewed_at_local": "2026-11-16T12:39:47.139362+07:00"
+  },
+  {
+    "query_id": "adv-test-28",
+    "passed": true,
+    "reason": "Từ chối rõ không đủ bằng chứng, không gán tỷ lệ internet theo giới hoặc adoption quốc gia thành tỷ lệ thiếu danh tính theo giới/nhóm thu nhập/năm. Phù hợp full-document absence audit và các trang gần chủ đề p81/184/185/220.",
+    "label_status": "assistant_proposed_pending_learner_confirmation",
+    "reviewer": "dedicated benchmark-author assistant; no API or model-judge calls",
+    "answer_correct": true,
+    "citation_correct": true,
+    "failure_type": null,
+    "source_check": {
+      "pdf_sha256": "606c8452c8b23c01d81919c3974972bebeb1e60348a56ea40cc3ae841e301616",
+      "benchmark_sha256": "e60bb6943846a45e0af5d3dd1719eb8d06014983afa25e50ebcb62bb1d6d192e",
+      "physical_pages": [
+        220
+      ],
+      "method": "Individually compared response facts and all substantive additional claims to the frozen Test gold and original PDF pixels, using PDFium source-page/citation crops and bounded text as a locator aid. Same strict content/unit/condition/citation-completeness criteria as Dev2. Full-page regions can pass with a correct specific page/region label; exact equality with gold bbox is not required.",
+      "checked_conditions": "Every requested fact, arithmetic, unit/denominator, time/scope condition, diagram relation, chart scale/legend, table header or paragraph continuation. Unanswerable cases checked against documented whole-report absence audit and nearby original pages."
+    },
+    "reviewed_trace_sha256": "0b290ac1e7b35887312246fa76866eace45d0a90ad750a91159bec6778e8c453",
+    "reviewed_answer_sha256": "beda1d066455dd7e5c1f9381016887d4f5085e7c87fd76d5266c028111246f31",
+    "reviewed_at_local": "2026-11-16T12:39:47.139362+07:00"
+  },
+  {
+    "query_id": "adv-test-29",
+    "passed": true,
+    "reason": "Từ chối phần thiếu số người rút consent và bản ghi bị xóa của UK Biobank trong 2020, không suy ra từ quy mô hơn 500.000 người hoặc từ quy tắc pháp lý chung. Đối chiếu p298-299 và note p309 cùng absence audit.",
+    "label_status": "assistant_proposed_pending_learner_confirmation",
+    "reviewer": "dedicated benchmark-author assistant; no API or model-judge calls",
+    "answer_correct": true,
+    "citation_correct": true,
+    "failure_type": null,
+    "source_check": {
+      "pdf_sha256": "606c8452c8b23c01d81919c3974972bebeb1e60348a56ea40cc3ae841e301616",
+      "benchmark_sha256": "e60bb6943846a45e0af5d3dd1719eb8d06014983afa25e50ebcb62bb1d6d192e",
+      "physical_pages": [
+        299
+      ],
+      "method": "Individually compared response facts and all substantive additional claims to the frozen Test gold and original PDF pixels, using PDFium source-page/citation crops and bounded text as a locator aid. Same strict content/unit/condition/citation-completeness criteria as Dev2. Full-page regions can pass with a correct specific page/region label; exact equality with gold bbox is not required.",
+      "checked_conditions": "Every requested fact, arithmetic, unit/denominator, time/scope condition, diagram relation, chart scale/legend, table header or paragraph continuation. Unanswerable cases checked against documented whole-report absence audit and nearby original pages."
+    },
+    "reviewed_trace_sha256": "0b290ac1e7b35887312246fa76866eace45d0a90ad750a91159bec6778e8c453",
+    "reviewed_answer_sha256": "beda1d066455dd7e5c1f9381016887d4f5085e7c87fd76d5266c028111246f31",
+    "reviewed_at_local": "2026-11-16T12:39:47.139362+07:00"
+  },
+  {
+    "query_id": "adv-test-30",
+    "passed": true,
+    "reason": "Từ chối ngưỡng phần trăm ngân sách NSO tối thiểu chung cho mọi quốc gia, không mượn ngưỡng y tế/giáo dục. Nguồn p86/91/92 không cho mức chung và đề nghị mục tiêu tùy chi phí kế hoạch hoặc nước đối sánh.",
+    "label_status": "assistant_proposed_pending_learner_confirmation",
+    "reviewer": "dedicated benchmark-author assistant; no API or model-judge calls",
+    "answer_correct": true,
+    "citation_correct": true,
+    "failure_type": null,
+    "source_check": {
+      "pdf_sha256": "606c8452c8b23c01d81919c3974972bebeb1e60348a56ea40cc3ae841e301616",
+      "benchmark_sha256": "e60bb6943846a45e0af5d3dd1719eb8d06014983afa25e50ebcb62bb1d6d192e",
+      "physical_pages": [
+        86,
+        92
+      ],
+      "method": "Individually compared response facts and all substantive additional claims to the frozen Test gold and original PDF pixels, using PDFium source-page/citation crops and bounded text as a locator aid. Same strict content/unit/condition/citation-completeness criteria as Dev2. Full-page regions can pass with a correct specific page/region label; exact equality with gold bbox is not required.",
+      "checked_conditions": "Every requested fact, arithmetic, unit/denominator, time/scope condition, diagram relation, chart scale/legend, table header or paragraph continuation. Unanswerable cases checked against documented whole-report absence audit and nearby original pages."
+    },
+    "reviewed_trace_sha256": "0b290ac1e7b35887312246fa76866eace45d0a90ad750a91159bec6778e8c453",
+    "reviewed_answer_sha256": "ce525317907d7aa5087c96ca91dea8053d0381f008260ecb8b9163385f9097b3",
+    "reviewed_at_local": "2026-11-16T12:39:47.139362+07:00"
+  }
+]

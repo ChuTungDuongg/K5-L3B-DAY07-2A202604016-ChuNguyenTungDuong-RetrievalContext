@@ -1,0 +1,35 @@
+{
+  "id": "a4f2c067b5a949db8c65f0f1076418d2",
+  "label": "index:p034",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 4027,
+  "maximum_output_tokens": 6000,
+  "images": [
+    {
+      "page": 34,
+      "path": "advanced/data/pages/p034.jpg",
+      "sha256": "276320e4ca5704226254bc4c70d0eabddc81c8b7e32aa8ce8ea27c144e54f0fa"
+    }
+  ],
+  "instructions_sha256": "01d3a56b3c678b1acd37e506320a854b17dd9ddb13ece56a92b62990aeb80d41",
+  "usage": {
+    "input_tokens": 4027,
+    "input_tokens_details": {
+      "cache_write_tokens": 4024,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 4024
+      }
+    },
+    "output_tokens": 442,
+    "output_tokens_details": {
+      "reasoning_tokens": 88
+    },
+    "total_tokens": 4469
+  },
+  "response_id": "resp_0e2260c808a1fe49016afa900c46c887d28d99b3b6fe62793c",
+  "response_status": "completed",
+  "output_text": "{\"regions\":[{\"label\":\"Figure O.5\",\"kind\":\"chart\",\"bbox\":[0.204,0.519,0.916,0.909],\"summary\":\"Global trade in data-driven services and digital data flows, 1990–2018; data-driven services rise substantially and account for about half of services trade by 2018, while IP traffic grows sharply.\",\"details\":\"Title: “Since 1990, the global trade in data-driven services has grown exponentially and now constitutes half of trade in services.” The chart combines stacked areas for services trade (left axis, US$ billions, current; 0–6,000) and vertical bars for IP traffic (right axis, PB per month; 0–100,000). The horizontal axis shows each year from 1990 through 2018. Stacked-area legend: computer, communications, and other services; travel services; transport services; other (unclassified). Bar series: IP traffic (right axis). In-chart labels distinguish “Data-driven services” from “Traditional services” and identify “Global digital data flows.” Overall, services trade grows from under US$1,000 billion in 1990 to nearly US$6,000 billion in 2018; IP traffic rises from near zero to close to 100,000 PB per month by 2018. Source: WDR 2021 team calculations, based on World Bank, WITS database. Note: IP = Internet Protocol; PB = petabytes.\",\"limitations\":\"The chart does not print numeric data labels for individual years or series, so precise annual values and exact component amounts cannot be read reliably. The source note includes a data URL.\"}]}",
+  "elapsed_seconds": 7.298823700002686
+}

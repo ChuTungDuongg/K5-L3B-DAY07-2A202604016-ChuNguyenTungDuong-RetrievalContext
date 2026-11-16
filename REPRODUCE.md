@@ -122,3 +122,7 @@ Sau khi tổng hợp ledger, dùng `python scripts/build_report.py` để cập 
 ## 10. Những phần cần khai báo khi dùng kết quả
 
 Phần chính dùng Dev và Test, còn phiên bản dữ liệu cũ và lần đầu lỗi API được giữ trong phụ lục. Cấu hình đã chọn sơ bộ trên dev gốc, bộ Dev sửa câu trùng được kiểm tra bổ sung sau Test. Baseline Test dùng lượt đầy đủ vì lần đầu lỗi API 1/7 câu, không chọn lượt dựa vào điểm. Corpus nhỏ, cùng một sách, câu thiếu evidence dùng tổ chức hư cấu và nhãn có Codex hỗ trợ, nên chưa có đánh giá mù hay kiểm định trên tài liệu khác.
+
+## 11. Phần nâng cao độc lập
+
+Phần World Bank dùng database Day 7 cổng 55434 và strategy riêng `ADV-WDR2021-v1`. Phần cơ bản phía trên giữ nguyên. Xem [hướng dẫn nâng cao](advanced/README.md) để tải đúng PDF, khôi phục 5493 vector và 350 ảnh có checksum. Các lệnh `python -m advanced.analyze --round 2`, `python -m advanced.verify --round 2` và `python -m advanced.report_round2` không gọi API. Sau đó `python scripts/build_report.py` điền phần nâng cao vào khung báo cáo của thầy. Mỗi lần chạy model thật tạo thư mục JSON mới, không sửa trace gốc, và phải phân biệt kết quả chính thức với lượt chẩn đoán.

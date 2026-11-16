@@ -1,0 +1,920 @@
+{
+  "schema_version": 1,
+  "round": 2,
+  "source_pdf_sha256": "606c8452c8b23c01d81919c3974972bebeb1e60348a56ea40cc3ae841e301616",
+  "gold_status": "assistant-proposed source-verified; learner confirmation pending",
+  "authoring": "One dedicated benchmark-author assistant; no paid API/model judge; no round2 inference-code or Dev-log access; selected before experiments.",
+  "coordinate_system": "Physical page 1-based; printed body page=physical−20; top-left normalized x0,y0,x1,y1. Bounds include relevant table headers/notes, chart axes/legends, and all required text continuation.",
+  "rendering": "Original source PDF rendered using pypdfium2 at 1.7x (980x1286 pixels). All 30 evidence page regions inspected by assistant; table colors and chart bars checked on rendered originals, not text alone.",
+  "total_test_cases": 30,
+  "answerable_test_cases": 24,
+  "evidence_region_references": 37,
+  "unique_source_regions": 32,
+  "unique_source_pages": [
+    59,
+    76,
+    77,
+    78,
+    83,
+    84,
+    116,
+    123,
+    130,
+    162,
+    180,
+    191,
+    193,
+    195,
+    207,
+    211,
+    216,
+    227,
+    250,
+    264,
+    268,
+    286,
+    287,
+    290,
+    292,
+    332,
+    335
+  ],
+  "checks": [
+    {
+      "query_id": "adv-r2-test-01",
+      "group": "table",
+      "evidence": [
+        {
+          "page": 162,
+          "printed_page": "142",
+          "region_label": "Table 4.1 — External validity row and note a",
+          "bbox": [
+            0.083,
+            0.27,
+            0.909,
+            0.935
+          ],
+          "crop": "samples/adv-r2-test-01-e1.png",
+          "source_pixel_size": [
+            980,
+            1286
+          ],
+          "status": "assistant inspected original rendered page and bounded region; not human-confirmed"
+        }
+      ],
+      "source_verified": true,
+      "human_confirmed": false
+    },
+    {
+      "query_id": "adv-r2-test-02",
+      "group": "table",
+      "evidence": [
+        {
+          "page": 264,
+          "printed_page": "244",
+          "region_label": "Table 7.2 — CPTPP/RCEP columns and legend",
+          "bbox": [
+            0.083,
+            0.084,
+            0.909,
+            0.466
+          ],
+          "crop": "samples/adv-r2-test-02-e1.png",
+          "source_pixel_size": [
+            980,
+            1286
+          ],
+          "status": "assistant inspected original rendered page and bounded region; not human-confirmed"
+        }
+      ],
+      "source_verified": true,
+      "human_confirmed": false
+    },
+    {
+      "query_id": "adv-r2-test-03",
+      "group": "table",
+      "evidence": [
+        {
+          "page": 292,
+          "printed_page": "272",
+          "region_label": "Table 8.2 — Strategic planning row",
+          "bbox": [
+            0.205,
+            0.085,
+            0.909,
+            0.755
+          ],
+          "crop": "samples/adv-r2-test-03-e1.png",
+          "source_pixel_size": [
+            980,
+            1286
+          ],
+          "status": "assistant inspected original rendered page and bounded region; not human-confirmed"
+        }
+      ],
+      "source_verified": true,
+      "human_confirmed": false
+    },
+    {
+      "query_id": "adv-r2-test-04",
+      "group": "table",
+      "evidence": [
+        {
+          "page": 84,
+          "printed_page": "64",
+          "region_label": "Table 2.2 — Advance release calendar row and note",
+          "bbox": [
+            0.204,
+            0.089,
+            0.909,
+            0.265
+          ],
+          "crop": "samples/adv-r2-test-04-e1.png",
+          "source_pixel_size": [
+            980,
+            1286
+          ],
+          "status": "assistant inspected original rendered page and bounded region; not human-confirmed"
+        }
+      ],
+      "source_verified": true,
+      "human_confirmed": false
+    },
+    {
+      "query_id": "adv-r2-test-05",
+      "group": "table",
+      "evidence": [
+        {
+          "page": 227,
+          "printed_page": "207",
+          "region_label": "Table 6.1 — Low-income safeguards and maturity legend",
+          "bbox": [
+            0.091,
+            0.086,
+            0.92,
+            0.35
+          ],
+          "crop": "samples/adv-r2-test-05-e1.png",
+          "source_pixel_size": [
+            980,
+            1286
+          ],
+          "status": "assistant inspected original rendered page and bounded region; not human-confirmed"
+        }
+      ],
+      "source_verified": true,
+      "human_confirmed": false
+    },
+    {
+      "query_id": "adv-r2-test-06",
+      "group": "table",
+      "evidence": [
+        {
+          "page": 83,
+          "printed_page": "63",
+          "region_label": "Table 2.1 — Low-income format indicators and note",
+          "bbox": [
+            0.091,
+            0.55,
+            0.796,
+            0.751
+          ],
+          "crop": "samples/adv-r2-test-06-e1.png",
+          "source_pixel_size": [
+            980,
+            1286
+          ],
+          "status": "assistant inspected original rendered page and bounded region; not human-confirmed"
+        }
+      ],
+      "source_verified": true,
+      "human_confirmed": false
+    },
+    {
+      "query_id": "adv-r2-test-07",
+      "group": "image",
+      "evidence": [
+        {
+          "page": 59,
+          "printed_page": "39",
+          "region_label": "Figure 1.4 — Laws and regulations row with level headers",
+          "bbox": [
+            0.092,
+            0.086,
+            0.797,
+            0.533
+          ],
+          "crop": "samples/adv-r2-test-07-e1.png",
+          "source_pixel_size": [
+            980,
+            1286
+          ],
+          "status": "assistant inspected original rendered page and bounded region; not human-confirmed"
+        }
+      ],
+      "source_verified": true,
+      "human_confirmed": false
+    },
+    {
+      "query_id": "adv-r2-test-08",
+      "group": "image",
+      "evidence": [
+        {
+          "page": 116,
+          "printed_page": "96",
+          "region_label": "Figure 3.2 — Economic-activity data cycle, input feed, and support bar",
+          "bbox": [
+            0.113,
+            0.085,
+            0.907,
+            0.622
+          ],
+          "crop": "samples/adv-r2-test-08-e1.png",
+          "source_pixel_size": [
+            980,
+            1286
+          ],
+          "status": "assistant inspected original rendered page and bounded region; not human-confirmed"
+        }
+      ],
+      "source_verified": true,
+      "human_confirmed": false
+    },
+    {
+      "query_id": "adv-r2-test-09",
+      "group": "image",
+      "evidence": [
+        {
+          "page": 211,
+          "printed_page": "191",
+          "region_label": "Figure 6.1 — Three intersecting dimensions and color legend",
+          "bbox": [
+            0.454,
+            0.085,
+            0.917,
+            0.513
+          ],
+          "crop": "samples/adv-r2-test-09-e1.png",
+          "source_pixel_size": [
+            980,
+            1286
+          ],
+          "status": "assistant inspected original rendered page and bounded region; not human-confirmed"
+        }
+      ],
+      "source_verified": true,
+      "human_confirmed": false
+    },
+    {
+      "query_id": "adv-r2-test-10",
+      "group": "image",
+      "evidence": [
+        {
+          "page": 290,
+          "printed_page": "270",
+          "region_label": "Figure 8.2 — Learning/evidence and rule-making sectors",
+          "bbox": [
+            0.084,
+            0.085,
+            0.542,
+            0.473
+          ],
+          "crop": "samples/adv-r2-test-10-e1.png",
+          "source_pixel_size": [
+            980,
+            1286
+          ],
+          "status": "assistant inspected original rendered page and bounded region; not human-confirmed"
+        }
+      ],
+      "source_verified": true,
+      "human_confirmed": false
+    },
+    {
+      "query_id": "adv-r2-test-11",
+      "group": "image",
+      "evidence": [
+        {
+          "page": 335,
+          "printed_page": "315",
+          "region_label": "Figure 9.5 — Establishing fundamentals and initiating data flows",
+          "bbox": [
+            0.092,
+            0.607,
+            0.797,
+            0.943
+          ],
+          "crop": "samples/adv-r2-test-11-e1.png",
+          "source_pixel_size": [
+            980,
+            1286
+          ],
+          "status": "assistant inspected original rendered page and bounded region; not human-confirmed"
+        }
+      ],
+      "source_verified": true,
+      "human_confirmed": false
+    },
+    {
+      "query_id": "adv-r2-test-12",
+      "group": "chart",
+      "evidence": [
+        {
+          "page": 76,
+          "printed_page": "56",
+          "region_label": "Figure 2.2 — Mean and median repair-time bars, axes, and legend",
+          "bbox": [
+            0.077,
+            0.688,
+            0.543,
+            0.941
+          ],
+          "crop": "samples/adv-r2-test-12-e1.png",
+          "source_pixel_size": [
+            980,
+            1286
+          ],
+          "status": "assistant inspected original rendered page and bounded region; not human-confirmed"
+        }
+      ],
+      "source_verified": true,
+      "human_confirmed": false
+    },
+    {
+      "query_id": "adv-r2-test-13",
+      "group": "chart",
+      "evidence": [
+        {
+          "page": 180,
+          "printed_page": "160",
+          "region_label": "Figure 5.2 — Broadband subscriptions by income group",
+          "bbox": [
+            0.566,
+            0.086,
+            0.914,
+            0.47
+          ],
+          "crop": "samples/adv-r2-test-13-e1.png",
+          "source_pixel_size": [
+            980,
+            1286
+          ],
+          "status": "assistant inspected original rendered page and bounded region; not human-confirmed"
+        }
+      ],
+      "source_verified": true,
+      "human_confirmed": false
+    },
+    {
+      "query_id": "adv-r2-test-14",
+      "group": "chart",
+      "evidence": [
+        {
+          "page": 195,
+          "printed_page": "175",
+          "region_label": "Figure B5.1.2 — Net-flow and nominal-monthly-earnings panels",
+          "bbox": [
+            0.093,
+            0.087,
+            0.796,
+            0.542
+          ],
+          "crop": "samples/adv-r2-test-14-e1.png",
+          "source_pixel_size": [
+            980,
+            1286
+          ],
+          "status": "assistant inspected original rendered page and bounded region; not human-confirmed"
+        }
+      ],
+      "source_verified": true,
+      "human_confirmed": false
+    },
+    {
+      "query_id": "adv-r2-test-15",
+      "group": "chart",
+      "evidence": [
+        {
+          "page": 250,
+          "printed_page": "230",
+          "region_label": "Figure 7.2 — Antitrust-case treemaps, panel headers, and note",
+          "bbox": [
+            0.083,
+            0.587,
+            0.908,
+            0.939
+          ],
+          "crop": "samples/adv-r2-test-15-e1.png",
+          "source_pixel_size": [
+            980,
+            1286
+          ],
+          "status": "assistant inspected original rendered page and bounded region; not human-confirmed"
+        }
+      ],
+      "source_verified": true,
+      "human_confirmed": false
+    },
+    {
+      "query_id": "adv-r2-test-16",
+      "group": "chart",
+      "evidence": [
+        {
+          "page": 268,
+          "printed_page": "248",
+          "region_label": "Figure 7.6 — 2025 stacked tax-potential bar, axes, legend, and note",
+          "bbox": [
+            0.204,
+            0.085,
+            0.913,
+            0.396
+          ],
+          "crop": "samples/adv-r2-test-16-e1.png",
+          "source_pixel_size": [
+            980,
+            1286
+          ],
+          "status": "assistant inspected original rendered page and bounded region; not human-confirmed"
+        }
+      ],
+      "source_verified": true,
+      "human_confirmed": false
+    },
+    {
+      "query_id": "adv-r2-test-17",
+      "group": "multihop",
+      "evidence": [
+        {
+          "page": 191,
+          "printed_page": "171",
+          "region_label": "Figure 5.11 — Stage 0/3 wireless prices and ladder legend",
+          "bbox": [
+            0.092,
+            0.604,
+            0.87,
+            0.911
+          ],
+          "crop": "samples/adv-r2-test-17-e1.png",
+          "source_pixel_size": [
+            980,
+            1286
+          ],
+          "status": "assistant inspected original rendered page and bounded region; not human-confirmed"
+        },
+        {
+          "page": 193,
+          "printed_page": "173",
+          "region_label": "Text paragraph — Cloud on-ramps",
+          "bbox": [
+            0.454,
+            0.146,
+            0.799,
+            0.48
+          ],
+          "crop": "samples/adv-r2-test-17-e2.png",
+          "source_pixel_size": [
+            980,
+            1286
+          ],
+          "status": "assistant inspected original rendered page and bounded region; not human-confirmed"
+        }
+      ],
+      "source_verified": true,
+      "human_confirmed": false
+    },
+    {
+      "query_id": "adv-r2-test-18",
+      "group": "multihop",
+      "evidence": [
+        {
+          "page": 286,
+          "printed_page": "266",
+          "region_label": "Box 8.1 — Agesic launch, leadership, and platform name",
+          "bbox": [
+            0.565,
+            0.621,
+            0.909,
+            0.907
+          ],
+          "crop": "samples/adv-r2-test-18-e1.png",
+          "source_pixel_size": [
+            980,
+            1286
+          ],
+          "status": "assistant inspected original rendered page and bounded region; not human-confirmed"
+        },
+        {
+          "page": 287,
+          "printed_page": "267",
+          "region_label": "Box 8.1 continued — Technical foundation",
+          "bbox": [
+            0.092,
+            0.087,
+            0.797,
+            0.31
+          ],
+          "crop": "samples/adv-r2-test-18-e2.png",
+          "source_pixel_size": [
+            980,
+            1286
+          ],
+          "status": "assistant inspected original rendered page and bounded region; not human-confirmed"
+        }
+      ],
+      "source_verified": true,
+      "human_confirmed": false
+    },
+    {
+      "query_id": "adv-r2-test-19",
+      "group": "multihop",
+      "evidence": [
+        {
+          "page": 123,
+          "printed_page": "103",
+          "region_label": "Text paragraph — Alternative credit scoring algorithms",
+          "bbox": [
+            0.092,
+            0.528,
+            0.438,
+            0.641
+          ],
+          "crop": "samples/adv-r2-test-19-e1.png",
+          "source_pixel_size": [
+            980,
+            1286
+          ],
+          "status": "assistant inspected original rendered page and bounded region; not human-confirmed"
+        },
+        {
+          "page": 130,
+          "printed_page": "110",
+          "region_label": "Text paragraph — Credit scoring bias and social-network effects",
+          "bbox": [
+            0.566,
+            0.195,
+            0.913,
+            0.542
+          ],
+          "crop": "samples/adv-r2-test-19-e2.png",
+          "source_pixel_size": [
+            980,
+            1286
+          ],
+          "status": "assistant inspected original rendered page and bounded region; not human-confirmed"
+        }
+      ],
+      "source_verified": true,
+      "human_confirmed": false
+    },
+    {
+      "query_id": "adv-r2-test-20",
+      "group": "multihop",
+      "evidence": [
+        {
+          "page": 77,
+          "printed_page": "57",
+          "region_label": "Text paragraph — Croatia poverty-map allocation",
+          "bbox": [
+            0.092,
+            0.086,
+            0.438,
+            0.371
+          ],
+          "crop": "samples/adv-r2-test-20-e1.png",
+          "source_pixel_size": [
+            980,
+            1286
+          ],
+          "status": "assistant inspected original rendered page and bounded region; not human-confirmed"
+        },
+        {
+          "page": 77,
+          "printed_page": "57",
+          "region_label": "Text paragraph — Multidimensional poverty indexes",
+          "bbox": [
+            0.454,
+            0.8,
+            0.799,
+            0.94
+          ],
+          "crop": "samples/adv-r2-test-20-e2.png",
+          "source_pixel_size": [
+            980,
+            1286
+          ],
+          "status": "assistant inspected original rendered page and bounded region; not human-confirmed"
+        },
+        {
+          "page": 78,
+          "printed_page": "58",
+          "region_label": "Text paragraph — Costa Rica index and budget constraint",
+          "bbox": [
+            0.204,
+            0.086,
+            0.547,
+            0.212
+          ],
+          "crop": "samples/adv-r2-test-20-e3.png",
+          "source_pixel_size": [
+            980,
+            1286
+          ],
+          "status": "assistant inspected original rendered page and bounded region; not human-confirmed"
+        }
+      ],
+      "source_verified": true,
+      "human_confirmed": false
+    },
+    {
+      "query_id": "adv-r2-test-21",
+      "group": "text",
+      "evidence": [
+        {
+          "page": 216,
+          "printed_page": "196",
+          "region_label": "Text paragraph — Good-practice limits on government exceptions",
+          "bbox": [
+            0.566,
+            0.086,
+            0.913,
+            0.353
+          ],
+          "crop": "samples/adv-r2-test-21-e1.png",
+          "source_pixel_size": [
+            980,
+            1286
+          ],
+          "status": "assistant inspected original rendered page and bounded region; not human-confirmed"
+        }
+      ],
+      "source_verified": true,
+      "human_confirmed": false
+    },
+    {
+      "query_id": "adv-r2-test-22",
+      "group": "text",
+      "evidence": [
+        {
+          "page": 78,
+          "printed_page": "58",
+          "region_label": "Text paragraph — Uganda procurement transparency and reform",
+          "bbox": [
+            0.204,
+            0.512,
+            0.548,
+            0.878
+          ],
+          "crop": "samples/adv-r2-test-22-e1.png",
+          "source_pixel_size": [
+            980,
+            1286
+          ],
+          "status": "assistant inspected original rendered page and bounded region; not human-confirmed"
+        }
+      ],
+      "source_verified": true,
+      "human_confirmed": false
+    },
+    {
+      "query_id": "adv-r2-test-23",
+      "group": "text",
+      "evidence": [
+        {
+          "page": 207,
+          "printed_page": "187",
+          "region_label": "Text paragraph — Equinix renewable energy and GHG reduction",
+          "bbox": [
+            0.092,
+            0.15,
+            0.437,
+            0.31
+          ],
+          "crop": "samples/adv-r2-test-23-e1.png",
+          "source_pixel_size": [
+            980,
+            1286
+          ],
+          "status": "assistant inspected original rendered page and bounded region; not human-confirmed"
+        }
+      ],
+      "source_verified": true,
+      "human_confirmed": false
+    },
+    {
+      "query_id": "adv-r2-test-24",
+      "group": "text",
+      "evidence": [
+        {
+          "page": 332,
+          "printed_page": "312",
+          "region_label": "Text paragraph — Estonia council and X-Road transparency",
+          "bbox": [
+            0.566,
+            0.229,
+            0.913,
+            0.527
+          ],
+          "crop": "samples/adv-r2-test-24-e1.png",
+          "source_pixel_size": [
+            980,
+            1286
+          ],
+          "status": "assistant inspected original rendered page and bounded region; not human-confirmed"
+        }
+      ],
+      "source_verified": true,
+      "human_confirmed": false
+    },
+    {
+      "query_id": "adv-r2-test-25",
+      "group": "unanswerable",
+      "evidence": [
+        {
+          "page": 76,
+          "printed_page": "56",
+          "region_label": "Figure 2.2 — Aggregate repair times only",
+          "bbox": [
+            0.077,
+            0.688,
+            0.543,
+            0.941
+          ],
+          "crop": "samples/adv-r2-test-25-e1.png",
+          "source_pixel_size": [
+            980,
+            1286
+          ],
+          "status": "assistant inspected original rendered page and bounded region; not human-confirmed"
+        }
+      ],
+      "source_verified": true,
+      "human_confirmed": false
+    },
+    {
+      "query_id": "adv-r2-test-26",
+      "group": "unanswerable",
+      "evidence": [
+        {
+          "page": 195,
+          "printed_page": "175",
+          "region_label": "Box 5.1 and Figure B5.1.2 note — Aggregate outflow and skill definition",
+          "bbox": [
+            0.093,
+            0.087,
+            0.796,
+            0.789
+          ],
+          "crop": "samples/adv-r2-test-26-e1.png",
+          "source_pixel_size": [
+            980,
+            1286
+          ],
+          "status": "assistant inspected original rendered page and bounded region; not human-confirmed"
+        }
+      ],
+      "source_verified": true,
+      "human_confirmed": false
+    },
+    {
+      "query_id": "adv-r2-test-27",
+      "group": "unanswerable",
+      "evidence": [
+        {
+          "page": 268,
+          "printed_page": "248",
+          "region_label": "Figure 7.6 — Aggregated tax-potential stacks and note",
+          "bbox": [
+            0.204,
+            0.085,
+            0.913,
+            0.396
+          ],
+          "crop": "samples/adv-r2-test-27-e1.png",
+          "source_pixel_size": [
+            980,
+            1286
+          ],
+          "status": "assistant inspected original rendered page and bounded region; not human-confirmed"
+        }
+      ],
+      "source_verified": true,
+      "human_confirmed": false
+    },
+    {
+      "query_id": "adv-r2-test-28",
+      "group": "unanswerable",
+      "evidence": [
+        {
+          "page": 207,
+          "printed_page": "187",
+          "region_label": "Text paragraph — Equinix relative outcome",
+          "bbox": [
+            0.092,
+            0.15,
+            0.437,
+            0.31
+          ],
+          "crop": "samples/adv-r2-test-28-e1.png",
+          "source_pixel_size": [
+            980,
+            1286
+          ],
+          "status": "assistant inspected original rendered page and bounded region; not human-confirmed"
+        },
+        {
+          "page": 207,
+          "printed_page": "187",
+          "region_label": "Spotlight 5.2 note 2 — Emissions accounting bases across columns",
+          "bbox": [
+            0.091,
+            0.872,
+            0.438,
+            0.912
+          ],
+          "crop": "samples/adv-r2-test-28-e2.png",
+          "source_pixel_size": [
+            980,
+            1286
+          ],
+          "status": "assistant inspected original rendered page and bounded region; not human-confirmed"
+        },
+        {
+          "page": 207,
+          "printed_page": "187",
+          "region_label": "Spotlight 5.2 note 2 continued — Basis explanation",
+          "bbox": [
+            0.454,
+            0.12,
+            0.799,
+            0.19
+          ],
+          "crop": "samples/adv-r2-test-28-e3.png",
+          "source_pixel_size": [
+            980,
+            1286
+          ],
+          "status": "assistant inspected original rendered page and bounded region; not human-confirmed"
+        }
+      ],
+      "source_verified": true,
+      "human_confirmed": false
+    },
+    {
+      "query_id": "adv-r2-test-29",
+      "group": "unanswerable",
+      "evidence": [
+        {
+          "page": 77,
+          "printed_page": "57",
+          "region_label": "Text paragraph — Croatia allocation proposals",
+          "bbox": [
+            0.092,
+            0.086,
+            0.438,
+            0.371
+          ],
+          "crop": "samples/adv-r2-test-29-e1.png",
+          "source_pixel_size": [
+            980,
+            1286
+          ],
+          "status": "assistant inspected original rendered page and bounded region; not human-confirmed"
+        }
+      ],
+      "source_verified": true,
+      "human_confirmed": false
+    },
+    {
+      "query_id": "adv-r2-test-30",
+      "group": "unanswerable",
+      "evidence": [
+        {
+          "page": 264,
+          "printed_page": "244",
+          "region_label": "Table 7.2 — RCEP provision column and legend",
+          "bbox": [
+            0.083,
+            0.084,
+            0.909,
+            0.466
+          ],
+          "crop": "samples/adv-r2-test-30-e1.png",
+          "source_pixel_size": [
+            980,
+            1286
+          ],
+          "status": "assistant inspected original rendered page and bounded region; not human-confirmed"
+        }
+      ],
+      "source_verified": true,
+      "human_confirmed": false
+    }
+  ],
+  "limitations": [
+    "One assistant author/reviewer; no independent human confirmation.",
+    "Approximate unlabeled bars have explicit accepted reading ranges; exact plotted labels retain exact values.",
+    "Full-document native text search cannot prove universal absence; contextual and original-pixel checks supplement it.",
+    "Round2 Dev is intentionally copied byte-for-byte from original Dev; only the 30 Test cases are fresh.",
+    "Questions may name figure/table locators, but answers require row, legend, axis, relation, calculation, or condition content."
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "38388e665e6f42ca91b8ce569dac4417",
+  "label": "index:p154",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 4141,
+  "maximum_output_tokens": 6000,
+  "images": [
+    {
+      "page": 154,
+      "path": "advanced/data/pages/p154.jpg",
+      "sha256": "c28f7ed58d3a557324ddad7a79f8ee5a85333e9c32edc106f572f0c7883be808"
+    }
+  ],
+  "instructions_sha256": "01d3a56b3c678b1acd37e506320a854b17dd9ddb13ece56a92b62990aeb80d41",
+  "usage": {
+    "input_tokens": 4141,
+    "input_tokens_details": {
+      "cache_write_tokens": 4138,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 4138
+      }
+    },
+    "output_tokens": 542,
+    "output_tokens_details": {
+      "reasoning_tokens": 141
+    },
+    "total_tokens": 4683
+  },
+  "response_id": "resp_03db581a41c8076a016afa907c523087d293634501e0de32f8",
+  "response_status": "completed",
+  "output_text": "{\"regions\":[{\"label\":\"Figure 4.1\",\"kind\":\"chart\",\"bbox\":[0.083,0.087,0.53,0.382],\"summary\":\"Network coverage by farm size and internet service (2G, 3G, 4G); 2G coverage is consistently high, while 4G coverage rises with farm size.\",\"details\":\"Title: “Gaps in network coverage differ across farm sizes, affecting agricultural extension services.” Horizontal axis: Farm size (hectares), categories 0–1, 1–2, 2–5, 5–10, 10–50, 50–100, 100–200, >200. Vertical axis: Network coverage (%), 0–100, with gridlines at 20-point intervals. Legend: 2G (green), 3G (orange), 4G (purple). Approximate plotted values by category, in axis order: 2G: 81, 80, 88, 80, 87, 84, 91, 87%; 3G: 37, 50, 64, 56, 58, 84, 84, 80%; 4G: 23, 33, 39, 40, 40, 48, 56, 73%. Comparisons: 2G coverage remains around 80–91% across farm sizes; 3G rises overall but dips at 5–10 and 10–50 hectares before reaching about 84% for 50–200 hectares; 4G increases with farm size, especially above 100 hectares. Source: Mehrabi et al. 2020. Data at http://bit.do/WDR2021-Fig-4_1.\",\"limitations\":\"Values are approximate readings from the plotted lines; exact point values are not printed.\"}]}",
+  "elapsed_seconds": 8.087490199999593
+}

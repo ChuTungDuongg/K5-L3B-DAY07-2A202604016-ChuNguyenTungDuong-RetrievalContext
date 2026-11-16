@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "frozen_at_local": "2026-11-16T12:17:57.362480+07:00",
+  "frozen_before_first_experiment": true,
+  "pdf_sha256": "606c8452c8b23c01d81919c3974972bebeb1e60348a56ea40cc3ae841e301616",
+  "pdf_physical_pages": 350,
+  "source_url": "https://documents1.worldbank.org/curated/en/248201616598597113/pdf/World-Development-Report-2021-Data-for-Better-Lives.pdf",
+  "gold_status": "assistant-proposed source-verified; learner confirmation pending",
+  "authoring": "one dedicated benchmark-author assistant, independent of inference development",
+  "files": {
+    "dev.json": {
+      "sha256": "4e892a12a132de6f51eaa81ee93ed057aa3a38e47a5afac28b313777ca90b745",
+      "bytes": 30599
+    },
+    "test.json": {
+      "sha256": "e60bb6943846a45e0af5d3dd1719eb8d06014983afa25e50ebcb62bb1d6d192e",
+      "bytes": 52407
+    },
+    "absence_search_audit.json": {
+      "sha256": "36a51098c793cf3d6a2528cc4d0cd9c4b491496fe2f5fd2eb42efc5543d61357",
+      "bytes": 10396
+    },
+    "verification_manifest.json": {
+      "sha256": "a341ac745ebd6f08a99f479e02d932ad8c43100b85bafc22849e9ae253f08427",
+      "bytes": 14207
+    },
+    "evidence_checks.md": {
+      "sha256": "98b71fcbb6c5da45a07f433029722f0756f7f2bdd8f9f27bf5ff92bfe1a1171d",
+      "bytes": 6955
+    },
+    "samples/dev-table-1.1.png": {
+      "sha256": "01c6d3574c65224a530ccd2703c2d2116c9aa50463256be0be71c257aa3dfa08",
+      "bytes": 58163
+    },
+    "samples/dev-diagram-1.2.png": {
+      "sha256": "46396ed22a39f4b6b474a54ebc4601a6e97226e4161e5075fd8a9d06e4364793",
+      "bytes": 82413
+    },
+    "samples/dev-chart-5.3.png": {
+      "sha256": "c3dc5f708d6f1f930e35abe20cabef8e22f1e65592a1ac7e0bac8881bb7262ac",
+      "bytes": 75506
+    }
+  },
+  "counts": {
+    "dev": {
+      "total": 18,
+      "answerable": 15,
+      "unanswerable": 3,
+      "groups": {
+        "table": 3,
+        "image": 3,
+        "chart": 3,
+        "multihop": 3,
+        "text": 3,
+        "unanswerable": 3
+      }
+    },
+    "test": {
+      "total": 30,
+      "answerable": 24,
+      "unanswerable": 6,
+      "groups": {
+        "table": 6,
+        "image": 5,
+        "chart": 5,
+        "multihop": 4,
+        "text": 4,
+        "unanswerable": 6
+      }
+    }
+  },
+  "coordinate_system": "top-left origin, normalized x0,y0,x1,y1; physical pages 1-based; printed body page=physical-20"
+}

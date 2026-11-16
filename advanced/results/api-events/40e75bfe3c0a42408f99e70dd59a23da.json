@@ -1,0 +1,35 @@
+{
+  "id": "40e75bfe3c0a42408f99e70dd59a23da",
+  "label": "index:p089",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 4172,
+  "maximum_output_tokens": 6000,
+  "images": [
+    {
+      "page": 89,
+      "path": "advanced/data/pages/p089.jpg",
+      "sha256": "d4aa9879dd1ae6d06fdc83cd20009ec4ab8e5082a5137a3e0d45e953f3178336"
+    }
+  ],
+  "instructions_sha256": "01d3a56b3c678b1acd37e506320a854b17dd9ddb13ece56a92b62990aeb80d41",
+  "usage": {
+    "input_tokens": 4172,
+    "input_tokens_details": {
+      "cache_write_tokens": 4169,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 4169
+      }
+    },
+    "output_tokens": 419,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 4591
+  },
+  "response_id": "resp_0434391f2d0393a6016afa904a8b1487d2a85da47a5253a1b1",
+  "response_status": "completed",
+  "output_text": "{\"regions\":[{\"label\":\"Figure 2.9\",\"kind\":\"chart\",\"bbox\":[0.093,0.088,0.923,0.423],\"summary\":\"Two scatterplots show positive correlations between statistical performance and (a) NSO independence among African countries and (b) press freedom among countries with data. Both panels include upward-sloping trend lines.\",\"details\":\"Title: “Greater NSO independence and freedom of the press are positively correlated with better statistical performance.” Panel a, “NSO independence and statistical performance”: x-axis NSO independence score, 0–100; y-axis Statistical Performance Index, 0–70. Green x marks represent countries; a pink fitted line rises from about 30 at x=0 to about 49 at x=100. R² = 0.22. Panel b, “Freedom of the press and statistical performance”: x-axis RSF World Press Freedom Index, reversed from 100 at left to 0 at right; y-axis Statistical Performance Index, 0–90. Green x marks represent countries; the pink fitted line rises as the index value decreases, from about 19 near x=85 to about 67 near x=5. R² = 0.23. Sources name the Mo Ibrahim Foundation’s Ibrahim Index of African Governance and Reporters Without Borders’ 2020 World Press Freedom Index; data URL shown as http://bit.do/WDR2021-Fig-2_9. Note: x’s represent countries; panel a includes African countries only, panel b all countries with available data. NSO independence score ranges 0–100; World Press Freedom Index ranges 100–0, with lower values meaning greater press freedom. Statistical Performance Index is attributed to World Bank Statistical Performance Indicators. Axes and individual country values are visible, but exact values for most marks are not labeled.\",\"limitations\":\"Scatter points have no country labels. Values are approximate when read from plotted positions; source text does not provide a point-by-point dataset.\"}]}",
+  "elapsed_seconds": 6.864639400002488
+}

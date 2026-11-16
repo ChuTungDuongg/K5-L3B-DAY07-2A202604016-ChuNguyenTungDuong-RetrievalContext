@@ -1,0 +1,35 @@
+{
+  "id": "be8fc2c0aa6546f18d7c3b5a64f6710b",
+  "label": "index:p296",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 4014,
+  "maximum_output_tokens": 6000,
+  "images": [
+    {
+      "page": 296,
+      "path": "advanced/data/pages/p296.jpg",
+      "sha256": "c36f509f15c1f8e408f0f73f66860ce3e1267638d41ebb5dfed0617d8d160060"
+    }
+  ],
+  "instructions_sha256": "01d3a56b3c678b1acd37e506320a854b17dd9ddb13ece56a92b62990aeb80d41",
+  "usage": {
+    "input_tokens": 4014,
+    "input_tokens_details": {
+      "cache_write_tokens": 4011,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 4011
+      }
+    },
+    "output_tokens": 445,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 4459
+  },
+  "response_id": "resp_0feffbb94b24996b016afa90eb330887d29b0deff7dbbe87f3",
+  "response_status": "completed",
+  "output_text": "{\"regions\":[{\"label\":\"Figure 8.4\",\"kind\":\"chart\",\"bbox\":[0.204,0.087,0.548,0.533],\"summary\":\"Share of countries with data protection authorities by income group, showing planned/in-progress and established authorities.\",\"details\":\"Grouped bar chart. Y-axis: “Share of countries with data protection authority (%)”, 0–90 in 10-point increments. Income groups on x-axis, left to right: Low-income, Lower-middle-income, Upper-middle-income, High-income. Legend: blue = In progress or planned; orange = Established. Values (%): Low-income 3 planned/in progress, 24 established; Lower-middle-income 16, 38; Upper-middle-income 2, 45; High-income 5, 81. Established shares rise across income groups; planned/in-progress shares are much smaller. Note: Data are for 198 economies. Source: WDR 2021 team calculations based on World Bank DGSS dataset.\",\"limitations\":\"Bar labels provide the values; exact underlying counts and rounding conventions are not shown.\"},{\"label\":\"Figure 8.5\",\"kind\":\"chart\",\"bbox\":[0.567,0.087,0.91,0.508],\"summary\":\"Share of countries with antitrust authorities by income group, showing planned and operational authorities.\",\"details\":\"Grouped bar chart. Y-axis: “Share of countries with antitrust authority (%)”, 0–80 in 10-point increments. Income groups on x-axis, left to right: Low-income, Lower-middle-income, Upper-middle-income, High-income. Legend: blue = Planned; orange = Operational. Values (%): Low-income 17 planned, 52 operational; Lower-middle-income 12, 64; Upper-middle-income 2, 68; High-income 4, 75. Operational shares exceed planned shares in every group and are above 50% across all income groups. Note: Data are for 218 economies. Source: WDR 2021 team calculations based on World Bank data.\",\"limitations\":\"Bar labels provide the values; exact underlying counts and rounding conventions are not shown.\"}]}",
+  "elapsed_seconds": 6.75486980000278
+}

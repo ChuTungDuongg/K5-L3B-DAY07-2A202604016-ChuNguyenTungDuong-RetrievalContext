@@ -1,0 +1,35 @@
+{
+  "id": "38a6533142ac4183ad7b9cd2fbbcb5ea",
+  "label": "index:p153",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 3950,
+  "maximum_output_tokens": 6000,
+  "images": [
+    {
+      "page": 153,
+      "path": "advanced/data/pages/p153.jpg",
+      "sha256": "44f79d7078d475615c340bf4b978a532d77d553110f34862f086620c5968bc75"
+    }
+  ],
+  "instructions_sha256": "01d3a56b3c678b1acd37e506320a854b17dd9ddb13ece56a92b62990aeb80d41",
+  "usage": {
+    "input_tokens": 3950,
+    "input_tokens_details": {
+      "cache_write_tokens": 3947,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 3947
+      }
+    },
+    "output_tokens": 273,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 4223
+  },
+  "response_id": "resp_002184f16737a7d8016afa90787d9c87d28fbcc567d029e630",
+  "response_status": "completed",
+  "output_text": "{\"regions\":[{\"label\":\"Map 4.2 — Agricultural extension services can be tailored to the slower, older broadband internet accessible to many small-scale farmers\",\"kind\":\"map\",\"bbox\":[0.093,0.603,0.917,0.928],\"summary\":\"World map showing mobile network coverage on farms, classified as 4G, 3G, 2G, or no coverage.\",\"details\":\"Global map with farm locations colored by mobile network coverage. Legend at lower left: 4G (dark purple), 3G (orange), 2G (green), None (light gray). Coverage patterns vary geographically; the map shows substantial areas of 4G coverage in parts of North America and Europe, and mixed 3G/2G/no coverage across many farm areas in Africa, South Asia, and other regions. Source: Mehrabi et al. 2020; data link printed as http://bit.do/WDR2021-Map-4_2. Map identifier printed inside map: IBRD WLD45647 | MARCH 2021.\",\"limitations\":\"Map has no numerical scale or tabulated values; individual locations and coverage classes are difficult to distinguish at this resolution. The title’s phrasing is descriptive and does not itself encode quantitative comparisons.\"}]}",
+  "elapsed_seconds": 5.018411899996863
+}

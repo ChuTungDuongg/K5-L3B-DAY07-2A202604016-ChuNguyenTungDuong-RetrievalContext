@@ -1,0 +1,55 @@
+{
+  "id": "aacde10d7dbc4ae1b08a0a02d4ed2f66",
+  "label": "20261116-121901-dev-candidate-25029307:adv-dev-14:step0",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 20609,
+  "maximum_output_tokens": 3500,
+  "images": [
+    {
+      "page": 206,
+      "path": "advanced/data/pages/p206.jpg",
+      "sha256": "828f4f88e58748363cc2e59ea9f01263c2941fab1269951c522ec833eb2e64bd"
+    },
+    {
+      "page": 23,
+      "path": "advanced/data/pages/p023.jpg",
+      "sha256": "e4e2a4a30969ff42e78299d02dcae194179b3a78b23afd9f294b812bcfb6935b"
+    },
+    {
+      "page": 31,
+      "path": "advanced/data/pages/p031.jpg",
+      "sha256": "1468f7a6310238df8acb638bd4a9ceaee79032c345d0fd8b51b4339f55ba9445"
+    },
+    {
+      "page": 90,
+      "path": "advanced/data/pages/p090.jpg",
+      "sha256": "420635c50adaf927796ce7395e9047dec6c32ea9e7e020bc9808e2a42ae394fb"
+    },
+    {
+      "page": 8,
+      "path": "advanced/data/pages/p008.jpg",
+      "sha256": "db0dbafd1b954d91c8c9134ddc2e6fa9ae5c0ece7cbf43819e1d67fc0038df4a"
+    }
+  ],
+  "instructions_sha256": "ea16e5e82aecd9d10ddbf9ad06d2474cc521d3d867a62d5379a957bcf9904631",
+  "usage": {
+    "input_tokens": 20609,
+    "input_tokens_details": {
+      "cache_write_tokens": 20606,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 20606
+      }
+    },
+    "output_tokens": 249,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 20858
+  },
+  "response_id": "resp_01ea004f60a141ff016afa92dbf13c87d28212c2ee2806dd6d",
+  "response_status": "completed",
+  "output_text": "{\"action\":\"answer\",\"expression\":\"\",\"queries\":[],\"pages\":[206],\"status\":\"answered\",\"answer\":\"From 2015 to 2018, data traffic grew 100%, while associated electricity consumption rose only 16%. The report attributes the gap to large gains in energy efficiency: a shift from smaller data centers to more efficient larger ones, and modernization of telecommunications networks. It gives fiber-optic cable as 85% more energy efficient than vintage copper wires and notes that each new wireless generation uses less energy than the previous one.\",\"citations\":[{\"page\":206,\"region_label\":\"Spotlight 5.2, “Data’s carbon footprint,” paragraph above Figure S5.2.1 (printed page 186)\",\"bbox\":[0.203,0.394,0.804,0.535],\"quote\":\"Although data traffic grew 100 percent from 2015 to 2018, associated electricity consumption rose just 16 percent... One reason is a shift from smaller data centers to more efficient larger ones... Fiber-optic cable is 85 percent more energy efficient than vintage copper wires, while each successive generation of wireless technology conserves more energy than the previous one.\"}]}",
+  "elapsed_seconds": 8.640809899996384
+}

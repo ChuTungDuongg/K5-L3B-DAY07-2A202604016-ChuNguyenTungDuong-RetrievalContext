@@ -1,0 +1,35 @@
+{
+  "id": "0749f263d020423cbe40959082f63b2a",
+  "label": "index:p059",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 3940,
+  "maximum_output_tokens": 6000,
+  "images": [
+    {
+      "page": 59,
+      "path": "advanced/data/pages/p059.jpg",
+      "sha256": "d8f405fc0c2f7fb7e305fd167d113275b26fc417a6f747dcafbadbc0dd6196da"
+    }
+  ],
+  "instructions_sha256": "01d3a56b3c678b1acd37e506320a854b17dd9ddb13ece56a92b62990aeb80d41",
+  "usage": {
+    "input_tokens": 3940,
+    "input_tokens_details": {
+      "cache_write_tokens": 3937,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 3937
+      }
+    },
+    "output_tokens": 377,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 4317
+  },
+  "response_id": "resp_0be6457536ba4442016afa9022d56887d2956a35a8fa6e47d4",
+  "response_status": "completed",
+  "output_text": "{\"regions\":[{\"label\":\"Figure 1.4 — Data governance layers at the national and international levels\",\"kind\":\"diagram\",\"bbox\":[0.094,0.087,0.797,0.533],\"summary\":\"Four data-governance layers compare policy priorities at national and international levels: infrastructure policies, laws and regulations, economic policies, and institutions.\",\"details\":\"The diagram has four horizontal rows. Each row pairs an illustrated layer label at left with National and International columns.\\n\\n• Infrastructure policies — National: “Universal coverage of broadband networks”; “Domestic infrastructure to exchange, store, and process data.” International: “Global technical standards for compatibility of hardware and software”; “Regional collaboration on data infrastructure to achieve scale.”\\n• Laws and regulations — National: “Safeguards to secure and protect data from the threat of misuse”; “Enablers to facilitate data sharing among different stakeholders.” International: “Cybersecurity conventions for collaboration on tackling cybercrime”; “Interoperability standards to facilitate data exchanges across borders.”\\n• Economic policies — National: “Antitrust for data platform businesses”; “Trade in data-enabled services”; “Taxation of data platform businesses.” International: “International tax treaties to allocate taxation rights across countries”; “Global trade agreements on cross-border trade in data-enabled services.”\\n• Institutions — National: “Government entities to oversee, regulate, and secure data”; “Other stakeholders to set standards and increase data access and reuse.” International: “International organizations to support collaboration on data governance and promote standardization”; “Cooperation on cross-border regulatory spillovers and enforcement issues.”\\nSource: WDR 2021 team.\",\"limitations\":\"The figure is legible. The native text contains a likely OCR error (“dierent”); the image reads “different.”\"}]}",
+  "elapsed_seconds": 5.934316300001228
+}

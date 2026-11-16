@@ -1,0 +1,9 @@
+{
+  "round": 2,
+  "claimed_local": "2026-11-16T16:54:45.681466+07:00",
+  "state": "completed",
+  "selection_sha256": "67eb92db3ce92c0690af4e2e7bc053abf15e238c40acd2724f5a96bfb5e34984",
+  "policy": "One official run per round. A failed claim must be audited; never delete it to select a better result.",
+  "run_id": "20261116-165446-r2-test-baseline-cbad637d",
+  "completed_local": "2026-11-16T17:03:40.785518+07:00"
+}

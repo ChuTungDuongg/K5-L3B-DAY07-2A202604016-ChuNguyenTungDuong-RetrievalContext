@@ -1,0 +1,45 @@
+{
+  "id": "cbbded4517e54e3f8a2c32e2f1531281",
+  "label": "20261116-165446-r2-test-baseline-cbad637d:adv-r2-test-24:review0",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 12866,
+  "maximum_output_tokens": 3500,
+  "images": [
+    {
+      "page": 332,
+      "path": "advanced/data/pages/p332.jpg",
+      "sha256": "eef264c350fd511c735956fb0cb0af42227704562b41feced993e1bde0a73ed0"
+    },
+    {
+      "page": 38,
+      "path": "advanced/data/pages/p038.jpg",
+      "sha256": "bc417710ee043cf1b8c4eeb566072e91e6f66ef4f6eea0ce9420e05769bd6d88"
+    },
+    {
+      "page": 342,
+      "path": "advanced/data/pages/p342.jpg",
+      "sha256": "093eaae997e808a8868b0f02e9ebb8337118e56f89320b6b510b9b15f0201c4f"
+    }
+  ],
+  "instructions_sha256": "0507604096aab315eb8e0306caca34acc2d0bedacd7d3b2ec25cc18ae985e348",
+  "usage": {
+    "input_tokens": 12866,
+    "input_tokens_details": {
+      "cache_write_tokens": 12863,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 12863
+      }
+    },
+    "output_tokens": 366,
+    "output_tokens_details": {
+      "reasoning_tokens": 138
+    },
+    "total_tokens": 13232
+  },
+  "response_id": "resp_0826bbc1f2fa8288016afad469190487d29585e3e04c9c905a",
+  "response_status": "completed",
+  "output_text": "{\"action\":\"answer\",\"expression\":\"\",\"queries\":[],\"pages\":[332],\"status\":\"answered\",\"answer\":\"The e-Estonia Council is chaired by Estonia’s prime minister and organized by the Strategy Unit of the Government Office. Estonia’s national data system centers on X-Road, an open-source data-exchange layer solution. X-Road’s cryptography protocols log entries into the system, giving individuals detailed insight into who is sharing their data and for what purposes, which the report says enhances transparency.\",\"citations\":[{\"page\":332,\"region_label\":\"Right-column paragraph on Estonia’s e-Estonia Council and X-Road\",\"bbox\":[0.56,0.22,0.92,0.53],\"quote\":\"The council is chaired by the prime minister and organized by the Strategy Unit of Government Office... Estonia’s national data system centers around X-Road, an open-source data exchange layer solution... X-Road’s cryptography protocols enhance transparency because they log entries into the system and give individuals detailed insights into who is sharing their data and for what purposes.\"}]}",
+  "elapsed_seconds": 8.10351819999778
+}

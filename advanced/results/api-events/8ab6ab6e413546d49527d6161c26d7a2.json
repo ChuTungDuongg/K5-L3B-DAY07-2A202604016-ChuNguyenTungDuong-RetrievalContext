@@ -1,0 +1,45 @@
+{
+  "id": "8ab6ab6e413546d49527d6161c26d7a2",
+  "label": "20261116-165446-r2-test-baseline-cbad637d:adv-r2-test-23:review0",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 12834,
+  "maximum_output_tokens": 3500,
+  "images": [
+    {
+      "page": 207,
+      "path": "advanced/data/pages/p207.jpg",
+      "sha256": "08f3d98390fa9a2c9cfd00c0066fca581a98a5df388a6e9e78def2afbfeb5723"
+    },
+    {
+      "page": 206,
+      "path": "advanced/data/pages/p206.jpg",
+      "sha256": "828f4f88e58748363cc2e59ea9f01263c2941fab1269951c522ec833eb2e64bd"
+    },
+    {
+      "page": 122,
+      "path": "advanced/data/pages/p122.jpg",
+      "sha256": "34b70114eef7c3aa4e56e34eea9b0296d6c5a54a5862f219380656b7398b83f7"
+    }
+  ],
+  "instructions_sha256": "0507604096aab315eb8e0306caca34acc2d0bedacd7d3b2ec25cc18ae985e348",
+  "usage": {
+    "input_tokens": 12834,
+    "input_tokens_details": {
+      "cache_write_tokens": 12831,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 12831
+      }
+    },
+    "output_tokens": 172,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 13006
+  },
+  "response_id": "resp_0c03db0ee032ce28016afad45ca16487d295ebea75d5d64812",
+  "response_status": "completed",
+  "output_text": "{\"action\":\"answer\",\"expression\":\"\",\"queries\":[],\"pages\":[207],\"status\":\"answered\",\"answer\":\"Equinix’s renewable-energy share increased from **less than one-third in 2014**—the report gives no more precise baseline—to **92 percent in 2018**. The report says this was associated with a **two-thirds reduction in GHG emissions**.\",\"citations\":[{\"page\":207,\"region_label\":\"Left-column paragraph on data infrastructure emissions, Equinix example (printed page 187)\",\"bbox\":[0.09,0.24,0.44,0.31],\"quote\":\"increased its share of renewable energy from less than one-third in 2014 to 92 percent in 2018, leading to a two-thirds reduction in GHG emissions.\"}]}",
+  "elapsed_seconds": 5.808995300001698
+}

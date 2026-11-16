@@ -1,0 +1,35 @@
+{
+  "id": "6f9a153a060d485ba3ebea23129b824a",
+  "label": "index:p069",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 3446,
+  "maximum_output_tokens": 6000,
+  "images": [
+    {
+      "page": 69,
+      "path": "advanced/data/pages/p069.jpg",
+      "sha256": "306ad0d175c26583e4f6a6296d0b1716bc0bcca2577866912716689df7305c8f"
+    }
+  ],
+  "instructions_sha256": "01d3a56b3c678b1acd37e506320a854b17dd9ddb13ece56a92b62990aeb80d41",
+  "usage": {
+    "input_tokens": 3446,
+    "input_tokens_details": {
+      "cache_write_tokens": 3443,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 3443
+      }
+    },
+    "output_tokens": 457,
+    "output_tokens_details": {
+      "reasoning_tokens": 152
+    },
+    "total_tokens": 3903
+  },
+  "response_id": "resp_0f8372688b7aed7b016afa9028b5d487d28a34b7cfb99410f5",
+  "response_status": "completed",
+  "output_text": "{\"regions\":[{\"label\":\"Figure S1.1.1 — A citizen-led method to ascertain who has authority in household decision-making in rural Indian villages\",\"kind\":\"table\",\"bbox\":[0.093,0.216,0.792,0.641],\"summary\":\"A screenshot-style matrix compares household decision-making authority across four decisions and two village groups. Larger family-member faces indicate greater authority; greener backgrounds indicate greater authority for women.\",\"details\":\"The visual has four decision rows and two comparison columns, with a question and illustrative icon at left. Row questions: (1) whether the respondent’s opinion is accepted regarding a child’s education and marriage; (2) who makes decisions regarding clothing; (3) who makes decisions regarding the number of children; and (4) who decides when to visit the respondent’s parents’ house. Each row shows family-member faces in both comparison columns, with varying relative face sizes and background shades. The column header text appears to read “H1 Agam…” and “H9 Manalath…”; the full names are not reliably legible. No numeric values or scale are shown. The printed note says face size represents relative authority over a decision and that backgrounds shade from dark gray toward dark green when women have more authority.\",\"limitations\":\"The screenshot is small and some village names, labels, and facial details are indistinct. The visual gives qualitative comparisons only; no exact measurements or legend scale are visible.\"}]}",
+  "elapsed_seconds": 7.650273200000811
+}

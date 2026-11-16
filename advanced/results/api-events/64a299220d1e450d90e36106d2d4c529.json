@@ -1,0 +1,45 @@
+{
+  "id": "64a299220d1e450d90e36106d2d4c529",
+  "label": "20261116-165446-r2-test-baseline-cbad637d:adv-r2-test-21:review0",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 12912,
+  "maximum_output_tokens": 3500,
+  "images": [
+    {
+      "page": 216,
+      "path": "advanced/data/pages/p216.jpg",
+      "sha256": "3fccd0fe7a59f8f753be22186d09c9f9aefab2fd56e0537fff43b829f3eadb81"
+    },
+    {
+      "page": 222,
+      "path": "advanced/data/pages/p222.jpg",
+      "sha256": "d647031c1aa01c1a9a955f83204d67c25fdd2baadaebe2c52094553e4fe72df4"
+    },
+    {
+      "page": 215,
+      "path": "advanced/data/pages/p215.jpg",
+      "sha256": "f16e1a988e4375dbd7b2a9766fe968067a39548feff1088eeb3861ed58690bf1"
+    }
+  ],
+  "instructions_sha256": "0507604096aab315eb8e0306caca34acc2d0bedacd7d3b2ec25cc18ae985e348",
+  "usage": {
+    "input_tokens": 12912,
+    "input_tokens_details": {
+      "cache_write_tokens": 12909,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 12909
+      }
+    },
+    "output_tokens": 229,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 13141
+  },
+  "response_id": "resp_0fe21f8b3add0021016afad43fd21c87d2a93446dc936d7ba1",
+  "response_status": "completed",
+  "output_text": "{\"action\":\"answer\",\"expression\":\"\",\"queries\":[],\"pages\":[216],\"status\":\"answered\",\"answer\":\"Good practice is for government exceptions to be transparent and objective; limited in scope and duration (for example, through sunset provisions); necessary and proportionate to their intended objectives; and consistent with international human rights law. Without these limitations, exceptions create additional opportunities for unchecked state surveillance or mission creep, undermining trust in data use.\",\"citations\":[{\"page\":216,\"region_label\":\"Right column, paragraph beginning “Where such government exceptions exist”\",\"bbox\":[0.566,0.086,0.917,0.356],\"quote\":\"Where such government exceptions exist, good practice calls for them to be transparent and objective. They should also be limited in scope and duration (such as through sunset provisions) to respect due process limitations. These exceptions must be “necessary and proportionate” to the intended objectives… Furthermore, exceptions should be consistent with international human rights law.… This lack of limitations creates additional opportunities for unchecked state surveillance or mission creep, thereby undermining trust in data use.\"}]}",
+  "elapsed_seconds": 6.7321944999930565
+}

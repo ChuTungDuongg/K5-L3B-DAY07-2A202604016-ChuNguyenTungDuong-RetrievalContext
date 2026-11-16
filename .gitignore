@@ -9,3 +9,10 @@ __pycache__/
 # Local datasets and generated output; share permitted artifacts deliberately
 starter/data/
 starter/results/
+
+# Advanced source/images are regenerated from the verified source manifest.
+advanced/data/source.pdf
+advanced/data/pages/
+advanced/data/crops/
+advanced/data/*.tmp
+advanced/results/*.lock

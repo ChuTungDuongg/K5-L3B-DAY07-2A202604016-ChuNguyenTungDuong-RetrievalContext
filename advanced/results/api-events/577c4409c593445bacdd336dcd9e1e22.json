@@ -1,0 +1,60 @@
+{
+  "id": "577c4409c593445bacdd336dcd9e1e22",
+  "label": "20261116-164337-r2-dev-baseline-8b5e219c:adv-dev-18:step1",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 25761,
+  "maximum_output_tokens": 3500,
+  "images": [
+    {
+      "page": 206,
+      "path": "advanced/data/pages/p206.jpg",
+      "sha256": "828f4f88e58748363cc2e59ea9f01263c2941fab1269951c522ec833eb2e64bd"
+    },
+    {
+      "page": 9,
+      "path": "advanced/data/pages/p009.jpg",
+      "sha256": "09a3224fa1c703c6ecfdc5fcb466b7f5409db80fb2f8d71bb2ca444975459220"
+    },
+    {
+      "page": 190,
+      "path": "advanced/data/pages/p190.jpg",
+      "sha256": "cc0da77a7b4db6426186c331bcff9c67701873e68f21c77692d10a6e79ea2463"
+    },
+    {
+      "page": 31,
+      "path": "advanced/data/pages/p031.jpg",
+      "sha256": "1468f7a6310238df8acb638bd4a9ceaee79032c345d0fd8b51b4339f55ba9445"
+    },
+    {
+      "page": 186,
+      "path": "advanced/data/pages/p186.jpg",
+      "sha256": "9a0233e560f2479f0df9dfa005111d5074bb9660a20c281a76fac9afb92c4c1b"
+    },
+    {
+      "page": 82,
+      "path": "advanced/data/pages/p082.jpg",
+      "sha256": "785a666cbc6e359b9c9e17ed8e4e28d1a27ace95d20d5af79fd4c5a2c31f4d27"
+    }
+  ],
+  "instructions_sha256": "7b27220272435c850770154f165a9b99ffc1a1c1848fec729da980d6adec6535",
+  "usage": {
+    "input_tokens": 25761,
+    "input_tokens_details": {
+      "cache_write_tokens": 25758,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 25758
+      }
+    },
+    "output_tokens": 76,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 25837
+  },
+  "response_id": "resp_06ce39cab9f1e1ef016afad1fa6f2c87d28641e539eecb406f",
+  "response_status": "completed",
+  "output_text": "{\"action\":\"answer\",\"expression\":\"\",\"queries\":[],\"pages\":[206],\"status\":\"abstain\",\"answer\":\"Insufficient evidence. The report gives global data-infrastructure electricity consumption for 2018 (231 terawatt-hours), but the retrieved evidence does not state how much was consumed specifically in low-income countries.\",\"citations\":[]}",
+  "elapsed_seconds": 10.041883700003382
+}

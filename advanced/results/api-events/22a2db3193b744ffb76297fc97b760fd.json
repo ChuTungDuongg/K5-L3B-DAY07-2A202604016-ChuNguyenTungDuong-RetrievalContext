@@ -1,0 +1,45 @@
+{
+  "id": "22a2db3193b744ffb76297fc97b760fd",
+  "label": "20261116-164337-r2-dev-baseline-8b5e219c:adv-dev-02:step0",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 14132,
+  "maximum_output_tokens": 3500,
+  "images": [
+    {
+      "page": 83,
+      "path": "advanced/data/pages/p083.jpg",
+      "sha256": "0749930b2ee94306a46e9b99a8aae816d4c1b1489ce076774495d76a21b49e98"
+    },
+    {
+      "page": 84,
+      "path": "advanced/data/pages/p084.jpg",
+      "sha256": "712f3663cdb1c27a6ca472c14d7f88e5b501aeeadb3fe78e14251c5f07a0c4a6"
+    },
+    {
+      "page": 224,
+      "path": "advanced/data/pages/p224.jpg",
+      "sha256": "4feecc6616ebff4702ec71bb86eea894863e82d037b90aab323c6655bd44b0f4"
+    }
+  ],
+  "instructions_sha256": "7b27220272435c850770154f165a9b99ffc1a1c1848fec729da980d6adec6535",
+  "usage": {
+    "input_tokens": 14132,
+    "input_tokens_details": {
+      "cache_write_tokens": 14129,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 14129
+      }
+    },
+    "output_tokens": 148,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 14280
+  },
+  "response_id": "resp_05ed599b60deb38d016afad0cb47ec87d2a634c7b37e4490ef",
+  "response_status": "completed",
+  "output_text": "{\"action\":\"answer\",\"expression\":\"44% - 11% = 33 percentage points\",\"queries\":[],\"pages\":[83],\"status\":\"answered\",\"answer\":\"Table 2.1 reports open terms of use/license for 11% of low-income countries’ published data and 44% of high-income countries’ published data. The gap is 33 percentage points.\",\"citations\":[{\"page\":83,\"region_label\":\"Table 2.1, Assessment of the openness of data, by country income group\",\"bbox\":[0.094,0.55,0.796,0.75],\"quote\":\"Open terms of use/license (%) 11 19 22 44\"}]}",
+  "elapsed_seconds": 5.367037299998628
+}

@@ -1,0 +1,45 @@
+{
+  "id": "1130e106d03d4ca38571a9fe34dc2808",
+  "label": "20261116-165446-r2-test-baseline-cbad637d:adv-r2-test-19:step0",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 12976,
+  "maximum_output_tokens": 3500,
+  "images": [
+    {
+      "page": 123,
+      "path": "advanced/data/pages/p123.jpg",
+      "sha256": "00721e65ff3c3156e9953e6632f0ede13fc688d10ec7d069537f7f5861cc27d8"
+    },
+    {
+      "page": 55,
+      "path": "advanced/data/pages/p055.jpg",
+      "sha256": "bc9ec56424a481e6354249432c51713eef6615c99b24c786468bc74a27ef7bc0"
+    },
+    {
+      "page": 28,
+      "path": "advanced/data/pages/p028.jpg",
+      "sha256": "57fa21abf0c96df7089952316a438fac92277418dac1d61fd1d32e2c2d9ed857"
+    }
+  ],
+  "instructions_sha256": "7b27220272435c850770154f165a9b99ffc1a1c1848fec729da980d6adec6535",
+  "usage": {
+    "input_tokens": 12976,
+    "input_tokens_details": {
+      "cache_write_tokens": 12973,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 12973
+      }
+    },
+    "output_tokens": 313,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 13289
+  },
+  "response_id": "resp_087c67f8755fda6e016afad4135f2887d29c933c14759145d6",
+  "response_status": "completed",
+  "output_text": "{\"action\":\"answer\",\"expression\":\"\",\"queries\":[],\"pages\":[123,28],\"status\":\"answered\",\"answer\":\"Alternative scoring uses digital footprints to identify and assess creditworthiness, enabling lenders to score and underwrite people who lack conventional documentation and helping address information gaps about borrowers. It can be discriminatory if biased assumptions are embedded in the data and amplified by machine learning; it can also use social connections as a proxy—for example, Lenddo reportedly rated borrowers as less creditworthy when they were Facebook friends with someone late repaying a loan.\",\"citations\":[{\"page\":123,\"region_label\":\"Finance — Alternative credit scoring algorithms and algorithmic discrimination paragraph\",\"bbox\":[0.09,0.24,0.81,0.77],\"quote\":\"Alternative credit scoring techniques ... take advantage of users’ digital footprints to train ML algorithms to identify, score, and underwrite credit for individuals who otherwise lack documentation of their creditworthiness. ... Lenddo ... has been known to rate consumers as less creditworthy if they are friends on Facebook with someone who was late paying back a loan.\"},{\"page\":28,\"region_label\":\"Private intent data can fuel growth and boost development — credit scoring and data bias discussion\",\"bbox\":[0.20,0.14,0.93,0.53],\"quote\":\"These techniques take advantage of users’ digital footprints to assess creditworthiness for those who otherwise lack documentation. ... if the data fed into the machine learning embed discriminatory assumptions, machine learning will amplify that discrimination.\"}]}",
+  "elapsed_seconds": 9.453042899993306
+}

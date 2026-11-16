@@ -1,0 +1,45 @@
+{
+  "id": "49e1b9cbb05d414ea62cf21c1cd79387",
+  "label": "20261116-164337-r2-dev-baseline-8b5e219c:adv-dev-04:step0",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 13108,
+  "maximum_output_tokens": 3500,
+  "images": [
+    {
+      "page": 50,
+      "path": "advanced/data/pages/p050.jpg",
+      "sha256": "9311a1fac1fd01eef5219db4ff2f688769f389e4640c3b1cef473f53df207e38"
+    },
+    {
+      "page": 288,
+      "path": "advanced/data/pages/p288.jpg",
+      "sha256": "02b1ef2c179df8156a7047bbf79127957423cfb021bf3f3faec9021a3f2215a6"
+    },
+    {
+      "page": 329,
+      "path": "advanced/data/pages/p329.jpg",
+      "sha256": "ca6c9eafdd3cc6ad0c4ca185644346089e4a024d87b453d323eb878a4ef09b0d"
+    }
+  ],
+  "instructions_sha256": "7b27220272435c850770154f165a9b99ffc1a1c1848fec729da980d6adec6535",
+  "usage": {
+    "input_tokens": 13108,
+    "input_tokens_details": {
+      "cache_write_tokens": 13105,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 13105
+      }
+    },
+    "output_tokens": 107,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 13215
+  },
+  "response_id": "resp_068cedb8b1d30afa016afad0e63b7887d28bc6fd6e9213e061",
+  "response_status": "completed",
+  "output_text": "{\"action\":\"answer\",\"expression\":\"\",\"queries\":[],\"pages\":[50],\"status\":\"answered\",\"answer\":\"Reuse sits at the center, connected to the surrounding stages. A separate branch leaves the cycle from Archive and preserve and leads to Destroy.\",\"citations\":[{\"page\":50,\"region_label\":\"Figure 1.2, The data life cycle\",\"bbox\":[0.206,0.541,0.859,0.923],\"quote\":\"Reuse; Archive and preserve; Destroy\"}]}",
+  "elapsed_seconds": 6.772223299994948
+}

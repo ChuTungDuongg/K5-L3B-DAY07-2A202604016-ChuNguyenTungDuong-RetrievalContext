@@ -1,0 +1,30 @@
+{
+  "checks": "passed",
+  "round": 2,
+  "rounds": [
+    {
+      "round": 1,
+      "exact_test_runs": 1,
+      "full_test_denominator": 30,
+      "test_run_id": "20261116-123301-test-baseline-45143179",
+      "test_passed": 26
+    },
+    {
+      "round": 2,
+      "exact_test_runs": 1,
+      "full_test_denominator": 30,
+      "test_run_id": "20261116-165446-r2-test-baseline-cbad637d",
+      "test_passed": 28
+    }
+  ],
+  "benchmark_before_dev": true,
+  "selection_before_test": true,
+  "exact_test_runs": 2,
+  "full_test_denominator": 30,
+  "source_pages": 350,
+  "image_hashes_checked": 350,
+  "indexed_chunks": 5493,
+  "recorded_estimated_usd": "0.738737925",
+  "unknown_reserved_usd": "0",
+  "semantic_review": "Source-image labels remain separate proposals; these checks do not prove answer correctness or bonus eligibility."
+}

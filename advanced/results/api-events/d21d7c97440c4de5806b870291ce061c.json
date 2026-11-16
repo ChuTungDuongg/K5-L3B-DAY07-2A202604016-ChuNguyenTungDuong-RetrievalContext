@@ -1,0 +1,35 @@
+{
+  "id": "d21d7c97440c4de5806b870291ce061c",
+  "label": "index:p335",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 4019,
+  "maximum_output_tokens": 6000,
+  "images": [
+    {
+      "page": 335,
+      "path": "advanced/data/pages/p335.jpg",
+      "sha256": "f7023775237686a4f02f9e4dd9c36e5d9e250bf82340be491a9d66efbe82f831"
+    }
+  ],
+  "instructions_sha256": "01d3a56b3c678b1acd37e506320a854b17dd9ddb13ece56a92b62990aeb80d41",
+  "usage": {
+    "input_tokens": 4019,
+    "input_tokens_details": {
+      "cache_write_tokens": 4016,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 4016
+      }
+    },
+    "output_tokens": 310,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 4329
+  },
+  "response_id": "resp_0b7779d8fcabbc86016afa90fe669c87d29e20f01f6b0de270",
+  "response_status": "completed",
+  "output_text": "{\"regions\":[{\"label\":\"Figure 9.5 — Steps to integrating academia into the national data system\",\"kind\":\"diagram\",\"bbox\":[0.094,0.611,0.796,0.943],\"summary\":\"Three overlapping, progressively layered panels list actions for integrating academia into the national data system: establishing fundamentals, initiating data flows, and optimizing the system.\",\"details\":\"The diagram has three overlapping rounded panels, arranged from largest/rearmost to smaller/frontmost. Establishing fundamentals (orange, left/rear): Infrastructure policies—ensure academics have adequate financial support and access to key ICT infrastructure; Data demand—promote awareness of participants’ datasets by building relationships among partners in academia and government. Initiating data flows (green, center): Data demand—set up data-sharing agreements, commission data production by academics, and support repurposing of academic data; Human capital—promote data literacy through quantitative degree programs, workshops, and secondments. Optimizing the system (blue, right/front): Infrastructure policies—institutionalize access to data through data portals and data enclaves; Data demand—support and adopt data innovations by academia; Incentives—support initiatives that provide legal access to scientific journals. Source: WDR 2021 team. Note: Categories overlap and are meant to be illustrative. ICT = information and communication technology.\",\"limitations\":\"The diagram explicitly says categories overlap and are illustrative; the panel overlap indicates stages but does not specify a strict sequence or directional arrows.\"}]}",
+  "elapsed_seconds": 5.215705100003106
+}

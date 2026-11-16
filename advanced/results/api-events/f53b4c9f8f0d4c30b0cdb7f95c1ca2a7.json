@@ -1,0 +1,45 @@
+{
+  "id": "f53b4c9f8f0d4c30b0cdb7f95c1ca2a7",
+  "label": "20261116-123301-test-baseline-45143179:adv-test-02:step0",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 13763,
+  "maximum_output_tokens": 3500,
+  "images": [
+    {
+      "page": 197,
+      "path": "advanced/data/pages/p197.jpg",
+      "sha256": "b0eb7685a3853d37cee8b4bc2099e18a7cbb3414191cac288fcadf76114d3474"
+    },
+    {
+      "page": 191,
+      "path": "advanced/data/pages/p191.jpg",
+      "sha256": "ce49f7275bd85355f834aa50ebcd60ca8bfc94510b411a581cd432d7dd52c7fc"
+    },
+    {
+      "page": 340,
+      "path": "advanced/data/pages/p340.jpg",
+      "sha256": "5ab508376a2b801f3118f2db06f8b02a93cabe51ffa6080195457c56a92706d1"
+    }
+  ],
+  "instructions_sha256": "7b27220272435c850770154f165a9b99ffc1a1c1848fec729da980d6adec6535",
+  "usage": {
+    "input_tokens": 13763,
+    "input_tokens_details": {
+      "cache_write_tokens": 13760,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 13760
+      }
+    },
+    "output_tokens": 174,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 13937
+  },
+  "response_id": "resp_0fee8fa15f9b8d6f016afa95aeef1c87d2a6a55b2e61fa4a78",
+  "response_status": "completed",
+  "output_text": "{\"action\":\"answer\",\"expression\":\"\",\"queries\":[],\"pages\":[197],\"status\":\"answered\",\"answer\":\"The three recommendations are: encourage creation of the first domestic IXP and facilitate participation by all relevant domestic players; allow additional IXPs to emerge and players to formalize and mature; and encourage arrangements to cache popular international internet content on local servers.\",\"citations\":[{\"page\":197,\"region_label\":\"Table 5.1, “Initiating data flows” row under “Connecting countries”\",\"bbox\":[0.093,0.636,0.916,0.894],\"quote\":\"Encourage creation of the first domestic IXP and facilitate participation by all relevant domestic players. Allow additional IXPs to emerge and players to formalize and mature. Encourage arrangements to cache popular international internet content on local servers.\"}]}",
+  "elapsed_seconds": 5.895833400005358
+}

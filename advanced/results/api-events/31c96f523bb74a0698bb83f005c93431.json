@@ -1,0 +1,45 @@
+{
+  "id": "31c96f523bb74a0698bb83f005c93431",
+  "label": "20261116-122648-dev-baseline-91fbfbb2:adv-dev-08:step0",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 13573,
+  "maximum_output_tokens": 3500,
+  "images": [
+    {
+      "page": 181,
+      "path": "advanced/data/pages/p181.jpg",
+      "sha256": "93056cafe09e4dc0dca6de4e6581ecd44bf9ec64e1cc1ef0ccf0a5d3e4548df2"
+    },
+    {
+      "page": 185,
+      "path": "advanced/data/pages/p185.jpg",
+      "sha256": "1836c9518727d198d99a2832e670cba05ec83fe1769ae6cdecb748e4f69c827a"
+    },
+    {
+      "page": 180,
+      "path": "advanced/data/pages/p180.jpg",
+      "sha256": "457fe2ec419e39ac37918cbf59a9104f0753f13a99109bd66fc3f8f544ae1790"
+    }
+  ],
+  "instructions_sha256": "7b27220272435c850770154f165a9b99ffc1a1c1848fec729da980d6adec6535",
+  "usage": {
+    "input_tokens": 13573,
+    "input_tokens_details": {
+      "cache_write_tokens": 13570,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 13570
+      }
+    },
+    "output_tokens": 199,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 13772
+  },
+  "response_id": "resp_0ddc7e6f3d9913c3016afa945563ac87d29327ce6617bd9578",
+  "response_status": "completed",
+  "output_text": "{\"action\":\"answer\",\"expression\":\"\",\"queries\":[],\"pages\":[181],\"status\":\"answered\",\"answer\":\"Globally, from 2015 to 2018, the connected share rose from 41% to 50% (+9 percentage points); the usage gap rose from 37% to 42% (+5 percentage points); and the coverage gap fell from 21% to 8% (−13 percentage points).\",\"citations\":[{\"page\":181,\"region_label\":\"Figure 5.3, panel a, “Globally over time, 2015–18” (full figure with axes, year labels, legend, and caption)\",\"bbox\":[0.093,0.088,0.917,0.454],\"quote\":\"2015: Connected 41, Usage gap 37, Coverage gap 21; 2018: Connected 50, Usage gap 42, Coverage gap 8.\"}]}",
+  "elapsed_seconds": 5.338739299993904
+}

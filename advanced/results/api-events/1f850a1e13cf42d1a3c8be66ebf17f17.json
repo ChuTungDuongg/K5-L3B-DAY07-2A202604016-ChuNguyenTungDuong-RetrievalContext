@@ -1,0 +1,45 @@
+{
+  "id": "1f850a1e13cf42d1a3c8be66ebf17f17",
+  "label": "20261116-164337-r2-dev-baseline-8b5e219c:adv-dev-04:review0",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 12757,
+  "maximum_output_tokens": 3500,
+  "images": [
+    {
+      "page": 50,
+      "path": "advanced/data/pages/p050.jpg",
+      "sha256": "9311a1fac1fd01eef5219db4ff2f688769f389e4640c3b1cef473f53df207e38"
+    },
+    {
+      "page": 288,
+      "path": "advanced/data/pages/p288.jpg",
+      "sha256": "02b1ef2c179df8156a7047bbf79127957423cfb021bf3f3faec9021a3f2215a6"
+    },
+    {
+      "page": 329,
+      "path": "advanced/data/pages/p329.jpg",
+      "sha256": "ca6c9eafdd3cc6ad0c4ca185644346089e4a024d87b453d323eb878a4ef09b0d"
+    }
+  ],
+  "instructions_sha256": "0507604096aab315eb8e0306caca34acc2d0bedacd7d3b2ec25cc18ae985e348",
+  "usage": {
+    "input_tokens": 12757,
+    "input_tokens_details": {
+      "cache_write_tokens": 12754,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 12754
+      }
+    },
+    "output_tokens": 159,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 12916
+  },
+  "response_id": "resp_034f7cf013037258016afad0ea9a7887d2a80be0b11f2e9a9e",
+  "response_status": "completed",
+  "output_text": "{\"action\":\"answer\",\"expression\":\"\",\"queries\":[],\"pages\":[50],\"status\":\"answered\",\"answer\":\"Reuse sits at the center and connects to the surrounding life-cycle stages. The branch from Archive and preserve leads out of the circular cycle to Destroy.\",\"citations\":[{\"page\":50,\"region_label\":\"Figure 1.2, central Reuse node and connectors\",\"bbox\":[0.414,0.689,0.865,0.829],\"quote\":\"Reuse, connected by lines to the surrounding stages\"},{\"page\":50,\"region_label\":\"Figure 1.2, Archive and preserve to Destroy branch\",\"bbox\":[0.25,0.631,0.457,0.752],\"quote\":\"Archive and preserve → Destroy\"}]}",
+  "elapsed_seconds": 5.065137199999299
+}

@@ -1,0 +1,35 @@
+{
+  "id": "b95d1a1d9504436592143a5bd0323586",
+  "label": "index:p248",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 3884,
+  "maximum_output_tokens": 6000,
+  "images": [
+    {
+      "page": 248,
+      "path": "advanced/data/pages/p248.jpg",
+      "sha256": "a08fb42b09860fd57b4d2ddf352eda7ee2b3e2c8f238feff3f50e759a599607e"
+    }
+  ],
+  "instructions_sha256": "01d3a56b3c678b1acd37e506320a854b17dd9ddb13ece56a92b62990aeb80d41",
+  "usage": {
+    "input_tokens": 3884,
+    "input_tokens_details": {
+      "cache_write_tokens": 3881,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 3881
+      }
+    },
+    "output_tokens": 606,
+    "output_tokens_details": {
+      "reasoning_tokens": 184
+    },
+    "total_tokens": 4490
+  },
+  "response_id": "resp_0e727d3e15914727016afa90c889bc87d2901310934bd3ae96",
+  "response_status": "completed",
+  "output_text": "{\"regions\":[{\"label\":\"Figure 7.1 — The unusual characteristics of data-driven businesses pose complex challenges for policy makers in the areas of competition, trade, and taxation\",\"kind\":\"diagram\",\"bbox\":[0.206,0.459,0.907,0.923],\"summary\":\"Conceptual flow diagram linking data-driven business characteristics to competition between firms and trade between countries, and then to competition, tax, and trade policy responses.\",\"details\":\"At the top, “Data as a factor of production” sits above three green characteristic boxes: “Propensity for market dominance,” “Scale without mass,” and “Intangibility of transactions.” Green connector arrows link these characteristics to the orange outcome boxes “Competition between firms” (left) and “Trade between countries” (right). Between the orange boxes are two opposing horizontal arrows: competition to trade, “Entry of new firms and competition dynamics drive ability to export”; trade to competition, “Trade in digital services can drive competition in importing countries.” Below are three purple policy panels, each connected by vertical arrows to the relevant outcome area: “Competition policy” lists “Adapt antitrust rules to challenges posed by data-driven businesses”; “Adopt pro-competition data remedies subject to safeguards for innovation”; “Ensure that traditional regulations promote competition and consumer choice.” “Tax policy” lists “Create a level playing field between digital and analog businesses”; “Adapt indirect tax administration to platform businesses”; “Adapt direct tax rules to account for intangible value drivers.” “Trade policy” lists “Establish regulatory framework for cross-border data flows”; “Balance individual rights, implementation costs, and business opportunities”; “Adopt international (trade) agreements for data.” The vertical policy connectors include downward orange arrows and upward purple arrows. Source: WDR 2021 team.\",\"limitations\":\"The diagram’s connectors from the three characteristic boxes to the two outcome boxes cross and branch; exact assignment of each crossing connector is not fully unambiguous from the graphic. Arrow directions and the two labeled horizontal relationships are visible.\"}]}",
+  "elapsed_seconds": 9.426641799997014
+}

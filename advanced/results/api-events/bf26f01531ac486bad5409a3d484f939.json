@@ -1,0 +1,60 @@
+{
+  "id": "bf26f01531ac486bad5409a3d484f939",
+  "label": "20261116-123301-test-baseline-45143179:adv-test-28:step1",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 26863,
+  "maximum_output_tokens": 3500,
+  "images": [
+    {
+      "page": 194,
+      "path": "advanced/data/pages/p194.jpg",
+      "sha256": "11522ebf841b73357c03324198a19cca777227e562ea03b64960a51b374324ba"
+    },
+    {
+      "page": 221,
+      "path": "advanced/data/pages/p221.jpg",
+      "sha256": "c89cb4e3f952c80546ef37bc90f4eddcff08f400ec2f6efab8b0f3df2ffd2a77"
+    },
+    {
+      "page": 215,
+      "path": "advanced/data/pages/p215.jpg",
+      "sha256": "f16e1a988e4375dbd7b2a9766fe968067a39548feff1088eeb3861ed58690bf1"
+    },
+    {
+      "page": 81,
+      "path": "advanced/data/pages/p081.jpg",
+      "sha256": "285c5506bcc0ab3dc8618fb949ee4bc75aec43f8d719184df8267ff47a6c09bc"
+    },
+    {
+      "page": 103,
+      "path": "advanced/data/pages/p103.jpg",
+      "sha256": "83c87cf47771eacc636e08ae637aeba0cb4646955624e8b25e45d935020a1042"
+    },
+    {
+      "page": 108,
+      "path": "advanced/data/pages/p108.jpg",
+      "sha256": "9ac2662c06c7e96571b075d43afc4a886cd19a9e2b3513c2ba1ee63d7edbbd47"
+    }
+  ],
+  "instructions_sha256": "7b27220272435c850770154f165a9b99ffc1a1c1848fec729da980d6adec6535",
+  "usage": {
+    "input_tokens": 26863,
+    "input_tokens_details": {
+      "cache_write_tokens": 26860,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 26860
+      }
+    },
+    "output_tokens": 144,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 27007
+  },
+  "response_id": "resp_0a3617dd6e23798b016afa967c7ab087d281e7e9303f49c9ac",
+  "response_status": "completed",
+  "output_text": "{\"action\":\"search\",\"expression\":\"Find WDR 2021 data for percentage of women and men without government-recognized proof of identity, by country income group, in 2020.\",\"queries\":[\"World Development Report 2021 women men lack government-recognized proof of identity 2020 income groups percentage\",\"WDR 2021 identity proof of identity gender income group 2020 figure\",\"World Bank ID4D identity ownership women men country income group 2020 WDR 2021\"],\"pages\":[],\"status\":\"abstain\",\"answer\":\"Insufficient evidence in the retrieved pages to determine the percentages by income group and sex.\",\"citations\":[]}",
+  "elapsed_seconds": 7.841167899998254
+}

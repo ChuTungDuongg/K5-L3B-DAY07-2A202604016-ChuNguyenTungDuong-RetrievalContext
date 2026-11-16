@@ -1,0 +1,35 @@
+{
+  "id": "602500f451ee4753b998d0a642221763",
+  "label": "index:p024",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 3853,
+  "maximum_output_tokens": 6000,
+  "images": [
+    {
+      "page": 24,
+      "path": "advanced/data/pages/p024.jpg",
+      "sha256": "f899ff817b2bfa278622647fc79b6b22f19482e59c25048e7d6e154188baa5ac"
+    }
+  ],
+  "instructions_sha256": "01d3a56b3c678b1acd37e506320a854b17dd9ddb13ece56a92b62990aeb80d41",
+  "usage": {
+    "input_tokens": 3853,
+    "input_tokens_details": {
+      "cache_write_tokens": 3850,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 3850
+      }
+    },
+    "output_tokens": 521,
+    "output_tokens_details": {
+      "reasoning_tokens": 126
+    },
+    "total_tokens": 4374
+  },
+  "response_id": "resp_0c13d6090fdcb06d016afa8ffac48c87d2b21833214c9d19b5",
+  "response_status": "completed",
+  "output_text": "{\"regions\":[{\"label\":\"Figure O.1 — How data can support development: A theory of change\",\"kind\":\"diagram\",\"bbox\":[0.205,0.087,0.854,0.501],\"summary\":\"A theory-of-change diagram links data production and collection, data analytics and processing across three groups, and development. Reuse connects the groups; the diagram contrasts potential positive impacts (green) with negative impacts (red).\",\"details\":\"The diagram is arranged left to right. At left is a circle labeled “Data production and collection.” In the central shaded column, headed “Data analytics and processing,” three boxes are stacked: “Individuals / Civil society / Academia,” “Government / International organizations,” and “Private sector.” Two-way vertical arrows labeled “Reuse” connect the top and middle boxes and the middle and bottom boxes. Dotted side routes with arrowheads also connect the top and bottom groups. Gray arrows link data production and collection with the central groups: the upper route is labeled “Greater transparency,” the horizontal two-way link “More data on individuals,” and the lower route “Production process in firms.” Routes from the central groups lead to the right-hand circle labeled “Development.” The top route is labeled in green “Greater accountability” and in red “Criminal activity, dark net”; the middle route in green “Better policy making and service delivery” and in red “Political surveillance”; the bottom route in green “Increased business opportunities” and in red “Market concentration / Widening inequality / Discrimination.” Source: WDR 2021 team. Note: “Positive impacts are shown in green; negative impacts are shown in red.”\",\"limitations\":\"Arrow routes are visible, but some line intersections and arrowheads are small; no numerical data are shown. The upper and lower routes include bends, so their precise connections are interpreted from the visible arrowheads and labels.\"}]}",
+  "elapsed_seconds": 10.473801300002378
+}

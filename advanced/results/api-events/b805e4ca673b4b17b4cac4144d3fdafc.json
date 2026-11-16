@@ -1,0 +1,35 @@
+{
+  "id": "b805e4ca673b4b17b4cac4144d3fdafc",
+  "label": "index:p211",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 4050,
+  "maximum_output_tokens": 6000,
+  "images": [
+    {
+      "page": 211,
+      "path": "advanced/data/pages/p211.jpg",
+      "sha256": "73e488d74a78131b4bba4d1b94152a1a7a306b460f708b2a24a6debef6e2d48e"
+    }
+  ],
+  "instructions_sha256": "01d3a56b3c678b1acd37e506320a854b17dd9ddb13ece56a92b62990aeb80d41",
+  "usage": {
+    "input_tokens": 4050,
+    "input_tokens_details": {
+      "cache_write_tokens": 4047,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 4047
+      }
+    },
+    "output_tokens": 213,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 4263
+  },
+  "response_id": "resp_0825441badb1820b016afa90afc2d887d295eb6a73f9f3fa45",
+  "response_status": "completed",
+  "output_text": "{\"regions\":[{\"label\":\"Figure 6.1 — Envisioning the multidimensional nature of the legal framework for trust\",\"kind\":\"diagram\",\"bbox\":[0.456,0.086,0.887,0.507],\"summary\":\"Three intersecting dimensions show how types of data, types of actors, and types of transactions combine within a multidimensional legal framework for trust.\",\"details\":\"A gray circular field contains three intersecting, colored oval planes. Purple denotes types of data, with endpoints labeled Personal and Nonpersonal. Orange denotes types of actors, with endpoints Public and Private. Blue denotes types of transactions, with endpoints Cross-border and Domestic. The planes overlap through the center to depict the dimensions interacting; no numeric values or directional flow are shown. Legend beneath the diagram maps purple to Types of data, orange to Types of actors, and blue to Types of transactions. Source: WDR 2021 team.\",\"limitations\":\"Conceptual diagram; intersections are not labeled and have no quantitative scale.\"}]}",
+  "elapsed_seconds": 5.297100199997658
+}

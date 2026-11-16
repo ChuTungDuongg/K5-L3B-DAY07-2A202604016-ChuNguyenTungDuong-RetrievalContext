@@ -1,0 +1,612 @@
+[
+  {
+    "id": "adv-dev-01",
+    "split": "dev",
+    "group": "table",
+    "question": "In Table 1.1, how are satellite-imaging location data and just-in-time individual behavior data from private digital platforms classified by original intent and collection method?",
+    "answerable": true,
+    "expected_answer": "Satellite-imaging location data are public intent data collected using new methods. Just-in-time individual behavior or choice data from private digital platforms are private intent data collected using new methods.",
+    "reason": "Cần đối chiếu đúng cả hàng phương pháp thu thập mới và hai cột mục đích ban đầu; chỉ gọi chung là dữ liệu số chưa đủ.",
+    "evidence": [
+      {
+        "page": 48,
+        "printed_page": "28",
+        "region_label": "Table 1.1",
+        "bbox": [
+          0.204,
+          0.087,
+          0.908,
+          0.287
+        ],
+        "quote": "New; Public intent data: Location data from satellite imaging; Private intent data: Just-in-time digital data on individual behavior/choices from digital platforms in the private sector.",
+        "facts": [
+          "Satellite-imaging location data: new/public intent.",
+          "Private-platform just-in-time behavior or choice data: new/private intent."
+        ],
+        "units": "not applicable"
+      }
+    ]
+  },
+  {
+    "id": "adv-dev-02",
+    "split": "dev",
+    "group": "table",
+    "question": "According to Table 2.1, what are the open terms of use/license percentages for low-income and high-income countries, and what is the gap between them?",
+    "answerable": true,
+    "expected_answer": "Low-income: 11%; high-income: 44%. The high-income figure exceeds the low-income figure by 33 percentage points (44 - 11). These are averages of published-data percentages by country income group.",
+    "reason": "Phải chọn hàng điều khoản sử dụng/giấy phép, giữ đúng đơn vị phần trăm và tính chênh lệch bằng điểm phần trăm.",
+    "evidence": [
+      {
+        "page": 83,
+        "printed_page": "63",
+        "region_label": "Table 2.1",
+        "bbox": [
+          0.091,
+          0.55,
+          0.796,
+          0.751
+        ],
+        "quote": "Open terms of use/license (%): 11, 19, 22, 44. All other indicators are the percentage of published data averaged by country income group.",
+        "facts": [
+          "Low-income open terms/license=11%.",
+          "High-income open terms/license=44%.",
+          "44 - 11 = 33 percentage points."
+        ],
+        "units": "percent of published data averaged by country income group; percentage-point difference"
+      }
+    ]
+  },
+  {
+    "id": "adv-dev-03",
+    "split": "dev",
+    "group": "table",
+    "question": "In the Global row of Table 6.1, compare the scores for e-commerce and e-transactions and private intent data. What is the score difference, and which maturity level does each score represent?",
+    "answerable": true,
+    "expected_answer": "E-commerce and e-transactions score 73, a moderate level (50-75); private intent data score 17, a basic level (below 25). The difference is 56 score points (73 - 17).",
+    "reason": "Cần đọc hàng toàn cầu cùng hai cột và chú thích mức trưởng thành; không được diễn giải điểm như tỷ lệ quốc gia.",
+    "evidence": [
+      {
+        "page": 227,
+        "printed_page": "207",
+        "region_label": "Table 6.1",
+        "bbox": [
+          0.091,
+          0.086,
+          0.92,
+          0.35
+        ],
+        "quote": "Global: 56, 44, 38, 73, 50, 17. Moderate level (scores of 50-75); basic level (scores below 25).",
+        "facts": [
+          "Global e-commerce/e-transactions=73, moderate.",
+          "Global private intent data=17, basic.",
+          "73 - 17 = 56 score points."
+        ],
+        "units": "average good-practice governance scores on a 0-100 scale; score points"
+      }
+    ]
+  },
+  {
+    "id": "adv-dev-04",
+    "split": "dev",
+    "group": "image",
+    "question": "In the data life-cycle diagram (Figure 1.2), which stage sits at the center and connects to the surrounding stages, and which branch leaves the circular cycle for an end state?",
+    "answerable": true,
+    "expected_answer": "Reuse sits at the center and connects to the surrounding life-cycle stages. The branch from Archive and preserve goes to Destroy, outside the circular cycle.",
+    "reason": "Đáp án phụ thuộc vị trí trung tâm và nhánh mũi tên của sơ đồ, không thể lấy riêng từ tiêu đề hình.",
+    "evidence": [
+      {
+        "page": 50,
+        "printed_page": "30",
+        "region_label": "Figure 1.2",
+        "bbox": [
+          0.205,
+          0.538,
+          0.909,
+          0.926
+        ],
+        "quote": "Reuse; Archive and preserve; Destroy.",
+        "facts": [
+          "Reuse is the central node connected to surrounding stages.",
+          "An arrow leads from Archive and preserve to Destroy, outside the cycle."
+        ],
+        "units": "not applicable"
+      }
+    ]
+  },
+  {
+    "id": "adv-dev-05",
+    "split": "dev",
+    "group": "image",
+    "question": "Using Figure 5.1, what is the purpose of the middle-mile network, and how do its typical distances compare with those of the last-mile network?",
+    "answerable": true,
+    "expected_answer": "The middle mile connects bigger cities and routes data to service centers, typically over 10-1,000 km. The last mile distributes internet from the middle mile to individual homes and businesses, typically over less than 1-5 km.",
+    "reason": "Cần kết nối đúng hai cột của sơ đồ với hàng mục đích và khoảng cách; khoảng cách phải giữ cách ghi của nguồn.",
+    "evidence": [
+      {
+        "page": 178,
+        "printed_page": "158",
+        "region_label": "Figure 5.1",
+        "bbox": [
+          0.084,
+          0.402,
+          0.891,
+          0.912
+        ],
+        "quote": "Middle-mile network (distribution): Connecting bigger cities together and routing data to the service centers; 10-1,000 km. Last mile (access): <1-5 km.",
+        "facts": [
+          "Middle mile connects bigger cities and routes data to service centers.",
+          "Middle-mile typical distances=10-1,000 km.",
+          "Last mile connects individual homes/businesses; typical distances=<1-5 km."
+        ],
+        "units": "kilometers (typical distances; diagram ranges)"
+      }
+    ]
+  },
+  {
+    "id": "adv-dev-06",
+    "split": "dev",
+    "group": "image",
+    "question": "How should Figure 9.2 be read from the inner ring outward, and what does a mixture of darker and lighter segments for the same participant mean?",
+    "answerable": true,
+    "expected_answer": "Read outward as Establishing fundamentals, Initiating data flows, and Optimizing the system. Darker segments show steps accomplished; lighter segments show steps not accomplished. A participant can therefore be at different maturity stages at the same time, and participants can be integrated to different degrees.",
+    "reason": "Phải đọc thứ tự ba vòng và ý nghĩa tô đậm/nhạt; không được suy ra một mức trưởng thành duy nhất cho toàn hệ thống.",
+    "evidence": [
+      {
+        "page": 329,
+        "printed_page": "309",
+        "region_label": "Figure 9.2",
+        "bbox": [
+          0.454,
+          0.479,
+          0.914,
+          0.938
+        ],
+        "quote": "Optimizing the system; Initiating data flows; Establishing fundamentals. Darker colors indicate steps accomplished; lighter colors indicate steps not accomplished.",
+        "facts": [
+          "Inner ring: Establishing fundamentals.",
+          "Middle ring: Initiating data flows.",
+          "Outer ring: Optimizing the system.",
+          "Dark=accomplished, light=not accomplished; maturity may differ across domains and participants."
+        ],
+        "units": "not applicable"
+      }
+    ]
+  },
+  {
+    "id": "adv-dev-07",
+    "split": "dev",
+    "group": "chart",
+    "question": "In Figure 1.1, how did the share of the world population enumerated in a census change between 1960 and 1970? State both percentages and the percentage-point change, and distinguish that share from the shaded population series.",
+    "answerable": true,
+    "expected_answer": "The enumerated share fell from 94% in 1960 to 71% in 1970, a decrease of 23 percentage points. The shaded area represents total world population in billions and rises over that interval; it is a different series from the enumerated share.",
+    "reason": "Cần đọc nhãn hai cột theo thập niên và phân biệt tỷ trọng được điều tra với tổng dân số trên trục tung.",
+    "evidence": [
+      {
+        "page": 46,
+        "printed_page": "26",
+        "region_label": "Figure 1.1",
+        "bbox": [
+          0.116,
+          0.086,
+          0.91,
+          0.47
+        ],
+        "quote": "1960: 94%; 1970: 71%. World population (billions). The shaded area represents the world’s population; the bars indicate the percentage of the population that was enumerated each decade.",
+        "facts": [
+          "1960 enumeration=94%.",
+          "1970 enumeration=71%.",
+          "71 - 94 = -23 percentage points.",
+          "Shaded total population in billions increases."
+        ],
+        "units": "percent enumerated; percentage points; shaded world population in billions"
+      }
+    ]
+  },
+  {
+    "id": "adv-dev-08",
+    "split": "dev",
+    "group": "chart",
+    "question": "Read panel a of Figure 5.3. Between 2015 and 2018, how did the connected share, usage gap, and coverage gap change globally? Give the start and end percentages and changes in percentage points.",
+    "answerable": true,
+    "expected_answer": "Connected: 41% to 50%, up 9 percentage points. Usage gap: 37% to 42%, up 5 percentage points. Coverage gap: 21% to 8%, down 13 percentage points. Values are the rounded labels in the chart.",
+    "reason": "Cần giải mã đúng ba màu của chú giải, đọc đúng panel toàn cầu và tính ba chênh lệch; không nhầm usage gap với coverage gap.",
+    "evidence": [
+      {
+        "page": 181,
+        "printed_page": "161",
+        "region_label": "Figure 5.3 panel a and legend",
+        "bbox": [
+          0.091,
+          0.086,
+          0.502,
+          0.444
+        ],
+        "quote": "2015: Connected 41, Usage gap 37, Coverage gap 21. 2018: Connected 50, Usage gap 42, Coverage gap 8.",
+        "facts": [
+          "Connected 41 -> 50, +9 pp.",
+          "Usage gap 37 -> 42, +5 pp.",
+          "Coverage gap 21 -> 8, -13 pp."
+        ],
+        "units": "share of population (%); percentage points; rounded chart labels"
+      },
+      {
+        "page": 181,
+        "printed_page": "161",
+        "region_label": "Figure 5.3 shared legend",
+        "bbox": [
+          0.365,
+          0.415,
+          0.641,
+          0.433
+        ],
+        "quote": "Connected; Usage gap; Coverage gap.",
+        "facts": [
+          "Orange=Connected; green=Usage gap; blue=Coverage gap."
+        ],
+        "units": "percent"
+      }
+    ]
+  },
+  {
+    "id": "adv-dev-09",
+    "split": "dev",
+    "group": "chart",
+    "question": "In Figure 6.5, which country income group has the highest adoption of technological neutrality of electronic communications? Is that same group highest for legal recognition of electronic signatures?",
+    "answerable": true,
+    "expected_answer": "Lower-middle-income countries have the highest adoption of technological neutrality of electronic communications. No: high-income countries have the highest adoption of legal recognition of electronic signatures.",
+    "reason": "Cần so sánh hai trục khác nhau của biểu đồ radar và dùng màu để nhận đúng nhóm thu nhập; tiêu đề hình không chứa đáp án.",
+    "evidence": [
+      {
+        "page": 220,
+        "printed_page": "200",
+        "region_label": "Figure 6.5",
+        "bbox": [
+          0.084,
+          0.086,
+          0.541,
+          0.471
+        ],
+        "quote": "Technological neutrality of electronic communications; Legal recognition of electronic signatures; High-income; Lower-middle-income.",
+        "facts": [
+          "Lower-middle-income (orange) is highest on technological neutrality.",
+          "High-income (blue) is highest on legal recognition of electronic signatures."
+        ],
+        "units": "percentage of countries adopting good-practice legal/regulatory frameworks as of 2020; rank comparison"
+      }
+    ]
+  },
+  {
+    "id": "adv-dev-10",
+    "split": "dev",
+    "group": "multihop",
+    "question": "Combine the discussion on printed pages 30-31: why can data be used repeatedly without becoming a pure public good, and why might collection be underfunded from society’s perspective?",
+    "answerable": true,
+    "expected_answer": "Data are nonrival: repeated use for different purposes does not deplete them. They are nevertheless excludable because the holder can prevent others from accessing them. Collection can be socially underfunded because the entity paying for collection may not capture the full value, including potentially valuable secondary uses.",
+    "reason": "Cần kết hợp định nghĩa không cạn kiệt ở một trang với tính loại trừ và động cơ đầu tư ở trang kế tiếp.",
+    "evidence": [
+      {
+        "page": 50,
+        "printed_page": "30",
+        "region_label": "Text paragraph: The economics of data",
+        "bbox": [
+          0.566,
+          0.368,
+          0.912,
+          0.513
+        ],
+        "quote": "Data are inexhaustible or “nonrival” ... can be used repeatedly by firms and governments for different purposes without depleting them.",
+        "facts": [
+          "Repeated use does not deplete data."
+        ],
+        "units": "not applicable"
+      },
+      {
+        "page": 51,
+        "printed_page": "31",
+        "region_label": "Text paragraphs: underinvestment and excludability",
+        "bbox": [
+          0.09,
+          0.387,
+          0.437,
+          0.861
+        ],
+        "quote": "The entities bearing the cost of data collection will not necessarily be the ones capturing its full economic value. Data are not a pure public good because they are excludable.",
+        "facts": [
+          "Collectors may not capture the full social value of secondary uses.",
+          "Data holders can exclude others from access."
+        ],
+        "units": "not applicable"
+      }
+    ]
+  },
+  {
+    "id": "adv-dev-11",
+    "split": "dev",
+    "group": "multihop",
+    "question": "Why can a local IXP and locally stored content make an educational video cheaper and faster to access, yet still be difficult to establish? Relate the infrastructure example to the KIXP experience.",
+    "answerable": true,
+    "expected_answer": "A local content replica accessed through a local IXP avoids routing the video overseas and back, reducing international-carrier charges and improving speed. Establishing an IXP also requires competing ISPs to agree on neutral location, operation, and management. KIXP in Kenya opened in 2000 but an incumbent’s legal challenge forced its immediate closure; it reopened only after a year of appeals and lobbying.",
+    "reason": "Cần ghép lợi ích kỹ thuật của lưu lượng nội địa với trở ngại phối hợp và ví dụ pháp lý ở trang khác.",
+    "evidence": [
+      {
+        "page": 188,
+        "printed_page": "168",
+        "region_label": "Text paragraph: educational video and local IXP",
+        "bbox": [
+          0.565,
+          0.086,
+          0.91,
+          0.271
+        ],
+        "quote": "This same operation would be much faster and cheaper if a replica of this content were stored at a local colocation data center that could be accessed via a local IXP.",
+        "facts": [
+          "Overseas routing incurs international-carrier charges and harms service quality.",
+          "Local replica plus local IXP is faster and cheaper."
+        ],
+        "units": "not applicable"
+      },
+      {
+        "page": 338,
+        "printed_page": "318",
+        "region_label": "Text paragraph: Installation of IXPs",
+        "bbox": [
+          0.204,
+          0.555,
+          0.548,
+          0.763
+        ],
+        "quote": "ISPs ... must agree on IXP location, mode of operation, and management structure—all of which should be neutral ... KIXP ... 2000 ... immediate closure ... after a year of appeals and persistent lobbying ... reopen.",
+        "facts": [
+          "Competing providers must agree on neutral location, operation and management.",
+          "KIXP opened in 2000, closed following an incumbent legal challenge, reopened after a year of appeals/lobbying."
+        ],
+        "units": "not applicable"
+      }
+    ]
+  },
+  {
+    "id": "adv-dev-12",
+    "split": "dev",
+    "group": "multihop",
+    "question": "In the Nairobi road-safety study, how were crowdsourced crash reports checked, what was the validation rate, and what new field information was being collected at 200 crash black spots to refine policy?",
+    "answerable": true,
+    "expected_answer": "For a subset of new reports, a motorcycle delivery company was dispatched within minutes; 92% were confirmed at the stated location or nearby. Researchers were also surveying infrastructure and videotaping and coding road-user behavior at 200 crash black spots to develop hypotheses for better policy responses.",
+    "reason": "Cần dùng một trang cho phương pháp kiểm chứng và tỷ lệ, trang tiếp theo cho dữ liệu thực địa mới; không coi 92% là mức giảm tai nạn.",
+    "evidence": [
+      {
+        "page": 172,
+        "printed_page": "152",
+        "region_label": "Text paragraph: validation of crowdsourced reports",
+        "bbox": [
+          0.565,
+          0.563,
+          0.913,
+          0.671
+        ],
+        "quote": "The team dispatched a motorcycle delivery company ... In 92 percent of cases, a crash was verified to have occurred in the stated location or nearby.",
+        "facts": [
+          "Motorcycle delivery company checked a subset within minutes.",
+          "Validation rate=92% at location or nearby."
+        ],
+        "units": "percent of checked reports"
+      },
+      {
+        "page": 173,
+        "printed_page": "153",
+        "region_label": "Text paragraph below Map S4.2.1",
+        "bbox": [
+          0.091,
+          0.52,
+          0.438,
+          0.66
+        ],
+        "quote": "Surveying the infrastructure and videotaping and coding the behavior of road users in 200 crash black spots ... generate hypotheses to optimize the policy response.",
+        "facts": [
+          "Infrastructure surveys and videotaped/coded behavior at 200 crash black spots."
+        ],
+        "units": "200 crash black spots"
+      }
+    ]
+  },
+  {
+    "id": "adv-dev-13",
+    "split": "dev",
+    "group": "text",
+    "question": "In Brazil’s COVID-19 survey described in Box 1.2, why did fieldworkers ask both about symptoms and about work or travel outside the home while waiting for serology results?",
+    "answerable": true,
+    "expected_answer": "Symptom questions enabled estimates of asymptomatic infection. Sociodemographic questions about work and travel outside the home helped measure adherence to social-distancing guidelines; serology detected the body’s antibody response to infection.",
+    "reason": "Cần nêu hai mục đích riêng của hai loại câu hỏi, đặt đúng trong quy trình xét nghiệm huyết thanh học.",
+    "evidence": [
+      {
+        "page": 49,
+        "printed_page": "29",
+        "region_label": "Box 1.2 left-column method paragraph",
+        "bbox": [
+          0.113,
+          0.162,
+          0.438,
+          0.493
+        ],
+        "quote": "Asking questions about symptoms enabled the research team to estimate rates of asymptomatic infection. Sociodemographic questions, especially those about work and travel outside the home, enabled ... measure ... adhered to social distancing guidelines.",
+        "facts": [
+          "Symptom questions estimate asymptomatic infection.",
+          "Work/travel questions assess adherence to distancing.",
+          "Serology detects antibody response rather than the virus itself."
+        ],
+        "units": "not applicable"
+      }
+    ]
+  },
+  {
+    "id": "adv-dev-14",
+    "split": "dev",
+    "group": "text",
+    "question": "Why did electricity use for data infrastructure grow much less than data traffic from 2015 to 2018? Give the two growth rates and two concrete efficiency changes cited in Spotlight 5.2.",
+    "answerable": true,
+    "expected_answer": "Data traffic grew 100%, while associated electricity use grew 16%. Efficiency gains included a shift from smaller to more efficient larger data centers and modernization of networks, for example fiber-optic cable being 85% more energy efficient than vintage copper wires (successive wireless generations also conserve energy).",
+    "reason": "Cần giữ đúng giai đoạn và hai tốc độ tăng khác nhau, đồng thời nêu cơ chế hiệu quả thay vì suy ra điện năng không tăng.",
+    "evidence": [
+      {
+        "page": 206,
+        "printed_page": "186",
+        "region_label": "Spotlight 5.2 text above Figure S5.2.1",
+        "bbox": [
+          0.204,
+          0.395,
+          0.91,
+          0.535
+        ],
+        "quote": "Data traffic grew 100 percent from 2015 to 2018 ... electricity consumption rose just 16 percent ... shift from smaller data centers to more efficient larger ones ... Fiber-optic cable is 85 percent more energy efficient than vintage copper wires.",
+        "facts": [
+          "Traffic growth=100%; electricity growth=16%, 2015-18.",
+          "Shift to larger more efficient data centers.",
+          "Network modernization, including fiber versus vintage copper."
+        ],
+        "units": "percent growth in 2015-18; fiber energy efficiency comparison=85%"
+      }
+    ]
+  },
+  {
+    "id": "adv-dev-15",
+    "split": "dev",
+    "group": "text",
+    "question": "Why does Spotlight 6.2 argue that treating personal data as property could worsen inequality, and how does its proposed rights-based approach preserve individual control?",
+    "answerable": true,
+    "expected_answer": "Property treatment could encourage poor or vulnerable people to sell their data, worsening inequities. A rights-based approach gives individuals fundamental, immutable rights over their data, enabling them to negotiate its use; those rights cannot be bargained away like property.",
+    "reason": "Cần nêu rủi ro cụ thể đối với người dễ tổn thương và tính không thể từ bỏ bằng giao dịch của quyền cơ bản.",
+    "evidence": [
+      {
+        "page": 244,
+        "printed_page": "224",
+        "region_label": "Spotlight 6.2 right-column paragraph",
+        "bbox": [
+          0.566,
+          0.519,
+          0.913,
+          0.694
+        ],
+        "quote": "“Owning” personal data might incentivize poor and more vulnerable people to sell their personal data, exacerbating existing inequities ... These immutable rights ... cannot be bargained away like chattel.",
+        "facts": [
+          "Poor/vulnerable people may be encouraged to sell personal data.",
+          "Fundamental rights allow control/negotiation and cannot be traded away."
+        ],
+        "units": "not applicable"
+      }
+    ]
+  },
+  {
+    "id": "adv-dev-16",
+    "split": "dev",
+    "group": "unanswerable",
+    "question": "For the baseline Brazilian COVID-19 serology survey’s 90 cities with at least 200 respondents, what were the separate male and female seroprevalence rates?",
+    "answerable": false,
+    "expected_answer": "Insufficient evidence",
+    "reason": "Báo cáo nêu mức chung của 90 thành phố và phân hóa theo vùng/dân tộc, nhưng không cung cấp cặp tỷ lệ nam-nữ cho cùng mẫu và cùng vòng khảo sát; phần giới khác không lấp được điều kiện này.",
+    "evidence": [
+      {
+        "page": 49,
+        "printed_page": "29",
+        "region_label": "Box 1.2: reported seroprevalence results",
+        "bbox": [
+          0.093,
+          0.165,
+          0.796,
+          0.798
+        ],
+        "quote": "For the 90 cities with a sample size of 200 or greater ... 1.4 percent in the baseline survey ... highest among indigenous populations (3.7 percent in the baseline survey).",
+        "facts": [
+          "The nearest evidence reports aggregate, regional and ethnic results, not sex-specific rates for the requested sample."
+        ],
+        "units": "requested male/female seroprevalence percentages are missing"
+      }
+    ],
+    "absence_check": {
+      "terms": [
+        "brazil",
+        "seroprevalence",
+        "serology",
+        "sex-disaggregated",
+        "asymptomatic"
+      ],
+      "method": "Scanned normalized PDFium native text from all 350 physical pages (NFKC/lowercase, dehyphenation, whitespace normalization) for every listed term and inspected context for the requested joint condition. Reviewed the relevant source-page images at physical pages 49, 81. Search-hit page lists are preserved in absence_search_audit.json; a keyword hit alone was not treated as an answer.",
+      "reason": "Báo cáo nêu mức chung của 90 thành phố và phân hóa theo vùng/dân tộc, nhưng không cung cấp cặp tỷ lệ nam-nữ cho cùng mẫu và cùng vòng khảo sát; phần giới khác không lấp được điều kiện này."
+    }
+  },
+  {
+    "id": "adv-dev-17",
+    "split": "dev",
+    "group": "unanswerable",
+    "question": "What itemized capital budget and recurring annual operating cost does the report prescribe for establishing a first domestic IXP in a low-income country?",
+    "answerable": false,
+    "expected_answer": "Insufficient evidence",
+    "reason": "Báo cáo đưa định hướng về IXP và mô tả việc xây dựng tương đối đơn giản, ít tốn kém, nhưng không có ngân sách đầu tư theo hạng mục hay chi phí vận hành năm cho điều kiện được hỏi.",
+    "evidence": [
+      {
+        "page": 338,
+        "printed_page": "318",
+        "region_label": "Text paragraph: Installation of IXPs",
+        "bbox": [
+          0.204,
+          0.374,
+          0.549,
+          0.806
+        ],
+        "quote": "At the technical level, building an IXP is relatively simple and inexpensive, but establishing and maintaining ... trust and collaboration ... can be a challenge.",
+        "facts": [
+          "Qualitative feasibility and coordination discussion, without an itemized capex/annual-opex prescription."
+        ],
+        "units": "requested currency costs per IXP and per year are missing"
+      }
+    ],
+    "absence_check": {
+      "terms": [
+        "ixp",
+        "exchange point",
+        "operating cost",
+        "capital cost",
+        "one million"
+      ],
+      "method": "Scanned normalized PDFium native text from all 350 physical pages (NFKC/lowercase, dehyphenation, whitespace normalization) for every listed term and inspected context for the requested joint condition. Reviewed the relevant source-page images at physical pages 178, 188, 197, 338. Search-hit page lists are preserved in absence_search_audit.json; a keyword hit alone was not treated as an answer.",
+      "reason": "Báo cáo đưa định hướng về IXP và mô tả việc xây dựng tương đối đơn giản, ít tốn kém, nhưng không có ngân sách đầu tư theo hạng mục hay chi phí vận hành năm cho điều kiện được hỏi."
+    }
+  },
+  {
+    "id": "adv-dev-18",
+    "split": "dev",
+    "group": "unanswerable",
+    "question": "Of the 231 terawatt-hours used globally by data infrastructure in 2018, how many terawatt-hours were consumed specifically in low-income countries?",
+    "answerable": false,
+    "expected_answer": "Insufficient evidence",
+    "reason": "Nguồn chỉ cho tổng toàn cầu và phương pháp lấy báo cáo doanh nghiệp, không phân bổ 231 TWh theo nhóm thu nhập quốc gia; không thể thay tỷ lệ kết nối hay tiêu thụ dữ liệu bằng tỷ lệ điện năng.",
+    "evidence": [
+      {
+        "page": 206,
+        "printed_page": "186",
+        "region_label": "Spotlight 5.2 text and Figure S5.2.1 source",
+        "bbox": [
+          0.204,
+          0.394,
+          0.911,
+          0.91
+        ],
+        "quote": "Electricity consumption for data infrastructure amounted to 1 percent of the global total in 2018 (231 terawatt-hours). Source ... annual reports from 49 companies in 26 countries.",
+        "facts": [
+          "231 TWh is a global figure.",
+          "No low-income-country electricity allocation is supplied."
+        ],
+        "units": "requested low-income-country TWh allocation is missing"
+      }
+    ],
+    "absence_check": {
+      "terms": [
+        "231",
+        "terawatt",
+        "carbon footprint",
+        "low-income",
+        "electricity consumption"
+      ],
+      "method": "Scanned normalized PDFium native text from all 350 physical pages (NFKC/lowercase, dehyphenation, whitespace normalization) for every listed term and inspected context for the requested joint condition. Reviewed the relevant source-page images at physical pages 206, 207. Search-hit page lists are preserved in absence_search_audit.json; a keyword hit alone was not treated as an answer.",
+      "reason": "Nguồn chỉ cho tổng toàn cầu và phương pháp lấy báo cáo doanh nghiệp, không phân bổ 231 TWh theo nhóm thu nhập quốc gia; không thể thay tỷ lệ kết nối hay tiêu thụ dữ liệu bằng tỷ lệ điện năng."
+    }
+  }
+]

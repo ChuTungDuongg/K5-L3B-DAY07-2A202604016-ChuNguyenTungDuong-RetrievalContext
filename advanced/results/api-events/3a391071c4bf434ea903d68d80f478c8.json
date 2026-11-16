@@ -1,0 +1,45 @@
+{
+  "id": "3a391071c4bf434ea903d68d80f478c8",
+  "label": "20261116-165446-r2-test-baseline-cbad637d:adv-r2-test-06:review0",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 13514,
+  "maximum_output_tokens": 3500,
+  "images": [
+    {
+      "page": 83,
+      "path": "advanced/data/pages/p083.jpg",
+      "sha256": "0749930b2ee94306a46e9b99a8aae816d4c1b1489ce076774495d76a21b49e98"
+    },
+    {
+      "page": 84,
+      "path": "advanced/data/pages/p084.jpg",
+      "sha256": "712f3663cdb1c27a6ca472c14d7f88e5b501aeeadb3fe78e14251c5f07a0c4a6"
+    },
+    {
+      "page": 82,
+      "path": "advanced/data/pages/p082.jpg",
+      "sha256": "785a666cbc6e359b9c9e17ed8e4e28d1a27ace95d20d5af79fd4c5a2c31f4d27"
+    }
+  ],
+  "instructions_sha256": "0507604096aab315eb8e0306caca34acc2d0bedacd7d3b2ec25cc18ae985e348",
+  "usage": {
+    "input_tokens": 13514,
+    "input_tokens_details": {
+      "cache_write_tokens": 13511,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 13511
+      }
+    },
+    "output_tokens": 270,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 13784
+  },
+  "response_id": "resp_0a80e76b743649f1016afad36792dc87d2aebc54ba37492ef4",
+  "response_status": "completed",
+  "output_text": "{\"action\":\"answer\",\"expression\":\"75% - 37% = 38 percentage points\",\"queries\":[],\"pages\":[83],\"status\":\"answered\",\"answer\":\"For low-income countries, 37% of published data are available in machine-readable format, compared with 75% in nonproprietary format. The nonproprietary-minus-machine-readable gap is 38 percentage points. The table note specifies that these indicators are percentages of published data, averaged by country income group.\",\"citations\":[{\"page\":83,\"region_label\":\"Table 2.1, low-income column and machine-readable-format row\",\"bbox\":[0.094,0.571,0.796,0.751],\"quote\":\"Available in machine readable format (%) 37\"},{\"page\":83,\"region_label\":\"Table 2.1, low-income column and nonproprietary-format row\",\"bbox\":[0.094,0.571,0.796,0.751],\"quote\":\"Available in nonproprietary format (%) 75\"},{\"page\":83,\"region_label\":\"Table 2.1, note beneath the table\",\"bbox\":[0.094,0.731,0.796,0.751],\"quote\":\"All other indicators are the percentage of published data averaged by country income group.\"}]}",
+  "elapsed_seconds": 8.743927599993185
+}

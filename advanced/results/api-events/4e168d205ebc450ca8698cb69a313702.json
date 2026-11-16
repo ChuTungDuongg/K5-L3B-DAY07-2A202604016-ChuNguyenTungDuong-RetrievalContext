@@ -1,0 +1,45 @@
+{
+  "id": "4e168d205ebc450ca8698cb69a313702",
+  "label": "20261116-164337-r2-dev-baseline-8b5e219c:adv-dev-03:step0",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 14111,
+  "maximum_output_tokens": 3500,
+  "images": [
+    {
+      "page": 227,
+      "path": "advanced/data/pages/p227.jpg",
+      "sha256": "df18635d2ce807bb90a9feb16a147b04477be27460055770965f38dbbb63930a"
+    },
+    {
+      "page": 162,
+      "path": "advanced/data/pages/p162.jpg",
+      "sha256": "3c87eb79f59a0c83019e94b33de2758ae869eec16a9e7ea359fc6bc3f51ab34e"
+    },
+    {
+      "page": 220,
+      "path": "advanced/data/pages/p220.jpg",
+      "sha256": "f2b831a6844fece3e541c24a0b9c86e8f3173a5cce1b781e73828acc83c5f653"
+    }
+  ],
+  "instructions_sha256": "7b27220272435c850770154f165a9b99ffc1a1c1848fec729da980d6adec6535",
+  "usage": {
+    "input_tokens": 14111,
+    "input_tokens_details": {
+      "cache_write_tokens": 14108,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 14108
+      }
+    },
+    "output_tokens": 162,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 14273
+  },
+  "response_id": "resp_0611a75b97128c6a016afad0d794c087d29782cd0799615970",
+  "response_status": "completed",
+  "output_text": "{\"action\":\"answer\",\"expression\":\"73 - 17 = 56 points\",\"queries\":[],\"pages\":[227],\"status\":\"answered\",\"answer\":\"In the Global row, e-commerce and e-transactions scores 73 (moderate level), while private intent data scores 17 (basic level). The difference is 56 points.\",\"citations\":[{\"page\":227,\"region_label\":\"Table 6.1, including Global row, column headings, and level key\",\"bbox\":[0.093,0.087,0.916,0.348],\"quote\":\"Global: e-commerce and e-transactions 73; private intent data 17. The key classifies scores of 50–75 as moderate and scores below 25 as basic.\"}]}",
+  "elapsed_seconds": 6.08842580000055
+}

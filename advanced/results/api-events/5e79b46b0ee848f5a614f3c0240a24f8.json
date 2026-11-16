@@ -1,0 +1,35 @@
+{
+  "id": "5e79b46b0ee848f5a614f3c0240a24f8",
+  "label": "index:p046",
+  "model": "gpt-6-luna",
+  "counted_input_tokens": 3993,
+  "maximum_output_tokens": 6000,
+  "images": [
+    {
+      "page": 46,
+      "path": "advanced/data/pages/p046.jpg",
+      "sha256": "85494debf929cafbaf918dad93eacec82ce69eb740e634c95e6403b55ce842b4"
+    }
+  ],
+  "instructions_sha256": "01d3a56b3c678b1acd37e506320a854b17dd9ddb13ece56a92b62990aeb80d41",
+  "usage": {
+    "input_tokens": 3993,
+    "input_tokens_details": {
+      "cache_write_tokens": 3990,
+      "cached_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 3990
+      }
+    },
+    "output_tokens": 382,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 4375
+  },
+  "response_id": "resp_0a08d8013437e026016afa901260e087d29967600fff9f3ce1",
+  "response_status": "completed",
+  "output_text": "{\"regions\":[{\"label\":\"Figure 1.1\",\"kind\":\"chart\",\"bbox\":[0.116,0.085,0.907,0.469],\"summary\":\"World population enumerated in censuses rose from 11% in 1850 to 90% in 2010, alongside growth in total world population.\",\"details\":\"Title: “The share of people counted in a census grew from about 1 in 10 in 1850 to 9 in 10 today.” Horizontal axis: decades 1850–2010. Vertical axis: World population (billions), 0–8. The shaded area represents world population, increasing from about 1.2 billion in 1850 to about 7.7 billion in 2010; green bars show the percentage enumerated each decade. Percentages printed above/in bars: 1850 11%, 1860 14%, 1870 17%, 1880 21%, 1890 38%, 1900 51%, 1910 44%, 1920 46%, 1930 58%, 1940 58%, 1950 82%, 1960 94%, 1970 71%, 1980 92%, 1990 92%, 2000 88%, 2010 90%. Source: Whitby 2020; data link printed as http://bit.do/WDR2021-Fig-1_1. Note: bars indicate the share enumerated each decade; shaded area indicates world population. Values for population are read approximately from the plotted area, not individually labeled.\",\"limitations\":\"Population-area values are not labeled numerically at each decade; approximate readings only. The chart’s “today” wording refers to its latest plotted year, 2010.\"}]}",
+  "elapsed_seconds": 6.021924499997112
+}
